@@ -1,0 +1,10 @@
+[ftp:pitland_swit@pitland.beget.tech]
+Directory=
+Host=pitland.beget.tech
+LoginMode=2
+Options_ftp="TS:658ad5aa "
+PasswordPlain=1092-zWolf
+Port=21
+Protocol=ftp
+Username=pitland_swit
+

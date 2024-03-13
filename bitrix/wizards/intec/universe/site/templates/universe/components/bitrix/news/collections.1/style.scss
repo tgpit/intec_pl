@@ -1,0 +1,8 @@
+$namespace: 'bitrix';
+$component: 'news';
+$template: 'collections-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+
+}

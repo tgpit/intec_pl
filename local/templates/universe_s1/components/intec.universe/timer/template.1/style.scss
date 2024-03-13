@@ -1,0 +1,50 @@
+$component: 'timer';
+$template: 'template-1';
+$class: 'widget-timer';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  width: 100%;
+
+  [data-status='false'] {
+    display: none;
+  }
+
+  .widget-error {
+    color: red;
+  }
+  .#{$class}-date-end {
+    display: none;
+  }
+  .widget-content {
+    display: inline-block;
+    background: #FBCD56;
+    border-radius: 2px;
+    padding: 6px 8px;
+  }
+  .#{$class}-item {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #404040;
+    &[data-role='hours'] {
+      min-width: 15px;
+      max-width: 22px;
+    }
+    &[data-role='minutes'] {
+      min-width: 15px;
+      max-width: 18px;
+    }
+    &[data-role='seconds'] {
+      width: 19px;
+    }
+    &-description {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      color: #808080;
+      margin-right: 8px;
+    }
+  }
+}
+

@@ -1,0 +1,153 @@
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-link-list {
+  margin-bottom: 25px;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-link-list a {
+  text-decoration: none;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block {
+  margin-bottom: 40px;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-title {
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 26px;
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-properties {
+  padding: 40px 30px 45px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property {
+  margin-bottom: 30px;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property:last-child {
+  margin-bottom: 0;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property-label {
+  width: 100%;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property-title {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: normal;
+  color: #808080;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property-title .property-required {
+  color: #ff0000;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property .location-block-wrapper {
+  margin-bottom: 6px;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property .bx-sls .dropdown-block {
+  border: none;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 0;
+  position: relative;
+  background-color: transparent;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property .bx-sls .dropdown-block .dropdown-icon {
+  top: 16px;
+  z-index: 50;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property .bx-sls .dropdown-block .bx-ui-sls-container {
+  height: 46px;
+  background: #FBFCFD !important;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property .bx-sls .dropdown-block .bx-ui-sls-container input {
+  width: 100% !important;
+  height: auto !important;
+  padding: 13px 30px !important;
+  background: none !important;
+  border: 1px solid #F2F2F2 !important;
+  border-radius: 2px !important;
+  font-size: 14px !important;
+  line-height: 1;
+  font-weight: normal;
+  font-family: inherit !important;
+  color: #404040 !important;
+  outline: none !important;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property .bx-sls .dropdown-block .dropdown-fade2white {
+  top: 8px;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property .bx-sls .dropdown-block .bx-ui-sls-loader {
+  top: 8px;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property .bx-sls .dropdown-block .bx-ui-sls-clear {
+  margin-top: 8px !important;
+  z-index: 50;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property-input {
+  width: 100%;
+  padding: 13px 15px;
+  background: #FBFCFD;
+  border: 1px solid #F2F2F2;
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: normal;
+  color: #404040;
+  outline: none;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property-input:disabled {
+  color: #a4a4a4;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property-input option {
+  padding: 3px;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: normal;
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property .sale-personal-profile-detail-form-file {
+  margin-bottom: 13px;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property .sale-personal-profile-detail-input-file-hidden {
+  display: none !important;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property-input.property-input-text-multiple {
+  margin-bottom: 8px;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-property select {
+  width: 100%;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-file-choose-wrap {
+  margin-top: 5px;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block textarea {
+  resize: vertical;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-button-right {
+  margin-left: auto;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-button {
+  padding: 20px 50px;
+  font-size: 10px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .bx-ui-sls-fake {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+@media all and (max-width: 700px) {
+  .ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-button-right {
+    margin-left: 0;
+  }
+}
+@media all and (max-width: 450px) {
+  .ns-bitrix.c-sale-personal-profile-detail.c-sale-personal-profile-detail-default .sale-personal-profile-detail-block .sale-personal-profile-detail-properties {
+    padding: 20px 15px 25px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

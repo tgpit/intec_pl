@@ -1,0 +1,104 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'categories';
+$template: 'template-19';
+$item: 'widget-item';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+  padding: 55px 0;
+  .widget-items{
+    position:relative;
+  }
+  .#{$item}-wrapper{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    @include transition(0.4s, box-shadow);
+    overflow: hidden;
+    z-index: 1;
+    &:hover{
+      .#{$item}-name{
+        color: inherit;
+        @include transition(0.3s, all);
+      }
+    }
+  }
+  .#{$item}-picture{
+    position: relative;
+    padding-top: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    @include border-radius(50%);
+  }
+  .#{$item}-name-wrap, .#{$item}-sticker-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+    margin: 10px;
+  }
+  .#{$item}-name-wrap{
+    z-index: 3;
+  }
+  .#{$item}-name{
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #B0B0B0;
+    width: 200px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    @include transition(0.3s, all);
+  }
+  .#{$item}-sticker-wrap{
+    z-index: 2;
+  }
+  .#{$item}-sticker{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #FFF;
+    padding: 10px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    @include border-radius(5px);
+  }
+  .#{$item}-preview-text{
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #808080;
+  }
+  .#{$item}-content{
+    margin-left: 24px;
+  }
+  @media screen and (max-width:1024px){
+    #{$item}:last-child{
+      margin-top: 15px;
+    }
+  }
+  @media screen and (max-width:768px){
+    .#{$item}-wrapper > .intec-grid{
+      justify-content: center;
+    }
+    .#{$item}-preview-text{
+      width: 180px;
+    }
+    .#{$item}{
+      margin-top: 50px;
+    }
+  }
+  @media screen and (max-width:500px){
+    .#{$item}{
+      margin-top: 24px;
+    }
+  }
+}

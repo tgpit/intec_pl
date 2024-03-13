@@ -1,0 +1,198 @@
+@import '../../../../sources/styles/include.scss';
+
+$component: 'videos';
+$template: 'template-2';
+$viewport: 'widget-viewport';
+$item: 'widget-item';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$viewport}-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 55%;
+    overflow: hidden;
+    @include border-radius(13px);
+  }
+  .#{$viewport}-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .widget-items-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 425px;
+    margin-left: 20px;
+  }
+  .widget-items {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    &.scroll-wrapper {
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        left: 0;
+        right: 0;
+        height: 15px;
+        z-index: 1;
+      }
+      &:before {
+        top: 0;
+        background-image: linear-gradient(to bottom, #FFF 0%, rgba(255, 255, 255, 0) 100%);
+      }
+      &:after {
+        bottom: 0;
+        background-image: linear-gradient(to top, #FFF 0%, rgba(255, 255, 255, 0) 100%);
+      }
+    }
+    .scroll-bar {
+      @include transition(0.4s, background-color);
+    }
+  }
+  .#{$item} {
+    margin: 15px;
+    cursor: pointer;
+    @include border-radius(10px);
+  }
+  .#{$item}-picture {
+    font-size: 0;
+    text-align: center;
+    width: 125px;
+    height: 70px;
+    margin-right: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    user-select: none;
+    @include border-radius(5px);
+    @include transition(0.4s, box-shadow);
+
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 0;
+      height: 100%;
+      vertical-align: middle;
+    }
+  }
+  .#{$item}:hover .#{$item}-picture,
+  [data-active='true'] .#{$item}-picture {
+    -webkit-box-shadow: 0 4px 15px 0 rgba(36, 38, 42, 0.35);
+    -moz-box-shadow: 0 4px 15px 0 rgba(36, 38, 42, 0.35);
+    box-shadow: 0 4px 15px 0 rgba(36, 38, 42, 0.35);
+  }
+  .widget-video-button-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 0;
+    text-align: center;
+    width: 31px;
+    height: 31px;
+    cursor: pointer;
+    @include transform-translate(-50%, -50%);
+
+    svg {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      max-width: 31px;
+      max-height: 31px;
+      @include transition(0.4s, all)
+    }
+  }
+  .#{$item}:hover {
+    svg {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+  .#{$item}-name {
+    font-size: 15px;
+    line-height: 24px;
+    word-break: break-all;
+    @include transition(0.4s, color);
+  }
+  .widget-footer-button {
+    color: #2d2d2d !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #fff !important;
+    }
+  }
+  .widget-header {
+    overflow: hidden;
+  }
+  .widget-all-container {
+    display: none;
+  }
+  .widget-all-button {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #808080;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    i {
+      display: none;
+      font-size: 18px;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    .widget-items-wrap {
+      margin-top: 35px;
+      margin-left: 0;
+      height: 250px;
+      max-width: none;
+    }
+  }
+
+  @media all and (max-width: 550px) {
+    .#{$item} {
+      margin: 0;
+    }
+    .#{$item}-wrapper {
+      padding: 15px;
+    }
+    .widget-all-container {
+      display: block;
+    }
+    .widget-title.align-center.widget-title-margin {
+      margin-left: 25px;
+    }
+    .widget-all-container.mobile {
+      text-align: right;
+      width: 25px;
+      max-height: 36px;
+    }
+    .widget-all-container i {
+      display: inline-block;
+    }
+    .widget-footer.mobile,
+    .widget-footer-button.mobile{
+      display: none;
+    }
+    .widget-all-container {
+      width: 25px;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.ns-intec-seo.c-filter-tags.c-filter-tags-default {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.ns-intec-seo.c-filter-tags.c-filter-tags-default .filter-tags-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: -3px;
+}
+.ns-intec-seo.c-filter-tags.c-filter-tags-default .filter-tags-item {
+  position: relative;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+  padding: 3px;
+}
+.ns-intec-seo.c-filter-tags.c-filter-tags-default .filter-tags-item[data-active=true] .filter-tags-item-name {
+  background-color: #e8e8e8;
+}
+.ns-intec-seo.c-filter-tags.c-filter-tags-default .filter-tags-item-name {
+  display: block;
+  padding: 4px 12px;
+  border-radius: 3px;
+  background-color: #f8f8f8;
+  color: #606060;
+  text-decoration: none;
+  -webkit-transition: background-color 350ms;
+  -moz-transition: background-color 350ms;
+  -ms-transition: background-color 350ms;
+  -o-transition: background-color 350ms;
+  transition: background-color 350ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ns-intec-seo.c-filter-tags.c-filter-tags-default .filter-tags-item-name:hover {
+  background-color: #e8e8e8;
+}
+
+/*# sourceMappingURL=style.css.map */

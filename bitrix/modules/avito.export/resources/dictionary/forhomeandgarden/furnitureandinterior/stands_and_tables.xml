@@ -1,0 +1,15 @@
+<StandsAndTables>
+	<GoodsSubType name="Тумбы">
+		<CabinetType name="Тумбы"></CabinetType>
+		<CabinetType name="Тумбы под телевизор"></CabinetType>
+		<CabinetType name="Прикроватные тумбы"></CabinetType>
+		<CabinetType name="Тумбы для ванной"></CabinetType>
+		<CabinetType name="Обувницы"></CabinetType>
+	</GoodsSubType>
+	<GoodsSubType name="Подставки и полки">
+		<RackType name="Полки"></RackType>
+		<RackType name="Подставки для растений"></RackType>
+		<RackType name="Другие подставки"></RackType>
+	</GoodsSubType>
+	<GoodsSubType name="Другое"></GoodsSubType>
+</StandsAndTables>

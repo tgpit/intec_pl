@@ -1,0 +1,121 @@
+@keyframes c-main-pagenavigation-lazy-1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 .pagenavigation-button {
+  padding: 14px;
+  border: 1px solid;
+  overflow: hidden;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-property: background-color, border-color;
+  -moz-transition-property: background-color, border-color;
+  -ms-transition-property: background-color, border-color;
+  -o-transition-property: background-color, border-color;
+  transition-property: background-color, border-color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 .pagenavigation-button-content {
+  font-size: 0;
+  text-align: center;
+  margin: -4px;
+}
+.ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 .pagenavigation-button-part {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 4px;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 .pagenavigation-button-icon svg {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  max-width: 18px;
+  max-height: 18px;
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
+  -ms-transition-property: transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 .pagenavigation-button-name {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+}
+.ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 [data-state=active] {
+  background-color: #FFF;
+  border-color: #F2F2F2;
+  cursor: pointer;
+}
+.ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 [data-state=active]:hover {
+  background-color: #FBFCFD;
+  border-color: #FBFCFD;
+}
+.ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 [data-state=active]:hover .pagenavigation-button-icon svg {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 [data-state=disabled], .ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 [data-state=processing] {
+  background-color: #FBFCFD;
+  border-color: #FBFCFD;
+  cursor: not-allowed;
+}
+.ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 [data-state=disabled] .pagenavigation-button-part {
+  opacity: 0.5;
+}
+.ns-bitrix.c-main-pagenavigation.c-main-pagenavigation-lazy-1 [data-state=processing] .pagenavigation-button-icon svg {
+  -webkit-animation-name: c-main-pagenavigation-lazy-1;
+  -moz-animation-name: c-main-pagenavigation-lazy-1;
+  -o-animation-name: c-main-pagenavigation-lazy-1;
+  animation-name: c-main-pagenavigation-lazy-1;
+  -webkit-animation-duration: 0.8s;
+  -moz-animation-duration: 0.8s;
+  -o-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+/*# sourceMappingURL=style.css.map */

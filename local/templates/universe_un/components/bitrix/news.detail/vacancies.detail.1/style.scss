@@ -1,0 +1,84 @@
+$namespace: 'bitrix';
+$component: 'news-detail';
+$template: 'vacancies-detail-1';
+$detail: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$detail}-image {
+    padding-top: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .#{$detail}-info {
+    background: #FBFCFD;
+    border: 1px solid #F2F2F2;
+    padding: 30px 15px 15px 15px;
+  }
+  .#{$detail}-info-element {
+    margin: 0 15px 15px 15px;
+  }
+  .#{$detail}-info-element-name {
+    font-size: 14px;
+    color: #B0B0B0;
+  }
+  .#{$detail}-info-element-value {
+    font-size: 14px;
+    color: #404040;
+    margin-top: 4px;
+    width: 165px;
+    line-height: 1.43;
+    max-height: 40px;
+    overflow: hidden;
+  }
+  .#{$detail}-description {
+    margin-top: 40px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  .#{$detail}-send-summary-wrap {
+    margin-top: 45px;
+  }
+  .#{$detail}-send-summary {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .#{$detail}-hr {
+    background: #F2F2F2;
+    width: 100%;
+    height: 1px;
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+  .#{$detail}-back {
+    margin-top: 40px;
+    &:hover &-text,
+    &-icon,
+    &:active &-text,
+    &-icon {
+      color: inherit;
+      text-decoration: none;
+    }
+    &-text {
+      color: #808080;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 500;
+      margin-left: 15px;
+    }
+    &-icon {
+      margin-top: -2px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .#{$detail}-image {
+      padding-top: 60%;
+    }
+  }
+}

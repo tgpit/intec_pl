@@ -1,0 +1,127 @@
+$component: 'news';
+$template: 'template-11';
+$item: 'widget-item';
+$tag: #{$item}-tags-item;
+
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin user-select ($select) {
+  -webkit-user-select: $select;
+  -moz-user-select: $select;
+  -ms-user-select: $select;
+  user-select: $select;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$item}-wrapper {
+    border: 1px solid #F2F2F2;
+    height: 100%;
+    overflow: hidden;
+
+    @include border-radius(2px);
+  }
+
+  .#{$item}-picture {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 120%;
+
+    img {
+      display: none;
+    }
+  }
+
+  .#{$item}-picture-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(27, 30, 37, 0.6) 0%, rgba(27, 30, 37, 0.7) 100%), url(image.png);
+  }
+
+  .#{$item}-information {
+    padding: 40px 32px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .#{$item}-name {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .#{$item}-date {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+  }
+
+  .#{$item}-tags {
+    position: absolute;
+    top: 40px;
+    left: 32px;
+    right: 32px;
+  }
+  .#{$tag}-wrapper {
+    display: block;
+    margin: 0;
+
+    input {
+      display: none;
+    }
+    span {
+      display: block;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: 3px;
+      white-space: nowrap;
+      @include border-radius(2px);
+      @include user-select(none);
+      @include transition(#{color, background-color}, 0.4s);
+    }
+    input:enabled + span {
+      cursor: pointer;
+    }
+    input:disabled + span {
+      cursor: default;
+    }
+    input:checked + span,
+    input:enabled + span:hover {
+      color: #FFF!important;
+    }
+  }
+
+  [data-role='form'] {
+    display: none;
+  }
+}

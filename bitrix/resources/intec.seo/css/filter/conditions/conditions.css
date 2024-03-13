@@ -1,0 +1,136 @@
+.m-intec-seo.p-filter-conditions {
+  display: block;
+  padding: 15px;
+  background: #fdfefe;
+  border: 1px solid #caced7;
+  border-radius: 4px;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item {
+  display: block;
+  position: relative;
+  padding: 15px 15px 15px 70px;
+  margin-top: 10px;
+  background: #edf5f6;
+  border: 1px solid #c9cdd6;
+  border-radius: 4px;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item:first-child {
+  margin-top: 0;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item[data-type=section], .m-intec-seo.p-filter-conditions .filter-conditions-item[data-type=property], .m-intec-seo.p-filter-conditions .filter-conditions-item[data-type=price] {
+  padding: 10px;
+  background: #edf5f6;
+  border: 1px solid #d8d8d8;
+  background-color: #f7f9fa;
+  background-image: -webkit-linear-gradient(top, #fafbfc, #f8f9fa);
+  background-image: -o-linear-gradient(top, #fafbfc, #f8f9fa);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafbfc), to(#f8f9fa));
+  background-image: linear-gradient(top, #fafbfc, #f8f9fa);
+  box-shadow: inset 0 1px 0 #eceded;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item-operator {
+  position: absolute;
+  top: -22px;
+  left: -65px;
+  bottom: auto;
+  right: auto;
+  color: #fff;
+  background: #696969;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 30px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item-operator[data-operator=and] {
+  background: #9cbd6d;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item-operator[data-operator=or] {
+  background: #88abc2;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item-conditions + *,
+.m-intec-seo.p-filter-conditions .filter-conditions-item-items + *,
+.m-intec-seo.p-filter-conditions .filter-conditions-item-content + * {
+  margin-top: 10px;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item-conditions {
+  display: block;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item-items {
+  display: block;
+  padding: 10px;
+  background: #fdfefe;
+  border: 1px solid #caced7;
+  border-radius: 4px;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -5px;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+  -webkit-box-pack: start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item-field {
+  position: relative;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+  padding: 5px;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item-name {
+  display: block;
+  padding: 4px 8px 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.5;
+  box-shadow: inset 0 1px 0 #f3f6e4;
+  -webkit-box-shadow: inset 0 1px 0 #f3f6e4;
+  border: 1px solid #b4bd98;
+  border-radius: 2px;
+  background-color: #dfe8bc;
+  background-image: -webkit-linear-gradient(top, #e6ecc9, #d6e1a9);
+  background-image: -moz-linear-gradient(top, #e6ecc9, #d6e1a9);
+  background-image: -o-linear-gradient(top, #e6ecc9, #d6e1a9);
+  background-image: linear-gradient(top, #e6ecc9, #d6e1a9);
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-item-controls {
+  display: block;
+}
+.m-intec-seo.p-filter-conditions .filter-conditions-link {
+  display: inline-block;
+  vertical-align: middle;
+  border-bottom: 1px dashed #113c7d;
+  color: #113c7d;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*# sourceMappingURL=conditions.css.map */

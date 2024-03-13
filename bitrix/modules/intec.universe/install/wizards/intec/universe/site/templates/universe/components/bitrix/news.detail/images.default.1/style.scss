@@ -1,0 +1,122 @@
+$namespace: 'bitrix';
+$component: 'news-detail';
+$template: 'images-detail-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+
+  .#{$class}-image,
+  .#{$class}-image img{
+    max-height: 600px;
+  }
+
+  .#{$class}-name {
+    margin-top: 0;
+    word-break: break-word;
+  }
+
+  .#{$class}-description {
+    color: #2d2d2d;
+  }
+
+  .#{$class}-properties {
+    margin-top: 32px;
+  }
+
+  .#{$class}-properties-item {
+    font-size: 14px;
+    line-height: 1.5;
+
+    & + .#{$class}-properties-item {
+      margin-top: 16px;
+    }
+  }
+
+  .#{$class}-properties-name {
+    color: #808080;
+  }
+
+  .#{$class}-properties-value {
+    color: #404040;
+  }
+
+  .#{$class}-properties-separator {
+    color: #B0B0B0;
+  }
+
+  .#{$class}-slide {
+    overflow: hidden;
+    overflow-x: auto;
+    margin: 24px 0 40px 0;
+    padding-bottom: 16px;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: #B0B0B0 #F2F2F2;
+
+    &::-webkit-scrollbar {
+      height: 5px;
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: rgba(242, 242, 242, 0.4);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: rgba(176, 176, 176, 0.64);
+      border-radius: 5px;
+    }
+  }
+
+  .#{$class}-slide-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #404040;
+  }
+
+  .#{$class}-slide-image {
+    width: 80px;
+    height: 108px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .#{$class}-slide-image-link {
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+
+    &:hover {
+      border: 1px solid #E8E8E8;
+    }
+  }
+
+  .#{$class}-products {
+    margin-top: 32px;
+  }
+
+  @media all and (max-width: 1024px) {
+    .#{$class}-slide {
+      margin: 24px -12px 27px -12px!important;
+    }
+
+    .#{$class}-slide-image {
+      width: 64px;
+      height: 86px;
+    }
+
+    .#{$class}-slide-image-wrapper {
+      padding-right: 12px!important;
+      padding-left: 12px!important;
+    }
+  }
+
+  @media all and (max-width: 550px) {
+    .#{$class}-products {
+      margin-top: 24px;
+    }
+  }
+}

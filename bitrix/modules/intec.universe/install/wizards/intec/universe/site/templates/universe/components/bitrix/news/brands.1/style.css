@@ -1,0 +1,14 @@
+.ns-bitrix.c-news.c-news-brands-1 .ns-bitrix.c-menu.c-menu-vertical-3 .menu-items {
+  height: auto;
+}
+.ns-bitrix.c-news.c-news-brands-1 .news-description + * {
+  margin-top: 32px;
+}
+.ns-bitrix.c-news.c-news-brands-1 .c-smart-filter.c-smart-filter-horizontal-2, .ns-bitrix.c-news.c-news-brands-1 .c-smart-filter.c-smart-filter-horizontal-1 {
+  z-index: 10;
+}
+.ns-bitrix.c-news.c-news-brands-1 * + .news-menu {
+  margin-top: 24px;
+}
+
+/*# sourceMappingURL=style.css.map */

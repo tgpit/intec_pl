@@ -1,0 +1,84 @@
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-banner {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 78px;
+  min-height: 250px;
+  margin-bottom: 32px;
+  overflow: hidden;
+}
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-banner[data-theme=light] {
+  color: #FFFFFF;
+}
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-banner[data-theme=dark] .news-list-banner-title {
+  color: #1B1E25;
+}
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-banner[data-theme=dark] .news-list-banner-subtitle {
+  color: #404040;
+}
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-banner-title {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 8px;
+  word-break: break-word;
+  max-height: 80px;
+  overflow: hidden;
+}
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-banner-subtitle {
+  font-size: 14px;
+  line-height: 24px;
+  word-break: break-word;
+  max-height: 72px;
+  overflow: hidden;
+}
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-iblock-description {
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+}
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-items {
+  margin-top: 40px;
+}
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-item {
+  display: block;
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-item:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-item-picture {
+  width: 100%;
+  padding-top: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2px 2px 0 0;
+}
+.ns-bitrix.c-news-list.c-news-list-help-1 .news-list-item-name {
+  display: block;
+  margin: 20px 16px 26px 16px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #404040;
+  transition: all 0.4s;
+  overflow: hidden;
+}
+@media all and (max-width: 550px) {
+  .ns-bitrix.c-news-list.c-news-list-help-1 .news-list-banner {
+    padding: 78px 20px;
+  }
+  .ns-bitrix.c-news-list.c-news-list-help-1 .news-list-banner-title {
+    font-size: 24px;
+    line-height: 28px;
+    max-height: 56px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

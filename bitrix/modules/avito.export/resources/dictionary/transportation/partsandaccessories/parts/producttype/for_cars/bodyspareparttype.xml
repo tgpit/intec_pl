@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BodySparePartTypeValues>
+	<BodySparePartType>Балки, лонжероны</BodySparePartType>
+	<BodySparePartType>Бамперы</BodySparePartType>
+	<BodySparePartType>Брызговики</BodySparePartType>
+	<BodySparePartType>Двери</BodySparePartType>
+	<BodySparePartType>Заглушки</BodySparePartType>
+	<BodySparePartType>Замки</BodySparePartType>
+	<BodySparePartType>Защита</BodySparePartType>
+	<BodySparePartType>Зеркала</BodySparePartType>
+	<BodySparePartType>Кабина</BodySparePartType>
+	<BodySparePartType>Капот</BodySparePartType>
+	<BodySparePartType>Крепления</BodySparePartType>
+	<BodySparePartType>Крылья</BodySparePartType>
+	<BodySparePartType>Крыша</BodySparePartType>
+	<BodySparePartType>Крышка, дверь багажника</BodySparePartType>
+	<BodySparePartType>Кузов по частям</BodySparePartType>
+	<BodySparePartType>Кузов целиком</BodySparePartType>
+	<BodySparePartType>Лючок бензобака</BodySparePartType>
+	<BodySparePartType>Молдинги, накладки</BodySparePartType>
+	<BodySparePartType>Пороги</BodySparePartType>
+	<BodySparePartType>Рама</BodySparePartType>
+	<BodySparePartType>Решетка радиатора</BodySparePartType>
+	<BodySparePartType>Стойка кузова</BodySparePartType>
+</BodySparePartTypeValues>

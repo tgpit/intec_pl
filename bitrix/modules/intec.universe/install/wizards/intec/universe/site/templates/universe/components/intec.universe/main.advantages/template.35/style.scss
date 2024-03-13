@@ -1,0 +1,140 @@
+$component: 'advantages';
+$template: 'template-35';
+$item: 'widget-item';
+
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+
+  .widget-header-wrapper {
+    padding-right: 80px;
+  }
+
+  .widget-button-wrap {
+    margin-top: 24px;
+  }
+
+  .#{$item}-number {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+    word-break: break-all;
+  }
+
+  .#{$item}-description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #404040;
+    margin-top: 12px;
+    word-break: break-all;
+  }
+
+  &[data-button-align="left"] {
+
+    .widget-button-wrap {
+      text-align: left;
+    }
+  }
+
+  &[data-button-align="center"] {
+
+    .widget-button-wrap {
+      text-align: center;
+    }
+  }
+
+  &[data-button-align="right"] {
+
+    .widget-button-wrap {
+      text-align: right;
+    }
+  }
+
+  &[data-number-align="left"] {
+
+    .#{$item}-number {
+      text-align: left;
+    }
+  }
+
+  &[data-number-align="center"] {
+
+    .#{$item}-number {
+      text-align: center;
+    }
+  }
+
+  &[data-number-align="right"] {
+
+    .#{$item}-number {
+      text-align: right;
+    }
+  }
+
+  &[data-preview-align="left"] {
+
+    .#{$item}-description {
+      text-align: left;
+    }
+  }
+
+  &[data-preview-align="center"] {
+
+    .#{$item}-description {
+      text-align: center;
+    }
+  }
+
+  &[data-preview-align="right"] {
+
+    .#{$item}-description {
+      text-align: right;
+    }
+  }
+
+  &[data-background-use="true"] {
+    padding: 60px 0;
+
+    .#{$item}-wrapper {
+      border: none;
+    }
+  }
+
+  &[data-theme="dark"] {
+
+    .widget-header .widget-title {
+      color: #ffffff;
+    }
+
+    .widget-header .widget-description {
+      color: #ffffff;
+    }
+
+    .#{$item}-number {
+      color: #FFFFFF;
+    }
+
+    .#{$item}-description {
+      color: #ffffff;
+    }
+  }
+
+  @media all and (max-width: 1000px) {
+    .widget-header-wrapper {
+      padding-right: 0px;
+      padding-bottom: 20px;
+    }
+  }
+}

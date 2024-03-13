@@ -1,0 +1,12 @@
+<?php
+
+$MESS['C_CATALOG_SECTION_LIST_SERVICES_LIST_4_LAZYLOAD_USE'] = 'Использовать "ленивую загрузку" изображений';
+$MESS['C_CATALOG_SECTION_LIST_SERVICES_LIST_4_LINK_BLANK'] = 'Открывать ссылки в новой вкладке';
+$MESS['C_CATALOG_SECTION_LIST_SERVICES_LIST_4_PICTURE_SHOW'] = 'Отображать картинку раздела';
+$MESS['C_CATALOG_SECTION_LIST_SERVICES_LIST_4_ELEMENTS_SHOW'] = 'Отображать количество вложенных элементов';
+$MESS['C_CATALOG_SECTION_LIST_SERVICES_LIST_4_CHILDREN_SHOW'] = 'Отображать вложенные разделы';
+$MESS['C_CATALOG_SECTION_LIST_SERVICES_LIST_4_SVG_FILE_USE'] = 'Использовать SVG файлы вместо изображений';
+$MESS['C_CATALOG_SECTION_LIST_SERVICES_LIST_4_PROPERTY_SVG_FILE'] = 'Свойство "SVG файл"';
+$MESS['C_CATALOG_SECTION_LIST_SERVICES_LIST_4_SVG_FILE_COLOR'] = 'Цвет SVG файла"';
+$MESS['C_CATALOG_SECTION_LIST_SERVICES_LIST_4_SVG_FILE_COLOR_ORIGINAL'] = 'Оригинальный цвет';
+$MESS['C_CATALOG_SECTION_LIST_SERVICES_LIST_4_SVG_FILE_COLOR_THEME'] = 'В цвет темы';

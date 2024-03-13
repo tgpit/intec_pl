@@ -1,0 +1,13 @@
+$component: 'header';
+$template: 'template-1';
+$class: #{$component};
+
+.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-banner {
+    z-index: 10;
+
+    .widget-banner-4 {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<FireplacesAndHeaters>
+	<GoodsSubType name="Печи и камины">
+		<OvensType name="Печи для бани и сауны"/>
+		<OvensType name="Камины и печи для дома"/>
+	</GoodsSubType>
+	<GoodsSubType name="Отопительные системы">
+		<HeatingType name="Радиаторы отопления и конвекторы"/>
+		<HeatingType name="Котлы"/>
+		<HeatingType name="Тёплые полы"/>
+	</GoodsSubType>
+	<GoodsSubType name="Обогреватели"/>
+	<GoodsSubType name="Комплектующие и аксессуары">
+		<ComponentsType name="Дымоходы"/>
+		<ComponentsType name="Топливные брикеты, уголь"/>
+		<ComponentsType name="Комплектующие для системы отопления"/>
+	</GoodsSubType>
+	<GoodsSubType name="Другое"/>
+</FireplacesAndHeaters>

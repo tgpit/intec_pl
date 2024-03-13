@@ -1,0 +1,14 @@
+<TextilesAndCarpets>
+	<GoodsSubType name="Ковры"></GoodsSubType>
+	<GoodsSubType name="Шторы и жалюзи"></GoodsSubType>
+	<GoodsSubType name="Ткани"></GoodsSubType>
+	<GoodsSubType name="Пледы и покрывала"></GoodsSubType>
+	<GoodsSubType name="Одеяла и подушки"></GoodsSubType>
+	<GoodsSubType name="Скатерти и салфетки"></GoodsSubType>
+	<GoodsSubType name="Полотенца"></GoodsSubType>
+	<GoodsSubType name="Постельное бельё и наматрасники">
+		<BeddingType name="Постельное бельё"></BeddingType>
+		<BeddingType name="Наматрасники"></BeddingType>
+	</GoodsSubType>
+	<GoodsSubType name="Другое"></GoodsSubType>
+</TextilesAndCarpets>

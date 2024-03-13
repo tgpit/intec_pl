@@ -1,0 +1,9 @@
+<GoodsSubTypes>
+	<GoodsSubType name="Холодильник"></GoodsSubType>
+	<GoodsSubType name="Морозильник"></GoodsSubType>
+	<GoodsSubType name="Винный шкаф"></GoodsSubType>
+	<GoodsSubType name="Встраиваемый холодильник"></GoodsSubType>
+	<GoodsSubType name="Встраиваемый морозильник"></GoodsSubType>
+	<GoodsSubType name="Запчасти для холодильников и морозильников"></GoodsSubType>
+	<GoodsSubType name="Другое"></GoodsSubType>
+</GoodsSubTypes>

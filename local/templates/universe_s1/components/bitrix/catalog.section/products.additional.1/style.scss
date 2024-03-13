@@ -1,0 +1,51 @@
+$namespace: 'bitrix';
+$component: 'catalog-section';
+$template: 'products-additional-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.5;
+
+  .#{$class}-items {
+    margin: -5px 0;
+  }
+
+  .#{$class}-item {
+    display: block;
+    padding: 5px 0;
+
+    &[data-basket-state="added"] {
+      .#{$class}-item-switch-control {
+        display: none;
+      }
+
+      .#{$class}-item-switch-state {
+        display: block;
+      }
+    }
+  }
+
+  .#{$class}-total-price {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #808080;
+    margin: 7px 0 0 0;
+
+    &[data-active="false"] {
+      display: none;
+    }
+  }
+
+  .#{$class}-total-price-value {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #404040;
+    margin: 0 0 0 16px;
+  }
+}

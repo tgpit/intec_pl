@@ -1,0 +1,70 @@
+.ns-bitrix.c-news-list.c-news-list-tile-4 .news-list-header {
+  margin-bottom: 24px;
+}
+.ns-bitrix.c-news-list.c-news-list-tile-4 .news-list-title {
+  font-size: 20px;
+  line-height: 30px;
+  color: #404040;
+}
+.ns-bitrix.c-news-list.c-news-list-tile-4 .news-list-content {
+  border-right: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-news-list.c-news-list-tile-4 .news-list-navigation button {
+  font-size: 0;
+  padding: 10px;
+  background-color: #FFF;
+  border: 1px solid #F2F2F2;
+  outline: none;
+  margin: 4px;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: background-color, border, opacity;
+  -moz-transition-property: background-color, border, opacity;
+  -ms-transition-property: background-color, border, opacity;
+  -o-transition-property: background-color, border, opacity;
+  transition-property: background-color, border, opacity;
+}
+.ns-bitrix.c-news-list.c-news-list-tile-4 .news-list-navigation button svg path {
+  stroke: #808080;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+}
+.ns-bitrix.c-news-list.c-news-list-tile-4 .news-list-navigation button:hover svg path {
+  stroke: #FFF;
+}
+.ns-bitrix.c-news-list.c-news-list-tile-4 .news-list-item {
+  padding: 20px;
+  border: 1px solid #F2F2F2;
+  margin-right: -1px;
+}
+.ns-bitrix.c-news-list.c-news-list-tile-4 .news-list-item-image {
+  display: block;
+  width: 56px;
+  height: 56px;
+}
+.ns-bitrix.c-news-list.c-news-list-tile-4 .news-list-item-name {
+  display: block;
+  height: 36px;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #808080;
+}
+
+/*# sourceMappingURL=style.css.map */

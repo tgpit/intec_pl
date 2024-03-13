@@ -1,0 +1,233 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-section';
+$template: 'products-small-9';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$class}-header {
+    padding-bottom: 12px;
+  }
+
+  .#{$class}-title {
+    @include flex-item-full();
+
+    color: #404040;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .#{$class}-navigation {
+    margin-left: auto;
+  }
+  .intec-ui-part-button-left,
+  .intec-ui-part-button-right {
+    line-height: 0;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: 1px solid #E8E8E8;
+    background-color: #FFF;
+    color: #808080;
+    opacity: 1;
+    cursor: pointer;
+    outline: none;
+    @include border-radius(2px);
+    @include transition(0.35s, (background-color, border-color, color));
+
+    &:hover {
+      color: #fff;
+    }
+
+    svg {
+      path {
+        stroke: #808080;
+
+        transition: all 0.4s;
+      }
+    }
+    &:hover {
+      svg {
+        path {
+          stroke: #FFF;
+        }
+      }
+    }
+
+    &.disabled {
+      background-color: #FFF!important;
+      border-color: #F2F2F2!important;
+      opacity: 0.7;
+      cursor: not-allowed;
+
+      @include user-select(none);
+
+      svg {
+        path {
+          stroke: #F2F2F2!important;
+        }
+      }
+    }
+  }
+  .intec-ui-part-button-right {
+    margin-left: 9px;
+  }
+
+  .#{$class}-items {}
+
+  .#{$class}-item {
+    position: relative;
+    text-decoration: none;
+  }
+
+  .#{$class}-item-wrapper {
+    border: 1px solid #f2f2f2;
+    display: block;
+    padding: 24px;
+    position: relative;
+    height: 100%;
+  }
+
+  .#{$class}-item-images {
+    .owl-dot {
+      span {
+        display: block;
+        height: 2px;
+        background: #f2f2f2;
+      }
+    }
+  }
+
+  .#{$class}-item-images-wrapper {}
+
+  .#{$class}-item-image {
+    display: block;
+    padding-top: 77%;
+    position: relative;
+  }
+
+  .#{$class}-item-image-wrapper {
+    display: block;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  .#{$class}-item-name {
+    color: #404040;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 18px;
+  }
+
+  .#{$class}-item-information {
+    padding-top: 12px;
+  }
+
+  .#{$class}-item-quantity {
+    @include flex();
+    @include flex-wrap(none);
+    @include flex-align-horizontal(start);
+    @include flex-align-vertical(center);
+
+    color: #b0b0b0;
+    font-size: 12px;
+    line-height: 16px;
+
+    &[data-quantity-state="enough"] {
+      color: #10cda0;
+
+      .#{$class}-item-quantity-indicator-part {
+        background-color: #10cda0;
+      }
+    }
+
+    &[data-quantity-state="few"] {
+      color: #f4bb28;
+
+      .#{$class}-item-quantity-indicator-part {
+        background-color: #f4bb28;
+      }
+    }
+
+    &[data-quantity-state="many"] {
+      color: #1db940;
+
+      .#{$class}-item-quantity-indicator-part {
+        background-color: #1db940;
+      }
+    }
+  }
+
+  .#{$class}-item-quantity-indicator {
+    @include flex-item-auto();
+  }
+
+  .#{$class}-item-quantity-indicator-part {
+    background-color: #b0b0b0;
+    border-radius: 50%;
+    height: 5px;
+    margin-bottom: 1px;
+    margin-right: 8px;
+    width: 5px;
+  }
+
+  .#{$class}-item-quantity-value {
+    @include flex-item-auto();
+    @include flex();
+    @include flex-wrap(none);
+    @include flex-align-horizontal(start);
+    @include flex-align-vertical(center);
+
+    white-space: nowrap;
+    margin: 0 -3px;
+  }
+
+  .#{$class}-item-quantity-value-text,
+  .#{$class}-item-quantity-value-number,
+  .#{$class}-item-quantity-value-measure {
+    @include flex-item-auto();
+
+    padding: 0 3px;
+  }
+
+  .#{$class}-item-quantity-value-number,
+  .#{$class}-item-quantity-value-measure {
+    color: #2d2d2d;
+  }
+
+  .#{$class}-item-quantity-value-text {}
+  .#{$class}-item-quantity-value-number {}
+  .#{$class}-item-quantity-value-measure {}
+
+  .#{$class}-item-price {
+    padding-top: 16px;
+  }
+
+  .#{$class}-item-price-base {
+    color: #404040;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .#{$class}-item-price-discount {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: line-through;
+  }
+
+  .#{$class}-item-article {
+    color: #808080;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

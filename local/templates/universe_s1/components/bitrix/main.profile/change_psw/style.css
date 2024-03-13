@@ -1,0 +1,35 @@
+.ns-bitrix.c-main-profile.c-main-profile-password {
+  display: block;
+}
+.ns-bitrix.c-main-profile.c-main-profile-password .main-profile-block {
+  display: block;
+  border: 1px solid #ebebeb;
+  padding: 20px;
+}
+.ns-bitrix.c-main-profile.c-main-profile-password .main-profile-header {
+  text-align: left;
+  font-size: 1.28571429em;
+  line-height: 1.5;
+  margin: 0 0 35px 0;
+}
+.ns-bitrix.c-main-profile.c-main-profile-password .main-profile-form-buttons {
+  margin-top: 20px;
+}
+.ns-bitrix.c-main-profile.c-main-profile-password .intec-ui-form-field-content {
+  position: relative;
+}
+.ns-bitrix.c-main-profile.c-main-profile-password .main-profile-eye-icon {
+  position: absolute;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 10;
+}
+.ns-bitrix.c-main-profile.c-main-profile-password .main-profile-eye-icon[data-role="password.icon.close"] {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

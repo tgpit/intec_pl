@@ -1,0 +1,83 @@
+@import '../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'news-list';
+$template: 'collections-tile-2';
+
+$item: #{$component}-item;
+$navigation: #{$component}-navigaiton;
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$navigation}-top {
+    margin-bottom: 30px;
+  }
+  .#{$navigation}-bottom {
+    margin-top: 30px;
+  }
+
+  .#{$item}-picture {
+    position: relative;
+    text-decoration: none;
+    height: 100%;
+    padding-top: 59%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include box-sizing(border-box);
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.64) 99%);
+      opacity: 1;
+      z-index: 3;
+      @include transition(0.35s, opacity);
+    }
+  }
+  a.#{$item}-picture {
+    &:after{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.43) 0.01%, rgba(0, 0, 0, 0.64) 99.99%);
+      opacity: 0;
+      z-index: 3;
+      @include transition(0.35s, opacity);
+    }
+    &:hover {
+      &:before{
+        opacity: 0;
+      }
+      &:after{
+        opacity: 1;
+      }
+    }
+  }
+  .#{$item}-name {
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FBFCFD;
+    text-align: left;
+    text-decoration: none;
+    max-width: 175px;
+    margin: 20px 27px;
+    z-index: 5;
+    @include webkit-box(2, 20);
+  }
+}

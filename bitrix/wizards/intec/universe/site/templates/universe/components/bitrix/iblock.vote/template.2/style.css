@@ -1,0 +1,43 @@
+.ns-bitrix.c-iblock-vote.c-iblock-vote-template-2 .iblock-vote-body {
+  overflow: hidden;
+}
+.ns-bitrix.c-iblock-vote.c-iblock-vote-template-2 .iblock-vote-container {
+  font-size: 0;
+  white-space: nowrap;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.ns-bitrix.c-iblock-vote.c-iblock-vote-template-2 .iblock-vote-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.ns-bitrix.c-iblock-vote.c-iblock-vote-template-2 .iblock-vote-item svg {
+  display: inline-block;
+  width: 16px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
+.ns-bitrix.c-iblock-vote.c-iblock-vote-template-2 .iblock-vote-item svg path {
+  fill: #E8E8E8;
+  stroke: #E8E8E8;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: fill, stroke;
+  -moz-transition-property: fill, stroke;
+  -ms-transition-property: fill, stroke;
+  -o-transition-property: fill, stroke;
+  transition-property: fill, stroke;
+}
+.ns-bitrix.c-iblock-vote.c-iblock-vote-template-2 .iblock-vote-item[data-focus=true] svg path, .ns-bitrix.c-iblock-vote.c-iblock-vote-template-2 .iblock-vote-item[data-active=true] svg path {
+  fill: #F4BB28;
+  stroke: #F4BB28;
+}
+
+/*# sourceMappingURL=style.css.map */

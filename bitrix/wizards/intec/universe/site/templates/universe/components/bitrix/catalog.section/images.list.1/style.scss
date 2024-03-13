@@ -1,0 +1,62 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-section';
+$template: 'images-list-1';
+
+$item: #{$component}-item;
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$item} {
+    display: block;
+    padding: 20px 16px;
+    overflow: hidden;
+    text-decoration: none;
+
+    @include transition(.35s, color);
+
+    border-bottom: 1px solid #F2F2F2;
+  }
+  .#{$item}-picture {
+    display: block;
+    text-decoration: none;
+    width: 56px;
+    height: 56px;
+  }
+  .#{$item}-name {
+    font-size: 13px;
+    line-height: 1.38;
+    color: #808080;
+    text-decoration: none;
+    word-break: break-all;
+
+    @include webkit-box(1, 18);
+  }
+  .#{$item}-price {
+    margin-top: 8px;
+  }
+  .#{$item}-price-current {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    color: #404040;
+    word-break: break-all;
+    @include webkit-box(1, 16);
+  }
+  .#{$item}-price-discount {
+    font-size: 12px;
+    line-height: 1;
+    color: #808080;
+    text-decoration: line-through;
+    margin-top: 4px;
+    @include webkit-box(1, 12);
+  }
+}

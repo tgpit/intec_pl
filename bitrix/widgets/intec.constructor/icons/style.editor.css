@@ -1,0 +1,184 @@
+.intec-editor-widget-icons-settings-items {
+  overflow: hidden;
+}
+
+.intec-editor-widget-icons-settings-item {
+  overflow: hidden;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #666666;
+}
+
+.intec-editor-widget-icons-settings-item-icon {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.intec-editor-widget-icons-settings-item-icon-background,
+.intec-editor-widget-icons-settings-item-icon-picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.intec-editor-widget-icons-settings-item-icon-background {
+  background-color: #FFF;
+  background-image: url("images/chess_bg.png");
+  background-repeat: repeat;
+  z-index: 1;
+}
+
+.intec-editor-widget-icons-settings-item-icon-picture {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+
+.intec-editor-widget-icons-settings-item-actions {
+  overflow: hidden;
+}
+
+.intec-editor-widget-icons-settings-item-action {
+  padding: 2px;
+  border: 2px solid transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: border-color;
+  -moz-transition-property: border-color;
+  -ms-transition-property: border-color;
+  -o-transition-property: border-color;
+  transition-property: border-color;
+}
+.intec-editor-widget-icons-settings-item-action:hover .intec-editor-widget-icons-settings-item-action-icon svg path {
+  fill: #A3A3A3;
+}
+.intec-editor-widget-icons-settings-item-action:hover .intec-editor-widget-icons-settings-item-action-name {
+  color: #A3A3A3;
+}
+.intec-editor-widget-icons-settings-item-action:focus {
+  border-color: #A3C6FF;
+}
+
+.intec-editor-widget-icons-settings-item-action-icon {
+  display: block;
+  font-size: 0;
+}
+.intec-editor-widget-icons-settings-item-action-icon svg path {
+  fill: #FFF;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: fill;
+  -moz-transition-property: fill;
+  -ms-transition-property: fill;
+  -o-transition-property: fill;
+  transition-property: fill;
+}
+
+.intec-editor-widget-icons-settings-item-action-name {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #FFF;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+
+.intec-editor-widget-icons-settings-action {
+  padding: 2px;
+  border: 2px solid transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: border-color;
+  -moz-transition-property: border-color;
+  -ms-transition-property: border-color;
+  -o-transition-property: border-color;
+  transition-property: border-color;
+}
+.intec-editor-widget-icons-settings-action:hover .intec-editor-widget-icons-settings-action-name {
+  color: #FFF;
+}
+.intec-editor-widget-icons-settings-action:focus {
+  border-color: #A3C6FF;
+}
+
+.intec-editor-widget-icons-settings-action-icon {
+  display: block;
+  font-size: 0;
+}
+.intec-editor-widget-icons-settings-action-icon svg path {
+  fill: #59AFFF;
+}
+
+.intec-editor-widget-icons-settings-action-name {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #59AFFF;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+
+.intec-editor-widget-icons-settings-color-actions {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.editor.css.map */

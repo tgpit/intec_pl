@@ -1,0 +1,143 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'services';
+$template: 'template-26';
+$item: 'widget-item';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .widget-items {
+    position: relative;
+  }
+
+  .#{$item} {
+    padding: 24px 20px;
+    background-color: #FFF;
+    border: 1px solid #F2F2F2;
+
+    @include border-radius(2px);
+  }
+
+  .#{$item}-picture {
+    display: block;
+    width: 152px;
+    height: 152px;
+    margin: auto;
+
+    img {
+      max-width: 100%;
+    }
+  }
+  .#{$item}-section {
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #808080;
+    word-break: break-word;
+    margin-bottom: 8px;
+    height: 16px;
+    overflow: hidden;
+  }
+  .#{$item}-name {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #3E3E3E;
+    word-break: break-word;
+    text-decoration: none;
+    height: 27px;
+    overflow: hidden;
+
+    @include transition(0.4s, color);
+  }
+  .#{$item}-description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #808080;
+    word-break: break-word;
+    margin-top: 8px;
+    max-height: 88px;
+    overflow: hidden;
+  }
+
+  .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+
+    button {
+      position: absolute;
+      top: 0;
+      font-size: 0;
+      text-align: center;
+      padding: 14px;
+      background-color: #FFF;
+      border: 1px solid #F2F2F2;
+      cursor: pointer;
+      outline: none;
+
+      @include border-radius(2px);
+      @include transition(0.4s, (background-color, border-color, opacity));
+
+      &.disabled {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      &.widget-navigation-left {
+        left: 0;
+        @include transform-translate(-50%, -50%);
+      }
+
+      &.widget-navigation-right {
+        right: 0;
+        @include transform-translate(50%, -50%);
+      }
+
+      svg {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        max-width: 10px;
+        max-height: 100%;
+
+        path {
+          stroke: #808080;
+
+          @include transition(0.4s, stroke);
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            stroke: #FFF;
+          }
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 550px) {
+    .#{$item}-section,
+    .#{$item}-name,
+    .#{$item}-description {
+      text-align: center;
+    }
+
+    .owl-nav {
+
+      button {
+        padding: 10px;
+      }
+    }
+
+    .#{$item} {
+      padding: 24px;
+    }
+  }
+}

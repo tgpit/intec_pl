@@ -1,0 +1,144 @@
+$component: 'advantages';
+$template: 'template-40';
+$item: 'widget-item';
+$nav: 'widget-nav';
+
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  border-bottom: 1px solid #E8E8E8;
+
+  .widget-content {
+    position: relative;
+  }
+
+  .#{$item}-picture {
+    display: block;
+  }
+
+  .#{$item}-name {
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #1B1E25;
+    text-decoration: none;
+    margin-bottom: 24px;
+    word-break: break-word;
+  }
+
+  .#{$item}-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 100px;
+    word-break: break-word;
+  }
+
+  .#{$nav} {
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    width: 88px;
+    bottom: 50px;
+    z-index: 2;
+
+    button {
+      display: block;
+      position: absolute;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      outline: none;
+      background-color: #ffffff;
+      cursor: pointer;
+      outline: none;
+      border: 1px solid #F2F2F2;
+
+      @include border-radius(2px);
+      @include transition((border, background-color), 0.4s);
+
+      span {
+        font-size: 16px;
+        line-height: 16px;
+        color: #808080;
+      }
+
+      &:hover span {
+        color: #fff;
+      }
+
+      &.disabled {
+        pointer-events: none;
+        opacity: 0.4;
+      }
+
+      &.nav-prev {
+        left: 0;
+
+        span {
+          padding-right: 2px;
+        }
+      }
+
+      &.nav-next {
+        right: 0;
+
+        span {
+          padding-left: 2px;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 1024px) {
+    .#{$item}-description {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .#{$item}-name {
+      text-align: center;
+    }
+
+    .#{$nav} {
+      width: 100%;
+      bottom: 50%;
+
+      button {
+
+        &.nav-prev {
+          left: -20px;
+        }
+
+        &.nav-next {
+          right: -20px;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 450px) {
+    .#{$nav} {
+      display: none;
+    }
+  }
+}

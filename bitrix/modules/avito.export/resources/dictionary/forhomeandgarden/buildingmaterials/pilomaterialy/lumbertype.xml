@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LumberTypeValues>
+	<LumberType>Имитация бревна, блок-хаус</LumberType>
+	<LumberType>Имитация бруса, рау-хаус</LumberType>
+	<LumberType>Раскладка</LumberType>
+	<LumberType>Вагонка</LumberType>
+	<LumberType>Дрова</LumberType>
+	<LumberType>Оцилиндрованное бревно</LumberType>
+	<LumberType>Брусок</LumberType>
+	<LumberType>Шкант</LumberType>
+	<LumberType>Доска</LumberType>
+	<LumberType>Другой</LumberType>
+	<LumberType>Плинтус</LumberType>
+	<LumberType>Потолочный плинтус, галтель</LumberType>
+	<LumberType>Брус</LumberType>
+	<LumberType>Наличник</LumberType>
+	<LumberType>Настил</LumberType>
+	<LumberType>Нащельник</LumberType>
+	<LumberType>Поддон</LumberType>
+	<LumberType>Рейка</LumberType>
+	<LumberType>Уголок</LumberType>
+	<LumberType>Планкен</LumberType>
+	<LumberType>Полок</LumberType>
+	<LumberType>Столб для забора</LumberType>
+	<LumberType>Слэб</LumberType>
+	<LumberType>Горбыль</LumberType>
+	<LumberType>Лес-кругляк</LumberType>
+	<LumberType>Мебельный щит</LumberType>
+	<LumberType>Штапик</LumberType>
+</LumberTypeValues>

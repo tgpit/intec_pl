@@ -1,0 +1,223 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'shares';
+$template: 'template-2';
+
+$item: 'widget-item';
+$loader: 'widget-loader';
+
+@mixin webkit-box($lines, $lineheight) {
+  max-height: #{$lines * $lineheight}px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+}
+
+@keyframes c-#{$component}-#{$template}-loader {
+  from {
+    @include transform-translate(-100%, -100%);
+  } to {
+      @include transform-translate(100%, 100%);
+    }
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-all {
+    display: block;
+    width: 140px;
+    padding-left: 10px;
+    text-align: right;
+    text-decoration: none;
+  }
+  .widget-all-desktop {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include transition(.35s, color);
+  }
+  .widget-all-mobile {
+    display: none;
+    padding: 6px 7px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-header {
+    &[data-link-all="true"] {
+      .widget-title {
+        &.align-center {
+          margin-left: 150px;
+        }
+      }
+      .widget-description {
+        &.align-center {
+          margin-left: 150px;
+        }
+      }
+    }
+  }
+  .widget-content {
+    overflow: hidden;
+  }
+
+  .#{$item} {
+    position: relative;
+    display: block;
+    height: 100%;
+    border: 1px solid #F2F2F2;
+    background: #FFFFFF;
+    overflow: hidden;
+    @include border-radius(4px);
+  }
+  .#{$item}-content {
+    height: 100%;
+  }
+  .#{$item}-picture {
+    display: block;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    &[data-lazyload-use='true'] {
+      background-color: #F2F2F2;
+    }
+  }
+  .#{$item}-information {
+    padding: 40px 40px 40px 32px;
+  }
+  .#{$item}-period {
+    font-size: 12px;
+    line-height: 1.333333;
+    color: #808080;
+    margin-bottom: 16px;
+    @include webkit-box(1, 16);
+  }
+  .#{$item}-name {
+    @include webkit-box(2, 24);
+
+    & > * {
+      font-size: 18px;
+      line-height: 1.333333;
+      color: #404040;
+      text-decoration: none;
+      @include transition(.35s, color);
+    }
+  }
+  .#{$item}-description {
+    font-size: 14px;
+    line-height: 1.72;
+    color: #808080;
+    margin-top: 8px;
+  }
+  .#{$item}-timer {
+    margin-top: 24px;
+  }
+  
+  .#{$loader}-effect {
+    position: relative;
+    background-color: #F2F2F2;
+    overflow: hidden;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      right: -50%;
+      bottom: -50%;
+      background: linear-gradient(135deg, rgba(0, 0, 0, 0) 35%, rgba(255, 255, 255, 0.85) 50%, rgba(0, 0, 0, 0) 65%);
+      z-index: 1;
+      animation-name: c-#{$component}-#{$template}-loader;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+    }
+  }
+  .#{$loader}-timer {
+    overflow: hidden;
+  }
+  .#{$loader}-timer-item {
+    width: 52px;
+    height: 30px;
+    @include border-radius(4px);
+  }
+
+  .widget-product-timer-item-block {
+    border: none!important;
+  }
+
+  @include breakpoint-768() {
+    .#{$item}-information {
+      padding-top: 24px;
+      padding-right: 24px;
+      padding-bottom: 24px;
+    }
+    .#{$item}-period {
+      margin-bottom: 8px;
+    }
+    .#{$item}-name {
+      & > * {
+        font-size: 16px;
+        line-height: 1.38;
+      }
+    }
+    .#{$item}-timer {
+      margin-top: 16px;
+    }
+  }
+  @include breakpoint-custom(500) {
+    .widget-header {
+      &[data-link-all="true"] {
+        .widget-title {
+          &.align-center {
+            margin-left: 40px;
+          }
+        }
+        .widget-description {
+          &.align-center {
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+    .widget-all-desktop {
+      display: none;
+    }
+    .widget-all-mobile {
+      display: block;
+    }
+    .widget-all {
+      width: 30px;
+      padding-left: 0;
+      margin-left: 10px;
+    }
+
+    .#{$item} {
+      border-radius: 0;
+    }
+    .#{$item}-picture {
+      height: 140px;
+      margin-top: 16px;
+      margin-left: 16px;
+      margin-right: 16px;
+      @include border-radius(2px);
+    }
+    .#{$item}-information {
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 32px;
+    }
+    .#{$item}-timer {
+      margin-top: 16px;
+    }
+  }
+}

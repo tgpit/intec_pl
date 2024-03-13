@@ -1,0 +1,4 @@
+<?php
+
+$MESS['C_FILTER_TAGS_DEFAULT_BUTTONS_EXPAND'] = 'Все теги';
+$MESS['C_FILTER_TAGS_DEFAULT_BUTTONS_COLLAPSE'] = 'Свернуть теги';

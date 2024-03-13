@@ -1,0 +1,10 @@
+<AudioAndVideoEquipment>
+	<EquipmentType name="Магнитолы"/>
+	<EquipmentType name="Автоакустика"/>
+	<EquipmentType name="Видеорегистраторы"/>
+	<EquipmentType name="Усилители"/>
+	<EquipmentType name="Переходные рамки"/>
+	<EquipmentType name="Короба и подиумы"/>
+	<EquipmentType name="Аксессуары для автоакустики"/>
+	<EquipmentType name="Другое"/>
+</AudioAndVideoEquipment>

@@ -1,0 +1,31 @@
+$component: 'iblock-vote';
+$template: 'template-3';
+
+$rating: #{$component}-rating;
+
+.ns-bitrix.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$rating} {
+    font-size: 0;
+    margin: 0 -3px;
+  }
+  .#{$rating}-item {
+    display: inline-block;
+    padding: 0 5px;
+    cursor: pointer;
+    font-size: 0;
+
+    &[data-active='true'], &[data-focus='true'] {
+      svg {
+        path {
+          stroke: #FBCD56;
+          fill: #FBCD56;
+        }
+      }
+    }
+  }
+  .#{$rating}-total {
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 10px;
+  }
+}

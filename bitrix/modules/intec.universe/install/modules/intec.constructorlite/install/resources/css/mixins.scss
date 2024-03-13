@@ -1,0 +1,52 @@
+@mixin box-sizing ($value: null) {
+  @if ($value != 'border-box' and $value != 'padding-box' and $value != 'inherit') {
+    $value: content-box;
+  }
+
+  -webkit-box-sizing: $value;
+  -moz-box-sizing: $value;
+  box-sizing: $value;
+}
+
+@mixin user-select ($value: null) {
+  @if ($value == null) {
+    $value: all;
+  }
+
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
+
+@mixin transition ($time: null, $properties: null, $delay: null) {
+  @if ($time != null) {
+    -webkit-transition-duration: #{$time};
+    -moz-transition-duration: #{$time};
+    -ms-transition-duration: #{$time};
+    -o-transition-duration: #{$time};
+    transition-duration: #{$time};
+
+    @if ($properties != null) {
+      -webkit-transition-property: $properties;
+      -moz-transition-property: $properties;
+      -ms-transition-property: $properties;
+      -o-transition-property: $properties;
+      transition-property: $properties;
+    }
+
+    @if ($delay != null) {
+      -webkit-transition-delay: #{$delay};
+      -moz-transition-delay: #{$delay};
+      -ms-transition-delay: #{$delay};
+      -o-transition-delay: #{$delay};
+      transition-delay: #{$delay};
+    }
+  } @else {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+}

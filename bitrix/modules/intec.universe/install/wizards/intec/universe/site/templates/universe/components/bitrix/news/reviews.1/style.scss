@@ -1,0 +1,19 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'news';
+$template: 'reviews-1';
+
+$list: c-#{$component}-reviews;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$list}-send {
+    margin-bottom: 40px;
+  }
+
+  @include breakpoint-768() {
+    .#{$list}-send {
+      margin-bottom: 24px;
+    }
+  }
+}

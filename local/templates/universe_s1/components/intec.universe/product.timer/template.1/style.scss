@@ -1,0 +1,137 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'product-timer';
+$template: 'template-1';
+$item: 'widget-timer-item';
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .widget-date-end {
+    display: none;
+  }
+
+  .widget-time-wrapper {}
+
+  .widget-quantity-wrapper {}
+
+  .widget-title {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+
+  .widget-time-header,
+  .widget-quantity-header {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #404040;
+    word-break: break-all;
+    max-width: 110px;
+
+    @include webkit-box(2, 17);
+  }
+
+  .widget-timer-items {
+    display: inline-block;
+  }
+
+  .#{$item} {
+    padding: 6px;
+    text-align: center;
+    background-color: #F2F2F2;
+    max-width: 65px;
+    min-width: 40px;
+    font-size: 0;
+
+    @include border-radius(2px);
+
+    &.#{$item}-quantity {
+      background-color: #FBCD56;
+    }
+  }
+
+  .#{$item}-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    color: #404040;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .#{$item}-title-delimeter {
+    display: none;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #404040;
+  }
+
+  .#{$item}-description {
+    font-weight: 500;
+    margin-top: 2px;
+    font-size: 11px;
+    line-height: 12px;
+    color: #808080;
+    overflow: hidden;
+  }
+
+  @media all and (max-width: 768px) {
+    .widget-time-header,
+    .widget-quantity-header {
+      display: none;
+    }
+
+    .widget-quantity-wrapper {
+      display: none;
+    }
+
+    .#{$item}-title {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 14px;
+      line-height: 16px;
+      min-width: 24px;
+    }
+
+    .#{$item}-title-delimeter {
+      display: inline-block;
+    }
+
+    .#{$item}-description {
+      display: none;
+
+      &[data-role="days.sign"] {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 0;
+        margin-left: 4px;
+      }
+    }
+
+    .widget-timer-items {
+      background-color: #F2F2F2;
+      padding: 6px;
+      border: 1px solid #E8E8E8;
+
+      @include border-radius(2px);
+    }
+
+    .#{$item} {
+      padding: 0;
+      margin: 0 auto;
+      min-width: unset;
+      max-width: unset;
+    }
+  }
+}

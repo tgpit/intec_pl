@@ -1,0 +1,136 @@
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-caption {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-row {
+  padding: 8px 0;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-row-name {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  color: #6e6e6e;
+  margin-bottom: 8px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-row-control .startshop-input-multiselect,
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-row-control .startshop-input-text,
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-row-control .startshop-input-textarea,
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-row-control .startshop-input-select {
+  outline: none;
+  width: 100%;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-row-control .startshop-input-textarea {
+  resize: vertical;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-row-control-box {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-row-control-box-wrapper {
+  overflow: hidden;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-captcha {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-captcha-caption {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  color: #6e6e6e;
+  margin-bottom: 8px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-captcha-image {
+  font-size: 0;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-captcha-image img {
+  display: inline-block;
+  margin-right: 10px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-button {
+  font-size: 12px;
+  margin-top: 30px;
+  padding: 11px 11px;
+  width: 100%;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-button[disabled] {
+  background-color: #CCCCCC;
+  border-color: #CCCCCC;
+  cursor: not-allowed;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-message-error {
+  color: #ff114a;
+  font-size: 12px;
+  text-align: left;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-row .startshop-forms-result-new-message-error,
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-captcha .startshop-forms-result-new-message-error {
+  margin-bottom: 10px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-required {
+  color: #ff0000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  vertical-align: top;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-sent {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-sent-icon {
+  margin-right: 20px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-sent-text {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-sent-buttons {
+  display: none;
+  margin-top: 38px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-sent-button {
+  padding: 23px 56px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-submit {
+  margin-top: 20px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-submit .intec-ui.intec-ui-control-button {
+  padding: 16px 32px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-template-1 .startshop-forms-result-new-consent .intec-ui-part-content {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

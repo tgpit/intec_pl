@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RCProductValues>
+	<RCProduct>Плита</RCProduct>
+	<RCProduct>Балка</RCProduct>
+	<RCProduct>Вентиляционный блок</RCProduct>
+	<RCProduct>Диафрагма жёсткости</RCProduct>
+	<RCProduct>Кабельный блок</RCProduct>
+	<RCProduct>Колонна</RCProduct>
+	<RCProduct>Лежень</RCProduct>
+	<RCProduct>Лоток</RCProduct>
+	<RCProduct>Опорная подушка</RCProduct>
+	<RCProduct>Панель</RCProduct>
+	<RCProduct>Перемычка</RCProduct>
+	<RCProduct>Приставка</RCProduct>
+	<RCProduct>Прогон</RCProduct>
+	<RCProduct>Ригель</RCProduct>
+	<RCProduct>Стенка</RCProduct>
+	<RCProduct>Столбик</RCProduct>
+	<RCProduct>Труба</RCProduct>
+	<RCProduct>Утяжелитель</RCProduct>
+	<RCProduct>Фундаментный блок</RCProduct>
+	<RCProduct>Шахта лифта</RCProduct>
+	<RCProduct>Элемент коллектора</RCProduct>
+	<RCProduct>Элемент колодца</RCProduct>
+	<RCProduct>Элемент мостовой конструкции</RCProduct>
+	<RCProduct>Другое</RCProduct>
+</RCProductValues>

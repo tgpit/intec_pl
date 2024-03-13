@@ -1,0 +1,14 @@
+<Root>
+    <GoodsSubType name="Микроскопы"/>
+    <GoodsSubType name="Муфельные печи"/>
+    <GoodsSubType name="Стерилизаторы"/>
+    <GoodsSubType name="Центрифуги"/>
+    <GoodsSubType name="Весы"/>
+    <GoodsSubType name="Измерительное"/>
+    <GoodsSubType name="Аналитическое"/>
+    <GoodsSubType name="Общелабораторное"/>
+    <GoodsSubType name="Мебель"/>
+    <GoodsSubType name="Расходные материалы"/>
+    <GoodsSubType name="Запчасти"/>
+    <GoodsSubType name="Другое"/>
+</Root>

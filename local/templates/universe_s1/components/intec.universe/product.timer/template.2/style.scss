@@ -1,0 +1,117 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'product-timer';
+$template: 'template-2';
+$item: 'widget-timer-item';
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .widget-date-end {
+    display: none;
+  }
+
+  .widget-time-wrapper {}
+
+  .widget-quantity-wrapper {}
+
+  .widget-title {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+
+  .widget-time-header,
+  .widget-quantity-header {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #404040;
+    word-break: break-all;
+    max-width: 110px;
+
+    @include webkit-box(2, 17);
+  }
+
+  .widget-timer-items {
+    display: inline-block;
+  }
+
+  .#{$item} {
+    padding: 4px 4px;
+    background: #F2F2F2;
+    text-align: center;
+    width: 52px;
+    height: 29px;
+    max-width: 65px;
+    min-width: 50px;
+
+    @include border-radius(2px);
+
+    &.#{$item}-quantity {
+      width: unset;
+      background-color: #FBCD56;
+
+      .#{$item}-description {
+        display: none;
+      }
+
+      .#{$item}-title {
+        max-width: 60px;
+        padding: 0 5px;
+      }
+    }
+  }
+
+  .#{$item}-title {
+    display: inline-block;
+    min-width: 24px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #404040;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .#{$item}-description {
+    display: inline;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #808080;
+  }
+
+  .#{$item}-sale {
+    font-size: 0;
+  }
+
+  .#{$item}-sale-header {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #404040;
+  }
+
+  .#{$item}-sale-value {
+    display: inline-block;
+    padding: 6px 4px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+    background-color: #FBCD56;
+    border-color: #FBCD56;
+    overflow: hidden;
+
+    @include border-radius(2px);
+  }
+}

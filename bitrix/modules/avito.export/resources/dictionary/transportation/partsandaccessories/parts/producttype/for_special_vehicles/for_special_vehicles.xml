@@ -1,0 +1,85 @@
+<ProductType>
+	<Technic name="Автобусы"></Technic>
+	<Technic name="Автодома"></Technic>
+	<Technic name="Автокраны"></Technic>
+	<Technic name="Бульдозеры"></Technic>
+	<Technic name="Грузовики"></Technic>
+	<Technic name="Коммунальная техника"></Technic>
+	<Technic name="Лёгкий коммерческий транспорт"></Technic>
+	<Technic name="Навесное оборудование"></Technic>
+	<Technic name="Погрузчики"></Technic>
+	<Technic name="Прицепы"></Technic>
+	<Technic name="Сельхозтехника"></Technic>
+	<Technic name="Строительная техника"></Technic>
+	<Technic name="Техника для лесозаготовки"></Technic>
+	<Technic name="Тягачи"></Technic>
+	<Technic name="Экскаваторы"></Technic>
+	<Technic name="Другое"></Technic>
+	<SparePartType name="Двигатели и комплектующие">
+		<TechnicSparePartType name="Двигатели в сборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Двигатели в разборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Навесное оборудование"></TechnicSparePartType>
+		<TechnicSparePartType name="Топливная система"></TechnicSparePartType>
+		<TechnicSparePartType name="Система смазки"></TechnicSparePartType>
+		<TechnicSparePartType name="Система охлаждения"></TechnicSparePartType>
+		<TechnicSparePartType name="Системы впуска и выпуска"></TechnicSparePartType>
+	</SparePartType>
+	<SparePartType name="Трансмиссия">
+		<TechnicSparePartType name="КПП в сборе"></TechnicSparePartType>
+		<TechnicSparePartType name="КПП в разборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Сцепление"></TechnicSparePartType>
+		<TechnicSparePartType name="Механизмы отбора мощности"></TechnicSparePartType>
+		<TechnicSparePartType name="Карданные валы"></TechnicSparePartType>
+		<TechnicSparePartType name="Редукторы и комплектующие"></TechnicSparePartType>
+	</SparePartType>
+	<SparePartType name="Подвеска">
+		<TechnicSparePartType name="Рулевое управление"></TechnicSparePartType>
+		<TechnicSparePartType name="Балки в сборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Балки в разборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Мосты в сборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Мосты в разборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Амортизаторы и пружины"></TechnicSparePartType>
+		<TechnicSparePartType name="Рессоры и листы"></TechnicSparePartType>
+		<TechnicSparePartType name="Балансиры, буксы"></TechnicSparePartType>
+		<TechnicSparePartType name="Тормозная система"></TechnicSparePartType>
+		<TechnicSparePartType name="Пальцы, втулки, наконечники"></TechnicSparePartType>
+		<TechnicSparePartType name="Рычаги и шаровые опоры"></TechnicSparePartType>
+	</SparePartType>
+	<SparePartType name="Кабина">
+		<TechnicSparePartType name="Кабины в сборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Кабины в разборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Экстерьер"></TechnicSparePartType>
+		<TechnicSparePartType name="Рамы и детали рам"></TechnicSparePartType>
+		<TechnicSparePartType name="Стекла"></TechnicSparePartType>
+	</SparePartType>
+	<SparePartType name="Будки, платформы, кузова"></SparePartType>
+	<SparePartType name="Автоэлектрика и автосвет">
+		<TechnicSparePartType name="Аккумуляторы"></TechnicSparePartType>
+		<TechnicSparePartType name="Автосвет"></TechnicSparePartType>
+		<TechnicSparePartType name="Контроллеры, реле, датчики"></TechnicSparePartType>
+		<TechnicSparePartType name="Блоки управления"></TechnicSparePartType>
+		<TechnicSparePartType name="Электропроводка"></TechnicSparePartType>
+	</SparePartType>
+	<SparePartType name="Гидравлические и пневмосистемы">
+		<TechnicSparePartType name="Пневматика тормозной системы"></TechnicSparePartType>
+		<TechnicSparePartType name="Пневматика сцепления"></TechnicSparePartType>
+		<TechnicSparePartType name="Пневмоподвеска"></TechnicSparePartType>
+		<TechnicSparePartType name="Шланги, трубки, патрубки"></TechnicSparePartType>
+		<TechnicSparePartType name="Компрессоры"></TechnicSparePartType>
+		<TechnicSparePartType name="Ресиверы, воздухоподготовка"></TechnicSparePartType>
+		<TechnicSparePartType name="Расширительные бачки"></TechnicSparePartType>
+		<TechnicSparePartType name="Система подъёма кузова"></TechnicSparePartType>
+		<TechnicSparePartType name="Гидромоторы"></TechnicSparePartType>
+		<TechnicSparePartType name="Гидрорули"></TechnicSparePartType>
+		<TechnicSparePartType name="Гидронасосы"></TechnicSparePartType>
+		<TechnicSparePartType name="Гидрораспределители"></TechnicSparePartType>
+		<TechnicSparePartType name="Гидроцилиндры"></TechnicSparePartType>
+	</SparePartType>
+	<SparePartType name="Навесное оборудование в разборе"></SparePartType>
+	<OEM variable="group_symbols"></OEM>
+	<Originality name="Оригинал"></Originality>
+	<Originality name="Аналог">
+		<OriginalOEM variable="group_symbol"></OriginalOEM>
+	</Originality>
+	<Originality name="Не знаю"></Originality>
+</ProductType>

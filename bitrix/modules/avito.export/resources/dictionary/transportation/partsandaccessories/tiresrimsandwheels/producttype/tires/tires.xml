@@ -1,0 +1,18 @@
+<ProductType>
+	<DifferentWidthTires name="Да"></DifferentWidthTires>
+	<DifferentWidthTires name="Нет"></DifferentWidthTires>
+	<TireType name="Всесезонные"></TireType>
+	<TireType name="Летние"></TireType>
+	<TireType name="Зимние нешипованные"></TireType>
+	<TireType name="Зимние шипованные"></TireType>
+	<RunFlat name="Да"></RunFlat>
+	<RunFlat name="Нет"></RunFlat>
+	<Quantity name="за 1 шт."></Quantity>
+	<Quantity name="за 2 шт."></Quantity>
+	<Quantity name="за 3 шт."></Quantity>
+	<Quantity name="за 4 шт."></Quantity>
+	<Quantity name="за 5 шт."></Quantity>
+	<Quantity name="за 6 шт."></Quantity>
+	<Quantity name="за 7 шт."></Quantity>
+	<Quantity name="за 8 шт."></Quantity>
+</ProductType>

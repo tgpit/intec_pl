@@ -1,0 +1,211 @@
+<BuildingMaterials>
+	<GoodsSubType name="Изоляция"></GoodsSubType>
+	<GoodsSubType name="Крепёж"></GoodsSubType>
+	<GoodsSubType name="Кровля и водосток"></GoodsSubType>
+	<GoodsSubType name="Лаки и краски"></GoodsSubType>
+	<GoodsSubType name="Металлопрокат"></GoodsSubType>
+	<GoodsSubType name="Отделка">
+		<FinishingType name="Плитка, керамогранит и мозаика">
+			<FinishingSubType name="Керамическая плитка"></FinishingSubType>
+			<FinishingSubType name="Керамические уголки для ванной"></FinishingSubType>
+			<FinishingSubType name="Керамогранит"></FinishingSubType>
+			<FinishingSubType name="Мозаика"></FinishingSubType>
+		</FinishingType>
+		<FinishingType name="Обои и декоративные покрытия">
+			<FinishingSubType name="Обои"></FinishingSubType>
+			<FinishingSubType name="Жидкие обои"></FinishingSubType>
+			<FinishingSubType name="Самоклеящаяся пленка"></FinishingSubType>
+			<FinishingSubType name="Стеклообои"></FinishingSubType>
+			<FinishingSubType name="Фактурные декоративные покрытия"></FinishingSubType>
+			<FinishingSubType name="Фотообои"></FinishingSubType>
+			<FinishingSubType name="Фрески"></FinishingSubType>
+		</FinishingType>
+		<FinishingType name="Стеновые панели">
+			<FinishingSubType name="Гипсовые панели"></FinishingSubType>
+			<FinishingSubType name="Панели МДФ"></FinishingSubType>
+			<FinishingSubType name="Панели ПВХ"></FinishingSubType>
+			<FinishingSubType name="Пробковые панели"></FinishingSubType>
+		</FinishingType>
+		<FinishingType name="Напольные покрытия">
+			<FinishingSubType name="Аксессуары для укладки напольных покрытий"></FinishingSubType>
+			<FinishingSubType name="Инженерная доска"></FinishingSubType>
+			<FinishingSubType name="Ковролин"></FinishingSubType>
+			<FinishingSubType name="Ламинат"></FinishingSubType>
+			<FinishingSubType name="Линолеум"></FinishingSubType>
+			<FinishingSubType name="Массивная доска"></FinishingSubType>
+			<FinishingSubType name="Паркетная доска"></FinishingSubType>
+			<FinishingSubType name="Плинтусы и пороги"></FinishingSubType>
+			<FinishingSubType name="Плитка ПВХ"></FinishingSubType>
+			<FinishingSubType name="Подложка"></FinishingSubType>
+			<FinishingSubType name="Пробковый пол"></FinishingSubType>
+		</FinishingType>
+		<FinishingType name="Фасадные материалы">
+			<FinishingSubType name="Декоративный камень"></FinishingSubType>
+			<FinishingSubType name="Клинкерная плитка"></FinishingSubType>
+			<FinishingSubType name="Сайдинг"></FinishingSubType>
+			<FinishingSubType name="Фасадные панели"></FinishingSubType>
+		</FinishingType>
+		<FinishingType name="Потолочная плитка и декор">
+			<FinishingSubType name="Декор потолка"></FinishingSubType>
+			<FinishingSubType name="Отделочный профиль, уголки"></FinishingSubType>
+			<FinishingSubType name="Потолочная плитка"></FinishingSubType>
+			<FinishingSubType name="Потолочные плинтусы"></FinishingSubType>
+		</FinishingType>
+		<FinishingType name="Уличные покрытия">
+			<FinishingSubType name="Газонная решётка"></FinishingSubType>
+			<FinishingSubType name="Искусственная трава"></FinishingSubType>
+			<FinishingSubType name="Тротуарная плитка и брусчатка"></FinishingSubType>
+			<FinishingSubType name="Бордюр"></FinishingSubType>
+		</FinishingType>
+		<FinishingType name="Другое"></FinishingType>
+	</GoodsSubType>
+	<GoodsSubType name="Пиломатериалы">
+		<PriceType name="за м2"></PriceType>
+		<PriceType name="за м3"></PriceType>
+		<PriceType name="за погонный метр"></PriceType>
+		<PriceType name="за упаковку">
+			<BagValue variable="numeric"></BagValue>
+		</PriceType>
+		<PriceType name="за штуку"></PriceType>
+		<PriceType name="за всё"></PriceType>
+	</GoodsSubType>
+	<GoodsSubType name="Строительные смеси"></GoodsSubType>
+	<GoodsSubType name="Строительство стен"></GoodsSubType>
+	<GoodsSubType name="Электрика"></GoodsSubType>
+	<GoodsSubType name="Другое"></GoodsSubType>
+	<GoodsSubType name="Листовые материалы"></GoodsSubType>
+	<GoodsSubType name="Лестницы и комплектующие">
+		<LadderType name="Лестница"></LadderType>
+		<LadderType name="Балясина"></LadderType>
+		<LadderType name="Косоур"></LadderType>
+		<LadderType name="Перила"></LadderType>
+		<LadderType name="Площадка"></LadderType>
+		<LadderType name="Подступенок"></LadderType>
+		<LadderType name="Поручень"></LadderType>
+		<LadderType name="Столб"></LadderType>
+		<LadderType name="Ступень"></LadderType>
+		<LadderType name="Тетива"></LadderType>
+		<LadderType name="Другое"></LadderType>
+	</GoodsSubType>
+	<GoodsSubType name="Ворота, заборы и ограждения">
+		<FenceType name="3D-забор, гиттер"></FenceType>
+		<FenceType name="Ворота"></FenceType>
+		<FenceType name="Габион"></FenceType>
+		<FenceType name="Декор"></FenceType>
+		<FenceType name="Евроштакетник"></FenceType>
+		<FenceType name="Забор из бетона"></FenceType>
+		<FenceType name="Забор из дерева"></FenceType>
+		<FenceType name="Забор из камня"></FenceType>
+		<FenceType name="Забор из профнастила"></FenceType>
+		<FenceType name="Калитка"></FenceType>
+		<FenceType name="Кованый забор"></FenceType>
+		<FenceType name="Колпак"></FenceType>
+		<FenceType name="Колючая проволока"></FenceType>
+		<FenceType name="Крепление"></FenceType>
+		<FenceType name="Ограждение"></FenceType>
+		<FenceType name="Сетка"></FenceType>
+		<FenceType name="Столб"></FenceType>
+		<FenceType name="Труба"></FenceType>
+		<FenceType name="Шлагбаум"></FenceType>
+		<FenceType name="Другой"></FenceType>
+	</GoodsSubType>
+	<GoodsSubType name="Сыпучие материалы">
+		<PriceType name="за м3"></PriceType>
+		<PriceType name="за мешок">
+			<BagValue variable="numeric">
+				<BagUnits name="кг"></BagUnits>
+				<BagUnits name="литры"></BagUnits>
+			</BagValue>
+		</PriceType>
+		<PriceType name="за тонну"></PriceType>
+		<PriceType name="за килограмм"></PriceType>
+		<PriceType name="за штуку"></PriceType>
+		<PriceType name="за всё"></PriceType>
+		<BulkMaterialType name="Песок"></BulkMaterialType>
+		<BulkMaterialType name="Щебень"></BulkMaterialType>
+		<BulkMaterialType name="Асфальт"></BulkMaterialType>
+		<BulkMaterialType name="Глина"></BulkMaterialType>
+		<BulkMaterialType name="Гравий"></BulkMaterialType>
+		<BulkMaterialType name="Грунт"></BulkMaterialType>
+		<BulkMaterialType name="Дресва"></BulkMaterialType>
+		<BulkMaterialType name="Керамзит"></BulkMaterialType>
+		<BulkMaterialType name="Отсев"></BulkMaterialType>
+		<BulkMaterialType name="Пескогрунт"></BulkMaterialType>
+		<BulkMaterialType name="Песчано-гравийная смесь (ПГС, ОПГС)"></BulkMaterialType>
+		<BulkMaterialType name="Суглинок"></BulkMaterialType>
+		<BulkMaterialType name="Торф"></BulkMaterialType>
+		<BulkMaterialType name="Тырса"></BulkMaterialType>
+		<BulkMaterialType name="Чернозём"></BulkMaterialType>
+		<BulkMaterialType name="Шлак"></BulkMaterialType>
+		<BulkMaterialType name="Щебёночно-песчаная смесь (ЩПС)"></BulkMaterialType>
+		<BulkMaterialType name="Другой"></BulkMaterialType>
+	</GoodsSubType>
+	<GoodsSubType name="Железобетонные изделия">
+		<RCProduct name="Плита">
+			<RCSlabType name="Плита перекрытия"></RCSlabType>
+			<RCSlabType name="Плита аэродромная"></RCSlabType>
+			<RCSlabType name="Плита для железнодорожных путей"></RCSlabType>
+			<RCSlabType name="Плита для трамвайных путей"></RCSlabType>
+			<RCSlabType name="Плита дорожная"></RCSlabType>
+			<RCSlabType name="Плита карнизная"></RCSlabType>
+			<RCSlabType name="Плита козырька входа"></RCSlabType>
+			<RCSlabType name="Плита лоджии, балкона"></RCSlabType>
+			<RCSlabType name="Плита опорная"></RCSlabType>
+			<RCSlabType name="Плита опорно-анкерная"></RCSlabType>
+			<RCSlabType name="Плита парапетная"></RCSlabType>
+			<RCSlabType name="Плита переходная"></RCSlabType>
+			<RCSlabType name="Плита плоская"></RCSlabType>
+			<RCSlabType name="Плита подкладная"></RCSlabType>
+			<RCSlabType name="Плита стеновая"></RCSlabType>
+			<RCSlabType name="Плита тротуарная"></RCSlabType>
+			<RCSlabType name="Плита укрепления"></RCSlabType>
+			<RCSlabType name="Плита фундаментная"></RCSlabType>
+			<RCSlabType name="Плиты покрытия"></RCSlabType>
+		</RCProduct>
+		<RCProduct name="Балка"></RCProduct>
+		<RCProduct name="Вентиляционный блок"></RCProduct>
+		<RCProduct name="Диафрагма жёсткости"></RCProduct>
+		<RCProduct name="Кабельный блок"></RCProduct>
+		<RCProduct name="Колонна"></RCProduct>
+		<RCProduct name="Лежень"></RCProduct>
+		<RCProduct name="Лоток"></RCProduct>
+		<RCProduct name="Опорная подушка"></RCProduct>
+		<RCProduct name="Панель"></RCProduct>
+		<RCProduct name="Перемычка"></RCProduct>
+		<RCProduct name="Приставка"></RCProduct>
+		<RCProduct name="Прогон"></RCProduct>
+		<RCProduct name="Ригель"></RCProduct>
+		<RCProduct name="Стенка">
+			<RCWallType name="Откосная"></RCWallType>
+			<RCWallType name="Портальная"></RCWallType>
+		</RCProduct>
+		<RCProduct name="Столбик"></RCProduct>
+		<RCProduct name="Труба"></RCProduct>
+		<RCProduct name="Утяжелитель"></RCProduct>
+		<RCProduct name="Фундаментный блок"></RCProduct>
+		<RCProduct name="Шахта лифта"></RCProduct>
+		<RCProduct name="Элемент коллектора"></RCProduct>
+		<RCProduct name="Элемент колодца">
+			<RCElementType name="Днище"></RCElementType>
+			<RCElementType name="Кабельный колодец"></RCElementType>
+			<RCElementType name="Кольцо"></RCElementType>
+			<RCElementType name="Кольцо горловины"></RCElementType>
+			<RCElementType name="Крышка"></RCElementType>
+			<RCElementType name="Телефонный колодец"></RCElementType>
+		</RCProduct>
+		<RCProduct name="Элемент мостовой конструкции"></RCProduct>
+		<RCProduct name="Другое"></RCProduct>
+	</GoodsSubType>
+	<GoodsSubType name="Сваи">
+		<PileType name="Буронабивная"></PileType>
+		<PileType name="Винтовая"></PileType>
+		<PileType name="Забивная"></PileType>
+		<PileType name="Шпунтовая"></PileType>
+		<PileType name="Наконечник для сваи"></PileType>
+		<PileType name="Оголовок для сваи"></PileType>
+		<PileType name="Другой"></PileType>
+		<PileMaterial name="Дерево"></PileMaterial>
+		<PileMaterial name="Железобетон"></PileMaterial>
+		<PileMaterial name="Металл"></PileMaterial>
+	</GoodsSubType>
+</BuildingMaterials>

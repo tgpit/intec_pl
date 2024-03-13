@@ -1,0 +1,37 @@
+<?php
+
+$MESS['title'] = 'Генераторы условий фильтра';
+$MESS['filter.fields.id'] = 'ID';
+$MESS['filter.fields.name'] = 'Наименование';
+$MESS['list.errors.generate'] = 'Ошибка генерации условий при запуске генератора "#name#"';
+$MESS['list.actions.add'] = 'Добавить';
+$MESS['list.actions.delete'] = 'Удалить';
+$MESS['list.actions.generate'] = 'Генерировать условия';
+$MESS['list.headers.id'] = 'ID';
+$MESS['list.headers.name'] = 'Наименование';
+$MESS['list.headers.conditionActive'] = 'Активность условия';
+$MESS['list.headers.conditionName'] = 'Наименование условия';
+$MESS['list.headers.conditionSearchable'] = 'Условие участвует в поиске';
+$MESS['list.headers.conditionIndexing'] = 'Условие индексируется';
+$MESS['list.headers.conditionStrict'] = 'Строгое условие';
+$MESS['list.headers.conditionRecursive'] = 'Рекурсивное условие';
+$MESS['list.headers.conditionPriority'] = 'Приоритет условия';
+$MESS['list.headers.conditionFrequency'] = 'Частота изменения условия';
+$MESS['list.headers.conditionMetaTitle'] = 'Meta заголовок условия';
+$MESS['list.headers.conditionMetaKeywords'] = 'Meta ключевые слова условия';
+$MESS['list.headers.conditionMetaDescription'] = 'Meta описание условия';
+$MESS['list.headers.conditionMetaSearchTitle'] = 'Заголовок условия в поиске';
+$MESS['list.headers.conditionMetaPageTitle'] = 'Заголовок страницы условия';
+$MESS['list.headers.conditionMetaBreadcrumbName'] = 'Наименование в хлебных крошках условия';
+$MESS['list.headers.conditionMetaDescriptionTop'] = 'Верхнее описание условия';
+$MESS['list.headers.conditionMetaDescriptionBottom'] = 'Нижнее описание условия';
+$MESS['list.headers.conditionMetaDescriptionAdditional'] = 'Дополнительное описание условия';
+$MESS['list.headers.sort'] = 'Сортировка';
+$MESS['list.rows.actions.edit'] = 'Редактировать';
+$MESS['list.rows.actions.generate'] = 'Генерировать условия';
+$MESS['list.rows.actions.delete'] = 'Удалить';
+$MESS['list.rows.actions.delete.confirm'] = 'Вы действительно хотите удалить генератор условий?';
+$MESS['list.rows.answers.unset'] = 'Не установлено';
+$MESS['list.rows.answers.yes'] = 'Да';
+$MESS['list.rows.answers.no'] = 'Нет';
+$MESS['list.navigation.title'] = 'Генераторы условий';

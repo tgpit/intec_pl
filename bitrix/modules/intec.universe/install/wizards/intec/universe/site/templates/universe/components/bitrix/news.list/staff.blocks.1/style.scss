@@ -1,0 +1,244 @@
+$namespace: 'bitrix';
+$component: 'news-list';
+$template: 'staff-1';
+
+$color-black-1: #1B1E25;
+$color-black-2:#404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-gray-4: #F2F2F2;
+$color-yellow: #F4BB28;
+$color-red: #E05757;
+
+$section: #{$component}-section;
+$item: #{$component}-item;
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+@mixin user-select ($select) {
+  -webkit-user-select: $select;
+  -moz-user-select: $select;
+  -ms-user-select: $select;
+  user-select: $select;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$section} {
+    & + .#{$section} {
+      margin-top: 40px;
+    }
+  }
+  .#{$section}-name {
+    font-size: 18px;
+    line-height: 18px;
+    color: $color-black-2;
+
+    & + .#{$section}-description {
+      margin-top: 24px;
+    }
+  }
+  .#{$section}-description {
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-gray-1;
+  }
+  .#{$section}-items {
+    margin-top: 32px;
+  }
+
+  .#{$item}-container {
+    position: relative;
+    height: 100%;
+    background-color: #FFF;
+    padding-top: 100%;
+    border: 1px solid $color-gray-4;
+    overflow: hidden;
+    @include border-radius(3px);
+    @include transition(box-shadow, 0.4s);
+
+    &:hover {
+      -webkit-box-shadow: 0px 16px 32px rgba(27, 30, 37, 0.08);
+      -moz-box-shadow: 0px 16px 32px rgba(27, 30, 37, 0.08);
+      box-shadow: 0px 16px 32px rgba(27, 30, 37, 0.08);
+    }
+  }
+  .#{$item}-picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    padding-top: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .#{$item}-text {
+    position: relative;
+    height: 100%;
+    z-index: 2;
+  }
+  .#{$item}-text-content {
+    position: relative;
+    padding-top: 28px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #FFF;
+  }
+  .#{$item}-text-base {
+    padding-bottom: 30px;
+  }
+  .#{$item}-text-additional {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .#{$item}-text-additional-container {
+    padding-top: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .#{$item}-text-additional-button-container {
+    padding-top: 24px;
+  }
+  .#{$item}-text-additional-button {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    cursor: pointer;
+    @include user-select(none);
+    @include transition(background-color, 0.4s);
+    z-index: 3;
+  }
+  .#{$item}-position {
+    font-size: 14px;
+    line-height: 20px;
+    color: $color-gray-2;
+    @extend %item-position-name;
+
+    & + .#{$item}-name {
+      margin-top: 4px;
+    }
+  }
+  .#{$item}-name {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: $color-black-2;
+    text-decoration: none;
+    @extend %item-position-name;
+    @extend %transition-color;
+  }
+  .#{$item}-contact {
+    & + .#{$item}-contact {
+      margin-top: 8px;
+    }
+  }
+  .#{$item}-contact-icon {
+    font-size: 0;
+
+    svg {
+      display: inline-block;
+      width: 16px;
+      height: auto;
+      max-height: 100%;
+    }
+    path {
+      stroke: $color-gray-2;
+    }
+  }
+  .#{$item}-contact-value {
+    a {
+      font-size: 14px;
+      line-height: 20px;
+      color: $color-black-2;
+      text-decoration: none;
+      @include webkit-box(1, 20);
+      @extend %transition-color;
+    }
+  }
+  .#{$item}-social {
+    display: block;
+    font-size: 0;
+
+    path {
+      fill: $color-gray-2;
+      @include transition(fill, 0.4s);
+    }
+  }
+
+  %item-position-name {
+    @include webkit-box(2, 20);
+  }
+  %transition-color {
+    @include transition(color, 0.4s);
+  }
+
+  [data-expanded='true'] {
+    .#{$item}-text-content {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .#{$item}-text-base {
+      @include transition(padding-bottom, 0.2s);
+    }
+    .#{$item}-text-additional {
+      opacity: 1;
+      pointer-events: all;
+      @include transition(opacity, 0.15s);
+      -webkit-transition-delay: 0.2s;
+      -moz-transition-delay: 0.2s;
+      -ms-transition-delay: 0.2s;
+      -o-transition-delay: 0.2s;
+      transition-delay: 0.2s;
+    }
+  }
+  [data-form-ask='false'] {
+    .#{$item}-text-additional-container {
+      &:last-child {
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  .#{$component}-pagination-top {
+    margin-bottom: 32px;
+  }
+  .#{$component}-pagination-bottom {
+    margin-top: 32px;
+  }
+}

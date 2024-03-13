@@ -1,0 +1,77 @@
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-footer {
+  font-size: 0;
+  margin-top: 32px;
+}
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-item {
+  position: relative;
+  cursor: pointer;
+}
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-item-content {
+  position: relative;
+  z-index: 1;
+}
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-item-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.65);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-item-overlay-icon svg path {
+  stroke: #FFF;
+}
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-item-picture {
+  min-height: 230px;
+  padding-top: 56.25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-item-picture[data-lazyload-use=true] {
+  background-color: #F2F2F2;
+}
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-item:hover .photo-section-item-overlay {
+  opacity: 1;
+}
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-back {
+  display: inline-block;
+}
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-back-icon svg path {
+  stroke: #808080;
+}
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-back-content {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #525458;
+  text-decoration: none;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-items, .ns-bitrix.c-photo-section.c-photo-section-default-1 .photo-section-back {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

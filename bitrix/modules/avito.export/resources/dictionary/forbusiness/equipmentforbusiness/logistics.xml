@@ -1,0 +1,99 @@
+<Root>
+    <GoodsSubType name="Контейнеры">
+        <ContainerType name="Морские">
+            <SeaContType name="45 футов"/>
+            <SeaContType name="40 футов"/>
+            <SeaContType name="30 футов"/>
+            <SeaContType name="20 футов"/>
+            <SeaContType name="10 футов"/>
+            <SeaContType name="5 тонн"/>
+            <SeaContType name="3 тонны"/>
+        </ContainerType>
+        <ContainerType name="Рефрижераторные">
+            <ReeferContType name="45 футов"/>
+            <ReeferContType name="40 футов"/>
+            <ReeferContType name="30 футов"/>
+            <ReeferContType name="20 футов"/>
+            <ReeferContType name="10 футов"/>
+            <ReeferContType name="5 тонн"/>
+            <ReeferContType name="3 тонны"/>
+        </ContainerType>
+        <ContainerType name="Специальные" />
+        <ContainerType name="Танк-контейнеры">
+            <TankContClass name="Т1-Т6"/>
+            <TankContClass name="Т7-Т10"/>
+            <TankContClass name="Т11-Т22"/>
+            <TankContClass name="Т50"/>
+            <TankContType name="45 футов"/>
+            <TankContType name="40 футов"/>
+            <TankContType name="30 футов"/>
+            <TankContType name="20 футов"/>
+            <TankContType name="10 футов"/>
+            <TankContType name="5 тонн"/>
+            <TankContType name="3 тонны"/>
+        </ContainerType>
+    </GoodsSubType>
+    <GoodsSubType name="Грузоподъёмное">
+        <LiftingType name="Тележки и рохли">
+            <CartType name="Гидравлические"/>
+            <CartType name="Ручные"/>
+            <CartType name="Электрические и самоходные"/>
+            <CartType name="Запчасти для тележек"/>
+            <CartType name="Другие тележки"/>
+        </LiftingType>
+        <LiftingType name="Штабелеры">
+            <StackerType name="Гидравлические"/>
+            <StackerType name="Электрические и самоходные"/>
+            <StackerType name="Ричтраки"/>
+            <StackerType name="Ручные"/>
+            <StackerType name="Запчасти для штабелеров"/>
+        </LiftingType>
+        <LiftingType name="Подъемные столы и платформы">
+            <ElevatorType name="Ножничные подъемники"/>
+            <ElevatorType name="Подъемные столы"/>
+            <ElevatorType name="Роликовые платформы поворотные"/>
+            <ElevatorType name="Роликовые платформы подкатные"/>
+            <ElevatorType name="Консольные"/>
+        </LiftingType>
+        <LiftingType name="Подвесные механизмы">
+            <WinchType name="Лебедки"/>
+            <WinchType name="Тали и тельферы"/>
+        </LiftingType>
+        <LiftingType name="Погрузчики"/>
+        <LiftingType name="Такелаж">
+            <TakelazhType name="Стальные канаты, тросы"/>
+            <TakelazhType name="Стропы"/>
+            <TakelazhType name="Цепи"/>
+            <TakelazhType name="Блоки такелажные"/>
+        </LiftingType>
+        <LiftingType name="Краны и балки">
+            <CraneType name="Башенный краны"/>
+            <CraneType name="Козловой кран"/>
+            <CraneType name="Кран балка опорная"/>
+            <CraneType name="Кран балка подвесная"/>
+            <CraneType name="Кран консольный"/>
+            <CraneType name="Кран мостовой"/>
+            <CraneType name="Краны гидравлические"/>
+            <CraneType name="Опорно-концевые балки"/>
+        </LiftingType>
+        <LiftingType name="Захваты">
+            <GrabType name="Вакуумный"/>
+            <GrabType name="Вертикальные"/>
+            <GrabType name="Горизонтальные"/>
+            <GrabType name="Для бочек"/>
+            <GrabType name="Для кабеля"/>
+            <GrabType name="Для леса"/>
+            <GrabType name="Другие захваты"/>
+            <GrabType name="Магнитные"/>
+            <GrabType name="Торцевой"/>
+        </LiftingType>
+    </GoodsSubType>
+    <GoodsSubType name="Склады и хранение">
+        <StorageType name="Резервуары и ёмкости"/>
+        <StorageType name="Стеллажи"/>
+        <StorageType name="Контейнеры для хранения"/>
+        <StorageType name="Ангары"/>
+        <StorageType name="Ящики и коробки"/>
+        <StorageType name="Мезонин"/>
+    </GoodsSubType>
+</Root>

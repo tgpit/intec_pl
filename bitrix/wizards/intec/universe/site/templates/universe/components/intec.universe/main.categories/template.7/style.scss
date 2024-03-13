@@ -1,0 +1,102 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'categories';
+$template: 'template-7';
+$item: 'widget-item';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-items {
+    position: relative;
+  }
+  .#{$item}-aligner {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  .#{$item}-wrapper {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    @include transition(0.35s, box-shadow);
+    z-index: 1;
+  }
+  .#{$item}-picture {
+    position: relative;
+    padding-top: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    @include transition(.35s, transform);
+
+    &[data-lazyload-use='true'] {
+      background-color: #F2F2F2;
+    }
+  }
+  .#{$item}-name-wrap,
+  .#{$item}-sticker-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+    margin: 10px;
+  }
+  .#{$item}-name-wrap {
+    z-index: 3;
+  }
+  .#{$item}-name {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    color: #404040;
+    padding: 8px 16px;
+    background-color: #FFF;
+    @include border-radius(2px);
+    @include box-shadow(0, 4px, 10px, 0, rgba(0, 0, 0, 0.07));
+  }
+  .#{$item}-sticker-wrap {
+    z-index: 2;
+  }
+  .#{$item}-sticker {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #FFF;
+    padding: 10px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    @include border-radius(5px);
+  }
+  .#{$item}-wrapper:hover {
+    @include box-shadow(0, 4px, 16px, 0, rgba(0, 0, 0, 0.16));
+    z-index: 2;
+
+    .#{$item}-picture {
+      transform: scale(1.1);
+    }
+  }
+  [data-horizontal='left'] {
+    text-align: left;
+  }
+  [data-horizontal='center'] {
+    text-align: center;
+  }
+  [data-horizontal='right'] {
+    text-align: right;
+  }
+  [data-vertical='top'] {
+    vertical-align: top;
+  }
+  [data-vertical='middle'] {
+    vertical-align: middle;
+  }
+  [data-vertical='bottom'] {
+    vertical-align: bottom;
+  }
+}

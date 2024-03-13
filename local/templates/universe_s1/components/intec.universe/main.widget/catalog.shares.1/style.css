@@ -1,0 +1,92 @@
+.widget.c-widget.c-widget-catalog-shares-1 {
+  display: block;
+  padding-top: 30px;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .widget-header {
+  margin-bottom: 32px;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1B1E25;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-status {
+  margin-bottom: 32px;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-status-item-discount {
+  max-height: 27px;
+  padding: 6px 8px;
+  background: #FFC107;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 12px;
+  color: #404040;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-status-item-timer {
+  max-height: 27px;
+  padding: 6px 8px;
+  margin-left: 8px;
+  background: #FF2D55;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-status-item-timer .shares-delimiter {
+  margin: 0 2px;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-status-item-timer [data-role=seconds] {
+  min-width: 15px;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-status-item-date {
+  margin-left: 18px;
+  font-size: 13px;
+  color: #808080;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-status-item-date-icon {
+  margin-right: 10px;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-text {
+  max-height: 400px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-text .scroll-element.scroll-y .scroll-element_outer {
+  left: 0;
+  width: 3px;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-text .scroll-y {
+  right: 3px;
+  width: 2px;
+  height: 100%;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-text .scroll-bar {
+  border-radius: 4px;
+  background-color: #808080;
+  opacity: 1;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-text .scroll-element_track {
+  background-color: transparent;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-button-wrapper {
+  margin-top: 40px;
+}
+.widget.c-widget.c-widget-catalog-shares-1 .shares-button-wrapper .shares-button {
+  padding: 23px 40px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */

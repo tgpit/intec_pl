@@ -1,0 +1,186 @@
+$namespace: 'intec-regionality';
+$component: 'regions-select';
+$template: 'template-2';
+$class: #{$component};
+
+@mixin transition ($value...) {
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  -ms-transition: $value;
+  -o-transition: $value;
+  transition: $value;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: inline-block;
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+
+  .#{$class}-region {
+    display: block;
+    cursor: pointer;
+
+    @include transition(color 0.35s);
+
+    &:hover {
+      color: #868686;
+    }
+  }
+  .#{$class}-region.region-select-opened {
+    .#{$class}-region-icon {
+        transform: rotate(180deg);
+    }
+  }
+
+  .#{$class}-region-icon {
+    display: inline-block;
+    font-size: 0.8em;
+    line-height: 1;
+    @include transition(transform 0.3s);
+  }
+
+  .#{$class}-region-text {}
+
+  .#{$class}-dialog {
+    display: none;
+    position: absolute;
+    left: -25px;
+    margin-top: 10px;
+    z-index: 10;
+  }
+
+  .#{$class}-dialog-regions {
+    display: block;
+    min-width: 200px;
+    max-height: 275px;
+    background: #ffffff;
+    box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .#{$class}-dialog-region {
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid #f2f2f2;
+    @include transition(background 0.35s);
+
+    &:last-child {
+      border-bottom: none;
+    }
+    &:hover {
+      cursor: pointer;
+      background: #fbfcfd;
+    }
+    &-current {
+      cursor: auto !important;
+      &:hover {
+        background: #ffffff !important;
+      }
+    }
+  }
+  .#{$class}-dialog-region-selector {
+    color: #404040;
+    font-size: 12px;
+    line-height: 14px;
+
+    &-current {
+      color: #b0b0b0;
+    }
+  }
+  .#{$class}-question {
+    display: none;
+  }
+}
+
+.#{$class}-question-popup.#{$class}-question-popup-default {
+  position: fixed!important;
+  padding: 0;
+  border-radius: 10px;
+  top: 70px!important;
+
+  .#{$class}-question {
+    display: none;
+    background-color: #fff;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    z-index: 10;
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .#{$class}-question-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #666666;
+    margin: 25px 20px;
+  }
+  .#{$class}-question-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 25px 20px;
+    margin-bottom: 35px;
+  }
+
+  .#{$class}-question-buttons {
+    font-size: 0;
+    border-top: 1px solid #DCDCDC;
+  }
+
+  .#{$class}-question-button {
+    display: inline-block;
+    width: 50%;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    padding: 16px 15px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333;
+    margin-top: -1px;
+
+    @include transition(color 0.35s, background-color 0.35s);
+
+    &[data-role="question.yes"] {
+      color: #fff;
+    }
+
+    &[data-role="question.no"]:hover {
+      background: #f5f5f5;
+    }
+  }
+
+  .#{$class}-question-close {
+    position: absolute;
+    top: 23px;
+    right: 24px;
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  @media all and (max-width: 768px) {
+    &.popup-window[style*="block"]{
+      display: none!important;
+    }
+  }
+}

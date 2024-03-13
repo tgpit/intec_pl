@@ -1,0 +1,132 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'product-timer';
+$template: 'template-3';
+$item: 'widget-timer-item';
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .widget-date-end {
+    display: none;
+  }
+
+  .widget-time-wrapper {}
+
+  .widget-quantity-wrapper {}
+
+  .widget-title {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+
+  .widget-time-header,
+  .widget-quantity-header {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #404040;
+    word-break: break-all;
+    max-width: 110px;
+
+    @include webkit-box(2, 17);
+  }
+
+  .widget-timer-items {
+    display: inline-block;
+  }
+
+  .#{$item} {
+    padding: 6px 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    max-width: 65px;
+    min-width: 50px;
+
+    @include border-radius(2px);
+
+    &.#{$item}-quantity {
+      background-color: #FBCD56;
+    }
+  }
+
+  .#{$item}-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #404040;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .#{$item}-title-delimeter {
+    display: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #404040;
+  }
+
+  .#{$item}-description {
+    font-weight: 500;
+    margin-top: 2px;
+    font-size: 12px;
+    color: #808080;
+    overflow: hidden;
+  }
+
+  .#{$item}-description-mobile {
+    display: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #808080;
+  }
+
+  @media all and (max-width: 600px) {
+
+    .#{$item}-title {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 14px;
+      line-height: 16px;
+      min-width: 24px;
+    }
+
+    .#{$item} {
+      width: 52px;
+      height: 29px;
+      padding: 4px 2px;
+      background: #F2F2F2;
+
+      &.#{$item}-quantity {
+        width: unset;
+
+        .#{$item}-title {
+          display: inline-block;
+          max-width: 60px;
+          padding: 0 5px;
+        }
+      }
+    }
+
+    .#{$item}-title-delimeter {
+      display: inline;
+    }
+
+    .#{$item}-description {
+      display: none;
+    }
+
+    .#{$item}-description-mobile {
+      display: inline;
+    }
+      }
+}

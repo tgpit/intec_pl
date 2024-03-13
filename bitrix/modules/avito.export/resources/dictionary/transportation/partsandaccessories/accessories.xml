@@ -1,0 +1,55 @@
+<Root>
+	<ProductType name="Щётки стеклоочистителя"/>
+	<ProductType name="Защита и декор">
+		<AccessoryType name="Для фар, порогов и бамперов" />
+		<AccessoryType name="Наклейки, шильдики и значки" />
+		<AccessoryType name="Дефлекторы" />
+		<AccessoryType name="Для картера и КПП" />
+		<AccessoryType name="Брызговики и подкрылки" />
+		<AccessoryType name="Рамки номерного знака" />
+		<AccessoryType name="Силовые бамперы и пороги" />
+		<AccessoryType name="Утеплители" />
+		<AccessoryType name="Дополнительный свет" />
+		<AccessoryType name="Шноркели" />
+	</ProductType>
+	<ProductType name="Для салона">
+		<AccessoryType name="Коврики" />
+		<AccessoryType name="Чехлы и накидки" />
+		<AccessoryType name="Ключи и брелоки" />
+		<AccessoryType name="Шторки" />
+		<AccessoryType name="Сумки и органайзеры" />
+		<AccessoryType name="Оплётка на руль" />
+		<AccessoryType name="Подлокотники" />
+		<AccessoryType name="Держатели для телефона" />
+		<AccessoryType name="Ручки КПП" />
+		<AccessoryType name="Автохолодильники" />
+		<AccessoryType name="Другое" />
+	</ProductType>
+	<ProductType name="Для колёс">
+		<AccessoryType name="Болты и крепления" />
+		<AccessoryType name="Датчики давления" />
+		<AccessoryType name="Центровочные кольца и проставки для дисков" />
+		<AccessoryType name="Цепи противоскольжения" />
+	</ProductType>
+	<ProductType name="Для мото- и водного транспорта"/>
+	<ProductType name="Отопительное оборудование"/>
+	<ProductType name="Набор автомобилиста">
+		<AccessoryType name="Троссы и лебёдки" />
+		<AccessoryType name="Зарядные устройства" />
+		<AccessoryType name="Компрессоры, насосы и манометры" />
+		<AccessoryType name="Канистры и воронки" />
+		<AccessoryType name="Готовый комплект автомобилиста" />
+		<AccessoryType name="Знак аварийной остановки" />
+		<AccessoryType name="Домкраты" />
+		<AccessoryType name="Аптечки" />
+		<AccessoryType name="Огнетушители" />
+		<AccessoryType name="Алкотестеры" />
+		<AccessoryType name="Светоотражающие жилеты" />
+	</ProductType>
+	<ProductType name="Уход">
+		<AccessoryType name="Чехлы-тенты" />
+		<AccessoryType name="Мойки высокого давления" />
+		<AccessoryType name="Автопылесосы" />
+		<AccessoryType name="Щётки и скребки" />
+	</ProductType>
+</Root>

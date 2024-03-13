@@ -1,0 +1,126 @@
+$namespace: 'bitrix';
+$component: 'main-pagenavigation';
+$template: 'lazy-1';
+$class: 'pagenavigation';
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin user-select($select) {
+  -webkit-user-select: $select;
+  -moz-user-select: $select;
+  -ms-user-select: $select;
+  user-select: $select;
+}
+@mixin transform-rotate($deg) {
+  -webkit-transform: rotate(#{$deg}deg);
+  -moz-transform: rotate(#{$deg}deg);
+  -ms-transform: rotate(#{$deg}deg);
+  -o-transform: rotate(#{$deg}deg);
+  transform: rotate(#{$deg}deg);
+}
+@mixin transition($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+@keyframes c-#{$component}-#{$template} {
+  from {
+    @include transform-rotate(0);
+  }
+  to {
+    @include transform-rotate(360);
+  }
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$class}-button {
+    padding: 14px;
+    border: 1px solid;
+    overflow: hidden;
+    @include border-radius(2px);
+    @include user-select(none);
+    @include transition (#{background-color, border-color}, 0.4s);
+  }
+  .#{$class}-button-content {
+    font-size: 0;
+    text-align: center;
+    margin: -4px;
+  }
+  .#{$class}-button-part {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 4px;
+    @include transition(opacity, 0.4s);
+  }
+  .#{$class}-button-icon {
+    svg {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      max-width: 18px;
+      max-height: 18px;
+      @include transition(#{transform}, 0.4s);
+    }
+  }
+  .#{$class}-button-name {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+  }
+  [data-state='active'] {
+    background-color: #FFF;
+    border-color: #F2F2F2;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #FBFCFD;
+      border-color: #FBFCFD;
+
+      .#{$class}-button-icon {
+        svg {
+          @include transform-rotate(180);
+        }
+      }
+    }
+  }
+  [data-state='disabled'], [data-state='processing'] {
+    background-color: #FBFCFD;
+    border-color: #FBFCFD;
+    cursor: not-allowed;
+  }
+  [data-state='disabled'] {
+    .#{$class}-button-part {
+      opacity: 0.5;
+    }
+  }
+  [data-state='processing'] {
+    .#{$class}-button-icon {
+      svg {
+        -webkit-animation-name: c-#{$component}-#{$template};
+        -moz-animation-name: c-#{$component}-#{$template};
+        -o-animation-name: c-#{$component}-#{$template};
+        animation-name: c-#{$component}-#{$template};
+        -webkit-animation-duration: 0.8s;
+        -moz-animation-duration: 0.8s;
+        -o-animation-duration: 0.8s;
+        animation-duration: 0.8s;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+        -o-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+      }
+    }
+  }
+}

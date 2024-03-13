@@ -1,0 +1,808 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-element';
+$template: 'services-default-4';
+$class: #{$component};
+
+$color-white-1: #FFFFFF;
+$color-white-2: rgba(255, 255, 255, 0.56);
+$color-black-1: #1B1E25;
+$color-black-2:#404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-gray-4: #F2F2F2;
+$color-gray-5: #DCDCDC;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .#{$class}-blocks {}
+
+  .#{$class}-block {
+    margin-top: 80px;
+
+    &:first-child,
+    &[data-type="sticky.both"] + .#{$class}-block[data-type="sticky.both"],
+    &[data-type="sticky.both"] + .#{$class}-block[data-type="sticky.top"],
+    &[data-type="sticky.bottom"] + .#{$class}-block[data-type="sticky.both"],
+    &[data-type="sticky.bottom"] + .#{$class}-block[data-type="sticky.top"] {
+      margin-top: 0;
+    }
+  }
+
+  /*** banner ***/
+  .#{$class}-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    &[data-wide='false'] {
+      padding: 0 30px;
+    }
+
+    .#{$class}-banner-fade {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(0deg, rgba(47, 51, 52, 0.64), rgba(47, 51, 52, 0.64));
+    }
+
+    .#{$class}-banner-wrapper {
+      height: 100%;
+    }
+
+    .#{$class}-banner-wrapper-2 {
+      height: 100%;
+    }
+
+    .#{$class}-banner-content {
+      position: relative;
+      height: 100%;
+    }
+
+    .#{$class}-banner-information {
+      padding: 64px 0;
+      position: relative;
+      z-index: 1;
+      align-self: center;
+    }
+
+    .#{$class}-banner-overhead {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 100%;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: $color-black-1;
+      margin-bottom: 16px;
+    }
+
+    .#{$class}-banner-header {
+      display: inline-block;
+      max-width: 740px;
+      margin: 0;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 50px;
+      color: $color-black-1;
+      @include box-sizing(border-box);
+    }
+
+    .#{$class}-banner-text {
+      max-width: 740px;
+      overflow: hidden;
+      display: block;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 30px;
+      color: $color-black-2;
+      margin-top: 24px;
+    }
+
+    .#{$class}-banner-purchase {
+      margin-top: 40px;
+
+      .#{$class}-banner-purchase-caption {
+        font-size: 13px;
+      }
+
+      .#{$class}-banner-purchase-holder {
+        white-space: nowrap;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 24px;
+        color: $color-black-1;
+      }
+      .#{$class}-banner-purchase-price {
+        font-weight: 600;
+      }
+      .#{$class}-banner-purchase-price-old {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        text-decoration-line: line-through;
+        text-decoration-style: solid;
+        color: $color-gray-2;
+      }
+
+      .#{$class}-banner-purchase-price-old + .#{$class}-banner-purchase-price {
+        margin-top: 8px;
+      }
+
+      .#{$class}-banner-purchase-button {
+        display: block;
+        padding: 23px 40px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $color-white-1;
+        cursor: pointer;
+        text-decoration: none;
+
+        @include border-radius(2px);
+      }
+    }
+
+    .#{$class}-banner-picture-wrap {
+      width: 50%;
+      height: 100%;
+      position: absolute;
+    }
+
+    .#{$class}-banner-picture {
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .#{$class}-banner-background {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: none;
+    }
+
+    .#{$class}-banner-additional-wrap {
+      padding-top: 26px;
+      padding-bottom: 64px;
+    }
+    .#{$class}-banner-additional-item,
+    .#{$class}-banner-additional-item-info {
+      height: 100%;
+    }
+    .#{$class}-banner-additional-item-icon {
+      fill: $color-black-1;
+
+      * {
+        fill: inherit
+      }
+    }
+    .#{$class}-banner-additional-item-part {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.5;
+      text-align: center;
+      color: $color-black-1;
+      margin: 0 18px;
+    }
+
+    &[data-split="false"] {
+      .#{$class}-banner-additional-item-icon {
+        fill: $color-white-1;
+      }
+      .#{$class}-banner-overhead {
+        color: $color-white-1;
+      }
+      .#{$class}-banner-header {
+        color: $color-white-1;
+      }
+      .#{$class}-banner-text {
+        color: $color-gray-5;
+      }
+      .#{$class}-banner-purchase-holder {
+        color: $color-white-1;
+      }
+      .#{$class}-banner-purchase-price-old {
+        color: $color-white-2;
+      }
+      .#{$class}-banner-additional-item-part {
+        color: $color-white-1;
+      }
+    }
+
+    @media all and (max-width: 1000px) {
+      .#{$class}-banner-picture-wrap {
+        display: none;
+      }
+
+      .#{$class}-banner-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+      }
+    }
+
+    @media all and (max-width: 600px) {
+      .#{$class}-banner-header {
+        font-size: 22px;
+        line-height: 34px;
+      }
+      .#{$class}-banner-information {
+        padding: 42px 0;
+      }
+      .#{$class}-banner-text {
+        font-size: 15px;
+        line-height: 24px;
+      }
+    }
+
+    &[data-split="true"] {
+      .#{$class}-banner-overhead {
+        display: none;
+      }
+      .#{$class}-banner-header {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+        color: $color-black-1;
+      }
+
+      .#{$class}-banner-information {
+        padding: 56px 20px;
+        margin-left: 44px;
+      }
+
+      .#{$class}-banner-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: $color-black-2;
+        margin-top: 16px;
+      }
+
+      .#{$class}-banner-purchase {
+        margin-top: 32px;
+      }
+
+      .#{$class}-banner-purchase-holder {
+        color: $color-black-1;
+      }
+      .#{$class}-banner-purchase-price-old {
+        color: $color-gray-2;
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+      @media all and (max-width: 1000px) {
+        padding: 20px 0;
+        position: relative;
+        overflow: hidden;
+
+        .#{$class}-banner-information {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  /*** icons.1 ***/
+  .#{$class}-icons {
+    padding: 60px 0;
+    background: #FBFCFD;
+
+    .widget.c-advantages.c-advantages-template-10 {
+      .widget-item-picture {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 16px;
+      }
+
+      .widget-item-name {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #404040;
+        text-align: center;
+      }
+
+      .widget-item-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #808080;
+        margin-top: 8px;
+      }
+    }
+  }
+
+  /*** description.1 ***/
+  .#{$class}-description {
+    margin-top: 80px;
+
+    .#{$class}-description-header {
+      color: $color-black-1;
+    }
+    .#{$class}-description-text {
+      color: $color-black-2;
+    }
+
+    .#{$class}-description-header + .#{$class}-description-text {
+      margin-top: 24px;
+    }
+
+    &[data-theme="dark"] {
+      margin-top: 0;
+      background: #404040;
+      padding: 56px 0;
+
+      .#{$class}-description-header .widget-title,
+      .#{$class}-description-text {
+        color: $color-white-1;
+      }
+    }
+  }
+
+  /*** stages.1 ***/
+  .#{$class}-stages-1 {
+
+    .widget.c-stages.c-stages-template-3 {
+      background-color: #fff !important;
+      padding: 0;
+
+      .widget-item-picture {
+        height: 40px;
+        width: 40px;
+      }
+
+      .widget-item-name {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-black-1;
+      }
+
+      .widget-item-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        color: #808080;
+      }
+    }
+  }
+
+  /*** properties.1 ***/
+  .#{$class}-properties {
+
+    .#{$class}-properties-header {}
+    .#{$class}-properties-table {}
+
+    .#{$class}-property {
+      background-color: #FBFCFD;
+      @include border-radius(2px);
+
+      .#{$class}-property-name,
+      .#{$class}-property-value {
+        padding: 8px 16px;
+        font-size: 13px;
+        line-height: 18px;
+        color: #111;
+        word-break: break-word;
+      }
+
+      .#{$class}-property-name {
+        color: $color-gray-1;
+      }
+      .#{$class}-property-value {
+        color: $color-black-1;
+        font-weight: 500;
+      }
+    }
+
+    @media all and (max-width: 768px) {
+      .#{$class}-property:nth-child(2n) {
+        background-color: transparent;
+      }
+    }
+
+    @media all and (min-width: 769px) {
+      .#{$class}-property:nth-child(4n-1) {
+        background-color: transparent;
+      }
+      .#{$class}-property:nth-child(4n) {
+        background-color: transparent;
+      }
+    }
+  }
+
+  /*** rates.1 ***/
+  .#{$class}-rates {}
+
+  /*** services.1 ***/
+  .#{$class}-services-1 {
+    .#{$class}-services-header {
+      & + .#{$class}-services-content {
+        margin-top: 25px;
+      }
+    }
+  }
+
+  /*** -stages.2 ***/
+  .#{$class}-stages-2 {
+    &[data-background-use="true"] {
+      background: #FBFCFD;
+      padding: 48px 0;
+    }
+
+    .widget.c-stages.c-stages-template-5 .widget-item-name-text {
+      padding-right: 0;
+    }
+  }
+
+  /*** documents.1 ***/
+  .#{$class}-documents {
+    .#{$class}-documents-header {}
+    .#{$class}-documents-content {
+      padding-left: 1px;
+      padding-top: 1px;
+    }
+
+    .#{$class}-document {
+      display: block;
+      text-decoration: none;
+      margin-left: -1px;
+      margin-top: -1px;
+    }
+
+    .#{$class}-document-wrapper {
+      display: block;
+      position: relative;
+      height: 100%;
+      min-height: 100px;
+      border: 1px solid #f2f2f2;
+      overflow: hidden;
+      cursor: pointer;
+      @include box-sizing(border-box);
+      @include user-select(none);
+      @include transition(350ms, box-shadow);
+
+      &:hover {
+        -webkit-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+        -moz-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+        box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+      }
+    }
+
+    .#{$class}-document-wrapper-2 {
+      margin: 24px;
+      overflow: hidden;
+    }
+
+    .#{$class}-document-name,
+    .#{$class}-document-size {
+      display: block;
+      position: relative;
+      z-index: 1;
+    }
+
+    .#{$class}-document-name + .#{$class}-document-size {
+      margin-top: 8px;
+    }
+
+    .#{$class}-document-name {
+      display: block;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: $color-black-1;
+    }
+
+    .#{$class}-document-size {
+      display: block;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 18px;
+      color: $color-gray-1;
+    }
+
+    .#{$class}-document-extension {
+      display: block;
+      position: absolute;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 32px;
+      color: rgba(242, 242, 242, 0.6);
+      text-transform: uppercase;
+      top: auto;
+      left: auto;
+      bottom: 8px;
+      right: 8px;
+    }
+  }
+
+  /*** form.1 ***/
+  .#{$class}-form {
+    .ask-question-container {
+      margin: 0;
+    }
+  }
+
+  /*** certificates.1 ***/
+  .#{$class}-certificates {
+    .widget-content {
+      padding-bottom: 28px;
+    }
+
+    .widget.c-certificates.c-certificates-template-2 .owl-nav {
+      position: absolute;
+      top: 50%;
+      left: -10px;
+      right: -10px;
+    }
+  }
+
+  /*** staff.1 ***/
+  .#{$class}-staff {}
+
+  /*** faq.1 ***/
+  .#{$class}-faq {
+    .widget.c-faq.c-faq-template-1 {
+      .widget-item {
+        border-color: #f1f1f1;
+      }
+      .widget-item-question-wrapper {
+        font-size: 14px;
+        line-height: 24px;
+        color: $color-black-2;
+        font-weight: 500;
+      }
+      .widget-item-answer-wrapper {
+        font-size: 13px;
+        line-height: 24px;
+      }
+      .widget-item-question {
+        padding: 16px 32px;
+      }
+      .widget-item-question-icon {
+        font-size: 12px;
+        width: 12px;
+        height: 12px;
+        margin-top: -6px;
+      }
+      .widget-item-answer {
+        padding: 24px 40px 32px 40px;
+        background-color: #fff;
+        border-color: #f1f1f1;
+      }
+    }
+  }
+
+  /*** advantages.1 ***/
+  .#{$class}-staff {}
+
+  /*** videos.1 ***/
+  .#{$class}-videos {}
+
+  /*** gallery.1 ***/
+  .#{$class}-gallery {}
+
+  /*** projects.1 ***/
+  .#{$class}-projects {
+    .widget.c-projects.c-projects-template-1 .widget-item-wrapper {
+      height: 180px;
+    }
+  }
+
+  /*** reviews.1 ***/
+  .#{$class}-reviews {
+    .widget.c-reviews.c-reviews-template-16 {
+      .widget-item-description-quote svg path {
+        stroke: #F2C94C!important;
+      }
+
+      .widget-item-wrapper:hover:after {
+        content: " ";
+        display: block;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid;
+        border-top-color: inherit;
+        bottom: -10px;
+        left: 50%;
+        margin-left: -10px;
+      }
+    }
+  }
+
+  /*** products.1 ***/
+  .#{$class}-products {
+    .#{$class}-products-header {
+      & + .#{$class}-products-content {
+        margin-top: 25px;
+      }
+    }
+
+    .#{$class}-products-content {
+      .ns-bitrix.c-catalog-section.c-catalog-section-products-small-1 {
+        &[data-slider=true][data-slider-navigation=true] .catalog-section-items {
+          margin: 0;
+        }
+
+        .owl-item {
+          padding: 0;
+        }
+
+        .intec-ui.intec-ui-control-navigation {
+          top: -63px;
+          right: 0;
+          left: initial;
+          bottom: initial;
+
+          .intec-ui-part-button-left,
+          .intec-ui-part-button-right {
+            position: relative;
+            display: inline-block;
+            top: 0;
+            margin-top: 0;
+            font-size: 10px;
+            color: #808080;
+            width: 40px;
+            height: 40px;
+            line-height: 22px;
+            border: 1px solid #E8E8E8;
+            background: #fff;
+
+            @include border-radius(2px);
+          }
+
+          .intec-ui-part-button-left {
+            left: initial;
+            margin-right: 8px;
+          }
+          .intec-ui-part-button-right {
+            right: initial;
+          }
+
+          @media all and (max-width: 500px) {
+            top: 0;
+            right: -10px;
+            bottom: 0;
+            left: -10px;
+
+            .intec-ui-part-button-left,
+            .intec-ui-part-button-right {
+              top: 50%;
+              margin-top: -20px;
+              position: absolute;
+            }
+
+            .intec-ui-part-button-left {
+              left: 0;
+            }
+            .intec-ui-part-button-right {
+              right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*** services.2 ***/
+  .#{$class}-services-2 {
+    .#{$class}-services-header {
+      & + .#{$class}-services-content {
+        margin-top: 25px;
+      }
+    }
+
+    .#{$class}-services-content {
+      .ns-bitrix.c-catalog-section.c-catalog-section-services-small-1 {
+        &[data-slider=true][data-slider-navigation=true] .catalog-section-items {
+          margin: 0;
+        }
+
+        .owl-item {
+          padding: 0;
+        }
+
+        .intec-ui.intec-ui-control-navigation {
+          top: -63px;
+          right: 0;
+          left: initial;
+          bottom: initial;
+
+          .intec-ui-part-button-left,
+          .intec-ui-part-button-right {
+            position: relative;
+            display: inline-block;
+            top: 0;
+            margin-top: 0;
+            font-size: 10px;
+            color: #808080;
+            width: 40px;
+            height: 40px;
+            line-height: 22px;
+            border: 1px solid #E8E8E8;
+            background: #fff;
+            @include border-radius(2px);
+          }
+
+          .intec-ui-part-button-left {
+            left: initial;
+            margin-right: 8px;
+          }
+          .intec-ui-part-button-right {
+            right: initial;
+          }
+
+          @media all and (max-width: 500px) {
+            top: 0;
+            right: -10px;
+            bottom: 0;
+            left: -10px;
+
+            .intec-ui-part-button-left,
+            .intec-ui-part-button-right {
+              top: 50%;
+              margin-top: -20px;
+              position: absolute;
+            }
+
+            .intec-ui-part-button-left {
+              left: 0;
+            }
+            .intec-ui-part-button-right {
+              right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*** shares.1 ***/
+  .#{$class}-shares {
+    .#{$class}-shares-header {
+      & + .#{$class}-shares-content {
+        margin-top: 25px;
+      }
+    }
+  }
+
+  /*** news.1 ***/
+  .#{$class}-news {}
+
+  /*** brands.1 ***/
+  .#{$class}-brands {
+    background: #FBFCFD;
+    padding: 56px 0;
+  }
+
+}

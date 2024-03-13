@@ -1,0 +1,168 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'reviews';
+$template: 'template-6';
+$item: 'widget-item';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-title-margin {
+    margin-left: 117px;
+    @media (max-width: 500px) {
+      margin-left: 54px;
+    }
+  }
+  .widget-title {
+    overflow: hidden;
+  }
+  .widget-send {
+    color: #808080;
+    padding: 8px 14px;
+    border: 1px solid #E8E8E8;
+    cursor: pointer;
+    @include border-radius(2px);
+    @include user-select(none);
+    @include transition(.35s, (color, border-color));
+  }
+  .widget-send-icon {
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-send-content {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: inherit;
+  }
+  .widget-all {
+    display: block;
+    text-decoration: none;
+  }
+  .widget-all-desktop {
+    display: block;
+    font-size: 10px;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include transition(.35s, color);
+  }
+  .widget-all-mobile {
+    display: none;
+    padding: 6px 7px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+
+  .#{$item}-wrapper {
+    height: 100%;
+  }
+  .#{$item}-picture-wrap {
+    position: relative;
+    z-index: 2;
+  }
+  .#{$item}-picture {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-right: -60px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include border-radius(50%);
+  }
+  .#{$item}-text-wrap {
+    position: relative;
+    z-index: 1;
+  }
+  .#{$item}-text {
+    height: 100%;
+    padding: 40px 32px 40px 95px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    @include border-radius(7px);
+    @include transition(.35s, box-shadow);
+  }
+  .#{$item}-name {
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    @include transition(.35s, color);
+  }
+  .#{$item}-position {
+    font-size: 12px;
+    line-height: 18px;
+    color: #bcbcbc;
+  }
+  .#{$item}-line {
+    width: 30px;
+    border-top: 1px solid;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .#{$item}-description {
+    font-size: 14px;
+    line-height: 26px;
+    color: #606060;
+  }
+  .#{$item}-wrapper {
+    &:hover {
+      .#{$item}-text {
+        @include box-shadow(0, 5px, 15px, 0, rgba(0, 0, 0, 0.2));
+      }
+    }
+  }
+
+  @include breakpoint-768() {
+    .widget-send-content {
+      display: none;
+    }
+  }
+  @include breakpoint-custom(500) {
+    .widget-send {
+      padding: 6px;
+    }
+    .widget-all-desktop {
+      display: none;
+    }
+    .widget-all-mobile {
+      display: block;
+    }
+
+    .#{$item}-picture {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto -20px auto;
+    }
+    .#{$item}-text {
+      text-align: center;
+      padding-top: 40px;
+      padding-left: 20px;
+    }
+    .#{$item}-name {
+      max-width: 275px;
+    }
+    .#{$item}-position {
+      max-width: 250px;
+    }
+    .#{$item}-name,
+    .#{$item}-position,
+    .#{$item}-line {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

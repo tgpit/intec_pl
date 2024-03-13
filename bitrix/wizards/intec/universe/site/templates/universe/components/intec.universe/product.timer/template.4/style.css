@@ -1,0 +1,61 @@
+.widget.c-product-timer.c-product-timer-template-4 {
+  display: block;
+}
+.widget.c-product-timer.c-product-timer-template-4 .widget-timer-item-wrapper {
+  border-radius: 2px;
+  background: #F2F2F2;
+  padding: 6px 8px;
+}
+.widget.c-product-timer.c-product-timer-template-4 .widget-timer-item-wrapper-sale {
+  background: #FBCD56;
+  border-color: #FBCD56;
+}
+.widget.c-product-timer.c-product-timer-template-4 .widget-timer-item-wrapper-2 {
+  height: 100%;
+}
+.widget.c-product-timer.c-product-timer-template-4 .widget-timer-item-separator {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #404040;
+}
+.widget.c-product-timer.c-product-timer-template-4 .widget-date-end {
+  display: none;
+}
+.widget.c-product-timer.c-product-timer-template-4 .widget-timer-item-block {
+  width: 35px;
+}
+.widget.c-product-timer.c-product-timer-template-4 .widget-timer-item-block[data-code=days] {
+  width: auto;
+  max-width: 46px;
+}
+.widget.c-product-timer.c-product-timer-template-4 .widget-timer-item-block-sale {
+  width: auto;
+  max-width: 60px;
+  overflow: hidden;
+}
+.widget.c-product-timer.c-product-timer-template-4 .widget-timer-item-time,
+.widget.c-product-timer.c-product-timer-template-4 .widget-timer-item-sale {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  min-width: 23px;
+  color: #404040;
+}
+.widget.c-product-timer.c-product-timer-template-4 .widget-timer-item-sale {
+  max-width: 60px;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 17px;
+  text-overflow: ellipsis;
+}
+.widget.c-product-timer.c-product-timer-template-4 .widget-timer-item-description {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #808080;
+}
+
+/*# sourceMappingURL=style.css.map */

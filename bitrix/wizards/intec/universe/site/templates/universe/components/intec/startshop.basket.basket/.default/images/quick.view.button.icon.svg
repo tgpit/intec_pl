@@ -1,0 +1,5 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="startshop-basket-cell-picture-quick-view" data-role="quick.view">
+    <circle cx="20" cy="20" r="20" fill="white" fill-opacity="0.78"/>
+    <path d="M12.5981 20.3892C12.4673 20.1467 12.4673 19.8525 12.5981 19.61C14.1748 16.6942 17.0873 14.1667 19.9998 14.1667C22.9123 14.1667 25.8248 16.6942 27.4015 19.6109C27.5323 19.8534 27.5323 20.1475 27.4015 20.39C25.8248 23.3059 22.9123 25.8334 19.9998 25.8334C17.0873 25.8334 14.1748 23.3059 12.5981 20.3892V20.3892Z" stroke="#404040" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M21.7678 18.2322C22.7441 19.2085 22.7441 20.7915 21.7678 21.7678C20.7915 22.7441 19.2085 22.7441 18.2322 21.7678C17.2559 20.7915 17.2559 19.2085 18.2322 18.2322C19.2085 17.2559 20.7915 17.2559 21.7678 18.2322Z" stroke="#404040" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

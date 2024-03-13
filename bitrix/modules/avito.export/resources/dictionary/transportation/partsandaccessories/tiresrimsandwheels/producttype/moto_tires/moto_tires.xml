@@ -1,0 +1,26 @@
+<ProductType>
+	<RimDiameter name="5"></RimDiameter>
+	<RimDiameter name="7"></RimDiameter>
+	<RimDiameter name="8"></RimDiameter>
+	<RimDiameter name="9"></RimDiameter>
+	<RimDiameter name="10"></RimDiameter>
+	<RimDiameter name="11"></RimDiameter>
+	<RimDiameter name="12"></RimDiameter>
+	<RimDiameter name="12"></RimDiameter>
+	<RimDiameter name="13"></RimDiameter>
+	<RimDiameter name="14"></RimDiameter>
+	<RimDiameter name="14"></RimDiameter>
+	<RimDiameter name="15"></RimDiameter>
+	<RimDiameter name="16"></RimDiameter>
+	<RimDiameter name="17"></RimDiameter>
+	<RimDiameter name="18"></RimDiameter>
+	<RimDiameter name="19"></RimDiameter>
+	<RimDiameter name="20"></RimDiameter>
+	<RimDiameter name="21"></RimDiameter>
+	<RimDiameter name="22"></RimDiameter>
+	<RimDiameter name="23"></RimDiameter>
+	<RimDiameter name="24"></RimDiameter>
+	<WheelAxle name="Задняя"></WheelAxle>
+	<WheelAxle name="Любая"></WheelAxle>
+	<WheelAxle name="Передняя"></WheelAxle>
+</ProductType>

@@ -1,0 +1,103 @@
+$component: 'services';
+$template: 'template-9';
+
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-item-wrapper {
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+  .widget-item-picture {
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include border-radius(50%);
+  }
+  .widget-item-name {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    @include transition(color, 0.4s);
+  }
+  .widget-footer-button {
+    color: #2d2d2d !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #fff !important;
+    }
+  }
+  .widget-header {
+    overflow: hidden;
+  }
+  .widget-all-container {
+    display: none;
+  }
+  .widget-all-button {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #808080;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    i {
+      display: none;
+      font-size: 18px;
+    }
+  }
+
+  @media all and (max-width: 550px) {
+    .widget-all-container {
+      display: block;
+    }
+    .widget-title.align-center.widget-title-margin {
+      margin-left: 25px;
+    }
+    .widget-all-container.mobile {
+      text-align: right;
+      width: 25px;
+      max-height: 36px;
+    }
+    .widget-all-container i {
+      display: inline-block;
+    }
+    .widget-footer.mobile,
+    .widget-footer-button.mobile{
+      display: none;
+    }
+    .widget-all-container {
+      width: 25px;
+    }
+  }
+  @media all and (max-width: 768px) {
+    .widget-item-wrapper {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}

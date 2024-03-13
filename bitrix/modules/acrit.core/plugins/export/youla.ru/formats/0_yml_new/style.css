@@ -1,0 +1,55 @@
+/* Hide 'Export parents' */
+#tr_CATEGORIES_EXPORT_PARENTS {
+	display:none!important;
+}
+
+/* Paragraph vertical distance in hints */
+.acrit_exp_avito_hint > p {
+	margin:0;
+}
+.acrit_exp_avito_hint > p + p {
+	margin-top:10px;
+}
+.acrit_exp_avito_hint > p code {
+	word-wrap:break-word;
+}
+
+/* Alternative categories */
+div[data-role="categories-alternative-list"] {
+	display:inline-block;
+	max-width:100%;
+}
+div[data-role="categories-alternative-item"] {
+	margin-bottom:4px;
+	padding:4px 80px 4px 8px;
+	position:relative;
+}
+div[data-role="categories-alternative-item"]:hover {
+	background:#eaeaea;
+}
+div[data-role="categories-alternative-item"]:first-child {
+	display:none;
+}
+div[data-role="categories-alternative-item"]:last-child {
+	margin-bottom:10px;
+}
+div[data-role="categories-alternative-item-name"] {
+	display:block;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+div[data-role="categories-alternative-item-delete"] {
+	right:4px;
+	margin-top:-8px;
+	position:absolute;
+	text-align:right;
+	top:50%;
+	width:70px;
+}
+div[data-role="categories-alternative-item-delete"] a {
+	cursor:pointer;
+}
+div[data-role="categories-alternative-item-sample"] {
+	display:none;
+}

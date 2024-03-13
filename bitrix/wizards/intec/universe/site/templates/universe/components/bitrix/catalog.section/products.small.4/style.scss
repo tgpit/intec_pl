@@ -1,0 +1,250 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-section';
+$template: 'products-small-4';
+$class: #{$component};
+$item: #{$component}-item;
+
+$color-black-1: #1B1E25;
+$color-black-2:#404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-gray-4: #F2F2F2;
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$item}-container {
+    position: relative;
+    margin-top: -1px;
+    margin-left: -1px;
+    background-color: #FFF;
+    border: 1px solid $color-gray-4;
+    z-index: 1;
+
+    @include transition(0.4s, (border-color, box-shadow));
+
+    &:hover {
+      border-color: #FFF;
+      z-index: 2;
+
+      @include box-shadow(0, 8px, 32px, 0, rgba(27, 30, 37, 0.08));
+    }
+  }
+  .#{$item} {
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FFF;
+  }
+  .#{$item}-picture {
+    display: block;
+    font-size: 0;
+    text-align: center;
+    text-decoration: none;
+  }
+  .#{$item}-name {
+    font-size: 13px;
+    line-height: 18px;
+
+    @include webkit-box(2, 18);
+
+    a {
+      color: $color-gray-1;
+      text-decoration: none;
+
+      @include transition(0.4s, color);
+    }
+  }
+  .#{$item}-price {
+    font-size: 0;
+    padding-top: 8px;
+    margin: -2px -6px;
+
+    & > div {
+      margin: 2px 6px;
+    }
+  }
+  .#{$item}-price-current {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    color: $color-black-2;
+
+    & > span {
+      @include webkit-box(1, 16);
+    }
+  }
+  .#{$item}-price-discount {
+    font-size: 12px;
+    line-height: 12px;
+    color: $color-gray-2;
+    text-decoration: line-through;
+
+    & > span {
+      @include webkit-box(1, 12);
+    }
+  }
+  .#{$item}-message {
+    padding-top: 10px;
+  }
+  .#{$item}-button {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 8px 12px;
+    border-width: 1px;
+  }
+  &[data-grid='3'] {
+    .#{$item} {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .#{$item}-picture {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  &[data-grid='2'],
+  &[data-grid='4'] {
+    .#{$item} {
+      padding-top: 22px;
+      padding-bottom: 22px;
+    }
+    .#{$item}-picture {
+      width: 56px;
+      height: 56px;
+    }
+  }
+  &[data-slider='false'] {
+    .#{$item}-price {
+      & > div {
+        display: inline-block;
+      }
+    }
+  }
+  &[data-slider='true'] {
+    .#{$component}-content {
+      position: relative;
+    }
+    .#{$component}-items {
+      position: relative;
+      z-index: 1;
+
+      .owl-item {
+        padding: 1px;
+      }
+    }
+    .#{$item} {
+      background-color: #FFF;
+      border: 1px solid $color-gray-4;
+    }
+    .#{$item}-name {
+      height: 36px;
+    }
+    .#{$item}-price {
+      & > div {
+        display: block;
+      }
+    }
+    .#{$item}-price-discount {
+      height: 12px;
+    }
+  }
+  .#{$component}-navigation {
+    z-index: 2;
+
+    button {
+      font-size: 0;
+      padding: 10px;
+      background-color: #FFF;
+      border: 1px solid $color-gray-4;
+      outline: none;
+      cursor: pointer;
+
+      @include border-radius(2px);
+      @include transition(0.4s, (background-color, border, opacity));
+
+      svg {
+        path {
+          stroke: $color-gray-1;
+          @include transition(0.4s, stroke);
+        }
+      }
+      &:hover {
+        svg {
+          path {
+            stroke: #FFF;
+          }
+        }
+      }
+    }
+    &.disabled {
+      display: none;
+    }
+    &[data-view='default'] {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+
+      button {
+        &.disabled {
+          opacity: 0;
+          pointer-events: none;
+
+          @include user-select(none);
+        }
+      }
+      .navigation-left {
+        position: absolute;
+        left: 0;
+
+        @include transform-translate(-50%, -50%);
+      }
+      .navigation-right {
+        position: absolute;
+        right: 0;
+
+        @include transform-translate(50%, -50%);
+      }
+    }
+    &[data-view='top'] {
+      position: absolute;
+      top: -24px;
+      right: 0;
+
+      button {
+        @include transform-translate(-100%);
+
+        & + button {
+          margin-left: 4px;
+        }
+        &.disabled {
+          background-color: #FFF!important;
+          border-color: $color-gray-4!important;
+          opacity: 0.7;
+          cursor: not-allowed;
+
+          @include user-select(none);
+
+          svg {
+            path {
+              stroke: $color-gray-4!important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

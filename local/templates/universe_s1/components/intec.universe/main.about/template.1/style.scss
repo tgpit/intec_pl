@@ -1,0 +1,132 @@
+@import '../../../../sources/styles/include.scss';
+
+$type: 'widget';
+$component: 'about-ref';
+$template: 'template-1';
+
+.#{$type}.c-#{$component}.c-#{$component}-#{$template} {
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+
+  .#{$type}-content {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #FFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .#{$type}-content-text {
+    position: relative;
+    width: 50%;
+  }
+  .#{$type}-title {
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 16px;
+  }
+  .#{$type}-name {
+    font-size: 32px;
+    line-height: 40px;
+    color: #1B1E25;
+  }
+  .#{$type}-preview {
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+    margin-top: 16px;
+  }
+  .#{$type}-buttons {
+    margin-top: 24px;
+  }
+  .#{$type}-button {
+    padding: 20px 36px;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .#{$type}-content-additional {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+  }
+  .#{$type}-picture {
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .#{$type}-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 0;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    @include transform-translate(-50%, -50%);
+
+    &:hover {
+      .#{$type}-video-hover-opacity {
+        opacity: 0.9;
+      }
+    }
+
+    .#{$type}-video-hover-opacity {
+      @include transition(300ms, opacity);
+    }
+
+    svg {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  &[data-background='true'] {
+    .#{$type}-content {
+      padding-top: 155px;
+      padding-bottom: 155px;
+
+      &[data-lazyload-use='true'] {
+        background-size: auto;
+        background-color: #F2F2F2;
+      }
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    .#{$type}-content {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .#{$type}-content-text {
+      width: auto;
+    }
+    .#{$type}-content-additional {
+      display: none;
+    }
+
+    &[data-background='true'] {
+      .#{$type}-content {
+        padding-top: 70px;
+        padding-bottom: 70px;
+      }
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    .#{$type}-name {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+<Tools>
+	<ToolType name="Электроинструменты">
+		<ToolSubType name="Болгарки (УШМ)"></ToolSubType>
+		<ToolSubType name="Дрели и шуруповерты"></ToolSubType>
+		<ToolSubType name="Миксеры строительные"></ToolSubType>
+		<ToolSubType name="Отбойные молотки"></ToolSubType>
+		<ToolSubType name="Перфораторы"></ToolSubType>
+		<ToolSubType name="Пилы электрические"></ToolSubType>
+		<ToolSubType name="Пистолеты монтажные"></ToolSubType>
+		<ToolSubType name="Плиткорезы"></ToolSubType>
+		<ToolSubType name="Пылесосы строительные"></ToolSubType>
+		<ToolSubType name="Фены строительные"></ToolSubType>
+		<ToolSubType name="Фрезеры"></ToolSubType>
+		<ToolSubType name="Шлифовальные машины"></ToolSubType>
+		<ToolSubType name="Электролобзики"></ToolSubType>
+		<ToolSubType name="Электрорубанки"></ToolSubType>
+		<ToolSubType name="Другое"></ToolSubType>
+	</ToolType>
+	<ToolType name="Ручные инструменты">
+		<ToolSubType name="Домкраты"></ToolSubType>
+		<ToolSubType name="Ключи"></ToolSubType>
+		<ToolSubType name="Малярные инструменты"></ToolSubType>
+		<ToolSubType name="Наборы инструментов"></ToolSubType>
+		<ToolSubType name="Ножницы"></ToolSubType>
+		<ToolSubType name="Отвёртки"></ToolSubType>
+		<ToolSubType name="Пилы и лобзики"></ToolSubType>
+		<ToolSubType name="Пистолеты для пены и герметика"></ToolSubType>
+		<ToolSubType name="Плиткорезы"></ToolSubType>
+		<ToolSubType name="Столярные инструменты"></ToolSubType>
+		<ToolSubType name="Тиски и струбцины"></ToolSubType>
+		<ToolSubType name="Ударно-рычажные инструменты"></ToolSubType>
+		<ToolSubType name="Другое"></ToolSubType>
+	</ToolType>
+	<ToolType name="Измерительные инструменты">
+		<ToolSubType name="Лазерные рулетки и дальномеры"></ToolSubType>
+		<ToolSubType name="Лазерные уровни и нивелиры"></ToolSubType>
+		<ToolSubType name="Пирометры и прочие детекторы"></ToolSubType>
+		<ToolSubType name="Разметочные инструменты"></ToolSubType>
+		<ToolSubType name="Рулетки"></ToolSubType>
+		<ToolSubType name="Ручные измерительные инструменты"></ToolSubType>
+		<ToolSubType name="Строительные уровни"></ToolSubType>
+		<ToolSubType name="Штативы, рейки, держатели"></ToolSubType>
+		<ToolSubType name="Электроизмерительные приборы и тестеры"></ToolSubType>
+		<ToolSubType name="Другое"></ToolSubType>
+	</ToolType>
+	<ToolType name="Газовое и сварочное оборудование">
+		<ToolSubType name="Аксессуары и комплектующие для сварки"></ToolSubType>
+		<ToolSubType name="Газовые горелки и паяльные лампы"></ToolSubType>
+		<ToolSubType name="Маски и перчатки для сварки"></ToolSubType>
+		<ToolSubType name="Паяльники и аксессуары"></ToolSubType>
+		<ToolSubType name="Сварочные аппараты"></ToolSubType>
+		<ToolSubType name="Электроды, проволока, прутки"></ToolSubType>
+	</ToolType>
+	<ToolType name="Расходные материалы и оснастка">
+		<ToolSubType name="Алмазные диски"></ToolSubType>
+		<ToolSubType name="Буры, долота, пики"></ToolSubType>
+		<ToolSubType name="Зарядные устройства и аккумуляторы"></ToolSubType>
+		<ToolSubType name="Коронки"></ToolSubType>
+		<ToolSubType name="Отрезные круги и пильные диски"></ToolSubType>
+		<ToolSubType name="Патроны и переходники"></ToolSubType>
+		<ToolSubType name="Свёрла"></ToolSubType>
+		<ToolSubType name="Шлифовальные круги и насадки"></ToolSubType>
+		<ToolSubType name="Другое"></ToolSubType>
+	</ToolType>
+	<ToolType name="Другие инструменты">
+		<ToolSubType name="Аппараты"></ToolSubType>
+		<ToolSubType name="Верстаки и оборудование для мастерской"></ToolSubType>
+		<ToolSubType name="Компрессоры"></ToolSubType>
+		<ToolSubType name="Лестницы, стремянки, вышки-туры"></ToolSubType>
+		<ToolSubType name="Насосы и комплектующие"></ToolSubType>
+		<ToolSubType name="Такелаж"></ToolSubType>
+	</ToolType>
+	<ToolType name="Силовая, строительная техника и комплектующие">
+		<ToolSubType name="Бетономешалки"></ToolSubType>
+		<ToolSubType name="Вибраторы"></ToolSubType>
+		<ToolSubType name="Виброплиты"></ToolSubType>
+		<ToolSubType name="Станки"></ToolSubType>
+		<ToolSubType name="Установки для бурения"></ToolSubType>
+	</ToolType>
+	<ToolType name="Электрика">
+		<ToolSubType name="Генераторы"></ToolSubType>
+		<ToolSubType name="Двигатели"></ToolSubType>
+		<ToolSubType name="Кабели и провода"></ToolSubType>
+		<ToolSubType name="Стабилизаторы напряжения"></ToolSubType>
+		<ToolSubType name="Трансформаторы"></ToolSubType>
+		<ToolSubType name="Другое"></ToolSubType>
+	</ToolType>
+	<ToolType name="Бензопилы"></ToolType>
+	<ToolType name="Садовая техника">
+		<ToolSubType name="Газонокосилки и триммеры"></ToolSubType>
+		<ToolSubType name="Канистры"></ToolSubType>
+		<ToolSubType name="Лопаты"></ToolSubType>
+		<ToolSubType name="Тачки и тележки"></ToolSubType>
+	</ToolType>
+	<ToolType name="Спецодежда и средства защиты">
+		<ToolSubType name="Каски строительные"></ToolSubType>
+		<ToolSubType name="Маски, очки"></ToolSubType>
+		<ToolSubType name="Наушники и беруши"></ToolSubType>
+		<ToolSubType name="Неодимовые магниты"></ToolSubType>
+		<ToolSubType name="Огнетушители"></ToolSubType>
+		<ToolSubType name="Перчатки, рукавицы"></ToolSubType>
+		<ToolSubType name="Пояса, ремни, сумки"></ToolSubType>
+		<ToolSubType name="Респираторы"></ToolSubType>
+		<ToolSubType name="Спецодежда, обувь и наколенники"></ToolSubType>
+		<ToolSubType name="Другое"></ToolSubType>
+	</ToolType>
+	<ToolType name="Другое"></ToolType>
+</Tools>

@@ -1,0 +1,160 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'news-list';
+$template: 'shares-blocks-2';
+
+$loader: #{$component}-loader;
+$item: #{$component}-item;
+
+@keyframes c-#{$component}-#{$template} {
+  from {
+    @include transform-translate(-100%, -100%);
+  }
+  to {
+    @include transform-translate(100%, 100%);
+  }
+}
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$component}-description {
+    & + .#{$component}-items {
+      margin-top: 24px;
+    }
+  }
+
+  .#{$loader} {
+    position: relative;
+    background-color: #E8E8E8;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      right: -50%;
+      bottom: -50%;
+      background: linear-gradient(135deg, rgba(0, 0, 0, 0) 35%, rgba(255, 255, 255, 0.85) 50%, rgba(0, 0, 0, 0) 65%);
+      z-index: 1;
+      animation-name: c-#{$component}-#{$template};
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+    }
+  }
+  .#{$loader}-timer-item {
+    width: 52px;
+    height: 29px;
+    @extend %border-radius-2px;
+  }
+
+  .#{$item} {
+    height: 100%;
+
+    &:hover {
+      .#{$item}-picture-container {
+        @include box-shadow(0, 10px, 24px, 0, rgba(0, 0, 0, 0.35));
+      }
+    }
+  }
+  .#{$item}-picture-container {
+    position: relative;
+    overflow: hidden;
+    @include border-radius(4px);
+    @include transition(.35s, box-shadow);
+  }
+  .#{$item}-picture {
+    display: block;
+    position: relative;
+    padding-top: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+    &[data-lazyload-use='true'] {
+      background-color: #F2F2F2;
+    }
+  }
+  .#{$item}-discount-container {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    right: 24px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  .#{$item}-discount-block {
+    & + .#{$item}-discount-block {
+      margin-top: 8px;
+    }
+  }
+  .#{$item}-discount {
+    font-size: 14px;
+    line-height: 1;
+    color: #FFF;
+    padding: 9px 12px;
+    @extend %border-radius-2px;
+  }
+  .#{$item}-discount-part {
+    & + .#{$item}-discount-part {
+      padding-left: 4px;
+    }
+  }
+  .#{$item}-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.32;
+    margin-top: 16px;
+    @include webkit-box(3, 21);
+
+    & > * {
+      color: #404040;
+      text-decoration: none;
+      @include transition(.35s, color);
+    }
+  }
+  .#{$item}-duration {
+    margin-top: 16px;
+  }
+  .#{$item}-duration-icon {
+    display: block;
+    font-size: 0;
+    line-height: 1;
+    color: #4B4B4B;
+
+    &::before {
+      font-size: 16px;
+    }
+  }
+  .#{$item}-duration-text {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #4B4B4B;
+  }
+
+  %border-radius-2px {
+    @include border-radius(2px);
+  }
+
+  @include breakpoint-1024() {
+    .#{$item}-picture {
+      padding-top: 100% / 16 * 9;
+    }
+  }
+  @include breakpoint-768() {
+    .#{$item}-discount-container {
+      top: 16px;
+      left: 16px;
+      right: 16px;
+    }
+  }
+}

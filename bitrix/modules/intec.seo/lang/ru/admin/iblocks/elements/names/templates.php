@@ -1,0 +1,31 @@
+<?php
+
+$MESS['title'] = 'Шаблоны имен элементов инфоблоков';
+$MESS['filter.fields.id'] = 'ID';
+$MESS['filter.fields.code'] = 'Код';
+$MESS['filter.fields.active'] = 'Активность';
+$MESS['filter.fields.active.any'] = 'Любая';
+$MESS['filter.fields.active.inactive'] = 'Только неактивные';
+$MESS['filter.fields.active.active'] = 'Только активные';
+$MESS['filter.fields.name'] = 'Наименование';
+$MESS['filter.fields.quantity'] = 'Количество выводимых шаблонов';
+$MESS['list.actions.add'] = 'Добавить';
+$MESS['list.actions.delete'] = 'Удалить';
+$MESS['list.actions.activate'] = 'Активировать';
+$MESS['list.actions.deactivate'] = 'Деактивировать';
+$MESS['list.headers.id'] = 'ID';
+$MESS['list.headers.code'] = 'Код';
+$MESS['list.headers.active'] = 'Активность';
+$MESS['list.headers.name'] = 'Наименование';
+$MESS['list.headers.quantity'] = 'Количество выводимых шаблонов';
+$MESS['list.headers.sort'] = 'Сортировка';
+$MESS['list.rows.actions.edit'] = 'Редактировать';
+$MESS['list.rows.actions.copy'] = 'Копировать';
+$MESS['list.rows.actions.activate'] = 'Активировать';
+$MESS['list.rows.actions.deactivate'] = 'Деактивировать';
+$MESS['list.rows.actions.delete'] = 'Удалить';
+$MESS['list.rows.actions.delete.confirm'] = 'Вы действительно хотите удалить шаблон?';
+$MESS['list.rows.answers.unset'] = 'Не установлено';
+$MESS['list.rows.answers.yes'] = 'Да';
+$MESS['list.rows.answers.no'] = 'Нет';
+$MESS['list.navigation.title'] = 'Шаблоны';

@@ -1,0 +1,90 @@
+$component: 'advantages';
+$template: 'template-11';
+$item: 'widget-item';
+
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  padding: 95px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .widget-header {
+    max-width: 380px;
+    text-align: left;
+
+    .widget-title {
+      color: #fff;
+
+      & + .widget-description {
+        margin-top: 16px;
+      }
+    }
+
+    .widget-description {
+      color: #fff;
+    }
+  }
+
+  .#{$item}-wrapper {
+    position: relative;
+    padding: 48px 40px;
+    background-color: #FFF;
+    border-radius: 15px;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .#{$item}-icon {
+    display: block;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-decoration: none;
+  }
+
+  .#{$item}-counter {
+    font-size: 96px;
+    font-weight: 300;
+    line-height: 96px;
+    margin-bottom: 16px;
+
+    @include transition(color, 0.4s);
+  }
+
+  .#{$item}-name {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #2d2d2d;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .#{$item}-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @media all and (max-width: 500px) {
+    .#{$item}-name {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}

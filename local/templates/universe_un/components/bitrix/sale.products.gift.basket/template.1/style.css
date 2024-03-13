@@ -1,0 +1,79 @@
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .sale-products-gift-basket-item {
+  position: relative;
+  margin-top: -1px;
+  margin-left: -1px;
+  border: 1px solid #E8E8E8;
+  z-index: 1;
+}
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .sale-products-gift-basket-item:hover {
+  z-index: 2;
+}
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .sale-products-gift-basket-item > div {
+  height: 100%;
+}
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .owl-carousel .sale-products-gift-basket-item {
+  margin-top: 0;
+  margin-left: 0;
+}
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .sale-products-gift-basket-header {
+  margin-bottom: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #1B1E25;
+}
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-left,
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-right {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF;
+  padding: 0;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #F2F2F2;
+  line-height: 0;
+  cursor: pointer;
+}
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-left svg path,
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-right svg path {
+  transition: all 0.35s;
+}
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-left:hover svg path,
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-right:hover svg path {
+  stroke: #FFF;
+}
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-left:focus, .ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-left:active,
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-right:focus,
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-right:active {
+  outline: none;
+}
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-left.disabled,
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-right.disabled {
+  opacity: 0.5;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-left.disabled:hover,
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-right.disabled:hover {
+  background: #fff !important;
+  border-color: #F2F2F2 !important;
+}
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-left.disabled:hover svg path,
+.ns-bitrix.c-sale-products-gift-basket.c-sale-products-gift-basket-template-1 .gift-navigation-right.disabled:hover svg path {
+  stroke: #808080;
+}
+
+/*# sourceMappingURL=style.css.map */

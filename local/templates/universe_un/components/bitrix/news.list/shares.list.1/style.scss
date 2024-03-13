@@ -1,0 +1,148 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'news-list';
+$template: 'shares-list-1';
+
+$item: #{$component}-item;
+$loader: #{$component}-loader;
+
+@keyframes c-#{$component}-#{$template} {
+  from {
+    @include transform-translate(-100%, -100%);
+  } to {
+      @include transform-translate(100%, 100%);
+    }
+}
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$component}-description {
+    margin-bottom: 20px;
+  }
+
+  .#{$loader} {
+    position: relative;
+    background-color: #F2F2F2;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      right: -50%;
+      bottom: -50%;
+      background: linear-gradient(135deg, rgba(0, 0, 0, 0) 35%, rgba(255, 255, 255, 0.85) 50%, rgba(0, 0, 0, 0) 65%);
+      z-index: 1;
+      animation-name: c-#{$component}-#{$template};
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+    }
+  }
+  .#{$loader}-timer-name {
+    width: 125px;
+    height: 18px;
+    margin-bottom: 8px;
+    @extend %border-radius-2px;
+  }
+  .#{$loader}-timer-item {
+    width: 52px;
+    height: 29px;
+    @extend %border-radius-2px;
+  }
+
+  .#{$item} {
+    padding: 32px;
+    border: 1px solid #F2F2F2;
+    background-color: #FFF;
+    overflow: hidden;
+    @include transition(.35s, border-color);
+    @extend %border-radius-2px;
+
+    &:hover {
+      border-color: #E8E8E8;
+    }
+
+    & + .#{$item} {
+      margin-top: 32px;
+    }
+  }
+  .#{$item}-picture {
+    display: block;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include border-radius(2px);
+
+    &[data-lazyload-use='true'] {
+      background-color: #F2F2F2;
+    }
+  }
+  .#{$item}-duration {
+    font-size: 12px;
+    line-height: 1;
+    color: #707072;
+    margin-bottom: 12px;
+  }
+  .#{$item}-name {
+    font-size: 18px;
+    line-height: 1.45;
+    @include webkit-box(3, 26);
+
+    & > * {
+      color: #404040;
+      text-decoration: none;
+      @include transition(.35s, color);
+    }
+  }
+  .#{$item}-description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #89898b;
+    margin-top: 8px;
+    @include webkit-box(5, 21);
+  }
+  .#{$item}-detail {
+    display: none;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 8px;
+
+    & > * {
+      text-decoration: none;
+    }
+  }
+  .#{$item}-timer {
+    margin-top: 16px;
+  }
+
+  %border-radius-2px {
+    @include border-radius(2px);
+  }
+
+  @include breakpoint-1024() {
+    .#{$item}-detail {
+      display: block;
+    }
+  }
+  @include breakpoint-768() {
+    .#{$item} {
+      padding: 16px 16px 24px 16px;
+    }
+  }
+  @include breakpoint-custom(500) {
+    .#{$item}-picture {
+      width: auto;
+    }
+  }
+}

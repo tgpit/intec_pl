@@ -1,0 +1,124 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'collections';
+$template: 'template-3';
+
+$item: 'widget-item';
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-all {
+    display: block;
+    text-decoration: none;
+  }
+  .widget-all-desktop {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include transition(.35s, color);
+  }
+  .widget-all-mobile {
+    display: none;
+    padding: 6px 7px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-title {
+    overflow: hidden;
+  }
+
+  .#{$item} {
+    position: relative;
+    display: block;
+    height: 240px;
+    z-index: 0;
+
+    &::before, &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      @include transition(.35s, opacity);
+    }
+    &:before {
+      opacity: 1;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.07) 0%, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.28) 65.46%, rgba(0, 0, 0, 0.64) 99.99%);
+      z-index: 2;
+    }
+    &:after {
+      opacity: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.43) 0.01%, rgba(0, 0, 0, 0.64) 99.99%);
+      z-index: 2;
+    }
+    &:hover {
+      &:before {
+        opacity: 0;
+      }
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+  .#{$item}-picture {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 1;
+
+    &[data-lazyload-use='true'] {
+      background-color: #F2F2F2;
+    }
+  }
+  .#{$item}-name {
+    position: absolute;
+    left: 27px;
+    bottom: 20px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #FFFFFF;
+    max-width: 65%;
+    z-index: 3;
+    @include webkit-box(3, 20);
+  }
+
+  @include breakpoint-768() {
+    .#{$item}-name {
+      left: 16px;
+      right: 16px;
+      bottom: 16px;
+      max-width: none;
+    }
+  }
+  @include breakpoint-custom(500) {
+    .widget-all-desktop {
+      display: none;
+    }
+    .widget-all-mobile {
+      display: block;
+    }
+  }
+}

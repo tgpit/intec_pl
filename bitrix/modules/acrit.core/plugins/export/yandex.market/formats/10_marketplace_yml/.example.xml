@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2019-11-01 17:22">
+ <shop>
+ <categories>
+   <category id="1">Бытовая техника</category>
+   <category id="10" parentId="1">Мелкая техника для кухни</category>
+ <category id="101" parentId="10">Сэндвичницы и приборы для выпечки</category>
+ </categories>
+ <offers>
+  <offer id="123456">
+    <name>Мороженица Brand 3811</name>
+    <market-sku>767656546</market-sku>
+    <categoryId>101</categoryId>
+    <picture>http://best.seller.ru/img/device45678.jpg</picture>
+    <vendor>Brand</vendor>
+    <url>http://best.seller.ru/product_page.asp?pid=12345</url>
+    <price>4999</price>
+    <oldprice>6000</oldprice>
+    <vat>VAT_20</vat>
+    <currencyId>RUR</currencyId>
+    <manufacturer>ООО Производство Юг</manufacturer>
+    <country_of_origin>Россия</country_of_origin>
+    <barcode>460154602129</barcode>
+    <vendorCode>12345</vendorCode>
+    <description>Это прибор, который придётся по вкусу всем любителям десертов и сладостей, ведь с его помощью вы сможете делать вкусное домашнее мороженое из натуральных ингредиентов.</description> 
+    <period-of-validity-days>P1Y2M10D</period-of-validity-days>
+    <comment-validity-days>Не хранить в помещениях с повышенной влажностью.</comment-validity-days>
+    <service-life-days>P1Y2M10D</service-life-days>
+    <comment-life-days>Использовать ингредиенты комнатной температуры.</comment-life-days>
+    <warranty-days>P1Y2M10D</warranty-days>
+    <comment-warranty>Гарантия на комплектующие не предоставляется.</comment-warranty>
+    <certificate>664325</certificate>
+    <dimensions>20.1/20.551/22.5</dimensions>
+    <weight>3.6</weight>
+    <tn-ved-codes>
+      <tn-ved-code>1234567890</tn-ved-code>
+    </tn-ved-codes>
+    <availability>ACTIVE</availability>
+    <transport-unit>2</transport-unit>
+    <min-delivery-pieces>10</min-delivery-pieces>
+    <quantum>12</quantum>
+    <leadtime>1</leadtime>
+    <box-count>2</box-count>
+    <delivery-weekdays>
+      <delivery-weekday>MONDAY</delivery-weekday>
+      <delivery-weekday>FRIDAY</delivery-weekday>
+    </delivery-weekdays>
+  </offer>
+  <offer id="654321">
+    <name>Мороженица Brand 3813</name>
+    <market-sku>54534534475</market-sku>
+    <categoryId>103</categoryId>
+    <picture>http://best.seller.ru/img/device23456.jpg</picture>
+    <vendor>Brand</vendor>
+    <url>http://best.seller.ru/product_page.asp?pid=12346</url>
+    <price>5999</price>
+    <oldprice>7000</oldprice>
+    <vat>VAT_20</vat>
+    <currencyId>RUR</currencyId>
+    <manufacturer>ООО Производство Юг</manufacturer>
+    <country_of_origin>Россия</country_of_origin>
+    <barcode>460154602120</barcode>
+    <vendorCode>54321</vendorCode>
+    <description>Это прибор, который придётся по вкусу всем любителям десертов.</description> 
+    <period-of-validity-days>P1Y2M10D</period-of-validity-days>
+    <comment-validity-days>Не хранить в помещениях с повышенной влажностью.</comment-validity-days>
+    <service-life-days>P1Y2M10D</service-life-days>
+    <comment-life-days>Использовать ингредиенты комнатной температуры.</comment-life-days>
+    <warranty-days>P1Y2M10DT2H30M</warranty-days>
+    <comment-warranty>Гарантия на комплектующие не предоставляется.</comment-warranty>
+    <certificate>6643212</certificate>
+    <dimensions>20.1/20.551/22.5</dimensions>
+    <weight>3.4</weight>
+    <tn-ved-codes>
+      <tn-ved-code>0123456789</tn-ved-code>
+    </tn-ved-codes>
+    <availability>ACTIVE</availability>
+    <transport-unit>2</transport-unit>
+    <min-delivery-pieces>10</min-delivery-pieces>
+    <quantum>12</quantum>
+    <leadtime>1</leadtime>
+    <box-count>2</box-count>
+    <delivery-weekdays>
+      <delivery-weekday>THURSDAY</delivery-weekday>
+      <delivery-weekday>FRIDAY</delivery-weekday>
+    </delivery-weekdays>
+  </offer> 
+ </offers>
+ </shop>
+</yml_catalog>

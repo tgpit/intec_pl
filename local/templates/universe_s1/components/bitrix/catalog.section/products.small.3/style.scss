@@ -1,0 +1,109 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-section';
+$template: 'products-small-3';
+$class: #{$component};
+$item: #{$component}-item;
+
+$color-black-1: #1B1E25;
+$color-black-2: #404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-gray-4: #F2F2F2;
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$component}-items {
+    position: relative;
+  }
+  .#{$item}-container {
+    position: relative;
+    margin-top: -1px;
+    margin-left: -1px;
+    z-index: 1;
+
+    @include transition(0.4s, box-shadow);
+
+    &:hover {
+      z-index: 2;
+
+      @include box-shadow(0, 8px, 32px, 0, rgba(27, 30, 37, 0.08));
+
+      .#{$item} {
+        border-color: #FFF;
+      }
+    }
+  }
+  .#{$item} {
+    height: 100%;
+    padding: 20px;
+    background-color: #FFF;
+    border: 1px solid $color-gray-4;
+    overflow: hidden;
+
+    @include transition(0.4s, border-color);
+  }
+  .#{$item}-picture {
+    display: block;
+    font-size: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 56px;
+    height: 56px;
+  }
+  .#{$item}-name {
+    font-size: 13px;
+    line-height: 18px;
+    @include webkit-box(2, 18);
+
+    a {
+      color: $color-gray-1;
+      text-decoration: none;
+
+      @include transition(0.4s, color);
+    }
+  }
+  .#{$item}-price {
+    padding-top: 8px;
+    margin: -4px -6px;
+
+    & > div {
+      display: inline-block;
+      margin: 4px 6px;
+      vertical-align: baseline;
+    }
+  }
+  .#{$item}-price-current {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    color: $color-black-2;
+  }
+  .#{$item}-price-discount {
+    font-size: 12px;
+    line-height: 12px;
+    color: $color-gray-2;
+    text-decoration: line-through;
+  }
+  .#{$item}-message {
+    padding-top: 12px;
+  }
+  .#{$item}-button {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 8px 12px;
+    border-width: 1px;
+  }
+}

@@ -1,0 +1,113 @@
+$component: 'advantages';
+$template: 'template-31';
+$item: 'widget-item';
+
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  padding: 60px 0;
+
+  .widget-header .widget-title {
+    font-size: 24px;
+    line-height: 30px;
+    color: #404040;
+  }
+
+  .widget-header .widget-description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #404040;
+  }
+
+  .widget-content {
+    overflow: hidden;
+  }
+
+  .widget-items-wrap {
+    overflow: hidden;
+  }
+  .widget-items {
+    margin: -40px;
+  }
+  .#{$item}-wrapper {
+    padding: 40px;
+  }
+
+  .#{$item}-number {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: left;
+  }
+  .#{$item}-description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #404040;
+    margin-top: 12px;
+  }
+
+  &[data-title-position="left"] {
+    .widget-content {
+      margin-top: 0;
+    }
+  }
+
+  &[data-number-align="left"] {
+    .#{$item}-number {
+      text-align: left;
+    }
+  }
+  &[data-number-align="center"] {
+    .#{$item}-number {
+      text-align: center;
+    }
+  }
+  &[data-number-align="right"] {
+    .#{$item}-number {
+      text-align: right;
+    }
+  }
+
+  &[data-preview-align="left"] {
+    .#{$item}-description {
+      text-align: left;
+    }
+  }
+  &[data-preview-align="center"] {
+    .#{$item}-description {
+      text-align: center;
+    }
+  }
+  &[data-preview-align="right"] {
+    .#{$item}-description {
+      text-align: right;
+    }
+  }
+
+  &[data-theme="dark"] {
+    .widget-header .widget-title {
+      color: #ffffff;
+    }
+    .widget-header .widget-description {
+      color: #ffffff;
+    }
+    .#{$item}-number {
+      color: #ffffff;
+    }
+    .#{$item}-description {
+      color: #ffffff;
+    }
+
+  }
+}

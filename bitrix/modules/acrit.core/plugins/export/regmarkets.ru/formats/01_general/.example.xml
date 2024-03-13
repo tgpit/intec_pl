@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2018-06-12 12:06">
+  <shop>
+    <name>Интернет Магазин Флеш Тату</name>
+    <company>Royal Flash Tattoo</company>
+    <url>http://tattooflash.ru</url>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="6">Золотые флэш тату</category>
+      <category id="11">Золотые 3D тату</category>
+      <category id="12">Белые татуировки</category>
+      <category id="10">3D татуировки</category>
+      <category id="13">Черные татуировки</category>
+    </categories>
+    <offers>
+      <offer id="87" available="true">
+        <url>http://tattooflash.ru/products/nabor-flesh-tatu-atlantida</url>
+        <price>100</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>6</categoryId>
+        <picture>http://tattooflash.ru/files/products/image_24.600x600.jpg?a582a54e20b894bc8c51c3575c112b66</picture>
+        <name>Набор флэш тату "Атлантида"</name>
+        <description/>
+      </offer>
+      <offer id="98" available="true">
+        <url>http://tattooflash.ru/products/nabor-flesh-tatu-kair</url>
+        <price>50</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>6</categoryId>
+        <picture>http://tattooflash.ru/files/products/image_40.600x600.jpg?850fba23d45b4bfa4c92ed34bf654fed</picture>
+        <name>Набор флэш тату "Каир"</name>
+        <description/>
+      </offer>
+      <offer id="106" available="true">
+        <url>http://tattooflash.ru/products/nabor-flesh-tatu-hippi</url>
+        <price>50</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>6</categoryId>
+        <picture>http://tattooflash.ru/files/products/image_44.600x600.jpg?a3a852cdd62b6b53a43cdd7bb700ce06</picture>
+        <name>Набор флэш тату "Хиппи"</name>
+        <description/>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>

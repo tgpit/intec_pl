@@ -1,0 +1,34 @@
+<?
+$MESS["ACRIT_EXP_RUNNOW_START"] = "Запустить загрузку";
+$MESS["ACRIT_EXP_RUNNOW_STOP"] = "Остановить";
+$MESS["ACRIT_EXP_VSEGO_OBRABOTANO"] = "Всего обработано: ";
+$MESS["ACRIT_EXP_USPESNO_IMPORTIROVAN"] = "Успешно импортировано: ";
+$MESS["ACRIT_EXP_PROPUSENO"] = "Пропущено: ";
+$MESS["ACRIT_EXP_S_OSIBKAMI"] = "С ошибками: ";
+$MESS["ACRIT_EXP_AGENTS_EDIT"] = "Изменить";
+$MESS["ACRIT_EXP_AGENTS_DEL"] = "Удалить";
+$MESS["ACRIT_EXP_AGENTS_DEL_WARN"] = "Удалить запись?";
+$MESS["ACRIT_EXP_AGENTS_TITLES_ID"] = "ID";
+$MESS["ACRIT_EXP_AGENTS_TITLES_INTERVAL"] = "Интервал";
+$MESS["ACRIT_EXP_AGENTS_TITLES_LAST_START"] = "Последний запуск";
+$MESS["ACRIT_EXP_AGENTS_TITLES_NEXT_START"] = "Следующий запуск";
+$MESS["ACRIT_EXP_AGENTS_ADD"] = "Добавить";
+$MESS["ACRIT_EXP_AGENTS_SERVER_TIME"] = "Текущее время на сервере: ";
+$MESS["ACRIT_CRM_TAB_SYNC_HEADING"] = "Ручной запуск синхронизации";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_TITLE"] = "Загрузить заказы, созданные";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_TERM_ALL"] = "За всё время";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_TERM_3M"] = "За последние три месяца";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_TERM_1M"] = "За последний месяц";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_TERM_1W"] = "За последние 7 дней";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_TERM_1D"] = "За последние сутки";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_ONLY_NEW"] = "Пропускать уже загруженные в CRM заказы";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_RUN_TITLE"] = "Запустить загрузку данных заказов";
+$MESS["ACRIT_CRM_TAB_SYNC_ADD_TITLE"] = "Фоновая регулярная синхронизация";
+$MESS["ACRIT_CRM_TAB_LOG_TITLE"] = "Лог профиля";
+$MESS["ACRIT_CRM_TAB_SYNC_ADD_ACTIVE"] = "Активность фоновой синхронизации";
+$MESS["ACRIT_CRM_TAB_SYNC_ADD_PERIOD"] = "Период синхронизации (мин):";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_ALL"] = "Доступно заказов для загрузки в CRM:";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_COUNT"] = "Загружено в CRM сделок:";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_DONE"] = "Загружено заказов:";
+$MESS["ACRIT_CRM_TAB_SYNC_MAN_DONE_2"] = "Загружено в интернет-магазин заказов:";
+?>

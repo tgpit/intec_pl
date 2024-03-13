@@ -1,0 +1,12 @@
+<Root>
+    <GoodsSubType name="Косметологическое"/>
+    <GoodsSubType name="Маникюр и педикюр"/>
+    <GoodsSubType name="Парикмахерское"/>
+    <GoodsSubType name="Эпиляция"/>
+    <GoodsSubType name="Солярии"/>
+    <GoodsSubType name="Стерилизация"/>
+    <GoodsSubType name="Тату"/>
+    <GoodsSubType name="Лампы-лупы"/>
+    <GoodsSubType name="Мебель"/>
+    <GoodsSubType name="Другое"/>
+</Root>

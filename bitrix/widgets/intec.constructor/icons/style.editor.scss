@@ -1,0 +1,184 @@
+$settings: intec-editor-widget-icons;
+$template: '';
+
+@mixin user-select ($value: null) {
+  @if ($value == null) {
+    $value: all;
+  }
+
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
+@mixin transition ($time: null, $properties: null, $delay: null) {
+  @if ($time != null) {
+    -webkit-transition-duration: #{$time};
+    -moz-transition-duration: #{$time};
+    -ms-transition-duration: #{$time};
+    -o-transition-duration: #{$time};
+    transition-duration: #{$time};
+
+    @if ($properties != null) {
+      -webkit-transition-property: $properties;
+      -moz-transition-property: $properties;
+      -ms-transition-property: $properties;
+      -o-transition-property: $properties;
+      transition-property: $properties;
+    }
+
+    @if ($delay != null) {
+      -webkit-transition-delay: #{$delay};
+      -moz-transition-delay: #{$delay};
+      -ms-transition-delay: #{$delay};
+      -o-transition-delay: #{$delay};
+      transition-delay: #{$delay};
+    }
+  } @else {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+}
+
+.#{$settings}-settings-items {
+  overflow: hidden;
+}
+.#{$settings}-settings-item {
+  overflow: hidden;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #666666;
+}
+.#{$settings}-settings-item-icon {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.#{$settings}-settings-item-icon-background,
+.#{$settings}-settings-item-icon-picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.#{$settings}-settings-item-icon-background {
+  background-color: #FFF;
+  background-image: url("images/chess_bg.png");
+  background-repeat: repeat;
+  z-index: 1;
+}
+.#{$settings}-settings-item-icon-picture {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+.#{$settings}-settings-item-actions {
+  overflow: hidden;
+}
+.#{$settings}-settings-item-action {
+  padding: 2px;
+  border: 2px solid transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+
+  @include user-select(none);
+  @include transition(350ms, border-color);
+
+  &:hover {
+    .#{$settings}-settings-item-action-icon {
+      svg {
+        path {
+          fill: #A3A3A3;
+        }
+      }
+    }
+    .#{$settings}-settings-item-action-name {
+      color: #A3A3A3;
+    }
+  }
+  &:focus {
+    border-color: #A3C6FF;
+  }
+}
+.#{$settings}-settings-item-action-icon {
+  display: block;
+  font-size: 0;
+
+  svg {
+    path {
+      fill: #FFF;
+
+      @include transition(350ms, fill);
+    }
+  }
+}
+.#{$settings}-settings-item-action-name {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #FFF;
+
+  @include transition(350ms, color);
+}
+.#{$settings}-settings-action {
+  padding: 2px;
+  border: 2px solid transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+
+  @include user-select(none);
+  @include transition(350ms, border-color);
+
+  &:hover {
+    .#{$settings}-settings-action-name {
+      color: #FFF;
+    }
+  }
+  &:focus {
+    border-color: #A3C6FF;
+  }
+}
+.#{$settings}-settings-action-icon {
+  display: block;
+  font-size: 0;
+
+  svg {
+    path {
+      fill: #59AFFF;
+    }
+  }
+}
+.#{$settings}-settings-action-name {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #59AFFF;
+
+  @include transition(350ms, color);
+}
+.#{$settings}-settings-color-actions {
+  width: 100%;
+}

@@ -1,0 +1,3 @@
+<?php
+
+$MESS['C_SHARES_TEMP3_TEMPLATE_FOOTER_BLOCK_DEFAULT'] = 'Показать все';

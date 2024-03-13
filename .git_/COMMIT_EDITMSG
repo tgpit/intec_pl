@@ -1,0 +1,57 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   bitrix/js/ipol.sdek/list.json
+#	modified:   info/tablica_razmerov/index.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/.parameters.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/lang/ru/.parameters.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/lang/ru/template.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/modifiers/fields.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/modifiers/marks.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parameters/timer.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parts/counter.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parts/data.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parts/gallery.php
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parts/information.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parts/purchase.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parts/quantity.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parts/script.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parts/sku.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parts/timer.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/result_modifier.php
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/style.css
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/style.css.map
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/style.scss
+#	modified:   local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/template.php
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr1/.parameters.php
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr1/lang/ru/.parameters.php
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr1/lang/ru/template.php
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr1/parts/script.php
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr1/parts/view.1.php
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr1/parts/view.2.php
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr1/result_modifier.php
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr1/style.css
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr1/style.css.map
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr1/style.scss
+#	deleted:    local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr1/template.php
+#	modified:   local/templates/universe_s1/components/intec.universe/main.footer/template.1/template.php
+#	modified:   local/templates/universe_s1/components/intec.universe/main.footer/template.1/templates/template.1/view.php
+#	modified:   local/templates/universe_un/components/intec.universe/main.footer/template.1/template.php
+#	deleted:    tst.php
+#
+# Untracked files:
+#	local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parts/buttons.php
+#	local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr/parts/properties.php
+#	local/templates/universe_s1/components/bitrix/catalog.element/quick.view.tr_/
+#	local/templates/universe_s1/components/bitrix/catalog.section.list/catalog.tile.tr/
+#	tablica_razmerov/
+#
+#
+# It took 2.65 seconds to enumerate untracked files. 'status -uno'
+# may speed it up, but you have to be careful not to forget to add
+# new files yourself (see 'git help status').

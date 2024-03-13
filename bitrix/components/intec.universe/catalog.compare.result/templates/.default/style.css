@@ -1,0 +1,411 @@
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default {
+  display: block;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  padding: 24px 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  z-index: 101;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-items-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-items-index {
+  display: none;
+  position: absolute;
+  left: 78px;
+  top: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #B0B0B0;
+  z-index: 1;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-items {
+  -webkit-transition: all 350ms;
+  -moz-transition: all 350ms;
+  -ms-transition: all 350ms;
+  -o-transition: all 350ms;
+  transition: all 350ms;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-item {
+  background-color: #fff;
+  z-index: 1;
+  -webkit-transition: all 350ms;
+  -moz-transition: all 350ms;
+  -ms-transition: all 350ms;
+  -o-transition: all 350ms;
+  transition: all 350ms;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-item[data-fixed=true] {
+  z-index: 2;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-item-picture {
+  width: 54px;
+  height: 54px;
+  margin: 0 12px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-item-name {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #404040;
+  text-decoration: none;
+  height: 36px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-item-price {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #404040;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-tabs .scrollbar-inner > .scroll-element.scroll-x {
+  height: 2px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-tab {
+  font-size: 14px;
+  line-height: 18px;
+  color: #404040;
+  margin-bottom: 16px;
+  margin-right: 24px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-tab .catalog-compare-result-tab-link {
+  text-decoration: none;
+  padding-bottom: 4px;
+  margin-right: 8px;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 350ms;
+  -moz-transition: all 350ms;
+  -ms-transition: all 350ms;
+  -o-transition: all 350ms;
+  transition: all 350ms;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-tab[data-active=true] .catalog-compare-result-tab-link, .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-tab:hover .catalog-compare-result-tab-link {
+  border-color: inherit;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-tab-link-count {
+  color: #B0B0B0;
+  padding-bottom: 5px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-tabs-section {
+  position: relative;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-products {
+  border-top: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items {
+  position: relative;
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-index {
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #B0B0B0;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-dots {
+  text-align: center;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 3px;
+  border-radius: 50%;
+  background-color: #E8E8E8;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-slider {
+  position: relative;
+  -webkit-transition: all 350ms;
+  -moz-transition: all 350ms;
+  -ms-transition: all 350ms;
+  -o-transition: all 350ms;
+  transition: all 350ms;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item {
+  display: block;
+  position: relative;
+  padding: 40px 24px 32px 0;
+  background-color: #fff;
+  z-index: 1;
+  -webkit-transition: all 350ms;
+  -moz-transition: all 350ms;
+  -ms-transition: all 350ms;
+  -o-transition: all 350ms;
+  transition: all 350ms;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item[data-fixed=true] {
+  z-index: 2;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-picture {
+  display: block;
+  position: relative;
+  padding-top: 100%;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-picture-wrapper {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-name {
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  color: #404040;
+  height: 44px;
+  overflow: hidden;
+  text-decoration: none;
+  margin-top: 24px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-fixed-button {
+  display: block;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.082);
+  cursor: pointer;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-remove-button {
+  cursor: pointer;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-information {
+  margin-top: 16px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #404040;
+  height: 22px;
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-price-base {
+  font-size: 14px;
+  line-height: 20px;
+  color: #B0B0B0;
+  text-decoration: line-through;
+  height: 20px;
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-purchase-button {
+  display: block;
+  padding: 9px;
+  line-height: 22px;
+  width: 40px;
+  height: 100%;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: all 350ms;
+  -moz-transition: all 350ms;
+  -ms-transition: all 350ms;
+  -o-transition: all 350ms;
+  transition: all 350ms;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-purchase-button.catalog-compare-result-item-purchase-button-add {
+  color: #0065ff;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-purchase-button.catalog-compare-result-item-purchase-button-add[data-basket-state=added] {
+  display: none;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-purchase-button.catalog-compare-result-item-purchase-button-added {
+  display: none;
+  color: #fff;
+  background: #0065ff;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-purchase-button.catalog-compare-result-item-purchase-button-added[data-basket-state=added] {
+  display: block;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-purchase-button i {
+  display: block;
+  height: 22px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-navigation {
+  display: block;
+  position: absolute;
+  top: 200px;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  visibility: hidden;
+  -webkit-transition: all 350ms;
+  -moz-transition: all 350ms;
+  -ms-transition: all 350ms;
+  -o-transition: all 350ms;
+  transition: all 350ms;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-navigation[data-state=false] {
+  display: none;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-navigation[data-fixed=true] {
+  position: fixed;
+  top: 60px;
+  z-index: 102;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-navigation[data-fixed=true] .catalog-compare-result-items-navigation-wrapper {
+  position: relative;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-navigation-button {
+  display: block;
+  position: absolute;
+  border: 1px solid #f2f2f2;
+  border-radius: 50%;
+  background: #fff;
+  color: #808080;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1;
+  width: 40px;
+  height: 40px;
+  visibility: visible;
+  top: -20px;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  -webkit-transition: all 350ms;
+  -moz-transition: all 350ms;
+  -ms-transition: all 350ms;
+  -o-transition: all 350ms;
+  transition: all 350ms;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-navigation-button[data-action=prev] {
+  left: -20px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-navigation-button[data-action=next] {
+  right: -20px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-navigation-button[data-state=disabled] {
+  opacity: 0;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-navigation-button:hover {
+  background: #0065ff;
+  border-color: #0065ff;
+  color: #fff;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-different {
+  margin: 24px 0;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-properties {
+  border-top: 1px solid #E8E8E8;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-property {
+  padding: 16px 0;
+  border-bottom: 1px solid #E8E8E8;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-property-name {
+  font-size: 14px;
+  line-height: 22px;
+  color: #B0B0B0;
+  margin-bottom: 8px;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-property-values-wrapper {
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-property-values {
+  -webkit-transition: all 350ms;
+  -moz-transition: all 350ms;
+  -ms-transition: all 350ms;
+  -o-transition: all 350ms;
+  transition: all 350ms;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-property-value-item {
+  background-color: #fff;
+  z-index: 1;
+  -webkit-transition: all 350ms;
+  -moz-transition: all 350ms;
+  -ms-transition: all 350ms;
+  -o-transition: all 350ms;
+  transition: all 350ms;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-property-value-item[data-fixed=true] {
+  z-index: 2;
+}
+.ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-property-value {
+  font-size: 16px;
+  line-height: 22px;
+  color: #404040;
+  word-break: break-word;
+  margin-right: 8px;
+}
+@media (min-width: 769px) {
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-mobile-block {
+    display: none;
+  }
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-index {
+    display: none;
+  }
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-dots {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-items-navigation {
+    display: none;
+  }
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-fixed-button {
+    display: none;
+  }
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-item-name {
+    padding-top: 20px;
+    height: 56px;
+  }
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-items-index {
+    display: block;
+  }
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-products {
+    border-top: none;
+  }
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-price {
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 550px) {
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-item-name {
+    height: 88px;
+  }
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-item-picture {
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
+  }
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-item-price {
+    display: none;
+  }
+  .ns-bitrix.c-catalog-compare-result.c-catalog-compare-result-default .catalog-compare-result-header-items-index {
+    left: 56px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

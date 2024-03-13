@@ -1,0 +1,189 @@
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-content {
+  position: relative;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-content > div {
+  position: relative;
+  margin-top: -1px;
+  margin-left: -1px;
+  z-index: 1;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-content > div:hover {
+  z-index: 2;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item {
+  height: 100%;
+  border: 1px solid #F2F2F2;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item:hover {
+  border-color: #FFF;
+  -webkit-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+  -moz-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+  box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-content {
+  text-align: center;
+  margin: 40px 32px;
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-picture {
+  margin-bottom: 16px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-picture svg {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-name a {
+  font-size: 14px;
+  line-height: 20px;
+  color: #1B1E25;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-properties {
+  margin-top: 12px;
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-properties-item {
+  font-size: 0;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-properties-item + .catalog-section-item-properties-item {
+  margin-top: 8px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-properties-item-part {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-properties-item-name {
+  color: #808080;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-properties-item-value {
+  color: #1B1E25;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-price {
+  margin-top: 16px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-price-item {
+  font-size: 14px;
+  line-height: 20px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-price-item + .catalog-section-item-price-item {
+  margin-top: 4px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-price-current {
+  font-weight: 700;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-price-old {
+  color: #808080;
+  text-decoration: line-through;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-navigation-top {
+  margin-bottom: 30px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-navigation-bottom {
+  margin-top: 30px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-more {
+  display: block;
+  font-size: 0;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1px;
+  margin-top: 30px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-more-button {
+  width: 100%;
+  padding: 18px 0;
+  vertical-align: top;
+  border: 1px solid #F2F2F2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+  cursor: pointer;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-more-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  vertical-align: middle;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
+  -ms-transition-property: transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-more-icon svg {
+  fill: none !important;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-more-text {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-more-button:hover {
+  border: 1px solid #FBFCFD;
+  background-color: #FBFCFD;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-more-button:hover .catalog-section-more-icon {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+@media all and (max-width: 500px) {
+  .ns-bitrix.c-catalog-section.c-catalog-section-services-tile-4 .catalog-section-item-content {
+    margin: 32px 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

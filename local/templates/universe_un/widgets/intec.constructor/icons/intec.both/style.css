@@ -1,0 +1,59 @@
+.widget.widget-icons.widget-icons-both .widget-icons-header {
+  font-size: 18px;
+  line-height: 25px;
+  color: #292929;
+}
+.widget.widget-icons.widget-icons-both .widget-icons-header + .widget-icons-items {
+  margin-top: 24px;
+}
+.widget.widget-icons.widget-icons-both .widget-icons-items-wrapper {
+  margin: -10px -50px;
+}
+.widget.widget-icons.widget-icons-both .widget-icons-item {
+  padding: 10px 50px;
+}
+.widget.widget-icons.widget-icons-both .widget-icons-item-icon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.widget.widget-icons.widget-icons-both .widget-icons-item-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.widget.widget-icons.widget-icons-both .widget-icons-item-picture {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+.widget.widget-icons.widget-icons-both .widget-icons-item-name {
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: left;
+  color: #000000;
+}
+.widget.widget-icons.widget-icons-both .widget-icons-items, .widget.widget-icons.widget-icons-both .widget-icons-item-content {
+  overflow: hidden;
+}
+@media all and (max-width: 768px) {
+  .widget.widget-icons.widget-icons-both .widget-icons-items-wrapper {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+  .widget.widget-icons.widget-icons-both .widget-icons-item {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

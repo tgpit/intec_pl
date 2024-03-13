@@ -1,0 +1,4 @@
+<?php
+
+$MESS['PRESETS_STAFF_TEMPLATE_2_PRESET_TILES_2'] = 'Плитки 2';
+$MESS['PRESETS_STAFF_TEMPLATE_2_HEADER_TEXT'] = 'Наши сотрудники';

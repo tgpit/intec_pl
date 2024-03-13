@@ -1,0 +1,71 @@
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-modal {
+  display: none;
+}
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-personal {
+  position: relative;
+}
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-personal [data-role=arrow] {
+  transform: rotateZ(180deg);
+}
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-personal[data-expanded=true] .widget-authorization-personal-menu {
+  opacity: 1;
+  pointer-events: all;
+}
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-personal-button {
+  cursor: pointer;
+}
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-personal-text {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-personal-menu {
+  position: absolute;
+  opacity: 0;
+  top: 100%;
+  left: -50px;
+  right: -20px;
+  padding-top: 10px;
+  white-space: normal;
+  z-index: 2;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-buttons {
+  display: block;
+  background: #fff;
+  box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+}
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-button {
+  display: block;
+  position: relative;
+  border-bottom: 1px solid #f2f2f2;
+  color: #404040;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-button:hover {
+  background-color: #fbfcfd;
+}
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-button[data-selected=true] .widget-authorization-button-text {
+  font-weight: 600;
+}
+.c-header.c-header-template-1 .widget-authorization-panel .widget-authorization-button-text {
+  display: block;
+  position: relative;
+  padding: 16px 20px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+  color: inherit;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

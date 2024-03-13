@@ -1,0 +1,148 @@
+.widget.c-categories.c-categories-template-6 [data-size=standard] {
+  width: 33.333333%;
+}
+.widget.c-categories.c-categories-template-6 [data-size=small] {
+  width: 40%;
+}
+.widget.c-categories.c-categories-template-6 [data-size=big] {
+  width: 60%;
+}
+.widget.c-categories.c-categories-template-6 .widget-item-aligner {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.widget.c-categories.c-categories-template-6 .widget-item-wrapper {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  height: 300px;
+  overflow: hidden;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.widget.c-categories.c-categories-template-6 .widget-item-picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
+  -ms-transition-property: transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  z-index: 1;
+}
+.widget.c-categories.c-categories-template-6 .widget-item-picture[data-lazyload-use=true] {
+  background-color: #F2F2F2;
+}
+.widget.c-categories.c-categories-template-6 .widget-item-name-wrap,
+.widget.c-categories.c-categories-template-6 .widget-item-sticker-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 0;
+}
+.widget.c-categories.c-categories-template-6 .widget-item-name-wrap {
+  z-index: 3;
+  margin: 10px;
+}
+.widget.c-categories.c-categories-template-6 .widget-item-name {
+  font-size: 16px;
+  line-height: 22px;
+  color: #404040;
+  padding: 8px 16px;
+  background-color: #FFF;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.07);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.07);
+}
+.widget.c-categories.c-categories-template-6 .widget-item-sticker-wrap {
+  z-index: 2;
+  margin: 10px;
+}
+.widget.c-categories.c-categories-template-6 .widget-item-sticker {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center !important;
+  color: #FFF;
+  padding: 10px 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.widget.c-categories.c-categories-template-6 .widget-item-wrapper:hover {
+  -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.16);
+}
+.widget.c-categories.c-categories-template-6 .widget-item-wrapper:hover .widget-item-picture {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.widget.c-categories.c-categories-template-6 [data-vertical=top] {
+  align-items: flex-start;
+}
+.widget.c-categories.c-categories-template-6 [data-vertical=middle] {
+  align-items: center;
+}
+.widget.c-categories.c-categories-template-6 [data-vertical=bottom] {
+  align-items: flex-end;
+}
+.widget.c-categories.c-categories-template-6 [data-horizontal=left] {
+  justify-content: flex-start;
+}
+.widget.c-categories.c-categories-template-6 [data-horizontal=center] {
+  justify-content: center;
+}
+.widget.c-categories.c-categories-template-6 [data-horizontal=right] {
+  justify-content: flex-end;
+}
+@media all and (max-width: 1024px) {
+  .widget.c-categories.c-categories-template-6 [data-size] {
+    width: 50%;
+  }
+}
+@media all and (max-width: 768px) {
+  .widget.c-categories.c-categories-template-6 .widget-item-name {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media all and (max-width: 700px) {
+  .widget.c-categories.c-categories-template-6 [data-size] {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

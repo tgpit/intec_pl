@@ -1,0 +1,58 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-section-list';
+$template: 'catalog-tile-6';
+$class: #{$component};
+$item: #{$class}-item;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  padding-top: 1px;
+  .#{$item} {
+    margin-top: -1px;
+    margin-left: -1px;
+    border: 1px solid #F2F2F2;
+    @include transition(350ms, box-shadow);
+
+    &:hover {
+      box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+      z-index: 1;
+    }
+  }
+  .#{$item}-wrapper {
+    font-size: 0;
+    margin: 30px;
+  }
+  .#{$item}-picture-wrap {
+  }
+  .#{$item}-picture {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 16px auto;
+  }
+  .#{$item}-name-wrap {
+    text-align: center;
+  }
+  .#{$item}-name {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #404040;
+    text-decoration: none;
+    @include transition(350ms, color);
+  }
+  .#{$item}-count-wrap {
+    margin-top: 4px;
+  }
+  .#{$item}-count {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #B0B0B0;
+  }
+}

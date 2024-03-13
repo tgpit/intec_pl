@@ -1,0 +1,328 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'services';
+$template: 'template-17';
+$item: 'widget-item';
+$nav: 'widget-nav';
+$dots: 'widget-dots';
+
+$color-black-1: #1B1E25;
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  overflow: hidden;
+  padding-bottom: 40px;
+  margin-bottom: -40px;
+
+  .widget-content {
+    position: relative;
+
+    & .owl-stage-outer {
+      overflow: visible;
+      & .owl-stage {
+        & .owl-item {
+          opacity: 0;
+          transition: opacity 0.4s;
+        }
+        & .owl-item.active {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .#{$item} {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    @include transition(0.4s, border-color);
+
+    &:hover {
+      @include box-shadow(0, 5px, 15px, 0, rgba(60, 60, 60, 0.1));
+    }
+  }
+  .#{$item}-picture {
+    display: block;
+    font-size: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 128px;
+    height: 128px;
+    margin-right: 24px;
+    position: relative;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include transform-translate(-50%, -50%);
+    }
+  }
+  .#{$item}-text {
+    padding-top: 26px;
+    padding-right: 16px;
+    @include box-sizing(border-box);
+  }
+  .#{$item}-name {
+    display: block;
+    display: -webkit-box;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-black-1;
+    text-decoration: none;
+    max-height: 44px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    @include transition(color, 0.4s);
+  }
+  .#{$item}-price {
+    display: -webkit-box;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: $color-black-1;
+    max-height: 16px;
+    margin-top: 16px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+
+  .#{$nav},
+  .#{$dots} {
+    font-size: 0;
+    pointer-events: none;
+    z-index: 2;
+
+    button {
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      outline: none;
+      pointer-events: all;
+    }
+  }
+
+
+  [data-nav-view='1'] {
+
+    .widget-items {
+      padding-left: 46px;
+      padding-right: 46px;
+    }
+    .#{$nav} {
+      position: absolute;
+      top: 64px;
+      left: 0;
+      right: 0;
+
+      button {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        opacity: 0;
+        cursor: pointer;
+        outline: none;
+        border: 1px solid #E8E8E8;
+        @include border-radius(2px);
+        @include transform-translate(null, -50%);
+        @include transition(0.4s, #{background-color, border, opacity});
+
+        &.disabled {
+          opacity: 0!important;
+          pointer-events: none;
+        }
+        &:hover {
+          svg {
+            path {
+              stroke: #FFF;
+            }
+          }
+        }
+      }
+      .nav-prev {
+        left: 0;
+
+        svg {
+          padding-right: 2px;
+        }
+      }
+      .nav-next {
+        right: 0;
+
+        svg {
+          padding-left: 2px;
+        }
+      }
+    }
+    &:hover {
+      .#{$nav} {
+        button {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  [data-nav-view='2'] {
+    .widget-items {
+      padding-left: 46px;
+      padding-right: 46px;
+    }
+    .#{$nav} {
+      position: absolute;
+      top: 64px;
+      left: 0;
+      right: 0;
+
+      svg {
+        path {
+          stroke: #FFF;
+        }
+      }
+      button {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        cursor: pointer;
+        @include border-radius(50%);
+        @include transform-translate(null, -50%);
+        @include transition(0.4s, #{background-color, opacity});
+
+        &:hover {
+          background-color: $color-black-1;
+        }
+        &.disabled {
+          opacity: 0!important;
+          pointer-events: none;
+        }
+      }
+      .nav-prev {
+        left: 0;
+
+        svg {
+          padding-right: 2px;
+        }
+      }
+      .nav-next {
+        right: 0;
+
+        svg {
+          padding-left: 2px;
+        }
+      }
+    }
+    &:hover {
+      .#{$nav} {
+        button {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  [data-dots-view='1'] {
+    .#{$dots} {
+      text-align: center;
+      padding-top: 24px;
+      margin: -10px;
+
+      &.disabled {
+        display: none;
+      }
+      button {
+        display: inline-block;
+        padding: 10px;
+
+        span {
+          display: block;
+          width: 10px;
+          height: 10px;
+          border: 2px solid $color-black-1;
+          @include border-radius(50%);
+          @include transition(0.4s, background-color);
+        }
+        &.active {
+          span {
+            background-color: $color-black-1;
+          }
+        }
+      }
+    }
+  }
+  [data-dots-view='2'] {
+    .#{$dots} {
+      text-align: center;
+      padding-top: 24px;
+      margin: -10px;
+
+      &.disabled {
+        display: none;
+      }
+      button {
+        display: inline-block;
+        padding: 10px;
+
+        span {
+          display: block;
+          width: 10px;
+          height: 10px;
+          border: 2px solid $color-black-1;
+          @include border-radius(2px);
+          @include transition(0.4s, background-color);
+        }
+        &.active {
+          span {
+            background-color: $color-black-1;
+          }
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 1024px) {
+    [data-nav-view='1'] {
+      .#{$nav} {
+        button {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  @media all and (max-width: 500px) {
+    .#{$item}-picture {
+      width: 100px;
+      height: 100px;
+    }
+    .#{$item}-text {
+      padding-top: 16px;
+    }
+    .#{$item}-name {
+      font-size: 14px;
+      line-height: 18px;
+      max-height: 36px;
+    }
+    .#{$item}-price {
+      font-size: 14px;
+    }
+    [data-nav-view='1'] {
+      .widget-items {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .#{$nav} {
+        display: none;
+      }
+    }
+  }
+}

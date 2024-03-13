@@ -1,0 +1,15 @@
+<PrefabricatedStructuresAndLogCabins>
+	<GoodsSubType name="Дом"></GoodsSubType>
+	<GoodsSubType name="Баня"></GoodsSubType>
+	<GoodsSubType name="Бытовка"></GoodsSubType>
+	<GoodsSubType name="Теплица"></GoodsSubType>
+	<GoodsSubType name="Беседка"></GoodsSubType>
+	<GoodsSubType name="Веранда или терраса"></GoodsSubType>
+	<GoodsSubType name="Гараж"></GoodsSubType>
+	<GoodsSubType name="Для животных"></GoodsSubType>
+	<GoodsSubType name="Колодец"></GoodsSubType>
+	<GoodsSubType name="Навес"></GoodsSubType>
+	<GoodsSubType name="Туалет"></GoodsSubType>
+	<GoodsSubType name="Хозблок"></GoodsSubType>
+	<GoodsSubType name="Другой"></GoodsSubType>
+</PrefabricatedStructuresAndLogCabins>

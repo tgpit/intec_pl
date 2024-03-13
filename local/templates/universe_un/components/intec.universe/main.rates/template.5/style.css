@@ -1,0 +1,298 @@
+.widget.c-rates.c-rates-template-5 .widget-section-description {
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 40px;
+}
+.widget.c-rates.c-rates-template-5 .widget-tabs-wrap {
+  position: relative;
+}
+.widget.c-rates.c-rates-template-5 .widget-tabs-wrap:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 1px solid #F2F2F2;
+}
+.widget.c-rates.c-rates-template-5 .widget-tabs-wrap-2 {
+  position: relative;
+  z-index: 1;
+}
+.widget.c-rates.c-rates-template-5 .widget-tabs-wrap + .widget-tabs-content-wrap {
+  margin-top: 40px;
+}
+.widget.c-rates.c-rates-template-5 .widget-item {
+  position: relative;
+  z-index: 1;
+}
+.widget.c-rates.c-rates-template-5 .widget-item:hover {
+  z-index: 2;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-wrapper {
+  position: relative;
+  height: 100%;
+  padding: 32px;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #ECECEC;
+  background-color: #FFF;
+  -webkit-transition-property: margin, box-shadow;
+  -moz-transition-property: margin, box-shadow;
+  -ms-transition-property: margin, box-shadow;
+  -o-transition-property: margin, box-shadow;
+  transition-property: margin, box-shadow;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-content {
+  position: relative;
+  height: 100%;
+  z-index: 2;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-sticker-wrap {
+  font-size: 0;
+  text-align: right;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-sticker {
+  display: inline-block;
+  top: 30px;
+  right: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #1B1E25;
+  padding: 6px 8px;
+  background: #F2C94C;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1B1E25;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-price {
+  margin-top: 24px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-price-value {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  color: #1B1E25;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-discount + .widget-item-price-value {
+  margin-top: 8px;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-discount-value {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration-line: line-through;
+  color: #B0B0B0;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-description {
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 11px;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-properties {
+  margin-top: 11px;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-property {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-property:last-child {
+  margin-bottom: 0;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-property-name {
+  font-weight: normal;
+  color: #808080;
+  margin-right: 8px;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-property-value {
+  font-weight: 500;
+  color: #1B1E25;
+}
+.widget.c-rates.c-rates-template-5 .widget-item-button {
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #FFF;
+  padding: 15px 30px;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -ms-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.widget.c-rates.c-rates-template-5 [data-button=true] .widget-item-content {
+  padding-bottom: 56px;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=false] .widget-item {
+  margin-top: -1px;
+  margin-left: -1px;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=false] .widget-item-wrapper:hover .widget-item-effect {
+  margin: -10px;
+  -webkit-box-shadow: 0 9px 24px 0 rgba(111, 129, 162, 0.35);
+  -moz-box-shadow: 0 9px 24px 0 rgba(111, 129, 162, 0.35);
+  box-shadow: 0 9px 24px 0 rgba(111, 129, 162, 0.35);
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .widget-item {
+  height: 100%;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-control-navigation {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-left,
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-right {
+  position: absolute;
+  display: block;
+  line-height: 0;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-top: -20px;
+  border: 1px solid #E8E8E8;
+  background-color: #FFF;
+  color: #808080;
+  opacity: 1;
+  outline: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-property: background-color, border-color, color;
+  -moz-transition-property: background-color, border-color, color;
+  -ms-transition-property: background-color, border-color, color;
+  -o-transition-property: background-color, border-color, color;
+  transition-property: background-color, border-color, color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-left svg path,
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-right svg path {
+  stroke: #808080;
+  transition: all 0.4s;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-left:hover svg path,
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-right:hover svg path {
+  stroke: #FFF;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-left.disabled,
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-right.disabled {
+  display: none;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-left {
+  left: -20px;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-right {
+  right: -20px;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .widget-items-dots {
+  padding-top: 25px;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .widget-items-dots .widget-items-dot {
+  margin-left: 16px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition-property: background-color, border-color;
+  -moz-transition-property: background-color, border-color;
+  -ms-transition-property: background-color, border-color;
+  -o-transition-property: background-color, border-color;
+  transition-property: background-color, border-color;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .widget-items-dots .widget-items-dot:first-child {
+  margin-left: 0;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .widget-items-dots .widget-items-dot:not(.active) {
+  background: #CFCFCF !important;
+}
+.widget.c-rates.c-rates-template-5 [data-slider=true] .widget-items-dots .widget-items-dot span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.widget.c-rates.c-rates-template-5 [data-align=left] {
+  text-align: left;
+}
+.widget.c-rates.c-rates-template-5 [data-align=center] {
+  text-align: center;
+}
+.widget.c-rates.c-rates-template-5 [data-align=right] {
+  text-align: right;
+}
+@media all and (max-width: 650px) {
+  .widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-left,
+.widget.c-rates.c-rates-template-5 [data-slider=true] .intec-ui-part-button-right {
+    border: 1px solid #ECECEC;
+  }
+}
+@media all and (max-width: 500px) {
+  .widget.c-rates.c-rates-template-5 .widget-item-name {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .widget.c-rates.c-rates-template-5 .widget-item-price-value {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .widget.c-rates.c-rates-template-5 .widget-item-price-currency,
+.widget.c-rates.c-rates-template-5 .widget-item-discount-value {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

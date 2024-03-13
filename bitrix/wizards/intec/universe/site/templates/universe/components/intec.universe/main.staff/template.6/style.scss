@@ -1,0 +1,109 @@
+$component: 'staff';
+$template: 'template-6';
+
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin user-select ($value) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-content-wrap {
+    position: relative;
+
+  }
+  .widget-content {
+    position: relative;
+  }
+
+  .widget-item-wrapper {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    height: auto;
+  }
+  .widget-item-wrapper-2 {
+    height: 100%;
+  }
+  .widget-item-information {
+    padding: 24px;
+  }
+
+  .widget-item-position {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B0B0B0;
+  }
+
+  .widget-item-name {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #404040;
+    text-decoration: none;
+    margin-top: 8px;
+  }
+
+  .widget-item-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    color: #808080;
+    margin-top: 16px;
+    max-height: 72px;
+    overflow: hidden;
+  }
+
+  .widget-item-picture-wrap {
+    height: 100%;
+  }
+  .widget-item-picture {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    width: 128px;
+    min-height: 128px;
+    height: 100%;
+  }
+
+  [data-picture-size="big"] {
+    .widget-item-picture {
+      width: 200px;
+      min-height: 200px;
+    }
+  }
+
+
+  @media all and (max-width: 500px) {
+    .widget-item-picture-wrap {
+      height: initial;
+    }
+    .widget-item-picture {
+      width: initial!important;
+    }
+  }
+}

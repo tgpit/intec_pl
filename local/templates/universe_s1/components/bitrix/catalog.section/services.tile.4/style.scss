@@ -1,0 +1,214 @@
+$namespace: 'bitrix';
+$component: 'catalog-section';
+$template: 'services-tile-4';
+
+$item: #{$component}-item;
+$navigation: #{$component}-navigation;
+$button-more: #{$component}-more;
+
+$color-black-1: #1B1E25;
+$color-black-2:#404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-gray-4: #F2F2F2;
+$color-green: #1DB940;
+$color-green-light: #10CDA0;
+$color-red: #E05757;
+$color-yellow: #F4BB28;
+
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin box-sizing ($sizing) {
+  -webkit-box-sizing: $sizing;
+  -moz-box-sizing: $sizing;
+  box-sizing: $sizing;
+}
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$component}-content {
+    position: relative;
+
+    & > div {
+      position: relative;
+      margin-top: -1px;
+      margin-left: -1px;
+      z-index: 1;
+
+      &:hover {
+        z-index: 2;
+      }
+    }
+  }
+
+  .#{$item} {
+    height: 100%;
+    border: 1px solid $color-gray-4;
+    @include transition(box-shadow, 0.4s);
+
+    &:hover {
+      border-color: #FFF;
+      -webkit-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+      -moz-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+      box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+    }
+  }
+  .#{$item}-content {
+    text-align: center;
+    margin: 40px 32px;
+    overflow: hidden;
+  }
+  .#{$item}-picture {
+    margin-bottom: 16px;
+
+    svg {
+      display: inline-block;
+      width: auto;
+      height: auto;
+    }
+  }
+  .#{$item}-name {
+    a {
+      font-size: 14px;
+      line-height: 20px;
+      color: $color-black-1;
+      text-decoration: none;
+      @include transition(color, 0.4s);
+    }
+  }
+  .#{$item}-properties {
+    margin-top: 12px;
+    overflow: hidden;
+  }
+  .#{$item}-properties-item {
+    font-size: 0;
+    margin-left: -2px;
+    margin-right: -2px;
+
+    & + .#{$item}-properties-item {
+      margin-top: 8px;
+    }
+  }
+  .#{$item}-properties-item-part {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .#{$item}-properties-item-name {
+    color: $color-gray-1;
+  }
+  .#{$item}-properties-item-value {
+    color: $color-black-1;
+  }
+  .#{$item}-price {
+    margin-top: 16px;
+  }
+  .#{$item}-price-item {
+    font-size: 14px;
+    line-height: 20px;
+
+    & + .#{$item}-price-item {
+      margin-top: 4px;
+    }
+  }
+  .#{$item}-price-current {
+    font-weight: 700;
+  }
+  .#{$item}-price-old {
+    color: $color-gray-1;
+    text-decoration: line-through;
+  }
+
+  .#{$navigation}-top {
+    margin-bottom: 30px;
+  }
+  .#{$navigation}-bottom {
+    margin-top: 30px;
+  }
+
+  .#{$button-more} {
+    display: block;
+    font-size: 0;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1px;
+    margin-top: 30px;
+  }
+  .#{$button-more}-button {
+    width: 100%;
+    padding: 18px 0;
+    vertical-align: top;
+    border: 1px solid #F2F2F2;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+    cursor: pointer;
+  }
+  .#{$button-more}-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    vertical-align: middle;
+    @include border-radius(50%);
+    @include box-sizing(content-box);
+    @include transition(transform, 0.3s);
+
+    svg{
+      fill: none!important;
+    }
+  }
+  .#{$button-more}-text {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  .#{$button-more}-button:hover {
+    border: 1px solid #FBFCFD;
+    background-color: #FBFCFD;
+
+    .#{$button-more}-icon {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  }
+  
+  @media all and (max-width: 500px) {
+    .#{$item}-content {
+      margin: 32px 24px;
+    }
+  }
+}

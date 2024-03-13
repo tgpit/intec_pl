@@ -1,0 +1,168 @@
+@import "./../../../../sources/styles/include.scss";
+
+$namespace: 'intec';
+$component: 'startshop-forms-result-new';
+$template: 'template-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$component}-wrapper {}
+
+  .#{$component}-caption {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .#{$component}-row {
+    padding: 8px 0;
+  }
+
+  .#{$component}-row-name {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+    color: #6e6e6e;
+    margin-bottom: 8px;
+  }
+
+  .#{$component}-row-control {
+    .startshop-input-multiselect,
+    .startshop-input-text,
+    .startshop-input-textarea,
+    .startshop-input-select {
+      outline: none;
+      width: 100%;
+      @include box-shadow(none);
+    }
+
+    .startshop-input-textarea {
+      resize: vertical;
+    }
+  }
+
+  .#{$component}-row-control-box {
+    @include border-radius(5px);
+
+    padding: 10px;
+  }
+
+  .#{$component}-row-control-box-wrapper {
+    overflow: hidden;
+  }
+
+  .#{$component}-captcha {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .#{$component}-captcha-caption {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+    color: #6e6e6e;
+    margin-bottom: 8px;
+  }
+
+  .#{$component}-captcha-image {
+    font-size: 0;
+    margin-bottom: 5px;
+    text-align: left;
+
+    img {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+
+  .#{$component}-button {
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 11px 11px;
+    width: 100%;
+
+    &[disabled] {
+      background-color: #CCCCCC;
+      border-color: #CCCCCC;
+      cursor: not-allowed;
+    }
+  }
+
+  .#{$component}-message-error {
+    color: #ff114a;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .#{$component}-row,
+  .#{$component}-captcha {
+    .#{$component}-message-error {
+      margin-bottom: 10px;
+    }
+  }
+
+  .#{$component}-required {
+    color: #ff0000;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    vertical-align: top;
+  }
+
+  .#{$class}-sent {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .#{$class}-sent-icon {
+    margin-right: 20px;
+  }
+
+  .#{$class}-sent-text {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #404040;
+  }
+
+  .#{$class}-sent-buttons {
+    display: none;
+    margin-top: 38px;
+  }
+
+  .#{$class}-sent-button {
+    padding: 23px 56px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .#{$component}-submit {
+    margin-top: 20px;
+
+    .intec-ui.intec-ui-control-button {
+      padding: 16px 32px;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 10px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+  }
+  .#{$component}-consent .intec-ui-part-content {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

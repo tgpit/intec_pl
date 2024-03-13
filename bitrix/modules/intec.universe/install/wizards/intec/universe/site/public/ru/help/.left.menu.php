@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Покупки", 
+		"#SITE_DIR#help/buys/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+    Array(
+        "Помощь покупателю",
+        "#SITE_DIR#help/client/",
+        Array(),
+        Array(),
+        ""
+    ),
+	Array(
+		"Вопрос - ответ",
+		"#SITE_DIR#help/faq/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Бренды", 
+		"#SITE_DIR#help/brands/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+    Array(
+        "Коллекции",
+        "#SITE_DIR#collections/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Готовые образы",
+        "#SITE_DIR#imagery/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Возможности",
+        "#SITE_DIR#help/features/",
+        Array(),
+        Array(),
+        ""
+    )
+);
+?>

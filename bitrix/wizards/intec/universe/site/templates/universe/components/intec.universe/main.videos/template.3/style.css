@@ -1,0 +1,181 @@
+.widget.c-videos.c-videos-template-3 .widget-item-picture {
+  position: relative;
+  padding-top: 56.25%;
+  background-size: cover;
+  background-color: #E7F1FF;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.widget.c-videos.c-videos-template-3 .widget-item-picture svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  pointer-events: none;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
+  -ms-transition-property: transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+}
+.widget.c-videos.c-videos-template-3 .widget-item-picture:hover svg {
+  -webkit-transform: translate(-50%, -50%) scale(1.1);
+  -moz-transform: translate(-50%, -50%) scale(1.1);
+  -ms-transform: translate(-50%, -50%) scale(1.1);
+  -o-transform: translate(-50%, -50%) scale(1.1);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+.widget.c-videos.c-videos-template-3 .widget-item-name {
+  font-size: 14px;
+  line-height: 24px;
+  color: #404040;
+  margin-top: 12px;
+  margin-right: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  max-height: 48px;
+}
+.widget.c-videos.c-videos-template-3 .widget-header {
+  overflow: hidden;
+}
+.widget.c-videos.c-videos-template-3 .widget-content {
+  position: relative;
+}
+.widget.c-videos.c-videos-template-3 .widget-items-navigation {
+  position: absolute;
+  top: -65px;
+  right: 0;
+}
+.widget.c-videos.c-videos-template-3 .widget-items-navigation button {
+  width: 40px;
+  height: 40px;
+  font-size: 9px;
+  line-height: 1;
+  background: #fff;
+  color: #808080;
+  border: 1px solid #E8E8E8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  cursor: pointer;
+  outline: none;
+}
+.widget.c-videos.c-videos-template-3 .widget-items-navigation button.navigation-right {
+  margin-left: 16px;
+}
+@media all and (max-width: 550px) {
+  .widget.c-videos.c-videos-template-3 .widget-items-navigation button {
+    display: none;
+  }
+}
+.widget.c-videos.c-videos-template-3 .widget-items-navigation button:hover {
+  color: #fff;
+}
+.widget.c-videos.c-videos-template-3 .widget-items-navigation button svg path {
+  stroke: #808080;
+  transition: all 0.4s;
+}
+.widget.c-videos.c-videos-template-3 .widget-items-navigation button:hover svg path {
+  stroke: #FFF;
+}
+.widget.c-videos.c-videos-template-3 .widget-items-navigation button.disabled {
+  background-color: #FFF !important;
+  border-color: #F2F2F2 !important;
+  opacity: 0.7;
+  cursor: not-allowed;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.widget.c-videos.c-videos-template-3 .widget-items-navigation button.disabled svg path {
+  stroke: #F2F2F2 !important;
+}
+.widget.c-videos.c-videos-template-3 .widget-all-container {
+  display: none;
+}
+.widget.c-videos.c-videos-template-3 .widget-all-button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #808080;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.widget.c-videos.c-videos-template-3 .widget-all-button i {
+  display: none;
+  font-size: 18px;
+}
+.widget.c-videos.c-videos-template-3 .widget-use-slider .widget-header {
+  padding-top: 5px;
+}
+.widget.c-videos.c-videos-template-3 .widget-use-slider.widget-no-header .widget-content {
+  margin-top: 80px;
+}
+.widget.c-videos.c-videos-template-3 .widget-use-slider .widget-title.align-left, .widget.c-videos.c-videos-template-3 .widget-use-slider .widget-title.align-right,
+.widget.c-videos.c-videos-template-3 .widget-use-slider .widget-description.align-left,
+.widget.c-videos.c-videos-template-3 .widget-use-slider .widget-description.align-right {
+  margin-right: 115px;
+}
+.widget.c-videos.c-videos-template-3 .widget-use-slider .widget-title.align-center,
+.widget.c-videos.c-videos-template-3 .widget-use-slider .widget-description.align-center {
+  margin-left: 115px;
+  margin-right: 115px;
+}
+@media all and (max-width: 550px) {
+  .widget.c-videos.c-videos-template-3 [data-nav=true] .widget-title.align-left, .widget.c-videos.c-videos-template-3 [data-nav=true] .widget-title.align-center, .widget.c-videos.c-videos-template-3 [data-nav=true] .widget-title.align-right,
+.widget.c-videos.c-videos-template-3 [data-nav=true] .widget-description.align-left,
+.widget.c-videos.c-videos-template-3 [data-nav=true] .widget-description.align-center,
+.widget.c-videos.c-videos-template-3 [data-nav=true] .widget-description.align-right {
+    margin-right: 0;
+  }
+  .widget.c-videos.c-videos-template-3 .widget-all-container {
+    display: block;
+  }
+  .widget.c-videos.c-videos-template-3 .widget-title.align-center.widget-title-margin {
+    margin-left: 25px;
+  }
+  .widget.c-videos.c-videos-template-3 .widget-all-container.mobile {
+    text-align: right;
+    width: 25px;
+    max-height: 36px;
+  }
+  .widget.c-videos.c-videos-template-3 .widget-all-container i {
+    display: inline-block;
+  }
+  .widget.c-videos.c-videos-template-3 .widget-footer.mobile,
+.widget.c-videos.c-videos-template-3 .widget-footer-button.mobile {
+    display: none;
+  }
+  .widget.c-videos.c-videos-template-3 .widget-all-container {
+    width: 25px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

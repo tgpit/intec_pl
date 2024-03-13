@@ -1,0 +1,3 @@
+<?php
+
+$MESS['C_VIDEOS_TEMP1_TEMPLATE_FOOTER_BUTTON_TEXT'] = 'Смотреть все';

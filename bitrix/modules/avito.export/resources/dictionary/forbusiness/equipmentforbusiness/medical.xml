@@ -1,0 +1,17 @@
+<Root>
+    <GoodsSubType name="Стоматология"/>
+    <GoodsSubType name="Мебель"/>
+    <GoodsSubType name="УЗИ"/>
+    <GoodsSubType name="Хирургия"/>
+    <GoodsSubType name="Анестезиология и реанимация"/>
+    <GoodsSubType name="Офтальмология"/>
+    <GoodsSubType name="Стерилизация"/>
+    <GoodsSubType name="Оториноларингология"/>
+    <GoodsSubType name="Гинекология"/>
+    <GoodsSubType name="Физиотерапия и реабилитация"/>
+    <GoodsSubType name="Эндоскопия"/>
+    <GoodsSubType name="Функциональная диагностика"/>
+    <GoodsSubType name="Фармацевтические холодильники"/>
+    <GoodsSubType name="Расходные материалы"/>
+    <GoodsSubType name="Другое"/>
+</Root>

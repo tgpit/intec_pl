@@ -1,0 +1,227 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'services';
+$template: 'template-18';
+$item: 'widget-item';
+$content: 'widget-content';
+$navigation: 'widget-navigation';
+
+$color-black-1: #1B1E25;
+$color-black-2:#404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-gray-4: #F2F2F2;
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$item} {
+    padding: 20px;
+    background-color: #FFF;
+  }
+  .#{$item}-picture {
+    display: block;
+    font-size: 0;
+    text-align: center;
+
+    &[data-picture-size='default'] {
+      width: 80px;
+      height: 60px;
+    }
+    &[data-picture-size='small'] {
+      width: 52px;
+      height: 39px;
+    }
+    &::after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .#{$item}-name {
+    font-size: 14px;
+    line-height: 18px;
+    word-break: break-word;
+
+    @include webkit-box(2, 18);
+
+    & > * {
+      color: $color-gray-1;
+      text-decoration: none;
+      @include transition(0.4s, color);
+    }
+  }
+  .#{$item}-price-holder{
+    margin-top: 8px;
+  }
+  .#{$item}-price {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    color: $color-black-2;
+
+    word-break: break-all;
+  }
+  .#{$item}-price-old {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 4px;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    color: $color-gray-1;
+    word-break: break-all;
+  }
+  @media (max-width: 1100px){
+    .#{$item}-price {
+      @include webkit-box(1, 16);
+    }
+    .#{$item}-price-old {
+      @include webkit-box(1, 16);
+    }
+
+  }
+
+  .#{$content} {
+    position: relative;
+  }
+  .#{$content}-static {
+    position: relative;
+
+    .#{$content}-item {
+      position: relative;
+      margin-top: -1px;
+      margin-left: -1px;
+      border: 1px solid $color-gray-4;
+      z-index: 1;
+      @include transition(0.4s, (border-color, box-shadow));
+
+      &:hover {
+        border-color: #FFF;
+        -webkit-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+        -moz-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+        box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+        z-index: 2;
+      }
+    }
+    .#{$item} {
+      height: 100%;
+    }
+  }
+  .#{$content}-dynamic {
+    z-index: 1;
+
+    .#{$content}-item {
+      margin-left: 1px;
+      height: 100%;
+      border: 1px solid $color-gray-4;
+    }
+    .#{$item}-name {
+      max-height: 36px;
+    }
+  }
+
+  .#{$navigation} {
+    z-index: 2;
+
+    button {
+      font-size: 0;
+      text-align: center;
+      padding: 10px;
+      background-color: #FFF;
+      border: 1px solid $color-gray-3;
+      outline: none;
+      cursor: pointer;
+      outline: none;
+      @include border-radius(2px);
+      @include user-select(none);
+      @include transition(0.4s, (background-color, border-color, opacity));
+
+      svg {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        max-width: 10px;
+        max-height: 100%;
+
+        path {
+          stroke: $color-gray-1;
+          @include transition(0.4s, stroke);
+        }
+      }
+      &:hover {
+        svg {
+          path {
+            stroke: #FFF;
+          }
+        }
+      }
+    }
+    &[data-view='default'] {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+
+      button {
+        position: absolute;
+        top: 0;
+
+        &.disabled {
+          opacity: 0;
+          pointer-events: none;
+        }
+      }
+      .#{$navigation}-left {
+        left: 0;
+        @include transform-translate(-50%, -50%);
+      }
+      .#{$navigation}-right {
+        right: 0;
+        @include transform-translate(50%, -50%);
+      }
+    }
+    &[data-view='top'] {
+      position: absolute;
+      top: -24px;
+      right: 0;
+
+      button {
+        @include transform-translate(0, -100%);
+
+        &.disabled {
+          background-color: #FFF !important;
+          border-color: $color-gray-4 !important;
+          opacity: 0.7;
+          cursor: not-allowed;
+
+          svg {
+            path {
+              stroke: $color-gray-4;
+            }
+          }
+        }
+        & + button {
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+}

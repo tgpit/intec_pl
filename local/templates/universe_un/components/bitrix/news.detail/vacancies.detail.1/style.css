@@ -1,0 +1,75 @@
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-image {
+  padding-top: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-info {
+  background: #FBFCFD;
+  border: 1px solid #F2F2F2;
+  padding: 30px 15px 15px 15px;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-info-element {
+  margin: 0 15px 15px 15px;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-info-element-name {
+  font-size: 14px;
+  color: #B0B0B0;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-info-element-value {
+  font-size: 14px;
+  color: #404040;
+  margin-top: 4px;
+  width: 165px;
+  line-height: 1.43;
+  max-height: 40px;
+  overflow: hidden;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-description {
+  margin-top: 40px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-send-summary-wrap {
+  margin-top: 45px;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-send-summary {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-hr {
+  background: #F2F2F2;
+  width: 100%;
+  height: 1px;
+  border: none;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-back {
+  margin-top: 40px;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-back:hover .ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-back-text, .ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-back-icon, .ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-back:active .ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-back-text, .ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-back-icon {
+  color: inherit;
+  text-decoration: none;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-back-text {
+  color: #808080;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+.ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-back-icon {
+  margin-top: -2px;
+}
+@media screen and (max-width: 768px) {
+  .ns-bitrix.c-news-detail.c-news-detail-vacancies-detail-1 .news-detail-image {
+    padding-top: 60%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

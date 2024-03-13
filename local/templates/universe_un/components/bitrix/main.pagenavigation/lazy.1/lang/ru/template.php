@@ -1,0 +1,3 @@
+<?php
+
+$MESS['C_MAIN_PAGENAVIGATION_LAZY_1_TEMPLATE_BUTTON_SHOW'] = 'ПОКАЗАТЬ ЕЩЕ';

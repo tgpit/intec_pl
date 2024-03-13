@@ -1,0 +1,127 @@
+$namespace: 'bitrix';
+$component: 'sale-personal-profile-list';
+$template: 'default';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+
+  .#{$class}-wrap {
+    padding-bottom: 20px;
+    border: none;
+  }
+
+  .#{$class}-add-profile {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    letter-spacing: 0.1em;
+    border-width: 1px;
+  }
+
+  .#{$class}-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .#{$class}-row {
+    display:table-row;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+    transition: 0.3s;
+
+    &:hover {
+      box-shadow: 0px 8px 20px rgba(27, 30, 37, 0.08);
+    }
+
+    &-title {
+      background: #FBFCFD;
+      box-shadow: none !important;
+
+      .#{$class}-cell {
+        color: #808080;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .#{$class}-arrow-wrap {
+    font-size: 0;
+  }
+
+  .#{$class}-arrow {
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    text-align: center;
+    font-size: 0;
+    vertical-align: middle;
+  }
+
+  .#{$class}-arrow-down {
+    transform: rotate(180deg);
+  }
+
+  .#{$class}-cell {
+    display:table-cell;
+    padding: 15px 30px;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 18px;
+    color: #404040;
+  }
+
+  .#{$class}-cell.#{$class}-cell-edit {
+    padding: 15px 5px;
+  }
+
+  .#{$class}-cell-name {
+    width: 100%;
+  }
+
+  .#{$class}-button {
+    text-decoration: none;
+  }
+
+  .#{$class}-button-delete {
+    color: #b0b0b0;
+    transition: 0.3s;
+
+    &:hover {
+      color: #404040;
+    }
+  }
+
+  .#{$class}-empty {
+    font-size: 16px;
+    color: #ff0000;
+  }
+
+  @media all and (max-width: 800px) {
+    .#{$class}-row {
+
+      &-title {
+
+        .#{$class}-cell {
+          white-space: normal;
+        }
+      }
+    }
+
+    .#{$class}-arrow-wrap {
+      display: none;
+    }
+  }
+
+  @media all and (max-width: 550px) {
+    .#{$class}-cell {
+      font-size: 11px;
+    }
+
+    .#{$class}-cell-date {
+      display: none;
+    }
+  }
+}

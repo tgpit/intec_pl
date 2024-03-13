@@ -1,0 +1,117 @@
+$namespace: 'bitrix';
+$component: 'catalog-section-list';
+$template: 'services-tile-3';
+$class: #{$component};
+$item: #{$class}-item;
+
+$black-text: #404040;
+$gray-text: #808080;;
+$gray-text-light: #B0B0B0;
+
+@mixin transition($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+@mixin user-select($select) {
+  -webkit-user-select: $select;
+  -moz-user-select: $select;
+  -ms-user-select: $select;
+  user-select: $select;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  padding-top: 1px;
+
+  .#{$item}-wrapper {
+    cursor: pointer;
+    border: 1px solid #F2F2F2;
+    @include transition((box-shadow, border-color), 0.4s);
+
+    &:hover {
+      border-color: transparent;
+      box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+    }
+  }
+  .#{$item}-wrapper {}
+  .#{$item}-picture {
+    display: block;
+    width: 100%;
+    padding-top: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    svg {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .#{$item}-text-wrap {
+    position: relative;
+    height: 80px;
+  }
+  .#{$item}-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 23px;
+    padding-top: 15px;
+    background: #fff;
+    max-height: 80px;
+    @include transition((max-height, border-color), 0.4s);
+  }
+  .#{$item}-name {
+    display: block;
+    height: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: $black-text;
+    text-decoration: none;
+    @include transition(color, 0.4s);
+  }
+
+  .#{$item}-description-wrap {
+    height: 0;
+    overflow: hidden;
+    @include transition(height, 0.4s);
+  }
+  .#{$item}-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: $gray-text;
+    height: 60px;
+  }
+
+  .#{$item}:hover .#{$item}-description-wrap {
+    height: 60px;
+  }
+  .#{$item}:hover .#{$item}-text {
+    max-height: 500px;
+  }
+
+  .#{$item}-name + .#{$item}-description {
+    margin-top: 8px;
+  }
+
+  @media all and (max-width: 768px) {
+    .#{$item}-description-wrap {
+      height: 60px;
+    }
+    .#{$item}-text {
+      max-height: 500px;
+    }
+  }
+}

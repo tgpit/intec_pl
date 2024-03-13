@@ -1,0 +1,126 @@
+.widget.c-about-ref.c-about-ref-template-1 {
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-content {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-content-text {
+  position: relative;
+  width: 50%;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-title {
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 16px;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-name {
+  font-size: 32px;
+  line-height: 40px;
+  color: #1B1E25;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-preview {
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+  margin-top: 16px;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-buttons {
+  margin-top: 24px;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-button {
+  padding: 20px 36px;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-content-additional {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-picture {
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 0;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-video:hover .widget-video-hover-opacity {
+  opacity: 0.9;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-video .widget-video-hover-opacity {
+  -webkit-transition-duration: 300ms;
+  -moz-transition-duration: 300ms;
+  -ms-transition-duration: 300ms;
+  -o-transition-duration: 300ms;
+  transition-duration: 300ms;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.widget.c-about-ref.c-about-ref-template-1 .widget-video svg {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.widget.c-about-ref.c-about-ref-template-1[data-background=true] .widget-content {
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+.widget.c-about-ref.c-about-ref-template-1[data-background=true] .widget-content[data-lazyload-use=true] {
+  background-size: auto;
+  background-color: #F2F2F2;
+}
+@media all and (max-width: 768px) {
+  .widget.c-about-ref.c-about-ref-template-1 .widget-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .widget.c-about-ref.c-about-ref-template-1 .widget-content-text {
+    width: auto;
+  }
+  .widget.c-about-ref.c-about-ref-template-1 .widget-content-additional {
+    display: none;
+  }
+  .widget.c-about-ref.c-about-ref-template-1[data-background=true] .widget-content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media all and (max-width: 500px) {
+  .widget.c-about-ref.c-about-ref-template-1 .widget-name {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

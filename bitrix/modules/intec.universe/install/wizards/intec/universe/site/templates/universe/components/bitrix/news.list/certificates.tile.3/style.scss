@@ -1,0 +1,81 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'news-list';
+$template: 'certificates-tile-3';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .#{$class}-content {
+  }
+
+  .#{$class}-item {
+    border: 1px solid #E8E8E8;
+    padding: 21px 53px 32px 53px;
+    background-color: #fff;
+    height: 100%;
+
+    @include transition(0.4s, box-shadow);
+
+    &:hover {
+      @include box-shadow(0, 8px, 32px, 0, rgba(27, 30, 37, 0.06));
+    }
+  }
+
+  .#{$class}-item-name {
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #404040;
+    text-align: center;
+    height: 20px;
+    overflow: hidden;
+  }
+
+  .#{$class}-item-image-size {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B0B0B0;
+    text-align: center;
+    height: 20px;
+    overflow: hidden;
+  }
+
+  .#{$class}-item-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-top: 140%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    &[data-role="zoom"] {
+      cursor: pointer;
+    }
+
+    &:hover {
+
+      .#{$class}-item-image-zoom {
+        opacity: 1;
+      }
+    }
+  }
+
+  .#{$class}-item-image-zoom {
+    display: block;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+
+    @include transition(0.4s, opacity);
+  }
+}

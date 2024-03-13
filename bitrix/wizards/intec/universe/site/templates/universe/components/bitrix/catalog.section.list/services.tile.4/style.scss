@@ -1,0 +1,83 @@
+$namespace: 'bitrix';
+$component: 'catalog-section-list';
+$template: 'catalog-services-4';
+$class: #{$component};
+$item: #{$class}-item;
+
+$black-text: #404040;
+$gray-text-light: #B0B0B0;
+
+@mixin transition($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+@mixin user-select($select) {
+  -webkit-user-select: $select;
+  -moz-user-select: $select;
+  -ms-user-select: $select;
+  user-select: $select;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  padding-top: 1px;
+
+  .#{$item} {
+    margin-top: -1px;
+    margin-left: -1px;
+    border: 1px solid #F2F2F2;
+    @include transition((box-shadow, border-color), 0.4s);
+
+    &:hover {
+      border-color: transparent;
+      box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+    }
+  }
+  .#{$item}-wrapper {
+    font-size: 0;
+    margin: 40px 32px;
+  }
+  .#{$item}-picture-wrap {
+    display: block;
+  }
+  .#{$item}-picture {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+
+    svg {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .#{$item}-picture-wrapper {
+    display: inline-block;
+  }
+  .#{$item}-name-wrap {
+    margin-top: 16px;
+    text-align: center;
+  }
+  .#{$item}-name {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1B1E25;
+    text-decoration: none;
+    @include transition(color, 0.4s);
+    height: 40px;
+    overflow: hidden;
+  }
+}

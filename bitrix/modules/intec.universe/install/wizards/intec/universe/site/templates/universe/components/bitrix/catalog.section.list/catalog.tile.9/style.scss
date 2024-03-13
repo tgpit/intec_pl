@@ -1,0 +1,59 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-section-list';
+$template: 'catalog-tile-7';
+$class: #{$component};
+$item: #{$class}-item;
+
+$black-text: #404040;
+$gray-text-light: #B0B0B0;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  padding-top: 1px;
+
+  .#{$item} {
+    margin-top: -1px;
+    margin-left: -1px;
+    border: 1px solid #F2F2F2;
+    @include transition(350ms, box-shadow);
+
+    &:hover {
+      box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+    }
+  }
+  .#{$item}-wrapper {
+    font-size: 0;
+    margin: 24px;
+  }
+  .#{$item}-picture {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+  }
+  .#{$item}-name {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: $black-text;
+    text-decoration: none;
+    @include transition(350ms, color);
+  }
+  .#{$item}-count {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: $gray-text-light;
+    margin-top: 8px;
+  }
+
+  @media all and (max-width: 768px) {
+    .#{$item}-wrapper {
+      margin: 12px;
+    }
+  }
+}

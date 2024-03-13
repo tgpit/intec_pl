@@ -1,0 +1,37 @@
+<?php
+
+$MESS['intec.seo.models.iblock.elements.names.template.attributes.id'] = 'Идентификатор';
+$MESS['intec.seo.models.iblock.elements.names.template.attributes.code'] = 'Код';
+$MESS['intec.seo.models.iblock.elements.names.template.attributes.active'] = 'Активность';
+$MESS['intec.seo.models.iblock.elements.names.template.attributes.name'] = 'Наименование';
+$MESS['intec.seo.models.iblock.elements.names.template.attributes.iBlockId'] = 'Инфоблок';
+$MESS['intec.seo.models.iblock.elements.names.template.attributes.value'] = 'Значения';
+$MESS['intec.seo.models.iblock.elements.names.template.attributes.quantity'] = 'Количество выводимых шаблонов';
+$MESS['intec.seo.models.iblock.elements.names.template.attributes.sort'] = 'Сортировка';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.this.name'] = 'Поля элемента';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.this.items.name'] = 'Название текущего элемента';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.this.items.code'] = 'Символьный код текущего элемента';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.this.items.previewText'] = 'Описание анонса текущего элемента';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.this.items.detailText'] = 'Детальное описание текущего элемента';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.parent.name'] = 'Поля родительского раздела';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.parent.items.name'] = 'Название родительского раздела';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.parent.items.code'] = 'Символьный код родительского раздела';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.parent.items.previewText'] = 'Описание родительского раздела';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.iblock.name'] = 'Поля инфоблока';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.iblock.items.name'] = 'Название инфоблока';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.iblock.items.code'] = 'Символьный код инфоблока';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.iblock.items.previewText'] = 'Описание инфоблока';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.properties.name'] = 'Свойства';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.skuProperties.name'] = 'Свойства торговых предложений';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.prices.name'] = 'Цены';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.prices.items.price.name'] = 'Цена "#price#"';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.skuPrices.name'] = 'Цены торговых предложений';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.skuPrices.items.price.name'] = 'Цена "#price#"';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.skuPrices.items.price.items.minimal'] = 'Минимальная цена';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.skuPrices.items.price.items.maximal'] = 'Максимальная цена';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.stores.name'] = 'Склады';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.regionality.name'] = 'Мультирегиональность';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.misc.name'] = 'Дополнительное';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.misc.items.sections'] = 'Путь до текущего элемента';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.misc.items.stores'] = 'Список складов';
+$MESS['intec.seo.models.iblock.elements.names.template.macros.fields.name'] = 'Пользовательские поля';

@@ -1,0 +1,34 @@
+.widget.c-advantages.c-advantages-template-2 .widget-element-counter {
+  font-weight: bold;
+  font-size: 55px;
+}
+.widget.c-advantages.c-advantages-template-2 .widget-element-name {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  text-align: left;
+  text-decoration: none;
+  color: #2d2d2d;
+}
+.widget.c-advantages.c-advantages-template-2 .widget-element-description {
+  top: 100%;
+  font-weight: normal;
+  text-align: left;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+}
+.widget.c-advantages.c-advantages-template-2 .widget-element-icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

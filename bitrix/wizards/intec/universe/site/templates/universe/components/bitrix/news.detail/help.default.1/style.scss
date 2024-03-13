@@ -1,0 +1,26 @@
+$namespace: 'bitrix';
+$component: 'news-detail';
+$template: 'help-default-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+
+  .#{$class}-content {
+
+  }
+
+  .#{$class}-banner {
+    width: 100%;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+  }
+
+  .#{$class}-description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+  }
+}

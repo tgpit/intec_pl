@@ -1,0 +1,481 @@
+$component: 'footer';
+$template: 'template-1';
+$class: #{$component};
+
+.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-view .widget-view-4 {
+    display: block;
+
+    .widget-wrapper {}
+    .widget-wrapper-2 {}
+
+    .widget-parts {
+      margin: 0 -30px;
+      padding: 30px 0;
+
+      & + .widget-panel {
+        border-top: 1px solid #eee;
+      }
+    }
+
+    .widget-part {
+      padding: 0 30px;
+
+      &.widget-part-left {}
+
+      &.widget-part-right {
+        width: 480px;
+
+        .widget-part-items {
+          margin: -5px;
+          overflow: hidden;
+
+          & + * {
+            padding-top: 30px;
+          }
+        }
+
+        .widget-part-item {
+          padding: 5px;
+          white-space: nowrap;
+          color: #2d2d2d;
+
+          &.widget-phone {
+            &.second-phone-show {
+              display: flex;
+
+              .widget-part-item-phone-wrapper {
+                display: flex!important;
+                flex-direction: column;
+
+                .widget-part-item-text {
+                  padding: 0;
+                }
+              }
+            }
+            .widget-part-item-phone-wrapper {
+              display: inline-block;
+            }
+            .widget-part-item-text {
+              font-size: 16px;
+              font-weight: bold;
+              color: inherit;
+              text-decoration: none;
+            }
+          }
+
+          &.widget-form {
+            white-space: normal;
+          }
+        }
+
+        .widget-part-item-icon,
+        .widget-part-item-text {
+          vertical-align: middle;
+        }
+
+        .widget-part-item-icon {
+          display: inline-block;
+          width: 20px;
+          font-size: 0;
+          line-height: 0;
+          text-align: center;
+          margin-right: 10px;
+        }
+
+        .widget-part-item-text {
+          font-size: 14px;
+          white-space: normal;
+        }
+      }
+
+      .widget-search {
+        display: block;
+
+        & + * {
+          padding-top: 30px;
+        }
+      }
+
+      .widget-icons {}
+      .widget-icon {
+        &[data-icon="alfabank"] .widget-icon-image {
+          background-position: -240px 0;
+          width: 14px;
+        }
+        &[data-icon="sberbank"] .widget-icon-image {
+          background-position: -294px 0;
+          width: 19px;
+        }
+        &[data-icon="qiwi"] .widget-icon-image {
+          background-position: -352px 0;
+          width: 20px;
+        }
+        &[data-icon="yandexmoney"] .widget-icon-image {
+          background-position: -413px 0;
+          width: 23px;
+        }
+        &[data-icon="visa"] .widget-icon-image {
+          background-position: -477px 0;
+          width: 36px;
+        }
+        &[data-icon="mastercard"] .widget-icon-image {
+          background-position: -552px 0;
+          width: 25px;
+        }
+        &[data-icon="mir"] .widget-icon-image {
+          background-position: -158px 0;
+          width: 42px;
+        }
+        &[data-icon="jcb"] .widget-icon-image {
+          background-position: -93px 0;
+          width: 25px;
+        }
+        &[data-icon="paypal"] .widget-icon-image {
+          background-position: 0 0;
+          width: 53px;
+        }
+      }
+
+      .widget-icon-image {
+        display: block;
+        height: 24px;
+        background-size: auto;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-image: url('../../images/icons_2.png');
+      }
+    }
+
+    .widget-panel {
+      padding: 30px 0;
+
+      .widget-panel-items {
+        margin: -15px -30px;
+      }
+
+      .widget-panel-item {
+        padding: 15px 30px;
+      }
+
+      .widget-copyright {
+        display: block;
+        font-size: 13px;
+        line-height: 1.5;
+        color: #2d2d2d;
+      }
+
+      .widget-social {
+        display: block;
+        overflow: hidden;
+      }
+
+      .widget-social-items {
+        overflow: hidden;
+      }
+
+      .widget-social-item-icon {
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-image: url('../../images/icons_color_round.svg');
+        background-position: 0 0;
+        background-repeat: no-repeat;
+
+        &[data-grey="true"] {
+          background-image: url('../../images/icons_grey_round.svg');
+        }
+
+        &[data-social-icon-square="true"] {
+          background-image: url('../../images/icons_color_square.svg');
+        }
+
+        &[data-social-icon='VK'] {
+          background-position: -320px 0;
+        }
+
+        &[data-social-icon='FACEBOOK'] {
+          background-position: -288px 0;
+        }
+
+        &[data-social-icon='INSTAGRAM'] {
+          background-position: -384px 0;
+        }
+
+        &[data-social-icon='TWITTER'] {
+          background-position: -416px 0;
+        }
+
+        &[data-social-icon='YOUTUBE'] {
+          background-position: -448px 0;
+        }
+
+        &[data-social-icon='ODNOKLASSNIKI'] {
+          background-position: -352px 0;
+        }
+
+        &[data-social-icon='VIBER'] {
+          background-position: -224px 0;
+        }
+
+        &[data-social-icon='WHATSAPP'] {
+          background-position: -256px 0;
+        }
+
+        &[data-social-icon='YANDEX_DZEN'] {
+          background-position: -128px 0;
+        }
+
+        &[data-social-icon='MAIL_RU'] {
+          background-position: -160px 0;
+        }
+
+        &[data-social-icon='TELEGRAM'] {
+          background-position: -192px 0;
+        }
+
+        &[data-social-icon='PINTEREST'] {
+          background-position: -96px 0;
+        }
+
+        &[data-social-icon='TIKTOK'] {
+          background-position: -64px 0;
+        }
+
+        &[data-social-icon='SNAPCHAT'] {
+          background-position: -32px 0;
+        }
+
+        &[data-social-icon='LINKEDIN'] {
+          background-position: 0 0;
+        }
+      }
+
+      .widget-logotype {
+        display: block;
+        text-align: right;
+      }
+
+      .widget-logotype-wrapper {
+        display: inline-block;
+        vertical-align: top;
+        width: 100px;
+      }
+    }
+
+    @media all and (max-width: 768px) {
+      .widget-parts {
+        margin: -20px 0;
+      }
+
+      .widget-part {
+        padding: 20px 0;
+
+        &.widget-part-right {
+          width: auto;
+        }
+      }
+
+      .widget-panel {
+        .widget-panel-item {
+          &.widget-panel-item-empty {
+            display: none;
+          }
+        }
+
+        .widget-copyright {
+          text-align: center;
+        }
+
+        .widget-logotype {
+          text-align: center;
+        }
+      }
+    }
+
+    @media all and (max-width: 550px) {
+      .ns-bitrix.c-menu.c-menu-columns-1.menu-adapted .menu-column:first-child .menu-column-wrapper {
+        border-top: 0;
+      }
+
+      .widget-part {
+        &.widget-part-right {
+          text-align: center;
+
+          .widget-part-items {
+            margin: -8px;
+          }
+
+          .widget-part-item-text {
+            padding-right: 0;
+          }
+
+          .widget-part-item {
+            padding: 8px;
+
+            &.widget-phone {
+              order: 1;
+
+              .widget-part-item-icon {
+                display: none;
+              }
+            }
+
+            &.widget-form {
+              order: 2;
+            }
+
+            &.widget-email {
+              order: 3;
+            }
+
+            &.widget-address {
+              order: 4;
+            }
+          }
+
+          .widget-form-button {
+            font-size: 14px;
+            padding: 7px 24px;
+          }
+        }
+      }
+
+      .widget-panel {
+        .widget-logotype-wrapper {
+          width: 143px;
+        }
+
+        .widget-copyright-wrap {
+          order: 5;
+        }
+      }
+    }
+  }
+
+  .widget-part-item-icon path {
+    stroke: #323232;
+  }
+
+  .widget-icon-insider {
+    font-size: 0;
+
+    svg {
+      display: block;
+      transition: 0.2s all;
+
+      path {
+        transition: 0.2s all;
+      }
+    }
+  }
+
+  &[data-theme="dark"] .widget-view .widget-view-4 {
+
+    .widget-part-item-icon path {
+      stroke: #fff;
+    }
+
+
+    .widget-parts + .widget-panel {
+        border-color: #35393c;
+    }
+
+    .widget-part {
+      &.widget-part-right {
+        .widget-part-item {
+          color: #fff;
+
+          &.widget-email {
+            .widget-part-item-text {
+              color: inherit;
+            }
+          }
+        }
+      }
+
+      .ns-bitrix.c-menu.c-menu-columns-1 {
+        .menu-column-header {
+          color: #fff !important;
+        }
+      }
+
+      .ns-bitrix.c-search-title.c-search-title-input-3 {
+        .search-title {
+          background: #414447;
+          border-color: #414447;
+        }
+      }
+    }
+
+    .widget-icon-insider svg:hover {
+      fill: white
+    }
+
+    .widget-panel {
+      .widget-icon {
+        &[data-icon="alfabank"] .widget-icon-image {
+          background-position: -240px 0;
+          width: 14px;
+        }
+        &[data-icon="sberbank"] .widget-icon-image {
+          background-position: -294px 0;
+          width: 19px;
+        }
+        &[data-icon="qiwi"] .widget-icon-image {
+          background-position: -352px 0;
+          width: 20px;
+        }
+        &[data-icon="yandexmoney"] .widget-icon-image {
+          background-position: -413px 0;
+          width: 23px;
+        }
+        &[data-icon="visa"] .widget-icon-image {
+          background-position: -477px 0;
+          width: 36px;
+        }
+        &[data-icon="mastercard"] .widget-icon-image {
+          background-position: -552px 0;
+          width: 25px;
+        }
+        &[data-icon="mir"] .widget-icon-image {
+          background-position: -158px 0;
+          width: 42px;
+        }
+        &[data-icon="jcb"] .widget-icon-image {
+          background-position: -93px 0;
+          width: 25px;
+        }
+        &[data-icon="paypal"] .widget-icon-image {
+          background-position: 0 0;
+          width: 53px;
+        }
+      }
+
+      .widget-icon-image {
+        display: block;
+        height: 24px;
+        background-size: auto;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-image: url('../../images/icons_1.png');
+      }
+      .widget-copyright {
+        color: #777e89;
+      }
+
+      .widget-social-item-icon {
+        &:hover {
+          color: #fff;
+        }
+      }
+
+      .widget-logotype {
+        svg,
+        svg path {
+          fill: #fff !important;
+        }
+      }
+    }
+  }
+}

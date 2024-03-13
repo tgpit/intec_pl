@@ -1,0 +1,3 @@
+<?php
+
+$MESS['C_MAIN_PAGENAVIGATION_LAZY_2_TEMPLATE_BUTTON_NAME'] = 'Загрузить еще';

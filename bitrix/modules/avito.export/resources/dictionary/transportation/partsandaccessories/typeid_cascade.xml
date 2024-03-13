@@ -1,0 +1,236 @@
+<TypeIds>
+	<TypeId name="11-618">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Автосвет"></SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="19-2855">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Автомобиль на запчасти"></SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="11-619">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Аккумуляторы"></SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-827">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Блок цилиндров, головка, картер"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-828">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Вакуумная система"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-829">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Генераторы, стартеры"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-830">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Двигатель в сборе"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-831">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Катушка зажигания, свечи, электрика"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-832">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Клапанная крышка"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-833">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Коленвал, маховик"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-834">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Коллекторы"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-835">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Крепление двигателя"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-836">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Масляный насос, система смазки"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-837">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Патрубки вентиляции"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-838">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Поршни, шатуны, кольца"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-839">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Приводные ремни, натяжители"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-840">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Прокладки и ремкомплекты"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-841">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель">
+				<EngineSparePartType name="Ремни, цепи, элементы ГРМ"></EngineSparePartType>
+			</SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-842">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель"><EngineSparePartType name="Турбины, компрессоры"></EngineSparePartType></SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-843">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Двигатель"><EngineSparePartType name="Электродвигатели и компоненты"></EngineSparePartType></SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="11-621">
+		<ProductType name="Для автомобилей">
+			<SparePartType name="Запчасти для ТО"></SparePartType>
+		</ProductType>
+	</TypeId>
+	<TypeId name="16-805">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Балки, лонжероны"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-806">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Бамперы"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-807">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Брызговики"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-808">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Двери"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-809">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Заглушки"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-810">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Замки"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-811">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Защита"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-812">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Зеркала"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-813">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Кабина"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-814">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Капот"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-815">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Крепления"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-816">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Крылья"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-817">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Крыша"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-818">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Крышка, дверь багажника"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-819">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Кузов по частям"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-820">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Кузов целиком"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-821">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Лючок бензобака"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-822">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Молдинги, накладки"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-823">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Пороги"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-824">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Рама"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-825">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Решетка радиатора"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="16-826">
+		<ProductType name="Для автомобилей"><SparePartType name="Кузов"><BodySparePartType name="Стойка кузова"></BodySparePartType></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="11-623">
+		<ProductType name="Для автомобилей"><SparePartType name="Подвеска"></SparePartType></ProductType>
+	</TypeId>
+	<TypeId name="11-624"><ProductType name="Для автомобилей"><SparePartType name="Рулевое управление"></SparePartType></ProductType></TypeId>
+	<TypeId name="11-625"><ProductType name="Для автомобилей"><SparePartType name="Салон"></SparePartType></ProductType></TypeId>
+	<TypeId name="16-521"><ProductType name="Для автомобилей"><SparePartType name="Система охлаждения"></SparePartType></ProductType></TypeId>
+	<TypeId name="11-626"><ProductType name="Для автомобилей"><SparePartType name="Стекла"></SparePartType></ProductType></TypeId>
+	<TypeId name="11-627"><ProductType name="Для автомобилей"><SparePartType name="Топливная и выхлопная системы"></SparePartType></ProductType></TypeId>
+	<TypeId name="11-628"><ProductType name="Для автомобилей"><SparePartType name="Тормозная система"></SparePartType></ProductType></TypeId>
+	<TypeId name="11-629"><ProductType name="Для автомобилей"><SparePartType name="Трансмиссия и привод"></SparePartType></ProductType></TypeId>
+	<TypeId name="11-630"><ProductType name="Для автомобилей"><SparePartType name="Электрооборудование"></SparePartType></ProductType></TypeId>
+	<TypeId name="6-401"><ProductType name="Для мототехники"></ProductType></TypeId>
+	<TypeId name="6-406"><ProductType name="Для спецтехники"></ProductType></TypeId>
+	<TypeId name="6-411"><ProductType name="Для водного транспорта"></ProductType></TypeId>
+	<TypeId name="4-943"></TypeId>
+	<TypeId name="21"></TypeId>
+	<TypeId name="4-942"></TypeId>
+	<TypeId name="20"></TypeId>
+	<TypeId name="4-964"></TypeId>
+	<TypeId name="4-963"></TypeId>
+	<TypeId name="4-965"></TypeId>
+	<TypeId name="11-631"><DeviceType name="Автосигнализации"></DeviceType></TypeId>
+	<TypeId name="11-632"><DeviceType name="Иммобилайзеры"></DeviceType></TypeId>
+	<TypeId name="11-633"><DeviceType name="Механические блокираторы"></DeviceType></TypeId>
+	<TypeId name="11-634"><DeviceType name="Спутниковые системы"></DeviceType></TypeId>
+	<TypeId name="22"></TypeId>
+	<TypeId name="10-048"><ProductType name="Шины"></ProductType></TypeId>
+	<TypeId name="28-49575"><ProductType name="Шины для грузовиков и спецтехники"></ProductType></TypeId>
+	<TypeId name="10-047"><ProductType name="Мотошины"></ProductType></TypeId>
+	<TypeId name="10-046"><ProductType name="Диски"></ProductType></TypeId>
+	<TypeId name="10-045"><ProductType name="Колёса"></ProductType></TypeId>
+	<TypeId name="10-044"><ProductType name="Колпаки"></ProductType></TypeId>
+	<TypeId name="6-416"></TypeId>
+</TypeIds>

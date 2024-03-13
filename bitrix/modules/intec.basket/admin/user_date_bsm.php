@@ -1,0 +1,1 @@
+<?define("intec_basket_TEMPORARY_CACHE", "IGMJAS0yAQI+A3FkAGcAfwB2");?>

@@ -1,0 +1,125 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'collections';
+$template: 'template-1';
+
+$item: 'widget-item';
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-all {
+    display: block;
+    text-decoration: none;
+  }
+  .widget-all-desktop {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include transition(.35s, color);
+  }
+  .widget-all-mobile {
+    display: none;
+    padding: 6px 7px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-title {
+    overflow: hidden;
+  }
+
+  .#{$item} {
+    height: 100%;
+    padding: 24px 16px;
+    background-color: #FBFCFD;
+    border: 1px solid #F2F2F2;
+    @include border-radius(2px);
+    @include transition(.35s, (background-color, box-shadow));
+
+    &:hover {
+      background-color: #FFF;
+      @include box-shadow(0, 6px, 24px, 0, rgba(0, 0, 0, 0.07));
+    }
+  }
+  .#{$item}-picture {
+    position: relative;
+    display: block;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .#{$item}-layer {
+    position: relative;
+    z-index: 1;
+
+    svg {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .#{$item}-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 10px;
+    bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    @include border-radius(2px);
+
+    &[data-lazyload-use='true'] {
+      background-size: auto;
+      background-color: #F2F2F2;
+    }
+  }
+  .#{$item}-name {
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: center;
+    margin-top: 16px;
+    @include webkit-box(3, 20);
+
+    & > * {
+      color: #404040;
+      text-decoration: none;
+      @include transition(.35s, color);
+    }
+  }
+
+  @include breakpoint-768() {
+    .#{$item}-picture {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  @include breakpoint-custom(500) {
+    .widget-all-desktop {
+      display: none;
+    }
+    .widget-all-mobile {
+      display: block;
+    }
+  }
+  @include breakpoint-custom(400) {
+    .#{$item}-picture {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+}

@@ -1,0 +1,345 @@
+$namespace: 'bitrix';
+$component: 'catalog-store-amount';
+$template: 'map-1';
+$class: 'store-amount';
+
+$list: #{$class}-list;
+$list-item: #{$list}-item;
+$full: #{$class}-full;
+$full-item: #{$full}-item;
+$map: #{$class}-map;
+
+$black-1: #1B1E25;
+$black-2:#404040;
+$gray-1: #808080;
+$gray-2: #B0B0B0;
+$gray-3: #E8E8E8;
+$gray-4: #F2F2F2;
+
+$state-many: #1DB940;
+$state-few: #F4BB28;
+$state-empty: #B0B0B0;
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin transition($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+
+  .#{$class}-info {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 16px;
+    color: #888888;
+  }
+
+  .#{$class}-content {
+    font-size: 0;
+    overflow: hidden;
+  }
+
+  .#{$class}-part {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .#{$class}-quantity {
+    overflow: hidden;
+  }
+
+  .#{$class}-quantity-content {
+    font-size: 0;
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+
+  .#{$class}-quantity-part {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .#{$class}-quantity-indicator {
+    width: 4px;
+    height: 4px;
+
+    @include border-radius(50%);
+    @include transition(background-color, 0.4s);
+  }
+
+  .#{$class}-quantity-value {
+    font-size: 12px;
+    line-height: 16px;
+
+    @include transition(color, 0.4s);
+
+    & + .#{$class}-quantity-value {
+      padding-left: 4px;
+    }
+  }
+
+  [data-store-state='many'] {
+
+    .#{$class}-quantity-indicator {
+      background-color: $state-many;
+    }
+
+    .#{$class}-quantity-color {
+      color: $state-many;
+    }
+  }
+
+  [data-store-state='few'] {
+
+    .#{$class}-quantity-indicator {
+      background-color: $state-few;
+    }
+
+    .#{$class}-quantity-color {
+      color: $state-few;
+    }
+  }
+
+  [data-store-state='empty'] {
+
+    .#{$class}-quantity-indicator {
+      background-color: $state-empty;
+    }
+
+    .#{$class}-quantity-color {
+      color: $state-empty;
+    }
+  }
+
+  .#{$list} {
+    position: relative;
+    border: 1px solid $gray-4;
+    width: 266px;
+    height: 400px;
+    -webkit-box-shadow: 8px 0 16px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 8px 0 16px rgba(0, 0, 0, 0.08);
+    box-shadow: 8px 0 16px rgba(0, 0, 0, 0.08);
+  }
+
+  .#{$list}-content {
+    position: relative;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .#{$list-item} {
+    padding: 20px 24px;
+    border-bottom: 1px solid $gray-4;
+    cursor: pointer;
+
+    @include transition(background-color, 0.4s);
+
+    &[data-active='true'],
+    &:hover {
+      background-color: #FBFCFD;
+    }
+  }
+
+  .#{$list-item}-name {
+    font-size: 12px;
+    line-height: 18px;
+    color: $black-2;
+  }
+
+  .#{$list-item}-quantity {
+    margin-top: 8px;
+  }
+
+  .#{$full} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFF;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 2;
+    @include transition(opacity, 0.4s);
+
+    &[data-active='true'] {
+      pointer-events: all;
+      opacity: 1;
+    }
+  }
+
+  .#{$full-item} {
+    height: 100%;
+
+    &[data-active='false'] {
+      display: none;
+    }
+  }
+
+  .#{$full-item}-content {
+    height: 100%;
+  }
+
+  .#{$full-item}-content-wrapper {
+    padding: 40px 20px;
+  }
+
+  .#{$full-item}-part {
+
+    & + .#{$full-item}-part {
+      margin-top: 8px;
+    }
+  }
+
+  .#{$full-item}-picture {
+    padding-top: (100% / 16) * 9;
+    margin-bottom: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .#{$full-item}-name {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: $black-2;
+  }
+
+  .#{$full-item}-schedule {
+    font-size: 12px;
+    line-height: 16px;
+    color: $gray-1;
+  }
+
+  .#{$full-item}-contact {
+    overflow: hidden;
+  }
+
+  .#{$full-item}-contact-content {
+    font-size: 0;
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+
+  .#{$full-item}-contact-part {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .#{$full-item}-contact-icon {
+    font-size: 0;
+
+    svg {
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      height: auto;
+      max-width: 16px;
+      max-height: 16px;
+
+      path {
+        stroke: $gray-2;
+      }
+    }
+  }
+
+  .#{$full-item}-contact-value {
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    word-break: break-all;
+
+    @include webkit-box(1, 16);
+    @include transition(color, 0.4s);
+  }
+
+  .#{$full-item}-contact-phone {
+    font-weight: 600;
+    color: $black-2;
+  }
+
+  .#{$full-item}-description {
+    font-size: 12px;
+    line-height: 18px;
+    color: $gray-2;
+  }
+
+  .#{$full-item}-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0;
+    cursor: pointer;
+
+    svg {
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      height: auto;
+      max-width: 24px;
+      max-height: 24px;
+
+      path {
+        stroke: $gray-2;
+        @include transition(stroke, 0.4s);
+      }
+    }
+
+    &:hover {
+
+      svg {
+
+        path {
+          stroke: $black-2;
+        }
+      }
+    }
+  }
+
+  .#{$map} {
+    width: calc(100% - 266px);
+    height: 400px;
+    background-color: #E7F1FF;
+  }
+
+  @media all and (max-width: 768px) {
+    .#{$list} {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+    }
+
+    .#{$list}-content {
+      max-height: 400px;
+    }
+
+    .#{$map} {
+      width: 100%;
+    }
+  }
+}

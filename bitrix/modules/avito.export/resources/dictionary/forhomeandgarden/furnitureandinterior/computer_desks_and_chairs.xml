@@ -1,0 +1,8 @@
+<ComputerDesksAndChairs>
+	<GoodsSubType name="Столы"></GoodsSubType>
+	<GoodsSubType name="Кресла и стулья">
+		<DeskChairType name="Компьютерные кресла"></DeskChairType>
+		<DeskChairType name="Стулья для работы"></DeskChairType>
+	</GoodsSubType>
+	<GoodsSubType name="Другое"></GoodsSubType>
+</ComputerDesksAndChairs>

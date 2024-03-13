@@ -1,0 +1,253 @@
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-container {
+  position: relative;
+  margin-top: -1px;
+  margin-left: -1px;
+  background-color: #FFF;
+  border: 1px solid #F2F2F2;
+  z-index: 1;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: border-color, box-shadow;
+  -moz-transition-property: border-color, box-shadow;
+  -ms-transition-property: border-color, box-shadow;
+  -o-transition-property: border-color, box-shadow;
+  transition-property: border-color, box-shadow;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-container:hover {
+  border-color: #FFF;
+  z-index: 2;
+  -webkit-box-shadow: 0 8px 32px 0 rgba(27, 30, 37, 0.08);
+  -moz-box-shadow: 0 8px 32px 0 rgba(27, 30, 37, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(27, 30, 37, 0.08);
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item {
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #FFF;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-picture {
+  display: block;
+  font-size: 0;
+  text-align: center;
+  text-decoration: none;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-name {
+  font-size: 13px;
+  line-height: 18px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  max-height: 36px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-name a {
+  color: #808080;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-price {
+  font-size: 0;
+  padding-top: 8px;
+  margin: -2px -6px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-price > div {
+  margin: 2px 6px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-price-current {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #404040;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-price-current > span {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  max-height: 16px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-price-discount {
+  font-size: 12px;
+  line-height: 12px;
+  color: #B0B0B0;
+  text-decoration: line-through;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-price-discount > span {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  max-height: 12px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-message {
+  padding-top: 10px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-item-button {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 8px 12px;
+  border-width: 1px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-grid="3"] .catalog-section-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-grid="3"] .catalog-section-item-picture {
+  width: 40px;
+  height: 40px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-grid="2"] .catalog-section-item, .ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-grid="4"] .catalog-section-item {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-grid="2"] .catalog-section-item-picture, .ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-grid="4"] .catalog-section-item-picture {
+  width: 56px;
+  height: 56px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-slider=false] .catalog-section-item-price > div {
+  display: inline-block;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-slider=true] .catalog-section-content {
+  position: relative;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-slider=true] .catalog-section-items {
+  position: relative;
+  z-index: 1;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-slider=true] .catalog-section-items .owl-item {
+  padding: 1px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-slider=true] .catalog-section-item {
+  background-color: #FFF;
+  border: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-slider=true] .catalog-section-item-name {
+  height: 36px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-slider=true] .catalog-section-item-price > div {
+  display: block;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4[data-slider=true] .catalog-section-item-price-discount {
+  height: 12px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation {
+  z-index: 2;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation button {
+  font-size: 0;
+  padding: 10px;
+  background-color: #FFF;
+  border: 1px solid #F2F2F2;
+  outline: none;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: background-color, border, opacity;
+  -moz-transition-property: background-color, border, opacity;
+  -ms-transition-property: background-color, border, opacity;
+  -o-transition-property: background-color, border, opacity;
+  transition-property: background-color, border, opacity;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation button svg path {
+  stroke: #808080;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation button:hover svg path {
+  stroke: #FFF;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation.disabled {
+  display: none;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation[data-view=default] {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation[data-view=default] button.disabled {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation[data-view=default] .navigation-left {
+  position: absolute;
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation[data-view=default] .navigation-right {
+  position: absolute;
+  right: 0;
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  -o-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation[data-view=top] {
+  position: absolute;
+  top: -24px;
+  right: 0;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation[data-view=top] button {
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation[data-view=top] button + button {
+  margin-left: 4px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation[data-view=top] button.disabled {
+  background-color: #FFF !important;
+  border-color: #F2F2F2 !important;
+  opacity: 0.7;
+  cursor: not-allowed;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-small-4 .catalog-section-navigation[data-view=top] button.disabled svg path {
+  stroke: #F2F2F2 !important;
+}
+
+/*# sourceMappingURL=style.css.map */

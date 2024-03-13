@@ -1,0 +1,207 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'reviews';
+$template: 'template-8';
+$item: 'widget-item';
+
+@keyframes c-#{$component}-#{$template}-keyframes {
+  0%, 100% {
+    @include transform(scale(1));
+  }
+  50% {
+    @include transform(scale(1.2));
+  }
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-title {
+    overflow: hidden;
+  }
+  .widget-send {
+    color: #808080;
+    padding: 8px 14px;
+    border: 1px solid #E8E8E8;
+    cursor: pointer;
+    @include border-radius(2px);
+    @include user-select(none);
+    @include transition(.35s, (color, border-color));
+  }
+  .widget-send-icon {
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-send-content {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: inherit;
+  }
+  .widget-all {
+    display: block;
+    text-decoration: none;
+  }
+  .widget-all-desktop {
+    display: block;
+    font-size: 10px;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include transition(.35s, color);
+  }
+  .widget-all-mobile {
+    display: none;
+    padding: 6px 7px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+
+  .#{$item} {
+    &:first-child {
+      .#{$item}-wrapper {
+        padding-top: 0;
+        border-top: none;
+      }
+    }
+    &:last-child {
+      .#{$item}-wrapper {
+        padding-bottom: 0;
+      }
+    }
+  }
+  .#{$item}-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid #e8e8e8;
+  }
+  .#{$item}-picture {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include border-radius(50%);
+  }
+  .#{$item}-name {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 21px;
+    text-decoration: none;
+    @include transition(.35s, color);
+  }
+  .#{$item}-position {
+    font-size: 12px;
+    line-height: 18px;
+    color: #949494;
+  }
+  .#{$item}-additional {
+    margin-top: 15px;
+  }
+  .#{$item}-additional-item {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .#{$item}-additional-item-name {
+    font-weight: 700;
+  }
+  .#{$item}-additional-item-link {
+    text-decoration: none;
+    border-bottom: 1px dashed transparent;
+    @include transition(.35s, (color, border-color));
+
+    &:hover {
+      border-color: inherit;
+    }
+  }
+  .#{$item}-description {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 15px;
+  }
+  .#{$item}-video {
+    font-size: 0;
+    text-align: center;
+    width: 260px;
+    height: 170px;
+    margin-left: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    @include border-radius(7px);
+    @include box-shadow(0, 9px, 24px, 0, rgba(111, 129, 162, 0.35));
+    @include transition(.35s, box-shadow);
+
+    &::after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    &:hover {
+      @include box-shadow();
+
+      .#{$item}-video-icon {
+        opacity: 1;
+        animation-name: c-#{$component}-#{$template}-keyframes;
+        animation-duration: 1.8s;
+        animation-iteration-count: infinite;
+      }
+    }
+  }
+  .#{$item}-video-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    opacity: 0.7;
+    @include transition(.35s, opacity);
+  }
+
+  @include breakpoint-768() {
+    .widget-send-content {
+      display: none;
+    }
+
+    .#{$item}-video {
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @include breakpoint-custom(500) {
+    .widget-send {
+      padding: 6px;
+    }
+    .widget-all-desktop {
+      display: none;
+    }
+    .widget-all-mobile {
+      display: block;
+    }
+
+    .#{$item}-picture {
+      margin-bottom: 15px;
+    }
+  }
+}

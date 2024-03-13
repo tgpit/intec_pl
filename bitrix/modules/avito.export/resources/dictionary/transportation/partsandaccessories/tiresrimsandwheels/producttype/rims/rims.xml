@@ -1,0 +1,17 @@
+<ProductType>
+	<RimType name="Кованые"></RimType>
+	<RimType name="Литые"></RimType>
+	<RimType name="Штампованные"></RimType>
+	<RimType name="Спицованные"></RimType>
+	<RimType name="Сборные"></RimType>
+	<RimBolts name="0"></RimBolts>
+	<RimBolts name="3"></RimBolts>
+	<RimBolts name="4"></RimBolts>
+	<RimBolts name="5"></RimBolts>
+	<RimBolts name="6"></RimBolts>
+	<RimBolts name="8"></RimBolts>
+	<RimBolts name="9"></RimBolts>
+	<RimBolts name="10"></RimBolts>
+	<RimBolts name="12"></RimBolts>
+	<RimBolts name="24"></RimBolts>
+</ProductType>

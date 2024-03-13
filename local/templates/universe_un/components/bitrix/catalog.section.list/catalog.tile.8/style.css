@@ -1,0 +1,237 @@
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 {
+  padding-top: 1px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item {
+  margin-top: -1px;
+  margin-left: -1px;
+  border: 1px solid #F2F2F2;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item:hover {
+  box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item:hover .catalog-section-list-item-wrapper {
+  padding-bottom: 78px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item:hover .catalog-section-list-item-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  -webkit-animation: show 1s;
+  animation: show 1s;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item:hover .catalog-section-list-item-children {
+  display: block;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item:hover .catalog-section-list-item-picture {
+  -webkit-animation: hide 1s;
+  animation: hide 1s;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item:hover .catalog-section-list-item-button-wrap {
+  display: block;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-wrapper {
+  font-size: 0;
+  padding: 60px 20px;
+  position: relative;
+  height: 100%;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-picture-wrap {
+  width: 100%;
+  text-align: center;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-picture {
+  display: block;
+  width: 104px;
+  height: 104px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  -webkit-animation: show 1s;
+  animation: show 1s;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-content {
+  text-align: center;
+  position: relative;
+  background: #fff;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-content-wrapper {
+  height: 100%;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-name {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  height: 18px;
+  overflow: hidden;
+  color: #404040;
+  text-decoration: none;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-name span {
+  color: #B0B0B0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 8px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-children {
+  display: none;
+  margin-top: 13px;
+  overflow: hidden;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: height;
+  -moz-transition-property: height;
+  -ms-transition-property: height;
+  -o-transition-property: height;
+  transition-property: height;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-child + .catalog-section-list-item-child {
+  margin-top: 12px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-child-name {
+  font-size: 13px;
+  line-height: 18px;
+  color: #1B1E25;
+  text-decoration: none;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-child-name:hover {
+  color: #404040 !important;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-child-count {
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+  padding-left: 4px;
+  opacity: 0.4;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-button-wrap {
+  display: none;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-button {
+  display: inline-block;
+  padding-bottom: 7px;
+  margin-top: 16px;
+  border-bottom: 1px dashed #B0B0B0;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: border-color;
+  -moz-transition-property: border-color;
+  -ms-transition-property: border-color;
+  -o-transition-property: border-color;
+  transition-property: border-color;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-button > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-button > div + div {
+  margin-left: 4px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-button-decoration {
+  position: relative;
+  width: 7px;
+  height: 7px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-button-decoration::before, .ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-button-decoration::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: #808080;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
+  -ms-transition-property: transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-button-decoration::before {
+  top: 3px;
+  left: 0;
+  right: 0;
+  bottom: 3px;
+  height: 1px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-button-decoration::after {
+  top: 0;
+  left: 3px;
+  right: 3px;
+  bottom: 0;
+  width: 1px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-button-text,
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-8 .catalog-section-list-item-button-count {
+  font-size: 12px;
+  line-height: 12px;
+  color: #808080;
+}
+
+/*# sourceMappingURL=style.css.map */

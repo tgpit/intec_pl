@@ -1,0 +1,175 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'reviews';
+$template: 'template-5';
+$item: 'widget-item';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-title-margin {
+    margin-left: 117px;
+    @media (max-width: 500px) {
+      margin-left: 54px;
+    }
+  }
+  .widget-title {
+    overflow: hidden;
+  }
+  .widget-send {
+    color: #808080;
+    padding: 8px 14px;
+    border: 1px solid #E8E8E8;
+    cursor: pointer;
+    @include border-radius(2px);
+    @include user-select(none);
+    @include transition(.35s, (color, border-color));
+  }
+  .widget-send-icon {
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-send-content {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: inherit;
+  }
+  .widget-all {
+    display: block;
+    text-decoration: none;
+  }
+  .widget-all-desktop {
+    display: block;
+    font-size: 10px;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include transition(.35s, color);
+  }
+  .widget-all-mobile {
+    display: none;
+    padding: 6px 7px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+
+  .#{$item} {
+    position: relative;
+    z-index: 1;
+
+    &:hover {
+      z-index: 2;
+    }
+  }
+  .#{$item}-wrapper {
+    position: relative;
+    height: 100%;
+    padding: 20px 20px 101px 20px;
+    background-color: #FFF;
+    border: 1px solid #f1f1f1;
+    @include border-radius(7px);
+    @include transition(.35s, box-shadow);
+
+    &:hover {
+      @include box-shadow(0, 5px, 15px, 0, rgba(0, 0, 0, 0.2));
+    }
+  }
+  .#{$item}-description {
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .#{$item}-person {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    height: 101px;
+    padding-top: 20px;
+    border-top: 1px solid #ececec;
+    overflow: hidden;
+  }
+  .#{$item}-picture {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include border-radius(50%);
+  }
+  .#{$item}-name {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    max-height: 40px;
+    overflow: hidden;
+    @include transition(.35s, color);
+  }
+  .#{$item}-position {
+    font-size: 12px;
+    line-height: 18px;
+    color: #cecece;
+    margin-top: 4px;
+    max-height: 36px;
+    overflow: hidden;
+  }
+
+  @include breakpoint-768() {
+    .widget-send-content {
+      display: none;
+    }
+  }
+  @include breakpoint-custom(600) {
+    .#{$item}-wrapper {
+      padding-bottom: 20px;
+    }
+    .#{$item}-person {
+      position: static;
+      height: auto;
+    }
+    .#{$item}-picture {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+    .#{$item}-name,
+    .#{$item}-position {
+      text-align: center;
+      max-height: none;
+    }
+  }
+  @include breakpoint-custom(500) {
+    .widget-send {
+      padding: 6px;
+    }
+    .widget-all-desktop {
+      display: none;
+    }
+    .widget-all-mobile {
+      display: block;
+    }
+
+    .#{$item}-wrapper {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .#{$item}-description {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+}

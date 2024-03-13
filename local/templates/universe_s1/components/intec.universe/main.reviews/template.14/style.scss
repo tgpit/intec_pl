@@ -1,0 +1,309 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'reviews';
+$template: 'template-14';
+$item: 'widget-item';
+
+@keyframes c-#{$component}-#{$template}-keyframes {
+  0%, 100% {
+    @include transform(scale(1));
+  }
+  50% {
+    @include transform(scale(1.1));
+  }
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-title-margin {
+    margin-left: 117px;
+    @media (max-width: 500px) {
+      margin-left: 54px;
+    }
+  }
+  .widget-title {
+    overflow: hidden;
+  }
+  .widget-send {
+    color: #808080;
+    padding: 8px 14px;
+    border: 1px solid #E8E8E8;
+    cursor: pointer;
+    @include border-radius(2px);
+    @include user-select(none);
+    @include transition(.35s, (color, border-color));
+  }
+  .widget-send-icon {
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-send-content {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: inherit;
+  }
+  .widget-all {
+    display: block;
+    text-decoration: none;
+  }
+  .widget-all-desktop {
+    display: block;
+    font-size: 10px;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include transition(.35s, color);
+  }
+  .widget-all-mobile {
+    display: none;
+    padding: 6px 7px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+
+  .widget-item-content {
+    padding-left: 20px;
+  }
+
+  .#{$item}-picture {
+    display: block;
+    font-size: 0;
+    text-align: center;
+    width: 590px;
+    height: 330px;
+    max-width: 100%;
+    margin-right: 55px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include transition(.35s, (opacity, box-shadow));
+
+    &::after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    &[data-role='video'] {
+      cursor: pointer;
+    }
+  }
+  .#{$item}-picture-icon {
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    vertical-align: middle;
+    pointer-events: none;
+
+    &-path-white {
+      fill: #ffffff !important;
+      stroke: #ffffff !important;
+    }
+  }
+  .#{$item}-description {
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+    margin-bottom: 20px;
+  }
+  .#{$item}-name {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 20px;
+    color: #404040;
+    text-decoration: none;
+    @include transition(.35s, color);
+  }
+  .#{$item}-rating {
+    margin-top: 8px;
+  }
+  .#{$item}-rating-item {
+    svg {
+      width: 20px;
+      height: 20px;
+
+      path {
+        fill: #E8E8E8;
+        stroke: #E8E8E8;
+      }
+    }
+
+    &[data-active='true'] {
+      svg {
+        path {
+          fill: #FBCD56;
+          stroke: #FBCD56;
+        }
+      }
+    }
+  }
+  .#{$item}-link-detail-button {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 10px 15px !important;
+  }
+  .#{$item}-wrapper {
+    &:hover {
+      .#{$item}-picture-icon {
+        animation-name: c-#{$component}-#{$template}-keyframes;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+      }
+    }
+  }
+
+  [data-slider='false'] {
+    .#{$item}-wrapper {
+      &:hover {
+        .#{$item}-picture {
+          @include box-shadow(0, 5px, 25px, 0, rgba(0, 0, 0, 0.4));
+        }
+      }
+    }
+  }
+
+  .intec-ui-control-dots {
+    padding-top: 35px;
+  }
+  .widget-items-dots-wrap {
+    margin-top: 30px;
+
+    .widget-items-dots {
+      position:relative;
+      margin: -15px;
+    }
+    .widget-items-dot {
+      padding: 15px;
+    }
+    .widget-dot-picture-wrap {
+      border: 2px solid;
+      @include transition(.35s, border-color);
+    }
+    .widget-items-dot:not(.active) {
+      .widget-dot-picture-wrap {
+        border-color: transparent;
+      }
+    }
+    .#{$item}-picture {
+      position: relative;
+      width: 100%;
+      height: auto;
+      padding-top: 55%;
+      margin: 0 !important;
+      cursor: pointer;
+
+      &-icon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 48px;
+        height: 48px;
+        margin-left: -24px;
+        margin-top: -24px;
+        vertical-align: middle;
+        pointer-events: none;
+      }
+    }
+  }
+
+  @include breakpoint-custom(1060) {
+    .#{$item}-picture {
+      height: 300px;
+    }
+  }
+  @include breakpoint-768() {
+    .widget-send-content {
+      display: none;
+    }
+
+    .widget-item-content {
+      padding-left: 0;
+    }
+    .widget-items-dots-wrap {
+      .widget-items-dots {
+        position:relative;
+        margin: -10px;
+      }
+      .widget-items-dot {
+        padding: 10px;
+      }
+      .#{$item}-picture {
+
+        &-icon {
+          width: 30px;
+          height: 30px;
+          margin-left: -15px;
+          margin-top: -15px;
+        }
+      }
+    }
+    .#{$item}-picture {
+      width: 320px;
+      height: 180px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+
+      &-icon {
+        width: 54px;
+        height: 54px;
+      }
+    }
+    .#{$item}-text {
+      text-align: center;
+    }
+  }
+  @include breakpoint-custom(550) {
+    .#{$item}-description {
+      font-size: 14px;
+      line-height: 21px;
+    }
+    .widget-items-dots-wrap {
+      .widget-items-dots {
+        position:relative;
+        margin: -5px;
+      }
+      .widget-items-dot {
+        padding: 5px;
+      }
+      .#{$item}-picture {
+
+        &-icon {
+          width: 24px;
+          height: 24px;
+          margin-left: -12px;
+          margin-top: -12px;
+        }
+      }
+    }
+  }
+  @include breakpoint-custom(500) {
+    .widget-send {
+      padding: 6px;
+    }
+    .widget-all-desktop {
+      display: none;
+    }
+    .widget-all-mobile {
+      display: block;
+    }
+  }
+}

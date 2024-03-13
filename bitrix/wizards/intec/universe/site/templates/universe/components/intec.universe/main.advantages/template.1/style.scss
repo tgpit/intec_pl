@@ -1,0 +1,71 @@
+$component: 'advantages';
+$template: 'template-1';
+$item: 'widget-item';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+
+  .widget-items {
+    display: block;
+  }
+
+  .#{$item} {}
+
+  .#{$item}-picture {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+
+  .#{$item}-name {
+    position: relative;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    color: #2d2d2d;
+    word-break: break-word;
+
+    &:hover {
+      text-decoration: underline;
+
+      .#{$item}-description {
+        display: block;
+      }
+    }
+  }
+
+  .#{$item}-description {
+    display: none;
+    position: absolute;
+    width: 240px;
+    top: 100%;
+    left: -12px;
+    background-color: #404040;
+    border-radius: 10px;
+    padding: 7px 12px;
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: normal;
+    color: #fff;
+    text-align: justify;
+    z-index: 1;
+
+    &:after {
+      content: '';
+      position: absolute;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 10px solid #404040;
+      left: 60px;
+      bottom: -20px;
+      top: -10px;
+      width: 0;
+      height: 0;
+    }
+  }
+
+  @media all and (max-width: 1200px) {
+    .#{$item}-description {
+      display: none !important;
+    }
+  }
+}

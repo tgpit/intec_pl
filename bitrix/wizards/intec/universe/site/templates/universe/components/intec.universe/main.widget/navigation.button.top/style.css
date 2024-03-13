@@ -1,0 +1,58 @@
+.widget.c-widget.c-widget-navigation-button-top .widget-button {
+  bottom: 106px;
+  left: auto;
+  right: 20px;
+  top: auto;
+  height: 46px;
+  width: 46px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  z-index: 100;
+}
+.widget.c-widget.c-widget-navigation-button-top .widget-button svg {
+  position: relative;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  -ms-flex: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -moz-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  display: block;
+  fill: #fff;
+  stroke: #fff;
+}
+.widget.c-widget.c-widget-navigation-button-top .widget-button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+}
+@media all and (max-width: 720px) {
+  .widget.c-widget.c-widget-navigation-button-top .widget-button {
+    bottom: 70px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

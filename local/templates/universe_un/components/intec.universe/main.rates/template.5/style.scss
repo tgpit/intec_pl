@@ -1,0 +1,300 @@
+$component: 'rates';
+$template: 'template-5';
+$item: 'widget-item';
+
+@mixin transition ($property, $time) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $time;
+  -moz-transition-duration: $time;
+  -ms-transition-duration: $time;
+  -o-transition-duration: $time;
+  transition-duration: $time;
+}
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-section-description {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 40px;
+  }
+  .widget-tabs-wrap {
+    position: relative;
+  }
+  .widget-tabs-wrap:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid #F2F2F2;
+  }
+  .widget-tabs-wrap-2 {
+     position: relative;
+     z-index: 1;
+   }
+  .widget-tabs-wrap + .widget-tabs-content-wrap {
+    margin-top: 40px;
+  }
+  .#{$item} {
+    position: relative;
+    z-index: 1;
+
+    &:hover {
+      z-index: 2;
+    }
+  }
+  .#{$item}-wrapper {
+    position: relative;
+    height: 100%;
+    padding: 32px;
+  }
+  .#{$item}-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #ECECEC;
+    background-color: #FFF;
+    @include transition(#{margin, box-shadow}, 0.4s);
+  }
+  .#{$item}-content {
+    position: relative;
+    height: 100%;
+    z-index: 2;
+  }
+  .#{$item}-sticker-wrap {
+    font-size: 0;
+    text-align: right;
+  }
+  .#{$item}-sticker {
+    display: inline-block;
+    top: 30px;
+    right: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #1B1E25;
+    padding: 6px 8px;
+    background: #F2C94C;
+    @include border-radius(2px);
+  }
+  .#{$item}-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1E25;
+  }
+  .#{$item}-price {
+    margin-top: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .#{$item}-price-value {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1B1E25;
+  }
+  .#{$item}-discount + .#{$item}-price-value {
+    margin-top: 8px;
+  }
+  .#{$item}-discount-value {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+    color: #B0B0B0;
+  }
+  .#{$item}-description {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 11px;
+  }
+  .#{$item}-properties {
+    margin-top: 11px;
+  }
+  .#{$item}-property {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 8px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .#{$item}-property-name {
+    font-weight: normal;
+    color: #808080;
+    margin-right: 8px;
+  }
+  .#{$item}-property-value {
+    font-weight: 500;
+    color: #1B1E25;
+  }
+  .#{$item}-button {
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    padding: 15px 30px;
+    cursor: pointer;
+    @include border-radius(2px);
+    @include transition(background-color, 0.4s);
+  }
+  [data-button='true'] {
+    .#{$item}-content {
+      padding-bottom: 56px;
+    }
+  }
+  [data-slider='false'] {
+    .#{$item} {
+      margin-top: -1px;
+      margin-left: -1px;
+    }
+    .#{$item}-wrapper:hover {
+      .#{$item}-effect {
+        margin: -10px;
+        -webkit-box-shadow: 0 9px 24px 0 rgba(111, 129, 162, 0.35);
+        -moz-box-shadow: 0 9px 24px 0 rgba(111, 129, 162, 0.35);
+        box-shadow: 0 9px 24px 0 rgba(111, 129, 162, 0.35);
+      }
+    }
+  }
+  [data-slider='true'] {
+    .#{$item} {
+      height: 100%;
+    }
+    .intec-ui-control-navigation {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+    }
+    .intec-ui-part-button-left,
+    .intec-ui-part-button-right {
+      position: absolute;
+      display: block;
+      line-height: 0;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      margin-top: -20px;
+      border: 1px solid #E8E8E8;
+      background-color: #FFF;
+      color: #808080;
+      opacity: 1;
+      outline: none;
+      @include border-radius(2px);
+      @include transition((background-color, border-color, color), 0.4s);
+
+      svg {
+        path {
+          stroke: #808080;
+
+          transition: all 0.4s;
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            stroke: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        display: none;
+      }
+    }
+    .intec-ui-part-button-left {
+      left: -20px;
+    }
+    .intec-ui-part-button-right {
+      right: -20px;
+    }
+    .widget-items-dots {
+      padding-top: 25px;
+
+      .widget-items-dot {
+        margin-left: 16px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:not(.active) {
+          background: #CFCFCF !important;
+        }
+        @include border-radius(50%);
+        @include transition((background-color, border-color), .35s );
+
+        span {
+          display: block;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  [data-align='left'] {
+    text-align: left;
+  }
+  [data-align='center'] {
+    text-align: center;
+  }
+  [data-align='right'] {
+    text-align: right;
+  }
+  @media all and (max-width: 650px) {
+    [data-slider='true'] {
+
+      .intec-ui-part-button-left,
+      .intec-ui-part-button-right {
+        border: 1px solid #ECECEC;
+      }
+    }
+  }
+  @media all and (max-width: 500px) {
+    .#{$item}-name {
+      font-size: 18px;
+      line-height: 26px;
+    }
+    .#{$item}-price-value {
+      font-size: 25px;
+      line-height: 25px;
+    }
+    .#{$item}-price-currency,
+    .#{$item}-discount-value {
+      font-size: 18px;
+      line-height: 18px;
+    }
+  }
+}

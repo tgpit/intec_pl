@@ -1,0 +1,24 @@
+.adm-submenu-item-link-icon.importexport-menu-icon,
+.adm-submenu-item-link-icon.importexport-menu-icon-excel-templates,
+.adm-submenu-item-link-icon.importexport-menu-icon-excel-import-templates,
+.adm-submenu-item-link-icon.importexport-menu-icon-excel-export-templates {
+    width: 34px;
+    height: 24px;
+}
+
+.adm-submenu-item-link-icon.importexport-menu-icon {
+    background: url('../images/main.svg') no-repeat center;
+    background-size: 22px;
+}
+.adm-submenu-item-link-icon.importexport-menu-icon-excel-templates {
+    background: url('../images/excel.svg') no-repeat center;
+    background-size: 22px;
+}
+.adm-submenu-item-link-icon.importexport-menu-icon-excel-import-templates {
+    background: url('../images/import.svg') no-repeat center;
+    background-size: 22px;
+}
+.adm-submenu-item-link-icon.importexport-menu-icon-excel-export-templates {
+    background: url('../images/export.svg') no-repeat center;
+    background-size: 22px;
+}

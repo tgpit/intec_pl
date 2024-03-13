@@ -1,0 +1,97 @@
+<?
+//\Acrit\Core\Export\Exporter::getLangPrefix(__FILE__, $strLang, $strHead, $strName, $strHint);
+\Acrit\Core\Orders\Exporter::getLangPrefix(__FILE__, $strLang, $strHead, $strName, $strHint);
+
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_METHOD_API'] = 'Выбор метода получения данных заказов';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_METHOD_API_CHECKBOX'] = 'Получать данные по каждому заказу отдельно';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_URL_HINT'] = 'Домен сайта для формирования адреса ссылки на этикетку. Например https://example.com';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_URL'] = 'Домен сайта';
+$MESS['EXPORT_LABEL'] = 'Настройка импорта этикеток';
+$MESS['EXPORT_LABEL_CHECKBOX'] = 'Включить импорт этикеток';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_METHOD_API_CHECKBOX'] = 'По умолчанию получение данных по заказам осуществляется методом "list"<br>
+При использовании этого метода OZON не отдает данные о покупателе и поля покупателя не заполняются. Но при этом нет лимита по обработке большой выборки заказов.<br>
+Если у вас небольшие количества заказов (рабочая выборка синхронизации до 1000 заказов) и есть необходимость заполнять сведения о покупателе выберите эту опцию и получение данных заказов будет осуществляться методом "get".<br>
+В этом случае будут заполняться реквизиты покупателя';
+$MESS['EXPORT_SHIP_SECTION'] = 'Настройка автоматической сборки заказов';
+$MESS['EXPORT_SHIP_CHECKBOX'] = 'Автоматическая сборка заказа';
+$MESS['EXPORT_SHIP_HINT'] = 'При выборе этой опции при загрузке нового заказа будет отправлено задание собрать заказ и переход в статус "Ожидает отгрузки"';
+$MESS['EXPORT_STOCKS_SECTION'] = 'Настройка отбора заказов по складам';
+$MESS['EXPORT_STOCKS_CHECKBOX'] = 'Отбирать заказы по складам';
+$MESS['EXPORT_STOCKS_HINT'] = 'При выборе этой опции профиль будет отбирать заказы по указанным складам';
+$MESS['EXPORT_STOCKS_ADD'] = 'Добавить склад';
+$MESS['EXPORT_STOCKS_DELETE'] = 'Удалить склад';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_PRODUCTS_ID_FIELD_NAME'] = 'Артикул товара';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_CONTACT_TITLE'] = 'Данные покупателя';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_CONTACT_NAME'] = 'Имя';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_CONTACT_PHONE'] = 'Телефон';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_ACCEPTANCE_IN_PROGRESS'] = 'Идёт приёмка';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_ARBITRATION'] = 'Арбитраж';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_LABEL'] = 'Этикетка';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_AWAITING_APPROVE']     = 'Ожидает подтверждения';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_AWAITING_DELIVER'] = 'Ожидает отгрузки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_AWAITING_PACKAGING'] = 'Ожидает упаковки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_AWAITING_REGISTRATION'] = 'Ожидает регистрации';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_AWAITING_VERIFICATION'] = 'Создано';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_CANCELLED'] = 'Отменено';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_CANCELLED_PENDING'] = 'Отменено';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_CLIENT_ARBITRATION'] = 'Клиентский арбитраж доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_DELIVERED'] = 'Доставлено';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_DELIVERING'] = 'Доставляется';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_DRIVER_PICKUP'] = 'У водителя';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_NOT_ACCEPTED'] = 'Не принят на сортировочном центре';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STATUSES_SENT_SELLER'] = 'Отправлено продавцом';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_ANALYTICS_DATA_CITY'] = 'Город доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_ANALYTICS_DATA_DELIVERY_TYPE'] = 'Способ доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_ANALYTICS_DATA_IS_PREMIUM'] = 'Наличие подписки Премиум';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_ANALYTICS_DATA_PAYMENT_TYPE_GROUP_NAME'] = 'Способ оплаты';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_ANALYTICS_DATA_REGION'] = 'Регион доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_ANALYTICS_DATA_WAREHOUSE_ID'] = 'Идентификатор склада';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_ANALYTICS_DATA_WAREHOUSE_NAME'] = 'Название склада отправки заказа';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CANCEL_REASON_ID'] = 'Идентификатор причины отмены отправления';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CREATED_AT'] = 'Дата и время создания отправления';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_SHIPMENT_DATE'] = 'Дата и время, до которой необходимо собрать отправление';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_FINANCIAL_DATA'] = 'Финансовые данные';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_IN_PROCESS_AT'] = 'Дата и время начала обработки отправления';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_ORDER_ID'] = 'Идентификатор заказа, к которому относится отправление';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_ORDER_NUMBER'] = 'Номер заказа, к которому относится отправление';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_POSTING_NUMBER'] = 'Номер отправления';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_PRODUCTS'] = 'Список товаров в отправлении';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_STATUS'] = 'Результат обработки товара классификатором';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_TRACKING_NUMBER'] = 'Трек-номер';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CANCEL_REASON'] = 'Причина отмены';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_DELIVERING_DATE'] = 'Дата доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_PROVIDER_STATUS'] = 'Статус поставщика';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_DELIVERY_PRICE'] = 'Стоимость доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_DELIVERY_METHOD_NAME'] = 'Способ доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_TPL_PROVIDER_ID'] = 'ID поставщика';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_TPL_PROVIDER'] = 'Название поставщика';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_ADDRESS'] = 'Адрес доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_CITY'] = 'Город доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_COMMENT'] = 'Комментарий к заказу';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_COUNTRY'] = 'Страна доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_DISTRICT'] = 'Район доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_LATITUDE'] = 'Широта';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_LONGITUDE'] = 'Долгота';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_PROVIDER_PVZ_CODE'] = 'Код ПВЗ 3PL провайдера';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_PVZ_CODE'] = 'Код ПВЗ';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_REGION'] = 'Регион доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_ZIP_CODE'] = 'Почтовый индекс получателя';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_EMAIL'] = 'Email покупателя';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_NAME'] = 'Имя покупателя';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_FIELDS_CUSTOMER_PHONE'] = 'Контактный телефон';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_SETTINGS_HEADING'] = 'Данные для подключения к площадке';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_SETTINGS_CLIENT_ID_HINT'] = 'Client ID';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_SETTINGS_CLIENT_ID'] = 'Client ID';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_SETTINGS_API_KEY_HINT'] = 'API Key';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_SETTINGS_API_KEY'] = 'API Key';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_SETTINGS_CHECK_CONN'] = 'Проверить подключение';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_CHECK_ERROR'] = 'Ошибка: ';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_CHECK_SUCCESS'] = 'Успешно';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_CONTACT_FIELDS_GROUP_1'] = 'Основные данные';
+
+$strSName = $strLang.'SETTINGS_NAME_';
+$strSHint = $strLang.'SETTINGS_HINT_';
+
+//$MESS[$strSName.'USE_V2_API'] = 'Использовать старый API';
+//$MESS[$strSHint.'USE_V2_API'] = 'Использовать для обмена API версии 2 (по-умолчанию используется API версии 3)';
+?>

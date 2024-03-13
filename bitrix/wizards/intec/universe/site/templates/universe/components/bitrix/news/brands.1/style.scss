@@ -1,0 +1,19 @@
+$namespace: 'bitrix';
+$component: 'news';
+$template: 'brands-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .ns-bitrix.c-menu.c-menu-vertical-3 .menu-items {
+    height: auto;
+  }
+  .#{$class}-description + * {
+    margin-top: 32px;
+  }
+  .c-smart-filter.c-smart-filter-horizontal-2, .c-smart-filter.c-smart-filter-horizontal-1 {
+    z-index: 10;
+  }
+  * + .#{$class}-menu {
+    margin-top: 24px;
+  }
+}

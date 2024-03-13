@@ -1,0 +1,150 @@
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-position=top] {
+  margin-bottom: 50px;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-position=middle] {
+  margin: 50px 0;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-position=bottom] {
+  margin-top: 50px;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-position=none] {
+  margin: 0;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-position=none] .sale-products-gift-navigation-bottom {
+  margin: 0;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 [data-role="gift.navigation"].disabled {
+  display: none;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .sale-products-gift-header {
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #404040;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .catalog-products-viewed-header {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  margin: 5px 0;
+  padding: 5px 15px;
+  border-bottom: 2px solid #d9dee6;
+  color: #1B1E25;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-left,
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-right {
+  width: 35px;
+  height: 35px;
+  font-size: 9px;
+  line-height: 1;
+  background: #fff;
+  color: #333;
+  border: 1px solid #E8E8E8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-left:hover,
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-right:hover {
+  color: #fff;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-left:focus, .ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-left:active,
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-right:focus,
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-right:active {
+  outline: none;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-left.disabled,
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-right.disabled {
+  opacity: 0.5;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-left.disabled:hover,
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-right.disabled:hover {
+  background: #fff !important;
+  color: #333 !important;
+  border: 1px solid #E8E8E8 !important;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .sale-products-gift-navigation-bottom {
+  margin-top: 16px;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="4"] .owl-carousel .owl-stage {
+  display: flex;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="4"] .owl-carousel .owl-item {
+  align-self: stretch;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="4"] .owl-carousel .owl-item:nth-last-child(1) .ns-bitrix.c-catalog-item.c-catalog-item-template-4 .catalog-item-body {
+  border-right: 1px solid #F2F2F2;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="4"] .sale-products-gift-item {
+  height: 100%;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="4"] .ns-bitrix.c-catalog-item.c-catalog-item-template-4 .catalog-item-body {
+  border-right: none;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="3"] .c-sale-products-gift-items-wrap {
+  position: relative;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="3"] .sale-products-gift-navigation {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 2;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="3"] .gift-navigation-left,
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="3"] .gift-navigation-right {
+  position: absolute;
+  margin-top: -17px;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="3"] .gift-navigation-left {
+  left: -17px;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="3"] .gift-navigation-right {
+  right: -17px;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1[data-view="2"] .owl-stage-outer {
+  padding-bottom: 60px;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .intec-ui.intec-ui-control-input.intec-ui-view-2:disabled, .ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .intec-ui.intec-ui-control-input.intec-ui-view-2.intec-ui-state-disabled, .ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .intec-ui.intec-ui-control-input.intec-ui-view-2[data-ui-state=disabled] {
+  border: 1px solid #efefef;
+  color: #9f9f9f;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .gift-navigation-left {
+  margin-right: 7px;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .sale-products-gift-section-item {
+  position: relative;
+  z-index: 1;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .sale-products-gift-section-item:hover {
+  z-index: 2;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .sale-products-gift-section-item[data-expanded=true] .ns-bitrix.c-catalog-item.c-catalog-item-template-2 .catalog-item-button-container-wrap {
+  display: block;
+}
+.ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .sale-products-gift-section-item[data-expanded=true] .ns-bitrix.c-catalog-item.c-catalog-item-template-2 .catalog-item-button-container {
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  overflow: hidden;
+}
+@media all and (max-width: 768px) {
+  .ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .sale-products-gift-section-item .ns-bitrix.c-catalog-item.c-catalog-item-template-2 .catalog-item-button-container-wrap {
+    display: block;
+  }
+  .ns-intec-universe.c-sale-products-gift-section.c-sale-products-gift-section-template-1 .sale-products-gift-section-item .ns-bitrix.c-catalog-item.c-catalog-item-template-2 .catalog-item-button-container {
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    overflow: hidden;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

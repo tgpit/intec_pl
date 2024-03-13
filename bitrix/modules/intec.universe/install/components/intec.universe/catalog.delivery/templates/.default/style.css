@@ -1,0 +1,246 @@
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default {
+  width: 730px;
+  max-width: 100%;
+  padding-top: 35px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-selection-city {
+  margin-bottom: 25px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-selection-city[data-expanded=false] .catalog-delivery-city-form {
+  display: none;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-selection-city[data-expanded=true] .catalog-delivery-current-city span {
+  display: none;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-current-city {
+  margin-bottom: 40px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1B1E25;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-current-city-name-wrap {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-current-city-name-wrap .catalog-delivery-current-city-name {
+  display: inline-block;
+  padding: 3px 0;
+  border-bottom: 1px dashed #B0B0B0;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-current-city-name-wrap .catalog-delivery-current-city-icon {
+  font-size: 22px;
+  color: #808080;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-params {
+  margin-top: 25px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-params .catalog-delivery-param {
+  padding-right: 30px;
+  font-size: 13px;
+  line-height: 13px;
+  color: #808080;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-params .catalog-delivery-param-title {
+  margin-bottom: 10px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-params .catalog-delivery-param-basket .catalog-delivery-param-content {
+  padding-top: 9px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-params .catalog-delivery-param-content .intec-ui-part-content {
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap {
+  position: relative;
+  margin-top: 30px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-list-stub {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element {
+  padding: 30px;
+  border: 1px solid #f2f2f2;
+  border-bottom: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element:last-child {
+  border-bottom: 1px solid #f2f2f2;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element:hover {
+  box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-logo {
+  width: 115px;
+  padding-right: 25px;
+  font-size: 0;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-logo-logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-name-wrap {
+  padding-right: 25px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-name {
+  font-size: 18px;
+  line-height: 22px;
+  color: #404040;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-period {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #B0B0B0;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-price {
+  padding-right: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #404040;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-button-more {
+  width: 40px;
+  height: 40px;
+  background: #0065FF;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-button-more-icon {
+  margin: auto;
+  font-size: 20px;
+  line-height: 1;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-button-more-opened .delivery-element-button-more-icon {
+  transform: rotate(180deg);
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-error {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f1cfcf;
+  color: #d03349;
+  font-size: 14px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-details {
+  display: none;
+  margin-top: 25px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-description {
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-paysystems-block {
+  margin-top: 25px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-paysystems-title {
+  font-size: 18px;
+  line-height: 22px;
+  color: #808080;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-paysystems {
+  margin-top: 20px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-paysystem {
+  margin-bottom: 10px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-paysystem-logo {
+  width: 65px;
+  padding-right: 10px;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-paysystem-logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-paysystem-name {
+  font-size: 14px;
+  line-height: 14px;
+  color: #808080;
+}
+@media all and (max-width: 600px) {
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default {
+    padding: 30px 5px 10px;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-current-city {
+    margin-bottom: 35px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element {
+    padding: 20px;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-logo {
+    width: 75px;
+    padding-right: 15px;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-name-wrap {
+    padding-right: 15px;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-name {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-price {
+    padding-right: 15px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+@media all and (max-width: 400px) {
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-current-city {
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-current-city-name-wrap .catalog-delivery-current-city-icon {
+    top: 6px;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-params .catalog-delivery-param-quantity {
+    margin-bottom: 15px;
+    padding-right: 0;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-params .catalog-delivery-param-basket .catalog-delivery-param-content {
+    padding-top: 0;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-logo {
+    display: none;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-name-wrap {
+    margin-bottom: 10px;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-price {
+    text-align: left;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-description {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .ns-intec-universe.c-catalog-delivery.c-catalog-delivery-default .catalog-delivery-list-wrap .catalog-delivery-element .delivery-element-paysystems-title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

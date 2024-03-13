@@ -1,0 +1,26 @@
+<Chests>
+	<Model variable="string"></Model>
+	<ColorName variable="string"></ColorName>
+	<DresserType name="Комод"></DresserType>
+	<DresserType name="Тумба"></DresserType>
+	<DresserType name="Тумба под телевизор"></DresserType>
+	<DresserType name="Прикроватная тумба"></DresserType>
+	<DresserType name="Другой"></DresserType>
+	<Material name="Дерево"></Material>
+	<Material name="ДСП"></Material>
+	<Material name="ЛДСП"></Material>
+	<Material name="МДФ"></Material>
+	<Material name="Металл"></Material>
+	<Material name="Пластик"></Material>
+	<Material name="Стекло"></Material>
+	<Material name="Шпон"></Material>
+	<Material name="Другой"></Material>
+	<Width variable="int"></Width>
+	<Height variable="int"></Height>
+	<Depth variable="int"></Depth>
+	<FurnitureAdditions name="Зеркало"></FurnitureAdditions>
+	<FurnitureAdditions name="Колёсики"></FurnitureAdditions>
+	<FurnitureAdditions name="Ящики"></FurnitureAdditions>
+	<FurnitureAdditions name="Полки"></FurnitureAdditions>
+	<FurnitureAdditions name="Пеленальный столик"></FurnitureAdditions>
+</Chests>

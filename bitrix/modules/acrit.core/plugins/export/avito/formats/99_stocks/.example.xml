@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items date="2020-11-22T14:37:00" formatVersion="1">
+	<item>
+		<id>1234567</id>
+		<avitoId>22222</avitoId>
+		<stock>50</stock>
+	</item>
+	<item>
+		<id>1234567</id>
+		<avitoId>22222</avitoId>
+		<stock>*</stock>
+	</item>
+</items>

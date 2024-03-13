@@ -1,0 +1,80 @@
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-3 {
+  display: block;
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-3 .news-list-item {
+  border: 1px solid #E8E8E8;
+  padding: 21px 53px 32px 53px;
+  background-color: #fff;
+  height: 100%;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-3 .news-list-item:hover {
+  -webkit-box-shadow: 0 8px 32px 0 rgba(27, 30, 37, 0.06);
+  -moz-box-shadow: 0 8px 32px 0 rgba(27, 30, 37, 0.06);
+  box-shadow: 0 8px 32px 0 rgba(27, 30, 37, 0.06);
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-3 .news-list-item-name {
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+  text-align: center;
+  height: 20px;
+  overflow: hidden;
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-3 .news-list-item-image-size {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #B0B0B0;
+  text-align: center;
+  height: 20px;
+  overflow: hidden;
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-3 .news-list-item-image {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-top: 140%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-3 .news-list-item-image[data-role=zoom] {
+  cursor: pointer;
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-3 .news-list-item-image:hover .news-list-item-image-zoom {
+  opacity: 1;
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-3 .news-list-item-image-zoom {
+  display: block;
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+
+/*# sourceMappingURL=style.css.map */

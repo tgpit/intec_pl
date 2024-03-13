@@ -1,0 +1,3 @@
+<?php
+
+$MESS['IC_VK_TEMPLATE_3_TEMPLATE_URL_LIST_TEXT_DEFAULT'] = 'Все записи';

@@ -1,0 +1,40 @@
+@import "./../../../../sources/styles/include.scss";
+
+$component: 'widget';
+$template: 'navigation-button-top';
+$class: $component;
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$class}-button {
+    @include sides(auto, 20px, 106px);
+    @include size(46px, 46px);
+
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 100;
+
+    svg {
+      @include flex-item-auto();
+
+      display: block;
+      fill: #fff;
+      stroke: #fff;
+    }
+  }
+
+  .#{$class}-button-wrapper {
+    @include flex();
+    @include flex-align-horizontal(center);
+    @include flex-align-vertical(center);
+    @include flex-wrap(none);
+    @include size(100%, 100%);
+  }
+
+  @media all and (max-width: 720px) {
+    .#{$class}-button {
+      bottom: 70px;
+    }
+  }
+}

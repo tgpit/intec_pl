@@ -1,0 +1,8 @@
+<input 	type="text" id="USER_LOGIN_2" 
+		class="intec-ui intec-ui-control-input intec-ui-mod-block intec-ui-mod-round-2 intec-ui-size-4" 
+		name="USER_LOGIN" 
+		value="" maxlength="255">
+<input type="text" 
+		class="inputtext" 
+		name="form_text_97" 
+		value="">

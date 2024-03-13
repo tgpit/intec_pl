@@ -1,0 +1,21 @@
+$component: 'widget';
+$template: 'personal-extranet-1';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .widget-block-iframe {
+    position: relative;
+    width: 100%;
+    padding-top: 90%;
+  }
+
+  .widget-block-iframe > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #F2F2F2;
+  }
+}

@@ -1,0 +1,34 @@
+<?php
+
+$MESS['title'] = 'Домены региона "#region#"';
+$MESS['filter.fields.id'] = 'ID';
+$MESS['filter.fields.code'] = 'Код';
+$MESS['filter.fields.active'] = 'Активность';
+$MESS['filter.fields.active.any'] = 'Любая';
+$MESS['filter.fields.active.inactive'] = 'Только неактивные';
+$MESS['filter.fields.active.active'] = 'Только активные';
+$MESS['filter.fields.default'] = 'По умолчанию';
+$MESS['filter.fields.default.any'] = 'Любое';
+$MESS['filter.fields.default.inactive'] = 'Только не по умолчанию';
+$MESS['filter.fields.default.active'] = 'Только по умолчанию';
+$MESS['filter.fields.value'] = 'Значение';
+$MESS['filter.fields.sites'] = 'Сайты';
+$MESS['filter.fields.sites.all'] = 'Все';
+$MESS['list.actions.add'] = 'Добавить';
+$MESS['list.actions.activate'] = 'Активировать';
+$MESS['list.actions.deactivate'] = 'Деактивировать';
+$MESS['list.actions.delete'] = 'Удалить';
+$MESS['list.headers.id'] = 'ID';
+$MESS['list.headers.active'] = 'Активность';
+$MESS['list.headers.default'] = 'По умолчанию';
+$MESS['list.headers.siteId'] = 'Сайт';
+$MESS['list.headers.value'] = 'Значение';
+$MESS['list.headers.sort'] = 'Сортировка';
+$MESS['list.rows.actions.edit'] = 'Редактировать';
+$MESS['list.rows.actions.activate'] = 'Активировать';
+$MESS['list.rows.actions.deactivate'] = 'Деактивировать';
+$MESS['list.rows.actions.default'] = 'По умолчанию';
+$MESS['list.rows.actions.delete'] = 'Удалить';
+$MESS['list.rows.actions.delete.confirm'] = 'Вы действительно хотите удалить домен?';
+$MESS['list.rows.answers.yes'] = 'Да';
+$MESS['list.rows.answers.no'] = 'Нет';

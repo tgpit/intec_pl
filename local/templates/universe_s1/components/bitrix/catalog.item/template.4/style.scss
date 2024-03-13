@@ -1,0 +1,203 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-item';
+$template: 'template-4';
+$class: #{$component};
+
+$body: #{$class}-body;
+$picture: #{$class}-picture;
+$sticker: #{$class}-sticker;
+$name: #{$class}-name;
+$price: #{$class}-price;
+$button: #{$class}-button;
+
+$color-black-1: #1B1E25;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-white-1: #FFF;
+$color-white-2: #F2F2F2;
+$color-red-1: #E05757;
+$color-red-2: #E15554;
+$color-green: #1DB940;
+$color-green-light: #10CDA0;
+$color-red: #E05757;$color-yellow: #F4BB28;
+
+@mixin background ($size, $repeat, $position) {
+  background-size: $size;
+  background-repeat: $repeat;
+  background-position: $position;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  @include transition(0.4s, box-shadow);
+  height: 100%;
+
+  &:hover {
+    @include box-shadow(0px, 4px, 15px, null, rgba(0, 0, 0, 0.082));
+  }
+
+  .#{$body} {
+    height: 100%;
+    padding: 28px 20px;
+    position: relative;
+    border: 1px solid $color-white-2;
+
+    &[data-wide="true"] {
+      padding: 20px 7px;
+    }
+  }
+
+  .#{$class}-block-container {
+    & + * {
+      margin-top: 18px;
+    }
+  }
+
+  .#{$picture}-container {
+    position: relative;
+    width: 50px;
+  }
+  .#{$picture} {
+    position: relative;
+    z-index: 1;
+    display: block;
+  }
+
+  .#{$sticker} {
+    pointer-events: none;
+    @include user-select(none);
+    z-index: 2;
+
+    & + * {
+      margin-top: 16px;
+    }
+  }
+  .#{$sticker}-item {
+    font-size: 0;
+    margin-top: 4px;
+  }
+  .#{$sticker}-label-item {
+    & + .#{$sticker}-label-item {
+      margin-top: 4px;
+    }
+  }
+  .#{$sticker}-percent {
+    @extend %sticker-view;
+  }
+  .#{$sticker}-label-item {
+    @extend %sticker-view;
+  }
+  %sticker-view {
+    span {
+      display: inline-block;
+      font-size: 12px;
+      line-height: 12px;
+      font-weight: 500;
+      color: $color-white-1;
+      background-color: $color-red-2;
+      padding: 6px 8px;
+      width: 100%;
+      text-align: center;
+      @include border-radius(2px);
+    }
+  }
+
+  .#{$name}-container {
+    height: 36px;
+    overflow: hidden;
+    word-break: break-word;
+
+    & + * {
+      margin-top: 10px;
+    }
+  }
+  .#{$name} {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: $color-black-1;
+    text-decoration: none;
+    @include transition(0.4s, color);
+  }
+
+  .#{$price}-current {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: $color-black-1;
+  }
+  .#{$price}-discount {
+    font-size: 13px;
+    line-height: 14px;
+    color: $color-gray-1;
+    text-decoration: line-through;
+  }
+
+  .#{$class}-content {
+    margin-left: 16px;
+  }
+
+
+  .#{$button}-container {  }
+  .#{$button} {
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  .#{$button}-default {}
+  .#{$button}-add {
+    &[data-basket-state='added'] {
+      display: none;
+    }
+  }
+  .#{$button}-added {
+    display: none;
+
+    &[data-basket-state='added'] {
+      display: inline-block;
+    }
+  }
+  .#{$button}-unavailable {
+    color: $color-gray-1;
+    background-color: $color-gray-3;
+    border-color: $color-gray-3;
+    cursor: not-allowed;
+  }
+  .#{$button}-content {
+    font-size: 0px;
+
+    svg, span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    svg + span {
+      padding-left: 6px;
+    }
+    span {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  
+  @media all and (max-width: 768px) {
+    /*.#{$body} {
+      padding-bottom: 32px;
+    }*/
+  }
+
+  @media all and (max-width: 500px) {}
+
+  %user-select-none {
+    @include user-select(none);
+  }
+}

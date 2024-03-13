@@ -1,0 +1,41 @@
+@page {
+	margin: 0mm 0mm 0mm 0mm;
+}
+
+@font-face {
+font-family: "mArial";
+src: url(/font/arial.ttf) format('truetype');
+}
+
+@font-face {
+font-family: "mArialBold";
+src: url(/font/arial_bold.ttf) format('truetype');
+}
+
+@font-face {
+font-family: "mFutura";
+src: url(/font/futura.ttf) format('truetype');
+}
+
+
+@media print{
+	* {
+		-webkit-print-color-adjust: exact !important;   
+		color-adjust: exact !important;
+	}
+
+   @page { size: landscape; }
+
+	html, body{
+		height: 297mm;
+		width: 297mm;
+	}
+
+	.mpr {
+		page-break-inside: always;
+	}
+
+}
+
+
+

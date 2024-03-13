@@ -1,0 +1,248 @@
+@import '../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'news';
+$template: 'staff-1';
+
+$detail: #{$component}-detail;
+
+$color-black-1: #1B1E25;
+$color-black-2:#404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-gray-4: #F2F2F2;
+$color-yellow: #F4BB28;
+$color-red: #E05757;
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$detail}-information-container {
+    & + .#{$detail}-description {
+      margin-top: 40px;;
+    }
+  }
+  .#{$detail}-base-container {
+    & + {
+      .#{$detail}-contact-container {
+        margin-top: 16px;
+      }
+    }
+  }
+  .#{$detail}-button-container {
+    font-size: 0;
+  }
+  .#{$detail}-base-container,
+  .#{$detail}-contact-container {
+    & + .#{$detail}-button-container {
+      margin-top: 24px;
+    }
+  }
+  .#{$detail}-picture {
+    font-size: 0;
+    text-align: center;
+    width: 275px;
+    height: 275px;
+    margin-right: 32px;
+    overflow: hidden;
+    @include border-radius(3px);
+
+    &::after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .#{$detail}-position {
+    font-size: 14px;
+    line-height: 20px;
+    color: $color-gray-2;
+    max-width: 250px;
+
+    & + .#{$detail}-name {
+      margin-top: 8px;
+    }
+  }
+  .#{$detail}-name {
+    font-size: 18px;
+    line-height: 24px;
+    color: $color-black-2;
+    max-width: 250px;
+  }
+  .#{$detail}-contact-standard,
+  .#{$detail}-contact-social {
+    overflow: hidden;
+  }
+  .#{$detail}-contact-standard {
+    & + .#{$detail}-contact-social {
+      margin-top: 16px;
+    }
+  }
+  .#{$detail}-contact {
+    position: relative;
+  }
+  .#{$detail}-contact-icon {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    font-size: 0;
+
+    svg {
+      display: inline-block;
+      width: 16px;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+
+      path {
+        stroke: $color-gray-2;
+      }
+    }
+  }
+  .#{$detail}-contact-value {
+    padding-left: 24px;
+
+    a {
+      font-size: 14px;
+      line-height: 20px;
+      color: $color-black-2;
+      text-decoration: none;
+      word-break: break-all;
+      @include webkit-box(1, 20);
+      @include transition(0.4s, color);
+    }
+    & + .#{$detail}-contact-value {
+      margin-top: 8px;
+    }
+  }
+  .#{$detail}-contact-social-icon {
+    display: block;
+    font-size: 0;
+
+    svg {
+      display: inline-block;
+      width: 24px;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+
+      path {
+        fill: $color-gray-2;
+        @include transition(0.4s, fill);
+      }
+    }
+  }
+  .#{$detail}-button {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 15px 27px;
+    border: 1px solid;
+    cursor: pointer;
+    @include border-radius(3px);
+    @include transition(0.4s, #{color, background-color});
+
+    &:hover {
+      color: #FFF!important;
+    }
+  }
+  .#{$detail}-description-header {
+    font-size: 18px;
+    line-height: 24px;
+    color: $color-black-2;
+
+    & + .#{$detail}-description-text {
+      margin-top: 16px;
+    }
+  }
+  .#{$detail}-description-text {
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-gray-1;
+  }
+  .#{$detail}-projects {
+    margin-top: 40px;
+  }
+  .#{$detail}-reviews {
+    margin-top: 40px;
+  }
+  .#{$detail}-footer {
+    font-size: 0;
+    padding-top: 40px;
+    margin-top: 60px;
+    border-top: 1px solid $color-gray-4;
+  }
+  .#{$detail}-footer-back {
+    display: inline-block;
+    color: $color-gray-1;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    white-space: nowrap;
+    @include transition(0.4s, color);
+
+    & > span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .#{$detail}-footer-back-icon {
+    svg {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+
+      path {
+        stroke: $color-gray-1;
+        @include transition(0.4s, stroke);
+      }
+    }
+  }
+  .#{$detail}-footer-back-text {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    padding-left: 8px;
+  }
+
+  [data-picture='true'] {
+    .#{$detail}-information {
+      padding-top: 8px;
+    }
+  }
+
+  @media all and (max-width: 650px) {
+    [data-picture='true'] {
+      .#{$detail}-information {
+        padding-top: 24px;
+      }
+    }
+    .#{$detail}-picture {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

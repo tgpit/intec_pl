@@ -1,0 +1,136 @@
+.widget.c-news.c-news-template-9 .widget-item-wrapper {
+  display: block;
+  border: 1px solid #F2F2F2;
+  height: 100%;
+  overflow: hidden;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.widget.c-news.c-news-template-9 .widget-item-picture {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 60%;
+}
+.widget.c-news.c-news-template-9 .widget-item-picture img {
+  display: none;
+}
+.widget.c-news.c-news-template-9 .widget-item-information {
+  padding: 24px 30px;
+}
+.widget.c-news.c-news-template-9 .widget-item-tags + .widget-item-name-wrap {
+  margin-top: 8px;
+}
+.widget.c-news.c-news-template-9 .widget-item-name {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1B1E25;
+  text-decoration: none;
+}
+.widget.c-news.c-news-template-9 .widget-item-description {
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+}
+.widget.c-news.c-news-template-9 .widget-item-tags {
+  margin-top: 10px;
+}
+.widget.c-news.c-news-template-9 .widget-item-tags-item-wrapper {
+  display: block;
+  margin: 0;
+}
+.widget.c-news.c-news-template-9 .widget-item-tags-item-wrapper input {
+  display: none;
+}
+.widget.c-news.c-news-template-9 .widget-item-tags-item-wrapper span {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 3px;
+  white-space: nowrap;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: color, background-color;
+  -moz-transition-property: color, background-color;
+  -ms-transition-property: color, background-color;
+  -o-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.widget.c-news.c-news-template-9 .widget-item-tags-item-wrapper input:enabled + span {
+  cursor: pointer;
+}
+.widget.c-news.c-news-template-9 .widget-item-tags-item-wrapper input:disabled + span {
+  cursor: default;
+}
+.widget.c-news.c-news-template-9 .widget-item-tags-item-wrapper input:checked + span,
+.widget.c-news.c-news-template-9 .widget-item-tags-item-wrapper input:enabled + span:hover {
+  color: #FFF !important;
+}
+.widget.c-news.c-news-template-9 .widget-item-picture-big {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  min-height: 400px;
+  width: 100%;
+}
+.widget.c-news.c-news-template-9 .widget-item-picture-big img {
+  display: none;
+}
+.widget.c-news.c-news-template-9 .widget-item-picture-big .widget-item-picture-big-wrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(27, 30, 37, 0.6) 0%, rgba(27, 30, 37, 0.7) 100%);
+}
+.widget.c-news.c-news-template-9 .widget-item-picture-big .widget-item-information {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  right: 30px;
+}
+.widget.c-news.c-news-template-9 .widget-item-picture-big .widget-item-tags {
+  margin-top: 0;
+}
+.widget.c-news.c-news-template-9 .widget-item-picture-big .widget-item-tags + .widget-item-name {
+  margin-top: 16px;
+}
+.widget.c-news.c-news-template-9 .widget-item-picture-big .widget-item-tags-item-wrapper span {
+  color: #fff;
+}
+.widget.c-news.c-news-template-9 .widget-item-picture-big .widget-item-name {
+  color: #FFFFFF;
+}
+.widget.c-news.c-news-template-9 [data-role=form] {
+  display: none;
+}
+@media all and (max-width: 600px) {
+  .widget.c-news.c-news-template-9 .widget-item-picture-big {
+    padding-top: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+<WardrobeSystemsAndHangers>
+	<CloakroomType name="Гардеробная"></CloakroomType>
+	<CloakroomType name="Вешалка"></CloakroomType>
+	<CloakroomType name="Другой"></CloakroomType>
+	<Positioning name="Напольное"></Positioning>
+	<Positioning name="Настенное"></Positioning>
+	<Material name="Дерево"></Material>
+	<Material name="ДСП"></Material>
+	<Material name="ЛДСП"></Material>
+	<Material name="МДФ"></Material>
+	<Material name="Металл"></Material>
+	<Material name="Пластик"></Material>
+	<Material name="Стекло"></Material>
+	<Material name="Шпон"></Material>
+	<Material name="Другой"></Material>
+	<Width variable="int"></Width>
+	<Height variable="int"></Height>
+	<Depth variable="int"></Depth>
+	<FurnitureAdditions name="Зеркало"></FurnitureAdditions>
+</WardrobeSystemsAndHangers>

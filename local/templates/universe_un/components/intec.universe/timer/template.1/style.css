@@ -1,0 +1,45 @@
+.widget.c-timer.c-timer-template-1 {
+  width: 100%;
+}
+.widget.c-timer.c-timer-template-1 [data-status=false] {
+  display: none;
+}
+.widget.c-timer.c-timer-template-1 .widget-error {
+  color: red;
+}
+.widget.c-timer.c-timer-template-1 .widget-timer-date-end {
+  display: none;
+}
+.widget.c-timer.c-timer-template-1 .widget-content {
+  display: inline-block;
+  background: #FBCD56;
+  border-radius: 2px;
+  padding: 6px 8px;
+}
+.widget.c-timer.c-timer-template-1 .widget-timer-item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #404040;
+}
+.widget.c-timer.c-timer-template-1 .widget-timer-item[data-role=hours] {
+  min-width: 15px;
+  max-width: 22px;
+}
+.widget.c-timer.c-timer-template-1 .widget-timer-item[data-role=minutes] {
+  min-width: 15px;
+  max-width: 18px;
+}
+.widget.c-timer.c-timer-template-1 .widget-timer-item[data-role=seconds] {
+  width: 19px;
+}
+.widget.c-timer.c-timer-template-1 .widget-timer-item-description {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #808080;
+  margin-right: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */

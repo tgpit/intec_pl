@@ -1,0 +1,146 @@
+.widget.c-about-ref.c-about-ref-template-2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FFF;
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-block-picture {
+  position: relative;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-title {
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #B0B0B0;
+  margin-bottom: 16px;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-name {
+  font-size: 32px;
+  line-height: 40px;
+  color: #1B1E25;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-preview {
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-buttons {
+  margin-top: 32px;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-button {
+  padding: 20px 36px;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-picture {
+  padding-top: 100%;
+  background-repeat: no-repeat;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-video:hover .widget-hover-opacity {
+  opacity: 0.9;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-video svg {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-advantages {
+  margin-top: 24px;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-hover-opacity {
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-advantages-item-picture {
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-advantages-item-name {
+  font-size: 16px;
+  line-height: 20px;
+  color: #404040;
+}
+.widget.c-about-ref.c-about-ref-template-2 .widget-advantages-item-preview {
+  font-size: 14px;
+  line-height: 19px;
+  color: #808080;
+  margin-top: 8px;
+}
+.widget.c-about-ref.c-about-ref-template-2 [data-view="1"] .widget-block-picture {
+  width: 40%;
+  min-height: 160px;
+}
+.widget.c-about-ref.c-about-ref-template-2 [data-view="1"] .widget-block-text {
+  width: 60%;
+}
+.widget.c-about-ref.c-about-ref-template-2 [data-view="1"] .widget-video {
+  width: 120px;
+  height: 120px;
+}
+.widget.c-about-ref.c-about-ref-template-2 [data-view="2"] .widget-block-picture {
+  width: 33.3333333333%;
+}
+.widget.c-about-ref.c-about-ref-template-2 [data-view="2"] .widget-block-text {
+  width: 66.6666666667%;
+}
+.widget.c-about-ref.c-about-ref-template-2 [data-view="3"] .widget-block-picture {
+  width: 25%;
+  min-height: 130px;
+}
+.widget.c-about-ref.c-about-ref-template-2 [data-view="3"] .widget-block-text {
+  width: 75%;
+}
+.widget.c-about-ref.c-about-ref-template-2 [data-view="3"] .widget-video {
+  width: 90px;
+  height: 90px;
+}
+.widget.c-about-ref.c-about-ref-template-2 [data-view="1"] .widget-preview,
+.widget.c-about-ref.c-about-ref-template-2 [data-view="3"] .widget-preview {
+  margin-top: 16px;
+}
+@media all and (max-width: 768px) {
+  .widget.c-about-ref.c-about-ref-template-2 [data-view="1"] .widget-block-picture,
+.widget.c-about-ref.c-about-ref-template-2 [data-view="3"] .widget-block-picture {
+    display: none;
+  }
+}
+@media all and (max-width: 500px) {
+  .widget.c-about-ref.c-about-ref-template-2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .widget.c-about-ref.c-about-ref-template-2 .widget-name {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

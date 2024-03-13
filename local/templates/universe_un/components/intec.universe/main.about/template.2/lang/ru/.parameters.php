@@ -1,0 +1,35 @@
+<?php
+
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_ADVANTAGES_IBLOCK_TYPE'] = 'Преимущества. Тип инфоблока';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_ADVANTAGES_IBLOCK_ID'] = 'Преимущества. Тип инфоблока';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_SETTINGS_USE'] = 'Использовать глобальные настройки';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_LAZYLOAD_USE'] = 'Использовать "ленивую" загрузку изображений';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_PROPERTY_TITLE'] = 'Свойство "Заголовок"';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_PROPERTY_LINK'] = 'Свойство "Ссылка"';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_PROPERTY_VIDEO'] = 'Свойство "Видео"';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_PROPERTY_ADVANTAGES'] = 'Свойство "Преимущества"';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_ADVANTAGES_PROPERTY_SVG_FILE'] = 'Преимущества. Свойство "SVG-файл"';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_VIEW'] = 'Вид отображения';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_TITLE_SHOW'] = 'Отобразать заголовок';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_PREVIEW_SHOW'] = 'Отображать описание (текст анонса)';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_BUTTON_SHOW'] = 'Отображать кнопку "Подробнее"';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_BUTTON_VIEW'] = 'Вид отображения кнопки "Подробнее"';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_BUTTON_BLANK'] = 'Открывать ссылку кнопки "Подробнее" в новой вкладке';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_BUTTON_TEXT'] = 'Текст кнопки "Подробнее"';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_BUTTON_TEXT_DEFAULT'] = 'Подробнее';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_PICTURE_SHOW'] = 'Отображать картинку';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_PICTURE_SIZE'] = 'Картинка. Размер';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_PICTURE_SIZE_AUTO'] = 'Исходный размер';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_PICTURE_SIZE_COVER'] = 'Вписать';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_PICTURE_SIZE_CONTAIN'] = 'Уместить';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_POSITION_HORIZONTAL'] = 'Картинка. Расположение по горизонтали';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_POSITION_VERTICAL'] = 'Картинка. Расположение по вертикали';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_POSITION_TOP'] = 'Сверху';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_POSITION_CENTER'] = 'По центру';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_POSITION_BOTTOM'] = 'Снизу';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_POSITION_LEFT'] = 'Слева';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_POSITION_RIGHT'] = 'Справа';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_VIDEO_SHOW'] = 'Использовать видео';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_ADVANTAGES_SHOW'] = 'Отображать преимущества';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_SVG_FILE_USE'] = 'Преимущества. Использовать SVG вместо картинок';
+$MESS['C_MAIN_ABOUT_TEMPLATE_2_ADVANTAGES_COLUMNS'] = 'Преимущества. Количество колонок';

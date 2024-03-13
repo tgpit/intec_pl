@@ -1,0 +1,4 @@
+<?php
+
+$MESS['PRESETS_ABOUT_TEMPLATE_2_PRESET_BLOCK_2'] = 'Блок 2';
+$MESS['PRESETS_ABOUT_TEMPLATE_2_BUTTON_TEXT'] = 'Узнать подробнее';

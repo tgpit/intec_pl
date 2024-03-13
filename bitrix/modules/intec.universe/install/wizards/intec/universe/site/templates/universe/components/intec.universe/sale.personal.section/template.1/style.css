@@ -1,0 +1,37 @@
+.ns-intec.c-sale-personal-section.c-sale-personal-section-template-1.p-main .sale-personal-section-item-wrapper {
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  height: 100%;
+  opacity: 0.8;
+  padding: 25px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.ns-intec.c-sale-personal-section.c-sale-personal-section-template-1.p-main .sale-personal-section-item-wrapper:hover {
+  opacity: 1;
+}
+.ns-intec.c-sale-personal-section.c-sale-personal-section-template-1.p-main .sale-personal-section-item-icon {
+  display: block;
+  font-size: 64px;
+  height: 64px;
+  line-height: 64px;
+}
+.ns-intec.c-sale-personal-section.c-sale-personal-section-template-1.p-main .sale-personal-section-item-title {
+  display: block;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

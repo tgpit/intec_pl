@@ -1,0 +1,51 @@
+<ProductType>
+	<SparePartType name="Автосвет"></SparePartType>
+	<SparePartType name="Автомобиль на запчасти"></SparePartType>
+	<SparePartType name="Аккумуляторы">
+		<Voltage name="4"></Voltage>
+		<Voltage name="6"></Voltage>
+		<Voltage name="7"></Voltage>
+		<Voltage name="12"></Voltage>
+		<Voltage name="18"></Voltage>
+		<Voltage name="24"></Voltage>
+		<Polarity name="Обратная"></Polarity>
+		<Polarity name="Прямая"></Polarity>
+		<Polarity name="Двойная"></Polarity>
+	</SparePartType>
+	<SparePartType name="Двигатель">
+		<EngineSparePartType name="Блок цилиндров, головка, картер"></EngineSparePartType>
+		<EngineSparePartType name="Вакуумная система"></EngineSparePartType>
+		<EngineSparePartType name="Генераторы, стартеры"></EngineSparePartType>
+		<EngineSparePartType name="Двигатель в сборе"></EngineSparePartType>
+		<EngineSparePartType name="Катушка зажигания, свечи, электрика"></EngineSparePartType>
+		<EngineSparePartType name="Клапанная крышка"></EngineSparePartType>
+		<EngineSparePartType name="Коленвал, маховик"></EngineSparePartType>
+		<EngineSparePartType name="Коллекторы"></EngineSparePartType>
+		<EngineSparePartType name="Крепление двигателя"></EngineSparePartType>
+		<EngineSparePartType name="Масляный насос, система смазки"></EngineSparePartType>
+		<EngineSparePartType name="Патрубки вентиляции"></EngineSparePartType>
+		<EngineSparePartType name="Поршни, шатуны, кольца"></EngineSparePartType>
+		<EngineSparePartType name="Приводные ремни, натяжители"></EngineSparePartType>
+		<EngineSparePartType name="Прокладки и ремкомплекты"></EngineSparePartType>
+		<EngineSparePartType name="Ремни, цепи, элементы ГРМ"></EngineSparePartType>
+		<EngineSparePartType name="Турбины, компрессоры"></EngineSparePartType>
+		<EngineSparePartType name="Электродвигатели и компоненты"></EngineSparePartType>
+	</SparePartType>
+	<SparePartType name="Запчасти для ТО"></SparePartType>
+	<SparePartType name="Кузов"></SparePartType>
+	<SparePartType name="Подвеска"></SparePartType>
+	<SparePartType name="Рулевое управление"></SparePartType>
+	<SparePartType name="Салон"></SparePartType>
+	<SparePartType name="Система охлаждения"></SparePartType>
+	<SparePartType name="Стекла"></SparePartType>
+	<SparePartType name="Топливная и выхлопная системы"></SparePartType>
+	<SparePartType name="Тормозная система"></SparePartType>
+	<SparePartType name="Трансмиссия и привод"></SparePartType>
+	<SparePartType name="Электрооборудование"></SparePartType>
+	<OEM variable="group_symbols"></OEM>
+	<Originality name="Оригинал"></Originality>
+	<Originality name="Аналог">
+		<OriginalOEM variable="group_symbol"></OriginalOEM>
+	</Originality>
+	<Originality name="Не знаю"></Originality>
+</ProductType>

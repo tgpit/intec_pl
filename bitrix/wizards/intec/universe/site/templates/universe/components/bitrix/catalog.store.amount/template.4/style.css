@@ -1,0 +1,121 @@
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 {
+  display: block;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-info {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 16px;
+  color: #888888;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-items[data-show-empty-store=false] .catalog-store-amount-item[data-store-state=empty] {
+  display: none;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item {
+  overflow: hidden;
+  padding: 24px;
+  border: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item + .catalog-store-amount-item {
+  margin-top: -1px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item[data-store-state=many] .catalog-store-amount-item-state-indicator {
+  background-color: #1DB940;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item[data-store-state=many] .catalog-store-amount-item-state-colored {
+  color: #1DB940;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item[data-store-state=few] .catalog-store-amount-item-state-indicator {
+  background-color: #F4BB28;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item[data-store-state=few] .catalog-store-amount-item-state-colored {
+  color: #F4BB28;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item[data-store-state=empty] .catalog-store-amount-item-state-indicator {
+  background-color: #B0B0B0;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item[data-store-state=empty] .catalog-store-amount-item-state-colored {
+  color: #B0B0B0;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item-container {
+  font-size: 0;
+  margin: -6px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item-block {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 6px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item-state {
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item-state-value {
+  padding-right: 4px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item-state-content {
+  font-size: 0;
+  white-space: nowrap;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item-state-part {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item-state-indicator {
+  width: 4px;
+  height: 4px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -ms-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item-state-text {
+  font-size: 12px;
+  line-height: 16px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item-state-colored {
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item-title {
+  font-size: 12px;
+  line-height: 16px;
+  color: #B0B0B0;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-template-4 .catalog-store-amount-item-contact {
+  font-size: 12px;
+  line-height: 16px;
+  color: #404040;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,153 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'news-list';
+$template: 'faq';
+$section: 'faq-section';
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .intec-ui.intec-ui-control-tabs {
+    padding: 10px 0;
+
+    .scroll-element.scroll-y.scroll-scrolly_visible {
+      display: none;
+    }
+  }
+
+  .#{$section} {
+    display: block;
+    margin-top: 35px;
+    border: 1px solid #e8e8e8;
+
+    .faq-item {
+      display: block;
+      padding: 25px 24px 25px 35px;
+      border-bottom: 1px solid #e8e8e8;
+
+      &:last-child {
+        border: none;
+      }
+
+      .faq-item-wrapper {
+        display: block;
+      }
+
+      .faq-item-name {
+        display: block;
+        position: relative;
+        font-size: 0;
+        cursor: pointer;
+
+        .faq-item-name-text {
+          color: #232121;
+          margin-right: 70px;
+          font-size: 16px;
+          line-height: 1.5;
+        }
+
+        .faq-item-name-indicators {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 40px;
+          height: 100%;
+          white-space: nowrap;
+          text-align: center;
+
+          .faq-item-name-indicator {
+            vertical-align: middle;
+            font-size: 14px;
+
+            &.faq-item-name-indicator-active {
+              display: none;
+            }
+          }
+        }
+      }
+
+      .faq-item-description {
+        display: none;
+        padding-top: 25px;
+        overflow: hidden;
+
+        .faq-item-description-wrapper {
+          display: block;
+          color: #888888;
+          font-size: 14px;
+          line-height: 24px;
+          padding-top: 20px;
+          border-top: 1px solid #e8e8e8;
+        }
+      }
+
+      &.active .faq-item-name .faq-item-name-indicators .faq-item-name-indicator.faq-item-name-indicator-active {
+        display: inline-block;
+      }
+      &.active .faq-item-name .faq-item-name-indicators .faq-item-name-indicator.faq-item-name-indicator-inactive {
+        display: none;
+      }
+    }
+
+  }
+  .#{$section}-common-list {
+
+    .faq-section {
+      margin-top: 15px;
+    }
+
+    .intec-ui-part-tab {
+      margin-top: 30px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .#{$section}-name {
+    font-size: 20px;
+    line-height: 30px;
+    color: #404040;
+  }
+
+  @media all and (max-width: 768px) {
+    .intec-ui.intec-ui-control-tabs {
+      max-width: 100%;
+      @include flex-wrap(none);
+
+      .intec-ui-part-tab {
+        padding-top: 0;
+        padding-bottom: 0;
+        @include flex-item-auto();
+      }
+
+      .scroll-element.scroll-y.scroll-scrolly_visible {
+        display: none;
+      }
+
+      &.scrollbar-inner .scroll-element.scroll-x {
+        height: 2px;
+        bottom: 0;
+      }
+    }
+
+    .#{$section} {
+      .faq-item {
+        padding: 16px 12px 16px 24px;
+
+        .faq-item-name {
+
+          .faq-item-name-indicators {
+            width: 35px;
+          }
+
+          .faq-item-name-text {
+            margin-right: 35px;
+          }
+        }
+      }
+    }
+  }
+}

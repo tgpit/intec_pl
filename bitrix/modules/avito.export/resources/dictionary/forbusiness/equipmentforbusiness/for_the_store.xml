@@ -1,0 +1,14 @@
+<Root>
+    <GoodsSubType name="Холодильное"/>
+    <GoodsSubType name="Весы"/>
+    <GoodsSubType name="Тележки и корзины"/>
+    <GoodsSubType name="Аксессуары"/>
+    <GoodsSubType name="Экономпанели"/>
+    <GoodsSubType name="Манекены"/>
+    <GoodsSubType name="Вешалки"/>
+    <GoodsSubType name="Освещение"/>
+    <GoodsSubType name="Мебель"/>
+    <GoodsSubType name="Вендинг"/>
+    <GoodsSubType name="Расходные материалы"/>
+    <GoodsSubType name="Другое"/>
+</Root>

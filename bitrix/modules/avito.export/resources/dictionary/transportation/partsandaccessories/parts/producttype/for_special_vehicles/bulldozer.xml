@@ -1,0 +1,3254 @@
+<Makes>
+	<Make name="BEL-DOZER">
+		<Model name="SD16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD22">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD32">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Beezone">
+		<Model name="D16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D16-5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D16-5E">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D16-5S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D16-F">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D16L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D22">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D22F">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D26">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D26-5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D26-5F">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D26-5s">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D32">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D32-5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D41">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Bell">
+		<Model name="700J LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="700J LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850J">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Beml">
+		<Model name="BD14W">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD155">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD155X">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD230">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD30W-1">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD31">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD355">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD355X">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD46W">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD475">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD50">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD65">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD65-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD65X">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD80">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="CASE">
+		<Model name="1150">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1150B">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1150K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1150K LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1150K WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1150K XLT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1150L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1155D">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1155E">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1450">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1450B">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1650K CX">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1650K LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1650K XLT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1650L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1650L LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1650L WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1650L XLT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1850K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1850K LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1850K LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1850K XLT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="2050M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="350B">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="450B">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="455C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="550G">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="550H">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="550H LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="550H LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="550H WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="650G">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="650H LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="650H LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="650H WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="650K LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="650K LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="650K Series">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="650K WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="650L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750H LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750H LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750H WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750K LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750K LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750K WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850B">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850G">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850H LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850H LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850H WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850K LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850K LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850K WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850L LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850L WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850L XLT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="855D">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="855E">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="CAT">
+		<Model name="6N LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="814F II">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="824H">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="834H">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="844H">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="854G">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="854K">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="D10N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D10R">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D10T">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D10T2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D11R">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D11R CD">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D11T/D11T CD">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D2K2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D3C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D3G LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D3G XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D3K LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D3K XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D3K2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D4D">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D4G LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D4G XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D4K LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D4K XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D4K2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5G LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5G XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5H LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5K LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5K XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5K2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5M XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5N LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5N XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5R2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5R2 LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D5R2 XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6 GC">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6 LGP 36">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6D">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6G">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6G Series 2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6H LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6K XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6K2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6M LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6M XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6N LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6N XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6N XL-SU">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6R">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6R (серия II)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6R (серия III)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6R III LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6R LGP (серия II)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6R XL (серия II)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6R XW (серия II)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6R2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6T">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6T LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6T LGP S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D7E LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D7G">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D7G Series 2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D7H">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D7R (серия II)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D7R LGP (серия II)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D7R XR (серия II)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D8R">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D8T">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D8T LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D9GC">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D9H">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D9N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D9R">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D9T">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D9T WH">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="CATHEFENG">
+		<Model name="D6R2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D7R2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D8R2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D9R2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Changlin">
+		<Model name="GTY160">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="GTY220">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="GTY320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="DOOSAN">
+		<Model name="Daewoo DD80">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Daewoo DD80L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="DRESSTA">
+		<Model name="TD-10M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-12C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-14M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-15C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-15E">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-15H">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-15M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-20H">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-20M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-25G">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-25H">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-25M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-40C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-40E">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-7H">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-7M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-8H">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-8M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-8R">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-9H">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD-9M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Dadi">
+		<Model name="MB23">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="MD32">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Dooxin">
+		<Model name="D85PC-9">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="FIATALLIS">
+		<Model name="FD80 LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="FD80 LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="HD-31">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="FRUTIGER">
+		<Model name="SR 2001">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SR 3000 TIGER">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Fiat-Hitachi">
+		<Model name="D180">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D80">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="FD145">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="FD175">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="FD255">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="FD30C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Fiat-Kobelco">
+		<Model name="D180">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D350">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Foton Lovol">
+		<Model name="FSD32">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="FSD8N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="FT140-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Foton FSD7">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Furukawa">
+		<Model name="CD5PB">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CT5A">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="FD40PL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="HENGWANG">
+		<Model name="DH17">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="HD22">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Haitui">
+		<Model name="HD16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="HD22">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="HD24">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="HD32">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Hanomag">
+		<Model name="D540 E">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D600 DS">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Hindustan">
+		<Model name="2171">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="3033">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6H">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Hitachi">
+		<Model name="DX-40M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DX75M-C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="KD-40P">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Huang Gong">
+		<Model name="HD120-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="HD160">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="HD160-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="HD220-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="HD320-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Intensus">
+		<Model name="Classic 6">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="JITUI">
+		<Model name="JT22">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="JT32">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="John Deere">
+		<Model name="1050J">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="1050K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="450J">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="550J">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="550K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="650J">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="650K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="700J">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="700J-II">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="700K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750J">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750J LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750J LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750J WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750J-II">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="750K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="764HSD">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850J">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850J LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850J LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850J WH">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850J WLT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850J WT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="850J-II">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="950J">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="950J LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="950K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Komatsu">
+		<Model name="D10S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D135A">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D155A-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D155A-2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D155A-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D155A-5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D155A-6">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D155AX-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D155AX-5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D155AX-6">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D20A-5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D20A-7">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D20S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D21">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D275A-2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D275A-5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D31P-17">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D31P-18">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D31P-20">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D31PX-21">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D31PX-22">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D32">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D355A">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D355A-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D355A-5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D375A-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D375A-5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D375A-6">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D375A-6R">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D375A-8">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D37EX-22">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D39EX-22">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D41P-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D41P-6">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D475">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D475-5E0">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D475A-8">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D50P-16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D51">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D53">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D575">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D60P">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D61">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D61E-12">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D63E-12">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D65E-12">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D65EX-16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D65P-12">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D65PX-12">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D65PX-15">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D65PX-16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D65PX-17">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D85A-21">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D85E-21">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D85ESS-2A">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D85EX-15R">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D85P-21E">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D85PX-15">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="WD420">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="WD500">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="WD600">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="WD900">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="LTI (LeTourneau)">
+		<Model name="D-950">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="LTMG">
+		<Model name="T160">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="T180">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="T220">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="T320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Lay-Mor">
+		<Model name="LD80">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Liebherr">
+		<Model name="PR 712">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 714 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 714 XL Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 716 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 722">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 724">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 724 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 726 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 732">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 734">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 734 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 736 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 742">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 744 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 746 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 751">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 751М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 752">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 752 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 754 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 756 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 764">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 764 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 766 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR 776 Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR724 LGP Litronic">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR732BL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR734L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PR744L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="RL 52">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="LiuGong">
+		<Model name="B160С">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B180">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B220">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B230R">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B260C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B160">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B160C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B160CL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B160CR">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B160L Болотник">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B230">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B230R">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B230S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B230С">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B260">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="CLG B320C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="LD20D">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="LD36D">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Lonking">
+		<Model name="LD230">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="LD280">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="LD320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="MACMOTER">
+		<Model name="D100M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D120M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D160M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6C">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D70M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D80M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DI50M">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Magnatrac">
+		<Model name="RS1000">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="MaxPower">
+		<Model name="MD16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="MD22">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="MD32">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="MD32F">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Maxbull">
+		<Model name="HD16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="HD22">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="HD32">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Michigan">
+		<Model name="280C">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="380B">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="W380">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Mitsuber">
+		<Model name="DT140B">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="MB140R Bremen">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="MB160R Brandenburg">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="MB230R Brandenburg">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="MB320R Brandenburg">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY160A">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY230">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Mitsubishi">
+		<Model name="BD2F">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD2G">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="BD2H">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="New Holland">
+		<Model name="D150">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D180">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D180 (болотный)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D180LT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D255">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D350">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DC100">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DC70">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DC75">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DC80">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DC85">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DC95">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="PENGPU">
+		<Model name="PD140">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PD140S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PD165Y">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PD165Y-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PD165Y-2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PD185Y">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PD220Y-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PD220YS">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PD320Y">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PD320Y-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="PD410Y-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="POWERPLUS">
+		<Model name="D155В-II">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D355В-II">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D368В-II">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D60EX-15">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D63EX-15">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D65EX-15">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D6R">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D7S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D85EX-15">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D8S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D9S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Redstar">
+		<Model name="HD16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="SEM">
+		<Model name="816">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="816D">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="816D LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="818F">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="822">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="822 WHA">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="822D">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="822D LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="826D">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="SHEHWA (HBXG)">
+		<Model name="SD5K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD6G">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD6K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD6N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD7">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD7 LGP (болотный)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD7N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD7P">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD8">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD8B">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD8N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD9">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD9N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TS165-2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY160-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY160-3 (Болотный)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY165-2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY165-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY240">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY240-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY320-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TYS165-2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TYS165-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TYS165-3 (болотный)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TYS240">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Sany">
+		<Model name="TQ230">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Shantui">
+		<Model name="DH">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DH10C2 LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DH16B3 XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DH16B3 XL(0)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DH17B2 XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DH17B3 LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DH17B3 XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DH20C3 XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DH24B3 XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SB">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD13">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD16F">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD16L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD17B3 FL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD17B3 LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD17B3 XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD20">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD20-5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD20-5 SU-ROPS">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD20-5LNG">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD22">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD22S (болотный)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD23">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD26">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD32">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD33">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD34">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD34B3 XL">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD35">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD36">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD37">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD38">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD42">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD42-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD52">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD52-5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD60">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD90">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="STR20">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TB">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Sinomach">
+		<Model name="GTY160">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="GTY220">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="GTY255">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="GTY320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY180">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="YD160">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="YD230">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Sinoway">
+		<Model name="SWD100">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD120">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD140-II">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD140S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD165Y">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD165YS">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD220Y">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD220YS">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD320Y">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD410Y">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD6G">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD7">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD7S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD8">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD80">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWD9">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SWGQ320A">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Sunward">
+		<Model name="SD260Y-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD320Y-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="TES">
+		<Model name="RD320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="TMS">
+		<Model name="TMSD18">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TMSD26">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TMSD36">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Terracraft">
+		<Model name="TD160-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD160-3S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD165-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD165-3S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD260-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD260-3S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD260-3SHW">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD320-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD5K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD6K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD6KLGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD7K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD7KHW">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD7KLGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD7N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD7NHW">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD7NLGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD8N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TD9N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="World">
+		<Model name="WD165Y">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="XCMG">
+		<Model name="D170">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D170 LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DL210KN">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY160">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY230">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY255">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="XGMA">
+		<Model name="TY160">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY180">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY220">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY220D">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY220F">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY220S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="XG4161L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="XG4221L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="XG4321L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="YTO">
+		<Model name="T100G">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="T120N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="T120N-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="T140">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="T140N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="T160N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="T80">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TG80">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TS100">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Ty165">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Yanmar">
+		<Model name="Y9D">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Yishan">
+		<Model name="T160S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TG160A">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY265G">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Yutong">
+		<Model name="TL210B">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Zauberg">
+		<Model name="B4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B5">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B5K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B5W">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B7">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B7W">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B7X">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B8">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B8X">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="B9X">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD5K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD7K">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD7N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD8N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="SD9N">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY165-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY240-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="TY320-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Zettelmeyer">
+		<Model name="ZD3000">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD5002">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Zoomlion">
+		<Model name="ZD160-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD160F-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD160S(H)-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD160S-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD160T-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD160TC-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD160TS-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD170">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD220-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD220F-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD220M-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD220S(H)-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD220S-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD320-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD320M-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="АЛТТРАК">
+		<Model name="Т-4А с оборудованием бульдозерным ОБГН-4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-4А.01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-4А2П.01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТТ-4М-07-19">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Агромаш">
+		<Model name="ДТ-75 РС2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Амкодор">
+		<Model name="DC200">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Балтиец">
+		<Model name="БКУ-702М">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="БКУ-703Б">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="БелАЗ">
+		<Model name="7823">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="78231">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Белкоммунмаш">
+		<Model name="БМ 160-01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Бердянский завод дорожных машин">
+		<Model name="ДЗ-42">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ВТЗ">
+		<Model name="Б10М.0111-1Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДЗ-42Г">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ВгТЗ">
+		<Model name="ВТ-100Д">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ВТ-100Н">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДЗ-42Г-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДТ-175">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДТ-75/ДЗ-42">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДТ-75Б">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДТ-75М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ГП Каток">
+		<Model name="Б 10 Б ПСМ.12-В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б 10 ПСМ.12-1Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б 10 ПСМ.12-ЕН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ЕС-10.20011 Proffi">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т 10 Б ПСМ.12">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ДОРМАШ Орел">
+		<Model name="Б-100">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ДСТ-УРАЛ">
+		<Model name="D10">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D10 Болотоход">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D10 ДС">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D10 Лесной">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D10 Пожаротушение">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D10 для полигонов ТБО">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D12">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D12 Болотоход">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D14">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D15">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D15 Болотоход">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D20">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D25">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D30">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D9">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D9 Болотоход">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D9.0400">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТМ 10.00 ГСТ9">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТМ 10.10 ГСТ15">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТМ 10.11 ГСТ9">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТМ10">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТМ10 ГСТ10">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТМ10 ГСТ9">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Елаз">
+		<Model name="D20">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЗТМ">
+		<Model name="Б-170">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10 1111-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10-М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10-М 0101-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10-М 0101-1Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10-М 0111-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М2Б">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-10М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЗТМ АСТ">
+		<Model name="rSD16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="rSD16F">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="rSD16W">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10-М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-10.М.Я.Е.Н">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-10М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-10МБ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТБО rSD16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Завод мощных тракторов">
+		<Model name="ДЭТ-250М2Б1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Кировец">
+		<Model name="D155B">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D355B">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D65EX">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D65EX-15LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D85EX">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D85EX-15LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="К-702">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="К-702МBА-УДМ2">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="К-702МБА-01-БКУ">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="К-703">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="К-703М-12-03">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="К-703МА-ДМ15">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЛМЗ Беркут">
+		<Model name="Б10ПСМ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="МРМЗ">
+		<Model name="ДЗ-162-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДЗ-162-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="МТЗ (Беларус)">
+		<Model name="BELARUS-1502-01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="МоАЗ">
+		<Model name="40486">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="40489">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ОмскТрансМаш">
+		<Model name="УМ-72">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Очерский МЗ">
+		<Model name="ДЗ-182.1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ПЕТЕРБУРГСКИЙ МЗ">
+		<Model name="10М.Е-2К">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="704-04-БКУ">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="К-702М-БКУ">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ПЕТРА-ЗСТ">
+		<Model name="БКЗ К-701">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="БКП К-701">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="БКУ К-701">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ПК Челябинский тракторный завод">
+		<Model name="Б-10">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б11">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б14">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б9">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ПО Авангард">
+		<Model name="Б-10М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10М Болотоход">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-170М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ПТЗ">
+		<Model name="К702МБА-01-БКУ">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="К703МА-ДМ15">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ПТК">
+		<Model name="К-702 МБА БКУ">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="К-703 МА ДМ-15">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="К-703 МА-БК">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Пермский МЗ">
+		<Model name="10М.Е-2К">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Резонанс">
+		<Model name="Б421">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Росальянс">
+		<Model name="Б10 Proffi">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т10АМ.8100-1 PROFFI">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Русич-Трак">
+		<Model name="Б-10ММ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.Б.">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.Б.В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.Б.В4.КБ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.Б.В4.ЛТ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.Б.В4.Р">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.Б.Е.">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.Б.Е.Р.">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.В.">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.В.Р.">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.Е.">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.Е..ЛТ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.Е.КС">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-10ММ.Е.Р.">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-10М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-10мм">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т.10ММБ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т.170М1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т.170М1Б">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="СПЕЦСТРОЙМАШ">
+		<Model name="ДМ-15-Т">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="К-701-БКТ">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="К-702М-МБА-БКУТ">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="СЦСТ">
+		<Model name="ДЗ-110ВМ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Спецтехника и запчасти">
+		<Model name="Т-10СТМ.0101">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-10СТМ.0111">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Техстроймаш">
+		<Model name="БГ-1-1">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="БГ-1-2">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="БКУ">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Троицкий тракторный завод">
+		<Model name="Станислав 704-04-БКУ.ТТЗ">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="УЗДМ">
+		<Model name="ПТ-10М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="УМЗ">
+		<Model name="УРБ-10М.01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="УРБ-10М.01Б">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="УРБ-10М.01Я">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="УралТракГрупп">
+		<Model name="RSD16">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="УТГ10">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="УТГ10Б">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ХМЗ">
+		<Model name="СД-110м">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="СД-150">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="СД-60">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="СД-80">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ХТЗ">
+		<Model name="ТС-10">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЧЕТРА">
+		<Model name="11 Д">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="11 П">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="11к-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="T-35.01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б11">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор Т-11">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор Т-15">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор Т-20">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор Т-25">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор Т-330">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор Т-35">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор Т-40">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор Т-50">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор Т-500">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор ТК-11">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор ТК-25">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="Промтрактор ТМ-25">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т 11-02 ЯБ-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-11.01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-11.02">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-11.02ЯБР-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-15.01 ЯБР-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-20.01ЯБР-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-20.02КБР-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-20.02ЯБР-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-35.01К">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-9.01Я1БР-1-01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т11">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т11.02ЯМБР-3-01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т15">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т20">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т25">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т35">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т40">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т9">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТК11">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТК25">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЧЗПТ">
+		<Model name="DR-10">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DR-10.01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DR-10.02">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DR-10L.01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DR-10LMT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DR-10MT">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DR-10МТ.01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DR-10МТ.01 для ТБО">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DR-10МТ.02">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М П.8100-1Е для ТБО">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М П.8101-1Е 6-катковый">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10ПМ.0111-1Е 5-катковый">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10ПМБ болотоход">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-330">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-330ГР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т10М П 5-катковый">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т10ПМ 8100">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т10ПМБ 8120">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЧЗСМ">
+		<Model name="Б10М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="БТ-10М.01.Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="БТ-170">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЧЗТС">
+		<Model name="Б-10.V.0111-1Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-170М1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10Д">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121-2В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б170">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б170М1.01Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="БТ170М1.01Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЧЗТТ">
+		<Model name="10М.М.Я-Е.П1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЧСДМ">
+		<Model name="ДЗ-110">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДЗ-110В">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДЗ-171">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТС-10 Добрыня">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЧТЗ Уралтрак">
+		<Model name="Б-10М 0111 ЕН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-170Б-01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б-170М15.01Д1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10Б">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10Б.0121-2В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М. 0101-1Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-1Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0112-1Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0112-ЕН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.1111-ЕН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М2С">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121-2В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0122-2В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.6120В4Н1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б11">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б11.6000-ЕН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б12С">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б13">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б130">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б14">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б14.6020Н">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б170">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б170М1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б9.6010ЕР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б9Б.6000В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Д-686">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДЗ-109">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДЗ-110В">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДЭТ-250">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДЭТ-320">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДЭТ-400">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-130">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-130М">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-170">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-170Б">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-170М1.01">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-170МБ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-330">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-75.01 (Т-800)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т10МБ (Т10МБ.0121)">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТГ 1224">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТП-10МБ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЮУЗТ">
+		<Model name="Б10М.0100-1В">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0100-1Д">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0100-1Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0100-1Е1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0100ВН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0100ВР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0100ДН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0100ДР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0100Е1Н">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0100Е1Р">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0100ЕН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0100ЕР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101-1В">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101-1Д">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101-1Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101-1Е1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101ВН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101ВР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101ДН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101ДР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101Е1Н">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101Е1Р">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101ЕН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0101ЕР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-1В">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-1Д">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-1Д3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-1Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-1Е1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-ВН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-ВР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-ДН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-ДР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-Е1Н">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-Е1Р">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-ЕН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0110-ЕР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-1В">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-1Д">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-1Е">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-1Е1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-ВН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-ВР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-ДН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-ДР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-Е1Н">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-Е1Р">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-ЕН">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0111-ЕР">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10М.0120-2Д3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0120-1В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0120-2В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0120-В4Н">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0120-В4Р">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0120-Д3Н">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0120-Д3Р">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121-1В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121-1Д3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121-2В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121-2Д3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121-В4Н">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121-В4Р">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121-Д3Н">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121-Д3Р">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Б10МБ.0121Д3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТГ-170">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ТГ-170Б">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Ярстройтехника">
+		<Model name="Д3-110">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
+</Makes>

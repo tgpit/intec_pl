@@ -1,0 +1,245 @@
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 {
+  padding-top: 1px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item {
+  margin-top: -1px;
+  margin-left: -1px;
+  border: 1px solid #F2F2F2;
+  overflow: hidden;
+  -webkit-transition-property: border-color, box-shadow;
+  -moz-transition-property: border-color, box-shadow;
+  -ms-transition-property: border-color, box-shadow;
+  -o-transition-property: border-color, box-shadow;
+  transition-property: border-color, box-shadow;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item:hover {
+  border-color: transparent;
+  box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-wrapper {
+  font-size: 0;
+  margin: 24px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-picture {
+  display: block;
+  width: 212px;
+  height: 128px;
+  margin-right: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-picture svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-name {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1B1E25;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-description {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #808080;
+  margin-top: 8px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-children {
+  overflow: hidden;
+  -webkit-transition-property: height;
+  -moz-transition-property: height;
+  -ms-transition-property: height;
+  -o-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-children-wrapper {
+  margin-top: 20px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-child {
+  white-space: nowrap;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-child-name {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-child-name + div {
+  margin-left: 4px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-child-name:hover {
+  color: #404040 !important;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-button {
+  margin-top: 20px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-button > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-button:hover .catalog-section-list-item-button-text {
+  color: #404040 !important;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-button i {
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
+  -ms-transition-property: transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-button-text {
+  font-size: 15px;
+  line-height: 15px;
+  color: #808080;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4[data-svg-use=true] .catalog-section-list-item-picture {
+  margin: 16px;
+  margin-right: 48px;
+  width: 32px;
+  height: 32px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 [data-role=item] {
+  -webkit-transition-property: height, box-shadow;
+  -moz-transition-property: height, box-shadow;
+  -ms-transition-property: height, box-shadow;
+  -o-transition-property: height, box-shadow;
+  transition-property: height, box-shadow;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -ms-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 [data-role=item] [data-role=children] {
+  -webkit-transition-property: opacity, height;
+  -moz-transition-property: opacity, height;
+  -ms-transition-property: opacity, height;
+  -o-transition-property: opacity, height;
+  transition-property: opacity, height;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -ms-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 [data-role=item][data-expanded=false] [data-role=children] {
+  opacity: 0;
+  height: 0;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 [data-role=item][data-expanded=true] [data-role=children] {
+  opacity: 1;
+  height: auto;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 [data-role=button] [data-role="button.text.show"] {
+  display: inline-block;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 [data-role=button] [data-role="button.text.hide"] {
+  display: none;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 [data-role=button][data-expanded=true] [data-role="button.text.show"] {
+  display: none;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 [data-role=button][data-expanded=true] [data-role="button.text.hide"] {
+  display: inline-block;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 [data-role=button][data-expanded=true] i {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+@media all and (max-width: 900px) {
+  .ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4[data-wide=false] .catalog-section-list-item-picture {
+    margin-bottom: 10px;
+  }
+}
+@media all and (max-width: 500px) {
+  .ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4 .catalog-section-list-item-picture {
+    width: 100%;
+    height: 200px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .ns-bitrix.c-catalog-section-list.c-catalog-section-list-services-list-4[data-svg-use=true] .catalog-section-list-item-picture {
+    margin-right: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,55 @@
+@import '../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'news-list';
+$template: 'collections-tile-1';
+
+$item: #{$component}-item;
+$navigation: #{$component}-navigation;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$navigation}-top {
+    margin-bottom: 30px;
+  }
+  .#{$navigation}-bottom {
+    margin-top: 30px;
+  }
+
+  .#{$item} {
+    position: relative;
+
+    &:hover {
+      z-index: 1;
+    }
+  }
+  .#{$item}-wrapper {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    @include transition(.35s, (box-shadow, border-color));
+
+    &:hover {
+      border-color: transparent;
+      @include box-shadow(0, 8px, 32px, 0, rgba(27, 30, 37, 0.08));
+    }
+  }
+  .#{$item}-picture {
+    display: block;
+    padding-top: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @include box-sizing(border-box);
+  }
+  .#{$item}-name {
+    font-size: 14px;
+    line-height: 20px;
+    color: #404040;
+    text-align: center;
+    word-break: break-word;
+    padding: 16px 26px;
+  }
+}

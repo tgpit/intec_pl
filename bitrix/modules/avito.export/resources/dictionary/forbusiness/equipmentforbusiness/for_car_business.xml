@@ -1,0 +1,42 @@
+<Root>
+    <GoodsSubType name="Моечное">
+        <WashType name="Мойки самообслуживания"/>
+        <WashType name="Автоматические мойки"/>
+        <WashType name="Мойки деталей"/>
+        <WashType name="Мойки высокого давления"/>
+        <WashType name="Мойки колёс"/>
+        <WashType name="Комплектующие и расходники"/>
+    </GoodsSubType>
+    <GoodsSubType name="Шиномонтаж">
+        <TiresType name="Шиномонтажные станки"/>
+        <TiresType name="Балансировочные станки"/>
+        <TiresType name="Для правки дисков"/>
+        <TiresType name="Комплектующие и расходники"/>
+    </GoodsSubType>
+
+    <GoodsSubType name="Сход-развал"/>
+
+    <GoodsSubType name="Малярно-кузовное">
+        <AutoPaintType name="Пескоструйные аппараты"/>
+        <AutoPaintType name="Стапель"/>
+        <AutoPaintType name="Покрасочные и сушильные камеры"/>
+    </GoodsSubType>
+    <GoodsSubType name="Заправочное">
+        <StationType name="Бензиновые колонки"/>
+        <StationType name="Газовые колонки"/>
+        <StationType name="Заправка кондиционера"/>
+        <StationType name="Заправка масел и жидкостей"/>
+    </GoodsSubType>
+    <GoodsSubType name="Диагностика и ремонт">
+        <AutoDiagType name="Стенды"/>
+        <AutoDiagType name="Автомобильные весы"/>
+    </GoodsSubType>
+    <GoodsSubType name="Подъёмное">
+        <AutoLiftType name="Подъёмники">
+            <AutoElevatorType name="Двухстоечный"/>
+            <AutoElevatorType name="Четырехстоечные"/>
+        </AutoLiftType>
+        <AutoLiftType name="Домкраты"/>
+        <AutoLiftType name="Стойки"/>
+    </GoodsSubType>
+</Root>

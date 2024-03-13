@@ -1,0 +1,206 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-store-amount';
+$template: 'template-2';
+$class: $component;
+
+$color-black-1: #1B1E25;
+$color-black-2:#404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-gray-4: #F2F2F2;
+
+$state-many: #1DB940;
+$state-few: #F4BB28;
+$state-empty: #B0B0B0;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .#{$class}-info {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 16px;
+    color: #888888;
+  }
+
+  .#{$class}-items {
+    position: relative;
+
+    &[data-show-empty-store="false"] {
+
+      .#{$class}-item {
+
+        &[data-store-state="empty"] {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .#{$class}-item {
+    position: relative;
+    margin-top: -1px;
+    margin-left: -1px;
+    z-index: 1;
+
+    &:hover {
+      z-index: 2;
+
+      .#{$class}-item-content {
+        border-color: #FFF;
+
+        @include box-shadow(0, 8px, 32px, 0, rgba(27, 30, 37, 0.08));
+      }
+    }
+
+    &[data-store-state='empty'] {
+
+      .#{$class}-item-state-indicator {
+        background-color: $state-empty;
+      }
+
+      .#{$class}-item-state-colored {
+        color: $state-empty;
+      }
+    }
+
+    &[data-store-state='few'] {
+
+      .#{$class}-item-state-indicator {
+        background-color: $state-few;
+      }
+
+      .#{$class}-item-state-colored {
+        color: $state-few;
+      }
+    }
+
+    &[data-store-state='many'] {
+
+      .#{$class}-item-state-indicator {
+        background-color: $state-many;
+      }
+
+      .#{$class}-item-state-colored {
+        color: $state-many;
+      }
+    }
+  }
+
+  .#{$class}-item-content {
+    height: 100%;
+    padding: 24px;
+    background-color: #FFF;
+    border: 1px solid $color-gray-4;
+
+    @include transition(0.4s, (border-color, box-shadow));
+  }
+
+  .#{$class}-item-block {
+
+    & + .#{$class}-item-block {
+      margin-top: 8px;
+    }
+  }
+
+  .#{$class}-item-picture {
+    padding-top: #{100% / 16 * 9};
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & + * {
+      margin-top: 16px;
+    }
+  }
+
+  .#{$class}-item-state {
+    font-size: 0;
+  }
+
+  .#{$class}-item-state-colored {
+    @include transition(0.4s, color);
+  }
+
+  .#{$class}-item-state-indicator {
+    width: 4px;
+    height: 4px;
+
+    @include border-radius(50%);
+    @include transition(0.4s, background-color);
+  }
+
+  .#{$class}-item-state-value {
+    font-size: 12px;
+    line-height: 16px;
+    color: $color-black-2;
+
+    & + .#{$class}-item-state-value {
+      padding-left: 4px;
+    }
+  }
+
+  .#{$class}-item-title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .#{$class}-item-schedule {
+    font-size: 12px;
+    line-height: 16px;
+    color: $color-gray-1;
+  }
+
+  .#{$class}-item-contact-container {
+    overflow: hidden;
+  }
+
+  .#{$class}-item-contact {
+    font-size: 0;
+  }
+
+  .#{$class}-item-contact-icon {
+
+    svg {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      max-width: 16px;
+      max-height: 100%;
+
+      path {
+        stroke: $color-gray-2;
+      }
+    }
+  }
+
+  .#{$class}-item-contact-value {
+    font-size: 12px;
+    line-height: 16px;
+    color: $color-black-2;
+    text-decoration: none;
+    word-break: break-all;
+
+    @include transition(0.4s, color);
+
+    &[data-view='bold'] {
+      font-weight: 600;
+    }
+  }
+
+  .#{$class}-item-description {
+    font-size: 12px;
+    line-height: 18px;
+    color: $color-gray-2;
+  }
+  
+  @media all and (max-width: 768px) {
+    .#{$class}-item-content {
+      padding: 20px;
+    }
+  }
+}

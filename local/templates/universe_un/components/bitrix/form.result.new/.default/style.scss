@@ -1,0 +1,155 @@
+$namespace: 'bitrix';
+$component: 'form-result-new';
+$template: 'default';
+$class: $component;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+  overflow: hidden;
+
+  .#{$class}-message,
+  .#{$class}-description {
+    display: block;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+
+    p {
+      margin: 0;
+    }
+
+    font {
+      color: inherit !important;
+    }
+  }
+
+  .#{$class}-message {
+    &.#{$class}-message-note {
+      font-size: 14px;
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+  }
+
+  .#{$class}-message-note-icon {
+    line-height: 0;
+  }
+
+  .#{$class}-message-note-text {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #404040;
+  }
+
+  .#{$class}-message-note-buttons {
+    display: none;
+    margin-top: 38px;
+  }
+
+  .#{$class}-reset-button,
+  .#{$class}-submit-button {
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .#{$class}-submit-button {
+    &[disabled] {
+      background-color: #CCCCCC;
+      border-color: #CCCCCC;
+      cursor: not-allowed;
+    }
+  }
+
+
+  .#{$class}-message-note-button {
+    padding: 15px 24px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .#{$class}-fields {
+    display: block;
+    margin: -8px 0 17px 0;
+    min-height: 8px;
+  }
+
+  .#{$class}-field {
+    display: block;
+    padding: 8px 0;
+  }
+
+  .#{$class}-field-title-mobile {
+    display: none;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  .inputfile {
+    display: none;
+  }
+
+  .file-icon {
+    margin-right: 15px;
+  }
+  .file-caption {
+    word-break: break-all;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .#{$class}-field-file {
+    cursor: pointer;
+  }
+
+  @media all and (max-width: 600px) {
+    .#{$class}-field-content {
+      position: relative;
+
+      input, select, textarea {
+        padding: 9px 18px;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        color: #404040;
+        border: 1px solid #F2F2F2;
+        border-radius: 2px;
+      }
+    }
+    .#{$class}-field {
+      padding: 4px 0;
+    }
+  }
+
+  .#{$class}-captcha {}
+
+  .#{$class}-captcha-image {
+    img {
+      width: 180px;
+      height: 40px;
+    }
+  }
+
+  .#{$class}-captcha-input {}
+
+  .#{$class}-consent {
+    margin-bottom: 25px;
+  }
+  .#{$class}-consent-text {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

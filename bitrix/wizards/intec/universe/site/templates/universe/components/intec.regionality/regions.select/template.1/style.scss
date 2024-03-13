@@ -1,0 +1,296 @@
+$namespace: 'intec-regionality';
+$component: 'regions-select';
+$template: 'template-1';
+$class: #{$component};
+
+@mixin transition ($value...) {
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  -ms-transition: $value;
+  -o-transition: $value;
+  transition: $value;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: inline-block;
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+
+  .#{$class}-region {
+    display: block;
+    cursor: pointer;
+
+    @include transition(color 0.35s);
+
+    &:hover {
+      color: #868686;
+    }
+  }
+
+  .#{$class}-region-icon {
+    font-size: 0.8em;
+    line-height: 1;
+  }
+
+  .#{$class}-region-text {}
+
+  .#{$class}-question,
+  .#{$class}-dialog {
+    display: none;
+  }
+}
+
+.#{$class}-question-popup.#{$class}-question-popup-default {
+  position: fixed!important;
+  padding: 0;
+  border-radius: 10px;
+  top: 70px!important;
+
+  .#{$class}-question {
+    background-color: #fff;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    z-index: 10;
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .#{$class}-question-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #666666;
+    margin: 25px 20px;
+  }
+  .#{$class}-question-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 25px 20px;
+    margin-bottom: 35px;
+  }
+
+  .#{$class}-question-buttons {
+    font-size: 0;
+    border-top: 1px solid #DCDCDC;
+  }
+
+  .#{$class}-question-button {
+    display: inline-block;
+    width: 50%;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    padding: 16px 15px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333;
+    margin-top: -1px;
+
+    @include transition(color 0.35s, background-color 0.35s);
+
+    &[data-role="question.yes"] {
+      color: #fff;
+    }
+
+    &[data-role="question.no"]:hover {
+      background: #f5f5f5;
+    }
+  }
+
+  .#{$class}-question-close {
+    position: absolute;
+    top: 23px;
+    right: 24px;
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
+  }
+
+  button {
+    cursor: pointer;
+  }
+  @media all and (max-width: 768px) {
+    &.popup-window[style*="block"]{
+      display: none!important;
+    }
+  }
+}
+
+.#{$class}-popup.#{$class}-popup-default {
+  width: 100%;
+  max-width: 880px;
+  padding: 60px;
+  color: #2d2d2d;
+
+  .popup-window-titlebar {
+    font-weight: normal;
+    color: #1b1e25;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .popup-window-close-icon {
+    right: 70px !important;
+    top: 70px !important;
+  }
+
+  .#{$class}-dialog {
+    display: block;
+    position: relative;
+    font-size: 14px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+  }
+
+  .#{$class}-dialog-window {
+    display: block;
+    position: relative;
+    color: #2d2d2d;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    background-color: #fff;
+    min-width: 400px;
+    max-width: 100%;
+  }
+
+  .#{$class}-dialog-window-content {
+    display: block;
+  }
+
+  .#{$class}-dialog-search {
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+
+    &-icon {
+      position: absolute;
+      font-size: 0;
+      cursor: pointer;
+      text-align: center;
+      vertical-align: middle;
+
+      path {
+        @include transition(stroke 0.35s);
+      }
+
+    }
+    .#{$class}-dialog-search-result {
+      display: none;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      padding: 15px 17px;
+      font-size: 14px;
+      background: #fff;
+      box-shadow: 0 2px 20px rgba(200, 200, 200, 0.5);
+      z-index: 5;
+
+      &-region {
+        padding: 6px;
+        cursor: pointer;
+      }
+    }
+    &-icon-enter {
+      left: 17px;
+      top: 50%;
+      width: 16px;
+      height: 16px;
+      margin-top: -8px;
+    }
+    &-icon-clear {
+      right: 20px;
+      top: 50%;
+      width: 12px;
+      height: 12px;
+      margin-top: -5px;
+    }
+  }
+
+  .#{$class}-dialog-search-input {
+    padding: 14px 45px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    background: #FBFCFD;
+    color: #404040;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .#{$class}-dialog-example-regions-wrap {
+
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #808080;
+
+    .#{$class}-dialog-example-region-selector {
+      padding-bottom: 4px;
+      border-bottom: 1px dashed;
+      cursor: pointer;
+    }
+  }
+
+  .#{$class}-dialog-auto {
+    padding-bottom: 4px;
+    border-bottom: 1px dashed #2d2d2d;
+    cursor: pointer;
+
+    @include transition(color 0.35s, border-color 0.35s);
+
+    &:hover {
+      color: #0065ff;
+      border-color: #0065ff;
+    }
+  }
+
+  .#{$class}-dialog-regions {
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 200px;
+  }
+
+  .#{$class}-dialog-region {
+    display: block;
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .#{$class}-dialog-region-selector {
+      display: inline-block;
+      vertical-align: top;
+      font-size: 14px;
+      line-height: 1;
+      cursor: pointer;
+
+      @include transition(color 0.35s);
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    .#{$class}-dialog-window {
+      min-width: 260px;
+    }
+  }
+}

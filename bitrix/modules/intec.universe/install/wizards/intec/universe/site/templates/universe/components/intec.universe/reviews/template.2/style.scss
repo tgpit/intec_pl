@@ -1,0 +1,429 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'reviews';
+$template: 'template-2';
+$class: 'reviews';
+
+$form: #{$class}-form;
+$items: #{$class}-items;
+$item: #{$class}-item;
+$pagination: #{$class}-pagination;
+
+$black-1: #1B1E25;
+$black-2:#404040;
+$gray-1: #808080;
+$gray-2: #B0B0B0;
+$gray-3: #E8E8E8;
+$gray-4: #F2F2F2;
+$green: #1DB940;
+$green-light: #10CDA0;
+$red: #E05757;
+$yellow: #F4BB28;
+$blue-1: #0065FF;
+
+@mixin transition-property($property) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+}
+@mixin transition-duration($duration) {
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.ns-intec-universe.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$form}-toggle {
+    font-size: 0;
+  }
+  .#{$form}-toggle-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #FFF;
+    border: 1px solid;
+    cursor: pointer;
+    @include transition-property(background-color);
+
+    @extend %border-radius-2px;
+    @extend %user-select-none;
+    @extend %transition-duration-04;
+
+    &:hover {
+      .#{$form}-toggle-button-icon {
+        svg {
+          path {
+            stroke: #FFF !important;
+          }
+        }
+      }
+      .#{$form}-toggle-button-text {
+        color: #FFF !important;
+      }
+    }
+  }
+  .#{$form}-toggle-button-part {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .#{$form}-toggle-button-icon {
+    padding-right: 10px;
+
+    svg {
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      height: auto;
+      max-width: 16px;
+      max-height: 16px;
+
+      path {
+        @include transition-property(stroke);
+
+        @extend %transition-duration-04;
+      }
+    }
+  }
+  .#{$form}-toggle-button-text {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    @include transition-property(color);
+
+    @extend %transition-duration-04;
+  }
+  .#{$form} {
+    padding-top: 24px;
+    overflow: hidden;
+
+    textarea {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      min-height: 70px;
+    }
+  }
+  .#{$form}-body {
+    padding: 40px 32px;
+    border: 1px solid $gray-4;
+    background-color: #FFF;
+
+    @extend %border-radius-2px;
+  }
+  .#{$form}-message {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .#{$form}-success {
+    color: $green;
+  }
+  .#{$form}-failure {
+    color: $red;
+  }
+  .#{$form}-closed {
+    color: $black-2;
+  }
+  .#{$form}-error {
+    margin-bottom: 24px;
+  }
+  .#{$form}-error-part {
+    margin-bottom: 4px;
+
+    @extend %last-child-margin-bottom;
+  }
+  .#{$form}-section {
+    margin-bottom: 24px;
+
+    @extend %last-child-margin-bottom;
+  }
+  .#{$form}-input {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  .#{$form}-input-part {
+    display: block;
+    font-size: 0;
+    margin-bottom: 8px;
+
+    @extend %last-child-margin-bottom;
+  }
+  .#{$form}-input-caption {
+    display: block;
+    font-size: 13px;
+    line-height: 13px;
+    color: $gray-1;
+  }
+  .#{$form}-input-caption-required {
+    color: $red;
+  }
+  .#{$form}-input-control {
+    display: block;
+  }
+  .#{$form}-input-control-required {
+    border-color: rgba($red, 0.4);
+
+    &:hover, &:focus {
+      border-color: rgba($red, 1);
+    }
+  }
+  .#{$form}-input-rating {
+    display: block;
+    font-size: 0;
+  }
+  .#{$form}-input-rating-part {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .#{$form}-input-rating-action {
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+  .#{$form}-input-rating-item {
+    display: inline-block;
+    padding-left: 2px;
+    padding-right: 2px;
+    cursor: pointer;
+
+    svg {
+      path {
+        fill: $gray-3;
+        stroke: $gray-3;
+        @include transition-property(#{fill, stroke});
+
+        @extend %transition-duration-04;
+      }
+    }
+
+    &[data-active='true'], &[data-hover='true'] {
+      svg {
+        path {
+          fill: $yellow;
+          stroke: $yellow;
+        }
+      }
+    }
+    &[data-active='true'][data-hover='true'] {
+      svg {
+        path {
+          fill: lighten($yellow, 15%);
+          stroke: lighten($yellow, 15%);
+        }
+      }
+    }
+  }
+  .#{$form}-input-rating-information {
+    padding-left: 16px;
+
+    &[data-active='false'] {
+      display: none;
+    }
+  }
+  .#{$form}-input-rating-information-separator {
+    font-size: 13px;
+    line-height: 18px;
+    color: $gray-2;
+  }
+  .#{$form}-input-rating-information-title {
+    font-size: 13px;
+    line-height: 18px;
+    color: $black-2;
+    padding-left: 16px;
+  }
+  .#{$form}-input-captcha-part {
+    max-width: 180px;
+    margin-bottom: 8px;
+
+    @extend %last-child-margin-bottom;
+  }
+  .#{$form}-button {
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #FFF;
+    padding: 23px 0;
+    width: 100%;
+    max-width: 260px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    @include transition-property(background-color);
+
+    @extend %border-radius-2px;
+    @extend %user-select-none;
+    @extend %transition-duration-04;
+  }
+
+  .#{$items} {
+    margin-top: 24px;
+  }
+  .#{$item} {
+    margin-bottom: -1px;
+
+    @extend %last-child-margin-bottom;
+
+    &:first-child {
+      .#{$item}-content {
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+      }
+    }
+    &:last-child {
+      .#{$item}-content {
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+      }
+    }
+  }
+  .#{$item}-empty {
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray-1;
+    text-align: center;
+
+    @extend %border-radius-2px;
+  }
+  .#{$item}-content {
+    position: relative;
+    padding: 40px 32px;
+    border: 1px solid $gray-4;
+    background-color: #FFF;
+  }
+  .#{$item}-marker {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    padding: 6px 8px;
+
+    @extend %user-select-none;
+    @extend %border-radius-2px;
+
+    &[data-status='on-hold'] {
+      color: $blue-1;
+      background-color: lighten($blue-1, 46%);
+    }
+    &[data-status='accepted'] {
+      color: $green;
+      background-color: lighten($green, 50%);
+    }
+  }
+  .#{$item}-picture {
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &[data-view='rounded'] {
+      @include border-radius(50%);
+    }
+  }
+  .#{$item}-date {
+    font-size: 10px;
+    line-height: 10px;
+    color: $gray-1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 8px;
+  }
+  .#{$item}-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: $black-2;
+  }
+  .#{$item}-grade {
+    font-size: 0;
+    white-space: nowrap;
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+  .#{$item}-grade-item {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+
+    svg {
+      path {
+        fill: $gray-3;
+        stroke: $gray-3;
+      }
+    }
+
+    &[data-active='true'] {
+      svg {
+        path {
+          fill: $yellow;
+          stroke: $yellow;
+        }
+      }
+    }
+  }
+  .#{$item}-properties {
+    margin-top: 24px;
+  }
+  .#{$item}-properties-item {
+    margin-bottom: 16px;
+
+    @extend %last-child-margin-bottom;
+  }
+  .#{$item}-properties-item-name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: $black-2;
+  }
+  .#{$item}-properties-item-value {
+    font-size: 14px;
+    line-height: 24px;
+    color: $gray-1;
+  }
+
+  .#{$pagination} {
+    margin-top: 32px;
+  }
+
+  [data-role='reviews.form.body'] {
+    opacity: 1;
+    @include transition-property(opacity);
+
+    @extend %transition-duration-04;
+
+    &[data-expanded='false'] {
+      display: none;
+      opacity: 0;
+    }
+    &[data-expanded='true'] {
+      opacity: 1;
+    }
+    &[data-state='processing'] {
+      display: block;
+    }
+  }
+
+  %last-child-margin-bottom {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  %border-radius-2px {
+    @include border-radius(2px);
+  }
+  %user-select-none {
+    @include user-select(none);
+  }
+  %transition-duration-04 {
+    @include transition-duration(0.4s);
+  }
+}

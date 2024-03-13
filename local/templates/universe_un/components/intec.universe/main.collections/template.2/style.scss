@@ -1,0 +1,117 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'collections';
+$template: 'template-2';
+$widget: 'widget';
+
+$item: 'widget-item';
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-all {
+    display: block;
+    text-decoration: none;
+  }
+  .widget-all-desktop {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include transition(.35s, color);
+  }
+  .widget-all-mobile {
+    display: none;
+    padding: 6px 7px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-title,
+  .widget-content {
+    overflow: hidden;
+  }
+
+  .#{$item} {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    padding: 24px;
+    height: 100%;
+  }
+  .#{$item}-picture {
+    display: block;
+    width: 212px;
+    padding-top: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &[data-lazyload-use='true'] {
+      background-color: #F2F2F2;
+    }
+  }
+  .#{$item}-name {
+    font-size: 14px;
+    line-height: 1.43;
+    @include webkit-box(2, 20);
+
+    & > * {
+      color: #1B1E25;
+      text-decoration: none;
+      @include transition(.35s, color);
+    }
+  }
+  .#{$item}-description {
+    font-size: 12px;
+    line-height: 1.67;
+    color: #808080;
+    margin-top: 8px;
+    @include webkit-box(4, 20);
+  }
+  .#{$item}-link {
+    margin-top: 16px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+
+    a {
+      letter-spacing: 0.08em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
+  @include breakpoint-custom(500) {
+    .widget-all-desktop {
+      display: none;
+    }
+    .widget-all-mobile {
+      display: block;
+    }
+
+    .#{$item} {
+      padding: 16px 16px 32px 16px;
+    }
+    .#{$item}-picture {
+      width: auto;
+      padding-top: 67%;
+    }
+    .#{$item}-description {
+      -webkit-line-clamp: 6;
+      max-height: 120px;
+    }
+  }
+}

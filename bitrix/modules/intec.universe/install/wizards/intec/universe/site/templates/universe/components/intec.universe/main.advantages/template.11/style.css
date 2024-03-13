@@ -1,0 +1,73 @@
+.widget.c-advantages.c-advantages-template-11 {
+  padding: 95px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.widget.c-advantages.c-advantages-template-11 .widget-header {
+  max-width: 380px;
+  text-align: left;
+}
+.widget.c-advantages.c-advantages-template-11 .widget-header .widget-title {
+  color: #fff;
+}
+.widget.c-advantages.c-advantages-template-11 .widget-header .widget-title + .widget-description {
+  margin-top: 16px;
+}
+.widget.c-advantages.c-advantages-template-11 .widget-header .widget-description {
+  color: #fff;
+}
+.widget.c-advantages.c-advantages-template-11 .widget-item-wrapper {
+  position: relative;
+  padding: 48px 40px;
+  background-color: #FFF;
+  border-radius: 15px;
+  height: 100%;
+  overflow: hidden;
+}
+.widget.c-advantages.c-advantages-template-11 .widget-item-icon {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-decoration: none;
+}
+.widget.c-advantages.c-advantages-template-11 .widget-item-counter {
+  font-size: 96px;
+  font-weight: 300;
+  line-height: 96px;
+  margin-bottom: 16px;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.widget.c-advantages.c-advantages-template-11 .widget-item-name {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #2d2d2d;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.widget.c-advantages.c-advantages-template-11 .widget-item-description {
+  font-size: 16px;
+  line-height: 24px;
+}
+@media all and (max-width: 500px) {
+  .widget.c-advantages.c-advantages-template-11 .widget-item-name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

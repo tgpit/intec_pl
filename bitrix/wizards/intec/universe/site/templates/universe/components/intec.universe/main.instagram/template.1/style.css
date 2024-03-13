@@ -1,0 +1,161 @@
+.widget.c-instagram.c-instagram-template-1 .widget-content {
+  overflow: hidden;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-elements {
+  font-size: 0;
+  text-align: center;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-element {
+  display: inline-block;
+  font-size: 14px;
+  text-align: left;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-element .widget-element-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-delay: 0;
+  -moz-transition-delay: 0;
+  -ms-transition-delay: 0;
+  -o-transition-delay: 0;
+  transition-delay: 0;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-element:hover .widget-element-description {
+  opacity: 1;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-element-wrapper {
+  padding: 0px;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-element-image {
+  display: block;
+  position: relative;
+  padding-top: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  overflow: hidden;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-element-image i {
+  position: absolute;
+  color: white !important;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.widget.c-instagram.c-instagram-template-1 .widget-footer {
+  margin-top: 25px;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-footer-all {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+  padding: 15px;
+  border: 2px solid;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-footer-all:hover {
+  color: #FFF;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-title.align-center.widget-title-margin {
+  margin-left: 210px;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-all-container {
+  text-align: right;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-title-container + .widget-all-container.mobile {
+  width: 210px;
+  overflow: hidden;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-all-container i {
+  display: none;
+  font-size: 19px;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-all-container .instagram-icon {
+  margin-bottom: -3px;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-all-button {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  color: #808080;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.widget.c-instagram.c-instagram-template-1 .widget-all-button svg path {
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+}
+@media all and (max-width: 768px) {
+  .widget.c-instagram.c-instagram-template-1 .widget-element:hover .widget-element-description {
+    opacity: 0;
+  }
+}
+@media all and (max-width: 550px) {
+  .widget.c-instagram.c-instagram-template-1 .widget-title.align-center.widget-title-margin-mobile {
+    margin-left: 25px;
+  }
+  .widget.c-instagram.c-instagram-template-1 .widget-title-container + .widget-all-container,
+.widget.c-instagram.c-instagram-template-1 .widget-title-container + .widget-all-container.mobile {
+    width: 25px;
+    max-height: 36px;
+  }
+  .widget.c-instagram.c-instagram-template-1 .widget-footer.mobile {
+    display: none;
+  }
+  .widget.c-instagram.c-instagram-template-1 .widget-all-container i {
+    display: inline-block;
+  }
+  .widget.c-instagram.c-instagram-template-1 .widget-all-container span {
+    display: none;
+  }
+  .widget.c-instagram.c-instagram-template-1 .widget-all-container.mobile + .widget-all-button {
+    width: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

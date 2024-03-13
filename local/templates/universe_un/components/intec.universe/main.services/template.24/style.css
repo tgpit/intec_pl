@@ -1,0 +1,256 @@
+.widget.c-services.c-services-template-24 .owl-stage {
+  margin: 0 auto;
+}
+.widget.c-services.c-services-template-24 .widget-item-wrapper {
+  position: relative;
+  height: 100%;
+  background-color: #FFFFFF !important;
+  overflow: hidden;
+  text-decoration: none;
+}
+.widget.c-services.c-services-template-24 .widget-menu-desktop-items {
+  font-size: 14px;
+  line-height: 20px;
+  color: #1B1E25;
+}
+.widget.c-services.c-services-template-24 .widget-menu-desktop-items .widget-menu-item {
+  padding: 0 20px 15px 20px;
+  white-space: nowrap;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+}
+.widget.c-services.c-services-template-24 .widget-menu-desktop-items .widget-menu-item:hover {
+  border-bottom: 1px solid;
+}
+.widget.c-services.c-services-template-24 .widget-menu-mobile-items {
+  display: none;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid #F2F2F2;
+  color: #1B1E25;
+}
+.widget.c-services.c-services-template-24 .widget-menu-mobile-items .widget-menu-mobile-wrapper:first-child {
+  border-top: none;
+}
+.widget.c-services.c-services-template-24 .widget-menu-mobile-items .widget-menu-mobile-wrapper {
+  border-top: 1px solid #F2F2F2;
+}
+.widget.c-services.c-services-template-24 .widget-menu-mobile-items .widget-menu-item {
+  padding: 20px 24px;
+  cursor: pointer;
+  border-left: 2px solid transparent;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+}
+@media all and (max-width: 600px) {
+  .widget.c-services.c-services-template-24 .widget-menu-desktop-items[data-mobile-column=true] {
+    display: none;
+  }
+  .widget.c-services.c-services-template-24 .widget-menu-mobile-items {
+    display: block;
+  }
+}
+.widget.c-services.c-services-template-24 .widget-content-wrapper {
+  background: #FBFCFD;
+  border: 1px solid #F2F2F2;
+  padding: 55px 0;
+}
+.widget.c-services.c-services-template-24 .section-content {
+  display: none;
+}
+.widget.c-services.c-services-template-24 .section-content.active {
+  display: flex;
+}
+.widget.c-services.c-services-template-24 .widget-item {
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+}
+.widget.c-services.c-services-template-24 .widget-item:hover {
+  -webkit-box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.06);
+  -moz-box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.06);
+  box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.06);
+}
+.widget.c-services.c-services-template-24 .widget-item-information {
+  padding: 30px 30px 40px 30px;
+  flex-grow: 1;
+}
+.widget.c-services.c-services-template-24 .widget-item-picture-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 240px;
+}
+.widget.c-services.c-services-template-24 .widget-item-picture {
+  display: block;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.widget.c-services.c-services-template-24 .widget-item-picture-effect {
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+}
+.widget.c-services.c-services-template-24 .widget-item-button {
+  margin-top: 15px;
+  width: max-content;
+}
+.widget.c-services.c-services-template-24 .widget-item-picture-effect:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.widget.c-services.c-services-template-24 .widget-item-name {
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+.widget.c-services.c-services-template-24 .widget-item-name {
+  color: #404040;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+}
+.widget.c-services.c-services-template-24 .widget-item-description {
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #808080;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  max-height: 104px;
+}
+.widget.c-services.c-services-template-24 .widget-item-price {
+  margin: auto 0 0 0;
+}
+.widget.c-services.c-services-template-24 .widget-item-price-current {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1B1E25;
+}
+.widget.c-services.c-services-template-24 .widget-item-price-old {
+  margin-bottom: 3px;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+  font-size: 13px;
+  white-space: nowrap;
+  color: #929292;
+}
+.widget.c-services.c-services-template-24 .widget-footer-button {
+  color: #2d2d2d !important;
+}
+.widget.c-services.c-services-template-24 .widget-footer-button:hover, .widget.c-services.c-services-template-24 .widget-footer-button:focus, .widget.c-services.c-services-template-24 .widget-footer-button:active {
+  color: #fff !important;
+}
+.widget.c-services.c-services-template-24 .widget-header {
+  overflow: hidden;
+}
+.widget.c-services.c-services-template-24 .widget-all-container {
+  display: none;
+}
+.widget.c-services.c-services-template-24 .widget-all-button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #808080;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.widget.c-services.c-services-template-24 .widget-all-button i {
+  display: none;
+  font-size: 18px;
+}
+@media all and (max-width: 550px) {
+  .widget.c-services.c-services-template-24 .widget-all-container {
+    display: block;
+  }
+  .widget.c-services.c-services-template-24 .widget-title.align-center.widget-title-margin {
+    margin-left: 25px;
+  }
+  .widget.c-services.c-services-template-24 .widget-all-container.mobile {
+    text-align: right;
+    width: 25px;
+    max-height: 36px;
+  }
+  .widget.c-services.c-services-template-24 .widget-all-container i {
+    display: inline-block;
+  }
+  .widget.c-services.c-services-template-24 .widget-footer.mobile,
+.widget.c-services.c-services-template-24 .widget-footer-button.mobile {
+    display: none;
+  }
+  .widget.c-services.c-services-template-24 .widget-all-container {
+    width: 25px;
+  }
+}
+@media all and (max-width: 600px) {
+  .widget.c-services.c-services-template-24 .widget-content-wrapper[data-mobile-status=true] {
+    border: none;
+  }
+  .widget.c-services.c-services-template-24 .widget-item-wrapper {
+    border: 1px solid #F2F2F2;
+  }
+  .widget.c-services.c-services-template-24 .widget-item-information {
+    padding: 15px 24px 32px 24px;
+  }
+  .widget.c-services.c-services-template-24 .widget-item-picture-wrapper {
+    height: 200px;
+    padding: 24px 24px 0 24px;
+  }
+}
+@media all and (max-width: 320px) {
+  .widget.c-services.c-services-template-24 .widget-item-picture-wrapper {
+    height: 150px;
+    padding: 24px 24px 0 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

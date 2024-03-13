@@ -1,0 +1,2 @@
+<?php
+$MESS['PECOM_ECOMM_MEASURE_PCE'] = "шт";

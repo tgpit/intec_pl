@@ -1,0 +1,172 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'photo-sections-top';
+$template: 'default-1';
+
+@keyframes c-#{$component}-#{$template} {
+  from {
+    @include transform-translate(-100%, -100%);
+  } to {
+    @include transform-translate(100%, 100%);
+  }
+}
+
+$section: #{$component}-section;
+
+.ns-bitrix.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$component}-sections {
+    overflow: hidden;
+  }
+  .#{$component}-loader {
+    position: relative;
+    background-color: #F2F2F2;
+    overflow: hidden;
+    z-index: 3;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      right: -50%;
+      bottom: -50%;
+      background: linear-gradient(135deg, rgba(0, 0, 0, 0) 35%, rgba(255, 255, 255, 0.85) 50%, rgba(0, 0, 0, 0) 65%);
+      z-index: 1;
+      animation-name: c-#{$component}-#{$template};
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+    }
+  }
+  .#{$component}-loader-part {
+    position: absolute;
+    background-color: #E8E8E8;
+    z-index: 2;
+  }
+  .#{$component}-loader-name {
+    left: 24px;
+    right: 24px;
+    height: 20px;
+    bottom: 48px;
+    @include border-radius(2px);
+  }
+  .#{$component}-loader-navigation {
+    left: 24px;
+    right: 24px;
+    bottom: 20px;
+    height: 2px;
+    @include border-radius(1px);
+  }
+
+  .#{$section} {
+    display: block;
+    position: relative;
+    text-decoration: none;
+  }
+  .#{$section}-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+    &[data-loaded='true'] {
+      position: relative;
+      top: auto;
+      left: auto;
+      right: auto;
+      bottom: auto;
+    }
+  }
+  .#{$section}-information {
+    position: absolute;
+    @include sides(0, 0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.64) 73.94%);
+    pointer-events: none;
+    z-index: 2;
+  }
+  .#{$section}-information-content {
+    position: absolute;
+    @include sides(auto, 24px, 20px , 24px);
+  }
+  .#{$section}-picture {
+    min-height: 230px;
+    padding-top: 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &[data-lazyload-use='true'] {
+      background-color: #F2F2F2;
+    }
+  }
+  .#{$section}-count {
+    font-size: 12px;
+    line-height: 1.34;
+    color: #DFDFDF;
+    margin-bottom: 4px;
+  }
+  .#{$section}-name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    color: #FFF;
+  }
+  .#{$section}-decoration {
+    text-align: left;
+    margin-top: 12px;
+
+    svg {
+      width: 21px;
+      height: 8px;
+
+      path {
+        fill: rgba(255, 255, 255, 0.35);
+        @include transition(.35s, fill);
+      }
+    }
+  }
+  .#{$section}-navigation {
+    margin-top: 26px;
+
+    button {
+      padding: 0;
+      border: none;
+      background-color: rgba(255, 255, 255, 0.35);
+      @include transition(.35s, background-color);
+
+      &.active {
+        background-color: #FFF;
+      }
+    }
+  }
+
+  .#{$section}:hover {
+    .#{$section}-decoration {
+      svg {
+        path {
+          fill: #FFF;
+        }
+      }
+    }
+  }
+
+  @include breakpoint-768() {
+    .#{$component}-loader-name,
+    .#{$component}-loader-navigation {
+      left: 12px;
+      right: 12px;
+    }
+
+    .#{$section}-information-content {
+      left: 12px;
+      right: 12px;
+      bottom: 16px;
+    }
+  }
+  @include breakpoint-custom(500) {
+    .#{$section}-picture {
+      min-height: 200px;
+    }
+  }
+}

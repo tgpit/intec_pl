@@ -1,0 +1,50 @@
+.widget-web-form-2 {
+    display: block;
+    background-color: #116afc;
+}
+
+.widget-web-form-2 .widget-web-form-2-wrapper {
+    padding: 30px 0;
+}
+
+.widget-web-form-2 .widget-web-form-2-title {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #fff;
+    word-break: break-word;
+}
+
+.widget-web-form-2 .widget-web-form-2-image {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    height: 143px;
+    transform: translateY(-71px);
+    text-align: center;
+    background-image: url("images/question_mark.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.widget-web-form-2 .widget-web-form-2-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    white-space: normal;
+}
+
+.widget-web-form-2 .widget-web-form-2-button {
+    border-color: #fff!important;
+    color: #fff!important;
+    border-width: 1px;
+}
+
+@media all and (max-width: 768px) {
+    .widget-web-form-2 .widget-web-form-2-wrapper {
+        text-align: center;
+    }
+}

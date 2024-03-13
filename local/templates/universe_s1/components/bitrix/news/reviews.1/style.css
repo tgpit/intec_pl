@@ -1,0 +1,10 @@
+.ns-bitrix.c-news.c-news-reviews-1 .c-news-reviews-send {
+  margin-bottom: 40px;
+}
+@media all and (max-width: 768px) {
+  .ns-bitrix.c-news.c-news-reviews-1 .c-news-reviews-send {
+    margin-bottom: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

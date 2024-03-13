@@ -1,0 +1,435 @@
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 {
+  height: 100%;
+  background-color: #FFF;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-form {
+  height: 100%;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-form-content {
+  height: 100%;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-header {
+  padding: 16px 20px;
+  overflow: hidden;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-content {
+  position: relative;
+  border-top: 1px solid #F2F2F2;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-content::before, .c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-content::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  z-index: 2;
+  pointer-events: none;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-content::before {
+  top: 0;
+  height: 16px;
+  background: linear-gradient(white 25%, rgba(255, 255, 255, 0) 100%);
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-content::after {
+  bottom: 0;
+  height: 32px;
+  background: linear-gradient(rgba(255, 255, 255, 0) 0%, white 75%);
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-title {
+  overflow: hidden;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-title-icon svg path {
+  stroke: #323232;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-title-text {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #404040;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-reset {
+  display: block;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  overflow: hidden;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-reset-icon {
+  display: block;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-reset-icon svg path {
+  stroke: #E05757;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-reset-text {
+  display: block;
+  font-size: 13px;
+  line-height: 1;
+  color: #E05757;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-apply {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 22px 0;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-properties {
+  position: relative;
+  height: 100%;
+  padding: 16px 20px 32px 20px;
+  overflow-y: scroll;
+  z-index: 1;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-property[data-expanded=false] .catalog-smart-filter-property-icon {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-property + .catalog-smart-filter-property {
+  padding-top: 16px;
+  margin-top: 16px;
+  border-top: 1px solid #F2F2F2;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-property label {
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-property-icon {
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
+  -ms-transition-property: transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-property-icon svg path {
+  stroke: #808080;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-property-content {
+  padding-top: 16px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-property-name {
+  font-size: 14px;
+  line-height: 1.45;
+  color: #808080;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-property-hint {
+  position: relative;
+  z-index: 1;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-property-hint-content {
+  display: block;
+  position: absolute;
+  bottom: calc(100% + 20px);
+  right: -20px;
+  width: 180px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 2px;
+  word-break: break-word;
+  box-shadow: 0 0 24px rgba(27, 30, 37, 0.08);
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-property-hint-content:before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 20px;
+  bottom: -20px;
+  border: 8px solid transparent;
+  border-top: 12px solid #fff;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-property-hint-content[data-state=hidden] {
+  display: none;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-input-text {
+  display: block;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #404040;
+  width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #F2F2F2;
+  outline: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: border-color;
+  -moz-transition-property: border-color;
+  -ms-transition-property: border-color;
+  -o-transition-property: border-color;
+  transition-property: border-color;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-input-text:focus, .c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-input-text:active {
+  border-color: #E8E8E8;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-radio {
+  font-size: 0;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-radio + .catalog-smart-filter-radio {
+  margin-top: 12px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-radio-content {
+  padding: 0;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-default {
+  font-size: 0;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-default + .catalog-smart-filter-checkbox-default {
+  margin-top: 12px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-custom-container {
+  overflow: hidden;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-custom {
+  font-size: 0;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-custom + .catalog-smart-filter-checkbox-custom {
+  margin-top: 8px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-custom-content {
+  display: inline-block;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-custom-content input {
+  display: none;
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-custom-content input:checked + span {
+  background-color: #FFF;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-custom-picture {
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #E8E8E8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: border-color;
+  -moz-transition-property: border-color;
+  -ms-transition-property: border-color;
+  -o-transition-property: border-color;
+  transition-property: border-color;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-custom-picture-background {
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-custom-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-select {
+  overflow: hidden;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-select-content {
+  display: block;
+  position: relative;
+  font-weight: 400;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-select-content select {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  z-index: 1;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-select-indicator {
+  display: block;
+  position: relative;
+  background-color: #FFF;
+  border: 1px solid #F2F2F2;
+  pointer-events: none;
+  z-index: 2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-select-indicator-text {
+  display: block;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #404040;
+  padding: 12px 18px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-select-indicator-icon {
+  display: block;
+  height: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #FBFCFD;
+  border-left: 1px solid #F2F2F2;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-select-indicator-icon svg path {
+  stroke: #808080;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-range {
+  overflow: hidden;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-range + .catalog-smart-filter-track {
+  margin-top: 16px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-range-part {
+  display: block;
+  position: relative;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-range-sign {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #B0B0B0;
+  text-align: center;
+  width: 20px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-range-input {
+  padding-left: 40px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-track {
+  position: relative;
+  height: 30px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-track + .catalog-smart-filter-bounds {
+  margin-top: 8px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-track-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #F2F2F2;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-track-line-inactive {
+  z-index: 1;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-track-line-active {
+  z-index: 2;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-track-line-unavailable {
+  display: none;
+  z-index: 3;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-track-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  z-index: 4;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-track-control {
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  border: 11px solid #FFF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-box-shadow: 0 2px 16px 0 rgba(27, 30, 37, 0.12);
+  -moz-box-shadow: 0 2px 16px 0 rgba(27, 30, 37, 0.12);
+  box-shadow: 0 2px 16px 0 rgba(27, 30, 37, 0.12);
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-track-control-left {
+  left: 0;
+  margin-left: -15px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-track-control-right {
+  right: 0;
+  margin-right: -15px;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-bounds-value {
+  font-size: 12px;
+  line-height: 1.333333;
+  color: #B0B0B0;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-radio-content,
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-default-content,
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-custom-content {
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-radio-content.disabled,
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-default-content.disabled,
+.c-catalog-smart-filter.c-catalog-smart-filter-mobile-1 .catalog-smart-filter-checkbox-custom-content.disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=style.css.map */

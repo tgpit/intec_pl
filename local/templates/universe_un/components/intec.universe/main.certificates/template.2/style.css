@@ -1,0 +1,251 @@
+.widget.c-certificates.c-certificates-template-2 .widget-tabs + .widget-tabs-content {
+  margin-top: 30px;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-carousel .owl-stage-outer {
+  padding: 20px;
+  padding-bottom: 28px;
+  margin: -20px;
+  margin-bottom: -28px;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-carousel .owl-stage {
+  display: flex;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-carousel .owl-item {
+  flex-basis: auto;
+  flex-shrink: 0;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-carousel .owl-item.active .widget-item-wrapper {
+  border: 1px solid #F2F2F2;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-item {
+  height: 100%;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-item-wrapper {
+  cursor: pointer;
+  overflow: hidden;
+  padding: 30px;
+  padding-bottom: 40px;
+  height: 100%;
+  -webkit-transition-property: border-color, box-shadow;
+  -moz-transition-property: border-color, box-shadow;
+  -ms-transition-property: border-color, box-shadow;
+  -o-transition-property: border-color, box-shadow;
+  transition-property: border-color, box-shadow;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-item-picture {
+  padding-top: 130%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-item-picture img {
+  display: none;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-item-picture-icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: -16px;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-item-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #1B1E25;
+  margin-top: 16px;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-item-size {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #808080;
+  margin-top: 8px;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-item:hover .widget-item-wrapper {
+  box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+  border-color: #fff !important;
+  margin: -1px;
+  padding: 31px;
+  padding-bottom: 41px;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-item:hover .widget-item-picture-icon {
+  opacity: 1;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  right: -20px;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-prev,
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-next {
+  position: absolute;
+  font-size: 0;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #E8E8E8;
+  margin-top: -20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+  outline: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-property: border, background-color;
+  -moz-transition-property: border, background-color;
+  -ms-transition-property: border, background-color;
+  -o-transition-property: border, background-color;
+  transition-property: border, background-color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-prev svg path,
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-next svg path {
+  stroke: #808080;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-prev:hover svg path,
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-next:hover svg path {
+  stroke: #FFF;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-prev.disabled,
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-next.disabled {
+  display: none;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-prev {
+  left: 0;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-prev i {
+  padding-right: 2px;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-next {
+  right: 0;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-nav .owl-next i {
+  padding-left: 2px;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-dots {
+  font-size: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-dots .owl-dot {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 7px;
+  border: 2px solid #ababab;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition-property: border-color, background-color;
+  -moz-transition-property: border-color, background-color;
+  -ms-transition-property: border-color, background-color;
+  -o-transition-property: border-color, background-color;
+  transition-property: border-color, background-color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-dots .owl-dot:hover {
+  border-color: #000000;
+}
+.widget.c-certificates.c-certificates-template-2 .owl-dots .owl-dot.active {
+  border-color: #000000;
+  background-color: #000000;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-footer-button {
+  color: #2d2d2d !important;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-footer-button:hover, .widget.c-certificates.c-certificates-template-2 .widget-footer-button:focus, .widget.c-certificates.c-certificates-template-2 .widget-footer-button:active {
+  color: #fff !important;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-header {
+  overflow: hidden;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-all-container {
+  display: none;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-all-button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #808080;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.widget.c-certificates.c-certificates-template-2 .widget-all-button i {
+  display: none;
+  font-size: 18px;
+}
+@media all and (max-width: 550px) {
+  .widget.c-certificates.c-certificates-template-2 .widget-all-container {
+    display: block;
+  }
+  .widget.c-certificates.c-certificates-template-2 .widget-title.align-center.widget-title-margin {
+    margin-left: 25px;
+  }
+  .widget.c-certificates.c-certificates-template-2 .widget-all-container.mobile {
+    text-align: right;
+    width: 25px;
+    max-height: 36px;
+  }
+  .widget.c-certificates.c-certificates-template-2 .widget-all-container i {
+    display: inline-block;
+  }
+  .widget.c-certificates.c-certificates-template-2 .widget-footer.mobile,
+.widget.c-certificates.c-certificates-template-2 .widget-footer-button.mobile {
+    display: none;
+  }
+  .widget.c-certificates.c-certificates-template-2 .widget-all-container {
+    width: 25px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

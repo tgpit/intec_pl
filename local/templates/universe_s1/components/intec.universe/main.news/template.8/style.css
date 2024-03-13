@@ -1,0 +1,144 @@
+.widget.c-news.c-news-template-8 .widget-items {
+  position: relative;
+}
+.widget.c-news.c-news-template-8 .widget-item {
+  position: relative;
+  padding: 30px;
+  background-color: #FFF;
+  border: 1px solid #F2F2F2;
+  z-index: 1;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: border-color, box-shadow;
+  -moz-transition-property: border-color, box-shadow;
+  -ms-transition-property: border-color, box-shadow;
+  -o-transition-property: border-color, box-shadow;
+  transition-property: border-color, box-shadow;
+}
+.widget.c-news.c-news-template-8 .widget-item + .widget-item {
+  margin-top: -1px;
+}
+.widget.c-news.c-news-template-8 .widget-item:first-child {
+  -webkit-border-top-left-radius: 2px;
+  -moz-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -moz-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.widget.c-news.c-news-template-8 .widget-item:last-child {
+  -webkit-border-bottom-left-radius: 2px;
+  -moz-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -moz-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.widget.c-news.c-news-template-8 .widget-item:hover {
+  border-color: #FFF;
+  -webkit-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+  -moz-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+  box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+  z-index: 2;
+}
+.widget.c-news.c-news-template-8 .widget-item-picture {
+  display: block;
+  text-align: center;
+  width: 150px;
+}
+.widget.c-news.c-news-template-8 .widget-item-picture img {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.widget.c-news.c-news-template-8 .widget-item-header {
+  font-size: 10px;
+  line-height: 16px;
+  color: #808080;
+  text-transform: uppercase;
+}
+.widget.c-news.c-news-template-8 .widget-item-header + * {
+  margin-top: 4px;
+}
+.widget.c-news.c-news-template-8 .widget-item-name > * {
+  font-size: 14px;
+  line-height: 24px;
+  color: #404040;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.widget.c-news.c-news-template-8 .widget-item-description {
+  font-size: 14px;
+  line-height: 22px;
+  color: #808080;
+  margin-top: 8px;
+}
+.widget.c-news.c-news-template-8 .widget-header {
+  overflow: hidden;
+}
+.widget.c-news.c-news-template-8 .widget-all-container {
+  display: none;
+}
+.widget.c-news.c-news-template-8 .widget-all-button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #808080;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.widget.c-news.c-news-template-8 .widget-all-button i {
+  display: none;
+  font-size: 18px;
+}
+@media all and (max-width: 550px) {
+  .widget.c-news.c-news-template-8 .widget-item-picture {
+    width: 100%;
+  }
+  .widget.c-news.c-news-template-8 .widget-all-container {
+    display: block;
+  }
+  .widget.c-news.c-news-template-8 .widget-title.align-center.widget-title-margin {
+    margin-left: 25px;
+  }
+  .widget.c-news.c-news-template-8 .widget-all-container.mobile {
+    text-align: right;
+    width: 25px;
+    max-height: 36px;
+  }
+  .widget.c-news.c-news-template-8 .widget-all-container i {
+    display: inline-block;
+  }
+  .widget.c-news.c-news-template-8 .widget-footer.mobile,
+.widget.c-news.c-news-template-8 .widget-footer-button.mobile {
+    display: none;
+  }
+  .widget.c-news.c-news-template-8 .widget-all-container {
+    width: 25px;
+  }
+}
+@media all and (max-width: 768px) {
+  .widget.c-news.c-news-template-8 .widget-item {
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

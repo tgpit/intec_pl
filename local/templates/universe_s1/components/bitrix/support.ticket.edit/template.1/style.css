@@ -1,0 +1,309 @@
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 {
+  display: block;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-return {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header {
+  background-color: #F9F9FB;
+  border: 1px solid #F2F2F2;
+  margin-bottom: 15px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header-top {
+  padding: 16px 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header-top .support-ticket-edit-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header-top .support-ticket-edit-open-ticket {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 11px 24px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header-bottom {
+  padding: 16px 30px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header-bottom .support-ticket-edit-subtitle {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+  padding-right: 8px;
+  margin-bottom: 8px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header-bottom .support-ticket-edit-text {
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+  word-break: break-word;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header-bottom .support-ticket-edit-order-status {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  text-align: center;
+  padding: 6px 8px;
+  border-radius: 2px;
+  background-color: #808080;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header-bottom .support-ticket-edit-info-item {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages {
+  background-color: #F9F9FB;
+  border: 1px solid #F2F2F2;
+  margin-bottom: 24px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-title {
+  padding: 16px 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-title-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item {
+  padding: 20px 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item:last-child {
+  border-bottom: none;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+  margin-bottom: 12px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-status {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  padding: 6px 8px;
+  background-color: #808080;
+  border-radius: 2px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-status.support-ticket-edit-messages-item-status-client {
+  background-color: #1DB940;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-status.support-ticket-edit-messages-item-status-support {
+  background-color: #3384FF;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-date {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  margin-left: 8px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-text {
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+  margin-bottom: 32px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-files-title {
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+  margin-bottom: 8px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-file {
+  font-size: 14px;
+  line-height: 20px;
+  color: #B0B0B0;
+  margin-bottom: 8px;
+  word-break: break-word;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-file * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-file:last-child {
+  margin-bottom: 0;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-quote {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #808080;
+  padding: 12px 24px;
+  border: 1px solid #B0B0B0;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: 350ms;
+  -moz-transition: 350ms;
+  -ms-transition: 350ms;
+  -o-transition: 350ms;
+  transition: 350ms;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item-quote:hover {
+  background-color: #B0B0B0;
+  color: #fff;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form {
+  background-color: #F9F9FB;
+  border: 1px solid #F2F2F2;
+  margin-bottom: 24px;
+  max-width: 690px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-title {
+  padding: 16px 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-title-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-wrap {
+  padding: 16px 30px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-field {
+  margin-bottom: 24px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-field-title {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+  margin-bottom: 12px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-button-message {
+  margin-bottom: 12px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-field-inputtext,
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-field-system input[type=text] {
+  font-size: 14px;
+  line-height: 18px;
+  color: #404040;
+  border: 1px solid #E8E8E8;
+  border-radius: 2px;
+  background-color: #fff;
+  padding: 12px 24px;
+  width: 100%;
+  max-width: 100%;
+  outline: none;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-field-textarea {
+  font-size: 14px;
+  line-height: 18px;
+  color: #404040;
+  border: 1px solid #E8E8E8;
+  border-radius: 2px;
+  background-color: #fff;
+  padding: 12px 24px;
+  width: 100% !important;
+  max-height: 118px;
+  min-height: 44px;
+  outline: none;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-field-inputfile input {
+  display: none;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-field-inputfile label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 10px;
+  border-width: 1px;
+  padding: 12px 24px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-field-filesize {
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-field-select {
+  font-size: 14px;
+  line-height: 18px;
+  color: #404040;
+  border: 1px solid #E8E8E8;
+  border-right: none;
+  outline: none;
+  width: 100%;
+  padding: 12px 45px 12px 24px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url(./images/arrow_select.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-field-button-close input {
+  display: none;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-button {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  color: #808080;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-color: #E8E8E8;
+  border-width: 1px;
+  padding: 12px 24px;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-button:hover {
+  color: #fff;
+}
+.ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-button-close-info {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #808080;
+}
+@media all and (max-width: 550px) {
+  .ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header-top {
+    padding: 16px;
+  }
+  .ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header-bottom {
+    padding: 16px;
+  }
+  .ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-header-bottom .support-ticket-edit-info-item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-title {
+    padding: 16px;
+  }
+  .ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-messages-item {
+    padding: 20px 16px;
+  }
+  .ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-title {
+    padding: 16px;
+  }
+  .ns-bitrix.c-support-ticket-edit.c-support-ticket-edit-template-1 .support-ticket-edit-form-wrap {
+    padding: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,65 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'news-list';
+$template: 'certificates-tile-2';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .#{$class}-content {
+  }
+
+  .#{$class}-item {
+    display: block;
+    padding: 25px 0 30px 0;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .#{$class}-item-image {
+    display: block;
+    position: relative;
+    width: 140px;
+    height: 210px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @include transition(0.4s, box-shadow);
+
+    &:hover {
+      @include box-shadow(0, 0, 15px, 0, rgba(0, 0, 0, 0.3));
+    }
+
+    &[data-role="zoom"] {
+      cursor: pointer;
+    }
+  }
+
+  .#{$class}-item-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .#{$class}-item-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  @media all and (max-width: 550px) {
+    .#{$class}-item-image {
+      margin: 0 auto;
+    }
+
+    .#{$class}-item-name {
+      text-align: center;
+    }
+
+    .#{$class}-item-description {
+      text-align: center;
+    }
+  }
+}

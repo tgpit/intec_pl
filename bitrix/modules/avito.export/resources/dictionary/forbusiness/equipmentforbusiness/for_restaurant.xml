@@ -1,0 +1,16 @@
+<Root>
+    <GoodsSubType name="Тепловое"/>
+    <GoodsSubType name="Хлебопекарное и кондитерское"/>
+    <GoodsSubType name="Холодильное"/>
+    <GoodsSubType name="Нейтральное"/>
+    <GoodsSubType name="Барное"/>
+    <GoodsSubType name="Электромеханическое"/>
+    <GoodsSubType name="Для пиццы"/>
+    <GoodsSubType name="Моечное"/>
+    <GoodsSubType name="Упаковочное"/>
+    <GoodsSubType name="Весовое"/>
+    <GoodsSubType name="Линии раздачи"/>
+    <GoodsSubType name="Мебель"/>
+    <GoodsSubType name="Посуда"/>
+    <GoodsSubType name="Другое"/>
+</Root>

@@ -1,0 +1,67 @@
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-6 {
+  padding-top: 1px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-6 .catalog-section-list-item {
+  margin-top: -1px;
+  margin-left: -1px;
+  border: 1px solid #F2F2F2;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-6 .catalog-section-list-item:hover {
+  box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+  z-index: 1;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-6 .catalog-section-list-item-wrapper {
+  font-size: 0;
+  margin: 30px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-6 .catalog-section-list-item-picture {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 16px auto;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-6 .catalog-section-list-item-name-wrap {
+  text-align: center;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-6 .catalog-section-list-item-name {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #404040;
+  text-decoration: none;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-6 .catalog-section-list-item-count-wrap {
+  margin-top: 4px;
+}
+.ns-bitrix.c-catalog-section-list.c-catalog-section-list-catalog-tile-6 .catalog-section-list-item-count {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #B0B0B0;
+}
+
+/*# sourceMappingURL=style.css.map */

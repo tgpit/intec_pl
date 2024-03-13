@@ -1,0 +1,72 @@
+$component: 'widget';
+$class: 'web-form';
+
+@import '../../../../sources/styles/mixins.scss';
+
+.widget.c-#{$component}.c-#{$component}-#{$class} {
+  padding-left: 50px;
+  padding-right: 20px;
+  background-color: #fafafa;
+  @include border-radius(10px);
+
+  .#{$class}-container {
+    overflow: hidden;
+  }
+  .#{$class}-name {
+    max-width: 35%;
+    overflow: hidden;
+  }
+  .#{$class}-name-container {
+    min-height: 130px;
+    background: url('images/question_mark.png') no-repeat 50% 50%;
+  }
+  .#{$class}-name-text {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 32px;
+    color: #2e3431;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .#{$class}-name-decoration-item {
+    width: 4px;
+    height: 50px;
+  }
+  .#{$class}-description-text {
+    color: #262928;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .#{$class}-buttons {
+    text-align: center;
+  }
+  .#{$class}-button {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  @media all and (max-width: 1024px) {
+    padding: 40px 32px;
+
+    .#{$class}-name {
+      max-width: none;
+    }
+    .#{$class}-name-container {
+      min-height: auto;
+      background-image: none;
+    }
+    .#{$class}-name-text {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .#{$class}-name-decoration {
+      display: none;
+    }
+    .#{$class}-description-text {
+      text-align: center;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}

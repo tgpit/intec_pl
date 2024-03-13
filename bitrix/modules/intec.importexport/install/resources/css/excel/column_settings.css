@@ -1,0 +1,61 @@
+.bx-core-popup-menu.bx-core-popup-menu-bottom.bx-core-popup-menu-level0.bx-core-popup-menu-no-icons {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.m-intec-importexport.p-field-settings-table .data-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m-intec-importexport.p-field-settings-table span {
+    white-space: nowrap;
+    margin: 0 5px;
+}
+.m-intec-importexport.p-field-settings-table input[type="text"],
+.m-intec-importexport.p-field-settings-table select {
+    max-width: 160px;
+    margin: 0 5px;
+}
+.m-intec-importexport.p-field-settings-table .button-wrapper {
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+}
+.m-intec-importexport.p-field-settings-table .button-wrapper.delete {
+    margin-left: 15px;
+}
+.m-intec-importexport.p-field-settings-table .button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.m-intec-importexport.p-field-settings-table .button:hover {
+    opacity: 1;
+}
+.m-intec-importexport.p-field-settings-table .button.up {
+    transform: rotateZ(180deg);
+    background-image: url("../../css/icons/arrow-down.svg");
+}
+.m-intec-importexport.p-field-settings-table .button.down {
+    background-image: url("../../css/icons/arrow-down.svg");
+}
+.m-intec-importexport.p-field-settings-table .button.delete {
+    background-image: url("../../css/icons/close.svg");
+}
+.m-intec-importexport.p-field-settings-table .condition:first-child .button.up {
+    display:none;
+}
+.m-intec-importexport.p-field-settings-table .condition:last-child .button.down {
+    display:none;
+}

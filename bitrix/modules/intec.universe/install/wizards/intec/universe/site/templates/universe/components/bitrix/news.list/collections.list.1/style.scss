@@ -1,0 +1,114 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'news-list';
+$template: 'collections-list-1';
+
+$item: #{$component}-item;
+$navigation: #{$component}-navigation;
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$item} {
+    position: relative;
+    height: 100%;
+    padding: 40px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    @include transition(0.35s, (border-color, box-shadow));
+
+    &:hover {
+      border-color: transparent;
+      z-index: 1;
+      @include box-shadow(0, 8px, 32px, 0, rgba(27, 30, 37, 0.08));
+    }
+    & + .#{$item} {
+      margin-top: -1px;
+    }
+  }
+  .#{$item}-name {
+    margin-top: 24px;
+
+    & > a, div {
+      font-size: 14px;
+      line-height: 1.43;
+      color: #1B1E25;
+      text-decoration: none;
+      @include transition(.35s, color);
+    }
+  }
+  .#{$item}-picture {
+    display: block;
+    width: 212px;
+    padding-top: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .#{$item}-name {
+    font-size: 14px;
+    line-height: 20px;
+    color: #1B1E25;
+    text-align: left;
+    margin-top: 0;
+
+    @include transition(0.35s, all);
+
+    & + .#{$item}-description {
+      margin-top: 8px;
+    }
+  }
+  .#{$item}-description {
+    font-size: 12px;
+    line-height: 20px;
+    color: #808080;
+    @include webkit-box(5, 20);
+  }
+  .#{$item}-show-more-button {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 16px;
+  }
+
+  .#{$navigation}-top {
+    margin-bottom: 30px;
+  }
+  .#{$navigation}-bottom {
+    margin-top: 30px;
+  }
+
+  &[data-borders="true"] {
+    .#{$item}-wrapper {
+      background: #FFFFFF;
+      border: 1px solid #F2F2F2;
+      @include border-radius(2px);
+    }
+  }
+
+  @include breakpoint-768() {
+    .#{$item}-picture {
+      width: 100%;
+    }
+    .#{$item}-text {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .#{$item} {
+      padding: 20px;
+    }
+    .#{$item}-name {
+      text-align: center;
+    }
+  }
+}

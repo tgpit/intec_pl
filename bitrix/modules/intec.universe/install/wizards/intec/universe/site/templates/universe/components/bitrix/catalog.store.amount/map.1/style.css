@@ -1,0 +1,287 @@
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-info {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 16px;
+  color: #888888;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-content {
+  font-size: 0;
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-part {
+  display: inline-block;
+  vertical-align: middle;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-quantity {
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-quantity-content {
+  font-size: 0;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-quantity-part {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-quantity-indicator {
+  width: 4px;
+  height: 4px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -ms-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-quantity-value {
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-quantity-value + .store-amount-quantity-value {
+  padding-left: 4px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 [data-store-state=many] .store-amount-quantity-indicator {
+  background-color: #1DB940;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 [data-store-state=many] .store-amount-quantity-color {
+  color: #1DB940;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 [data-store-state=few] .store-amount-quantity-indicator {
+  background-color: #F4BB28;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 [data-store-state=few] .store-amount-quantity-color {
+  color: #F4BB28;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 [data-store-state=empty] .store-amount-quantity-indicator {
+  background-color: #B0B0B0;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 [data-store-state=empty] .store-amount-quantity-color {
+  color: #B0B0B0;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-list {
+  position: relative;
+  border: 1px solid #F2F2F2;
+  width: 266px;
+  height: 400px;
+  -webkit-box-shadow: 8px 0 16px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 8px 0 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 8px 0 16px rgba(0, 0, 0, 0.08);
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-list-content {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-list-item {
+  padding: 20px 24px;
+  border-bottom: 1px solid #F2F2F2;
+  cursor: pointer;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -ms-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-list-item[data-active=true], .ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-list-item:hover {
+  background-color: #FBFCFD;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-list-item-name {
+  font-size: 12px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-list-item-quantity {
+  margin-top: 8px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFF;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full[data-active=true] {
+  pointer-events: all;
+  opacity: 1;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item {
+  height: 100%;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item[data-active=false] {
+  display: none;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-content {
+  height: 100%;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-content-wrapper {
+  padding: 40px 20px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-part + .store-amount-full-item-part {
+  margin-top: 8px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-picture {
+  padding-top: 56.25%;
+  margin-bottom: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-name {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #404040;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-schedule {
+  font-size: 12px;
+  line-height: 16px;
+  color: #808080;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-contact {
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-contact-content {
+  font-size: 0;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-contact-part {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-contact-icon {
+  font-size: 0;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-contact-icon svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+  max-width: 16px;
+  max-height: 16px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-contact-icon svg path {
+  stroke: #B0B0B0;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-contact-value {
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  max-height: 16px;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-contact-phone {
+  font-weight: 600;
+  color: #404040;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-description {
+  font-size: 12px;
+  line-height: 18px;
+  color: #B0B0B0;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0;
+  cursor: pointer;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-close svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+  max-width: 24px;
+  max-height: 24px;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-close svg path {
+  stroke: #B0B0B0;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-full-item-close:hover svg path {
+  stroke: #404040;
+}
+.ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-map {
+  width: calc(100% - 266px);
+  height: 400px;
+  background-color: #E7F1FF;
+}
+@media all and (max-width: 768px) {
+  .ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-list {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+  }
+  .ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-list-content {
+    max-height: 400px;
+  }
+  .ns-bitrix.c-catalog-store-amount.c-catalog-store-amount-map-1 .store-amount-map {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

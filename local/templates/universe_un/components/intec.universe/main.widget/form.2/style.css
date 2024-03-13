@@ -1,0 +1,241 @@
+.widget.c-form-result-new.c-form-result-new-form-2 {
+  position: relative;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-body {
+  position: relative;
+  z-index: 2;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-error font {
+  font-weight: bold;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 58px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-description {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  margin-top: 20px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-sent {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-top: 25px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-fields {
+  min-height: 20px;
+  margin-top: 50px;
+  margin-bottom: -20px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-field-wrap {
+  margin-bottom: 20px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-field-input {
+  display: block;
+  font-size: 14px;
+  line-height: 21px;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 15px 25px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #FFF;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-field-input::placeholder {
+  opacity: 0.5;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-field-input:focus::placeholder {
+  opacity: 1;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-field-input-error {
+  border-bottom-color: #C50000 !important;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-field-input-error::placeholder {
+  color: #C50000 !important;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-field textarea {
+  height: 93px;
+  max-height: 250px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-captcha {
+  display: inline-block;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-captcha-wrap {
+  font-size: 0;
+  margin-top: 35px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-captcha-title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-captcha-input {
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+  min-width: initial;
+  max-width: initial;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent {
+  font-size: 0;
+  margin-top: 35px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent label {
+  text-align: left;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent-indicator-wrap {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent-indicator {
+  display: block;
+  position: relative;
+  width: 17px;
+  height: 17px;
+  background-color: #FFF;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  z-index: 2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent-indicator::before {
+  content: "";
+  display: none;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  background-color: #333;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent-content {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent-content a {
+  text-decoration: underline;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  opacity: 0;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent input:checked + .widget-form-result-new-consent-indicator::before {
+  display: block;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent + .widget-form-result-new-submit-wrap {
+  margin-top: 20px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-submit {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 18px 40px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-submit[disabled] {
+  background-color: #F2F2F2;
+  border-color: #E8E8E8;
+  cursor: pointer;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-submit-wrap {
+  font-size: 0;
+  margin-top: 35px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2[data-background=true] {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.widget.c-form-result-new.c-form-result-new-form-2[data-theme=dark] .widget-form-result-new-error font {
+  color: #333 !important;
+}
+.widget.c-form-result-new.c-form-result-new-form-2[data-theme=dark] .widget-form-result-new-field-input {
+  border-bottom-color: #333;
+}
+.widget.c-form-result-new.c-form-result-new-form-2[data-theme=light] .widget-form-result-new-error font {
+  color: #FFF !important;
+}
+.widget.c-form-result-new.c-form-result-new-form-2[data-theme=light] .widget-form-result-new-field-input {
+  border-bottom-color: #FFF;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 [data-align=left].widget-form-result-new-title, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=left].widget-form-result-new-description, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=left].widget-form-result-new-sent, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=left].widget-form-result-new-captcha-wrap, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=left].widget-form-result-new-consent, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=left].widget-form-result-new-submit-wrap {
+  text-align: left;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 [data-align=center].widget-form-result-new-title, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=center].widget-form-result-new-description, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=center].widget-form-result-new-sent, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=center].widget-form-result-new-captcha-wrap, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=center].widget-form-result-new-consent, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=center].widget-form-result-new-submit-wrap {
+  text-align: center;
+}
+.widget.c-form-result-new.c-form-result-new-form-2 [data-align=right].widget-form-result-new-title, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=right].widget-form-result-new-description, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=right].widget-form-result-new-sent, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=right].widget-form-result-new-captcha-wrap, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=right].widget-form-result-new-consent, .widget.c-form-result-new.c-form-result-new-form-2 [data-align=right].widget-form-result-new-submit-wrap {
+  text-align: right;
+}
+.widget.c-form-result-new.c-form-result-new-form-2[data-theme=dark] .widget-form-result-new-title, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=dark] .widget-form-result-new-description, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=dark] .widget-form-result-new-sent, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=dark] .widget-form-result-new-field-input, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=dark] .widget-form-result-new-field-input::placeholder, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=dark] .widget-form-result-new-captcha-title, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=dark] .widget-form-result-new-consent-content, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=dark] .widget-form-result-new-consent-content a {
+  color: #333;
+}
+.widget.c-form-result-new.c-form-result-new-form-2[data-theme=light] .widget-form-result-new-title, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=light] .widget-form-result-new-description, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=light] .widget-form-result-new-sent, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=light] .widget-form-result-new-field-input, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=light] .widget-form-result-new-field-input::placeholder, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=light] .widget-form-result-new-captcha-title, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=light] .widget-form-result-new-consent-content, .widget.c-form-result-new.c-form-result-new-form-2[data-theme=light] .widget-form-result-new-consent-content a {
+  color: #FFF;
+}
+@media all and (max-width: 768px) {
+  .widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-description {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent-content {
+    font-size: 13px;
+  }
+}
+@media all and (max-width: 500px) {
+  .widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent[data-align=left], .widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-consent[data-align=right], .widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-submit-wrap[data-align=left], .widget.c-form-result-new.c-form-result-new-form-2 .widget-form-result-new-submit-wrap[data-align=right] {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

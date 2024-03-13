@@ -1,0 +1,74 @@
+$component: 'product-timer';
+$template: 'template-4';
+$item: 'widget-timer-item';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .#{$item}-wrapper {
+    border-radius: 2px;
+    background: #F2F2F2;
+    padding: 6px 8px;
+
+    &-sale {
+      background: #FBCD56;
+      border-color: #FBCD56;
+    }
+  }
+
+  .#{$item}-wrapper-2 {
+    height: 100%;
+  }
+
+  .#{$item}-separator {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #404040;
+  }
+
+  .widget-date-end {
+    display: none;
+  }
+
+  .#{$item}-block {
+    width: 35px;
+
+    &[data-code="days"] {
+      width: auto;
+      max-width: 46px;
+    }
+  }
+
+  .#{$item}-block-sale {
+    width: auto;
+    max-width: 60px;
+    overflow: hidden;
+  }
+
+  .#{$item}-time,
+  .#{$item}-sale {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    min-width: 23px;
+    color: #404040;
+  }
+
+  .#{$item}-sale {
+    max-width: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 17px;
+    text-overflow: ellipsis;
+  }
+
+  .#{$item}-description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #808080;
+  }
+}

@@ -1,0 +1,88 @@
+.widget.c-news.c-news-template-6 .widget-item-date {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #b1b1b1;
+  margin-bottom: 15px;
+}
+.widget.c-news.c-news-template-6 .widget-item-name {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
+  text-decoration: none;
+}
+.widget.c-news.c-news-template-6 .widget-item-description {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #444444;
+  margin-top: 15px;
+}
+.widget.c-news.c-news-template-6 .widget-footer-button {
+  color: #2d2d2d !important;
+}
+.widget.c-news.c-news-template-6 .widget-footer-button:hover, .widget.c-news.c-news-template-6 .widget-footer-button:focus, .widget.c-news.c-news-template-6 .widget-footer-button:active {
+  color: #fff !important;
+}
+.widget.c-news.c-news-template-6 .widget-header {
+  overflow: hidden;
+}
+.widget.c-news.c-news-template-6 .widget-all-container {
+  display: none;
+}
+.widget.c-news.c-news-template-6 .widget-all-button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #808080;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.widget.c-news.c-news-template-6 .widget-all-button i {
+  display: none;
+  font-size: 18px;
+}
+@media all and (max-width: 550px) {
+  .widget.c-news.c-news-template-6 .widget-all-container {
+    display: block;
+  }
+  .widget.c-news.c-news-template-6 .widget-title.align-center.widget-title-margin {
+    margin-left: 25px;
+  }
+  .widget.c-news.c-news-template-6 .widget-all-container.mobile {
+    text-align: right;
+    width: 25px;
+    max-height: 36px;
+  }
+  .widget.c-news.c-news-template-6 .widget-all-container i {
+    display: inline-block;
+  }
+  .widget.c-news.c-news-template-6 .widget-footer.mobile,
+.widget.c-news.c-news-template-6 .widget-footer-button.mobile {
+    display: none;
+  }
+  .widget.c-news.c-news-template-6 .widget-all-container {
+    width: 25px;
+  }
+}
+@media all and (max-width: 500px) {
+  .widget.c-news.c-news-template-6 .widget-item-date {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+  .widget.c-news.c-news-template-6 .widget-item-name {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .widget.c-news.c-news-template-6 .widget-item-description {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

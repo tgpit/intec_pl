@@ -1,0 +1,72 @@
+<PlumbingWaterAndSauna>
+	<GoodsSubType name="Смесители и комплектующие">
+		<PlumbingType name="Смесители"></PlumbingType>
+		<PlumbingType name="Комплектующие"></PlumbingType>
+	</GoodsSubType>
+	<GoodsSubType name="Кухонные мойки и комплектующие">
+		<PlumbingType name="Кухонные мойки"></PlumbingType>
+		<PlumbingType name="Комплектующие"></PlumbingType>
+	</GoodsSubType>
+	<GoodsSubType name="Раковины, умывальники, пьедесталы">
+		<PlumbingType name="Раковины"></PlumbingType>
+		<PlumbingType name="Умывальники"></PlumbingType>
+		<PlumbingType name="Комплектующие"></PlumbingType>
+	</GoodsSubType>
+	<GoodsSubType name="Ванны и комплектующие">
+		<PlumbingType name="Ванны"></PlumbingType>
+		<PlumbingType name="Шторки и перегородки"></PlumbingType>
+		<PlumbingType name="Экраны"></PlumbingType>
+		<PlumbingType name="Комплектующие"></PlumbingType>
+	</GoodsSubType>
+	<GoodsSubType name="Душевые системы и лейки">
+		<PlumbingType name="Лейки, душевые панели, стойки и гарнитуры"></PlumbingType>
+		<PlumbingType name="Комплектующие"></PlumbingType>
+	</GoodsSubType>
+	<GoodsSubType name="Душевые кабины и ограждения">
+		<PlumbingType name="Душевые уголки, перегородки и двери"></PlumbingType>
+		<PlumbingType name="Душевые поддоны"></PlumbingType>
+		<PlumbingType name="Душевые кабины и боксы"></PlumbingType>
+		<PlumbingType name="Комплектующие"></PlumbingType>
+	</GoodsSubType>
+	<GoodsSubType name="Унитазы, писсуары, биде, инсталляции">
+		<PlumbingType name="Унитазы и бачки"></PlumbingType>
+		<PlumbingType name="Инсталляции"></PlumbingType>
+		<PlumbingType name="Писсуары"></PlumbingType>
+		<PlumbingType name="Биде"></PlumbingType>
+		<PlumbingType name="Комплектующие"></PlumbingType>
+	</GoodsSubType>
+	<GoodsSubType name="Полотенцесушители и комплектующие">
+		<PlumbingType name="Полотенцесушители"></PlumbingType>
+		<PlumbingType name="Комплектующие"></PlumbingType>
+	</GoodsSubType>
+	<GoodsSubType name="Водоснабжение и канализация">
+		<PlumbingType name="Запорная и регулирующая арматура и автоматика"></PlumbingType>
+		<PlumbingType name="Насосы и гидроаккумуляторы"></PlumbingType>
+		<PlumbingType name="Фильтры и системы очистки воды"></PlumbingType>
+		<PlumbingType name="Баки и ёмкости"></PlumbingType>
+		<PlumbingType name="Водопроводные трубы и фитинги"></PlumbingType>
+		<PlumbingType name="Водоотведение и канализация"></PlumbingType>
+		<PlumbingType name="Септики"></PlumbingType>
+		<PlumbingType name="Коллекторы для систем водоснабжения и отопления"></PlumbingType>
+		<PlumbingType name="Ревизионные люки"></PlumbingType>
+		<PlumbingType name="Водонагреватели"></PlumbingType>
+		<PlumbingType name="Приборы для учёта и измерений"></PlumbingType>
+		<PlumbingType name="Комплектующие"></PlumbingType>
+		<PlumbingType name="Другое"></PlumbingType>
+	</GoodsSubType>
+	<GoodsSubType name="Мебель для ванной">
+		<PlumbingType name="Тумбы"></PlumbingType>
+		<PlumbingType name="Зеркала"></PlumbingType>
+		<PlumbingType name="Шкафы и комоды"></PlumbingType>
+		<PlumbingType name="Стеллажи, стойки, этажерки и полки"></PlumbingType>
+		<PlumbingType name="Освещение"></PlumbingType>
+		<PlumbingType name="Столешницы под раковину"></PlumbingType>
+		<PlumbingType name="Гарнитуры"></PlumbingType>
+		<PlumbingType name="Комплектующие"></PlumbingType>
+		<PlumbingType name="Другое"></PlumbingType>
+	</GoodsSubType>
+	<GoodsSubType name="Аксессуары для ванной"></GoodsSubType>
+	<GoodsSubType name="Товары для бани и сауны"></GoodsSubType>
+	<GoodsSubType name="Бассейны"></GoodsSubType>
+	<GoodsSubType name="Другое"></GoodsSubType>
+</PlumbingWaterAndSauna>

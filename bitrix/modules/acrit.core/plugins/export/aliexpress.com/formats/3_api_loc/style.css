@@ -1,0 +1,4 @@
+.adm-workarea select.acrit-core-aliexpress-section { display: block; margin-bottom: 5px; }
+.acrit-inline-link { cursor: pointer; }
+.tasks-task-loading, .tasks-task-loading td { color: #aeaeae; }
+.tasks-task-loading a[data-role="log-tasks-item-update-status"] { visibility: hidden; }

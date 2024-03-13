@@ -1,0 +1,46 @@
+@import '../../../../sources/styles/include.scss';
+
+$namespace: 'intec';
+$component: 'sale-personal-section';
+$template: 'template-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  &.p-main {
+    .#{$class}-wrapper {}
+    .#{$class}-wrapper-2 {}
+    .#{$class}-items {}
+    .#{$class}-item {}
+
+    .#{$class}-item-wrapper {
+      @include transition(350ms, opacity);
+
+      border-radius: 3px;
+      color: #fff;
+      display: block;
+      height: 100%;
+      opacity: 0.8;
+      padding: 25px 15px;
+      text-align: center;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .#{$class}-item-icon {
+      display: block;
+      font-size: 64px;
+      height: 64px;
+      line-height: 64px;
+    }
+
+    .#{$class}-item-title {
+      display: block;
+      font-size: 16px;
+      line-height: 21px;
+      margin-top: 20px;
+    }
+  }
+}

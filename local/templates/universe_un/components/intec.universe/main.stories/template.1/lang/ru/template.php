@@ -1,0 +1,3 @@
+<?php
+
+$MESS['C_MAIN_STORIES_TEMPLATE_1_BUTTON_TEXT_DEFAULT'] = 'Смотреть';

@@ -1,0 +1,72 @@
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 {
+  display: block;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 .intec-ui-form .intec-ui-form-field {
+  margin-bottom: 20px;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 .intec-ui-form .intec-ui-form-field-content {
+  position: relative;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 .system-auth-authorize-socserv-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #404040;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 .system-auth-authorize-socserv-bottom {
+  position: relative;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 .system-auth-authorize-socserv-bottom span {
+  display: inline-block;
+  position: relative;
+  padding: 0 8px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 .system-auth-authorize-socserv-bottom:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 .system-auth-authorize-eye-icon {
+  position: absolute;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 10;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 .system-auth-authorize-eye-icon-close {
+  display: none;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 .system-auth-authorize-restore {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 .system-auth-authorize-additions {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-popup-2 .system-auth-authorize-button {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 20px 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

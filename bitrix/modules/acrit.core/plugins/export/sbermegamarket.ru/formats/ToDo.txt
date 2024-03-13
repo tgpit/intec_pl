@@ -1,0 +1,3 @@
+03_zakaji_i_zaberi - https://conf.goods.ru/merchant-api/3-opisanie-api-zakayoi-i-zaberi
+04_dsm - https://conf.goods.ru/merchant-api/4-dsm-dostavka-silami-merchanta
+04_fulfilment - https://conf.goods.ru/merchant-api/5-fulfilment

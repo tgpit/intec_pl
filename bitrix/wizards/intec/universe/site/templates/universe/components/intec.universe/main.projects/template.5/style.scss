@@ -1,0 +1,170 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'projects';
+$template: 'template-5';
+$item: 'widget-item';
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+
+  .widget-header {
+
+    &[data-link-all="true"] {
+
+      .widget-title {
+
+        &.align-center {
+          margin-left: 150px;
+        }
+      }
+    }
+  }
+
+  .widget-list {
+    display: block;
+    margin-left: 10px;
+    font-size: 0;
+    text-align: right;
+    text-decoration: none;
+  }
+
+  .widget-list-desktop {
+    display: block;
+    width: 140px;
+    font-size: 10px;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-break: break-word;
+
+    @include transition(0.4s, color);
+  }
+
+  .widget-list-mobile {
+    display: none;
+    width: 30px;
+    height: 30px;
+
+    svg {
+
+      path {
+        stroke: #B0B0B0;
+
+        @include transition(0.4s, stroke);
+      }
+    }
+  }
+
+  .widget-tabs {
+    margin: -5px -15px;
+  }
+
+  .#{$item} {
+    color: #f2f2f2;
+  }
+  .#{$item}-wrapper {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    padding-top: 124%;
+    color: inherit;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #000000;
+      opacity: 0;
+
+      @include transition(0.3s, opacity);
+    }
+
+    &:hover:after {
+      opacity: 0.3;
+    }
+  }
+
+  .#{$item}-picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .#{$item}-picture {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.74) 100%);
+    }
+  }
+
+  .#{$item}-name {
+    position: absolute;
+    left: 23px;
+    right: 23px;
+    bottom: 24px;
+    height: 66px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    word-break: break-word;
+    z-index: 2;
+
+    @include webkit-box(3, 22);
+  }
+
+  .widget-content {
+    position: relative;
+  }
+
+  @include breakpoint-custom(720) {
+    .widget-tabs {
+      margin: -5px -10px;
+    }
+  }
+
+  @include breakpoint-custom(500) {
+    .widget-header {
+
+      &[data-link-all="true"] {
+
+        .widget-title {
+
+          &.align-center {
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+
+    .widget-list-desktop {
+      display: none;
+    }
+
+    .widget-list-mobile {
+      display: block;
+    }
+  }
+}

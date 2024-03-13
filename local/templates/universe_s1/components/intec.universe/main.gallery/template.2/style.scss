@@ -1,0 +1,118 @@
+$component: 'gallery';
+$template: 'template-2';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-content {
+    overflow: hidden;
+  }
+
+  .widget-items {}
+
+  .widget-item {
+    position: relative;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .widget-item-wrapper {
+    overflow: hidden;
+    cursor: pointer;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .widget-item-picture {
+    display: block;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    padding-top: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    -webkit-transition: transform 350ms;
+    -moz-transition: transform 350ms;
+    -ms-transition: transform 350ms;
+    -o-transition: transform 350ms;
+    transition: transform 350ms;
+
+    img {
+      display: none;
+    }
+  }
+
+  .widget-footer {
+    margin-top: 30px;
+  }
+
+  .widget-footer-button {
+    color: #2d2d2d !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #fff !important;
+    }
+  }
+
+  .widget-item:hover {
+    .widget-item-picture {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+
+  .widget-header {
+    overflow: hidden;
+  }
+  .widget-all-container {
+    display: none;
+  }
+  .widget-all-button {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #808080;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    i {
+      display: none;
+      font-size: 18px;
+    }
+  }
+
+  @media all and (max-width: 550px) {
+    .widget-all-container {
+      display: block;
+    }
+    .widget-title.align-center.widget-title-margin {
+      margin-left: 20px;
+    }
+    .widget-all-container.mobile {
+      text-align: right;
+      width: 20px;
+      max-height: 36px;
+    }
+    .widget-all-container i {
+      display: inline-block;
+    }
+    .widget-footer.mobile,
+    .widget-footer-button.mobile{
+      display: none;
+    }
+    .widget-all-container {
+      width: 20px;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<Dictionary>
+    <Apparel name="Брюки"></Apparel>
+    <Apparel name="Верхняя одежда">
+	    <ApparelType name="Ветровка"></ApparelType>
+	    <ApparelType name="Дождевик"></ApparelType>
+	    <ApparelType name="Дублёнка"></ApparelType>
+	    <ApparelType name="Жилет"></ApparelType>
+	    <ApparelType name="Комбинезон"></ApparelType>
+	    <ApparelType name="Комплект"></ApparelType>
+	    <ApparelType name="Куртка"></ApparelType>
+	    <ApparelType name="Пальто"></ApparelType>
+	    <ApparelType name="Парка"></ApparelType>
+	    <ApparelType name="Пиджак"></ApparelType>
+	    <ApparelType name="Плащ"></ApparelType>
+	    <ApparelType name="Пуховик"></ApparelType>
+	    <ApparelType name="Шуба"></ApparelType>
+	    <ApparelType name="Другое"></ApparelType>
+	    <Material name="Мех"></Material>
+	    <Material name="Флис"></Material>
+	    <Material name="Хлопок"></Material>
+	    <Material name="Джинса"></Material>
+	    <Material name="Искусственный"></Material>
+	    <Material name="Шерсть"></Material>
+	    <Material name="Кожа"></Material>
+	    <Material name="Велюр"></Material>
+	    <Material name="Другое"></Material>
+	    <Season name="Зима"></Season>
+	    <Season name="Лето"></Season>
+	    <Season name="Демисезон"></Season>
+	    <Uteplitel name="Без утеплителя"></Uteplitel>
+	    <Uteplitel name="С утеплителем"></Uteplitel>
+	    <Functions name="Водонепроницаемость"></Functions>
+	    <Functions name="Светоотражающие детали"></Functions>
+	    <Functions name="Капюшон"></Functions>
+	    <Functions name="Воротник"></Functions>
+    </Apparel>
+    <Apparel name="Комбинезоны и боди"></Apparel>
+    <Apparel name="Обувь"></Apparel>
+    <Apparel name="Пижамы"></Apparel>
+    <Apparel name="Трикотаж"></Apparel>
+    <Apparel name="Шапки, варежки, шарфы"></Apparel>
+    <Apparel name="Другое"></Apparel>
+</Dictionary>
+
+

@@ -1,0 +1,22 @@
+<?php
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_SETTINGS_USE'] = 'Использовать глобальные настройки';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_LAZYLOAD_USE'] = 'Использовать "ленивую загрузку" изображений';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_COLUMNS'] = 'Кол-во элементов в строке';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_LINK_USE'] = 'Использовать ссылки на детальную страницу';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_DESCRIPTION_USE'] = 'Отображать описание услуги';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_HEADER_BUTTON_POSITION'] = 'Расположение кнопки "Все услуги"';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_HEADER_BUTTON_SHOW'] = 'Отображать кнопку "Все услуги"';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_HEADER_BUTTON_TEXT'] = 'Текст кнопки "Все услуги"';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_HEADER_POSITION'] = 'Расположение верхнего блока';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_POSITION_TOP'] = 'Сверху';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_POSITION_LEFT'] = 'Слева';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_POSITION_CENTER'] = 'По центру';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_POSITION_RIGHT'] = 'Справа';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_FOOTER_BUTTON_TEXT_DEFAULT'] = 'Все услуги';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_BORDERS_USE'] = 'Отображать рамки элементов';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_NAME_POSITION'] = 'Выравнивание названия элемента';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_SVG_FILE_USE'] = 'Использовать SVG файлы вместо изображений';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_PROPERTY_SVG_FILE'] = 'Свойство "SVG файл"';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_SVG_FILE_COLOR'] = 'Цвет SVG файла"';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_SVG_FILE_COLOR_ORIGINAL'] = 'Оригинальный цвет';
+$MESS['C_MAIN_SERVICES_TEMPLATE_20_SVG_FILE_COLOR_THEME'] = 'В цвет темы';

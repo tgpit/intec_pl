@@ -1,0 +1,38 @@
+.ns-bitrix.c-system-auth-form.c-system-auth-form-template-2 {
+  width: 100%;
+}
+.ns-bitrix.c-system-auth-form.c-system-auth-form-template-2 .intec-ui.intec-ui-control-tabs-content {
+  overflow: hidden;
+}
+.ns-bitrix.c-system-auth-form.c-system-auth-form-template-2 .system-auth-form-control-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #ffffff;
+  border-bottom: 1px solid #F2F2F2;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.ns-bitrix.c-system-auth-form.c-system-auth-form-template-2 .system-auth-form-control-tab-container[data-active=true] .system-auth-form-control-tab, .ns-bitrix.c-system-auth-form.c-system-auth-form-template-2 .system-auth-form-control-tab-container:hover .system-auth-form-control-tab {
+  color: #404040;
+}
+.ns-bitrix.c-system-auth-form.c-system-auth-form-template-2 .system-auth-form-control-tab-container[data-active=true] .system-auth-form-control-tab-border, .ns-bitrix.c-system-auth-form.c-system-auth-form-template-2 .system-auth-form-control-tab-container:hover .system-auth-form-control-tab-border {
+  opacity: 1;
+}
+.ns-bitrix.c-system-auth-form.c-system-auth-form-template-2 .system-auth-form-control-tab {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: #808080;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+.ns-bitrix.c-system-auth-form.c-system-auth-form-template-2 .system-auth-form-control-tab-border {
+  width: 100%;
+  height: 2px;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+/*# sourceMappingURL=style.css.map */

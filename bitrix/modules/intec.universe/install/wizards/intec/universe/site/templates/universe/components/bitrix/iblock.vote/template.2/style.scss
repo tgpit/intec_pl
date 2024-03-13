@@ -1,0 +1,50 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'iblock-vote';
+$template: 'template-2';
+
+$color-gray: #E8E8E8;
+$color-yellow: #F4BB28;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$component}-body {
+    overflow: hidden;
+  }
+  .#{$component}-container {
+    font-size: 0;
+    white-space: nowrap;
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+  .#{$component}-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2px;
+    margin-right: 2px;
+
+    svg {
+      display: inline-block;
+      width: 16px;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      cursor: pointer;
+
+      path {
+        fill: $color-gray;
+        stroke: $color-gray;
+        @include transition(0.2s, #{fill, stroke});
+      }
+    }
+    &[data-focus='true'],
+    &[data-active='true'] {
+      svg {
+        path {
+          fill: $color-yellow;
+          stroke: $color-yellow;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<?php
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_NUMBER_SHOW'] = 'Отображать числовое значение элемента';
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_PREVIEW_SHOW'] = 'Отображать описание элемента';
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_COLUMNS'] = 'Кол-во элементов в строке';
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_COLUMNS_MOBILE'] = 'Кол-во элементов в строке мобильной версии';
+
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_PROPERTY_NUMBER'] = 'Свойство "Числовое значение"';
+
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_BACKGROUND_SHOW'] = 'Отображать фон блока';
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_BACKGROUND_COLOR'] = 'Цвет фона';
+
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_THEME'] = 'Тема';
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_THEME_LIGHT'] = 'Светлая';
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_THEME_DARK'] = 'Темная';
+
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_NUMBER_ALIGN'] = 'Выравнивание числового значения элемента';
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_PREVIEW_ALIGN'] = 'Выравнивание описания элемента';
+
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_ALIGN_LEFT'] = 'Слева';
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_ALIGN_CENTER'] = 'Центр';
+$MESS['C_MAIN_ADVANTAGES_TEMPLATE_31_ALIGN_RIGHT'] = 'Справа';

@@ -1,0 +1,108 @@
+$namespace: 'bitrix';
+$component: 'sale-order-payment-change';
+$template: 'template-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .#{$class}-title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #404040;
+  }
+
+  .#{$class}-container {
+    margin-bottom: 24px;
+
+    &[data-visible="visible"] {
+      overflow: visible;
+    }
+
+    &[data-visible="auto"] {
+      overflow: auto;
+    }
+  }
+
+  .#{$class}-status {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 12px;
+    color: #fff;
+    padding: 6px 8px;
+    border-radius: 2px;
+    background-color: #fafafa;
+
+    &[data-state="unpaid"] {
+      background-color: #E05757;
+    }
+
+    &[data-state="restricted"] {
+      background-color: #f3f4f5;
+    }
+
+    &[data-state="paid"] {
+      background-color: #597707;
+    }
+  }
+
+  .#{$class}-price {
+    font-size: 15px;
+    line-height: 18px;
+    color: #404040;
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+
+  .#{$class}-items {
+    margin-bottom: 24px;
+  }
+
+  .#{$class}-item {
+    cursor: pointer;
+  }
+
+  .#{$class}-item-image {
+    display: block;
+    width: 100%;
+    padding-top: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fff;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    margin-bottom: 8px;
+  }
+
+  .#{$class}-item-name {
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    color: #404040;
+    text-align: center;
+  }
+
+  .#{$class}-description {
+    font-size: 12px;
+    line-height: 16px;
+    color: #404040;
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+
+  .#{$class}-button {
+    padding: 12px 22px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-width: 1px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+}

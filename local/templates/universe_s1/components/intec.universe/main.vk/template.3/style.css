@@ -1,0 +1,283 @@
+.widget.c-vk.c-vk-template-3 .fragment-all-mobile {
+  display: none;
+  padding: 6px 7px;
+}
+.widget.c-vk.c-vk-template-3 .fragment-description {
+  font-size: 14px;
+  color: #808080;
+  line-height: 1.6;
+}
+.widget.c-vk.c-vk-template-3 .ind-p-l-11 {
+  padding-left: 11px;
+}
+.widget.c-vk.c-vk-template-3 .fragment-title {
+  margin-bottom: 16px;
+}
+.widget.c-vk.c-vk-template-3 .fragment-title-text {
+  color: #1B1E25;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.widget.c-vk.c-vk-template-3 .fragment-all {
+  font-size: 0;
+}
+.widget.c-vk.c-vk-template-3 .fragment-all a {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-decoration: none;
+}
+.widget.c-vk.c-vk-template-3 .fragment-all-desktop {
+  padding-right: 8px;
+  color: #808080;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.widget.c-vk.c-vk-template-3 .fragment-all-mobile {
+  height: 16px;
+  width: 16px;
+  stroke: #808080;
+  font-size: 0;
+}
+.widget.c-vk.c-vk-template-3 .fragment-description {
+  color: #808080;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  margin-bottom: 39px;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-content {
+  position: relative;
+  overflow: hidden;
+  border: solid 1px #e8e8e8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: border-color, box-shadow;
+  -moz-transition-property: border-color, box-shadow;
+  -ms-transition-property: border-color, box-shadow;
+  -o-transition-property: border-color, box-shadow;
+  transition-property: border-color, box-shadow;
+}
+.widget.c-vk.c-vk-template-3 .border-sb {
+  border-color: #e8e8e8;
+}
+.widget.c-vk.c-vk-template-3 .border-transparent-hover:hover {
+  border-color: transparent;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-picture {
+  display: block;
+  font-size: 0;
+  aspect-ratio: 1/1;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-picture img[data-lazyload-use=true] {
+  min-height: 100%;
+  min-width: 100%;
+  background-color: #e8e8e8;
+}
+.widget.c-vk.c-vk-template-3 a.fragment-item-title {
+  text-decoration: none;
+  padding-bottom: 24px;
+  color: #808080;
+}
+.widget.c-vk.c-vk-template-3 a.fragment-item-title svg path {
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-title-icon svg {
+  width: 16px;
+  height: 16px;
+  fill: #808080;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: fill;
+  -moz-transition-property: fill;
+  -ms-transition-property: fill;
+  -o-transition-property: fill;
+  transition-property: fill;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-description {
+  color: #1b1e25;
+  line-height: 1.4;
+  height: 100%;
+  min-height: auto;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-description > div {
+  overflow-y: auto;
+  scrollbar-color: #c9c9c9 transparent;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-description > div::-webkit-scrollbar {
+  width: 16px;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-description > div:hover::-webkit-scrollbar-track {
+  border-right: 2px solid #e8e8e8;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-description > div:hover::-webkit-scrollbar-thumb {
+  border-right: 2px solid #c9c9c9;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-info {
+  padding: 24px 16px 24px 24px;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-title-svg-container {
+  display: block;
+  overflow: hidden;
+  width: 50px;
+  font-size: 0;
+  text-align: right;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-title-svg-container svg {
+  stroke: #808080;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+}
+.widget.c-vk.c-vk-template-3 .fragment-item-title-svg-line {
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 26px;
+  right: 7px;
+  height: 1px;
+  background-color: #1b1e25;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: background-color, left;
+  -moz-transition-property: background-color, left;
+  -ms-transition-property: background-color, left;
+  -o-transition-property: background-color, left;
+  transition-property: background-color, left;
+}
+.widget.c-vk.c-vk-template-3 .fragment .fragment-description {
+  font-size: 14px;
+  color: #808080;
+  line-height: 1.6;
+}
+.widget.c-vk.c-vk-template-3 .fragment .fragment-header + .fragment-content {
+  margin-top: 32px;
+}
+.widget.c-vk.c-vk-template-3 .fragment .fragment-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.widget.c-vk.c-vk-template-3 .fragment .fragment-title + .fragment-description {
+  margin-top: 16px;
+}
+@media all and (min-width: 769px) {
+  .widget.c-vk.c-vk-template-3 .fragment-item-content:hover {
+    border-color: transparent;
+    -webkit-box-shadow: 1px 7px 28px -3px rgba(27, 30, 37, 0.08);
+    -moz-box-shadow: 1px 7px 28px -3px rgba(27, 30, 37, 0.08);
+    box-shadow: 1px 7px 28px -3px rgba(27, 30, 37, 0.08);
+  }
+  .widget.c-vk.c-vk-template-3 .fragment-item-description > div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+}
+@media all and (max-width: 768px) {
+  .widget.c-vk.c-vk-template-3 .fragment-item-description {
+    min-height: auto;
+  }
+  .widget.c-vk.c-vk-template-3 .fragment-item-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .widget.c-vk.c-vk-template-3 .fragment-all-mobile {
+    height: 32px;
+    width: 32px;
+  }
+  .widget.c-vk.c-vk-template-3 .fragment-items {
+    overflow-x: scroll;
+    scrollbar-color: #808080 #e8e8e8;
+  }
+  .widget.c-vk.c-vk-template-3 .fragment-items::-webkit-scrollbar {
+    height: 24px;
+  }
+  .widget.c-vk.c-vk-template-3 .fragment-items::-webkit-scrollbar-track {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: 2px solid #e8e8e8;
+  }
+  .widget.c-vk.c-vk-template-3 .fragment-items::-webkit-scrollbar-thumb {
+    border-bottom: 2px solid #808080;
+  }
+  .widget.c-vk.c-vk-template-3 .fragment-item {
+    width: 45%;
+  }
+  .widget.c-vk.c-vk-template-3 .fragment-item-description > div {
+    height: 5.6em;
+  }
+}
+@media all and (max-width: 650px) {
+  .widget.c-vk.c-vk-template-3 .fragment-item {
+    width: 55%;
+  }
+}
+@media all and (max-width: 550px) {
+  .widget.c-vk.c-vk-template-3 .fragment-item {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .widget.c-vk.c-vk-template-3 .fragment-all-mobile {
+    display: block;
+  }
+  .widget.c-vk.c-vk-template-3 .fragment-all-desktop {
+    display: none;
+  }
+}
+@media all and (max-width: 425px) {
+  .widget.c-vk.c-vk-template-3 .fragment-item {
+    width: 92%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

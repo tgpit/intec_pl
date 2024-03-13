@@ -1,0 +1,508 @@
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 {
+  display: block;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-return {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-header {
+  background-color: #F9F9FB;
+  border: 1px solid #F2F2F2;
+  border-radius: 2px;
+  margin-bottom: 24px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-header .sale-personal-order-detail-header-top {
+  padding: 16px 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-header .sale-personal-order-detail-header-top .sale-personal-order-detail-header-number {
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404040;
+  margin-right: 12px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-header .sale-personal-order-detail-header-top .sale-personal-order-detail-header-date {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-header .sale-personal-order-detail-header-bottom {
+  padding: 16px 30px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-status-button {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 12px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 6px 8px;
+  border-radius: 2px;
+  background-color: #0a51ae;
+  word-break: break-word;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-button {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 10px 22px;
+  border-width: 1px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-field-title {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+  margin-bottom: 12px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-field-value {
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-blocks .sale-personal-order-detail-block {
+  background-color: #F9F9FB;
+  border: 1px solid #F2F2F2;
+  border-radius: 2px;
+  margin-bottom: 24px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-blocks .sale-personal-order-detail-block .sale-personal-order-detail-block-title {
+  padding: 16px 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-blocks .sale-personal-order-detail-block .sale-personal-order-detail-block-content {
+  padding: 16px 30px;
+  border-top: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-blocks .sale-personal-order-detail-block .sale-personal-order-detail-block-button {
+  cursor: pointer;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-blocks .sale-personal-order-detail-block .sale-personal-order-detail-block-button[data-state=false] {
+  transform: rotate(180deg);
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products {
+  margin: 0 -15px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product {
+  padding: 8px 0;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product.sale-personal-order-detail-block-product-desktop {
+  border-bottom: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product.sale-personal-order-detail-block-product-desktop:last-child {
+  border-bottom: none;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product.sale-personal-order-detail-block-product-mobile {
+  border-top: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product.sale-personal-order-detail-block-product-mobile:nth-child(2) {
+  border-top: none;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product.sale-personal-order-detail-block-product-mobile .sale-personal-order-detail-block-product-picture {
+  display: inline-block;
+  max-width: 70px;
+  margin-bottom: 8px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product .sale-personal-order-detail-block-product-item-header {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product .sale-personal-order-detail-block-product-item-text {
+  display: block;
+  font-size: 13px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product .sale-personal-order-detail-block-product-item-text.sale-personal-order-detail-block-product-price-base {
+  font-size: 10px;
+  text-decoration: line-through;
+  color: #808080;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product .sale-personal-order-detail-block-product-item {
+  flex-basis: 100%;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product .sale-personal-order-detail-block-product-item[data-code=picture] {
+  max-width: 56px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product .sale-personal-order-detail-block-product-item[data-code=name] {
+  max-width: 195px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product .sale-personal-order-detail-block-product-item[data-code=price] {
+  max-width: 90px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product .sale-personal-order-detail-block-product-item[data-code=quantity] {
+  max-width: 105px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product .sale-personal-order-detail-block-product-item[data-code=sum] {
+  max-width: 96px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment {
+  margin-bottom: 24px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment.sale-personal-order-detail-block-payment-active .sale-personal-order-detail-block-payment-form {
+  display: block;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment.sale-personal-order-detail-block-payment-active .sale-personal-order-detail-block-payment-button.sale-personal-order-detail-block-payment-button-pay {
+  display: none;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-state {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 12px;
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 2px;
+  background-color: #fafafa;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-state[data-state=unpaid] {
+  background-color: #E05757;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-state[data-state=restricted] {
+  background-color: #f3f4f5;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-state[data-state=paid] {
+  background-color: #597707;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-checks {
+  padding-top: 10px;
+  font-size: 0.857143em;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-checks-title {
+  font-weight: bold;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-sum {
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-button {
+  padding: 12px 22px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-width: 1px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-form {
+  display: none;
+  position: relative;
+  border: 1px solid #ebebeb;
+  padding: 24px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-form .sale-personal-order-detail-block-payment-close {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  cursor: pointer;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-payments .sale-personal-order-detail-block-payment .sale-personal-order-detail-block-payment-form .sale-personal-order-detail-block-payment-form-content {
+  overflow: auto;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item {
+  padding: 14px 0;
+  border-bottom: 1px solid #E8E8E8;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item:last-child {
+  border-bottom: none;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item .sale-personal-order-detail-block-change-history-text {
+  flex-basis: 100%;
+  font-size: 13px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item .sale-personal-order-detail-block-change-history-text[data-code=date] {
+  max-width: 145px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item .sale-personal-order-detail-block-change-history-text[data-code=operation] {
+  max-width: 185px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item .sale-personal-order-detail-block-change-history-text[data-code=description] {
+  max-width: 180px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item .sale-personal-order-detail-block-change-history-text .sale-personal-order-detail-block-change-history-text-header {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+  padding-right: 8px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item.sale-personal-order-detail-block-change-history-header .sale-personal-order-detail-block-change-history-text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-pages .sale-personal-order-detail-block-change-history-page[data-expanded=false] {
+  display: none;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-pagination {
+  text-align: center;
+  margin-top: 24px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-pagination .sale-personal-order-detail-block-change-history-pagination-wrap {
+  display: inline-block;
+  vertical-align: top;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-pagination .sale-personal-order-detail-block-change-history-pagination-item {
+  display: block;
+  background-color: transparent;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.42857143;
+  text-align: center;
+  padding: 6px;
+  margin: 4px;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  color: #2d2d2d;
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: color, background-color, border-color;
+  -moz-transition-property: color, background-color, border-color;
+  -ms-transition-property: color, background-color, border-color;
+  -o-transition-property: color, background-color, border-color;
+  transition-property: color, background-color, border-color;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-pagination .sale-personal-order-detail-block-change-history-pagination-item[data-active=true] {
+  color: #fff;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-pagination .sale-personal-order-detail-block-change-history-pagination-item[data-disabled=false] {
+  display: none;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-pagination .sale-personal-order-detail-block-change-history-pagination-item:hover {
+  background-color: #f7f7f7;
+  border-color: #f7f7f7;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-pagination .sale-personal-order-detail-block-change-history-pagination-switch {
+  cursor: pointer;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-pagination .sale-personal-order-detail-block-change-history-pagination-switch[data-active=false] {
+  display: none;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-shipments .sale-personal-order-detail-block-shipment {
+  margin-bottom: 24px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-shipments .sale-personal-order-detail-block-shipment .sale-personal-order-detail-block-shipment-title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+  margin-bottom: 8px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-shipments .sale-personal-order-detail-block-shipment .sale-personal-order-detail-block-shipment-field {
+  font-size: 15px;
+  line-height: 22px;
+  color: #404040;
+  margin-bottom: 4px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-shipments .sale-personal-order-detail-block-shipment .sale-personal-order-detail-block-shipment-buttons {
+  margin: 16px 0;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-shipments .sale-personal-order-detail-block-shipment .sale-personal-order-detail-block-shipment-buttons .sale-personal-order-detail-block-shipment-button {
+  padding: 12px 22px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-width: 1px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-shipments .sale-personal-order-detail-block-shipment .sale-personal-order-detail-block-shipment-store .sale-personal-order-detail-block-shipment-store-title {
+  font-size: 15px;
+  line-height: 22px;
+  color: #404040;
+  margin-bottom: 16px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-shipments .sale-personal-order-detail-block-shipment .sale-personal-order-detail-block-shipment-store .sale-personal-order-detail-block-shipment-store-map {
+  margin-bottom: 16px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-shipments .sale-personal-order-detail-block-shipment .sale-personal-order-detail-block-shipment-store .sale-personal-order-detail-block-shipment-store-address {
+  font-size: 15px;
+  line-height: 22px;
+  color: #404040;
+  margin-bottom: 16px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-user .sale-personal-order-detail-block-user-field .sale-personal-order-detail-block-user-field-header {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-user .sale-personal-order-detail-block-user-field .sale-personal-order-detail-block-user-field-text {
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+  word-break: break-word;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-information .sale-personal-order-detail-block-information-field {
+  margin-bottom: 24px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-information .sale-personal-order-detail-block-information-field .sale-personal-order-detail-block-information-field-header {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-information .sale-personal-order-detail-block-information-field .sale-personal-order-detail-block-information-field-text {
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+  word-break: break-word;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-items .sale-personal-order-detail-block-claims-item {
+  padding: 16px 0;
+  border-bottom: 1px solid #E8E8E8;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-items .sale-personal-order-detail-block-claims-item:last-child {
+  border-bottom: none;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-text {
+  flex-basis: 100%;
+  font-size: 13px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-text[data-code=id] {
+  max-width: 170px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-text[data-code=theme] {
+  max-width: 200px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-text[data-code=date] {
+  max-width: 145px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-text .sale-personal-order-detail-block-claims-text-header {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+  padding-right: 8px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-header {
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 12px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-header .sale-personal-order-detail-block-claims-text {
+  font-weight: 500;
+  color: #808080;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-empty {
+  font-size: 13px;
+  line-height: 18px;
+  color: #404040;
+  margin-bottom: 24px;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-buttons {
+  margin: 16px 0 8px 0;
+}
+.ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-buttons .sale-personal-order-detail-block-claims-button {
+  padding: 12px 22px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-width: 1px;
+}
+@media all and (min-width: 451px) {
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item .sale-personal-order-detail-block-change-history-text .sale-personal-order-detail-block-change-history-text-header {
+    display: none;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-text .sale-personal-order-detail-block-claims-text-header {
+    display: none;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product.sale-personal-order-detail-block-product-mobile {
+    display: none;
+  }
+}
+@media all and (max-width: 450px) {
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-header .sale-personal-order-detail-header-top {
+    padding: 16px;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-header .sale-personal-order-detail-header-bottom {
+    padding: 16px;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-blocks .sale-personal-order-detail-block .sale-personal-order-detail-block-title {
+    padding: 16px;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-blocks .sale-personal-order-detail-block .sale-personal-order-detail-block-content {
+    padding: 16px;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products {
+    margin: 0;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product {
+    padding: 16px 0;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product.sale-personal-order-detail-block-product-header, .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product.sale-personal-order-detail-block-product-desktop {
+    display: none;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-products .sale-personal-order-detail-block-product .sale-personal-order-detail-block-product-item {
+    flex-basis: auto;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item .sale-personal-order-detail-block-change-history-text[data-code=date], .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item .sale-personal-order-detail-block-change-history-text[data-code=operation] {
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item .sale-personal-order-detail-block-change-history-text[data-code=description] {
+    max-width: 100%;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-change-history .sale-personal-order-detail-block-change-history-item.sale-personal-order-detail-block-change-history-header {
+    display: none;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-text[data-code=id], .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-text[data-code=theme] {
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-text[data-code=date] {
+    max-width: 100%;
+  }
+  .ns-bitrix.c-sale-personal-order-detail.c-sale-personal-order-detail-template-1 .sale-personal-order-detail-block-claims .sale-personal-order-detail-block-claims-header {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

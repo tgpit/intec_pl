@@ -1,0 +1,207 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-section-list';
+$template: 'catalog-tile-8';
+$class: #{$component};
+$item: #{$class}-item;
+
+$black-header: #1B1E25;
+$black-text: #404040;
+$gray-text-light: #B0B0B0;
+$gray-text-dark: #808080;
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  padding-top: 1px;
+
+  .#{$item} {
+    margin-top: -1px;
+    margin-left: -1px;
+    border: 1px solid #F2F2F2;
+    @include transition(1s, box-shadow);
+
+    &:hover {
+      box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+
+      .#{$item}-wrapper {
+        padding-bottom: 78px;
+      }
+      .#{$item}-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+
+        -webkit-animation: show 1s;
+        animation: show 1s;
+      }
+      .#{$item}-children {
+        display: block;
+      }
+
+      .#{$item}-picture {
+        -webkit-animation: hide 1s;
+        animation: hide 1s;
+      }
+
+      .#{$item}-button-wrap {
+        display: block;
+      }
+    }
+  }
+  .#{$item}-wrapper {
+    font-size: 0;
+    padding: 60px 20px;
+    position: relative;
+    height: 100%;
+  }
+  .#{$item}-picture-wrap {
+    width: 100%;
+    text-align: center;
+  }
+  .#{$item}-picture {
+    display: block;
+    width: 104px;
+    height: 104px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    -webkit-animation: show 1s;
+    animation: show 1s;
+  }
+  .#{$item}-content {
+    text-align: center;
+    position: relative;
+    background: #fff;
+  }
+  .#{$item}-content-wrapper {
+    height: 100%;
+  }
+  .#{$item}-name {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    height: 18px;
+    overflow: hidden;
+    color: $black-text;
+    text-decoration: none;
+    @include transition(350ms, color);
+
+    span {
+      color: $gray-text-light;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+      vertical-align: middle;
+      display: inline-block;
+      margin-left: 8px;
+    }
+  }
+  .#{$item}-children {
+    display: none;
+    margin-top: 13px;
+    overflow: hidden;
+    @include transition(350ms, height);
+  }
+  .#{$item}-child {
+    & + .#{$item}-child {
+      margin-top: 12px;
+    }
+  }
+  .#{$item}-child-name {
+    font-size: 13px;
+    line-height: 18px;
+    color: $black-header;
+    text-decoration: none;
+    @include transition(350ms, color);
+
+    &:hover {
+      color: $black-text !important;
+    }
+  }
+  .#{$item}-child-count {
+    font-size: 13px;
+    line-height: 18px;
+    color: $gray-text-dark;
+    padding-left: 4px;
+    opacity: 0.4;
+  }
+  .#{$item}-button-wrap {
+    display: none;
+  }
+  .#{$item}-button {
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-top: 16px;
+    border-bottom: 1px dashed $gray-text-light;
+    white-space: nowrap;
+    cursor: pointer;
+    @include user-select(none);
+    @include transition(350ms, border-color);
+
+
+    & > div {
+      display: inline-block;
+      vertical-align: middle;
+
+      & + div {
+        margin-left: 4px;
+      }
+    }
+  }
+  .#{$item}-button-decoration {
+    position: relative;
+    width: 7px;
+    height: 7px;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      background-color: $gray-text-dark;
+      @include transition(350ms, transform);
+    }
+    &::before {
+      top: 3px;
+      left: 0;
+      right: 0;
+      bottom: 3px;
+      height: 1px;
+    }
+    &::after {
+      top: 0;
+      left: 3px;
+      right: 3px;
+      bottom: 0;
+      width: 1px;
+    }
+  }
+  .#{$item}-button-text,
+  .#{$item}-button-count {
+    font-size: 12px;
+    line-height: 12px;
+    color: $gray-text-dark;
+  }
+}

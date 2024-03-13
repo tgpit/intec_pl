@@ -1,0 +1,94 @@
+$component: 'header';
+$template: 'template-1';
+$class: #{$component};
+
+.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-authorization-panel {
+
+    .widget-authorization-modal {
+      display: none;
+    }
+
+    .widget-authorization-personal {
+      position: relative;
+
+      [data-role="arrow"] {
+        transform: rotateZ(180deg);
+      }
+
+      &[data-expanded="true"] {
+
+        .widget-authorization-personal-menu {
+          opacity: 1;
+          pointer-events: all;
+        }
+      }
+    }
+
+    .widget-authorization-personal-button {
+      cursor: pointer;
+    }
+
+    .widget-authorization-personal-text {
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 13px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .widget-authorization-personal-menu {
+      position: absolute;
+      opacity: 0;
+      top: 100%;
+      left: -50px;
+      right: -20px;
+      padding-top: 10px;
+      white-space: normal;
+      z-index: 2;
+      transition: all 0.3s;
+      pointer-events: none;
+    }
+
+    .widget-authorization-buttons {
+      display: block;
+      background: #fff;
+      box-shadow: 0px 8px 32px rgba(27, 30, 37, 0.08);
+    }
+
+    .widget-authorization-button {
+      display: block;
+      position: relative;
+      border-bottom: 1px solid #f2f2f2;
+      color: #404040;
+      cursor: pointer;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: #fbfcfd;
+      }
+
+      &[data-selected="true"] {
+        .widget-authorization-button-text {
+          font-weight: 600;
+        }
+      }
+    }
+
+    .widget-authorization-button-text {
+      display: block;
+      position: relative;
+      padding: 16px 20px;
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: normal;
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}

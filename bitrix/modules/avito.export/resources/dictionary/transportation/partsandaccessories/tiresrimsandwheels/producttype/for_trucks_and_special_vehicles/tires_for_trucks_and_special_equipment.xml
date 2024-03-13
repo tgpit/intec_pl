@@ -1,0 +1,43 @@
+<ProductType>
+	<Quantity name="за 1 шт."></Quantity>
+	<Quantity name="за 2 шт."></Quantity>
+	<Quantity name="за 3 шт."></Quantity>
+	<Quantity name="за 4 шт."></Quantity>
+	<Quantity name="за 5 шт."></Quantity>
+	<Quantity name="за 6 шт."></Quantity>
+	<Quantity name="за 7 шт."></Quantity>
+	<Quantity name="за 8 шт."></Quantity>
+	<VehicleType name="Грузовая">
+		<TireType name="Всесезонные"></TireType>
+		<TireType name="Летние"></TireType>
+		<TireType name="Зимние нешипованные"></TireType>
+		<TireType name="Зимние шипованные"></TireType>
+		<SpeedIndex name="D"></SpeedIndex>
+		<SpeedIndex name="E"></SpeedIndex>
+		<SpeedIndex name="F"></SpeedIndex>
+		<SpeedIndex name="G"></SpeedIndex>
+		<SpeedIndex name="J"></SpeedIndex>
+		<SpeedIndex name="K"></SpeedIndex>
+		<SpeedIndex name="L"></SpeedIndex>
+		<SpeedIndex name="M"></SpeedIndex>
+		<SpeedIndex name="N"></SpeedIndex>
+		<SpeedIndex name="P"></SpeedIndex>
+		<SpeedIndex name="Q"></SpeedIndex>
+		<SpeedIndex name="R"></SpeedIndex>
+		<SpeedIndex name="S"></SpeedIndex>
+		<SpeedIndex name="T"></SpeedIndex>
+		<WheelAxle name="Рулевая"></WheelAxle>
+		<WheelAxle name="Ведущая"></WheelAxle>
+		<WheelAxle name="Прицепная"></WheelAxle>
+		<WheelAxle name="Рулевая/Прицепная"></WheelAxle>
+		<WheelAxle name="Универсальная"></WheelAxle>
+	</VehicleType>
+	<VehicleType name="Для спецтехники">
+		<Design name="Пневматическая"></Design>
+		<Design name="Цельнолитая"></Design>
+		<Construction name="Диагональный"></Construction>
+		<Construction name="Радиальный"></Construction>
+		<TubeType name="Камерная"></TubeType>
+		<TubeType name="Бескамерная"></TubeType>
+	</VehicleType>
+</ProductType>

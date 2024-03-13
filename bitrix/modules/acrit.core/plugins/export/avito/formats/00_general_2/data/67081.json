@@ -1,0 +1,748 @@
+{
+    "name": "Дом, вилла",
+    "id": 67081,
+    "show_fields": true,
+    "fields": {
+        "node_name": "Дом, вилла",
+        "field_groups": [
+            {
+                "name": "Общие элементы",
+                "fields": [
+                    {
+                        "tag": "Id",
+                        "id": 246344,
+                        "description": "Уникальный идентификатор объявления в вашей базе данных – строка до 100 символов.\n\nУ одного и того же объявления должен сохраняться один и тот же идентификатор от файла к файлу. Несоблюдение этого правила приведет к блокировке повторяющихся объявлений сайтом Авито.\n\nДля размещения нового объявления необходимо использовать новый идентификатор.",
+                        "required": true,
+                        "type": "input",
+                        "example": "<Id>xjfdge4735202<\/Id>"
+                    },
+                    {
+                        "tag": "DateBegin",
+                        "id": 248779,
+                        "description": "Дата и время начала размещения\n\nМожно указать одним из двух способов по стандарту [ISO 8601](https:\/\/ru.wikipedia.org\/wiki\/ISO_8601):\n\n — только дата в формате «YYYY-MM-DD», тогда публикация произойдёт в начале дня по Москве;\n\n — дата и время в формате «YYYY-MM-DDTHH:mm:ss+hh:mm», тогда публикация произойдёт с точностью до часа.\n\nУже размещённое объявление снимется с публикации, если дата из DateBegin ещё не наступила. В неё оно будет снова опубликовано.\n\nЕсли к наступлению даты автозагрузка выключена или тариф не оплачен, публикация не произойдёт.\n\nЧерез DateBegin объявление опубликуется вне зависимости от расписания загрузки.",
+                        "required": false,
+                        "type": "input",
+                        "example": "<DateBegin>2015-12-24<\/DateBegin>\n\n<DateBegin>2017-04-06T21:58:00+03:00<\/DateBegin>"
+                    },
+                    {
+                        "tag": "DateEnd",
+                        "id": 250415,
+                        "description": "Дата и время окончания размещения\n\nМожно указать одним из двух способов по стандарту [ISO 8601](https:\/\/ru.wikipedia.org\/wiki\/ISO_8601):\n\n — только дата в формате «YYYY-MM-DD», тогда снятие с публикации произойдёт в конце дня по Москве;\n\n — дата и время в формате «YYYY-MM-DDTHH:mm:ss+hh:mm», тогда снятие с публикации произойдёт с точностью до часа.\n\nЕсли указано значение в прошлом, объявление не будет обработано.",
+                        "required": false,
+                        "type": "input",
+                        "example": "<DateEnd>2042-12-24<\/DateEnd>\n\n<DateEnd>2024-04-06T21:58:00+03:00<\/DateEnd>"
+                    },
+                    {
+                        "tag": "ListingFee",
+                        "id": 250416,
+                        "description": "Вариант [платного размещения](https:\/\/support.avito.ru\/partitions\/63) ",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Package",
+                                "description": "размещение объявления осуществляется только при наличии подходящего пакета размещения"
+                            },
+                            {
+                                "value": "PackageSingle",
+                                "description": "при наличии подходящего пакета оплата размещения объявления произойдет с него; если нет подходящего пакета, но достаточно денег на кошельке Авито, то произойдет разовое размещение"
+                            },
+                            {
+                                "value": "Single",
+                                "description": "только разовое размещение, произойдет при наличии достаточной суммы на кошельке Авито; если есть подходящий пакет размещения, он будет проигнорирован"
+                            }
+                        ],
+                        "default": {
+                            "value": "Package"
+                        },
+                        "example": "<ListingFee>PackageSingle<\/ListingFee>"
+                    },
+                    {
+                        "tag": "AdStatus",
+                        "id": 250419,
+                        "description": "Услуга продвижения\n\nЧтобы услуга подключилась, в кошельке на Авито должно быть достаточно рублей или бонусов.\n\nЗа загрузку к объявлению можно подключить только одну услугу. Пока она действует, добавить ещё одну такую же не получится. Если вы попробуете это сделать, они подключатся по очереди. Разные услуги, которые увеличивают просмотры, тоже не сочетаются друг с другом.",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Free",
+                                "description": "обычное объявление, услуги не подключаются"
+                            },
+                            {
+                                "value": "Highlight",
+                                "description": "«Выделение цветом» (действует 7 дней)"
+                            },
+                            {
+                                "value": "XL",
+                                "description": "«XL-объявление» (действует 7 дней)"
+                            },
+                            {
+                                "value": "x2_1",
+                                "description": "«До 2 раз больше просмотров на 1 день»"
+                            },
+                            {
+                                "value": "x2_7",
+                                "description": "«До 2 раз больше просмотров на 7 дней»"
+                            },
+                            {
+                                "value": "x5_1",
+                                "description": "«До 5 раз больше просмотров на 1 день»"
+                            },
+                            {
+                                "value": "x5_7",
+                                "description": "«До 5 раз больше просмотров на 7 дней»"
+                            },
+                            {
+                                "value": "x10_1",
+                                "description": "«До 10 раз больше просмотров на 1 день»"
+                            },
+                            {
+                                "value": "x10_7",
+                                "description": "«До 10 раз больше просмотров на 7 дней»."
+                            },
+                            {
+                                "value": "x15_1",
+                                "description": "«До 15 раз больше просмотров на 1 день». Доступно в некоторых регионах и категориях."
+                            },
+                            {
+                                "value": "x15_7",
+                                "description": "«До 15 раз больше просмотров на 7 дней». Доступно в некоторых регионах и категориях."
+                            },
+                            {
+                                "value": "x20_1",
+                                "description": "«До 20 раз больше просмотров на 1 день». Доступно в некоторых регионах и категориях."
+                            },
+                            {
+                                "value": "x20_7",
+                                "description": "«До 20 раз больше просмотров на 7 дней». Доступно в некоторых регионах и категориях."
+                            }
+                        ],
+                        "default": {
+                            "value": "Free"
+                        },
+                        "example": "<AdStatus>x10_7<\/AdStatus>"
+                    },
+                    {
+                        "tag": "AvitoId",
+                        "id": 250417,
+                        "description": "Номер объявления на Авито — целое число.\n\nЕсли вы размещали объявления вручную, а теперь хотите управлять ими с помощью Автозагрузки, то возможны 2 основных варианта.\n\nВариант 1 — воспользоваться включаемым по умолчанию режимом автоматической связки объявлений (подробнее смотрите в разделе [«Вопросы и ответы»](https:\/\/avito.ru\/autoload\/documentation#howToStartAutoload)). К сожалению, в этом варианте неизбежен определенный процент ошибок.\n\nВариант 2 — чтобы избежать ошибок автоматической связки, можно указать в XML-файле в элементах AvitoId номера ранее размещенных объявлений. При корректных данных с вашей стороны, функционал позволит полностью избежать проблем с блокировкой объявлений за дубли и повторной оплаты размещения.\n\n*Важно:* если есть сложности с добавлением отдельного элемента в XML, можно указать ссылку на номер объявления внутри элементов Description в следующем формате: «AvitoId: XXX» (где «XXX» — номер объявления). Эта информация в объявлениях на сайте отображаться не будет.\nПри указании AvitoId и в описании объявления, и отдельным тегом, значение в Description игнорируется.",
+                        "required": false,
+                        "type": "input",
+                        "example": "**Вариант 1. Отдельный элемент**\n<AvitoId>742817810<\/AvitoId>\n\n**Вариант 2. Внутри элемента Description**\n<Description>\nАвтомобиль покупался новым в мае 2013 года, все ТО пройдены по регламенту.\nAvitoId: 742817810\n<\/Description>"
+                    },
+                    {
+                        "tag": "ManagerName",
+                        "id": 250421,
+                        "description": "Имя менеджера, контактного лица компании по данному объявлению — строка не более 40 символов.",
+                        "required": false,
+                        "type": "input",
+                        "example": "<ManagerName>Иван Петров-Водкин<\/ManagerName>"
+                    },
+                    {
+                        "tag": "ContactPhone",
+                        "id": 250424,
+                        "description": "Контактный телефон — строка, содержащая только один российский номер телефона. Обязательно указать код города или мобильного оператора:\n\n — Код города должен указываться с +7 или 8 в начале\n\n — Код мобильного оператора можно без 8 и 7 в начале\n\nКорректные примеры:\n\n — +7 (495) 777-10-66\n\n — (81374) 4-55-75\n\n — 8 905 207 04 90\n\n — +7 905 2070490\n\n — 88123855085",
+                        "required": false,
+                        "type": "input",
+                        "example": "<ContactPhone>+7 495 777-10-66<\/ContactPhone>"
+                    },
+                    {
+                        "tag": "Description",
+                        "id": 254137,
+                        "description": "Текстовое описание объявления в соответствии с [правилами Авито](https:\/\/support.avito.ru\/sections\/139) — строка не более 7500 символов.\n\n Для объявлений, параметры которых соответствуют оплаченному [тарифу](https:\/\/www.avito.ru\/business\/tariffs), вы можете использовать дополнительное форматирование с помощью HTML-тегов. Для формата XML описание должно быть внутри [CDATA](https:\/\/ru.wikipedia.org\/wiki\/CDATA#CDATA_.D0.B2_XML). Использовать можно только HTML-теги из списка: p, br, strong, em, ul, ol, li. \n\n**Важно:**\n\n — Тег n (перенос строки) преобразуется в br, поэтому при использовании CDATA интервалы между абзацами будут увеличены\n\n — В секции CDATA распознается только один элемент разметки&nbsp;–&nbsp;строка CDEnd. Поэтому все символы левой угловой скобки и амперсанда могут предстать здесь в своем обычном текстовом виде. Эти символы не нужно маскировать с помощью комбинаций '\\&lt;', '\\&gt;' и '\\&amp;'.",
+                        "required": true,
+                        "type": "input",
+                        "example": "<Description>Новая, просторная, светлая и уютная квартира с ремонтом и большим холодильником. Комнаты изолированные, 11 и 10 метров, кухня 3 метра с балконом.<\/Description>\n\n**Пример с использованием HTML-тегов**\n<Description>\n<![CDATA[\n<p>Сдается в аренду офис от собственника (без комиссии) класса A (300м2),внутри помещения выделены 2 отдельных кабинета, а также кухня-кладовка. Здание бизнес-центра находится в 3 минутах пешком от м.Белорусская, первая линия домов, развитая транспортная сеть. Без мебели, кондиционеры, панорамное остекление, 3 этаж, 2 санузла на этаже.<\/p>\n<p><strong>Важно:<\/strong><\/p>\n<ul>\n<li>Здание без лифта.\n<li>Столовая, кафетерий.\n<li>Коммунальные платежи включены в стоимость арендной платы.\n<li>Интернет, телефон оплачиваются отдельно. Провайдеры: телеру, Хайтек.\n<li>Прямая аренда с предоставлением <em>юридического адреса<\/em>. \n<li>Парковка.\n<\/ul>\n]]\n<Description>"
+                    },
+                    {
+                        "tag": "Images",
+                        "id": 283321,
+                        "description": "Фотографии — вложенные элементы, по одному элементу «Image» на каждое изображение. На файл фотографии можно ссылаться с помощью (указание обоих атрибутов не допускается):\n\n— прямой HTTP-ссылки или ссылки на Яндекс Диск ([подробнее](https:\/\/www.avito.ru\/autoload\/documentation#yandexDiskPublicLinks)) — атрибут «url»;\n\n— названия файла с указанием расширения — атрибут «name». Такой способ используется при загрузке файла с объявлениями и архива с фотографиями вручную через Личный кабинет.\n\nДопустимые графические форматы: [JPEG](https:\/\/ru.wikipedia.org\/wiki\/JPEG), [PNG](https:\/\/ru.wikipedia.org\/wiki\/PNG).\n\nМаксимальный размер одного изображения – 25 Мб.\n\nК одному объявлению можно добавить не более 40 фотографий, остальные будут проигнорированы.\n\nПри загрузке фото по ссылке проверьте, что изображение уже доступно и его можно открыть или скачать.\n\nЧтобы изменить фотографию в объявлении, используйте другую ссылку. Новое изображение по прежнему url-адресу не будет загружено.",
+                        "required": false,
+                        "type": "input",
+                        "example": "<Images>\n    <Image url=\"http:\/\/img.test.ru\/8F7B-4A4F3A0F2BA1.jpg\" \/>\n    <Image url=\"http:\/\/img.test.ru\/8F7B-4A4F3A0F2XA3.jpg\" \/>\n<\/Images>\n\n\n<Images>\n    <Image name=\"a1.jpg\"\/>\n    <Image name=\"a2.jpg\"\/>\n    <Image name=\"a3.jpg\"\/>\n<\/Images>"
+                    },
+                    {
+                        "tag": "VideoURL",
+                        "id": 283327,
+                        "description": "Видео - ссылка в формате\n\n — https:\/\/www.youtube.com\/watch?v=*** для Youtube\n\n — https:\/\/rutube.ru\/video\/***\/ для Rutube",
+                        "required": false,
+                        "type": "input",
+                        "example": "<VideoURL>https:\/\/www.youtube.com\/watch?v=YKmDXNrDdBI<\/VideoURL>"
+                    }
+                ]
+            },
+            {
+                "name": "Местоположение",
+                "fields": [
+                    {
+                        "tag": "Address",
+                        "id": 293123,
+                        "description": "Полный адрес объекта — строка до 256 символов.\n Является альтернативой элементам **Latitude**, **Longitude**",
+                        "required": true,
+                        "type": "input",
+                        "example": "````xml\n<Address>Тамбовская область, Моршанск, Лесная улица, 7<\/Address>\n```"
+                    },
+                    {
+                        "tag": "Latitude",
+                        "id": 293139,
+                        "description": "Географические координаты (для указания точки на карте), [в градусах — десятичные дроби](https:\/\/ru.wikipedia.org\/wiki\/%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%82%D1%8B#.D0.A4.D0.BE.D1.80.D0.BC.D0.B0.D1.82.D1.8B_.D0.B7.D0.B0.D0.BF.D0.B8.D1.81.D0.B8_.D0.B3.D0.B5.D0.BE.D0.B3.D1.80.D0.B0.D1.84.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B8.D1.85_.D0.BA.D0.BE.D0.BE.D1.80.D0.B4.D0.B8.D0.BD.D0.B0.D1.82). \n**Является альтернативой элементу <Address>...<\/Address>.**",
+                        "required": false,
+                        "type": "input",
+                        "example": "````xml\n<Latitude>55.778669<\/Latitude>\n```"
+                    },
+                    {
+                        "tag": "Longitude",
+                        "id": 293155,
+                        "description": "Географические координаты (для указания точки на карте), [в градусах — десятичные дроби](https:\/\/ru.wikipedia.org\/wiki\/%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%82%D1%8B#.D0.A4.D0.BE.D1.80.D0.BC.D0.B0.D1.82.D1.8B_.D0.B7.D0.B0.D0.BF.D0.B8.D1.81.D0.B8_.D0.B3.D0.B5.D0.BE.D0.B3.D1.80.D0.B0.D1.84.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B8.D1.85_.D0.BA.D0.BE.D0.BE.D1.80.D0.B4.D0.B8.D0.BD.D0.B0.D1.82). \n**Является альтернативой элементу <Address>...<\/Address>.**",
+                        "required": false,
+                        "type": "input",
+                        "example": "````xml\n<Longitude>37.587964<\/Longitude>\n```"
+                    }
+                ]
+            },
+            {
+                "name": "Способ связи",
+                "fields": [
+                    {
+                        "tag": "ContactMethod",
+                        "id": 289557,
+                        "description": "Способ связи  \n\n*Примечание:* ранее аналогичный элемент назывался AllowEmail, в нем «Да» соответствует «По телефону и в сообщениях, а «Нет» – «По телефону». Указанные в AllowEmail значения продолжают обрабатываться Автозагрузкой. Если вы хотите изменить способ связи, то используйте для этого элемент ContactMethod.",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "По телефону и в сообщениях"
+                            },
+                            {
+                                "value": "По телефону"
+                            },
+                            {
+                                "value": "В сообщениях"
+                            }
+                        ],
+                        "default": {
+                            "value": "По телефону и в сообщениях"
+                        },
+                        "example": "````xml\n<ContactMethod>В сообщениях<\/ContactMethod>\n```"
+                    }
+                ]
+            },
+            {
+                "name": "Общие параметры",
+                "fields": [
+                    {
+                        "tag": "Category",
+                        "id": 294515,
+                        "description": "Категория объявления",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Недвижимость за рубежом"
+                            }
+                        ],
+                        "example": "```xml\n<Category>Недвижимость за рубежом<\/Category>\n```"
+                    },
+                    {
+                        "tag": "Price",
+                        "id": 290709,
+                        "description": "Цена объекта в рублях — целое число",
+                        "required": true,
+                        "type": "input",
+                        "example": "```xml\n<Price>10000<\/Price>\n```"
+                    }
+                ]
+            },
+            {
+                "name": "Параметры недвижимости",
+                "fields": [
+                    {
+                        "tag": "OperationType",
+                        "id": 205,
+                        "description": "Тип товара",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Продам"
+                            }
+                        ],
+                        "example": "```xml\n<OperationType>Продам<\/OperationType>\n```"
+                    },
+                    {
+                        "tag": "Country",
+                        "id": 120265,
+                        "description": "Страна за рубежом",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values_link": "\/web\/1\/autoload\/user-docs\/category\/67081\/field\/120265\/values-xml",
+                        "example": "```xml\n<Country>Уругвай<\/Country>\n```"
+                    },
+                    {
+                        "tag": "Rooms",
+                        "id": 120328,
+                        "description": "Количество комнат",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Студия"
+                            },
+                            {
+                                "value": "Своб. планировка"
+                            },
+                            {
+                                "value": "1"
+                            },
+                            {
+                                "value": "2"
+                            },
+                            {
+                                "value": "3"
+                            },
+                            {
+                                "value": "4"
+                            },
+                            {
+                                "value": "5"
+                            },
+                            {
+                                "value": "6"
+                            },
+                            {
+                                "value": "7"
+                            },
+                            {
+                                "value": "8"
+                            },
+                            {
+                                "value": "9"
+                            },
+                            {
+                                "value": "10 и больше"
+                            }
+                        ],
+                        "example": "```xml\n<Rooms>Студия<\/Rooms>\n```"
+                    },
+                    {
+                        "tag": "Square",
+                        "id": 120332,
+                        "description": "Общая площадь объекта недвижимости, выставленная на продажу, в кв. метрах — десятичное число.",
+                        "required": false,
+                        "type": "input",
+                        "example": "```xml\n<Square>65.5<\/Square>\n```"
+                    },
+                    {
+                        "tag": "LandArea",
+                        "id": 120334,
+                        "description": "Площадь участка, в сотках — десятичное число.  В недвижимости за рубежом – в квадратных метрах.",
+                        "required": false,
+                        "type": "input",
+                        "example": "```xml\n<LandArea>6.5<\/LandArea>\n```"
+                    },
+                    {
+                        "tag": "Floors",
+                        "id": 120339,
+                        "description": "Количество этажей в доме — целое число.",
+                        "required": false,
+                        "type": "range",
+                        "values_title": "Допустимый интервал",
+                        "values_range": {
+                            "min": 1
+                        },
+                        "example": "```xml\n<Floors>16<\/Floors>\n```"
+                    },
+                    {
+                        "tag": "ForeignCity",
+                        "id": 120267,
+                        "description": "Город, в котором находится объект объявления — в соответствии со значениями из [справочника](https:\/\/autoload.avito.ru\/format\/foreign_countries.xml). Если нужного города нет в справочнике, следует выбрать ближайший или написать на ForeignRealty@avito.ru с просьбой добавить нужный вам город.   ",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values_link": "https:\/\/autoload.avito.ru\/format\/foreign_countries.xml",
+                        "example": "```xml\n<ForeignCity>Берлин<\/ForeignCity>\n```"
+                    },
+                    {
+                        "tag": "BathroomCount",
+                        "id": 120329,
+                        "description": "Количество санузлов. Для объектов типа (\"ObjectType\") \"Квартира, апартаменты\", \"Дом, вилла\"\n\n- 1\n- 2\n- 3\n- 4 и больше",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "1"
+                            },
+                            {
+                                "value": "2"
+                            },
+                            {
+                                "value": "3"
+                            },
+                            {
+                                "value": "4 и больше"
+                            }
+                        ],
+                        "example": "```xml\n<BathroomCount>2<\/BathroomCount>\n```"
+                    },
+                    {
+                        "tag": "Courtyard",
+                        "id": 120323,
+                        "description": "Двор - вложенные элементы <Option> с возможными значениями из списка.",
+                        "required": false,
+                        "type": "checkbox",
+                        "values_title": "Одно или несколько значений",
+                        "values": [
+                            {
+                                "value": "Закрытая территория"
+                            },
+                            {
+                                "value": "Детская площадка"
+                            },
+                            {
+                                "value": "Спортивная площадка"
+                            },
+                            {
+                                "value": "Зоны отдыха"
+                            },
+                            {
+                                "value": "Бассейн"
+                            }
+                        ],
+                        "example": "```xml\n<Courtyard>\n<Option>Закрытая территория<\/Option>\n<Option>Детская площадка<\/Option>\n<Option>Спортивная площадка<\/Option>\n<\/Courtyard>\n```"
+                    },
+                    {
+                        "tag": "Elevator",
+                        "id": 120408,
+                        "description": "Наличие лифта. Для объектов типа (\"ObjectType\") \"Квартира, апартаменты\", \"Дом, вилла\".",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Да"
+                            },
+                            {
+                                "value": "Нет"
+                            }
+                        ],
+                        "example": "```xml\n<Elevator>Да<\/Elevator>\n```"
+                    },
+                    {
+                        "tag": "Heating",
+                        "id": 118814,
+                        "description": "Отопление (только для объявлений в категории \"Коммерческая недвижимость\" с видом объекта (ObjectType) \"Гостиница\", \"Помещение общественного питания\", \"Помещение свободного назначения\", \"Производственное помещение\", \"Складское помещение\", \"Торговое помещение\", \"Автосервис\", \"Здание\") и для категории \"Недвижимость за рубежом\" с типом объекта (\"ObjectType\") \"Квартира, апартаменты\", \"Дом, вилла\", \"Коммерческая недвижимость\"",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Нет"
+                            },
+                            {
+                                "value": "Центральное"
+                            },
+                            {
+                                "value": "Автономное"
+                            }
+                        ],
+                        "example": "```xml\n<Heating>Центральное<\/Heating>\n```"
+                    },
+                    {
+                        "tag": "ForeignRealtyAdditionally",
+                        "id": 120412,
+                        "description": "Удобства – только для объектов с типом (\"ObjectType\") \"Квартира, апартаменты\", \"Дом, вилла\".",
+                        "required": false,
+                        "type": "checkbox",
+                        "values_title": "Одно или несколько значений",
+                        "values": [
+                            {
+                                "value": "Бытовая техника"
+                            },
+                            {
+                                "value": "Кондиционер"
+                            },
+                            {
+                                "value": "Гардеробная"
+                            },
+                            {
+                                "value": "Панорамные окна"
+                            },
+                            {
+                                "value": "Спортзал"
+                            },
+                            {
+                                "value": "Консьерж"
+                            }
+                        ],
+                        "example": "```xml\n<ForeignRealtyAdditionally>\n<Option>Спортзал<\/Option>\n<Option>Панорамные окна<\/Option>\n<\/ForeignRealtyAdditionally>\n```"
+                    },
+                    {
+                        "tag": "AirportDistance",
+                        "id": 120410,
+                        "description": "Расстояние до аэропорта в километрах. Для объектов типа (\"ObjectType\") \"Квартира, апартаменты\", \"Дом, вилла\", \"Коммерческая недвижимость\", \"Земельный участок\".\n\nЦелое число. ",
+                        "required": false,
+                        "type": "range",
+                        "values_title": "Допустимый интервал",
+                        "values_range": {
+                            "min": 0
+                        },
+                        "example": "```xml\n<AirportDistance>25<\/AirportDistance>\n```"
+                    },
+                    {
+                        "tag": "WaterDistance",
+                        "id": 120476,
+                        "description": "Расстояние до воды в метрах. Для объектов типа (\"ObjectType\") \"Квартира, апартаменты\", \"Дом, вилла\":\n\nЦелое число. ",
+                        "required": false,
+                        "type": "range",
+                        "values_title": "Допустимый интервал",
+                        "values_range": {
+                            "min": 0
+                        },
+                        "example": "```xml\n<WaterDistance>100<\/WaterDistance>\n```"
+                    },
+                    {
+                        "tag": "ResidenceAfterDeal",
+                        "id": 120322,
+                        "description": "ВНЖ при покупке.",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Нет"
+                            },
+                            {
+                                "value": "Есть"
+                            }
+                        ],
+                        "example": "```xml\n<ResidenceAfterDeal>Да<\/ResidenceAfterDeal>\n```"
+                    },
+                    {
+                        "tag": "СitizenshipAfterDeal",
+                        "id": 120325,
+                        "description": "Гражданство при покупке.",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Нет"
+                            },
+                            {
+                                "value": "Есть"
+                            }
+                        ],
+                        "example": "```xml\n<СitizenshipAfterDeal>Да<\/СitizenshipAfterDeal>\n```"
+                    },
+                    {
+                        "tag": "ForeignRealtySaleOptions",
+                        "id": 120324,
+                        "description": "Условия покупки.",
+                        "required": false,
+                        "type": "checkbox",
+                        "values_title": "Одно или несколько значений",
+                        "values": [
+                            {
+                                "value": "Возможна ипотека"
+                            },
+                            {
+                                "value": "Есть рассрочка"
+                            },
+                            {
+                                "value": "Можно оплатить в рублях"
+                            },
+                            {
+                                "value": "Доступна дистанционная покупка"
+                            }
+                        ],
+                        "example": "```xml\n<ForeignRealtySaleOptions>\n<Option>Возможен кредит<\/Option>\n<Option>Возможна рассрочка<\/Option>\n<\/ForeignRealtySaleOptions>\n```"
+                    },
+                    {
+                        "tag": "Investment",
+                        "id": 120337,
+                        "description": "Возможность для инвестиций.",
+                        "required": false,
+                        "type": "checkbox",
+                        "values_title": "Одно или несколько значений",
+                        "values": [
+                            {
+                                "value": "Услуги сдачи в аренду"
+                            },
+                            {
+                                "value": "Обратный выкуп"
+                            }
+                        ],
+                        "example": "```xml\n<Investment>\n<Option>Обратный выкуп<\/Option>\n<\/Investment>\n```"
+                    },
+                    {
+                        "tag": "Furniture",
+                        "id": 120477,
+                        "description": "Мебель",
+                        "required": false,
+                        "type": "checkbox",
+                        "values_title": "Одно или несколько значений",
+                        "values": [
+                            {
+                                "value": "Кухня"
+                            },
+                            {
+                                "value": "Ванная"
+                            },
+                            {
+                                "value": "Шкафы"
+                            },
+                            {
+                                "value": "Спальные места"
+                            }
+                        ],
+                        "example": "```xml\n<Furniture>\n<Option>Кухня<\/Option>\n<Option>Шкафы<\/Option>\n<Option>Спальные места<\/Option>\n<\/Furniture>\n```"
+                    },
+                    {
+                        "tag": "Infrastructure",
+                        "id": 118603,
+                        "description": "Инфраструктура",
+                        "required": false,
+                        "type": "checkbox",
+                        "values_title": "Одно или несколько значений",
+                        "values": [
+                            {
+                                "value": "Магазин"
+                            },
+                            {
+                                "value": "Аптека"
+                            },
+                            {
+                                "value": "Детский сад"
+                            },
+                            {
+                                "value": "Школа"
+                            }
+                        ],
+                        "example": "```xml\n<Infrastructure>\n<Option>Магазин<\/Option>\n<Option>Аптека<\/Option>\n<\/Infrastructure>\n```"
+                    },
+                    {
+                        "tag": "Parking",
+                        "id": 120652,
+                        "description": "Парковка",
+                        "required": false,
+                        "type": "checkbox",
+                        "values_title": "Одно или несколько значений",
+                        "values": [
+                            {
+                                "value": "Открытая"
+                            },
+                            {
+                                "value": "Закрытая"
+                            }
+                        ],
+                        "example": "```xml\n<Parking>\n<Option>Подземная<\/Option>\n<Option>Наземная многоуровневая<\/Option>\n<Option>За шлагбаумом во дворе<\/Option>\n<Option>Открытая во дворе<\/Option>\n<\/Parking>\n```"
+                    },
+                    {
+                        "tag": "SafeDemonstration",
+                        "id": 110546,
+                        "description": "Онлайн показ",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Могу провести"
+                            },
+                            {
+                                "value": "Не хочу"
+                            }
+                        ],
+                        "example": "```xml\n<SafeDemonstration>Могу провести<\/SafeDemonstration>\n```"
+                    },
+                    {
+                        "tag": "Currency",
+                        "id": 115629,
+                        "description": "Валюта цены. Становится обязательным, если заполнен атрибут CurrencyPrice.",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "RUB"
+                            },
+                            {
+                                "value": "USD"
+                            },
+                            {
+                                "value": "EUR"
+                            },
+                            {
+                                "value": "CNY"
+                            },
+                            {
+                                "value": "GBP"
+                            }
+                        ],
+                        "dependency": [
+                            "Обязательно, если поле CurrencyPrice заполнено"
+                        ],
+                        "example": "```xml\n<Currency>USD<\/Currency>\n```"
+                    },
+                    {
+                        "tag": "CurrencyPrice",
+                        "id": 115628,
+                        "description": "Цена в валюте. Если заполнен этот параметр, то параметр Price игнорируется.",
+                        "required": false,
+                        "type": "input",
+                        "example": "```xml\n<CurrencyPrice>1000000<\/CurrencyPrice>\n```"
+                    }
+                ]
+            },
+            {
+                "name": "Продам",
+                "fields": [
+                    {
+                        "tag": "ObjectType",
+                        "id": 535,
+                        "description": "Вид объекта",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Дом, вилла"
+                            }
+                        ],
+                        "example": "```xml\n<ObjectType>Квартира, апартаменты<\/ObjectType>\n```"
+                    },
+                    {
+                        "tag": "PropertyRights",
+                        "id": 2691,
+                        "description": "Право собственности",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Собственник"
+                            },
+                            {
+                                "value": "Посредник"
+                            }
+                        ],
+                        "example": "```xml\n<PropertyRights>Посредник<\/PropertyRights>\n```"
+                    }
+                ]
+            }
+        ],
+        "file_template": {
+            "xml": "https:\/\/files.avito.ru\/download\/?id=f36fbc5d-d6ea-4613-b7e0-bcd973243ae0",
+            "excel": "https:\/\/files.avito.ru\/download\/?id=08eafee3-d10b-42e3-b092-f9e01d98be2d"
+        },
+        "file_template_text": ""
+    }
+}

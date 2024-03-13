@@ -1,0 +1,3 @@
+<?php
+
+$MESS['C_PHOTO_SECTION_GALLERY_DEFAULT_1_TEMPLATE_BACK_DEFAULT'] = 'Назад к списку';

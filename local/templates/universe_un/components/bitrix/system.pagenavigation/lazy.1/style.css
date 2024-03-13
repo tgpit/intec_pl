@@ -1,0 +1,62 @@
+.ns-bitrix.c-system-pagenavigation.c-system-pagenavigation-lazy-1 .system-pagenavigation-button {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: 1px solid #F2F2F2;
+  background-color: #FFF;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ns-bitrix.c-system-pagenavigation.c-system-pagenavigation-lazy-1 .system-pagenavigation-button:hover .system-pagenavigation-button-icon {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.ns-bitrix.c-system-pagenavigation.c-system-pagenavigation-lazy-1 .system-pagenavigation-button-content {
+  font-size: 0;
+  text-align: center;
+  white-space: nowrap;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+.ns-bitrix.c-system-pagenavigation.c-system-pagenavigation-lazy-1 .system-pagenavigation-button-part {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.ns-bitrix.c-system-pagenavigation.c-system-pagenavigation-lazy-1 .system-pagenavigation-button-icon {
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
+  -ms-transition-property: transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+.ns-bitrix.c-system-pagenavigation.c-system-pagenavigation-lazy-1 .system-pagenavigation-button-icon svg {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  max-width: 18px;
+  max-height: 18px;
+}
+.ns-bitrix.c-system-pagenavigation.c-system-pagenavigation-lazy-1 .system-pagenavigation-button-name {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+}
+
+/*# sourceMappingURL=style.css.map */

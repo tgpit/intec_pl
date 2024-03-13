@@ -1,0 +1,61 @@
+.m-intec-seo.p-filter-conditions-blocks {
+  display: block;
+  padding: 15px 15px 15px 70px;
+  background: #fdfefe;
+  border: 1px solid #caced7;
+  border-radius: 4px;
+}
+.m-intec-seo.p-filter-conditions-blocks .filter-conditions-blocks-item {
+  display: block;
+  position: relative;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  background: #edf5f6;
+  border: 1px solid #c9cdd6;
+  border-radius: 4px;
+}
+.m-intec-seo.p-filter-conditions-blocks .filter-conditions-blocks-item-operator {
+  position: absolute;
+  top: -22px;
+  left: -37px;
+  bottom: auto;
+  right: auto;
+  color: #fff;
+  background: #696969;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 30px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.m-intec-seo.p-filter-conditions-blocks .filter-conditions-blocks-item-operator[data-operator=and] {
+  background: #9cbd6d;
+}
+.m-intec-seo.p-filter-conditions-blocks .filter-conditions-blocks-item-operator[data-operator=or] {
+  background: #88abc2;
+}
+.m-intec-seo.p-filter-conditions-blocks .filter-conditions-blocks-item-property {
+  display: block;
+  margin-bottom: 8px;
+}
+.m-intec-seo.p-filter-conditions-blocks .filter-conditions-blocks-link {
+  display: inline-block;
+  vertical-align: middle;
+  border-bottom: 1px dashed #113c7d;
+  color: #113c7d;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*# sourceMappingURL=blocks.css.map */

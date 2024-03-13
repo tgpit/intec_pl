@@ -1,0 +1,86 @@
+.widget.c-advantages.c-advantages-template-36 .widget-item {
+  position: relative;
+  margin-bottom: 80px;
+}
+.widget.c-advantages.c-advantages-template-36 .widget-item:last-child {
+  margin-bottom: 0;
+}
+.widget.c-advantages.c-advantages-template-36 .widget-item:nth-child(2n) .widget-item-picture {
+  left: initial;
+  right: 0;
+}
+.widget.c-advantages.c-advantages-template-36 .widget-item-text-wrap {
+  width: 60%;
+}
+.widget.c-advantages.c-advantages-template-36 .widget-item-picture {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  left: 0;
+}
+.widget.c-advantages.c-advantages-template-36 .widget-item-text {
+  background: rgba(27, 30, 37, 0.8);
+  backdrop-filter: blur(48px);
+  padding: 56px 48px;
+  margin: 158px 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.widget.c-advantages.c-advantages-template-36 .widget-item-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.widget.c-advantages.c-advantages-template-36 .widget-item-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.widget.c-advantages.c-advantages-template-36 .widget-item-name + .widget-item-description {
+  margin-top: 24px;
+}
+@media all and (max-width: 768px) {
+  .widget.c-advantages.c-advantages-template-36 .widget-item {
+    margin-bottom: 40px;
+  }
+  .widget.c-advantages.c-advantages-template-36 .widget-item-picture {
+    width: 100%;
+  }
+}
+@media all and (max-width: 500px) {
+  .widget.c-advantages.c-advantages-template-36 .widget-item {
+    margin-bottom: 20px;
+  }
+  .widget.c-advantages.c-advantages-template-36 .widget-item-text {
+    padding: 30px 30px;
+    margin: 70px 0;
+  }
+  .widget.c-advantages.c-advantages-template-36 .widget-item-name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .widget.c-advantages.c-advantages-template-36 .widget-item-description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

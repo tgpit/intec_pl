@@ -1,0 +1,3 @@
+<?php
+
+$MESS['C_NEWS_DETAIL_SHARES_DEFAULT_2_PRODUCTS_LIST_URL_TEXT'] = 'Все товары';

@@ -1,0 +1,138 @@
+.widget.c-services.c-services-template-19 .widget-sections {
+  border: 1px solid #F2F2F2;
+  background-color: #FFF;
+}
+.widget.c-services.c-services-template-19 .widget-section {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #808080;
+  padding: 20px 30px;
+  border-top: 1px solid #F2F2F2 !important;
+  border-right: 3px solid transparent;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: color, background-color, border-color;
+  -moz-transition-property: color, background-color, border-color;
+  -ms-transition-property: color, background-color, border-color;
+  -o-transition-property: color, background-color, border-color;
+  transition-property: color, background-color, border-color;
+}
+.widget.c-services.c-services-template-19 .widget-section:first-child {
+  border-top: none !important;
+}
+.widget.c-services.c-services-template-19 .widget-section:hover, .widget.c-services.c-services-template-19 .widget-section[data-active=true] {
+  color: #1B1E25;
+  background-color: #FBFCFD;
+}
+.widget.c-services.c-services-template-19 .widget-item {
+  background-color: #FFF;
+}
+.widget.c-services.c-services-template-19 .widget-item-content {
+  padding: 48px 80px 32px 48px;
+  border: 1px solid #f2f2f2;
+  overflow: hidden;
+}
+.widget.c-services.c-services-template-19 .widget-item-picture[data-size=default] {
+  width: 186px;
+}
+.widget.c-services.c-services-template-19 .widget-item-picture[data-size=small] {
+  width: 94px;
+}
+.widget.c-services.c-services-template-19 .widget-item-picture[data-size=svg] {
+  width: 56px;
+}
+.widget.c-services.c-services-template-19 .widget-item-picture-content {
+  padding-top: 56.25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.widget.c-services.c-services-template-19 .widget-item-picture-content[data-lazyload-use=true] {
+  background-color: #E7F1FF;
+}
+.widget.c-services.c-services-template-19 .widget-item-name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.44;
+  color: #404040;
+}
+.widget.c-services.c-services-template-19 .widget-item-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.86;
+  color: #808080;
+}
+.widget.c-services.c-services-template-19 .widget-item-child {
+  margin-top: 8px;
+}
+.widget.c-services.c-services-template-19 .widget-item-child:first-child {
+  margin-top: 0;
+}
+.widget.c-services.c-services-template-19 .widget-item-child-name {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.86;
+  text-decoration: none;
+}
+.widget.c-services.c-services-template-19 .widget-item-button {
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+  color: #404040;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 23px;
+  margin-top: -1px;
+  border: 1px solid #f2f2f2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: color, background-color, border-color;
+  -moz-transition-property: color, background-color, border-color;
+  -ms-transition-property: color, background-color, border-color;
+  -o-transition-property: color, background-color, border-color;
+  transition-property: color, background-color, border-color;
+}
+.widget.c-services.c-services-template-19 .widget-item-button:hover {
+  color: #fff;
+}
+.widget.c-services.c-services-template-19 div + .widget-item-children {
+  margin-top: 24px;
+}
+.widget.c-services.c-services-template-19 [data-role="services.content.item"] {
+  display: none;
+}
+.widget.c-services.c-services-template-19 [data-role="services.content.item"][data-active=true] {
+  display: block;
+}
+@media all and (max-width: 768px) {
+  .widget.c-services.c-services-template-19 .widget-item-content {
+    padding: 24px 24px 32px 24px;
+  }
+  .widget.c-services.c-services-template-19 .widget-item-picture[data-size=default], .widget.c-services.c-services-template-19 .widget-item-picture[data-size=small] {
+    width: auto;
+  }
+  .widget.c-services.c-services-template-19 div + .widget-sections {
+    margin-top: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

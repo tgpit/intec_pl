@@ -1,0 +1,12 @@
+.adm-submenu-item-link-icon.regionality-menu-icon {
+    background: url('../images/icons.png') no-repeat center 0;
+}
+.adm-submenu-item-link-icon.regionality-menu-icon-regions {
+    background: url('../images/icons.png') no-repeat center -28px;
+}
+.adm-submenu-item-link-icon.regionality-menu-icon-sites-settings {
+    background: url('../images/icons.png') no-repeat center -56px;
+}
+.adm-submenu-item-link-icon.regionality-menu-icon-variables {
+    background: url('../images/icons.png') no-repeat center -84px;
+}

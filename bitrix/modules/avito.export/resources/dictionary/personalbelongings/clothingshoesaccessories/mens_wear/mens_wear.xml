@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<Dictionary>
+	<Model variable="string"></Model>
+	<Apparel name="Джинсы">
+		<Size name="44 (W28)"></Size>
+		<Size name="44–46 (W29)"></Size>
+		<Size name="46 (W30)"></Size>
+		<Size name="46–48 (W31)"></Size>
+		<Size name="48 (W32)"></Size>
+		<Size name="48–50 (W33)"></Size>
+		<Size name="50 (W34)"></Size>
+		<Size name="50–52 (W35)"></Size>
+		<Size name="52 (W36)"></Size>
+		<Size name="54 (W38)"></Size>
+		<Size name="58 (W40)"></Size>
+		<Size name="62 (W42)"></Size>
+		<Size name="64+ (W44+)"></Size>
+	</Apparel>
+    <Apparel name="Брюки"></Apparel>
+    <Apparel name="Верхняя одежда">
+        <ApparelType name="Зимние куртки и пуховики"></ApparelType>
+        <ApparelType name="Лёгкие куртки и ветровки"></ApparelType>
+        <ApparelType name="Демисезонные куртки"></ApparelType>
+        <ApparelType name="Пальто"></ApparelType>
+        <ApparelType name="Дублёнки и шубы"></ApparelType>
+        <ApparelType name="Жилеты"></ApparelType>
+        <ApparelType name="Парки"></ApparelType>
+        <ApparelType name="Джинсовые куртки"></ApparelType>
+        <ApparelType name="Кожаные куртки"></ApparelType>
+        <ApparelType name="Бомберы"></ApparelType>
+        <ApparelType name="Плащи и тренчи"></ApparelType>
+        <ApparelType name="Косухи"></ApparelType>
+        <ApparelType name="Анораки"></ApparelType>
+        <ApparelType name="Другое"></ApparelType>
+    </Apparel>
+    <Apparel name="Пиджаки и костюмы"></Apparel>
+    <Apparel name="Рубашки"></Apparel>
+	<Apparel name="Спортивные костюмы"></Apparel>
+	<Apparel name="Шорты"></Apparel>
+	<Apparel name="Нижнее бельё"></Apparel>
+	<Apparel name="Кофты и футболки">
+		<GoodsSubType name="Футболка"></GoodsSubType>
+		<GoodsSubType name="Поло"></GoodsSubType>
+		<GoodsSubType name="Майка"></GoodsSubType>
+		<GoodsSubType name="Свитшот"></GoodsSubType>
+		<GoodsSubType name="Толстовка / худи"></GoodsSubType>
+		<GoodsSubType name="Джемпер"></GoodsSubType>
+		<GoodsSubType name="Свитер"></GoodsSubType>
+		<GoodsSubType name="Кардиган"></GoodsSubType>
+		<GoodsSubType name="Кофта"></GoodsSubType>
+	</Apparel>
+    <Apparel name="Другое"></Apparel>
+</Dictionary>

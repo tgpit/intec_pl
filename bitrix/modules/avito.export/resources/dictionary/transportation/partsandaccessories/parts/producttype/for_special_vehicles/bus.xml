@@ -1,0 +1,3038 @@
+<Makes>
+	<Make name="Ankai">
+		<Model name="A9">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Asia">
+		<Model name="Combi">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Cosmos">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Granbird">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Asiastar">
+		<Model name="YBL6127H">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Autosan">
+		<Model name="A0808T Gemini">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="A0909L Tramp 2 (Autosan Scamp)">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="A1010M Medium">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A1010T Lider 3">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="A1012T Lider">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="A1112T Ramzes">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="A404T Cezar">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Eurolider 12">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Sancity 12LF">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Sancity 18LF">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Sancity 9">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Ayats">
+		<Model name="Atlantis">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Atlas 2">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Bravo I City">
+			<TypeOfVehicle name="Экскурсионный"></TypeOfVehicle>
+		</Model>
+		<Model name="Bravo I R">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Bravo II">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Platinum">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="BAW">
+		<Model name="Express">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Street">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="BMC">
+		<Model name="850RE">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Belde 250">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Neocity 10 M">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Neocity 8,5 M">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Neocity 9 M">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Probus">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Procity 12 M">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Procity 18 M">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="BlueBird">
+		<Model name="CSRE 3204">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Bristol">
+		<Model name="Lodekka">
+			<TypeOfVehicle name="Экскурсионный"></TypeOfVehicle>
+		</Model>
+		<Model name="VR">
+			<TypeOfVehicle name="Экскурсионный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Cobus">
+		<Model name="2700">
+			<TypeOfVehicle name="Перронный"></TypeOfVehicle>
+		</Model>
+		<Model name="3000">
+			<TypeOfVehicle name="Перронный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="DAF">
+		<Model name="DB 250">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Экскурсионный"></TypeOfVehicle>
+		</Model>
+		<Model name="SB 3000">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="SB 4000">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Daewoo">
+		<Model name="BC212MA One Step City Bus">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="BF106 I">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="BH090 Royal Star">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="BH115">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="BH116 Royal Luxury II">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="BH117 Royal Cruistar II">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="BH119">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="BH120E Royal Economic II">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="BH120E2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="BH120F Royal Cruiser II">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="BM090">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="BS090 Royal Midi">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="BS106 Royal City">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="BS106-L2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="BS120CN Low Floor Bus">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="BX212 Royal">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="FX115 Cruiser">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="FX116 Cruising Arrow">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="FX120 Cruising Star">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="FX212 Super Cruiser">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Lestar">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Den Oudsten">
+		<Model name="Alliance">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Dennis">
+		<Model name="Javelin">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Dodge">
+		<Model name="Sprinter">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="DongFeng">
+		<Model name="6600">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="6720">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Drogmoller">
+		<Model name="E320">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="E330">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Karosserien">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Duval">
+		<Model name="14S">
+			<TypeOfVehicle name="Перронный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="EOS">
+		<Model name="200">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="90">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="E180Z">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Eagle International">
+		<Model name="Silver Eagle Model 05">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="FAW">
+		<Model name="CA6100SH2">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="CA6105SQ1">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="CA6121CH2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="CA6122CH2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="CA6660CQ2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="CA6750CQ2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="CA6860CQ2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="CA6870CH2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="CA6901CQ2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="CA6930CH2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="CA6950SH2">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="CDL6606C2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="CDL6700AE">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="XQ6102SH">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XQ6103YH2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="XQ6112TH2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="XQ6120SH2">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XQ6820SH2">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XQ6900SH">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XQ6961T1">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Feniksbus">
+		<Model name="FBI L">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="FBI M">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="FBI S">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="FBI T">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Ford">
+		<Model name="B-Series (Blue Bird )">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="Transit">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Foton">
+		<Model name="BJ6122U8MKB-A2">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="BJ6122U8MKD-A1">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="BJ6123C6CTD-A1">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="BJ6830U6LFB-1">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Toano">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Foxbus">
+		<Model name="6241-05">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="62411-09">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Daily">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Freightliner">
+		<Model name="FS65 Bluebird">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="Sprinter">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Golden Dragon">
+		<Model name="Triumph">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6102">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6105">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6122J">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6125">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6126">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6127">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6129">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6139 JR">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6145">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6700C1">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6720C">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6796">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6840">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6845">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6896E1A">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6957CNG">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6957JR">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Higer">
+		<Model name="KLQ 6109 GH">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6109 GL">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6109 GS">
+			<TypeOfVehicle name="Экскурсионный"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6109 Q">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6118 GS">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6119 TQ">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6122">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6122 B">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6128 LQ">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6129 LQ">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6129 Q">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6720">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6720 B1L">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6728">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6728 G">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6796">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6826 GQ">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6826 Q">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6840">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6840 Q">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6885">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6885 Q">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6891">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6891 GA">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="KLQ 6928 Q">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Hino">
+		<Model name="Blue Ribbon">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Rainbow">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Selega">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Hyundai">
+		<Model name="Aero City">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Aero Express">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Aero Queen">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Aero Space">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Aero Town">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Bogdan">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Chorus">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="County">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="County Kuzbass">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Real">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Super Aero City">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Universe">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="IC Bus">
+		<Model name="AC">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="IVECO">
+		<Model name="391Е">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="65C18 Marcopolo">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Crealis">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Crossway">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Crossway LE">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Daily">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="EuroRider">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Eurobus">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="FRANCE SFR160 CROSSWAY">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Irisbus Eurorider Viaggio 350">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Irisbus Evadys HD SFR 130">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Magelys">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Otoyol 27.14S">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Urbanway">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="VSN-410">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="VSN-700">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="VSN-800">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="VSN-900">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Ikarbus">
+		<Model name="396">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="IK 107">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="IK 112N">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="IK 218Н">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="IK 301">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Ikarus">
+		<Model name="250">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="253">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="255">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="256">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="260">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="263">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="280">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="386">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="396">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="International">
+		<Model name="3800">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Irisbus">
+		<Model name="Agora">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Ares">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Crossway">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Domino">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Evadys">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Iliade">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Karosa">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="Magelys">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Midirider">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Proway">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Irizar">
+		<Model name="Century">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="I-series">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Isuzu">
+		<Model name="Ataman">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Citibus">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Novo">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Novo Citi">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Novo Ultra">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Turquoise">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Visigo">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="JAC">
+		<Model name="HK6120">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="HK6880">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Jonckheere">
+		<Model name="Communo">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Deauville">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Mistral">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Premier">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Transit">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Karosa">
+		<Model name="1074 AXER">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="C934">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="C935 Récréo">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="C954.1360">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="C955 Récréo">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="C956">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="LC757">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="ŠD 11">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Kia">
+		<Model name="Cosmos">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="Granbird">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="KOMBI">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="King Long">
+		<Model name="KLQ6885">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6106G">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6120C CNG">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6120С">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6127C">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6129Y">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6129Y CNG">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6129Y5">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6130Y">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6800">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6820G">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6900">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6900 CNG">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XMQ6996">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Kravtex">
+		<Model name="Credo LC 9.5">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Lag">
+		<Model name="100">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="E180z">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Lotos">
+		<Model name="105">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="206">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="226">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="MAN">
+		<Model name="11.220">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="A20">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A32">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Clubstar">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s City">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s City C">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s City G">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s City GL">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s City L">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s Classic">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s Classic U">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s Coach">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s Explorer">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s Intercity">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s Regio">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion&#39;s Star">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Lion’s Comfort">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Marbus">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="NG">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="NL">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="NU">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="SL">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="SR 280 H">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="SU">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="UEL 292">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Magirus-Deutz">
+		<Model name="R81">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Marcopolo">
+		<Model name="Andare">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Andare 1000">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Bravis">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Real">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Viaggio">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Mercedes-Benz">
+		<Model name="0580 Tourismo">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="1120">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Ag 303-9R">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Citaro">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Conecto">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Conecto G">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Integro">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Integro L">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Integro M">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Intouro">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="L613D">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="LPL913">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="MCV">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="O1117">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="O302S">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="O303">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="O303E">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="O304">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="O305">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="O307">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="O309">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="O325">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="O330">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="O355">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="O402">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="O403">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="O404">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="O405">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="O407">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="O611D">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Sprinter">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Tourino">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Tourismo">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Tourismo 15 RHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Tourismo 16 RHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Tourismo 17 RHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Tourismo L">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Tourismo M">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Tourismo O350 RHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Tourismo O350 SHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Travego 15 RH">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Travego 15 RHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Travego L 17 RHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Travego M 16 RHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Vario 0814D">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Vario 0815D">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Mitsubishi Fuso">
+		<Model name="Aero Star MM">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Aero Star MP">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Prestige">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Rosa CX">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Rosa Super Royal">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Mudan">
+		<Model name="MD6100">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="MD6106">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="MD6750">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Nasteviya">
+		<Model name="2247">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Neoplan">
+		<Model name="116">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="117">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="122">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="208">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="2216 SHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="316N">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="316SHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="9012L">
+			<TypeOfVehicle name="Перронный"></TypeOfVehicle>
+		</Model>
+		<Model name="9112L">
+			<TypeOfVehicle name="Перронный"></TypeOfVehicle>
+		</Model>
+		<Model name="9122L">
+			<TypeOfVehicle name="Перронный"></TypeOfVehicle>
+		</Model>
+		<Model name="Cityliner 1116">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Cityliner C">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Cityliner L">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Cityliner P14">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Euroliner">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Jetliner">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Megaliner">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="N 1217 HDC">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="N212H">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="N216HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="N313SHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="N516/3SHDH">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="N940">
+			<TypeOfVehicle name="Перронный"></TypeOfVehicle>
+		</Model>
+		<Model name="North BFC6123C">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Skyliner">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Spaceliner">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Starliner">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Tourliner">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Transliner">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Nissan">
+		<Model name="Civilian">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Optare">
+		<Model name="Solo">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Otokar">
+		<Model name="Doruk">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Navigo">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Sultan">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Vectio">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Otoyol">
+		<Model name="27.14s">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="M24.9 ПЕ">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="M29">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Pegaso">
+		<Model name="6424.22">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Peugeot">
+		<Model name="Boxer">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Renault">
+		<Model name="Agora">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Ares">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="FR 1">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Iliade">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Ponticelli">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="SFR 112">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="SFR 115">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Tracer">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="SAZ">
+		<Model name="LE 60">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="SIMAZ">
+		<Model name="2258-30">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="2258-526">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="2258-538">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="2258-539">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="2258-542">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="2258-554">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="SOR">
+		<Model name="LC 10.5">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Sanos">
+		<Model name="315">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Scania">
+		<Model name="Carrus">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Higer A80">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Irizar Century">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Irizar I6">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="K112">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="K113">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="K124">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="K380">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Metrolink">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="OmniCity">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="OmniExpress">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="OmniLine">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="OmniLink">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Touring">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="К113CLA">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Скан-Тат 6208">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Setra">
+		<Model name="317 HDH/3">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="ComfortClass S 511 HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ComfortClass S 515 HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ComfortClass S 516 HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ComfortClass S 516 HD/2">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ComfortClass S 517 HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ComfortClass S 519 HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="MultiClass S 415 LE business">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="MultiClass S 416 LE business">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="MultiClass S 418 LE business">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="S 416 GT-HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S208 H">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S211 HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S212 HM">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S215 H">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S215 HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S215 HDH">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S215 SL">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="S216 HDS Royal">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S228 DT Imperial">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S250 Special">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S309 HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S312 HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S315 GT-HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S315 HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S315 HDH">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S317 GT-HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S328 DT">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S415 GT-HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S415 HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S415 HDH">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="S417 TC">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="TopClass S 417 HDH">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="TopClass S 431 DT">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="TopClass S 515 HDH">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="TopClass S 516 HDH">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="TopClass S 517 HDH">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="TopClass S 531 DT">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Shaolin">
+		<Model name="SLG6720CGN">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Shenlong">
+		<Model name="SLK 6798">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="SLK6111">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="SLK6128">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="SLK6128F5AW">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="SLK6790">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="SLK6931">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Shuchi">
+		<Model name="YTK6106">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="YTK6126">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Solaris">
+		<Model name="Urbino 10">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Urbino 12">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Urbino 15">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Urbino 18">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Vacanza-12">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Vacanza-13">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Solbus">
+		<Model name="Solbus Solcity SM12">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Solbus Solcity SM12 LNG">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Solbus Solcity SM18">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Solbus Solcity SM18 LNG">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Solbus Solcity SN11M">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Solbus Soltour ST10">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Solbus Soltour ST10/I">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Solbus Soltour ST11">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Solbus Soltour ST11/I">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Solbus Solway SL10">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Solbus Solway SL11">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Sollers">
+		<Model name="Atlant">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="SsangYong">
+		<Model name="Transtar">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Steyr">
+		<Model name="SML 14H 256">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="TAM">
+		<Model name="222 А 11О Т">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="260">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="80А 60">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="TVM Marbus B4 080 TS">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Temsa">
+		<Model name="Avenue">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Diamond">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="LD 12">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="LD 13">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="MD">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="MD Intercity">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Opalin">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Prestij">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Safari">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Safari HD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Safir">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Toyota">
+		<Model name="Caetano Optimo">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Coaster">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="VDL BOVA">
+		<Model name="Futura FHD">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Futura FHM">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Lexio">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Magiq">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Synergy">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="VDL Berkhof">
+		<Model name="Ambassador 200">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Axial 50">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Axial 70">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="VDL Jonckheere">
+		<Model name="JSD 140-460">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Van Hool">
+		<Model name="815/1">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="824.03">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="915SS2">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="A300">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A308">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A320">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A330">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A360">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A600">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="AG300">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="EOS 200">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T815 Acron">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T816 Altano">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T911 Alicron">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T915 Acron">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T915 Alicron">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T916 Acron">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T916 Alicron">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T916 Altano">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T916 Astron">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T916 Astronef">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T917 Acron">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T917 Astron">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T917 Astronef">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="TD824 Astromega">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="TD925 Astromega">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="TD927 Astromega">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Volgabus">
+		<Model name="429801">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="429801-0000010">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="Дельта 12">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Дельта 12.8">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Марафон">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Ритмикс 4298">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Серпантин D">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Серпантин G">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Ситиритм 10 DLE">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Ситиритм 10 GLE">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Ситиритм 12 DLE">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Ситиритм 12 DLF">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Ситиритм 12 ELF">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Ситиритм 12 GLE">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Ситиритм 18 DLF">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Volvo">
+		<Model name="7700">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="7900">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="8500">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="8700">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="8900">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="9500">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="9700">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="9900">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="B10B">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="B10M">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="B10R">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="B12">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="B13">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="B7R">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="B9L">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="B9R">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="Carrus 9700">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="С10М">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Yaxing">
+		<Model name="JS6705T1">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Youngman">
+		<Model name="JNP6120LE">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Yutong">
+		<Model name="ICE12">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="T12">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="T13">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="U12">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6108HGH">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6116HG">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6118HA">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6118HGA">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6119HA">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6121HQ">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6122H9">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6127HQ">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6128H">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6129H">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6129HA">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6140BD">
+			<TypeOfVehicle name="Перронный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6729D">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6737D">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6737R">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6760DAA">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6831H">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6852HG">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6890HGQ">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6899HA">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6938HB9">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="ZK6947 H">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Zhong Tong">
+		<Model name="LCK6103G-2">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6105HG">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6105HGC">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6107HC">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6115H">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6125HGAN">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6126H Caesar">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6127H Compass">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6128LQ">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6129HB">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6137">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6660D-1A">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6830G-5">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6860HGN">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6890HG">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6900H">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="LCK6958H">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Zonda">
+		<Model name="YCK6129">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="БАЗ">
+		<Model name="079.23 Эталон">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="079.34 Эталон">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="2215">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="А079.14 Эталон">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Белкоммунмаш">
+		<Model name="321">
+			<TypeOfVehicle name="Троллейбус"></TypeOfVehicle>
+		</Model>
+		<Model name="333">
+			<TypeOfVehicle name="Троллейбус"></TypeOfVehicle>
+		</Model>
+		<Model name="420">
+			<TypeOfVehicle name="Троллейбус"></TypeOfVehicle>
+		</Model>
+		<Model name="433">
+			<TypeOfVehicle name="Троллейбус"></TypeOfVehicle>
+		</Model>
+		<Model name="Е321">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Е420">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Е433">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Е490">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Богдан">
+		<Model name="A-062">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A-091">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A-092">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="A-201">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A-20111">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A-20211">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="A-401.62">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ВМЗ">
+		<Model name="4252 Олимп">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Волжанин">
+		<Model name="3290">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5270">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="52701">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="52702">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5285">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="52851">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="6216">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="6270">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Восток Трейлер">
+		<Model name="DЭТРА">
+			<TypeOfVehicle name="Шахтный автобус"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ГАЗ">
+		<Model name="A31R32">
+			<TypeOfVehicle name="Ритуальный"></TypeOfVehicle>
+		</Model>
+		<Model name="A65R22">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A65R23">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A65R25">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A65R32">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A65R33">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="A65R52">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="А60R42">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="А63R42">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="А64R42">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="А64R45">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="А65R35">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="А68R52">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="А69R52">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="АС-38">
+			<TypeOfVehicle name="Медицинский"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ГолАЗ">
+		<Model name="4244">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="5251 Вояж">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5256">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5291 Круиз">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="6228 Вояж L">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Andare 850">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="АКА 5225">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЗАЗ">
+		<Model name="А07">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="А07А">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЗИЛ">
+		<Model name="118К">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="3207">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="325010">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЗиУ">
+		<Model name="682Г">
+			<TypeOfVehicle name="Троллейбус"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="КАвЗ">
+		<Model name="324400">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="3270">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="3271">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="3976">
+			<TypeOfVehicle name="Вахтовый"></TypeOfVehicle>
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="39762С">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="4235">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="4235-31">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4235-32">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4235-61">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4235-62">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4235-65">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238 Аврора">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238-02 Аврора">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238-41">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238-51">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238-52">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238-55">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238-61">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238-62">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238-65">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238-81">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4238-82">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4270">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="4270-70">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="4270-80">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="4270-82">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="651">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="685">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Кубань">
+		<Model name="Г1А">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЛАЗ">
+		<Model name="4202">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="4207">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="5207">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5208">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="52523">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="695">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="695H">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="699">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="699Р">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="А1414">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЛиАЗ">
+		<Model name="429260">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5251">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="5256">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="525623-01">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="525633-01">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="525635">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="525636-01">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="525646">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="525662">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="525667">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5280">
+			<TypeOfVehicle name="Троллейбус"></TypeOfVehicle>
+		</Model>
+		<Model name="5292">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="529265">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="529267">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5293">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="529365">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="6212">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="677Б">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="677М">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="МАЗ">
+		<Model name="103">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="103464">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="103465">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="103468">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="103485">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="103486">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="103569">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="103576">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="103965">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="104">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="104025">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="107466">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="152">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="171">
+			<TypeOfVehicle name="Перронный"></TypeOfVehicle>
+		</Model>
+		<Model name="203">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="203015">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="203047">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="203069">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="203085">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="203147">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="203965">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="206">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="206047">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="206060">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="206063">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="206085">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="206086">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="226063">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="231">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="241">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="251">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="256">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="257">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="281040">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="МАРЗ">
+		<Model name="42191">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="4251">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5266/5277">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5277">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="52771-01">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5277\-01">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Неман">
+		<Model name="420211-511">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="420224-10">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="420224-11">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="420224-511-01">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="420233-20">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="420234-511">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="420238-511">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="420423-501">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5201">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="52012">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="520123 - 250">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="НефАЗ">
+		<Model name="3297">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="3299-10-01">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="3299-10-02">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5299">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-10-15">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-10-17">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-10-33">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-11-32">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-11-33">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-11-52">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-11-56">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-17-32">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-17-52">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-30-31">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-30-33">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-30-51">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-30-52">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-30-56">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-30-57">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-40-52">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5299-40-57">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ПАЗ">
+		<Model name="3010">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="3201">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="3203">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320302">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320302-08">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320302-11">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320302-12">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320302-22">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320302-33">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320370-08">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="3204">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="3204-05">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320401-01">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320402-03">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320402-04">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320402-05">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320402-14">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320405-04">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="320405-14">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320406-04">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320412-03">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320412-04">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320412-05">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320412-14">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320414">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320414-04">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320414-05">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320414-14">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320415-04">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320415-14">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320425-04">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320435-04">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320435-14">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320436-04">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320455-04">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320475-04">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="3205">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="32051">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="320520-04">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="32053">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Медицинский"></TypeOfVehicle>
+		</Model>
+		<Model name="32053-110">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="32053-110-07">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="32053-20">
+			<TypeOfVehicle name="Вахтовый"></TypeOfVehicle>
+		</Model>
+		<Model name="32053-50">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="32053-57">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="32053-60">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="32053-70">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="32053-80">
+			<TypeOfVehicle name="Ритуальный"></TypeOfVehicle>
+		</Model>
+		<Model name="32053/54">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320530-02">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320530-04">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320530-07">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320530-12">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320530-22">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320538-110-77">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="320538-70">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="32054">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="32054-07">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="32054-60">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320540-02">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320540-04">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320540-12">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320540-22">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="320570-04">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="3206">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="3206-110">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="3206-110-70">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="3237">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="33205">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="422320-04">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="4230">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4230 Аврора">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="4230-02 Аврора">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4234">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4234-04">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="4234-05">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="4234-07">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="527200">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="651">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="672">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Real">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Вектор 3">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Вектор 8.8">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+		<Model name="Вектор Next">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+		<Model name="Вектор Next 7.1">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Вектор Next 7.6">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Вектор Next 8.8">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="РоАЗ">
+		<Model name="5236">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="5239">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="САРЗ">
+		<Model name="3280">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="3282">
+			<TypeOfVehicle name="Школьный"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Тролза">
+		<Model name="52501">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="XTU526500Е000679">
+			<TypeOfVehicle name="Троллейбус"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Уралец">
+		<Model name="66С">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ХАЗ">
+		<Model name="3250">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ЧРЗ">
+		<Model name="Рута 20 ПЕ">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Рута 20 СПГ">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Рута 22 ПЕ">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+		<Model name="Рута 22 СПГ">
+			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+		</Model>
+	</Make>
+</Makes>

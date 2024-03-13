@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Dictionary>
+    <Apparel name="Головные уборы"></Apparel>
+    <Apparel name="Платки и шарфы"></Apparel>
+    <Apparel name="Очки"></Apparel>
+    <Apparel name="Ремни, пояса, подтяжки"></Apparel>
+    <Apparel name="Перчатки и варежки"></Apparel>
+    <Apparel name="Украшения"></Apparel>
+    <Apparel name="Носки, чулки, колготки"></Apparel>
+    <Apparel name="Зонты"></Apparel>
+    <Apparel name="Обложки для документов"></Apparel>
+    <Apparel name="Аксессуары для волос"></Apparel>
+    <Apparel name="Галстуки и бабочки"></Apparel>
+    <Apparel name="Другое"></Apparel>
+</Dictionary>

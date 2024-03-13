@@ -1,0 +1,133 @@
+.ns-bitrix.c-news-list.c-news-list-faq {
+  display: block;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .intec-ui.intec-ui-control-tabs {
+  padding: 10px 0;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .intec-ui.intec-ui-control-tabs .scroll-element.scroll-y.scroll-scrolly_visible {
+  display: none;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section {
+  display: block;
+  margin-top: 35px;
+  border: 1px solid #e8e8e8;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item {
+  display: block;
+  padding: 25px 24px 25px 35px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item:last-child {
+  border: none;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item .faq-item-wrapper {
+  display: block;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item .faq-item-name {
+  display: block;
+  position: relative;
+  font-size: 0;
+  cursor: pointer;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item .faq-item-name .faq-item-name-text {
+  color: #232121;
+  margin-right: 70px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item .faq-item-name .faq-item-name-indicators {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 100%;
+  white-space: nowrap;
+  text-align: center;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item .faq-item-name .faq-item-name-indicators .faq-item-name-indicator {
+  vertical-align: middle;
+  font-size: 14px;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item .faq-item-name .faq-item-name-indicators .faq-item-name-indicator.faq-item-name-indicator-active {
+  display: none;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item .faq-item-description {
+  display: none;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item .faq-item-description .faq-item-description-wrapper {
+  display: block;
+  color: #888888;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #e8e8e8;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item.active .faq-item-name .faq-item-name-indicators .faq-item-name-indicator.faq-item-name-indicator-active {
+  display: inline-block;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item.active .faq-item-name .faq-item-name-indicators .faq-item-name-indicator.faq-item-name-indicator-inactive {
+  display: none;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section-common-list .faq-section {
+  margin-top: 15px;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section-common-list .intec-ui-part-tab {
+  margin-top: 30px;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section-common-list .intec-ui-part-tab:first-child {
+  margin-top: 0;
+}
+.ns-bitrix.c-news-list.c-news-list-faq .faq-section-name {
+  font-size: 20px;
+  line-height: 30px;
+  color: #404040;
+}
+@media all and (max-width: 768px) {
+  .ns-bitrix.c-news-list.c-news-list-faq .intec-ui.intec-ui-control-tabs {
+    max-width: 100%;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .ns-bitrix.c-news-list.c-news-list-faq .intec-ui.intec-ui-control-tabs .intec-ui-part-tab {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    -ms-flex: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -moz-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+  .ns-bitrix.c-news-list.c-news-list-faq .intec-ui.intec-ui-control-tabs .scroll-element.scroll-y.scroll-scrolly_visible {
+    display: none;
+  }
+  .ns-bitrix.c-news-list.c-news-list-faq .intec-ui.intec-ui-control-tabs.scrollbar-inner .scroll-element.scroll-x {
+    height: 2px;
+    bottom: 0;
+  }
+  .ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item {
+    padding: 16px 12px 16px 24px;
+  }
+  .ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item .faq-item-name .faq-item-name-indicators {
+    width: 35px;
+  }
+  .ns-bitrix.c-news-list.c-news-list-faq .faq-section .faq-item .faq-item-name .faq-item-name-text {
+    margin-right: 35px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

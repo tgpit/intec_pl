@@ -1,0 +1,1297 @@
+[
+    {
+        "name": "Готовый бизнес и оборудование",
+        "id": 1196106,
+        "nested": [
+            {
+                "name": "Оборудование для бизнеса",
+                "id": 1196107,
+                "show_fields": true
+            },
+            {
+                "name": "Готовый бизнес",
+                "id": 1196114,
+                "show_fields": true
+            }
+        ]
+    },
+    {
+        "name": "Услуги",
+        "id": 1196124,
+        "nested": [
+            {
+                "name": "Предложения услуг",
+                "id": 1196125,
+                "nested": [
+                    {
+                        "name": "Другое",
+                        "id": 1196127,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Мастер на час",
+                        "id": 1196128,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Искусство",
+                        "id": 1196129,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Уход за животными",
+                        "id": 1196130,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Транспорт, перевозки",
+                        "id": 1196131,
+                        "nested": [
+                            {
+                                "name": "Автосервис",
+                                "id": 1196132,
+                                "nested": [
+                                    {
+                                        "name": "Автосервисы для самообслуживания",
+                                        "id": 2059727,
+                                        "show_fields": true
+                                    },
+                                    {
+                                        "name": "Мойка и уход за авто",
+                                        "id": 2059728,
+                                        "show_fields": true
+                                    },
+                                    {
+                                        "name": "Помощь при покупке авто",
+                                        "id": 2059729,
+                                        "show_fields": true
+                                    },
+                                    {
+                                        "name": "Шиномонтаж и ремонт дисков",
+                                        "id": 2059732,
+                                        "show_fields": true
+                                    },
+                                    {
+                                        "name": "Тюнинг и оборудование",
+                                        "id": 2059734,
+                                        "show_fields": true
+                                    },
+                                    {
+                                        "name": "Кузовной ремонт и покраска",
+                                        "id": 2059736,
+                                        "show_fields": true
+                                    },
+                                    {
+                                        "name": "Диагностика и ремонт авто",
+                                        "id": 2059738,
+                                        "show_fields": true
+                                    },
+                                    {
+                                        "name": "Помощь на дороге",
+                                        "id": 2059741,
+                                        "show_fields": true
+                                    },
+                                    {
+                                        "name": "Техническое обслуживание авто",
+                                        "id": 2059743,
+                                        "show_fields": true
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Спецтехника",
+                                "id": 1196133,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Переезды",
+                                "id": 1196134,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Грузчики",
+                                "id": 1196135,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Коммерческие перевозки",
+                                "id": 1196136,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Аренда авто",
+                                "id": 1196137,
+                                "nested": [
+                                    {
+                                        "name": "Авто для личного использования",
+                                        "id": 2059028,
+                                        "show_fields": true
+                                    },
+                                    {
+                                        "name": "Авто под такси",
+                                        "id": 2059029,
+                                        "show_fields": true
+                                    },
+                                    {
+                                        "name": "Прочий транспорт",
+                                        "id": 2059030,
+                                        "show_fields": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Сад, благоустройство",
+                        "id": 1196138,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Ремонт и отделка",
+                        "id": 1196139,
+                        "nested": [
+                            {
+                                "name": "Ремонт квартир и домов под ключ",
+                                "id": 1196142,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Ремонт офиса",
+                                "id": 1196144,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Сантехника",
+                                "id": 1196145,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Электрика",
+                                "id": 1196146,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Сборка и ремонт мебели",
+                                "id": 1196147,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Остекление балконов",
+                                "id": 1196150,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Вентиляция",
+                                "id": 1288317,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Высотные работы",
+                                "id": 1288318,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Гипсокартонные работы",
+                                "id": 1288319,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Двери",
+                                "id": 1288320,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Изоляция",
+                                "id": 1288321,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Металлоконструкции и кованые изделия",
+                                "id": 1288322,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Плиточные работы",
+                                "id": 1288324,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Поклейка обоев и малярные работы",
+                                "id": 1288325,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Полы и напольные покрытия",
+                                "id": 1288326,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Потолки",
+                                "id": 1288327,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Другое",
+                                "id": 1288328,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Столярные и плотницкие работы",
+                                "id": 1288329,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Штукатурные работы",
+                                "id": 1288330,
+                                "show_fields": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Реклама, полиграфия",
+                        "id": 1196151,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Праздники, мероприятия",
+                        "id": 1196154,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Охрана, безопасность",
+                        "id": 1196155,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Питание, кейтеринг",
+                        "id": 1196156,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Оборудование, производство",
+                        "id": 1196159,
+                        "nested": [
+                            {
+                                "name": "Аренда оборудования",
+                                "id": 1196160,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Монтаж и обслуживание оборудования",
+                                "id": 1196161,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Производство, обработка",
+                                "id": 1196162,
+                                "show_fields": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Деловые услуги",
+                        "id": 1196163,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Бытовые услуги",
+                        "id": 1196169,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Красота, здоровье",
+                        "id": 1196175,
+                        "nested": [
+                            {
+                                "name": "Тату, пирсинг",
+                                "id": 1196176,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Косметология, эпиляция",
+                                "id": 1196177,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Другое",
+                                "id": 1196178,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Услуги парикмахера",
+                                "id": 1196179,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Макияж",
+                                "id": 1196180,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "СПА-услуги, здоровье",
+                                "id": 1196181,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Маникюр, педикюр",
+                                "id": 1196182,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Ресницы, брови",
+                                "id": 2064017,
+                                "show_fields": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "IT, интернет, телеком",
+                        "id": 1196183,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Обучение, курсы",
+                        "id": 1196188,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Няни, сиделки",
+                        "id": 1196198,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Курьерские поручения",
+                        "id": 1196199,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Установка техники",
+                        "id": 1196200,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Уборка",
+                        "id": 1196201,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Ремонт и обслуживание техники",
+                        "id": 1196210,
+                        "nested": [
+                            {
+                                "name": "Фото-, аудио-, видеотехника",
+                                "id": 1196211,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Мобильные устройства",
+                                "id": 1196212,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Компьютерная техника",
+                                "id": 1196213,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Игровые приставки",
+                                "id": 1196214,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Телевизоры",
+                                "id": 1196215,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Крупная бытовая техника",
+                                "id": 1196216,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Мелкая бытовая техника",
+                                "id": 1196217,
+                                "show_fields": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Фото- и видеосъёмка",
+                        "id": 1196218,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Строительство",
+                        "id": 1288347,
+                        "show_fields": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Животные",
+        "id": 1196219,
+        "nested": [
+            {
+                "name": "Кошки",
+                "id": 1196220,
+                "show_fields": true
+            },
+            {
+                "name": "Птицы",
+                "id": 1196256,
+                "show_fields": true
+            },
+            {
+                "name": "Аквариум",
+                "id": 1196257,
+                "show_fields": true
+            },
+            {
+                "name": "Другие животные",
+                "id": 1196258,
+                "show_fields": true
+            },
+            {
+                "name": "Товары для животных",
+                "id": 1196267,
+                "show_fields": true
+            },
+            {
+                "name": "Собаки",
+                "id": 1196268,
+                "show_fields": true
+            }
+        ]
+    },
+    {
+        "name": "Для дома и дачи",
+        "id": 1196359,
+        "nested": [
+            {
+                "name": "Мебель и интерьер",
+                "id": 1196360,
+                "show_fields": true
+            },
+            {
+                "name": "Растения",
+                "id": 1196371,
+                "show_fields": true
+            },
+            {
+                "name": "Продукты питания",
+                "id": 1196372,
+                "show_fields": true
+            },
+            {
+                "name": "Ремонт и строительство",
+                "id": 1196373,
+                "nested": [
+                    {
+                        "name": "Готовые строения и срубы",
+                        "id": 1196374,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Стройматериалы",
+                        "id": 1196375,
+                        "nested": [
+                            {
+                                "name": "Изоляция",
+                                "id": 1196376,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Крепёж",
+                                "id": 1196377,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Кровля и водосток",
+                                "id": 1196378,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Лаки и краски",
+                                "id": 1196379,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Металлопрокат",
+                                "id": 1196380,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Отделка",
+                                "id": 1196382,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Пиломатериалы",
+                                "id": 1196383,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Строительные смеси",
+                                "id": 1196384,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Строительство стен",
+                                "id": 1196385,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Электрика",
+                                "id": 1196386,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Другое",
+                                "id": 1196387,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Листовые материалы",
+                                "id": 1196388,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Лестницы и комплектующие",
+                                "id": 1196389,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Ворота, заборы и ограждения",
+                                "id": 1196390,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Сыпучие материалы",
+                                "id": 1196391,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Железобетонные изделия",
+                                "id": 1196392,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Сваи",
+                                "id": 1196393,
+                                "show_fields": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Сантехника, водоснабжение и сауна",
+                        "id": 1196394,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Инструменты",
+                        "id": 1196395,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Окна и балконы",
+                        "id": 1196396,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Потолки",
+                        "id": 1196397,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Двери",
+                        "id": 1196398,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Камины и обогреватели",
+                        "id": 1196399,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Садовая техника",
+                        "id": 1196400,
+                        "show_fields": true
+                    }
+                ]
+            },
+            {
+                "name": "Посуда и товары для кухни",
+                "id": 1196401,
+                "show_fields": true
+            },
+            {
+                "name": "Бытовая техника",
+                "id": 1196404,
+                "show_fields": true
+            }
+        ]
+    },
+    {
+        "name": "Транспорт",
+        "id": 1196429,
+        "nested": [
+            {
+                "name": "Мотоциклы и мототехника",
+                "id": 1196430,
+                "nested": [
+                    {
+                        "name": "Мопеды и скутеры",
+                        "id": 1196431,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Вездеходы",
+                        "id": 1196432,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Квадроциклы",
+                        "id": 1196433,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Мотоциклы",
+                        "id": 1196434,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Картинг",
+                        "id": 1196440,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Багги",
+                        "id": 1196441,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Снегоходы",
+                        "id": 1196442,
+                        "show_fields": true
+                    }
+                ]
+            },
+            {
+                "name": "Водный транспорт",
+                "id": 1196443,
+                "nested": [
+                    {
+                        "name": "Моторные лодки и моторы",
+                        "id": 1196445,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Гидроциклы",
+                        "id": 1196446,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Катера и яхты",
+                        "id": 1196447,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Вёсельные лодки",
+                        "id": 1196448,
+                        "show_fields": true
+                    }
+                ]
+            },
+            {
+                "name": "Грузовики и спецтехника",
+                "id": 1196450,
+                "nested": [
+                    {
+                        "name": "Другое",
+                        "id": 1196451,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Строительная техника",
+                        "id": 1196452,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Автобусы",
+                        "id": 1196453,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Грузовики",
+                        "id": 1196454,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Прицепы",
+                        "id": 1196455,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Погрузчики",
+                        "id": 1196456,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Бульдозеры",
+                        "id": 1196457,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Автокраны",
+                        "id": 1196458,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Экскаваторы",
+                        "id": 1196459,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Автодома",
+                        "id": 1196460,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Сельхозтехника",
+                        "id": 1196461,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Техника для лесозаготовки",
+                        "id": 1196462,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Навесное оборудование",
+                        "id": 1196463,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Коммунальная техника",
+                        "id": 1196464,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Тягачи",
+                        "id": 1196465,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Лёгкий коммерческий транспорт",
+                        "id": 1196466,
+                        "show_fields": true
+                    }
+                ]
+            },
+            {
+                "name": "Запчасти и аксессуары",
+                "id": 1196467,
+                "nested": [
+                    {
+                        "name": "Масла и автохимия",
+                        "id": 1196468,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "GPS-навигаторы",
+                        "id": 1196469,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Прицепы",
+                        "id": 1196470,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Экипировка",
+                        "id": 1196471,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Шины, диски и колёса",
+                        "id": 1196499,
+                        "nested": [
+                            {
+                                "name": "Легковые шины",
+                                "id": 1219057,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Колпаки",
+                                "id": 1219058,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Диски",
+                                "id": 1219059,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Колёса",
+                                "id": 1219060,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Мотошины",
+                                "id": 1219061,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Шины для грузовиков и спецтехники",
+                                "id": 1286352,
+                                "show_fields": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Аудио- и видеотехника",
+                        "id": 1197725,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Аксессуары",
+                        "id": 1197731,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Инструменты",
+                        "id": 1197732,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Багажники и фаркопы",
+                        "id": 1197733,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Тюнинг",
+                        "id": 1197734,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Запчасти",
+                        "id": 1218815,
+                        "nested": [
+                            {
+                                "name": "Для мототехники",
+                                "id": 1218899,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Для автомобилей",
+                                "id": 1218900,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Для грузовиков и спецтехники",
+                                "id": 1218901,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Для водного транспорта",
+                                "id": 1218902,
+                                "show_fields": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Противоугонные устройства",
+                        "id": 1219062,
+                        "show_fields": true
+                    }
+                ]
+            },
+            {
+                "name": "Автомобили",
+                "id": 1197735,
+                "nested": [
+                    {
+                        "name": "Новые",
+                        "id": 1219063,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "С пробегом",
+                        "id": 1219064,
+                        "show_fields": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Хобби и отдых",
+        "id": 1201974,
+        "nested": [
+            {
+                "name": "Охота и рыбалка",
+                "id": 1201975,
+                "show_fields": true
+            },
+            {
+                "name": "Билеты и путешествия",
+                "id": 1201976,
+                "show_fields": true
+            },
+            {
+                "name": "Музыкальные инструменты",
+                "id": 1201984,
+                "show_fields": true
+            },
+            {
+                "name": "Велосипеды",
+                "id": 1201993,
+                "show_fields": true
+            },
+            {
+                "name": "Книги и журналы",
+                "id": 1201999,
+                "show_fields": true
+            },
+            {
+                "name": "Коллекционирование",
+                "id": 1202003,
+                "show_fields": true
+            },
+            {
+                "name": "Спорт и отдых",
+                "id": 1202027,
+                "show_fields": true
+            }
+        ]
+    },
+    {
+        "name": "Личные вещи",
+        "id": 1202041,
+        "nested": [
+            {
+                "name": "Красота и здоровье",
+                "id": 1202042,
+                "show_fields": true
+            },
+            {
+                "name": "Одежда, обувь, аксессуары",
+                "id": 1202051,
+                "nested": [
+                    {
+                        "name": "Сумки, рюкзаки и чемоданы",
+                        "id": 1202052,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Мужская обувь",
+                        "id": 1202059,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Женская обувь",
+                        "id": 1202075,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Аксессуары",
+                        "id": 1202094,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Мужская одежда",
+                        "id": 1202095,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Женская одежда",
+                        "id": 1202118,
+                        "show_fields": true
+                    }
+                ]
+            },
+            {
+                "name": "Детская одежда и обувь",
+                "id": 1202148,
+                "nested": [
+                    {
+                        "name": "Для девочек",
+                        "id": 1202149,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Для мальчиков",
+                        "id": 1202159,
+                        "show_fields": true
+                    }
+                ]
+            },
+            {
+                "name": "Товары для детей и игрушки",
+                "id": 1202168,
+                "show_fields": true
+            },
+            {
+                "name": "Часы и украшения",
+                "id": 1202178,
+                "show_fields": true
+            }
+        ]
+    },
+    {
+        "name": "Недвижимость",
+        "id": 1202182,
+        "nested": [
+            {
+                "name": "Дома, дачи, коттеджи",
+                "id": 1202183,
+                "nested": [
+                    {
+                        "name": "Продам",
+                        "id": 1202197,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Сдам",
+                        "id": 1202202,
+                        "nested": [
+                            {
+                                "name": "Посуточно",
+                                "id": 1286262,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "На длительный срок",
+                                "id": 1286263,
+                                "show_fields": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Квартиры",
+                "id": 1202244,
+                "nested": [
+                    {
+                        "name": "Продам",
+                        "id": 1202270,
+                        "nested": [
+                            {
+                                "name": "Новостройка",
+                                "id": 1218780,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Вторичка",
+                                "id": 1218781,
+                                "show_fields": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Сдам",
+                        "id": 1202316,
+                        "show_fields": true
+                    }
+                ]
+            },
+            {
+                "name": "Земельные участки",
+                "id": 1202341,
+                "nested": [
+                    {
+                        "name": "Сдам",
+                        "id": 1202352,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Продам",
+                        "id": 1202356,
+                        "show_fields": true
+                    }
+                ]
+            },
+            {
+                "name": "Недвижимость за рубежом",
+                "id": 1202370,
+                "nested": [
+                    {
+                        "name": "Сдам",
+                        "id": 1203533,
+                        "nested": [
+                            {
+                                "name": "Гараж, машиноместо",
+                                "id": 1203534,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Земельный участок",
+                                "id": 1203689,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Дом, вилла",
+                                "id": 1203844,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Квартира, апартаменты",
+                                "id": 1203999,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Коммерческая недвижимость",
+                                "id": 1204154,
+                                "show_fields": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Продам",
+                        "id": 1204309,
+                        "nested": [
+                            {
+                                "name": "Квартира, апартаменты",
+                                "id": 1204310,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Дом, вилла",
+                                "id": 1204387,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Гараж, машиноместо",
+                                "id": 1204464,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Коммерческая недвижимость",
+                                "id": 1204541,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Земельный участок",
+                                "id": 1204618,
+                                "show_fields": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Коммерческая недвижимость",
+                "id": 1204695,
+                "nested": [
+                    {
+                        "name": "Сдам",
+                        "id": 1204696,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Продам",
+                        "id": 1204726,
+                        "show_fields": true
+                    }
+                ]
+            },
+            {
+                "name": "Гаражи и машиноместа",
+                "id": 1204736,
+                "nested": [
+                    {
+                        "name": "Сдам",
+                        "id": 1204740,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Продам",
+                        "id": 1204750,
+                        "show_fields": true
+                    }
+                ]
+            },
+            {
+                "name": "Комнаты",
+                "id": 1204763,
+                "nested": [
+                    {
+                        "name": "Продам",
+                        "id": 1204764,
+                        "show_fields": true
+                    },
+                    {
+                        "name": "Сдам",
+                        "id": 1204768,
+                        "show_fields": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Работа",
+        "id": 1204772,
+        "nested": [
+            {
+                "name": "Вакансии",
+                "id": 1285807,
+                "show_fields": true
+            }
+        ]
+    },
+    {
+        "name": "Электроника",
+        "id": 1205153,
+        "nested": [
+            {
+                "name": "Ноутбуки",
+                "id": 1205154,
+                "show_fields": true
+            },
+            {
+                "name": "Фототехника",
+                "id": 1205155,
+                "show_fields": true
+            },
+            {
+                "name": "Телефоны",
+                "id": 1205162,
+                "show_fields": true
+            },
+            {
+                "name": "Планшеты и электронные книги",
+                "id": 1205174,
+                "show_fields": true
+            },
+            {
+                "name": "Оргтехника и расходники",
+                "id": 1205187,
+                "show_fields": true
+            },
+            {
+                "name": "Товары для компьютера",
+                "id": 1205200,
+                "show_fields": true
+            },
+            {
+                "name": "Настольные компьютеры",
+                "id": 1205223,
+                "show_fields": true
+            },
+            {
+                "name": "Игры, приставки и программы",
+                "id": 1205224,
+                "show_fields": true
+            },
+            {
+                "name": "Аудио и видео",
+                "id": 1205229,
+                "show_fields": true
+            }
+        ]
+    }
+]

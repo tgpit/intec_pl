@@ -1,0 +1,98 @@
+.widget.widget-icons.widget-icons-default .widget-icons-header {
+  font-size: 18px;
+  line-height: 25px;
+  color: #292929;
+}
+.widget.widget-icons.widget-icons-default .widget-icons-header + .widget-icons-items {
+  margin-top: 24px;
+}
+.widget.widget-icons.widget-icons-default .widget-icons-items-wrapper {
+  font-size: 0;
+  margin: -10px -50px;
+}
+.widget.widget-icons.widget-icons-default .widget-icons-item {
+  display: inline-block;
+  padding: 10px 50px;
+}
+.widget.widget-icons.widget-icons-default .widget-icons-item-icon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.widget.widget-icons.widget-icons-default .widget-icons-item-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.widget.widget-icons.widget-icons-default .widget-icons-item-picture {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+.widget.widget-icons.widget-icons-default .widget-icons-item-name {
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: left;
+  color: #000000;
+  margin-top: 8px;
+}
+.widget.widget-icons.widget-icons-default [data-grid="5"] .widget-icons-item {
+  width: 20%;
+}
+.widget.widget-icons.widget-icons-default [data-grid="4"] .widget-icons-item {
+  width: 25%;
+}
+.widget.widget-icons.widget-icons-default [data-grid="3"] .widget-icons-item {
+  width: 33.3333333333%;
+}
+.widget.widget-icons.widget-icons-default [data-grid="2"] .widget-icons-item {
+  width: 50%;
+}
+.widget.widget-icons.widget-icons-default [data-grid="1"] .widget-icons-item {
+  width: 100%;
+}
+.widget.widget-icons.widget-icons-default .widget-icons-items, .widget.widget-icons.widget-icons-default .widget-icons-item-content {
+  overflow: hidden;
+}
+@media all and (max-width: 1024px) {
+  .widget.widget-icons.widget-icons-default [data-grid="5"] .widget-icons-item {
+    width: 25%;
+  }
+}
+@media all and (max-width: 768px) {
+  .widget.widget-icons.widget-icons-default .widget-icons-items-wrapper {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+  .widget.widget-icons.widget-icons-default .widget-icons-item {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .widget.widget-icons.widget-icons-default [data-grid="5"] .widget-icons-item,
+.widget.widget-icons.widget-icons-default [data-grid="4"] .widget-icons-item {
+    width: 33.3333333333%;
+  }
+}
+@media all and (max-width: 600px) {
+  .widget.widget-icons.widget-icons-default [data-grid="5"] .widget-icons-item,
+.widget.widget-icons.widget-icons-default [data-grid="4"] .widget-icons-item,
+.widget.widget-icons.widget-icons-default [data-grid="3"] .widget-icons-item {
+    width: 50%;
+  }
+}
+@media all and (max-width: 400px) {
+  .widget.widget-icons.widget-icons-default [data-grid] .widget-icons-item {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

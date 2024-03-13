@@ -1,0 +1,103 @@
+$component: 'advantages';
+$template: 'template-36';
+$item: 'widget-item';
+
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$item} {
+    position: relative;
+    margin-bottom: 80px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:nth-child(2n) {
+      .#{$item}-picture {
+        left: initial;
+        right: 0;
+      }
+    }
+  }
+  .#{$item}-text-wrap {
+    width: 60%;
+  }
+  .#{$item}-picture {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    left: 0;
+  }
+  .#{$item}-text {
+    background: rgba(27, 30, 37, 0.8);
+    backdrop-filter: blur(48px);
+    padding: 56px 48px;
+    margin: 158px 0;
+
+    @include border-radius(2px);
+  }
+  .#{$item}-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    @include transition(color, 0.4s);
+  }
+  .#{$item}-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .#{$item}-name + .#{$item}-description {
+    margin-top: 24px;
+  }
+
+  @media all and (max-width: 768px) {
+    .#{$item} {
+      margin-bottom: 40px;
+    }
+    .#{$item}-picture {
+      width: 100%;
+    }
+  }
+  @media all and (max-width: 500px) {
+    .#{$item} {
+      margin-bottom: 20px;
+    }
+    .#{$item}-text {
+      padding: 30px 30px;
+      margin: 70px 0;
+    }
+    .#{$item}-name {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .#{$item}-description {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+}

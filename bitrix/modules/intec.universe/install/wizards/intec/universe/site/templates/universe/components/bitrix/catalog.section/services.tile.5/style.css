@@ -1,0 +1,233 @@
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item {
+  height: 100%;
+  border: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-content {
+  position: relative;
+  height: 100%;
+  min-width: 219px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-picture {
+  position: relative;
+  display: block;
+  padding-top: 56.25%;
+  background: #E7F1FF no-repeat center;
+  background-size: cover;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  z-index: 1;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-information {
+  position: relative;
+  background-color: #FFF;
+  z-index: 2;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-information-content {
+  position: relative;
+  padding: 16px 24px 24px 24px;
+  background-color: #FFF;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-price {
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-price + .catalog-section-item-properties {
+  margin-top: 4px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-price + .catalog-section-item-name {
+  margin-top: 12px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-price-item {
+  font-size: 0;
+  margin: -6px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-price-item + .catalog-section-item-price-item {
+  margin-top: 4px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-price-item-part {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+  margin: 6px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-price-current {
+  font-weight: 700;
+  color: #1B1E25;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-price-old {
+  color: #808080;
+  text-decoration: line-through;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-properties {
+  overflow: hidden;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-properties + .catalog-section-item-name {
+  margin-top: 12px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-properties-item {
+  font-size: 0;
+  margin: -2px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-properties-item + .catalog-section-item-properties-item {
+  margin-top: 2px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-properties-item-part {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  vertical-align: middle;
+  margin: 2px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-properties-name {
+  color: #808080;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-properties-value {
+  color: #1B1E25;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-name a {
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-description {
+  display: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: #808080;
+  padding-top: 8px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item[data-expanded=true] .catalog-section-item-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  max-height: 60px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item:hover .catalog-section-item-picture {
+  -webkit-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.16);
+  -moz-box-shadow: 0 8px 32px rgba(27, 30, 37, 0.16);
+  box-shadow: 0 8px 32px rgba(27, 30, 37, 0.16);
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-navigation-top {
+  margin-bottom: 30px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-navigation-bottom {
+  margin-top: 30px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-more {
+  display: block;
+  font-size: 0;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1px;
+  margin-top: 30px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-more-button {
+  width: 100%;
+  padding: 18px 0;
+  vertical-align: top;
+  border: 1px solid #F2F2F2;
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-more-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
+  -ms-transition-property: transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-more-icon svg {
+  fill: none !important;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-more-text {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-more-button:hover {
+  border: 1px solid #FBFCFD;
+  background-color: #FBFCFD;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-more-button:hover .catalog-section-more-icon {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+@media all and (max-width: 1024px) {
+  .ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    max-height: 60px;
+  }
+  .ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-content {
+    min-width: unset;
+  }
+}
+@media all and (max-width: 500px) {
+  .ns-bitrix.c-catalog-section.c-catalog-section-services-tile-5 .catalog-section-item-description {
+    -webkit-line-clamp: 5;
+    max-height: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

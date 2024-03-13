@@ -1,0 +1,72 @@
+$component: 'advantages';
+$template: 'template-37';
+$item: 'widget-item';
+
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-header {
+    .widget-title {
+      color: #1B1E25;
+    }
+    .widget-description {
+      color: #808080;
+    }
+  }
+  .widget-items {
+    margin: -20px -40px;
+  }
+  .#{$item} {
+    padding: 20px 40px;
+  }
+  .#{$item}-picture {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .#{$item}-name-wrap {
+    position: relative;
+    padding-top: 52px;
+    font-size: 0;
+    margin-bottom: 20px;
+  }
+  .#{$item}-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+
+  }
+  .#{$item}-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #808080;
+    margin-top: 20px;
+  }
+  @media all and (max-width: 500px) {
+    .#{$item}-name {
+      font-size: 16px;
+    }
+    .#{$item}-description {
+      font-size: 14px;
+    }
+  }
+
+}

@@ -1,0 +1,8 @@
+<KitchenSets>
+	<GoodsSubType name="Кухни">
+		<KitchenType name="Готовая"></KitchenType>
+		<KitchenType name="Модульная"></KitchenType>
+	</GoodsSubType>
+	<GoodsSubType name="Комплектующие"></GoodsSubType>
+	<GoodsSubType name="Другое"></GoodsSubType>
+</KitchenSets>

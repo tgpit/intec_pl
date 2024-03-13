@@ -1,0 +1,404 @@
+@import '../../../../sources/styles/include.scss';
+
+$component: 'header';
+$template: 'template-1';
+$class: #{$component};
+
+.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-view.widget-view-desktop {
+    display: block;
+    position: relative;
+    z-index: 50;
+  }
+
+  .widget-view.widget-view-fixed {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    z-index: 100;
+  }
+
+  [data-role="header-mobile-region-select"] {
+
+    .menu-region-question {
+      position: relative;
+      padding: 24px 16px;
+    }
+
+    .menu-region-question-title {
+      font-size: 16px;
+      line-height: 24px;
+      color: #1B1E25;
+      margin-bottom: 16px;
+    }
+
+    .menu-region-question-buttons {
+      font-size: 0;
+    }
+
+    .menu-region-question-button {
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-width: 1px;
+      padding: 15px 24px;
+      margin: 0 8px 8px 0;
+    }
+
+    .menu-region-question-close {
+      position: absolute;
+      top: 25px;
+      right: 32px;
+      cursor: pointer;
+    }
+  }
+
+  .widget-view.widget-view-mobile {
+    display: none;
+    position: relative;
+    z-index: 100;
+  }
+
+  .widget-banner {
+    display: block;
+    position: relative;
+    z-index: 0;
+  }
+
+  .widget-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+    display: none;
+    opacity: 0;
+  }
+
+  .widget-popups-phones-1-button {
+    display: block;
+    cursor: pointer;
+
+    svg {
+      path {
+        @include transition(350ms, (fill, stroke))
+      }
+
+      display: block;
+      fill: #bebebf;
+      stroke: #bebebf;
+    }
+  }
+
+  .widget-popups-phones-1 {
+    @include interface-popup();
+    @include flex-align-vertical(end);
+  }
+
+  .widget-popups-phones-1-overlay {
+    @include interface-popup-overlay();
+  }
+
+  .widget-popups-phones-1-window {
+    @include interface-popup-window();
+
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    padding: 34px 23px;
+    width: 100%;
+  }
+
+  .widget-popups-phones-1-window-wrapper {}
+
+  .widget-popups-phones-1-window-header {
+    @include flex();
+    @include flex-align-horizontal(start);
+    @include flex-align-vertical(center);
+    @include flex-wrap(none);
+
+    padding-bottom: 24px;
+  }
+
+  .widget-popups-phones-1-window-title {
+    @include flex-item-full();
+
+    color: #1b1e25;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-right: 16px;
+  }
+
+  .widget-popups-phones-1-window-close {
+    @include flex-item-auto();
+    @include user-select(none);
+
+    cursor: pointer;
+    padding: 0 8px;
+
+    svg {
+      display: block;
+      fill: #808080;
+      stroke: #808080;
+    }
+  }
+
+  .widget-popups-phones-1-window-content {}
+
+  .widget-popups-phones-1 {
+    &[data-template="template.1"] {
+      .widget-popups-phones-1-items {
+        margin: -12px 0;
+      }
+
+      .widget-popups-phones-1-item {
+        padding: 12px 0 13px 0;
+        position: relative;
+
+        &:first-child {
+          padding-top: 12px;
+
+          .widget-popups-phones-1-item-border {
+            display: none;
+          }
+        }
+      }
+
+      .widget-popups-phones-1-item-wrapper {
+        @include flex();
+        @include flex-align(center, start);
+        @include flex-wrap(none);
+      }
+
+      .widget-popups-phones-1-item-border {
+        @include sides(0, -6px, auto, -6px);
+        @include size(auto, 1px);
+
+        background-color: #f2f2f2;
+        position: absolute;
+      }
+
+      .widget-popups-phones-1-item-icon {
+        @include flex-item-auto();
+        @include box-sizing(content-box);
+
+        height: 16px;
+        padding-right: 8px;
+        width: 16px;
+      }
+
+      .widget-popups-phones-1-item-information {
+        @include flex-item-full();
+      }
+
+      .widget-popups-phones-1-item-number {
+        color: #404040;
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        text-decoration: none;
+      }
+
+      .widget-popups-phones-1-item-name {
+        color: #808080;
+        font-size: 12px;
+        line-height: 16px;
+        padding-top: 8px;
+      }
+    }
+
+    &[data-template="template.2"] {
+      .widget-popups-phones-1-control {
+        padding-bottom: 12px;
+
+        button {
+          padding: 11px 39px;
+        }
+      }
+
+      .widget-popups-phones-1-text {
+        padding-bottom: 36px;
+        position: relative;
+      }
+
+      .widget-popups-phones-1-text-content {
+        color: #808080;
+        font-size: 12px;
+        line-height: 20px;
+      }
+
+      .widget-popups-phones-1-text-border {
+        @include sides(auto, -3px, 18px, -3px);
+        @include size(auto, 1px);
+
+        background-color: #f2f2f2;
+        position: absolute;
+      }
+
+      .widget-popups-phones-1-items {
+        @include flex();
+        @include flex-align(start, start);
+        @include flex-wrap(wrap);
+
+        margin: -12px -11px;
+      }
+
+      .widget-popups-phones-1-item {
+        @include flex-item-auto();
+
+        padding: 12px 11px;
+        width: 50%;
+      }
+
+      .widget-popups-phones-1-item-wrapper {}
+
+      .widget-popups-phones-1-item-number {
+        color: #404040;
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        text-decoration: none;
+      }
+
+      .widget-popups-phones-1-item-name {
+        color: #808080;
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .widget-panel-social {
+    &-items {}
+
+    &-item-icon {
+      display: block;
+      width: 24px;
+      height: 24px;
+      background-image: url('images/icons_color_round.svg');
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      &[data-grey="true"] {
+        background-image: url('images/icons_grey_round.svg');
+      }
+      &[data-social-icon-square="true"] {
+        background-image: url('images/icons_color_square.svg');
+        
+        &[data-grey="true"] {
+          background-image: url('images/icons_grey_square.svg');
+        }
+      }
+      &[data-social-icon='VK'] {
+        background-position: -320px 0;
+      }
+      &[data-social-icon='FACEBOOK'] {
+        background-position: -288px 0;
+      }
+      &[data-social-icon='INSTAGRAM'] {
+        background-position: -384px 0;
+      }
+      &[data-social-icon='TWITTER'] {
+        background-position: -416px 0;
+      }
+      &[data-social-icon='YOUTUBE'] {
+        background-position: -448px 0;
+      }
+      &[data-social-icon='ODNOKLASSNIKI'] {
+        background-position: -352px 0;
+      }
+      &[data-social-icon='VIBER'] {
+        background-position: -224px 0;
+      }
+      &[data-social-icon='WHATSAPP'] {
+        background-position: -256px 0;
+      }
+      &[data-social-icon='YANDEX_DZEN'] {
+        background-position: -128px 0;
+      }
+      &[data-social-icon='MAIL_RU'] {
+        background-position: -160px 0;
+      }
+      &[data-social-icon='TELEGRAM'] {
+        background-position: -192px 0;
+      }
+      &[data-social-icon='PINTEREST'] {
+        background-position: -96px 0;
+      }
+      &[data-social-icon='TIKTOK'] {
+        background-position: -64px 0;
+      }
+      &[data-social-icon='SNAPCHAT'] {
+        background-position: -32px 0;
+      }
+      &[data-social-icon='LINKEDIN'] {
+        background-position: 0 0;
+      }
+    }
+    &-item-more {
+      padding-top: 4px;
+      padding-bottom: 10px;
+      text-align: center;
+      font-size: 16px;
+    }
+    &-hidden-items {
+      opacity: 0;
+      height: 0;
+      overflow:hidden;
+      z-index: -1;
+      position: absolute;
+      left: -3px;
+      padding: 6px 4px 4px;
+      background: #fff;
+      @include border-radius(#{0 0 6px 6px});
+      @include box-shadow(0, 4px, 20px, 0, #{rgb(0 0 0 / 20%)});
+      transition: opacity 0.4s;
+    }
+    &-item-hidden-wrap:hover {
+      cursor: pointer;
+      .widget-panel-social-hidden-items {
+        z-index: 10;
+        opacity: 1;
+        height: auto;
+      }
+    }
+  }
+
+  @media all and (min-width: 769px) {
+    [data-role="header-mobile-region-select"] {
+      display: none;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    .widget-view.widget-view-fixed,
+    .widget-view.widget-view-desktop {
+      display: none !important;
+    }
+
+    .widget-view.widget-view-mobile {
+      display: block;
+
+      &.widget-view-mobile-fixed {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: auto;
+        left: 0;
+      }
+    }
+  }
+
+  @media print {
+    display: none;
+  }
+}

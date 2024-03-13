@@ -1,0 +1,44 @@
+.ns-intec-universe.c-search-sections.c-search-sections-template-1 .search-sections-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2D2D2D;
+  padding: 16px 24px;
+  background: #F7F7F7;
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+}
+.ns-intec-universe.c-search-sections.c-search-sections-template-1 .search-sections-items {
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+}
+.ns-intec-universe.c-search-sections.c-search-sections-template-1 .search-sections-item {
+  display: block;
+  padding: 12px 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.ns-intec-universe.c-search-sections.c-search-sections-template-1 .search-sections-item:hover .search-sections-item-name {
+  color: inherit;
+}
+.ns-intec-universe.c-search-sections.c-search-sections-template-1 .search-sections-item-name {
+  color: #777777;
+  -webkit-transition: 350ms;
+  -moz-transition: 350ms;
+  -ms-transition: 350ms;
+  -o-transition: 350ms;
+  transition: 350ms;
+}
+.ns-intec-universe.c-search-sections.c-search-sections-template-1 .search-sections-item-count {
+  color: #2D2D2D;
+}
+.ns-intec-universe.c-search-sections.c-search-sections-template-1 .search-sections-item[data-active=true] .search-sections-item-name {
+  color: inherit;
+}
+
+/*# sourceMappingURL=style.css.map */

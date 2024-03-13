@@ -1,0 +1,105 @@
+.widget.c-gallery.c-gallery-template-5 .widget-items {
+  margin: -8px;
+}
+.widget.c-gallery.c-gallery-template-5 .widget-item-big {
+  width: 50%;
+}
+.widget.c-gallery.c-gallery-template-5 .widget-item-long .widget-item-wrapper {
+  padding-top: 120%;
+}
+.widget.c-gallery.c-gallery-template-5 .widget-item-wrapper {
+  position: relative;
+  padding-top: 60%;
+}
+.widget.c-gallery.c-gallery-template-5 .widget-item-picture-wrap {
+  position: absolute;
+  margin: 8px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+.widget.c-gallery.c-gallery-template-5 .widget-item-picture {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
+  -ms-transition-property: transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.widget.c-gallery.c-gallery-template-5 .widget-item-picture img {
+  display: none;
+}
+.widget.c-gallery.c-gallery-template-5 .widget-item-picture-wrap:hover .widget-item-picture {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.widget.c-gallery.c-gallery-template-5 .widget-header {
+  overflow: hidden;
+}
+.widget.c-gallery.c-gallery-template-5 .widget-all-container {
+  display: none;
+}
+.widget.c-gallery.c-gallery-template-5 .widget-all-button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #808080;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.widget.c-gallery.c-gallery-template-5 .widget-all-button i {
+  display: none;
+  font-size: 18px;
+}
+@media all and (max-width: 550px) {
+  .widget.c-gallery.c-gallery-template-5 .widget-all-container {
+    display: block;
+  }
+  .widget.c-gallery.c-gallery-template-5 .widget-title.align-center.widget-title-margin {
+    margin-left: 25px;
+  }
+  .widget.c-gallery.c-gallery-template-5 .widget-all-container.mobile {
+    text-align: right;
+    width: 25px;
+    max-height: 36px;
+  }
+  .widget.c-gallery.c-gallery-template-5 .widget-all-container i {
+    display: inline-block;
+  }
+  .widget.c-gallery.c-gallery-template-5 .widget-footer.mobile,
+.widget.c-gallery.c-gallery-template-5 .widget-footer-button.mobile {
+    display: none;
+  }
+  .widget.c-gallery.c-gallery-template-5 .widget-all-container {
+    width: 25px;
+  }
+}
+@media all and (max-width: 600px) {
+  .widget.c-gallery.c-gallery-template-5 .widget-item-long .widget-item-wrapper {
+    padding-top: 60%;
+  }
+}
+.widget.c-gallery.c-gallery-template-5 .widget-footer-button {
+  color: #2d2d2d !important;
+}
+.widget.c-gallery.c-gallery-template-5 .widget-footer-button:hover, .widget.c-gallery.c-gallery-template-5 .widget-footer-button:focus, .widget.c-gallery.c-gallery-template-5 .widget-footer-button:active {
+  color: #fff !important;
+}
+
+/*# sourceMappingURL=style.css.map */

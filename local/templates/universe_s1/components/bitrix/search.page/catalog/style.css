@@ -1,0 +1,18 @@
+.ns-bitrix.c-search-page.c-search-page-catalog .search-page-content {
+  width: 100%;
+}
+.ns-bitrix.c-search-page.c-search-page-catalog .search-page-content .search-page-form {
+  margin-bottom: 25px;
+  border: none;
+  padding: 0;
+}
+.ns-bitrix.c-search-page.c-search-page-catalog .search-page-content .search-form-input {
+  background-color: #FFF;
+}
+@media all and (max-width: 1024px) {
+  .ns-bitrix.c-search-page.c-search-page-catalog .search-page-content .search-page-form {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

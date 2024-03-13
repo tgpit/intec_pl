@@ -1,0 +1,73 @@
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default {
+  display: block;
+  overflow: hidden;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-message-error {
+  display: block;
+  color: #ff114a;
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-fields {
+  display: block;
+  margin: -8px 0 17px 0;
+  min-height: 8px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-field {
+  display: block;
+  padding: 8px 0;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-consent {
+  margin-bottom: 25px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-sent {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-sent-icon {
+  margin-right: 20px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-sent-text {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-sent-buttons {
+  display: none;
+  margin-top: 38px;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-sent-button {
+  padding: 15px 24px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-reset-button,
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-submit-button {
+  padding: 16px 32px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-submit-button[disabled] {
+  background-color: #CCCCCC;
+  border-color: #CCCCCC;
+  cursor: not-allowed;
+}
+.ns-intec.c-startshop-forms-result-new.c-startshop-forms-result-new-default .startshop-forms-result-new-consent-text {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

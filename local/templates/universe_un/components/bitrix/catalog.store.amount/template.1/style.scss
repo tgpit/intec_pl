@@ -1,0 +1,114 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-store-amount';
+$template: 'template-1';
+$class: $component;
+
+$color-black-1: #1B1E25;
+$color-black-2:#404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-gray-4: #F2F2F2;
+
+$state-many: #1DB940;
+$state-few: #F4BB28;
+$state-empty: #B0B0B0;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .#{$class}-info {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 16px;
+    color: #888888;
+  }
+
+  .#{$class}-items {
+
+    &[data-show-empty-store="false"] {
+
+      .#{$class}-item {
+
+        &[data-store-state="empty"] {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .#{$class}-item {
+    font-size: 0;
+    margin-top: 8px;
+
+    &[data-store-state='many'] {
+
+      .#{$class}-item-state-indicator {
+        background-color: $state-many;
+      }
+
+      .#{$class}-item-state-colored {
+        color: $state-many;
+      }
+    }
+
+    &[data-store-state='few'] {
+
+      .#{$class}-item-state-indicator {
+        background-color: $state-few;
+      }
+
+      .#{$class}-item-state-colored {
+        color: $state-few;
+      }
+    }
+
+    &[data-store-state='empty'] {
+
+      .#{$class}-item-state-indicator {
+        background-color: $state-empty;
+      }
+
+      .#{$class}-item-state-colored {
+        color: $state-empty;
+      }
+    }
+  }
+
+  .#{$class}-item-block {
+
+    & + .#{$class}-item-block {
+      margin-top: 4px;
+    }
+  }
+
+  .#{$class}-item-state-indicator {
+    width: 4px;
+    height: 4px;
+
+    @include border-radius(50%);
+    @include transition(0.4s, background-color);
+  }
+
+  .#{$class}-item-state-colored {
+    @include transition(0.4s, color);
+  }
+
+  .#{$class}-item-state-value {
+    font-size: 12px;
+    line-height: 16px;
+    color: $color-black-2;
+
+    & + .#{$class}-item-state-value {
+      padding-left: 4px;
+    }
+  }
+
+  .#{$class}-item-title {
+    font-size: 12px;
+    line-height: 16px;
+    color: $color-gray-2;
+  }
+}

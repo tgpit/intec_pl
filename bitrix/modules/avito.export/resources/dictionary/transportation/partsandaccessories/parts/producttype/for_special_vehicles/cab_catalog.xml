@@ -1,0 +1,4899 @@
+<Makes>
+	<Make name="AMT N.V.">
+		<Model name="632910">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="632911">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="732910">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Astra">
+		<Model name="HD866.45">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="HD9 64.56">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Baic">
+		<Model name="BJ4250D6CP-02">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Balkancar Record">
+		<Model name="ЕП 001">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Beiben">
+		<Model name="1848">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="1848S">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="2555SZ">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="2643">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="2648">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="2648S">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ND4250BD5J7Z25">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ND4250FD5J7Z22">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="V3 3138KY">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="CAMC">
+		<Model name="HN 425">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="CAT">
+		<Model name="NTR30N">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="NTR30N2">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Chenglong">
+		<Model name="H5V">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="H7">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="DAF">
+		<Model name="3600 ATI">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="85.360ATi">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="85.400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="85.430 6x2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="95.310 ATI">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="95.360 ATI">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="95.400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="95.400 ATi">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="95XF">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="95XF380">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="95XF430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CF 440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CF 85.340">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CF 85.380">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CF 85.430 FTG">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CF 85.460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CF-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CF85">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FT 95.430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FT CF 84.410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FT CF 85.410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FT G95.400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FT XF 105.410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FT XF 105.460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FT XF105">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FT XF530 SSC">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FT XF95">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FT330ati">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TE 95.400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TE23HT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="X95">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 105.460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 105.460 FTR">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 106.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 106.530">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 33.530 FTT 6x4">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 440 FT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 440 FTG">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 450 FT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 460 FT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 480 FT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 510 FTG">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 530 FT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 95.430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 95.430 FT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 95.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF 95.530">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF105">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF105.410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF105.510">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF106">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF116">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XF95">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XG 480 FT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XG 530">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XG 530 FT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XG+">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Daewoo">
+		<Model name="Novus">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Prima">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Ultra Novus">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Dayun">
+		<Model name="CGC4180">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CGC4181">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CGC4250">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CGC4251">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CGC4253">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="V9 X4251">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="V9 X4251 Air">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="X4180">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="X4181">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="X4250">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="X4251">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="DongFeng">
+		<Model name="4251AXA-1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="DFD 375HP">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="DFD 4180GL6D">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="DFH 4180 4x2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="DFH 4186">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="DFH 4250A17">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="DFH 4250СХ7">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="DFH 4251AW7">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="DFH 4271">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="DFL-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="DFL4181A">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="GX-1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="HV7">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="HV8">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="KC 6x4">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="KX 4x2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="ERF (MAN Truck)">
+		<Model name="11.39">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="11.42">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="E-Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="FAW">
+		<Model name="CA4180P25K15E5A80">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CA4180P66K24E4">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CA4180P66K25E5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CA4228K2R5T1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CA4250P66K24T1A1E4">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CA4250P77K25T1E5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CA4259P25K15T1E6A80">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="J6">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="J6 CA4180">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="J6 CA4250">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="J6P">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="J7">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="J7 CA4180">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="JH6">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="JH6 Oryx">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="JH7">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Faun">
+		<Model name="HZ 32.25/40">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="HZ 40.45/45">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Ford">
+		<Model name="1848T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Cargo">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Cargo 1838 HR">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Cargo 1846 XH">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="F-Max">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Foton">
+		<Model name="Auman">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Auman BJ4189">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Auman BJ425x">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Auman EST 1846 AMT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Auman EST A">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Auman EST-A 1844 AMT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Auman H5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Galaxy 580G">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Galaxy 660">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Freightliner">
+		<Model name="Argosy">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CL112042ST">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CL120064ST">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CST120">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Cascadia">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Century">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Century Class">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Classic">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Columbia">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FL 70">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FLA/FLB">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FLB">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FLC">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FLC 120">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FLD">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FLD 120">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FLD 132 Classic">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FLD SD">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ST120064ST">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Hania">
+		<Model name="ZZ4185C">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Heli">
+		<Model name="BD10">
+			<BodyType name="Терминальный"></BodyType>
+		</Model>
+		<Model name="BD20">
+			<BodyType name="Терминальный"></BodyType>
+		</Model>
+		<Model name="BD40">
+			<BodyType name="Терминальный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Hino">
+		<Model name="700">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FU">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Profia">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Profia FH">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SH">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Super Dolphin">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Howo">
+		<Model name="A5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="A7">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="HW76">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Max">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T7H 540">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TH7">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4186">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4257">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4327">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Hyundai">
+		<Model name="40TA-7">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="Gold">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="HD1000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="HD450">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="HD450/500/700">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="HD500">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Xcient">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="IVECO">
+		<Model name="190-36 PT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="190-42Р">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="190.38">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="330.3">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="400 E38">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="400 E42">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="440 E35">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="440 E37">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="440 E40">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="440 E41">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="440 E42">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="440 E43">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="440 S40T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="440 S43">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="440ET38">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Cursor">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="EuroTrakker">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Eurocargo">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Eurostar">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Eurotech">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Ford">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="MP400 E34">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="MP440 E42">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Magirus">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="S-Way 430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="S-Way 440 S48">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="S-Way 490">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="S-Way AS440S49T/P ​​Magirus">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Starline">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Stralis">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Stralis AS 440 S43T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Trakker">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Turbo">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TurboTech">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Turbostar">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="IVECO-Hongyan">
+		<Model name="CQ4186HV52">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CQ4186HYVG391">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CQ4187HD10381T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CQ4256EXVG334">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CQ4256HTG384T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CQ4256HTVG334">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CQ4256HYVG334">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CQ4257ЕV11334">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CQ4266HV48">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Genlyon 450">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Genlyon 520">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Genlyon 550">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="IVECO-Ling Ye">
+		<Model name="NJ 4250 DBW">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="IVECO-АМТ">
+		<Model name="433910">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="533910">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6329">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6339">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="633900">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="633910">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="633911">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="633913">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="633917">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6529">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="653900">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="International">
+		<Model name="7000 Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="7600">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="9000 Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="9200">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="9200i">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="9400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="9400i">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="9700">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="9800">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="9900i">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Paystar 5500">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Prostar">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TranStar">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Isuzu">
+		<Model name="EXZ51K">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="EXZ52R">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Giga">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="V340">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="JAC">
+		<Model name="BDD 20">
+			<BodyType name="Терминальный"></BodyType>
+		</Model>
+		<Model name="K7">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="QD20">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="QD40">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Kalmar">
+		<Model name="TRX 182">
+			<BodyType name="Терминальный"></BodyType>
+		</Model>
+		<Model name="TT616I">
+			<BodyType name="Терминальный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Kenworth">
+		<Model name="C500">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="C500B">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T2000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T600">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T660">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T800">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Kia">
+		<Model name="Granto">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="MAFI">
+		<Model name="MT25YT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="MAN">
+		<Model name="14">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="16.220">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="17">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="17.322">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="18">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="18.373">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="18.403">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="18.483">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="18.483 FLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="19">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="19.314">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="19.343">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="19.362">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="19.372">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="19.402">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="19.403">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="19.414">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="19.422">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="19.463">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="19.464">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="22">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="22.322">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="22.463">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="26">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="27.414">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="33">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="33.440 BBS-WW">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="41.464">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="48">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="9.362">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="A-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CAT A1 8x8">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="E-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ERF 11.39">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ERF 26.385">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="F-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="F2000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="F90">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="L-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="NL-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.350">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.360">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.363">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.390">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.412">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.413">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.413 FLRS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.413 FLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.463">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 18.480 4x2 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 19.350">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 19.390">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 26.360">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 26.390">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 26.410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 26.412 FPLT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 26.413">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 26.413 FDS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 26.414">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 26.430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 26.440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 26.460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 26.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 28.390">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 33.430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 33.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 40.410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 41.530">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGA 410А">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGL">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGL 12.250">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGM">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 18.360">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 18.400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 18.440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 18.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 19.350">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 19.360">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 19.390">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 19.400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 19.400 4X2 BLS-W">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 19.440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 26.350 6x2-2 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 26.400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 26.400 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 26.440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 26.440 6*4 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 26.440 6X2/2 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 26.440 6х4 BLS-W">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 26.440 6х4 BLS-WW">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 26.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 33.430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 33.440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 33.440 6x4 BBS-WW">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 33.440 6x4 BLS-WW">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 33.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 33.480 6x4 BBS-WW">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 33.540">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 40.390">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 40.430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGS 40.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.400 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.420">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.440 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.470">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.500">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.500 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.510">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.520 BLS 4x2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.540">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 18.580">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 24.460 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 26.420">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 26.440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 26.460 6Х2/2 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 26.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 26.500">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 26.510">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 26.540">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 26.580">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 28.400 6x2-2 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 28.440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 28.440 6x2-2 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 28.470">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 28.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 28.500">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 28.510 6X2-2 BLS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 33.480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 33.540">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 33.580">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 41.540 8x4/4 BBS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="TGX 41.640">
+			<BodyType name="Балластный"></BodyType>
+		</Model>
+		<Model name="TGX 41.640 8x4/4 BB SA">
+			<BodyType name="Балластный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Mack">
+		<Model name="CH">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CX0613E">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="CXU613E">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Vision (CX)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Mercedes-Benz">
+		<Model name="1017 S">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="1420 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="1633 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="1735 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="1735 S">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="1846 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="1935">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="2038">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="2235">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="2435">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="2638">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1422 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1831 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1835">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1836">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1838 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1840">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1840LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1841 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1842 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1843">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1844">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1844 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1845">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1845LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1846">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1848 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1851">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1851 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1853">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1858 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 1942">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2042 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2445">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2541 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2542 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2543">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2544 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2545 L 6x2/4">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2545 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2545 LS 6x2/4 F 13">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2548LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2553 LS 6x2 Gigaspace">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2641">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2641LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2641S">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2643">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2644LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2645LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2646">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2648">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2653">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2657">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 2658">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 3332 S">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 334">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 3344">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 3346 AS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 3346S">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros 4455 8х6">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros L 2651 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros NEW 1842 LS 4х2 CKD">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros NEW 1845 LS 4х2 CKD">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros NEW 1845 LSNRL 4х2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Actros SFTP 1845LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Antos">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Antos 1933">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Arocs">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Arocs 3348 AS 6Х6">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Arocs 3348 S 6x4 BG13">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Arocs 3348AS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Arocs 3348S">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Arocs New 3345 LS 6x4">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Atego">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Axor">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Axor 1833">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Axor 1835 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Axor 1836">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Axor 1836LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Axor 1840">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Axor 1840 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Axor 1843">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Axor 2543">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SK">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Sprinter">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Vario">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Zetros">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="axor 1836 LS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Mitsubishi Fuso">
+		<Model name="Super Great">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Nissan Diesel">
+		<Model name="Condor">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="UD">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="UZA520PPL">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Noblelift">
+		<Model name="T30N">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="T50N">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="T60N">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="TE10">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+	</Make>
+	<Make name="North Benz">
+		<Model name="ND4250">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Peterbilt">
+		<Model name="362">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="386">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="387">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="388">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="389">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Renault">
+		<Model name="C-Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G320">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G330">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="HD 006C 6x4">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="K-Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Kerax">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Magnum">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Magnum 500dxi">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Major">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Manager">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Mascott">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Master">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium 320.19T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium 370">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium 380">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium 380.19T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium 400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium 420dci">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium 430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium 440.19T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium 440dxi">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium 450dxi">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Premium Lander">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R350">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T-Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T520">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Rocla">
+		<Model name="PLS30T">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="PS30T">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Rofan">
+		<Model name="ZD80F">
+			<BodyType name="Аэродромный"></BodyType>
+		</Model>
+		<Model name="ZH4">
+			<BodyType name="Аэродромный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="SANY">
+		<Model name="D365">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="D465MS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="D495AS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="D525A">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="D525AL">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="D525ASE-80">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="D525ML">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="D525MS">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="STILL">
+		<Model name="CS-30Z">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="CX-T">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="R 07-25">
+			<BodyType name="Аэродромный"></BodyType>
+		</Model>
+		<Model name="R 08-20">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="R06">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Scammell">
+		<Model name="Crusader">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Scania">
+		<Model name="112H">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="112M">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="114L 380">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="124">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="124G">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="124L">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="143M">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="2-Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="3-Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4-Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G340 A4X2NA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G360">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G380">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G380LA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G400LA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G410CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G420">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G420LA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G440A6X4NA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G440CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G440LA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G440LA4X2HNA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G450">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G450 A4X2NA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G450 A6X2NA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G480CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Griffin">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="K-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="L-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="M">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P 380 CA6X4HSZ">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P114">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P114GA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P124">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P230LB">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P340">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P340GA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P340LA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P360">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P360LA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P380">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P380CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P400CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P420">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P420CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P440CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P440CB8X4EHZ">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P440LA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="P94 GA4X2NA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R 113">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R 142">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R-Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R112">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R113H">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R113M">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R113MA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R114">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R124">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R143">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R144">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R164">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R164GA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R380">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R380LA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R411">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R420">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R420LA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R440 A4X2NA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R440 CA6X4HSZ">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R440CA6X4HHA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R440LA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R440LA4X2HNA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R440LA4X2MEB">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R450">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R470">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R480">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R490">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R500">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R500 PDE">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R500CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R520A">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R530">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R540">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R560">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R580">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R620">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="R93">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="S-Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="S450">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="S500">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="S530">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T-Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Schopf">
+		<Model name="F59">
+			<BodyType name="Аэродромный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Shacman (Shaanxi)">
+		<Model name="F2000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="F3000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4184">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX418853381">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4188YY381">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX418ZJ321C">
+			<BodyType name="Терминальный"></BodyType>
+		</Model>
+		<Model name="SX4250МР5334">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4254DV324">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4254NS294">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4255NT324">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4256">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX42566V324">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4256NT324">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4256NV324">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4257NR324Z">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4257NX324">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4258">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX42584T324">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX42584T384T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX42584V324">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX42584W324C">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX42585V324">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX42586V385">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX42586W324C">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX42586W385">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX42586W385C">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX4258DV385">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="SX5455TQYZL322C">
+			<BodyType name="Терминальный"></BodyType>
+		</Model>
+		<Model name="X3000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="X5000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="X5000S">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="X6000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XUANDEYI 3">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Sinotruk">
+		<Model name="HOVA 4X2">
+			<BodyType name="Терминальный"></BodyType>
+		</Model>
+		<Model name="ZZ4257N324WE1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Sitrak">
+		<Model name="400HP">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="C7H">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="C7H Max">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="C9H">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G7">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G7S">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="G9H">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ3256V464ME1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4186V361HE">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4186V361HEC">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4186V361HF1W">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4186V391HE">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4256V363HE1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4256V364HE">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4256V364HE1B">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4256V364HE44">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4256V364HE48">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ZZ4256V364HE54">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Skoda LIAZ">
+		<Model name="Series 100">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Sterling">
+		<Model name="A-line">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="LT9500">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Silverstar">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Steyr">
+		<Model name="33">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="TLD">
+		<Model name="JST-30">
+			<BodyType name="Аэродромный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="TUG">
+		<Model name="GT50">
+			<BodyType name="Аэродромный"></BodyType>
+		</Model>
+		<Model name="MA-30">
+			<BodyType name="Аэродромный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Tatra">
+		<Model name="T158">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="T815">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Т815-230N9T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Т815-290N3T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Terberg">
+		<Model name="RT 222">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="RT 223">
+			<BodyType name="Терминальный"></BodyType>
+		</Model>
+		<Model name="YT 222">
+			<BodyType name="Терминальный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Tiema">
+		<Model name="XC4258A3">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Towflexx">
+		<Model name="5.3">
+			<BodyType name="Аэродромный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Toyota">
+		<Model name="CBT4">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="CBT6">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="TSE300">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Volvo">
+		<Model name="A-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="B-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="B12">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="F-Series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="F10">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="F12">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="F12 400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="F16">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FE">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH 420">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH 42T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH 440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH 460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH 500">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH 540">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH 62PT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH 62T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH 62TB">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH 62TT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH Track">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH12">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH13">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FH16">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FL">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FL10">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FM">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FM 420">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FM 460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FM Track">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FM10">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FM11">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FM12">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FM13">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FM7">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FM9">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FMX">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FMX13">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="FMX550">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="L-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="N-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="NFM">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="NH">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="S-series">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VH">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VN">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VN 670">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNL">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNL 42T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNL 430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNL 610">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNL 620">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNL 630">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNL 64T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNL 660">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNL 670">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNL 770">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNL 780">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNM">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNM 200">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VNM42T">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="VT">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Western Star">
+		<Model name="4900">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="XCMG">
+		<Model name="Hanvan G5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="XGA4185D5WA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="ГАЗ">
+		<Model name="ГАЗель Next A23R33">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="ГАЗон Next C41RB3">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="ЗИЛ">
+		<Model name="130">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="131">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="133">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="133-05А">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="133В">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="133ВЯ">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="433360">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="441310">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4415">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="441510">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="441610">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4421">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="442100">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="442160">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4423">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="442300">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="495810">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5301">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="541730">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="541760">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="630902">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="КАМАЗ">
+		<Model name="35410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="354112">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4308">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43101">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43101А">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43108">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43114">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43118">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43118-23027-50">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43118-3027-50">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43118-33031-76(RR)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43118-33031-80(RS)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43253">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44108">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44108-10">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44108-24">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44108-6030-24">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4425">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5320">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="53228">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="53504">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="53504-46">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="53504-50">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="53504-6030-50">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="53504-606030-50">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="53504-7030-50">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="53504-76020-50">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="53614В">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54105">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54112">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="541120">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="541127">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54112А">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54115">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54115-15">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5412">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5425">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54601-53">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490 NEO">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490 NEO 2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-001-68">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-014-87">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-022-87(S5)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-023-87(S5) NEO">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-032-87(S5) NEO 2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-033-87 NEO 2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-036-87">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-037-87">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-053-87">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-096-68 (Т5)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-801-5P NEO 2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-80801-5P NEO 2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-80802-5P NEO 2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-80803-5P NEO 2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-80804-5P NEO 2">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5490-DC">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-004-92">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-004-94">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-014-94">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-054-94">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-70010-AA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-70014-94">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-70014-CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-70026-CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-70028-CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-70030-CA">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-92">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54901-94">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5511">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5806-68">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5849Е-0000010-10">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="638298">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6460">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6460-73">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65111">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65115">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65115-33010-80(RS)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-37">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-48(A5)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-6010-23(А4)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-6010-48">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-6010-48 (А5)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-6020-48">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-62">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-6912-48">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-7010-48">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-7010-48 (A5)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-7010-56 (5Н)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-N3">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65116-RB">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6520">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65206">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65206-002-68">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65206-006-87(S5)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65206-012-68(Т5)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65206-032-68(Т5)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65206-87(S5)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65206-Т5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65209">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65209-001-87">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65221">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65221-26020-53">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65221-43">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65221-526020-53">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65221-53">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65225">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65225-26014-53">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65225-53">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65225-6015-53">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65225-6215-47(RT)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65226">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="654116">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65656">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65659-004-92">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="658025">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65806">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65806-002-68(Т5)">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65808-5J">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="659002">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65955">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65956">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="65959">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6634F5-01">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6898D6">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="780535">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="8060G1-10">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="УСТ 54531S">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="УСТ 5453JC">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="КЗКТ">
+		<Model name="7428">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="74281-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="КрАЗ">
+		<Model name="250">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="255">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="255Б">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="255Б1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="255В1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="258">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="258Б1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="260">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6437">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64372">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6443">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64431">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6444">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6446">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6510">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="МАЗ">
+		<Model name="354323">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4371">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="504">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5048">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="504В">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5334">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5335">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5337">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="537">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5423">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5429">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543/7310">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5432">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54320">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543202-2120">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543203">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543203-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543203-2120">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543203-2122">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543203-220">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543203-222">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543205">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543205-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543205-220">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543205-226">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543208-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54322">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54323">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54323-028">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54323-032">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54323-039">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543240">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543240-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543240-2120">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543240-2140">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54329">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54329-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5432А3-320">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5432А3-322">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5432А5-323">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5433">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543302-220">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54331">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5433А2-320">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5434">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5434Х3-440-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5434Х3-441-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5434Х3-441-000Р1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5434Х3-442-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5434Х3-460-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5434Х3-460-000Р1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5434Х3-461-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544008">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544008-00-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544008-030-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544008-030-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544008-060-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544008-060-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544008-060-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544008-060-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544008-070-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544017-420-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544017-420-032">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544017-421-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544017-421-032">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544018">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544018-1320-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544019-1421-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544019-1421-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544019-1422-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544019-1422-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544019-1450-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544019-1450-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544019-2422-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544019-2422-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544019-420-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544028">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544028-520-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544028-520-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544028-521-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544028-521-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544028-530-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544028-530-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544028-570-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544028-570-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544028-571-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544028-571-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544029-1420-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544029-1420-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54402L-531-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54402N-30520-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54402N-38529-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54402К-520-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54402К-570-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544069-320-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544069-320-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B3-1420-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B3-1420-002">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B3-1420-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B3-1420-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B3-1480-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B3-1480-002">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B3-1480-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B3-1480-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B5-8420">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B5-8420-002">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B5-8420-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B5-8440-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B5-8440-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B5-8480-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B5-8480-002">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B5-8480-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B7-1420-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B7-1420-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B7-1470-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B7-1470-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B9">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B9-1420-013">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B9-1420-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B9-1450-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B9-1450-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B9-1470-013">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B9-1470-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B9-1470-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B9-8429-013">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440B9-8479-013">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440C5-8520-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440C5-8520-002">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440C5-8520-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440C5-8520-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440C5-8580-002">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440C5-8580-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440C9-520-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440C9-520-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440C9-520-032">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440C9-570-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440C9-570-032">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E8-520-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E8-530-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E8-530-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E8-8529-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-520-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-520-032">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-521-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-522-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-522-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-530-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-530-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-550-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-550-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-555-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-555-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-558-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-558-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-8529-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440E9-8529-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440W8-1470-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440W8-1470-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440Y8-520-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440Y8-520-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440Y9-520-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440Y9-520-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А3-370-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А5-330">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А5-330-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А5-330-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А5-370">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А5-370-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А5-370-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А8">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А8-360">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А8-360-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А8-360-31">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А9">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А9-1320-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А9-1320-031Р1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440А9-320-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440В5-8420-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440В5-8420-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440В5-8480-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440В9">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440В9-1420-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440Е8-520-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440Е9-520-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440Е9-521-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440Р9-1420-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440Р9-1420-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440С5-8580-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440С5-8580-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440С9">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440С9-520-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5440С9-570-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="544579">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54А02К-520-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54А0E8-520-030">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54А0E8-520-031">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5551">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6303А8">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="631226">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="631228">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6312A8-320-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6312C3">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6312C5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6312C9">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6312V5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6312Е9">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="631708-310-050Р1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6317F5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6317F9-571-051">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6422">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64220">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642205-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642205-220">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642205-222">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642208">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642208-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642208-022">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642208-026">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642208-028">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642208-20">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642208-230">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642208-232">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64221">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64229">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64229-027">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64229-032">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642290-2120">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642290-2122">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6422A8-332">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6422А5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6422А5-320">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6422А5-322">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6422А8">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6422А8-320-050">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6422А8-330">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642505">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642505-211">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642505-2130">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642505-221">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642505-351Р">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642508">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642508-221">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642508-233">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642508-350-050Р">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642524-550-051">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642524-551-051">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642524-552-051">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642524-553-051">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425F9-550-001">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425F9-551-001">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425F9-552-001">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425F9-553-001">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425X9-433">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425X9-433-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425X9-450">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425X9-450-051">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х5-410-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х5-410-001">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х5-410-050">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х5-410-051">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х5-430-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х5-430-050">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х5-450-001">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х5-450-051">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х9">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х9-410-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х9-410-001">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х9-410-050">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х9-410-051">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х9-430-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х9-430-050">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425Х9-451-051">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643008-060-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643008-060-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643008-070-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643008-070-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643008-070-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643017-1420-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643018">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643019-1420-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643019-1420-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643019-1420-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643019-1420-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643019-1420-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643019-8429-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643019-8429-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028-520-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028-520-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028-520-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028-520-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028-570-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028-570-013">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028-570-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028-570-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028-8529-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028-8529-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643028-8579-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643029-1420-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643029-1420-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643029-520-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643029-8429-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643029-8429-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64302L-531-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-1420-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-1420-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-1420-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-1470-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-1470-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-1470-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-8420-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-8420-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-8420-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-8470-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-8470-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B7-8470-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B8-1420-020Р1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B8-1420-021Р1">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-1420-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-1420-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-1420-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-1421-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-1440-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-1440-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-1470-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-1470-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-1471-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-1471-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-8429-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-8429-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-8479-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430B9-8479-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430C9-520-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430C9-520-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430C9-520-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430C9-570-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430C9-570-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430C9-570-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430C9-570-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430C9-8529-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430C9-8529-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430C9-8579-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430C9-8579-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430E8-520-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430E8-520-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430E8-520-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430E8-8529-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430E8-8529-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430E9-520-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430E9-520-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430E9-520-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430E9-520-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430W8-1470-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430W8-1470-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430А5-320-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430А5-370">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430А8">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430А8-320-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430А8-360">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430А8-360-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430А8-360-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430А9">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430А9-1320-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430А9-1320-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430А9-320-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430В9">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430В9-1420-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430В9-1420-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430В9-1421-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430В9-1470-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430В9-1470-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430В9-1470-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430Е8">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430Е8-520-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430Е8-520-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430Е8-530-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430Е8-530-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430Е9-520-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430Р9-1420-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430Р9-1420-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430Р9-8429-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430Р9-8429-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430С9">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430С9-520-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430С9-520-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430С9-520-013">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430С9-520-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430С9-520-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6430С9-570-011">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643228">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643228-8520-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643228-8520-052">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643228-8521-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643228-8521-013">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643228-8521-052">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643228-8570-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643228-8570-052">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643228-8571-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643228-8571-052">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64322L-8520-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64322L-8521-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64322L-8570-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64322L-8571-012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6432Н9-8420-052">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6432Н9-8421-052">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6432Н9-8470-052">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6432Н9-8471-052">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="643560">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64А028-520-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64А028-520-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64А028-570-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64А028-570-021">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64А02К-520-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="64А02К-570-020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="651705">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="673104">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="7310 Ураган">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="734178">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="7912/7917">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Корнет ZT-71-21-000">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="МАЗ-МАН">
+		<Model name="540459">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5405">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="54326">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="543268">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="640168">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642268">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642369">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="642459">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6425">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="646459">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="747459">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="МЗКТ">
+		<Model name="6923">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="7401">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="7413">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="7416">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="741600-010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="7429">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="750440-010-01">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Volat-690610">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Volat-74131">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Volat-74173">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Volat-79092">
+			<BodyType name="Балластный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Промтепловоз">
+		<Model name="Атлас">
+			<BodyType name="Вагонный"></BodyType>
+		</Model>
+		<Model name="Викинг">
+			<BodyType name="Вагонный"></BodyType>
+		</Model>
+		<Model name="Геркулес">
+			<BodyType name="Вагонный"></BodyType>
+		</Model>
+		<Model name="Титан">
+			<BodyType name="Вагонный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="РИАТ">
+		<Model name="441080">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="441090">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="651103">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="651123">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="651143">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="651182">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="С&amp;C">
+		<Model name="N332Т 6х4">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Сарапульский завод">
+		<Model name="ЭК-2Б">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Спец Электро Транспорт">
+		<Model name="Компас">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="Полет">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="Радиус">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="Рекорд">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="Степ">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+		<Model name="Фора">
+			<BodyType name="Складской"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Тонар">
+		<Model name="5422">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6428">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="УЗСТ">
+		<Model name="174Т-22">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-23">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-24">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-25">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-26">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-27">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-28">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-29">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-30">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-31">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-33">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-34">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-35">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-36">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-37">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-39">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-40">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-41">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="174Т-42">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-4972-80/82">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="483Т-014">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="483Т-15">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="483Т-16">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="483Т-17">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="483Т-18">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="483Т-19">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Урал">
+		<Model name="375">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-1951-60">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-1951-62">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-1951-70">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-1951-72">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-1951-74">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-4971-80">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-6951-70">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-6951-72">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-6951-74">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-6981-72">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-74Е5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-78">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-80">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4320-82">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43202">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="43204">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4420">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-0311-41">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-0311-59">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-0311-60">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-0321-31">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-0321-41">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-0511-41">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-10">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-31">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-3511-80">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-3511-82">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-3511-82Е5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-3511-82Е5А45">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-5311-74">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-5311-74Е5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="44202-82Е5">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="4444-0000010">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="444400">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="444404">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5423">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="545354">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5453PN">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557-1151-60">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557-1151-62">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557-1151-70">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557-1151-72">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557-1151-74">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557-6151-70">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557-6151-72">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557-6151-74">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557-78">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557-80">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557-82">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571-1151-60">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571-1151-62">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571-1151-70">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571-1151-72">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571-1151-74">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571-6151-70">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571-6151-72">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571-6151-74">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571-78">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571-80">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="55571-82">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5557130">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5757-0000010-04">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="5849D-0000020">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="596009">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="596012">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="596014">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6367">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="63674">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6370">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="63704">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="6470">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="7470-5511-01">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="Next">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Хант">
+		<Model name="7751T4">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="8051В4">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+		<Model name="МС410">
+			<BodyType name="Седельный"></BodyType>
+		</Model>
+	</Make>
+</Makes>

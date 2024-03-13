@@ -1,0 +1,101 @@
+$namespace: 'bitrix';
+$component: 'main-register';
+$template: 'template-2';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  width: 100%;
+
+  .intec-ui-form .intec-ui-form-field-content {
+    position: relative;
+  }
+
+  .intec-ui-form .intec-ui-form-field {
+    margin-bottom: 20px;
+  }
+
+  .#{$class}-socserv-title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #404040;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .#{$class}-socserv-content {
+
+  }
+
+  .#{$class}-socserv-bottom {
+    position: relative;
+    text-align: center;
+    margin-bottom: 16px;
+
+    span {
+      display: inline-block;
+      position: relative;
+      padding: 0 8px;
+      background-color: #fff;
+      font-size: 12px;
+      line-height: 18px;
+      color: #404040;
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      border-bottom: 1px solid #F2F2F2;
+    }
+  }
+
+  .#{$class}-form-calendar-icon {
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  .#{$class}-form-password-icon {
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    cursor: pointer;
+
+    &[data-active="false"] {
+      display: none;
+    }
+  }
+
+  .#{$class}-consent {
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+
+  .#{$class}-button {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 20px 40px;
+  }
+
+  .#{$class}-auth-info {
+    font-size: 13px;
+    line-height: 18px;
+    color: #404040;
+  }
+
+  .#{$class}-auth-link {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,491 @@
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 {
+  display: block;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-sections {
+  background-color: #F9F9FB;
+  border: 1px solid #F2F2F2;
+  padding: 18px 30px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-section-button {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #808080;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid #E8E8E8;
+  border-radius: 2px;
+  background-color: #F9F9FB;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-section-button:hover, .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-section-button.active {
+  color: #fff;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-current-orders-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-current-orders-link {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 11px 24px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-search {
+  display: block;
+  border-radius: 2px;
+  max-width: 600px;
+  border: 1px solid #E8E8E8;
+  background-color: #FFFFFF;
+  padding: 11px 10px 11px 16px;
+  margin-bottom: 35px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-search .sale-personal-order-list-search-form {
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-search .sale-personal-order-list-search-form-input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  color: #808080;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 0;
+  outline: none;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-search .sale-personal-order-list-search-form-button {
+  background: transparent;
+  border: none;
+  line-height: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter {
+  background-color: #F9F9FB;
+  border: 1px solid #F2F2F2;
+  margin-bottom: 15px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404040;
+  padding: 15px 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-wrap {
+  padding: 15px 30px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form {
+  font-size: 0;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-label {
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+  margin-bottom: 10px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap {
+  border: 1px solid #E8E8E8;
+  background-color: #fff;
+  padding: 7px 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap * {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+  margin-right: 5px;
+  height: 20px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap .sale-personal-order-list-filter-form-date-input {
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 110px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap .sale-personal-order-list-filter-form-date-input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap .sale-personal-order-list-filter-form-date-input::-webkit-datetime-edit-month-field, .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap .sale-personal-order-list-filter-form-date-input::-webkit-datetime-edit-day-field, .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap .sale-personal-order-list-filter-form-date-input::-webkit-datetime-edit-year-field {
+  text-transform: uppercase;
+  color: #B0B0B0;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap .sale-personal-order-list-filter-form-date-input:focus::-webkit-datetime-edit-month-field, .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap .sale-personal-order-list-filter-form-date-input:focus::-webkit-datetime-edit-day-field, .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap .sale-personal-order-list-filter-form-date-input:focus::-webkit-datetime-edit-year-field {
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-delimetr {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 -1px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-status {
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+  border: 1px solid #E8E8E8;
+  border-right: none;
+  outline: none;
+  height: 36px;
+  max-width: 300px;
+  padding: 7px 45px 7px 14px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("./images/arrow_status.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-checkbox {
+  margin: 6px 0;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-button-apply,
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-button-clear {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 11px 24px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-button-clear {
+  color: #808080;
+  border-color: #E8E8E8;
+  background-color: transparent;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-button-clear:hover {
+  border-color: initial;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-items-header {
+  background-color: #F9F9FB;
+  padding: 18px 30px;
+  border: 1px solid #F2F2F2;
+  border-top: none;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header-text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+  text-decoration: none;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header-text[data-role=header-link]:hover {
+  color: #404040;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item {
+  background-color: #F9F9FB;
+  padding: 15px 30px;
+  border: 1px solid #F2F2F2;
+  border-top: none;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item .sale-personal-order-list-item-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  line-height: 0;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item .sale-personal-order-list-item-icon * {
+  font-weight: normal;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item .sale-personal-order-list-item-icon.sale-personal-order-list-item-icon-active {
+  display: none;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item.sale-personal-order-list-item-active .sale-personal-order-list-item-wrap[data-code=products]:before {
+  border-top: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item.sale-personal-order-list-item-active .sale-personal-order-list-item-icon {
+  display: none;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item.sale-personal-order-list-item-active .sale-personal-order-list-item-icon.sale-personal-order-list-item-icon-active {
+  display: inline-block;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header,
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap {
+  flex-basis: 100%;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header[data-code=id],
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=id] {
+  max-width: 9%;
+  order: 1;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header[data-code=date_insert],
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=date_insert] {
+  max-width: 11%;
+  order: 2;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header[data-code=status],
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=status] {
+  max-width: 14%;
+  order: 3;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header[data-code=price],
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=price] {
+  max-width: 12%;
+  order: 4;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header[data-code=payment],
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=payment] {
+  max-width: 12%;
+  order: 5;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header[data-code=shipment],
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=shipment] {
+  max-width: 14%;
+  order: 6;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header[data-code=product],
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=product] {
+  max-width: 10%;
+  order: 7;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header[data-code=button],
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=button] {
+  max-width: 18%;
+  order: 8;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=products] {
+  padding: 0;
+  min-height: 0;
+  order: 9;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=products]:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: 0;
+  bottom: 0;
+  background-color: #F5F5F5;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-products-container {
+  padding: 15px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-status-button {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 12px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 6px 8px;
+  border-radius: 2px;
+  background-color: #0a51ae;
+  word-break: break-word;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header-text-mobile {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-text {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #404040;
+  text-decoration: none;
+  margin-top: 3px;
+  word-break: break-word;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-text[data-role=button] {
+  display: inline-block;
+  cursor: pointer;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-text:first-child {
+  margin-top: 0;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-button-detail-wrap {
+  text-align: center;
+  border-top: 1px solid #E8E8E8;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-button-detail-wrap .sale-personal-order-list-item-button-detail {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-width: 1px;
+  padding: 11px 16px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-products {
+  padding: 11px 0;
+  position: relative;
+  border-bottom: 1px solid #E8E8E8;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-products:last-child {
+  border-bottom: none;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-product {
+  flex-basis: 100%;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-product[data-code=name] {
+  max-width: 46%;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-product[data-code=price] {
+  max-width: 12%;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-product[data-code=quantity] {
+  max-width: 14%;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-product[data-code=sum] {
+  max-width: 28%;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-product-text {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #404040;
+  text-decoration: none;
+  word-break: break-word;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-product-header-text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-product-header-text-mobile {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-message {
+  font-size: 13px;
+  line-height: 20px;
+  color: #404040;
+  padding: 16px;
+}
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-navigation {
+  margin-top: 30px;
+}
+@media all and (min-width: 769px) {
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-header-text-mobile,
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-product-header-text-mobile,
+.ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-button-detail-wrap {
+    display: none;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-text.intec-ui {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+}
+@media all and (max-width: 768px) {
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-sections {
+    padding: 20px 15px;
+    margin-bottom: 10px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-search {
+    margin-bottom: 15px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter {
+    margin-bottom: 10px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-title {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 15px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-wrap {
+    padding: 15px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap * {
+    font-size: 12px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-status {
+    font-size: 12px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-items-header {
+    display: none;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item {
+    padding: 20px 15px;
+    border-top: 1px solid #F2F2F2;
+    margin-bottom: 10px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap {
+    max-width: 100% !important;
+    padding: 7px 15px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=products] {
+    order: 8;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=products]:before {
+    left: 0;
+    right: 0;
+    top: 13px;
+    bottom: 13px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=button] {
+    order: 9;
+    text-align: center;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=button] .sale-personal-order-list-item-text {
+    margin: 5px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=button] .sale-personal-order-list-item-text.intec-cl-text {
+    color: #404040 !important;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-wrap[data-code=button] .sale-personal-order-list-item-text.intec-cl-text.intec-ui {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #fff !important;
+    letter-spacing: 0.1em;
+    padding: 9px 22px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-products {
+    padding: 16px 0;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-products.sale-personal-order-list-item-products-header {
+    display: none;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-item-product {
+    max-width: 100% !important;
+  }
+}
+@media all and (max-width: 450px) {
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-wrap {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .ns-bitrix.c-sale-personal-order-list.c-sale-personal-order-list-template-1 .sale-personal-order-list-filter .sale-personal-order-list-filter-form .sale-personal-order-list-filter-form-date-delimetr {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

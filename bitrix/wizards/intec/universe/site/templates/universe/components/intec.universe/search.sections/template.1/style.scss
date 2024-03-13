@@ -1,0 +1,60 @@
+$namespace: 'intec-universe';
+$component: 'search-sections';
+$template: 'template-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$class}-content {}
+  .#{$class}-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D2D2D;
+    padding: 16px 24px;
+    background: #F7F7F7;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+  }
+  .#{$class}-items {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+  }
+  .#{$class}-item {
+    display: block;
+    padding: 12px 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+
+    &:hover {
+      .#{$class}-item-name {
+        color: inherit;
+      }
+    }
+  }
+  .#{$class}-item-name {
+    color: #777777;
+
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -ms-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms;
+  }
+  .#{$class}-item-count {
+    color: #2D2D2D;
+  }
+
+  .#{$class}-item[data-active="true"] {
+    .#{$class}-item-name {
+      color: inherit;
+    }
+  }
+
+  @media all and (max-width: 600px) {
+  }
+}

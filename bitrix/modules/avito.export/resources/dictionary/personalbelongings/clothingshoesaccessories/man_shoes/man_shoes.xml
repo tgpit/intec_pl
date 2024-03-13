@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<Dictionary>
+	<Model variable="string"></Model>
+    <ApparelType name="Кроссовки"></ApparelType>
+    <ApparelType name="Ботинки и полуботинки"></ApparelType>
+    <ApparelType name="Туфли"></ApparelType>
+    <ApparelType name="Кеды"></ApparelType>
+    <ApparelType name="Сапоги и полусапоги"></ApparelType>
+    <ApparelType name="Мокасины и лоферы"></ApparelType>
+    <ApparelType name="Спортивная обувь"></ApparelType>
+    <ApparelType name="Угги, валенки, дутики"></ApparelType>
+    <ApparelType name="Рабочая обувь"></ApparelType>
+    <ApparelType name="Резиновая обувь"></ApparelType>
+    <ApparelType name="Сандалии"></ApparelType>
+    <ApparelType name="Шлёпанцы и сланцы"></ApparelType>
+    <ApparelType name="Домашняя обувь"></ApparelType>
+    <ApparelType name="Слипоны и эспадрильи"></ApparelType>
+    <ApparelType name="Уход за обувью"></ApparelType>
+</Dictionary>
+
+

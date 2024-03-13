@@ -1,0 +1,69 @@
+<Watches>
+	<ProductType name="Наручные или карманные">
+		<ProductSubType name="Наручные часы">
+			<forwhom name="Женские"></forwhom>
+			<forwhom name="Мужские"></forwhom>
+			<forwhom name="Унисекс"></forwhom>
+			<forwhom name="Детские"></forwhom>
+			<Mechanism name="Кварцевые"></Mechanism>
+			<Mechanism name="Механические"></Mechanism>
+			<Mechanism name="Электронные"></Mechanism>
+			<Mechanism name="Другие"></Mechanism>
+			<Functions name="Водонепроницаемые"></Functions>
+			<Functions name="Автоподзавод"></Functions>
+			<Functions name="Хронограф"></Functions>
+			<Functions name="Календарь"></Functions>
+			<Functions name="Секундомер"></Functions>
+		</ProductSubType>
+		<ProductSubType name="Ремешок или браслет">
+			<forwhom name="Женские"></forwhom>
+			<forwhom name="Мужские"></forwhom>
+			<forwhom name="Унисекс"></forwhom>
+			<forwhom name="Детские"></forwhom>
+		</ProductSubType>
+		<ProductSubType name="Аксессуар"></ProductSubType>
+		<ProductSubType name="Запчасть"></ProductSubType>
+		<ProductSubType name="Карманные часы">
+			<Mechanism name="Кварцевые"></Mechanism>
+			<Mechanism name="Механические"></Mechanism>
+			<Mechanism name="Электронные"></Mechanism>
+			<Mechanism name="Другие"></Mechanism>
+			<Functions name="Водонепроницаемые"></Functions>
+			<Functions name="Автоподзавод"></Functions>
+			<Functions name="Хронограф"></Functions>
+			<Functions name="Календарь"></Functions>
+			<Functions name="Секундомер"></Functions>
+		</ProductSubType>
+		<ProductSubType name="Секундомер">
+			<Mechanism name="Кварцевые"></Mechanism>
+			<Mechanism name="Механические"></Mechanism>
+			<Mechanism name="Электронные"></Mechanism>
+			<Mechanism name="Другие"></Mechanism>
+			<Functions name="Водонепроницаемые"></Functions>
+			<Functions name="Автоподзавод"></Functions>
+			<Functions name="Хронограф"></Functions>
+			<Functions name="Календарь"></Functions>
+			<Functions name="Секундомер"></Functions>
+		</ProductSubType>
+	</ProductType>
+	<ProductType name="Смарт-часы или браслет">
+		<ProductSubType name="Смарт-часы"></ProductSubType>
+		<ProductSubType name="Фитнес-браслет"></ProductSubType>
+		<ProductSubType name="Ремешок или браслет">
+			<forwhom name="Женские"></forwhom>
+			<forwhom name="Мужские"></forwhom>
+			<forwhom name="Унисекс"></forwhom>
+			<forwhom name="Детские"></forwhom>
+		</ProductSubType>
+		<ProductSubType name="Аксессуар"></ProductSubType>
+		<ProductSubType name="Запчасть"></ProductSubType>
+	</ProductType>
+	<ProductType name="Для интерьера">
+		<ProductSubType name="Будильник"></ProductSubType>
+		<ProductSubType name="Каминные"></ProductSubType>
+		<ProductSubType name="Напольные"></ProductSubType>
+		<ProductSubType name="Настенные"></ProductSubType>
+		<ProductSubType name="Настольные"></ProductSubType>
+		<ProductSubType name="Песочные"></ProductSubType>
+	</ProductType>
+</Watches>

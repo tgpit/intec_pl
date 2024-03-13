@@ -1,0 +1,76 @@
+$component: 'categories';
+$template: 'template-15';
+$item: 'widget-item';
+
+@mixin transition ($property, $time) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $time;
+  -moz-transition-duration: $time;
+  -ms-transition-duration: $time;
+  -o-transition-duration: $time;
+  transition-duration: $time;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+ .widget-items {
+   position:relative;
+ }
+  
+  .#{$item}-wrapper {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    @include transition(all, 0.4s);
+    overflow: hidden;
+    z-index: 1;
+
+    &:hover .#{$item}-name {
+      color: inherit;
+    }
+  }
+
+  .#{$item}-picture {
+    position: relative;
+    padding-top: 61%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    @include transition(all, 0.4s)
+  }
+
+  .#{$item}-name {
+    display: block;
+    padding: 0 10px;
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.23;
+    text-align: center;
+    color: #404040;
+    @include transition(all, 0.4s)
+  }
+
+  .#{$item}-description {
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #808080;
+    margin-top: 8px;
+  }
+
+  .widget-items {
+    &[data-columns="3"] .#{$item}-picture {
+      padding-top: 100%;
+    }
+    &[data-columns="4"] .#{$item}-picture {
+      padding-top: 140%;
+    }
+  }
+}

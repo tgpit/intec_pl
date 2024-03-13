@@ -1,0 +1,111 @@
+$component: 'widget';
+$template: 'catalog-shares-1';
+
+@mixin transition ($property, $duration) {
+  -webkit-transition: $property $duration;
+  -moz-transition: $property $duration;
+  -ms-transition: $property $duration;
+  -o-transition: $property $duration;
+  transition: $property $duration;
+}
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+  padding-top: 30px;
+
+  .widget-header {
+    margin-bottom: 32px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1B1E25;
+  }
+  .shares-status {
+    margin-bottom: 32px;
+
+    &-item-discount {
+      max-height: 27px;
+      padding: 6px 8px;
+      background: #FFC107;
+      @include border-radius(2px);
+      white-space: nowrap;
+      font-weight: 600;
+      font-size: 12px;
+      color: #404040;
+    }
+    &-item-timer {
+      max-height: 27px;
+      padding: 6px 8px;
+      margin-left: 8px;
+      background: #FF2D55;
+      @include border-radius(2px);
+
+      display:flex;
+      justify-content: center;
+      white-space: nowrap;
+      font-weight: 600;
+      font-size: 12px;
+      color: #FFFFFF;
+
+      .shares-delimiter {
+        margin: 0 2px;
+      }
+      [data-role="seconds"] {
+        min-width: 15px;
+      }
+    }
+    &-item-date {
+      margin-left: 18px;
+      font-size: 13px;
+      color: #808080;
+
+      &-icon {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .shares-text {
+    max-height: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+
+    .scroll-element.scroll-y .scroll-element_outer {
+      left: 0;
+      width: 3px;
+    }
+    .scroll-y {
+      right: 3px;
+      width: 2px;
+      height: 100%;
+    }
+    .scroll-bar {
+      border-radius: 4px;
+      background-color: #808080;
+      opacity: 1;
+    }
+    .scroll-element_track {
+      background-color: transparent;
+    }
+  }
+  .shares-button-wrapper {
+    margin-top: 40px;
+
+    .shares-button {
+      padding: 23px 40px;
+
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 10px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+  }
+}

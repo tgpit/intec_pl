@@ -1,0 +1,33 @@
+$class: 'intec-editor' !default;
+$color: #3761ef !default;
+
+@import "grid.scss";
+@import "mixins.scss";
+
+html {
+  font-size: 14px;
+  line-height: 1.428572;
+}
+
+body {
+  background: #fff;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+html, body {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.#{$class} {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

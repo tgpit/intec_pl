@@ -1,0 +1,329 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'intec';
+$component: 'startshop-order';
+$template: 'default';
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$component}-section {
+    & + .#{$component}-section {
+      margin-top: 48px;
+    }
+  }
+  .#{$component}-section-header {
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .#{$component}-section-number {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    @include border-radius(50%);
+  }
+  .#{$component}-section-number-content {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    color: #FFF;
+  }
+  .#{$component}-section-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .#{$component}-section-link {
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .#{$component}-section-content {
+    font-size: 0;
+    padding: 32px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    overflow: hidden;
+    @include border-radius(5px);
+  }
+  .#{$component}-delivery {
+    & + .#{$component}-delivery {
+      margin-top: 24px;
+    }
+  }
+  .#{$component}-delivery-select {}
+  .#{$component}-delivery-properties {
+    display: none;
+    overflow: hidden;
+    @include transition(.4s, height);
+
+    &[data-state='enabled'] {
+      display: block;
+    }
+  }
+  .#{$component}-delivery-properties-content {
+    padding-top: 24px;
+  }
+  .#{$component}-table {
+    width: 100%;
+  }
+  .#{$component}-table-header {
+    border-bottom: 1px solid #E8E8E8;
+  }
+  .#{$component}-table-header-cell {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #999999;
+    margin: 10px 20px;
+    white-space: nowrap;
+  }
+  .#{$component}-table-header-offer {
+    max-width: 20%;
+  }
+  .#{$component}-table-header-price {
+    width: 15%;
+  }
+  .#{$component}-table-header-quantity {
+    width: 10%;
+  }
+  .#{$component}-table-header-sum {
+    width: 15%;
+  }
+  .#{$component}-table-body-column {}
+  .#{$component}-table-body-column-content {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .#{$component}-table-body-image {
+    width: 120px;
+  }
+  .#{$component}-products-content {
+    padding: 0;
+  }
+  .#{$component}-products-image {
+    display: block;
+    max-width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .#{$component}-products-section {
+    font-size: 13px;
+    line-height: 1.39;
+    margin-bottom: 8px;
+
+    a {
+      color: #666666;
+    }
+  }
+  .#{$component}-products-name-content {
+    max-width: 200px;
+  }
+  .#{$component}-products-name {
+    font-size: 16px;
+    line-height: 1.5;
+
+    a {
+      color: #000000;
+    }
+  }
+  .#{$component}-products-section,
+  .#{$component}-products-name {
+    a {
+      text-decoration: none;
+      @include transition(.35s, color);
+    }
+  }
+  .#{$component}-products-offers-item {
+    & + .#{$component}-products-offers-item {
+      margin-top: 8px;
+    }
+  }
+  .#{$component}-products-offers-name {
+    font-size: 14px;
+    line-height: 1.29;
+    color: #666666;
+  }
+  .#{$component}-products-offers-value {
+    margin-top: 4px;
+  }
+  .#{$component}-products-offers-value-text {
+    font-size: 14px;
+    line-height: 1.29;
+    color: #000000;
+  }
+  .#{$component}-products-offers-value-picture {
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include border-radius(2px);
+  }
+  .#{$component}-products-price {
+    font-size: 18px;
+    line-height: 1.34;
+    margin: 10px 20px;
+    white-space: nowrap;
+  }
+  .#{$component}-products-quantity {
+    font-size: 18px;
+    line-height: 1.34;
+    text-align: center;
+  }
+  .#{$component}-summary {
+    margin-top: 60px;
+  }
+  .#{$component}-summary-content {
+    border: 1px solid #F0F0F0;
+    @include border-radius(5px 5px 0 0);
+  }
+  .#{$component}-summary-block {
+    padding: 16px 24px;
+
+    & + .#{$component}-summary-block {
+      border-top: 1px solid #F0F0F0;
+    }
+  }
+  .#{$component}-summary-block-inner {
+    overflow: hidden;
+
+    & + .#{$component}-summary-block-inner {
+      margin-top: 16px;
+    }
+  }
+  .#{$component}-summary-title-default {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.35;
+    color: #000000;
+  }
+  .#{$component}-summary-value-default {
+    font-size: 16px;
+    line-height: 1.35;
+    color: #000000;
+    text-align: right;
+  }
+  .#{$component}-summary-header-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.34;
+    color: #000000;
+  }
+  .#{$component}-summary-header-link {
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .#{$component}-summary-submit {
+    overflow: hidden;
+    @include border-radius(0 0 5px 5px);
+  }
+  .#{$component}-summary-consent {
+    text-align: center;
+    margin-top: 24px;
+  }
+  .#{$component}-checkout {
+    margin-top: 32px;
+  }
+  .#{$component}-checkout-consent {
+    max-width: 415px;
+  }
+  .#{$component}-radio {
+    padding: 0;
+  }
+  .#{$component}-radio-selector {
+    @include border-radius(50%);
+  }
+  .#{$component}-radio-content,
+  .#{$component}-radio-additional {
+    display: block;
+  }
+  .#{$component}-radio-content {
+    display: block;
+    font-size: 18px;
+    line-height: 1.23;
+    padding-left: 16px;
+  }
+  .#{$component}-radio-additional {
+    font-size: 14px;
+    line-height: 1.3;
+    color: #666666;
+    padding-left: 16px;
+    margin-top: 12px;
+  }
+  .#{$component}-consent {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #999999;
+
+    a {
+      text-decoration: none;
+    }
+  }
+  .#{$component}-notifications {
+    & + * {
+      margin-top: 24px;
+    }
+  }
+  .#{$component}-notifications-item {
+    & + .#{$component}-notifications-item {
+      margin-top: 16px;
+    }
+  }
+
+  @include breakpoint-1200() {
+    .#{$component}-checkout {
+      display: none;
+    }
+    .#{$component}-summary {
+      margin-top: 48px;
+    }
+  }
+  @include breakpoint-900() {
+    .#{$component}-table-header {
+      display: none;
+    }
+    .#{$component}-table-body-row,
+    .#{$component}-table-body-column {
+      display: block;
+    }
+    .#{$component}-table-body-row {
+      & + .#{$component}-table-body-row {
+        margin-top: 32px;
+      }
+    }
+    .#{$component}-table-body-column {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+
+      & + .#{$component}-table-body-column {
+        margin-top: 12px;
+      }
+    }
+    .#{$component}-table-body-column-content {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .#{$component}-table-body-price,
+    .#{$component}-table-body-quantity {
+      display: none;
+    }
+    .#{$component}-products-content {
+      padding: 16px !important;
+    }
+    .#{$component}-products-name-content {
+      max-width: none;
+    }
+    .#{$component}-products-offers-value-picture {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .#{$component}-products-price {
+      margin: 0;
+    }
+  }
+  @include breakpoint-768() {
+    .#{$component}-section-content {
+      padding: 24px 16px;
+    }
+  }
+}

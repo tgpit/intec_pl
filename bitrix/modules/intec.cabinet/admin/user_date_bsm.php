@@ -1,0 +1,1 @@
+<?define("intec_cabinet_TEMPORARY_CACHE", "c2UIDChkCVVqVHBrUWMEKAQh");?>

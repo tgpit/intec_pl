@@ -1,0 +1,5 @@
+<?php
+
+$MESS['PRESETS_FAQ_TEMPLATE_1_PRESET_WIDE_1'] = 'Широкий 1';
+$MESS['PRESETS_FAQ_TEMPLATE_1_PRESET_WIDE_2'] = 'Широкий 2';
+$MESS['PRESETS_FAQ_TEMPLATE_1_HEADER_TEXT'] = 'Вопрос - ответ';

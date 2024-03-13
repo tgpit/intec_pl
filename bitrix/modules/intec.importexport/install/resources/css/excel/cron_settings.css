@@ -1,0 +1,161 @@
+.bx-core-popup-menu.bx-core-popup-menu-bottom.bx-core-popup-menu-level0.bx-core-popup-menu-no-icons {
+
+}
+
+.m-intec-importexport.p-field-cron-table {
+    position: relative;
+}
+.m-intec-importexport.p-field-cron-table .field-name {
+    width: 40%;
+    padding: 5px;
+    text-align: right;
+    box-sizing: border-box;
+}
+.m-intec-importexport.p-field-cron-table .field-daily-time input {
+    width: 15px;
+}
+.m-intec-importexport.p-field-cron-table .type-select-block input {
+    margin: 0 5px;
+}
+
+.m-intec-importexport.p-field-cron-table .button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.m-intec-importexport.p-field-cron-table .button-wrapper .cron-button {
+    margin: 10px 10px;
+}
+
+.m-intec-importexport.p-field-cron-table .cron-list-table {
+    border-spacing: 12px;
+}
+.m-intec-importexport.p-field-cron-table .cron-list-table td {
+    padding: 0 7px 7px 7px;
+    border-bottom: 1px solid #E0E8EA;
+    word-break: break-word;
+}
+.m-intec-importexport.p-field-cron-table .cron-list-table thead td {
+    font-weight: 600;
+    text-align: center;
+}
+.m-intec-importexport.p-field-cron-table .cron-list-table thead tr td:first-child {
+    width: 30%;
+}
+.m-intec-importexport.p-field-cron-table .cron-list-table thead tr td:last-child {
+    width: 20px;
+}
+.m-intec-importexport.p-field-cron-table .cron-list-table tbody tr td:last-child {
+    text-align: center;
+    color: #808282;
+    -webkit-transition: color 0.1s;
+    -moz-transition: color 0.1s;
+    -ms-transition: color 0.1s;
+    -o-transition: color 0.1s;
+    transition: color 0.1s;
+    font-weight: 600;
+    cursor: pointer;
+}
+.m-intec-importexport.p-field-cron-table .cron-list-table tbody tr td:last-child:hover {
+    color: #000000;
+}
+
+
+/*multi-select*/
+.multi-select {
+    position: relative;
+    padding: 2px;
+    border: solid 1px #858585;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    z-index: 50;
+}
+.multi-select * {
+    box-sizing: border-box;
+}
+.multi-select .select-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.multi-select .select-item {
+    margin: 3px 5px;
+}
+.multi-select .select-wrapper .selected {
+    display: inline-block;
+    padding: 5px 6px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    -webkit-box-shadow: 0 0 1px rgb(0 0 0 / 11%), 0 1px 1px rgb(0 0 0 / 30%), inset 0 1px #fff, inset 0 0 1px rgb(255 255 255 / 50%);
+    box-shadow: 0 0 1px rgb(0 0 0 / 30%), 0 1px 1px rgb(0 0 0 / 30%), inset 0 1px 0 #fff, inset 0 0 1px rgb(255 255 255 / 50%);
+    background-color: #e0e9ec;
+    background-image: -webkit-linear-gradient(bottom, #d7e3e7, #fff)!important;
+    background-image: -moz-linear-gradient(bottom, #d7e3e7, #fff)!important;
+    background-image: -ms-linear-gradient(bottom, #d7e3e7, #fff)!important;
+    background-image: -o-linear-gradient(bottom, #d7e3e7, #fff)!important;
+    background-image: linear-gradient(bottom, #d7e3e7, #fff)!important;
+    color: #3f4b54;
+    text-shadow: 0 1px rgb(255 255 255 / 70%);
+}
+.multi-select .select-wrapper .selected .selected-delete {
+    opacity: 0.5;
+    transition: opacity 0.1s;
+    font-weight: bold;
+}
+.multi-select .select-wrapper .selected .selected-delete:hover {
+    opacity: 1;
+}
+
+.multi-select .selected-delete {
+    padding: 2px 4px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.multi-select .input-wrapper {
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+.multi-select .input-wrapper input {
+    width: 100%;
+    min-width: 160px;
+    border: none!important;
+    box-shadow: none!important;
+    background: transparent!important;
+}
+.multi-select .options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 300px;
+    border: solid 1px #858585;
+    overflow: auto;
+}
+.multi-select .options.open {
+    display: block;
+}
+.multi-select .options .option {
+    border-bottom: solid 1px #DDEAEE;
+}
+.multi-select .options .option label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background: #ffffff;
+    cursor: pointer;
+}
+.multi-select .options .option:last-child {
+    border-bottom: none;
+}
+.multi-select .options .option label:hover {
+    background: #EAF2F4;
+}
+.multi-select .options .option.selected label {
+    background: #EAF2F4;
+}
+.multi-select .options .option input[type="checkbox"] {
+    display: none;
+}

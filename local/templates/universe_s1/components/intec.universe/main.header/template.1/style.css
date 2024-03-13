@@ -1,0 +1,516 @@
+.c-header.c-header-template-1 .widget-view.widget-view-desktop {
+  display: block;
+  position: relative;
+  z-index: 50;
+}
+.c-header.c-header-template-1 .widget-view.widget-view-fixed {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  z-index: 100;
+}
+.c-header.c-header-template-1 [data-role=header-mobile-region-select] .menu-region-question {
+  position: relative;
+  padding: 24px 16px;
+}
+.c-header.c-header-template-1 [data-role=header-mobile-region-select] .menu-region-question-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #1B1E25;
+  margin-bottom: 16px;
+}
+.c-header.c-header-template-1 [data-role=header-mobile-region-select] .menu-region-question-buttons {
+  font-size: 0;
+}
+.c-header.c-header-template-1 [data-role=header-mobile-region-select] .menu-region-question-button {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-width: 1px;
+  padding: 15px 24px;
+  margin: 0 8px 8px 0;
+}
+.c-header.c-header-template-1 [data-role=header-mobile-region-select] .menu-region-question-close {
+  position: absolute;
+  top: 25px;
+  right: 32px;
+  cursor: pointer;
+}
+.c-header.c-header-template-1 .widget-view.widget-view-mobile {
+  display: none;
+  position: relative;
+  z-index: 100;
+}
+.c-header.c-header-template-1 .widget-banner {
+  display: block;
+  position: relative;
+  z-index: 0;
+}
+.c-header.c-header-template-1 .widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+  display: none;
+  opacity: 0;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1-button {
+  display: block;
+  cursor: pointer;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1-button svg {
+  display: block;
+  fill: #bebebf;
+  stroke: #bebebf;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1-button svg path {
+  -webkit-transition-duration: 350ms;
+  -moz-transition-duration: 350ms;
+  -ms-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-property: fill, stroke;
+  -moz-transition-property: fill, stroke;
+  -ms-transition-property: fill, stroke;
+  -o-transition-property: fill, stroke;
+  transition-property: fill, stroke;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1 {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: auto;
+  width: auto;
+  display: none;
+  position: fixed;
+  visibility: hidden;
+  z-index: 125;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-state=open] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1-overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: auto;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  visibility: visible;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1-window {
+  position: relative;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  -ms-flex: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -moz-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+  min-width: 320px;
+  visibility: visible;
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  padding: 34px 23px;
+  width: 100%;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1-window-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 24px;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1-window-title {
+  position: relative;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  -ms-flex: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -moz-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  color: #1b1e25;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  padding-right: 16px;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1-window-close {
+  position: relative;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  -ms-flex: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -moz-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  padding: 0 8px;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1-window-close svg {
+  display: block;
+  fill: #808080;
+  stroke: #808080;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.1"] .widget-popups-phones-1-items {
+  margin: -12px 0;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.1"] .widget-popups-phones-1-item {
+  padding: 12px 0 13px 0;
+  position: relative;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.1"] .widget-popups-phones-1-item:first-child {
+  padding-top: 12px;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.1"] .widget-popups-phones-1-item:first-child .widget-popups-phones-1-item-border {
+  display: none;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.1"] .widget-popups-phones-1-item-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.1"] .widget-popups-phones-1-item-border {
+  bottom: auto;
+  left: -6px;
+  right: -6px;
+  top: 0;
+  height: 1px;
+  width: auto;
+  background-color: #f2f2f2;
+  position: absolute;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.1"] .widget-popups-phones-1-item-icon {
+  position: relative;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  -ms-flex: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -moz-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 16px;
+  padding-right: 8px;
+  width: 16px;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.1"] .widget-popups-phones-1-item-information {
+  position: relative;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  -ms-flex: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -moz-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.1"] .widget-popups-phones-1-item-number {
+  color: #404040;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.1"] .widget-popups-phones-1-item-name {
+  color: #808080;
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 8px;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.2"] .widget-popups-phones-1-control {
+  padding-bottom: 12px;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.2"] .widget-popups-phones-1-control button {
+  padding: 11px 39px;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.2"] .widget-popups-phones-1-text {
+  padding-bottom: 36px;
+  position: relative;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.2"] .widget-popups-phones-1-text-content {
+  color: #808080;
+  font-size: 12px;
+  line-height: 20px;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.2"] .widget-popups-phones-1-text-border {
+  bottom: 18px;
+  left: -3px;
+  right: -3px;
+  top: auto;
+  height: 1px;
+  width: auto;
+  background-color: #f2f2f2;
+  position: absolute;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.2"] .widget-popups-phones-1-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: -12px -11px;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.2"] .widget-popups-phones-1-item {
+  position: relative;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  -ms-flex: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -moz-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  padding: 12px 11px;
+  width: 50%;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.2"] .widget-popups-phones-1-item-number {
+  color: #404040;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+.c-header.c-header-template-1 .widget-popups-phones-1[data-template="template.2"] .widget-popups-phones-1-item-name {
+  color: #808080;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 12px;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("images/icons_color_round.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-grey=true] {
+  background-image: url("images/icons_grey_round.svg");
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon-square=true] {
+  background-image: url("images/icons_color_square.svg");
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon-square=true][data-grey=true] {
+  background-image: url("images/icons_grey_square.svg");
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=VK] {
+  background-position: -320px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=FACEBOOK] {
+  background-position: -288px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=INSTAGRAM] {
+  background-position: -384px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=TWITTER] {
+  background-position: -416px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=YOUTUBE] {
+  background-position: -448px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=ODNOKLASSNIKI] {
+  background-position: -352px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=VIBER] {
+  background-position: -224px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=WHATSAPP] {
+  background-position: -256px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=YANDEX_DZEN] {
+  background-position: -128px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=MAIL_RU] {
+  background-position: -160px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=TELEGRAM] {
+  background-position: -192px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=PINTEREST] {
+  background-position: -96px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=TIKTOK] {
+  background-position: -64px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=SNAPCHAT] {
+  background-position: -32px 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-icon[data-social-icon=LINKEDIN] {
+  background-position: 0 0;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-more {
+  padding-top: 4px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+.c-header.c-header-template-1 .widget-panel-social-hidden-items {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: absolute;
+  left: -3px;
+  padding: 6px 4px 4px;
+  background: #fff;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  transition: opacity 0.4s;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-hidden-wrap:hover {
+  cursor: pointer;
+}
+.c-header.c-header-template-1 .widget-panel-social-item-hidden-wrap:hover .widget-panel-social-hidden-items {
+  z-index: 10;
+  opacity: 1;
+  height: auto;
+}
+@media all and (min-width: 769px) {
+  .c-header.c-header-template-1 [data-role=header-mobile-region-select] {
+    display: none;
+  }
+}
+@media all and (max-width: 768px) {
+  .c-header.c-header-template-1 .widget-view.widget-view-fixed,
+.c-header.c-header-template-1 .widget-view.widget-view-desktop {
+    display: none !important;
+  }
+  .c-header.c-header-template-1 .widget-view.widget-view-mobile {
+    display: block;
+  }
+  .c-header.c-header-template-1 .widget-view.widget-view-mobile.widget-view-mobile-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+  }
+}
+@media print {
+  .c-header.c-header-template-1 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

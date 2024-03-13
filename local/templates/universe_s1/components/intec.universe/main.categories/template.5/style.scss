@@ -1,0 +1,67 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'categories';
+$template: 'template-5';
+$item: 'widget-item';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$item}-wrapper {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    height: 300px;
+    overflow: hidden;
+    @include transition(0.4s, box-shadow);
+
+    &:hover {
+      @include box-shadow(0, 4px, 16px, 0, rgba(0, 0, 0, 0.16));
+    }
+  }
+  .#{$item}-picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+    &[data-lazyload-use='true'] {
+      background-color: #F2F2F2;
+    }
+  }
+  .#{$item}-name {
+    position: absolute;
+    font-size: 16px;
+    line-height: 22px;
+    color: #404040;
+    padding: 8px 16px;
+    margin: 16px;
+    background-color: #FFF;
+    z-index: 2;
+    @include border-radius(2px);
+    @include box-shadow(0, 4px, 10px, 0, rgba(0, 0, 0, 0.07));
+  }
+  [data-position-horizontal='left'] {
+    .#{$item}-name {
+      left: 0;
+    }
+  }
+  [data-position-horizontal='right'] {
+    .#{$item}-name {
+      right: 0;
+    }
+  }
+  [data-position-vertical='top'] {
+    .#{$item}-name {
+      top: 0;
+    }
+  }
+  [data-position-vertical='bottom'] {
+    .#{$item}-name {
+      bottom: 0;
+    }
+  }
+}

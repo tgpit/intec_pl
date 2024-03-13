@@ -1,0 +1,620 @@
+.adm-detail-content-table.edit-table#main_edit_table option:checked {
+    background: #E0E8EA;
+}
+
+.m-intec-importexport.p-form [data-role="offer-field"][data-hide="true"] {
+    display: none;
+}
+
+.m-intec-importexport.p-table {
+    position:relative;
+    overflow: auto;
+}
+.m-intec-importexport.table-menu {
+    position: relative;
+}
+.m-intec-importexport.table-menu .table-menu-button {
+    display: inline-block;
+    padding: 6px;
+    margin-bottom: 10px;
+    position: relative;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #3f4b54;
+    cursor: pointer;
+}
+.m-intec-importexport.table-menu .table-menu-button:hover {
+    text-decoration: none;
+    background: #EAF2F4;
+}
+.m-intec-importexport.table-menu .table-menu-button:active {
+    background: #DEEAED;
+    outline: none;
+}
+
+.m-intec-importexport.table-menu .table-menu-button-icon {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../../icons/manu.svg");
+}
+.m-intec-importexport.table-menu .table-menu-list {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 45px;
+    border: 1px solid #c9c9c9;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: #ffffff;
+    box-shadow: 2px 2px 9px -4px black;
+    z-index: 700;
+}
+.m-intec-importexport.table-menu .table-menu-list-item {
+    white-space: nowrap;
+    padding: 10px;
+    border-bottom: 1px solid #c9c9c9;
+    cursor: pointer;
+}
+.m-intec-importexport.table-menu .table-menu-list-item:hover {
+    background: #e4ecee;
+}
+.m-intec-importexport.table-menu .table-menu-list-item:last-child {
+    padding: 10px;
+    border-bottom: none;
+}
+.m-intec-importexport.table-menu .table-menu-list.show {
+    display: block;
+}
+
+
+
+
+
+.m-intec-importexport.p-table .scroll {
+    position: relative;
+    overflow: auto;
+    max-height: 340px;
+}
+
+.m-intec-importexport.p-table .table .thead {
+    display: flex;
+}
+
+.m-intec-importexport.p-table .table .thead .th-column {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    min-width: 255px;
+}
+.m-intec-importexport.p-table .table .thead:first-child .th-column.row-setting {
+    justify-content: center;
+    max-width: 50px;
+    min-width: 50px;
+    margin-top: 20px;
+    padding: 16px;
+    border-radius: 4px 4px 0 0;
+    background: #EAF2F4;
+    box-sizing: border-box;
+}
+.m-intec-importexport.p-table .table .thead .th-column.row-setting {
+    justify-content: center;
+    max-width: 50px;
+    min-width: 50px;
+    padding: 16px;
+    border-radius: 4px 4px 0 0;
+    background: #EAF2F4;
+    box-sizing: border-box;
+}
+
+/*custom checkbox*/
+#bx-admin-prefix .m-intec-importexport.p-table .table .row-setting .adm-designed-checkbox.column-checkbox {
+    display: none !important;
+}
+#bx-admin-prefix .m-intec-importexport.p-table .table .row-setting .adm-designed-checkbox-label.column-checkbox {
+    background: #ffffff;
+    border-radius: 4px;
+    border: solid 1px #E4ECEE;
+}
+#bx-admin-prefix .m-intec-importexport.p-table .table .row-setting .adm-designed-checkbox.column-checkbox:checked + .adm-designed-checkbox-label.column-checkbox {
+    background-color: #BEC8CB;
+    background-image: url("../../../../images/check.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+}
+
+/*custom checkbox*/
+
+.m-intec-importexport.p-table .table .thead .th-column-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4E575A;
+}
+.m-intec-importexport.p-table .table .thead .th-column-controls {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 14px 11px;
+    border-left: solid 1px white;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    background: #EAF2F4;
+}
+.m-intec-importexport.p-table .table .thead .th-column:first-child .th-column-controls {
+    border-left: none;
+}
+.m-intec-importexport.p-table .table .thead .th-column-controls.selected {
+    background-color: #e1eef1;
+}
+.m-intec-importexport.p-table .table .thead .th-column-select-wrapper {
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4E575A;
+}
+.m-intec-importexport.p-table .table .thead .th-column-controls.selected .th-column-select-wrapper {
+    color: #1c1b1b;
+}
+.m-intec-importexport.p-table .table .thead .th-column-name-field {
+    padding: 16px 24px;
+    border-left: solid 1px #E4ECEE;
+    border-bottom: solid 1px #E4ECEE;
+    border-top: none;
+}
+.m-intec-importexport.p-table .table .thead .th-column:last-child .th-column-name-field {
+    border-right: solid 1px #E4ECEE;
+}
+.m-intec-importexport.p-table .table .thead .th-column-name-field input{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4E575A;
+}
+.m-intec-importexport.p-table .table .thead .th-column-name-field input::placeholder {
+    color: #BEC8CB;
+}
+
+.m-intec-importexport.p-table .thead .th-column-icon {
+    opacity: 0.5;
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: opacity 0.1s;
+    -moz-transition: opacity 0.1s;
+    -ms-transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
+    transition: opacity 0.1s;
+    cursor: pointer;
+}
+.m-intec-importexport.p-table .thead .th-column-icon:hover {
+    opacity: 1;
+}
+.m-intec-importexport.p-table .thead .th-column-icon.add {
+    background-image: url("../../../icons/add.svg");
+}
+.m-intec-importexport.p-table .thead .th-column-icon.delete {
+    margin-left: 11px;
+    background-image: url("../../../icons/delete.svg");
+}
+.m-intec-importexport.p-table .thead .th-column-icon.settings {
+    margin-right: 11px;
+    background-image: url("../../../icons/settings.svg");
+}
+.m-intec-importexport.p-table .thead .th-column-icon.space {
+    margin-right: 11px;
+}
+.m-intec-importexport.p-table .thead .th-column-icon.settings.selected {
+    opacity: 1;
+}
+.m-intec-importexport.p-table .thead .th-column-icon.sort {
+    margin-right: 11px;
+    background-image: url("../../../icons/sort.svg");
+    opacity: 0.5;
+    -webkit-transition: opacity 0.1s;
+    -moz-transition: opacity 0.1s;
+    -ms-transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
+    transition: opacity 0.1s;
+    cursor: pointer;
+}
+.m-intec-importexport.p-table .th-column-icon.sort.asc {
+    opacity: 1;
+    transform: rotateZ(180deg);
+    background-image: url("../../../icons/sort.svg");
+}
+.m-intec-importexport.p-table .th-column-icon.sort.desc {
+    opacity: 1;
+    background-image: url("../../../icons/sort.svg");
+}
+.th-column-add-more-properties {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+    background-color: #f5f9f9;
+}
+.m-intec-importexport.p-table .column-select-block {
+
+}
+
+.m-intec-importexport.p-table .custom-select {
+    position: relative;
+}
+
+.m-intec-importexport.p-table .selected-item {
+    padding-right: 20px;
+    cursor: pointer;
+    text-align: left;
+    word-break: break-word;
+}
+.m-intec-importexport.p-table .selected-item:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 10px;
+    width: 11px;
+    height: 16px;
+    transition: 0.1s;
+    background-image: url("../../../icons/arrow.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.m-intec-importexport.p-table .selected-item.open {
+
+}
+.m-intec-importexport.p-table .selected-item.open:after {
+    -webkit-transform: rotate(180deg) translateY(50%);
+    -moz-transform: rotate(180deg) translateY(50%);
+    -ms-transform: rotate(180deg) translateY(50%);
+    -o-transform: rotate(180deg) translateY(50%);
+    transform: rotate(180deg) translateY(50%);
+}
+
+
+
+.m-intec-importexport.p-table .options {
+    position: absolute;
+    top: 50%;
+    background: #ffffff;
+    display: none;
+    overflow: hidden;
+    box-shadow: 3px 12px 30px -5px rgba(189, 199, 202, 0.4);
+    z-index: 40;
+}
+.m-intec-importexport.p-table .options.show {
+    display: block;
+}
+.m-intec-importexport.p-table .options .search {
+    position: relative;
+    padding: 16px 24px;
+    border-bottom: 1px solid #EAF2F4;
+}
+.m-intec-importexport.p-table .options .search input {
+    width: 100%;
+    padding-right: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4E575A;
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+.m-intec-importexport.p-table .options .search input::placeholder {
+    color: #BDC7CA;
+}
+.m-intec-importexport.p-table .options .search .search-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    margin-right: 24px;
+    height: 100%;
+    opacity: 0.7;
+    background-image: url("../../../icons/search.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.m-intec-importexport.p-table .options .option {
+    padding: 16px 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    background: #ffffff;
+    border-bottom: solid 1px #EAF2F4;
+    cursor: pointer;
+}
+.m-intec-importexport.p-table .options .option.create-new {
+    font-weight: 600;
+    color: #242a2c;
+}
+.m-intec-importexport.p-table .options .option:hover {
+    background: #F9FBFB;
+}
+.m-intec-importexport.p-table .options .option.disable {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #4E575A;
+    background: #FBFDFD;
+    pointer-events: none;
+    cursor: auto;
+}
+
+
+.m-intec-importexport.p-table .table .tbody .tr-column {
+    display: flex;
+}
+.m-intec-importexport.p-table .table .tbody .tr-column .td-column {
+    background-color: #F5F9F9;
+    display: flex;
+    align-items: center;
+}
+.m-intec-importexport.p-table .table .tbody .tr-column .td-column.row-setting {
+    max-width: 50px;
+    min-width: 50px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.m-intec-importexport.p-table .table .tbody .tr-column:nth-child(even) .td-column{
+    background-color: #F9FBFB;
+}
+.m-intec-importexport.p-table .table .tbody .td-column {
+    width: 100%;
+    min-width: 255px;
+    padding: 16px 23px;
+    border-left: solid 1px #E4ECEE;
+    border-bottom: solid 1px #E4ECEE;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4E575A;
+    box-sizing: border-box;
+}
+.m-intec-importexport.p-table .table .tbody .td-column {
+    border-left: solid 1px #E4ECEE;
+    border-bottom: solid 1px #E4ECEE;
+}
+.m-intec-importexport.p-table .table .tbody .td-column:last-child {
+    border-right: solid 1px #E4ECEE;
+}
+
+.m-intec-importexport.p-table .table-cell-wrapper {
+    max-width: 400px;
+    max-height: 60px;
+    position: relative;
+    overflow: hidden;
+    background: inherit;
+    word-break: break-word;
+}
+.m-intec-importexport.p-table .table-cell-wrapper:hover{
+    overflow: visible;
+    z-index: 20;
+}
+
+.m-intec-importexport.p-table .table-cell-content {
+    padding: 7px 9px;
+    background: inherit;
+    position: relative;
+    word-break: break-word;
+}
+.m-intec-importexport.p-table .table-cell-content:hover {
+    background: inherit;
+    z-index: 20;
+}
+
+.m-intec-importexport.p-table .btn-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.m-intec-importexport.p-table .adm-btn-add {
+    height: auto;
+    margin-top: 0;
+    padding: 5px 10px;
+}
+
+.table-scroll {
+    overflow-x: auto;
+}
+.table-scroll div{
+    height: 1px;
+}
+
+.adm-workarea .m-intec-importexport.p-table .adm-btn-add.adm-btn:before,
+.adm-workarea .m-intec-importexport.importing .adm-btn-add.adm-btn:before {
+    margin-left: 0;
+}
+.adm-workarea .m-intec-importexport.p-table .adm-btn:active {
+    height: auto;
+    padding: 4px 9px;
+    margin-bottom: 2px;
+}
+
+.m-intec-importexport.p-table .preloader-layer,
+.m-intec-importexport.p-importing .preloader-layer {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.33);
+}
+
+.m-intec-importexport.p-table .preloader-layer .preloader,
+.m-intec-importexport.p-importing .preloader-layer .preloader {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-intec-importexport.p-table .preloader-layer[data-active="false"],
+.m-intec-importexport.p-importing .preloader-layer[data-active="false"],
+.m-intec-importexport.p-importing .preload-message[data-active="false"] {
+    display: none;
+}
+
+.m-intec-importexport.p-table span,
+.m-intec-importexport.p-importing .preloader-layer span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    -webkit-animation: preloader 1.5s infinite ease-in-out both;
+    animation: preloader 1.5s infinite ease-in-out both;
+    background-color: #f0f5f8;
+    margin-left: 5px;
+}
+
+.m-intec-importexport.p-table span:nth-child(1),
+.m-intec-importexport.p-importing .preloader-layer span:nth-child(1) {
+    left: 0;
+    -webkit-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+    margin-left: 0px;
+}
+.m-intec-importexport.p-table span:nth-child(2),
+.m-intec-importexport.p-importing .preloader-layer span:nth-child(2) {
+    left: 15px;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+.m-intec-importexport.p-table span:nth-child(3),
+.m-intec-importexport.p-importing .preloader-layer span:nth-child(3) {
+    left: 30px;
+    -webkit-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+}
+
+.m-intec-importexport.p-table span:nth-child(4),
+.m-intec-importexport.p-importing .preloader-layer span:nth-child(4) {
+    left: 45px;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+
+@keyframes preloader {
+    0%, 100% {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+
+    40%, 80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes preloader {
+    0%, 100% {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+
+    40%, 80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.m-intec-importexport.p-importing {
+    display: flex;
+}
+.m-intec-importexport.p-importing .progress-side {
+    width: 500px;
+}
+.m-intec-importexport.p-importing .log-side {
+    margin-left: 50px;
+    color: red;
+    flex-grow: 1;
+}
+.m-intec-importexport.p-importing .progress-error {
+    padding: 6px 0;
+    line-height: 1;
+}
+.m-intec-importexport.p-importing .progress-error:first-child {
+    padding-top: 0;
+}
+.m-intec-importexport.p-importing .progress-error:last-child {
+    padding-bottom: 0;
+}
+.m-intec-importexport.p-importing .log-side {
+    max-height: 250px;
+    overflow: auto;
+}
+
+.m-intec-importexport.p-importing .custom-progress-bar {
+    position: relative;
+    max-width: 500px;
+    height: 30px;
+    /*border: 1px solid #606060;*/
+    border-radius: 5px;
+    box-shadow: 0 0 0 0.5px #000000;
+    overflow: hidden;
+}
+.m-intec-importexport.p-importing .custom-progress-bar-inner {
+    height: 100%;
+    width: 0;
+    background-color: #0b65c3;
+    transition: 0.5s;
+    box-shadow: inset 0 0 30px -4px #67c0ff;
+}
+.m-intec-importexport.p-importing .custom-progress-bar-info {
+    text-align: center;
+    margin: 15px 0;
+}
+.m-intec-importexport.p-importing .custom-progress-bar-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    color: #117e04;
+}
+
+.m-intec-importexport.p-field-create-property .trnslit-button {
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 14px!important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../../../css/icons/arrow-down.svg");
+}

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OEMValues>
+	<OEM>AFNOR NF 600 HM</OEM>
+	<OEM>AFNOR NF E 48-600</OEM>
+	<OEM>AFNOR NF E 48-602 HV</OEM>
+	<OEM>AFNOR NF E 48-603</OEM>
+	<OEM>AFNOR NF E 48-603 HM</OEM>
+	<OEM>AFNOR NF E 48-603 HV</OEM>
+	<OEM>AFNOR NF E 48-690</OEM>
+	<OEM>AFNOR NF E 48-691</OEM>
+	<OEM>AGMA 9005-D94</OEM>
+	<OEM>AGMA 9005-E02</OEM>
+	<OEM>AGMA 9005-F16</OEM>
+	<OEM>AISI 224</OEM>
+	<OEM>AIST 126</OEM>
+	<OEM>AIST 127</OEM>
+	<OEM>AIST 224</OEM>
+	<OEM>Allison C3</OEM>
+	<OEM>Allison C4</OEM>
+	<OEM>ALUP</OEM>
+	<OEM>Aprilia</OEM>
+	<OEM>Arburg</OEM>
+	<OEM>ASLE 70-1</OEM>
+	<OEM>ASLE 70-2</OEM>
+	<OEM>ASLE 70-3</OEM>
+	<OEM>ASTM D6158 HM</OEM>
+	<OEM>Atlas Copco</OEM>
+	<OEM>Audi</OEM>
+	<OEM>Battenfeld</OEM>
+	<OEM>Bekum</OEM>
+	<OEM>Bentley</OEM>
+	<OEM>Bentley RH 5000</OEM>
+	<OEM>BlackDecker</OEM>
+	<OEM>BMW</OEM>
+	<OEM>BMW 8122 9 407 758</OEM>
+	<OEM>BMW 8329 0 429 576</OEM>
+	<OEM>Bosch</OEM>
+	<OEM>Bosch Rexroth</OEM>
+	<OEM>Bosch Rexroth 90220</OEM>
+	<OEM>Bosch Rexroth 90220-01</OEM>
+	<OEM>Bosch Rexroth 90245</OEM>
+	<OEM>Busch VM</OEM>
+	<OEM>Busch VMH</OEM>
+	<OEM>Caterpillar TO-2</OEM>
+	<OEM>Caterpillar TO-4</OEM>
+	<OEM>CETOP RP 91H-HM</OEM>
+	<OEM>CETOP RP 91H-HV</OEM>
+	<OEM>CHF 11S</OEM>
+	<OEM>CHF 202</OEM>
+	<OEM>Chrysler</OEM>
+	<OEM>Chrysler MS-5931</OEM>
+	<OEM>Cincinnati Mashine P59</OEM>
+	<OEM>Cincinnati Mashine P68</OEM>
+	<OEM>Cincinnati Mashine P69</OEM>
+	<OEM>Cincinnati Mashine P70</OEM>
+	<OEM>Citroen 9979 A1</OEM>
+	<OEM>CompAir</OEM>
+	<OEM>David Brown</OEM>
+	<OEM>David Brown ET19</OEM>
+	<OEM>David Brown ET33</OEM>
+	<OEM>David Brown S1.53.101</OEM>
+	<OEM>David Brown S1.53.101(E)</OEM>
+	<OEM>Demag</OEM>
+	<OEM>Denison</OEM>
+	<OEM>Denison HF-0</OEM>
+	<OEM>Denison HF-1</OEM>
+	<OEM>Denison HF-2</OEM>
+	<OEM>DeWalt</OEM>
+	<OEM>Dexron II</OEM>
+	<OEM>Dexron III</OEM>
+	<OEM>DIN 51502</OEM>
+	<OEM>DIN 51502 HLP</OEM>
+	<OEM>DIN 51506</OEM>
+	<OEM>DIN 51506 VBL</OEM>
+	<OEM>DIN 51506 VCL</OEM>
+	<OEM>DIN 51506 VDL</OEM>
+	<OEM>DIN 51517</OEM>
+	<OEM>DIN 51517-3</OEM>
+	<OEM>DIN 51517-3 CLP</OEM>
+	<OEM>DIN 51524 T3</OEM>
+	<OEM>DIN 51524-2</OEM>
+	<OEM>DIN 51524-2 HLP</OEM>
+	<OEM>DIN 51524-2 HLPD</OEM>
+	<OEM>DIN 51524-3</OEM>
+	<OEM>DIN 51524-3 HVLP</OEM>
+	<OEM>DIN 51621</OEM>
+	<OEM>Dodge</OEM>
+	<OEM>Ducati</OEM>
+	<OEM>Dynex</OEM>
+	<OEM>EATON E-FDGN-TB002-E</OEM>
+	<OEM>Eaton Vickers 35VQ25A</OEM>
+	<OEM>ENGEL</OEM>
+	<OEM>ESN-M2C134-D</OEM>
+	<OEM>ESP-M2C138-CJ</OEM>
+	<OEM>ESW-M2C128-C</OEM>
+	<OEM>ESW-M2C128-D</OEM>
+	<OEM>Fendt</OEM>
+	<OEM>Fendt X 902.011.622</OEM>
+	<OEM>Festo</OEM>
+	<OEM>FIAC</OEM>
+	<OEM>Fiat 9.55550</OEM>
+	<OEM>FIAT 9.55550-AG3</OEM>
+	<OEM>FIAT 9.55550-SA1</OEM>
+	<OEM>Fiat 9.55597</OEM>
+	<OEM>FINI</OEM>
+	<OEM>Flender</OEM>
+	<OEM>Fluid LDA</OEM>
+	<OEM>Fluid LDS</OEM>
+	<OEM>Ford ESW-M2C 33-F</OEM>
+	<OEM>Ford M2C204-A</OEM>
+	<OEM>Ford WSA-M2C 195-A</OEM>
+	<OEM>Ford WSS-M2C 195-A2</OEM>
+	<OEM>Ford WSS-M2C 204-A</OEM>
+	<OEM>Ford WSS-M2C 204-A2</OEM>
+	<OEM>FZG 12</OEM>
+	<OEM>FZG A8,3/90:10</OEM>
+	<OEM>FZG A8,3/90:12</OEM>
+	<OEM>FZG A8,3/90:13</OEM>
+	<OEM>GM</OEM>
+	<OEM>GM 1940715</OEM>
+	<OEM>GM 1940766</OEM>
+	<OEM>GM B 040 0070</OEM>
+	<OEM>GM B 040 2012</OEM>
+	<OEM>GM Dexron II</OEM>
+	<OEM>GM Dexron II D</OEM>
+	<OEM>GM Dexron III</OEM>
+	<OEM>GM LH-04-1</OEM>
+	<OEM>GM LH-06-1</OEM>
+	<OEM>GM LH-15-1</OEM>
+	<OEM>GM LS-2</OEM>
+	<OEM>Hilti</OEM>
+	<OEM>Hitachi</OEM>
+	<OEM>HOCNF Norway-NEMS</OEM>
+	<OEM>Honda</OEM>
+	<OEM>Honda PSF Type V</OEM>
+	<OEM>Honda PSF-2</OEM>
+	<OEM>Honda PSF-S</OEM>
+	<OEM>Hydreco</OEM>
+	<OEM>Hyundai PSF-3</OEM>
+	<OEM>ISO 11158</OEM>
+	<OEM>ISO 11158 HM</OEM>
+	<OEM>ISO 11158 HV</OEM>
+	<OEM>ISO 12925-1</OEM>
+	<OEM>ISO 12925-1 CKC</OEM>
+	<OEM>ISO 12925-1 CKD</OEM>
+	<OEM>ISO 6743</OEM>
+	<OEM>ISO 6743-3 DRD</OEM>
+	<OEM>ISO 6743-3 DVA</OEM>
+	<OEM>ISO 6743-3 DVC</OEM>
+	<OEM>ISO 6743-4</OEM>
+	<OEM>ISO 6743-4 HM</OEM>
+	<OEM>ISO 6743-4 HV</OEM>
+	<OEM>ISO 7308</OEM>
+	<OEM>ISO L-FD</OEM>
+	<OEM>ISO L-HM</OEM>
+	<OEM>ISO L-HV</OEM>
+	<OEM>ISO VG 220</OEM>
+	<OEM>ISO VG 48</OEM>
+	<OEM>IVECO 18-1823</OEM>
+	<OEM>JCMAS P041 HK</OEM>
+	<OEM>Jeep</OEM>
+	<OEM>John Deere J20C</OEM>
+	<OEM>KAESER</OEM>
+	<OEM>Kawasaki</OEM>
+	<OEM>KAYABA</OEM>
+	<OEM>Kia PSF-3</OEM>
+	<OEM>Kia PSF-4</OEM>
+	<OEM>Komatsu</OEM>
+	<OEM>Land Rover Cold Climate PAS Fluid</OEM>
+	<OEM>LHM</OEM>
+	<OEM>MAG P-68</OEM>
+	<OEM>MAG P-69</OEM>
+	<OEM>MAG P-70</OEM>
+	<OEM>Makita</OEM>
+	<OEM>MAN 3289</OEM>
+	<OEM>MAN 3623</OEM>
+	<OEM>MAN M 3289</OEM>
+	<OEM>MAN TUC 3623/93</OEM>
+	<OEM>Mazda PSF</OEM>
+	<OEM>MB 236.3</OEM>
+	<OEM>MB 343.0</OEM>
+	<OEM>MB 344.0</OEM>
+	<OEM>MB 345.0</OEM>
+	<OEM>Mercon</OEM>
+	<OEM>Mercon V</OEM>
+	<OEM>MIL-H 24459</OEM>
+	<OEM>Mitsubishi PSF-2M</OEM>
+	<OEM>Mitsubishi SP-II M</OEM>
+	<OEM>Moto-Guzzi</OEM>
+	<OEM>MS-11655</OEM>
+	<OEM>MS-11665</OEM>
+	<OEM>MS-5931</OEM>
+	<OEM>MS-9602</OEM>
+	<OEM>MS-9933</OEM>
+	<OEM>NATO</OEM>
+	<OEM>Nissan PSF-II</OEM>
+	<OEM>OHLINS</OEM>
+	<OEM>Oilgear</OEM>
+	<OEM>OPEL 19 40 715</OEM>
+	<OEM>OPEL 19 40 766</OEM>
+	<OEM>Pentosin CHF 11S</OEM>
+	<OEM>Pentosin CHF 202</OEM>
+	<OEM>Peugeot B712710</OEM>
+	<OEM>Porsche</OEM>
+	<OEM>PSA 9730A5</OEM>
+	<OEM>PSA 9735EJ</OEM>
+	<OEM>PSA 9979.A4</OEM>
+	<OEM>PSA B71 2710</OEM>
+	<OEM>PSA S71 2710</OEM>
+	<OEM>PSF-3</OEM>
+	<OEM>PSF-4</OEM>
+	<OEM>Renault PSF Class 1</OEM>
+	<OEM>Ryobi</OEM>
+	<OEM>Saab</OEM>
+	<OEM>Saab 3032 380</OEM>
+	<OEM>Saab 93160548</OEM>
+	<OEM>Sauer-Danfoss</OEM>
+	<OEM>SEB 181.222</OEM>
+	<OEM>SEB 181.226</OEM>
+	<OEM>SIS SS 155434</OEM>
+	<OEM>Subaru PSF</OEM>
+	<OEM>Sumake</OEM>
+	<OEM>Suzuki</OEM>
+	<OEM>Texaco TL 4634</OEM>
+	<OEM>Thyssen TH-N-256-132</OEM>
+	<OEM>TMS 6810</OEM>
+	<OEM>Toyota AHC</OEM>
+	<OEM>Toyota PSF EH</OEM>
+	<OEM>Toyota PSF NEW-W</OEM>
+	<OEM>Toyota PSF Type EH</OEM>
+	<OEM>Triumph</OEM>
+	<OEM>US Steel 126</OEM>
+	<OEM>US Steel 127</OEM>
+	<OEM>US Steel 136</OEM>
+	<OEM>US Steel 224</OEM>
+	<OEM>VDMA 24318</OEM>
+	<OEM>VDMA 4318</OEM>
+	<OEM>Vickers</OEM>
+	<OEM>Vickers 35VQ25</OEM>
+	<OEM>Vickers I-286</OEM>
+	<OEM>Vickers I-286-S</OEM>
+	<OEM>Vickers I-286-S3</OEM>
+	<OEM>Vickers M-2950</OEM>
+	<OEM>Vickers M-2950-S</OEM>
+	<OEM>Vickers M-2950-SD</OEM>
+	<OEM>Vickers M-2952-S</OEM>
+	<OEM>Vickers Vane Pump</OEM>
+	<OEM>Voith 55.6335</OEM>
+	<OEM>Volvo</OEM>
+	<OEM>Volvo 1161529</OEM>
+	<OEM>Volvo 30741424</OEM>
+	<OEM>Volvo STD 1273.36</OEM>
+	<OEM>Volvo WB 101</OEM>
+	<OEM>VW G 002 000</OEM>
+	<OEM>VW G 002 000 A2</OEM>
+	<OEM>VW G 004 000</OEM>
+	<OEM>VW G 004 000 M2</OEM>
+	<OEM>VW G 009 300</OEM>
+	<OEM>VW TL 52 146</OEM>
+	<OEM>VW TL 52146</OEM>
+	<OEM>VW TL 52146.01</OEM>
+	<OEM>Yamaha</OEM>
+	<OEM>ZF TE-ML 02K</OEM>
+	<OEM>ZF TE-ML 03D</OEM>
+	<OEM>ZF TE-ML 04D</OEM>
+	<OEM>ZF TE-ML 09</OEM>
+	<OEM>ZF TE-ML 09B</OEM>
+	<OEM>ZF TE-ML 11</OEM>
+	<OEM>ZF TE-ML 12</OEM>
+	<OEM>ZF TE-ML 14A</OEM>
+	<OEM>ZF TE-ML 17C</OEM>
+	<OEM>И-Г-А-32</OEM>
+	<OEM>И-Г-А-68</OEM>
+	<OEM>И-ГТ-А-100</OEM>
+</OEMValues>

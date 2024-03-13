@@ -1,0 +1,56 @@
+<Jewelry>
+	<GoodsSubType name="Кольца и перстни"></GoodsSubType>
+	<GoodsSubType name="Серьги"></GoodsSubType>
+	<GoodsSubType name="Кулоны и подвески"></GoodsSubType>
+	<GoodsSubType name="Браслеты"></GoodsSubType>
+	<GoodsSubType name="Пирсинг"></GoodsSubType>
+	<GoodsSubType name="Цепи"></GoodsSubType>
+	<GoodsSubType name="Колье"></GoodsSubType>
+	<GoodsSubType name="Шармы"></GoodsSubType>
+	<GoodsSubType name="Броши"></GoodsSubType>
+	<GoodsSubType name="Комплекты"></GoodsSubType>
+	<GoodsSubType name="Религиозные изделия"></GoodsSubType>
+	<GoodsSubType name="Другое"></GoodsSubType>
+	<Material name="Золото">
+		<Proba name="585"></Proba>
+		<Proba name="583"></Proba>
+		<Proba name="750"></Proba>
+		<Proba name="Другое"></Proba>
+	</Material>
+	<Material name="Серебро">
+		<Proba name="925"></Proba>
+		<Proba name="875"></Proba>
+		<Proba name="Другое"></Proba>
+	</Material>
+	<Material name="Платина">
+		<Proba name="950"></Proba>
+		<Proba name="900"></Proba>
+		<Proba name="Другое"></Proba>
+	</Material>
+	<Material name="Ювелирный сплав"></Material>
+	<Material name="Сталь"></Material>
+	<Material name="Кожа"></Material>
+	<Material name="Платиновые металлы"></Material>
+	<Material name="Другое"></Material>
+	<InsertStone name="Бриллиант"></InsertStone>
+	<InsertStone name="Фианит"></InsertStone>
+	<InsertStone name="Сапфир"></InsertStone>
+	<InsertStone name="Изумруд"></InsertStone>
+	<InsertStone name="Жемчуг"></InsertStone>
+	<InsertStone name="Топаз"></InsertStone>
+	<InsertStone name="Аметист"></InsertStone>
+	<InsertStone name="Янтарь"></InsertStone>
+	<InsertStone name="Рубин"></InsertStone>
+	<InsertStone name="Александрит"></InsertStone>
+	<InsertStone name="Гранат"></InsertStone>
+	<InsertStone name="Другое"></InsertStone>
+	<InsertStone name="Без вставок"></InsertStone>
+	<NumberStone name="1"></NumberStone>
+	<NumberStone name="2"></NumberStone>
+	<NumberStone name="3"></NumberStone>
+	<NumberStone name="4"></NumberStone>
+	<NumberStone name="5"></NumberStone>
+	<NumberStone name="6"></NumberStone>
+	<NumberStone name="Россыпь"></NumberStone>
+	<NumberStone name="Без камней"></NumberStone>
+</Jewelry>

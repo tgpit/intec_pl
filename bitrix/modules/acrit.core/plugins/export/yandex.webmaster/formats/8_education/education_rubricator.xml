@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<categories>
+    <category id="100">Программирование</category>
+    <category id="101" parentId="100">Веб-разработка</category>
+    <category id="102" parentId="100">Android-разработка</category>
+    <category id="103" parentId="100">iOS-разработка</category>
+    <category id="104" parentId="100">Разработка на Python</category>
+    <category id="105" parentId="100">Разработка на Go</category>
+    <category id="106" parentId="100">Разработка на C++</category>
+    <category id="107" parentId="100">Разработка на Java</category>
+    <category id="108" parentId="100">Тестирование</category>
+    <category id="109" parentId="100">Алгоритмы и структуры данных</category>
+    <category id="110" parentId="100">IT-инфраструктура</category>
+    <category id="111" parentId="100">DevOps</category>
+    <category id="112" parentId="100">Информационная безопасность</category>
+    <category id="113" parentId="100">Машинное обучение</category>
+    <category id="114" parentId="100">SQL и Big Data</category>
+    <category id="115" parentId="100">1С-разработка</category>
+    <category id="116" parentId="100">Разработка игр</category>
+    <category id="117" parentId="100">Blockchain-разработка</category>
+    <category id="199" parentId="100">Разное</category>
+    <category id="200">Бизнес и менеджмент</category>
+    <category id="201" parentId="200">Компетенции руководителя</category>
+    <category id="202" parentId="200">Проектный менеджмент</category>
+    <category id="203" parentId="200">Продуктовый менеджмент</category>
+    <category id="204" parentId="200">Финансовый менеджмент</category>
+    <category id="205" parentId="200">Операционный менеджмент</category>
+    <category id="206" parentId="200">Продажи</category>
+    <category id="207" parentId="200">Предпринимательство</category>
+    <category id="208" parentId="200">Управление персоналом</category>
+    <category id="209" parentId="200">Менеджмент онлайн-школы</category>
+    <category id="210" parentId="200">Маркетплейс-менеджмент</category>
+    <category id="211" parentId="200">МБА</category>
+    <category id="212" parentId="200">Инвестиции</category>
+    <category id="299" parentId="200">Разное</category>
+    <category id="300">Аналитика</category>
+    <category id="301" parentId="300">Аналитика данных</category>
+    <category id="302" parentId="300">Работа с данными</category>
+    <category id="303" parentId="300">Data Science</category>
+    <category id="304" parentId="300">Системная и бизнес аналитика</category>
+    <category id="305" parentId="300">Финансовая аналитика</category>
+    <category id="306" parentId="300">Продуктовая аналитика</category>
+    <category id="307" parentId="300">Игровая аналитика</category>
+    <category id="308" parentId="300">BI-аналитика</category>
+    <category id="309" parentId="300">Маркетинговая аналитика</category>
+    <category id="399" parentId="300">Разное</category>
+    <category id="400">Дизайн и UX</category>
+    <category id="401" parentId="400">Графический дизайн</category>
+    <category id="402" parentId="400">Коммуникационный дизайн</category>
+    <category id="403" parentId="400">Дизайн интерфейсов</category>
+    <category id="404" parentId="400">Коммерческая иллюстрация</category>
+    <category id="405" parentId="400">Веб-дизайн</category>
+    <category id="406" parentId="400">Продуктовый дизайн</category>
+    <category id="407" parentId="400">Дизайн интерьеров</category>
+    <category id="408" parentId="400">Ландшафтный дизайн</category>
+    <category id="409" parentId="400">Motion-дизайн</category>
+    <category id="410" parentId="400">Fashion-дизайн</category>
+    <category id="411" parentId="400">3D-визуализация</category>
+    <category id="412" parentId="400">Игровой дизайн</category>
+    <category id="499" parentId="400">Разное</category>
+    <category id="500">Маркетинг</category>
+    <category id="501" parentId="500">Интернет-маркетинг</category>
+    <category id="502" parentId="500">SMM-маркетинг</category>
+    <category id="503" parentId="500">Таргетированная реклама</category>
+    <category id="504" parentId="500">Контекстная реклама</category>
+    <category id="505" parentId="500">SEO-маркетинг</category>
+    <category id="506" parentId="500">Контент-маркетинг</category>
+    <category id="507" parentId="500">Работа с текстами</category>
+    <category id="508" parentId="500">CRM-маркетинг</category>
+    <category id="509" parentId="500">Event-маркетинг</category>
+    <category id="510" parentId="500">PR-менеджмент</category>
+    <category id="511" parentId="500">Бренд-менеджмент</category>
+    <category id="512" parentId="500">Маркетинг e-commerce</category>
+    <category id="513" parentId="500">Исследование клиентского опыта</category>
+    <category id="514" parentId="500">Продвижение на маркетплейсах</category>
+    <category id="515" parentId="500">Маркетинговая аналитика</category>
+    <category id="599" parentId="500">Разное</category>
+    <category id="600">Творчество</category>
+    <category id="601" parentId="600">Видео</category>
+    <category id="602" parentId="600">Звук</category>
+    <category id="603" parentId="600">Музыка</category>
+    <category id="604" parentId="600">Кино</category>
+    <category id="605" parentId="600">Фотография</category>
+    <category id="606" parentId="600">Творческое письмо</category>
+    <category id="607" parentId="600">Fashion</category>
+    <category id="608" parentId="600">Искусство</category>
+    <category id="609" parentId="600">Архитектура</category>
+    <category id="699" parentId="600">Разное</category>
+    <category id="700">Создание игр</category>
+    <category id="701" parentId="700">Игровой дизайн</category>
+    <category id="702" parentId="700">Разработка игр на Unity</category>
+    <category id="703" parentId="700">Разработка игр на Unreal Engine</category>
+    <category id="704" parentId="700">3D-графика</category>
+    <category id="705" parentId="700">2D-графика</category>
+    <category id="799" parentId="700">Разное</category>    
+    <category id="800">Саморазвитие</category>
+    <category id="802" parentId="800">Психология</category>
+    <category id="803" parentId="800">Тайм-менеджмент</category>
+    <category id="804" parentId="800">Рисование</category>
+    <category id="805" parentId="800">Речь</category>
+    <category id="806" parentId="800">Общее саморазвитие</category>
+    <category id="807" parentId="800">Photoshop</category>
+    <category id="809" parentId="800">Шитье</category>
+    <category id="810" parentId="800">Кондитерская</category>
+    <category id="812" parentId="800">Визажист</category>
+    <category id="813" parentId="800">Скечинг</category>
+    <category id="814" parentId="800">Здоровье</category>
+    <category id="815" parentId="800">Soft skills</category>
+    <category id="816" parentId="800">Маникюр</category>
+    <category id="899" parentId="800">Разное</category>
+    <category id="900">Изучение наук</category>
+    <category id="901" parentId="900">Точные науки</category>
+    <category id="902" parentId="900">Технические науки</category>
+    <category id="903" parentId="900">Естественные науки</category>
+    <category id="904" parentId="900">Социальные науки</category>
+    <category id="999" parentId="900">Разное</category>
+    <category id="1000">Переподготовка</category>
+    <category id="1001" parentId="1000">Архитектура, строительство, ЖКХ</category>
+    <category id="1002" parentId="1000">Банковская и кредитная деятельность</category>
+    <category id="1003" parentId="1000">Экономика, финансы, бухгалтерия</category>
+    <category id="1004" parentId="1000">Государственная служба и юриспруденция</category>
+    <category id="1005" parentId="1000">Делопроизводство, кадровое дело, HR</category>
+    <category id="1006" parentId="1000">Здравоохранение, медицина и фармацевтика</category>
+    <category id="1007" parentId="1000">Инженерия</category>
+    <category id="1008" parentId="1000">Педагогическое образование</category>
+    <category id="1009" parentId="1000">Социальная работа</category>
+    <category id="1010" parentId="1000">Транспорт и машиностроение</category>
+    <category id="1011" parentId="1000">Туризм</category>
+    <category id="1012" parentId="1000">Физическая культура и спорт</category>
+    <category id="1013" parentId="1000">Экология</category>
+    <category id="1099" parentId="1000">Разное</category>
+    <category id="10000">Школьные предметы</category>
+    <category id="10001" parentId="10000">Русский язык</category>
+    <category id="10002" parentId="10000">Математика</category>
+    <category id="10003" parentId="10000">Информатика</category>
+    <category id="10004" parentId="10000">Физика</category>
+    <category id="10005" parentId="10000">Обществознание</category>
+    <category id="10006" parentId="10000">Биология</category>
+    <category id="10007" parentId="10000">История</category>
+    <category id="10008" parentId="10000">География</category>
+    <category id="10009" parentId="10000">Химия</category>
+    <category id="10010" parentId="10000">Литература</category>
+    <category id="10011" parentId="10000">Программирование</category>
+    <category id="10012" parentId="10000">Экономика</category>
+    <category id="10013" parentId="10000">Лингвистика</category>
+    <category id="10014" parentId="10000">Медицина</category>
+    <category id="10015" parentId="10000">Обж</category>
+    <category id="10016" parentId="10000">Дизайн</category>
+    <category id="10017" parentId="10000">Логопед</category>
+    <category id="10018" parentId="10000">Английский язык</category>
+    <category id="10019" parentId="10000">Немецкий язык</category>
+    <category id="10020" parentId="10000">Французский язык</category>
+    <category id="10021" parentId="10000">Испанский язык</category>
+    <category id="10023" parentId="10000">Китайский язык</category>
+    <category id="10099" parentId="10000">Межпредметный</category>
+    <category id="20000">Языки</category>
+    <category id="20001" parentId="20000">Английский язык</category>
+    <category id="20002" parentId="20000">Немецкий язык</category>
+    <category id="20003" parentId="20000">Французский язык</category>
+    <category id="20004" parentId="20000">Испанский язык</category>
+    <category id="20005" parentId="20000">Корейский язык</category>
+    <category id="20006" parentId="20000">Китайский язык</category>
+    <category id="20007" parentId="20000">Японский язык</category>
+</categories>

@@ -1,0 +1,248 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'reviews';
+$template: 'template-9';
+$item: 'widget-item';
+
+@keyframes c-#{$component}-#{$template}-keyframes {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-title-margin {
+    margin-left: 117px;
+    @media (max-width: 500px) {
+      margin-left: 54px;
+    }
+  }
+  .widget-title {
+    overflow: hidden;
+  }
+  .widget-send {
+    color: #808080;
+    padding: 8px 14px;
+    border: 1px solid #E8E8E8;
+    cursor: pointer;
+    @include border-radius(2px);
+    @include user-select(none);
+    @include transition(.35s, (color, border-color));
+  }
+  .widget-send-icon {
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-send-content {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: inherit;
+  }
+  .widget-all {
+    display: block;
+    text-decoration: none;
+  }
+  .widget-all-desktop {
+    display: block;
+    font-size: 10px;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include transition(.35s, color);
+  }
+  .widget-all-mobile {
+    display: none;
+    padding: 6px 7px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-items {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .#{$item}-picture {
+    width: 105px;
+    height: 105px;
+    margin-right: 45px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include border-radius(50%);
+  }
+  .#{$item}-description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .#{$item}-link-wrap {
+    font-size: 0;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 30px;
+  }
+  .#{$item}-link {
+    white-space: nowrap;
+  }
+  .#{$item}-link-value {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    vertical-align: middle;
+
+    &:hover {
+      & + .#{$item}-link-decoration {
+        animation-name: c-#{$component}-#{$template}-keyframes;
+        animation-duration: 1.2s;
+        animation-iteration-count: infinite;
+      }
+    }
+  }
+  .#{$item}-link-decoration {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 2px;
+    padding-left: 5px;
+    vertical-align: middle;
+  }
+  .#{$item}-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .#{$item}-position {
+    font-size: 14px;
+    line-height: 18px;
+    color: #888888;
+    margin-top: 10px;
+  }
+
+  .intec-ui-control-navigation {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 55px;
+
+    button {
+      font-size: 9px;
+      line-height: 1;
+      color: #808080;
+      width: 40px;
+      height: 40px;
+      margin-top: -24px;
+      background: #fff;
+      border: 1px solid #E8E8E8;
+      cursor: pointer;
+      outline: none;
+      @include border-radius(2px);
+      @include transition(0.35s, all);
+
+      svg {
+        path {
+          stroke: #808080;
+          @include transition(0.35s, all);
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            stroke: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        background-color: #FFF!important;
+        border-color: #F2F2F2!important;
+        opacity: 0.7;
+        cursor: not-allowed;
+        @include user-select(none);
+
+        svg {
+          path {
+            stroke: #F2F2F2!important;
+          }
+        }
+      }
+    }
+  }
+
+  @include breakpoint-1024() {
+    .widget-items {
+      padding-left: 55px;
+      padding-right: 55px;
+    }
+  }
+  @include breakpoint-768() {
+    .widget-send-content {
+      display: none;
+    }
+
+    .#{$item}-picture {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+  }
+  @include breakpoint-custom(500) {
+    .widget-send {
+      padding: 6px;
+    }
+    .widget-all-desktop {
+      display: none;
+    }
+    .widget-all-mobile {
+      display: block;
+    }
+    .widget-items {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .#{$item}-description {
+      font-size: 14px;
+      line-height: 21px;
+    }
+    .#{$item}-link-value {
+      font-size: 14px;
+      line-height: 14px;
+    }
+    .#{$item}-name {
+      font-size: 15px;
+      line-height: 19px;
+    }
+    .#{$item}-position {
+      font-size: 12px;
+      line-height: 16px;
+      margin-top: 5px;
+    }
+
+    .intec-ui-control-navigation {
+      .intec-ui-part-button-left,
+      .intec-ui-part-button-right {
+        width: 35px;
+        height: 35px;
+        margin-top: -17.5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<CostumeJewelry>
+	<GoodsSubType name="Серьги" />
+	<GoodsSubType name="Браслеты" />
+	<GoodsSubType name="Колье и бусы" />
+	<GoodsSubType name="Броши" />
+	<GoodsSubType name="Кольца и перстни" />
+	<GoodsSubType name="Кулоны и подвески" />
+	<GoodsSubType name="Комплекты" />
+	<GoodsSubType name="Цепи" />
+	<GoodsSubType name="Чокеры" />
+	<GoodsSubType name="Другое" />
+</CostumeJewelry>

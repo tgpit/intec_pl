@@ -1,0 +1,123 @@
+.ns-bitrix.c-form-result-new.c-form-result-new-default {
+  display: block;
+  overflow: hidden;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-message,
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-description {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-message p,
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-description p {
+  margin: 0;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-message font,
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-description font {
+  color: inherit !important;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-message.form-result-new-message-note {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-message-note-icon {
+  line-height: 0;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-message-note-text {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-message-note-buttons {
+  display: none;
+  margin-top: 38px;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-reset-button,
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-submit-button {
+  padding: 16px 32px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-submit-button[disabled] {
+  background-color: #CCCCCC;
+  border-color: #CCCCCC;
+  cursor: not-allowed;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-message-note-button {
+  padding: 15px 24px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-fields {
+  display: block;
+  margin: -8px 0 17px 0;
+  min-height: 8px;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-field {
+  display: block;
+  padding: 8px 0;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-field-title-mobile {
+  display: none;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default textarea {
+  resize: vertical;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .inputfile {
+  display: none;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .file-icon {
+  margin-right: 15px;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .file-caption {
+  word-break: break-all;
+  font-size: 14px;
+  line-height: 24px;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-field-file {
+  cursor: pointer;
+}
+@media all and (max-width: 600px) {
+  .ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-field-content {
+    position: relative;
+  }
+  .ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-field-content input, .ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-field-content select, .ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-field-content textarea {
+    padding: 9px 18px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #404040;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+  }
+  .ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-field {
+    padding: 4px 0;
+  }
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-captcha-image img {
+  width: 180px;
+  height: 40px;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-consent {
+  margin-bottom: 25px;
+}
+.ns-bitrix.c-form-result-new.c-form-result-new-default .form-result-new-consent-text {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

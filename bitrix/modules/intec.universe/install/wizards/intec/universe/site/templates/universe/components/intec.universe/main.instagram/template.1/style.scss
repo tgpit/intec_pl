@@ -1,0 +1,140 @@
+@import '../../../../sources/styles/mixins.scss';
+
+$component: 'instagram';
+$template: 'template-1';
+$item: 'widget-item';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-content {
+    overflow: hidden;
+  }
+  .widget-elements {
+    font-size: 0;
+    text-align: center;
+  }
+  .widget-element {
+    display: inline-block;
+    font-size: 14px;
+    text-align: left;
+
+    .widget-element-description {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      color: #fff;
+      opacity: 0;
+      @include transition(0.5s, all, 0, ease-in-out);
+    }
+    &:hover .widget-element-description {
+      opacity: 1;
+    }
+  }
+  .widget-element-wrapper {
+    padding: 0px;
+  }
+  .widget-element-image {
+    display: block;
+    position: relative;
+    padding-top: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    overflow: hidden;
+
+    i{
+      position: absolute;
+      color: white!important;
+      font-size: 50px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .widget-footer {
+    margin-top: 25px;
+  }
+  .widget-footer-all {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid;
+    @include border-radius(5px);
+    @include transition(0.4s, all);
+
+    &:hover {
+      color: #FFF;
+    }
+  }
+  .widget-title.align-center.widget-title-margin {
+    margin-left: 210px;
+  }
+  .widget-all-container {
+    text-align: right;
+  }
+  .widget-title-container + .widget-all-container.mobile{
+    width: 210px;
+    overflow: hidden;
+  }
+  .widget-all-container {
+    i {
+      display: none;
+      font-size: 19px;
+    }
+    .instagram-icon {
+      margin-bottom: -3px;
+    }
+  }
+  .widget-all-button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #808080;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    svg {
+      path {
+        @include transition(0.4s, all);
+      }
+    }
+  }
+  @media all and (max-width: 768px) {
+    .widget-element {
+      &:hover .widget-element-description {
+        opacity: 0;
+      }
+    }
+  }
+  @media all and (max-width: 550px) {
+    .widget-title.align-center.widget-title-margin-mobile {
+      margin-left: 25px;
+    }
+    .widget-title-container + .widget-all-container,
+    .widget-title-container + .widget-all-container.mobile{
+      width: 25px;
+      max-height: 36px;
+    }
+    .widget-footer.mobile {
+      display: none;
+    }
+    .widget-all-container {
+      i {
+        display: inline-block;
+      }
+      span {
+        display: none;
+      }
+    }
+    .widget-all-container.mobile + .widget-all-button{
+      width: 20px;
+    }
+  }
+}

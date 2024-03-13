@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<Dictionary>
+    <Apparel name="Сумки">
+        <ApparelType name="С ручками"></ApparelType>
+        <ApparelType name="Через плечо"></ApparelType>
+        <ApparelType name="Клатч"></ApparelType>
+        <ApparelType name="Поясная"></ApparelType>
+        <ApparelType name="Спортивная"></ApparelType>
+        <ApparelType name="Кросс–боди"></ApparelType>
+        <ApparelType name="Шопер"></ApparelType>
+        <ApparelType name="Пляжная"></ApparelType>
+        <ApparelType name="Аксессуар для сумки"></ApparelType>
+        <Material name="Натуральная кожа"></Material>
+        <Material name="Искусственная кожа"></Material>
+        <Material name="Другой"></Material>
+    </Apparel>
+    <Apparel name="Рюкзаки"></Apparel>
+    <Apparel name="Чемоданы и дорожные сумки"></Apparel>
+    <Apparel name="Портфели и борсетки"></Apparel>
+    <Apparel name="Кошельки, визитницы, ключницы"></Apparel>
+    <Apparel name="Косметички и бьюти–кейсы"></Apparel>
+</Dictionary>

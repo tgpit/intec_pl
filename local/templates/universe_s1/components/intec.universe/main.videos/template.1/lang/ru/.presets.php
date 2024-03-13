@@ -1,0 +1,4 @@
+<?php
+
+$MESS['PRESETS_VIDEOS_TEMPLATE_1_PRESET_SLIDER_1'] = 'Слайдер 1';
+$MESS['PRESETS_VIDEOS_TEMPLATE_1_HEADER'] = 'Видеогалерея';

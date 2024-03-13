@@ -1,0 +1,480 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-set-constructor';
+$template: 'template-1';
+
+$color-black-1: #1B1E25;
+$color-black-2:#404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-gray-4: #F2F2F2;
+$color-green: #1DB940;
+$color-green-light: #10CDA0;
+$color-red: #E05757;
+$color-yellow: #F4BB28;
+
+$main: 'constructor-main';
+$main-dynamic: #{$main}-dynamic;
+$main-item: #{$main}-item;
+$main-total: #{$main}-total;
+$set: 'constructor-set';
+$set-item: #{$set}-item;
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$main-item}-picture {
+    font-size: 0;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      height: auto;
+      max-width: 80px;
+      max-height: 80px;
+    }
+  }
+  .#{$main-item}-name {
+    font-size: 14px;
+    line-height: 20px;
+    color: $color-black-2;
+  }
+  .#{$main-item}-price {
+    margin-top: 4px;
+  }
+  .#{$main-item}-price-item {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .#{$main-item}-price-old {
+    color: $color-gray-2;
+    text-decoration: line-through;
+  }
+  .#{$main-item}-price-current {
+    font-weight: 600;
+    color: $color-black-1;
+  }
+
+  .#{$main-dynamic} {
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .#{$main-dynamic}-container {
+    padding: 30px 40px;
+    border: 2px solid $color-yellow;
+    background-color: #FFF;
+    overflow: hidden;
+    @include border-radius(4px);
+  }
+  .#{$main-dynamic}-content {
+    margin-top: -12px;
+    margin-bottom: -12px;
+  }
+  .#{$main-dynamic}-item {
+    overflow: hidden;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    &[data-selected='false'] {
+      display: none;
+    }
+  }
+  .#{$main-dynamic}-item-picture {
+    display: block;
+    font-size: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 38px;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      height: auto;
+      max-width: 40px;
+      max-height: 38px;
+    }
+  }
+  .#{$main-dynamic}-item-name {
+    a {
+      font-size: 13px;
+      line-height: 19px;
+      text-decoration: none;
+      @include webkit-box(2, 19);
+    }
+  }
+  .#{$main-dynamic}-item-price-item {
+    font-size: 14px;
+    line-height: 24px;
+    white-space: nowrap;
+    word-break: break-all;
+    @include webkit-box(1, 24);
+  }
+  .#{$main-dynamic}-item-price-old {
+    color: $color-gray-2;
+    text-decoration: line-through;
+  }
+  .#{$main-dynamic}-item-price-current {
+    font-weight: 600;
+    color: $color-black-1;
+  }
+  .#{$main-dynamic}-item-remove {
+    font-size: 0;
+    cursor: pointer;
+
+    svg {
+      path {
+        stroke: $color-gray-2;
+        @include transition(0.4s, stroke);
+      }
+    }
+    &:hover {
+      svg {
+        path {
+          stroke: $color-black-2;
+        }
+      }
+    }
+  }
+  .#{$main-dynamic}-item-message-empty {
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-black-1;
+  }
+  .#{$main-dynamic}-decoration {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    background-color: $color-yellow;
+    @include user-select(none);
+    @include border-radius(50%);
+  }
+  .#{$main-dynamic}-plus {
+    top: 50%;
+    left: 2px;
+    @include transform-translate (-50%, -50%);
+  }
+  .#{$main-dynamic}-result {
+    top: 50%;
+    right: 2px;
+    @include transform-translate (50%, -50%);
+  }
+
+  .#{$main-total} {
+    min-width: 250px;
+  }
+  .#{$main-total}-price-item {
+    & + .#{$main-total}-price-item {
+      margin-top: 8px;
+    }
+  }
+  .#{$main-total}-price-old {
+    font-size: 14px;
+    line-height: 14px;
+    color: $color-gray-2;
+    text-decoration: line-through;
+  }
+  .#{$main-total}-price-current {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: $color-black-1;
+  }
+  .#{$main-total}-economy {
+    font-size: 0;
+    margin-top: 8px;
+  }
+  .#{$main-total}-economy-content {
+    padding: 3px 6px;
+    display: inline-block;
+    border: 1px solid $color-yellow;
+    background-color: #FFF;
+    @include border-radius(2px);
+  }
+  .#{$main-total}-economy-item {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .#{$main-total}-economy-value {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 12px;
+    color: $color-black-2;
+  }
+  .#{$main-total}-economy-icon {
+    padding-left: 4px;
+
+    svg {
+      path {
+        stroke: $color-black-2;
+      }
+    }
+  }
+  .#{$main-total}-buy {
+    font-size: 0;
+    margin-top: 16px;
+  }
+  .#{$main-total}-buy-button {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+    color: #FFF;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    cursor: pointer;
+    @include border-radius(2px);
+    @include user-select(none);
+    @include transition(0.4s, background-color);
+
+    &[data-active='false'] {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+
+  .#{$set} {
+    margin-top: 30px;
+
+    [data-selected='true'] {
+      display: none;
+
+      .#{$set-item}-button-add {
+        display: none;
+      }
+      .#{$set-item}-button-added {
+        display: inline-block;
+      }
+    }
+  }
+  .#{$set}-items {
+    overflow: hidden;
+  }
+
+  .#{$set-item} {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    padding: 32px 20px 104px 20px;
+    background-color: #FFF;
+    border: 2px solid $color-gray-4;
+    @include border-radius(4px);
+    @include transition(0.4s, border-color);
+  }
+  .#{$set-item}-picture {
+    display: block;
+    font-size: 0;
+    text-decoration: none;
+    width: 124px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      height: auto;
+      max-width: 124px;
+      max-height: 120px;
+    }
+  }
+  .#{$set-item}-price {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .#{$set-item}-price-item {
+    font-size: 14px;
+    line-height: 24px;
+
+    & + .#{$set-item}-price-item {
+      margin-top: 4px;
+    }
+  }
+  .#{$set-item}-price-old {
+    color: $color-gray-2;
+    text-decoration: line-through;
+  }
+  .#{$set-item}-price-current {
+    font-weight: 600;
+    color: $color-black-1;
+  }
+  .#{$set-item}-name {
+    a {
+      font-size: 12px;
+      line-height: 18px;
+      text-decoration: none;
+      @include webkit-box(2, 18);
+      @include transition(0.4s, color);
+    }
+  }
+  .#{$set-item}-quantity {
+    margin-top: 12px;
+    overflow: hidden;
+  }
+  .#{$set-item}-quantity-content {
+    font-size: 0;
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+  .#{$set-item}-quantity-part {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .#{$set-item}-quantity-name {
+    color: $color-gray-1;
+  }
+  .#{$set-item}-quantity-value {
+    color: $color-black-1;
+  }
+  .#{$set-item}-action {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 40px;
+    font-size: 0;
+  }
+  .#{$set-item}-button {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 15px 30px;
+    cursor: pointer;
+    @include border-radius(2px);
+    @include user-select(none);
+    @include transition(0.4s, background-color);
+  }
+  .#{$set-item}-button-added {
+    display: none;
+  }
+  .#{$set-item}-button-unavailable {
+    color: $color-gray-2;
+    background-color: $color-gray-4;
+    cursor: not-allowed;
+  }
+
+  [data-show='false'] {
+    display: none;
+  }
+
+  @media all and (max-width: 1024px) {
+    .#{$main-dynamic} {
+      margin-top: 15px;
+      margin-left: 0;
+    }
+    .#{$main-dynamic}-plus {
+      top: 2px;
+      left: 50%;
+    }
+    .#{$main-total} {
+      padding-top: 15px;
+    }
+  }
+  @media all and (max-width: 768px) {
+    .#{$main-dynamic} {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+    .#{$main-dynamic}-result {
+      top: auto;
+      right: 50%;
+      bottom: 2px;
+      @include transform-translate (50%, 50%);
+    }
+    .#{$main-total} {
+      padding-top: 0;
+    }
+  }
+  @media all and (max-width: 500px) {
+    .#{$main-dynamic}-container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .#{$main-dynamic}-item-picture-container {
+      display: none;
+    }
+    .#{$set-item}-button {
+      padding: 15px 20px;
+    }
+    .#{$set-item} {
+      padding: 14px 15px;
+    }
+    .#{$set-item}-picture, .#{$set-item}-picture img {
+      max-width: 90px;
+      max-height: 90px;
+    }
+    .#{$set-item}-action {
+      position: static;
+      margin-top: 15px;
+    }
+  }
+  @media all and (max-width: 350px) {
+    .#{$set}-items-wrapper {
+      margin-right: -5px;
+      margin-left: -5px;
+    }
+    .#{$set}-items-wrapper>.intec-grid-item-5 {
+      padding-left: 5px;
+      padding-righ: 5px;
+    }
+    .#{$set-item}-button {
+      padding: 10px;
+      font-size: 9px;
+    }
+    .#{$set-item} {
+      padding: 14px;
+    }
+  }
+}

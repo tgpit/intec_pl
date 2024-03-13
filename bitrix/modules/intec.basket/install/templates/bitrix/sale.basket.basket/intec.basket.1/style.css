@@ -1,0 +1,1562 @@
+.intec-basket.intec-basket-template-1 .intec-basket-picture {
+  font-size: 0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-picture::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-picture img, .intec-basket.intec-basket-template-1 .intec-basket-picture svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-align-middle {
+  font-size: 0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-align-middle > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-align-middle::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-inline {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-wrap {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-wrap-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap-reverse;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+  -ms-flex-flow: row wrap-reverse;
+  flex-flow: row wrap-reverse;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-a-v-start {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -moz-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-a-v-end {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -moz-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-a-v-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-a-v-baseline {
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -moz-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-a-v-stretch {
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -moz-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-a-h-start {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-a-h-end {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -moz-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-a-h-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-a-h-between {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-a-h-around {
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-item {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -moz-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  max-width: 100%;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-item-auto {
+  position: relative;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -moz-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-grid-item-shrink {
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-body {
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-empty {
+  text-align: center;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-empty-picture {
+  margin-bottom: 32px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-empty-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #B0B0B0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-empty-description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #B0B0B0;
+  margin-top: 16px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-empty-button {
+  margin-top: 24px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-empty-button a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  color: #FFF;
+  text-decoration: none;
+  padding: 16px 40px;
+  background-color: #0065FF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -ms-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-empty-button a:hover, .intec-basket.intec-basket-template-1 .intec-basket-empty-button a:focus {
+  background-color: #4d93ff;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-total-container + .intec-basket-items-container {
+  margin-top: 40px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-total {
+  padding: 40px;
+  background-color: #FFF;
+  border: 1px solid #E6E6E6;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-total-items {
+  margin: -12px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-total-item {
+  padding: 12px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-total-price-content {
+  margin: -12px -20px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-total-price-item {
+  padding: 12px 20px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-content {
+  position: relative;
+  display: inline-block;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-field {
+  position: relative;
+  font-size: 14px;
+  line-height: 1;
+  color: #666666;
+  width: 300px;
+  padding: 8px 52px 8px 16px;
+  border: none;
+  border-bottom: 1px solid #D9D9D9;
+  z-index: 1;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-confirm {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 12px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-confirm svg path {
+  fill: #B0B0B0;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: fill;
+  -moz-transition-property: fill;
+  -ms-transition-property: fill;
+  -o-transition-property: fill;
+  transition-property: fill;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-confirm:hover svg path {
+  fill: #808080;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message {
+  overflow: hidden;
+  margin-top: 8px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message:first-child {
+  margin-top: 16px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message[data-state=success] .intec-basket-coupon-message-icon svg path {
+  fill: #0065FF;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message[data-state=success] .intec-basket-coupon-message-information-colored {
+  color: #0065FF;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message[data-state=error] .intec-basket-coupon-message-icon svg path {
+  fill: #E05757;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message[data-state=error] .intec-basket-coupon-message-information-colored {
+  color: #E05757;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message-content {
+  display: flex;
+  align-items: center;
+  margin: -4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message-part {
+  padding: 4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message-part-default {
+  flex: 0 0 auto;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message-part-shrink {
+  flex: 0 1 auto;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message-icon svg path {
+  fill: #1B1E25;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message-information {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message-delete {
+  display: block;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message-delete svg path {
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-coupon-message-delete:hover svg path {
+  stroke: #1B1E25;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-item {
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-item + .intec-basket-sum-item {
+  margin-top: 8px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-total {
+  margin: -4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-total-item {
+  padding: 4px;
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-total-title {
+  font-size: 20px;
+  line-height: 1;
+  color: #1B1B25;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-total-values {
+  margin: -2px -3px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-total-value {
+  padding: 2px 3px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-total-current {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  color: #1B1E25;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-total-discount {
+  font-size: 14px;
+  line-height: 1;
+  color: #666666;
+  text-decoration: line-through;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-economy {
+  margin: -4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-economy-item {
+  padding: 4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-economy-title {
+  font-size: 12px;
+  line-height: 1;
+  color: #666666;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-economy-value {
+  font-size: 12px;
+  line-height: 1;
+  color: #1B1E25;
+  padding: 4px;
+  background-color: #FFC700;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-sum-additional {
+  font-size: 14px;
+  line-height: 1;
+  color: #666666;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-order-button {
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  color: #FFF;
+  padding: 16px 24px;
+  background-color: #0065FF;
+  border: 1px solid #0065FF;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: background-color, border-color;
+  -moz-transition-property: background-color, border-color;
+  -ms-transition-property: background-color, border-color;
+  -o-transition-property: background-color, border-color;
+  transition-property: background-color, border-color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-order-button:hover {
+  background-color: #4d93ff;
+  border-color: #4d93ff;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-order-button-disabled {
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  color: #FFF;
+  padding: 16px 24px;
+  background-color: #0047b3 !important;
+  border: 1px solid #0047b3 !important;
+  cursor: not-allowed;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-panel {
+  margin-bottom: 32px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-filter {
+  position: relative;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-filter-input {
+  position: relative;
+  font-size: 14px;
+  line-height: 1;
+  color: #666666;
+  width: 300px;
+  padding: 8px 42px 8px 16px;
+  border: none;
+  border-bottom: 1px solid #D9D9D9;
+  z-index: 1;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-filter-clear {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 12px;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-filter-clear svg path {
+  stroke: #B0B0B0;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-filter-clear:hover svg path {
+  stroke: #808080;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-filter-empty {
+  text-align: center;
+  max-width: 380px;
+  margin: 40px auto;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-filter-empty-picture {
+  margin-bottom: 32px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-filter-empty-picture svg path {
+  fill: #F0F0F0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-filter-empty-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #B0B0B0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-filter-empty-description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #B0B0B0;
+  margin-top: 16px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-tabs {
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-tabs-content {
+  text-align: right;
+  margin: -16px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-tabs-item {
+  font-size: 16px;
+  line-height: 1.19;
+  color: #999999;
+  padding-bottom: 8px;
+  margin: 16px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color, border-color;
+  -moz-transition-property: color, border-color;
+  -ms-transition-property: color, border-color;
+  -o-transition-property: color, border-color;
+  transition-property: color, border-color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-tabs-item.active {
+  color: #1B1E25;
+  border-color: #0065FF;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 2;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-items-container + .intec-basket-total-container {
+  margin-top: 40px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-items-overlayed {
+  position: relative;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-items {
+  position: relative;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item {
+  position: relative;
+  background-color: #FFF;
+  border: 1px solid #E6E6E6;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item:hover {
+  z-index: 1;
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.082);
+  -moz-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.082);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.082);
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item + .intec-basket-item {
+  margin-top: -1px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-highlighted {
+  background-color: #FFC700;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content {
+  padding: 24px 32px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-body {
+  margin: -16px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-body-item {
+  padding: 16px;
+  width: 50%;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-information {
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-information-content {
+  margin: -8px -24px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-information-content-item {
+  padding: 8px 24px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-properties {
+  margin-top: 12px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-price {
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-price-content {
+  margin: -12px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-price-item {
+  padding: 12px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-price-values {
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-price-values-content {
+  margin: -12px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-price-values-item {
+  width: 33.3333333333%;
+  padding: 12px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-price-total {
+  font-size: 0;
+  text-align: right;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-price-total-content {
+  display: inline-block;
+  text-align: left;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-price-actions {
+  width: 100%;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-preview {
+  position: relative;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-preview-picture {
+  font-size: 0;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-preview-url {
+  display: inline-block;
+  text-decoration: none;
+  height: 100%;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-badges {
+  position: absolute;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-badges[data-x=left] {
+  text-align: left;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-badges[data-x=right] {
+  text-align: right;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-badges[data-x=center] {
+  text-align: center;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-badges[data-y=top] {
+  top: 0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-badges[data-y=bottom] {
+  bottom: 0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-badges[data-y=middle] {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.intec-basket.intec-basket-template-1 .intec-basket-badges-item {
+  font-size: 0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-badges-item + .intec-basket-badges-item {
+  margin-top: 4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-badges-item-content {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  color: #1B1E25;
+  padding: 3px 4px;
+  background-color: #FFC700;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-name {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.17;
+  margin: 0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-name > * {
+  color: #1B1E25;
+  text-decoration: none;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-name + * {
+  margin-top: 12px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-name a {
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-name a:hover {
+  color: #0065FF;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers + .intec-basket-properties {
+  margin-top: 24px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-item + .intec-basket-offers-item {
+  margin-top: 16px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-item[data-offer-property-type=text] .intec-basket-offers-values-item-content {
+  font-size: 12px;
+  line-height: 1;
+  color: #2D2D2D;
+  padding: 7px 16px;
+  margin: 0;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-item[data-offer-property-type=text] .selected .intec-basket-offers-values-item-content {
+  background-color: #E8E8E8;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-item[data-offer-property-type=picture] .intec-basket-offers-values-item-content {
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-item[data-offer-property-type=picture] svg {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-item[data-offer-property-type=picture] .selected svg {
+  opacity: 1;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-title {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #666666;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-values {
+  margin-top: 8px;
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-values-content {
+  margin: -4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-values-item {
+  font-size: 0;
+  margin: 4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-values-item-content {
+  border: 1px solid #E8E8E8;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: background-color, border-color;
+  -moz-transition-property: background-color, border-color;
+  -ms-transition-property: background-color, border-color;
+  -o-transition-property: background-color, border-color;
+  transition-property: background-color, border-color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-offers-values-item-content:hover {
+  border-color: #0065FF;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties + .intec-basket-offers {
+  margin-top: 24px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties + .intec-basket-properties {
+  margin-top: 12px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties-item + .intec-basket-properties-item {
+  margin-top: 12px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties-item[data-product-property-type=text] {
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties-item[data-product-property-type=text] .intec-basket-properties-item-value-content {
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-bottom: -4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties-item[data-product-property-type=text] .intec-basket-properties-item-value-item {
+  padding: 0 4px 4px 4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties-item[data-product-property-type=picture] .intec-basket-properties-item-value {
+  margin-top: 8px;
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties-item[data-product-property-type=picture] .intec-basket-properties-item-value-content {
+  margin: -2px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties-item[data-product-property-type=picture] .intec-basket-properties-item-value-item {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  margin: 2px;
+  border: 1px solid #E8E8E8;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: border-color;
+  -moz-transition-property: border-color;
+  -ms-transition-property: border-color;
+  -o-transition-property: border-color;
+  transition-property: border-color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties-item[data-product-property-type=picture] .intec-basket-properties-item-value-item:hover {
+  border-color: #0065FF;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties-item-title {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #B0B0B0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-properties-item-value {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #1B1E25;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-counter + .intec-basket-price-along {
+  margin-top: 8px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-counter-button {
+  display: block;
+  font-size: 18px;
+  line-height: 1;
+  color: #1B1E25;
+  height: 100%;
+  padding: 0 16px;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-counter-button:hover {
+  color: #0065FF;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-counter-input {
+  display: block;
+  font-size: 18px;
+  line-height: 1;
+  color: #1B1E25;
+  text-align: center;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.254);
+  -moz-box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.254);
+  box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.254);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-along {
+  text-align: center;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-along-measure {
+  font-size: 12px;
+  line-height: 1;
+  color: #666666;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-along-value {
+  font-size: 12px;
+  line-height: 1;
+  color: #1B1E25;
+  margin-top: 4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-apart + .intec-basket-price-economy {
+  margin-top: 4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-apart-upper {
+  font-size: 14px;
+  line-height: 1.14;
+  color: #666666;
+  margin-bottom: 6px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-apart-main {
+  font-size: 24px;
+  line-height: 1.17;
+  color: #1B1E25;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-apart-lower {
+  font-size: 14px;
+  line-height: 1.14;
+  color: #666666;
+  text-decoration: line-through;
+  margin-top: 4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-economy {
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-economy-content {
+  margin: -4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-economy-item {
+  padding: 4px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-economy-title {
+  font-size: 12px;
+  line-height: 1.17;
+  color: #666666;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-price-economy-value {
+  font-size: 12px;
+  line-height: 1.17;
+  color: #1B1E25;
+  padding: 4px;
+  background-color: #FFC700;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-actions {
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-actions-content {
+  margin: -6px -10px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-actions-item {
+  padding: 6px 10px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-action {
+  width: 135px;
+  margin: 0;
+  padding: 10px 12px;
+  border: 1px solid #E8E8E8;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: border-color, background-color;
+  -moz-transition-property: border-color, background-color;
+  -ms-transition-property: border-color, background-color;
+  -o-transition-property: border-color, background-color;
+  transition-property: border-color, background-color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-action:hover, .intec-basket.intec-basket-template-1 .intec-basket-action:focus {
+  border-color: #FBE7E7;
+  background-color: #FBE7E7;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-action:hover .intec-basket-action-icon.intec-basket-action-icon-fill svg path, .intec-basket.intec-basket-template-1 .intec-basket-action:focus .intec-basket-action-icon.intec-basket-action-icon-fill svg path {
+  fill: #E05757;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-action:hover .intec-basket-action-icon.intec-basket-action-icon-stroke svg path, .intec-basket.intec-basket-template-1 .intec-basket-action:focus .intec-basket-action-icon.intec-basket-action-icon-stroke svg path {
+  stroke: #E05757;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-action:hover .intec-basket-action-content, .intec-basket.intec-basket-template-1 .intec-basket-action:focus .intec-basket-action-content {
+  color: #E05757;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-action-icon.intec-basket-action-icon-fill svg path {
+  fill: #808080;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: fill;
+  -moz-transition-property: fill;
+  -ms-transition-property: fill;
+  -o-transition-property: fill;
+  transition-property: fill;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-action-icon.intec-basket-action-icon-stroke svg path {
+  stroke: #808080;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-action-icon + .intec-basket-action-content {
+  padding-left: 8px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-action-content {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+  color: #808080;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-action-content + .intec-basket-action-icon {
+  padding-left: 8px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-actions-mobile {
+  position: absolute;
+  display: none;
+  top: 8px;
+  right: 24px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-actions-mobile-item {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-actions-mobile-item + .intec-basket-actions-mobile-item {
+  margin-top: 8px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify {
+  display: block;
+  font-size: 0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify + .intec-basket-notify {
+  margin-top: 12px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify + .intec-basket-list {
+  margin-top: 40px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-title {
+  font-size: 14px;
+  line-height: 1.15;
+  color: #808080;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-title + .intec-basket-notify-body {
+  margin-top: 8px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-active {
+  color: #0065FF;
+  cursor: pointer;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-active:hover {
+  color: #4d93ff;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-body {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-body:hover .intec-basket-notify-content {
+  color: #0065FF;
+  border-color: #0065FF;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-icon {
+  display: block;
+  text-align: center;
+  width: 36px;
+  height: 100%;
+  background-color: #0065FF;
+  -webkit-border-top-left-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-bottom-left-radius: 2px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-content {
+  display: block;
+  font-size: 14px;
+  line-height: 1.15;
+  color: #808080;
+  text-align: left;
+  padding: 10px 12px;
+  border: 1px solid #E8E8E8;
+  border-left: none;
+  -webkit-border-top-right-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  border-bottom-right-radius: 2px;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color, border-color;
+  -moz-transition-property: color, border-color;
+  -ms-transition-property: color, border-color;
+  -o-transition-property: color, border-color;
+  transition-property: color, border-color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-close {
+  display: block;
+  text-align: center;
+  border: 1px solid #E8E8E8;
+  border-left: none;
+  width: 44px;
+  height: 100%;
+  cursor: pointer;
+  -webkit-border-top-right-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  border-bottom-right-radius: 2px;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -ms-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-close svg path {
+  stroke: #B0B0B0;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-close:hover {
+  background-color: #F8F8F8;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-close:hover svg path {
+  stroke: #808080;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-warning .intec-basket-notify-body:hover .intec-basket-notify-content {
+  color: #808080;
+  border-color: #FBCD56;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-warning .intec-basket-notify-icon {
+  background-color: #FBCD56;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-closable .intec-basket-notify-body {
+  cursor: default;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-closable .intec-basket-notify-body:hover .intec-basket-notify-content {
+  border-color: #E8E8E8;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-notify-closable .intec-basket-notify-content {
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore {
+  overflow: hidden;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore-content {
+  margin: -18px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore-item {
+  padding: 18px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore-text {
+  font-size: 14px;
+  line-height: 1.14;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore-text-default {
+  color: #808080;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore-text-dark {
+  color: #1B1E25;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore-link {
+  text-decoration: none;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore-link:hover {
+  color: #4d93ff;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore-restore {
+  color: #0065FF;
+  cursor: pointer;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore-close {
+  cursor: pointer;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore-close svg path {
+  stroke: #B0B0B0;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-restore-close:hover svg path {
+  stroke: #808080;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-gifts[data-position=bottom] .intec-basket-gifts-title {
+  margin-top: 56px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-gifts[data-position=top] .intec-basket-gifts-title[data-showed=true] + .intec-basket-gifts-list {
+  margin-bottom: 56px;
+}
+.intec-basket.intec-basket-template-1 .intec-basket-gifts-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #1B1E25;
+  margin-bottom: 32px;
+}
+@media all and (max-width: 1024px) {
+  .intec-basket.intec-basket-template-1 .intec-basket-total[data-coupons=true] .intec-basket-total-price-content,
+.intec-basket.intec-basket-template-1 .intec-basket-total[data-coupons=true] .intec-basket-sum-total-values {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-price-values-item {
+    width: 50%;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-price-apart {
+    display: none;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-preview-picture {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media all and (max-width: 768px) {
+  .intec-basket.intec-basket-template-1 .intec-basket-total {
+    padding: 24px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-total[data-coupons=true] .intec-basket-total-items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-total[data-coupons=true] .intec-basket-total-price-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-panel {
+    display: none;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content {
+    padding: 24px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-information-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-text {
+    width: 100%;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-price-values-content {
+    margin: -8px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap-reverse;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-price-values-item {
+    padding: 8px;
+    width: auto;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-price-total-content {
+    text-align: right;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-name {
+    font-size: 16px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-properties + .intec-basket-offers {
+    margin-top: 12px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-offers-item + .intec-basket-offers-item {
+    margin-top: 12px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-offers-item[data-offer-property-type=picture] .intec-basket-offers-values-item-content {
+    width: 30px;
+    height: 30px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-counter-button {
+    font-size: 14px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-counter-input {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-price-apart-upper {
+    font-size: 12px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-price-apart-main {
+    font-size: 18px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-actions-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap-reverse;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-flow: row wrap-reverse;
+    flex-flow: row wrap-reverse;
+  }
+  .intec-basket.intec-basket-template-1 [data-mobile-hidden=true] {
+    display: none;
+  }
+}
+@media all and (max-width: 600px) {
+  .intec-basket.intec-basket-template-1 .intec-basket-total[data-coupons=true] .intec-basket-total-price-item {
+    width: 100%;
+    max-width: 100%;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-total[data-coupons=false] .intec-basket-total-items {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-restore-content {
+    margin: -8px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-restore-content-main {
+    width: 100%;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-restore-content-restore {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-restore-item {
+    padding: 8px;
+  }
+}
+@media all and (max-width: 425px) {
+  .intec-basket.intec-basket-template-1 .intec-basket-coupon-content {
+    width: 100%;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-coupon-field {
+    display: block;
+    width: 100%;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-order-button {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 14px 26px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-body {
+    margin: -8px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-body-item {
+    padding: 8px;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-information,
+.intec-basket.intec-basket-template-1 .intec-basket-item-content-price {
+    width: 100%;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-picture {
+    font-size: 0;
+    width: 100%;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-price-values-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-price-actions {
+    display: none;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-item-content-price-total-content {
+    text-align: left;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-preview {
+    display: inline-block;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-properties {
+    display: none;
+  }
+  .intec-basket.intec-basket-template-1 .intec-basket-actions-mobile {
+    display: block;
+  }
+}
+@media all and (max-width: 350px) {
+  .intec-basket.intec-basket-template-1 .intec-basket-sum-total {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

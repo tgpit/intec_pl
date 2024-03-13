@@ -1,0 +1,176 @@
+$namespace: 'bitrix';
+$component: 'sale-personal-profile-detail';
+$template: 'default';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+
+  .#{$class}-link-list {
+    margin-bottom: 25px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .#{$class}-block {
+    margin-bottom: 40px;
+
+    .#{$class}-title {
+      margin-bottom: 25px;
+      font-size: 24px;
+      line-height: 26px;
+      color: #404040;
+    }
+    .#{$class}-properties {
+      padding: 40px 30px 45px;
+      background: #FFFFFF;
+      border: 1px solid #E8E8E8;
+    }
+    .#{$class}-property {
+      margin-bottom: 30px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &-label {
+        width: 100%;
+      }
+      &-title {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 13px;
+        line-height: 1;
+        font-weight: normal;
+        color: #808080;
+
+        .property-required {
+          color: #ff0000;
+        }
+      }
+      .location-block-wrapper {
+        margin-bottom: 6px;
+      }
+      .bx-sls .dropdown-block {
+        border: none;
+        border-radius: 2px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        font-size: 14px;
+        padding: 0;
+        position: relative;
+        background-color: transparent;
+
+        .dropdown-icon {
+          top: 16px;
+          z-index: 50;
+        }
+
+        .bx-ui-sls-container {
+          height: 46px;
+          background: #FBFCFD !important;
+
+          input {
+            width: 100% !important;
+            height: auto !important;
+            padding: 13px 30px !important;
+            background: none !important;
+            border: 1px solid #F2F2F2 !important;
+            border-radius: 2px !important;
+            font-size: 14px !important;
+            line-height: 1;
+            font-weight: normal;
+            font-family: inherit !important;
+            color: #404040 !important;
+            outline: none !important;
+          }
+        }
+        .dropdown-fade2white {
+          top: 8px;
+        }
+        .bx-ui-sls-loader {
+          top: 8px;
+        }
+        .bx-ui-sls-clear {
+          margin-top: 8px !important;
+          z-index: 50;
+        }
+      }
+      &-input {
+        width: 100%;
+        padding: 13px 15px;
+        background: #FBFCFD;
+        border: 1px solid #F2F2F2;
+        border-radius: 2px;
+        font-size: 14px;
+        line-height: 1;
+        font-weight: normal;
+        color: #404040;
+        outline: none;
+
+        &:disabled {
+          color: #a4a4a4;
+        }
+        option {
+          padding: 3px;
+          font-size: 14px;
+          line-height: 1;
+          font-weight: normal;
+          color: #404040;
+        }
+
+      }
+      .#{$class}-form-file {
+        margin-bottom: 13px;
+      }
+      .#{$class}-input-file-hidden {
+        display: none !important;
+      }
+      &-input.property-input-text-multiple {
+        margin-bottom: 8px;
+      }
+
+      select {
+        width: 100%;
+      }
+    }
+
+    .#{$class}-file-choose-wrap {
+      margin-top: 5px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+  }
+  .#{$class}-button-right {
+    margin-left: auto;
+  }
+  .#{$class}-button {
+    padding: 20px 50px;
+    font-size: 10px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .bx-ui-sls-fake {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  @media all and (max-width: 700px) {
+    .#{$class}-button-right {
+      margin-left: 0;
+    }
+  }
+  @media all and (max-width: 450px) {
+    .#{$class}-block {
+      .#{$class}-properties {
+        padding: 20px 15px 25px;
+      }
+    }
+  }
+}

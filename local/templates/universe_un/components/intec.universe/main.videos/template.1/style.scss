@@ -1,0 +1,148 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'videos';
+$template: 'template-1';
+
+$item: 'widget-item';
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  max-height: #{$lines * $line-height}px;
+  overflow: hidden;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-all {
+    display: block;
+    text-decoration: none;
+  }
+  .widget-all-desktop {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include transition(.35s, color);
+  }
+  .widget-all-mobile {
+    display: none;
+    padding: 6px 7px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-title {
+    overflow: hidden;
+  }
+  .widget-footer-button {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 19px 36px;
+    border-width: 1px;
+  }
+
+  .#{$item}-content {
+    cursor: pointer;
+
+    &:hover {
+      .#{$item}-decoration {
+        @include transform(translate(-50%, -50%) scale(1.2));
+      }
+      .#{$item}-name {
+        color: inherit;
+      }
+    }
+  }
+  .#{$item}-picture {
+    position: relative;
+    padding-top: 100% /16 * 9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    @include border-radius(2px);
+
+    &[data-lazyload-use='true'] {
+      background-color: #F2F2F2;
+    }
+  }
+  .#{$item}-fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.42);
+    z-index: 1;
+  }
+  .#{$item}-decoration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+    z-index: 2;
+    @include border-radius(50%);
+    @include transform-translate(-50%, -50%);
+    @include transition(.35s, transform);
+
+    svg {
+      path {
+        fill: #FFF;
+      }
+    }
+  }
+  .#{$item}-name {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.47;
+    color: #404040;
+    margin-top: 16px;
+    @include webkit-box(3, 22);
+    @include transition(.35s, color);
+  }
+
+  .owl-dots {
+    font-size: 0;
+    text-align: center;
+    margin-top: 24px;
+
+    button {
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+      margin-left: 8px;
+      margin-right: 8px;
+      background-color: #E8E8E8;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      outline: none;
+      @include border-radius(50%);
+      @include transition(.35s, (background-color, border-color));
+    }
+  }
+
+  @include breakpoint-768() {
+    .#{$item}-name {
+      margin-top: 12px;
+    }
+  }
+  @include breakpoint-custom(500) {
+    .widget-all-desktop {
+      display: none;
+    }
+    .widget-all-mobile {
+      display: block;
+    }
+  }
+}

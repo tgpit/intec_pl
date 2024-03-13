@@ -1,0 +1,13 @@
+<TypeId>
+	<Availability name="В наличии"></Availability>
+	<Availability name="Под заказ"></Availability>
+	<OEM variable="group_symbols"></OEM>
+	<Originality name="Оригинал"></Originality>
+	<Originality name="Аналог">
+		<OriginalOEM variable="group_symbol"></OriginalOEM>
+		<OriginalVendor variable="text"></OriginalVendor>
+	</Originality>
+	<Originality name="Не знаю"></Originality>
+	<Availability name="В наличии"></Availability>
+	<Availability name="Под заказ"></Availability>
+</TypeId>

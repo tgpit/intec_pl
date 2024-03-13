@@ -1,0 +1,102 @@
+$namespace: 'bitrix';
+$component: 'catalog-section-list';
+$template: 'services-list-6';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+  color: #616267;
+
+  .#{$class}-description {
+    font-size: 1em;
+    line-height: 1.714em;
+  }
+
+  .#{$class}-items {
+    display: block;
+    position: relative;
+  }
+
+  .#{$class}-item {
+    display: block;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #e8e8e8;
+  }
+
+  .#{$class}-item-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .#{$class}-item-picture {
+    display: block;
+    position: relative;
+    float: left;
+    max-width: 575px;
+    margin: 0 0 0 auto;
+
+    a {
+      display: block;
+      position: relative;
+      padding-top: 60%;
+      text-decoration: none;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .#{$class}-item-information {
+    display: block;
+    position: relative;
+    max-width: 575px;
+    text-align: left;
+    font-size: 0.857em;
+    line-height: 1.666em;
+  }
+
+  .#{$class}-item-name {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.66em;
+    line-height: 2.142em;
+    max-height: 48px;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+  .#{$class}-item-description {
+    display: block;
+    margin-top: 15px;
+    overflow: hidden;
+  }
+
+  .#{$class}-item-elements {
+    margin-top: 22px;
+
+    .#{$class}-item-element {
+      margin-top: 8px;
+    }
+  }
+
+  .#{$class}-button-wrap {
+    margin-top: 24px;
+
+    .intec-ui.intec-ui-control-button {
+      border: 1px solid;
+    }
+  }
+  
+  @media all and (max-width: 750px) {
+    .#{$class}-item-picture {
+      margin: 0 auto 0 auto;
+    }
+
+    .#{$class}-item-information {
+      order: 2;
+    }
+
+  }
+}

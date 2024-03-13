@@ -1,0 +1,99 @@
+$namespace: 'bitrix';
+$component: 'system-auth-authorize';
+$template: 'popup-2';
+$class: $component;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .intec-ui-form .intec-ui-form-field {
+    margin-bottom: 20px;
+  }
+
+  .intec-ui-form .intec-ui-form-field-content {
+    position: relative;
+  }
+
+  .#{$class}-socserv {
+
+  }
+
+  .#{$class}-socserv-title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #404040;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .#{$class}-socserv-content {
+
+  }
+
+  .#{$class}-socserv-bottom {
+    position: relative;
+    text-align: center;
+    margin-bottom: 16px;
+
+    span {
+      display: inline-block;
+      position: relative;
+      padding: 0 8px;
+      background-color: #fff;
+      font-size: 12px;
+      line-height: 18px;
+      color: #404040;
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      border-bottom: 1px solid #F2F2F2;
+    }
+  }
+
+  .#{$class}-eye-icon {
+    position: absolute;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+
+    &-close {
+      display: none;
+    }
+  }
+
+  .#{$class}-restore {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .#{$class}-additions {
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+
+  .#{$class}-buttons {
+
+  }
+
+  .#{$class}-button {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 20px 40px;
+  }
+
+}
