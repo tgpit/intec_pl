@@ -197,7 +197,7 @@ if ($arVisual['LINES'] !== null)
 						$v_p = $arPrice["PRICE"];
 						$b_p = $arItem["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"];
 						if ($v_p < $b_p) {
-							echo "<s>".number_format($b_p, 0, '.', ' ')."</s>&nbsp;руб.";
+							echo "<span style=\"color:red;\"><s>".number_format($b_p, 0, '.', ' ')."</s>&nbsp;руб.</span>";
 						}
 
 //						echo "<br>".$arItem["PROPERTIES"]['g_new']["VALUE"]."<br>";

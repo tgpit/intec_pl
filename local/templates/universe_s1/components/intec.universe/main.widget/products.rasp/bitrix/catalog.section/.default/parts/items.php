@@ -199,7 +199,7 @@ if ($arVisual['LINES'] !== null)
 						 $b_p = $arItem["PROPERTIES"]["MAXIMUM_PRICE"]["VALUE"];
 						}
 						if ($v_p < $b_p) {
-							echo "<s>".number_format($b_p, 0, '.', ' ')."</s>&nbsp;руб.";
+							echo "<span style=\"color:red;\"><s>".number_format($b_p, 0, '.', ' ')."</s>&nbsp;руб.</span>";
 						}
 			        ?>
 
