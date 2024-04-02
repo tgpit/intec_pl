@@ -1,0 +1,11 @@
+<?php
+
+$MESS["VKAPI.MARKET.LOG.LEVEL_NONE"] = "Отключено";
+$MESS["VKAPI.MARKET.LOG.LEVEL_OK"] = "Только успешные";
+$MESS["VKAPI.MARKET.LOG.LEVEL_NOTICE"] = "Промежуточные";
+$MESS["VKAPI.MARKET.LOG.LEVEL_ERROR"] = "Только ошибки";
+$MESS["VKAPI.MARKET.LOG.LEVEL_DEBUG"] = "Все вместе";
+$MESS["VKAPI.MARKET.LOG.TYPE_NOT_SELECTED"] = "не выбрано";
+$MESS["VKAPI.MARKET.LOG.TYPE_OK"] = "Успех";
+$MESS["VKAPI.MARKET.LOG.TYPE_NOTICE"] = "Уведомление";
+$MESS["VKAPI.MARKET.LOG.TYPE_ERROR"] = "Ошибка";

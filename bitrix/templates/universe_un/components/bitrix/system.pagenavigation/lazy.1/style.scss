@@ -1,0 +1,94 @@
+$namespace: 'bitrix';
+$component: 'system-pagenavigation';
+$template: 'lazy-1';
+
+$color-black-1: #1B1E25;
+$color-black-2:#404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+$color-gray-4: #F2F2F2;
+$color-green: #1DB940;
+$color-green-light: #10CDA0;
+$color-red: #E05757;
+$color-yellow: #F4BB28;
+
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin rotate ($deg) {
+  -webkit-transform: rotate($deg);
+  -moz-transform: rotate($deg);
+  -ms-transform: rotate($deg);
+  -o-transform: rotate($deg);
+  transform: rotate($deg);
+}
+@mixin user-select ($select) {
+  -webkit-user-select: $select;
+  -moz-user-select: $select;
+  -ms-user-select: $select;
+  user-select: $select;
+}
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$component}-button {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: 1px solid $color-gray-4;
+    background-color: #FFF;
+    overflow: hidden;
+    cursor: pointer;
+    @include border-radius(2px);
+    @include user-select(none);
+
+    &:hover {
+      .#{$component}-button-icon {
+        @include rotate(360deg);
+      }
+    }
+  }
+  .#{$component}-button-content {
+    font-size: 0;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+  .#{$component}-button-part {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .#{$component}-button-icon {
+    @include transition(transform, 0.8s);
+
+    svg {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      max-width: 18px;
+      max-height: 18px;
+    }
+  }
+  .#{$component}-button-name {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+  }
+}

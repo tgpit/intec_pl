@@ -1,0 +1,93 @@
+.widget.c-product-timer.c-product-timer-template-2 {
+  display: block;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-date-end {
+  display: none;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-title {
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-time-header,
+.widget.c-product-timer.c-product-timer-template-2 .widget-quantity-header {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #404040;
+  word-break: break-all;
+  max-width: 110px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  max-height: 34px;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-timer-items {
+  display: inline-block;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-timer-item {
+  padding: 4px 4px;
+  background: #F2F2F2;
+  text-align: center;
+  width: 52px;
+  height: 29px;
+  max-width: 65px;
+  min-width: 50px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-timer-item.widget-timer-item-quantity {
+  width: unset;
+  background-color: #FBCD56;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-timer-item.widget-timer-item-quantity .widget-timer-item-description {
+  display: none;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-timer-item.widget-timer-item-quantity .widget-timer-item-title {
+  max-width: 60px;
+  padding: 0 5px;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-timer-item-title {
+  display: inline-block;
+  min-width: 24px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #404040;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-timer-item-description {
+  display: inline;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #808080;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-timer-item-sale {
+  font-size: 0;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-timer-item-sale-header {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #404040;
+}
+.widget.c-product-timer.c-product-timer-template-2 .widget-timer-item-sale-value {
+  display: inline-block;
+  padding: 6px 4px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #404040;
+  background-color: #FBCD56;
+  border-color: #FBCD56;
+  overflow: hidden;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+<Lumber>
+	<PriceType name="за м2"/>
+	<PriceType name="за м3"/>
+	<PriceType name="за погонный метр"/>
+	<PriceType name="за упаковку">
+		<BagValue variable="numeric"/>
+	</PriceType>
+	<PriceType name="за штуку"/>
+	<PriceType name="за всё"/>
+</Lumber>

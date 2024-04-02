@@ -1,0 +1,36 @@
+<?php
+
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.WATERMARK_POSITION_TR"] = "Сверху справа";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.WATERMARK_POSITION_TL"] = "Сверху слева";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.WATERMARK_POSITION_TC"] = "Сверху в центре";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.WATERMARK_POSITION_MR"] = "Середина справа";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.WATERMARK_POSITION_ML"] = "Середина слева";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.WATERMARK_POSITION_MC"] = "Середина в центре";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.WATERMARK_POSITION_FILL"] = "Залить картинку";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.WATERMARK_POSITION_BR"] = "Снизу справа";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.WATERMARK_POSITION_BL"] = "Снизу слева";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.WATERMARK_POSITION_BC"] = "Снизу в центре";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.RESET_ALL_PHOTO_ID_BY_GROUP_ID"] = "Сброс идентификаторов картинок в ВК для повторной загрузки для группы [#GROUP_ID#]";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.PREPIRE_PRODUCT_FILES.NOT_FOUND_ON_DISK"] = "Не удалось найти файл [#FILE_ID#] картинки на диске - [#FILE_SRC#]";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.PREPIRE_PRODUCT_FILES.NOT_FOUND"] = "Не удалось получить данные по файлу [#FILE_ID#] картинки";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.PREPIRE_PRODUCT_FILES.ERROR_FILE_MAX_SIZE"] = "Максимальный размер суммы ширины и высоты картинки не может превышать 14000px, по факту - #SIZE#, файл [#FILE_ID#] - [#FILE_SRC#]";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.PREPIRE_PRODUCT_FILES.ERROR_FILE_FORMAT"] = "Не подходит формат файла [#FILE_ID#] для картинки - [#FILE_SRC#]";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.PREPIRE_PRODUCT_FILES.ERROR_FILESIZE"] = "Размер файла картинки не должен превышать 50 мб, файл [#FILE_ID#] - [#FILE_SRC#]";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.PREPIRE_ALBUM_FILES.NOT_FOUND_ON_DISK"] = "Не удалось найти файл [#FILE_ID#] картинки на диске - [#FILE_SRC#]";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.PREPIRE_ALBUM_FILES.NOT_FOUND"] = "Не удалось получить данные по файлу [#FILE_ID#] картинки";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.PREPIRE_ALBUM_FILES.ERROR_FILE_FORMAT"] = "Не подходит формат файла [#FILE_ID#] для картинки - [#FILE_SRC#]";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.EXPORT_PRODUCT_PICTURES.DELETE_OLD_ROW"] = "Зафиксированы изменения файла [#FILE_ID#] картинки товара. Обновленная картинка будет выгружена в ВК.";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.EXPORT_ALBUM_PICTURES.DELETE_OLD_ROW"] = "Зафиксированы изменения файла [#FILE_ID#] картинки подборки. Обновленная картинка будет выгружена в ВК.";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.DELETE_BY_PHOTO_ID"] = "Удаление записей о выгруженных картинках по идентификатору картинки в ВК [#PHOTO_ID#] и группы [#GROUP_ID#]";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.DELETE_BY_FILE_ID"] = "Удаление записи о выгруженной картинки по идентификатору файла [#FILE_ID#] и группы [#GROUP_ID#]";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.ADD_PRODUCT_PHOTO_TO_VK.SAVE_ALBUM_FILE_OK"] = "Сохранена картинка [#PHOTO_ID#] в ВК для файла [#FILE_ID#] картинки товара";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.ADD_PRODUCT_PHOTO_TO_VK.ERROR_UPLOAD_SERVER"] = "Не удалось получить адрес сервера ВК для загрузки картинки товара -  [#CODE#] #MSG#";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.ADD_PRODUCT_PHOTO_TO_VK.ERROR_SEND_FILE"] = "Не удалось загрузить файлы [#FILE_ID#]  картинок товаров на сервер ВК -  [#CODE#] #MSG#";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.ADD_PRODUCT_PHOTO_TO_VK.ERROR_SAVE_FILE"] = "Не удалось сохранить файлы [#FILE_ID#]  картинок товаров на сервере ВК -  [#CODE#] #MSG#";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.ADD_PRODUCT_PHOTO_TO_VK.ERROR_LOCAL_SAVE_ROW_ALBUM_FILE"] = "Не удалось сохранить данные о выгруженном файле [#FILE_ID#] картинки товара в локальную базу -  [#CODE#] #MSG#";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.ADD_ALBUM_PHOTO_TO_VK.SAVE_ALBUM_FILE_OK"] = "Сохранена картинка [#PHOTO_ID#] в ВК для файла [#FILE_ID#] картинки подборки";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.ADD_ALBUM_PHOTO_TO_VK.ERROR_SEND_ALBUM_FILE"] = "Не удалось загрузить файл [#FILE_ID#]  картинки подборки на сервер ВК -  [#CODE#] #MSG#";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.ADD_ALBUM_PHOTO_TO_VK.ERROR_SAVE_ALBUM_PHOTO_EMPTY_ID"] = "Не удалось сохранить файл [#FILE_ID#]  картинки подборки на сервере ВК - сервер не вернул идентификатор сохраненной картинки";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.ADD_ALBUM_PHOTO_TO_VK.ERROR_SAVE_ALBUM_FILE"] = "Не удалось сохранить файл [#FILE_ID#]  картинки подборки на сервере ВК -  [#CODE#] #MSG#";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.ADD_ALBUM_PHOTO_TO_VK.ERROR_LOCAL_SAVE_ROW_ALBUM_FILE"] = "Не удалось сохранить данные о выгруженном файле [#FILE_ID#] картинки подборки в локальную базу -  [#CODE#] #MSG#";
+$MESS["VKAPI.MARKET.EXPORT.PHOTO.ADD_ALBUM_PHOTO_TO_VK.ERROR_ALBUM_UPLOAD_SERVER"] = "Не удалось получить адрес сервера ВК для загрузки картинки подборки -  [#CODE#] #MSG#";

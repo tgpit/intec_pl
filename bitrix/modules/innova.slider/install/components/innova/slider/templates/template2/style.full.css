@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&subset=cyrillic');
+
+.innova_slider_template2_slider_inner {
+	display: flex;
+    flex-direction: column;
+    height: 100%;
+	width: 100%;
+    align-items: center;
+    justify-content: center;
+	padding: 40px 90px;
+}
+.innova_slider_template2_slider_inner .innova_slider_template2_slide_innerH1{
+	font-size: 60px;
+    line-height: 1;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 0;
+    border: 0;
+    margin: 0;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.innova_slider_template2_slide_block {
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(0, 0, 0, 0.67);
+	display: flex;
+	height: 100%;
+}
+.innova_slider_template2_slider_img {
+	width: 100%;
+	text-align: center;
+}
+.innova_slider_template2_slider_img img{
+	max-width: 100%;
+	height: auto;
+}
+.innova_slider_template2_slider_inner p {
+	font-size: 20px;
+    line-height: 30px;
+    margin: 30px 0 40px;
+	font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a.innova_slider_template2_slider_btn {
+    outline: none !important;
+	display: inline-block;
+	text-transform: none;
+	white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    color: #fff;
+    border-radius: 30px;
+	box-sizing: border-box;
+    border: none;
+	line-height: 60px;
+	font-weight: 400;
+	font-family: Montserrat;
+    font-size: 17px;
+    background-color: transparent;
+    border: 3px solid #fff;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin: 0px;
+	padding: 0px 50px;
+	letter-spacing: 0px;
+	filter: brightness(100%);
+	opacity: 1;
+	transform-origin: 50% 50% 0px;
+	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+	box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 10px 0px;
+    border-width: 0px;
+}
+a.innova_slider_template2_slider_btn:hover, .innova_slider_template2_slider_btn:active, .innova_slider_template2_slider_btn:focus {
+	text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+	text-decoration: none;
+	filter: brightness(90%);
+}
+a.innova_slider_template2_whole_slider_link {
+	display: block;
+	position: abosulte;
+	width: 100%;
+	height: 100%;
+}
+span.innova_slider_template2_slider_btn {
+	display: none;
+}
+
+.innova_slider_template2 {
+	position: relative;
+	overflow: hidden;
+}
+.innova_slider_template2 .tns-nav {
+	text-align: center;
+}
+.innova_slider_template2 .tns-nav button {
+	height: 15px;
+	width: 15px;
+	border: none;
+	border-radius: 50%;
+	margin: 10px 5px;
+	background-color: #ccc;
+	opacity: 0.6;
+  padding: 0 !important;
+}
+.innova_slider_template2 .tns-nav button:hover {
+	opacity: 1;
+}
+.innova_slider_template2 .tns-nav button.tns-nav-active {
+	background-color: #6c6c6c;
+	opacity: 1;
+}
+.innova_slider_template2 .tns-controls button {
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	outline: none;
+	background: transparent;
+	font-size: 0;
+	border: none;
+	z-index: 2;
+	
+	-webkit-transition: 280ms ease;
+    -moz-transition: 280ms ease;
+    -ms-transition: 280ms ease;
+    -o-transition: 280ms ease;
+    transition: 280ms ease;
+	background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    text-indent: 0;
+    line-height: 46px;
+    color: #111;
+    font-weight: 800;
+    background-color: #fff;
+    width: 46px;
+    height: 46px;
+    top: 50%;
+    margin-top: -40px;
+    margin-left: -23px;
+    border-radius: 50%;
+	opacity: 0;
+	background-image: url(/bitrix/components/innova/slider/images/arrows.svg);
+}
+
+.innova_slider_template2:hover .tns-controls button {
+	opacity: 0.4;
+}
+
+.innova_slider_template2 .tns-controls button:after, .innova_slider_template2 .tns-controls button:before {
+	content: none;
+}
+
+.innova_slider_template2 .tns-controls button:hover, .innova_slider_template2 .tns-controls button:active, .innova_slider_template2 .tns-controls button:focus {
+	outline: none;
+}
+
+.innova_slider_template2 .tns-controls button[data-controls=prev] {
+	left: 35px;
+	background-position: 2px 1px;
+}
+
+.innova_slider_template2 .tns-controls button[data-controls=next] {
+	right: 12px;
+	background-position: -48px 1px;
+}
+
+.innova_slider_template2 .tns-controls button[data-controls=prev]:hover, .innova_slider_template2 .tns-controls button[data-controls=next]:hover {
+	opacity: 1;
+}

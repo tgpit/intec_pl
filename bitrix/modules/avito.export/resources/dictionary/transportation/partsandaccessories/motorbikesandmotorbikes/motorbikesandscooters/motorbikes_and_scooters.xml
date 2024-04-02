@@ -1,0 +1,2941 @@
+<Motorbikes_and_scooters>
+	<Make name="ABM">
+		<Model name="Alpha"></Model>
+		<Model name="Cyclone"></Model>
+		<Model name="Delta"></Model>
+		<Model name="Elegant"></Model>
+		<Model name="Elite"></Model>
+		<Model name="FT50QT-3"></Model>
+		<Model name="Favorit"></Model>
+		<Model name="Flash"></Model>
+		<Model name="Gust"></Model>
+		<Model name="Sky"></Model>
+		<Model name="Sprinter"></Model>
+		<Model name="Storm L"></Model>
+		<Model name="Storm SL"></Model>
+		<Model name="Storm YSL"></Model>
+		<Model name="Street Racing"></Model>
+		<Model name="Thunder"></Model>
+		<Model name="Tornado 150"></Model>
+		<Model name="Tornado 50"></Model>
+		<Model name="Tornado S"></Model>
+		<Model name="Volcan 150"></Model>
+		<Model name="Wind"></Model>
+		<Model name="ZX150S"></Model>
+		<Model name="ZX50S"></Model>
+	</Make>
+	<Make name="AJS">
+		<Model name="Digita 50"></Model>
+		<Model name="Firefox 50"></Model>
+		<Model name="Insetto 125"></Model>
+		<Model name="Modena 125"></Model>
+		<Model name="Modena 50"></Model>
+		<Model name="Sorvio 125"></Model>
+	</Make>
+	<Make name="ARC">
+		<Model name="FOS 13"></Model>
+	</Make>
+	<Make name="ASA">
+		<Model name="Moped"></Model>
+	</Make>
+	<Make name="Aermacchi">
+		<Model name="Zeffiro"></Model>
+	</Make>
+	<Make name="Aima">
+		<Model name="AM500DQT"></Model>
+	</Make>
+	<Make name="Alpha">
+		<Model name="AW50Q"></Model>
+		<Model name="Andes"></Model>
+		<Model name="BIG Forest 50 (110)"></Model>
+		<Model name="BS 50"></Model>
+		<Model name="Bandit"></Model>
+		<Model name="Bars"></Model>
+		<Model name="Black 110"></Model>
+		<Model name="CLASSIC 50 (110)"></Model>
+		<Model name="CM110-2A"></Model>
+		<Model name="CM490"></Model>
+		<Model name="CX 50"></Model>
+		<Model name="Colt"></Model>
+		<Model name="Colt 2"></Model>
+		<Model name="Cross"></Model>
+		<Model name="Crosstrack"></Model>
+		<Model name="FK50-C9"></Model>
+		<Model name="Forester"></Model>
+		<Model name="Gepard"></Model>
+		<Model name="KT50"></Model>
+		<Model name="Largo"></Model>
+		<Model name="Lux"></Model>
+		<Model name="Mojito 110"></Model>
+		<Model name="NF 110-2"></Model>
+		<Model name="NF 50 A"></Model>
+		<Model name="RAID"></Model>
+		<Model name="RX 50 (110)"></Model>
+		<Model name="RX 50 (125)"></Model>
+		<Model name="Red 110"></Model>
+		<Model name="SX 50 (110)"></Model>
+		<Model name="Sabur"></Model>
+		<Model name="Scorpion"></Model>
+		<Model name="Shuriken"></Model>
+		<Model name="Shuriken Evolution"></Model>
+		<Model name="Silver 110"></Model>
+		<Model name="Tourist"></Model>
+		<Model name="V"></Model>
+		<Model name="WJ 50"></Model>
+		<Model name="YQ50"></Model>
+		<Model name="YX48Q2"></Model>
+		<Model name="YX70"></Model>
+		<Model name="ZS50C"></Model>
+		<Model name="ZS50F"></Model>
+		<Model name="Спорт (110)"></Model>
+	</Make>
+	<Make name="Apollo">
+		<Model name="RXF SEDNA"></Model>
+	</Make>
+	<Make name="Aprilia">
+		<Model name="Area 51"></Model>
+		<Model name="Atlantic 125/250"></Model>
+		<Model name="Atlantic 400 Sprint"></Model>
+		<Model name="Atlantic 500"></Model>
+		<Model name="Gulliver"></Model>
+		<Model name="Habana"></Model>
+		<Model name="Leonardo 125/150"></Model>
+		<Model name="Leonardo 300"></Model>
+		<Model name="Mojito"></Model>
+		<Model name="Rally"></Model>
+		<Model name="SR 125"></Model>
+		<Model name="SR 160"></Model>
+		<Model name="SR 50"></Model>
+		<Model name="SR 50 R Factory"></Model>
+		<Model name="SR 50 RP"></Model>
+		<Model name="SR GT 125"></Model>
+		<Model name="SR GT 200"></Model>
+		<Model name="SR Max 125"></Model>
+		<Model name="SR Max 300"></Model>
+		<Model name="SR Motard 125"></Model>
+		<Model name="SR Motard 50"></Model>
+		<Model name="SR R 50"></Model>
+		<Model name="SR Street 50"></Model>
+		<Model name="SRV 850"></Model>
+		<Model name="Scarabeo 100"></Model>
+		<Model name="Scarabeo 100 NET"></Model>
+		<Model name="Scarabeo 125"></Model>
+		<Model name="Scarabeo 125 IE"></Model>
+		<Model name="Scarabeo 150"></Model>
+		<Model name="Scarabeo 200"></Model>
+		<Model name="Scarabeo 200 IE"></Model>
+		<Model name="Scarabeo 250"></Model>
+		<Model name="Scarabeo 300 S"></Model>
+		<Model name="Scarabeo 400"></Model>
+		<Model name="Scarabeo 50 4T4V"></Model>
+		<Model name="Scarabeo 50 Classic"></Model>
+		<Model name="Scarabeo 50 Street"></Model>
+		<Model name="Scarabeo 500"></Model>
+		<Model name="Scarabeo 500 IE"></Model>
+		<Model name="Sonic 50"></Model>
+		<Model name="SportCity 125"></Model>
+		<Model name="SportCity 200"></Model>
+		<Model name="SportCity 250"></Model>
+		<Model name="SportCity 300"></Model>
+		<Model name="SportCity 50"></Model>
+	</Make>
+	<Make name="Ariic">
+		<Model name="318"></Model>
+		<Model name="Gemma"></Model>
+	</Make>
+	<Make name="ArmadA">
+		<Model name="RT-50"></Model>
+	</Make>
+	<Make name="Atlant">
+		<Model name="125cc"></Model>
+		<Model name="150cc"></Model>
+		<Model name="50cc"></Model>
+		<Model name="City Lux"></Model>
+		<Model name="M1"></Model>
+		<Model name="Stalker"></Model>
+	</Make>
+	<Make name="Ayron">
+		<Model name="150cc"></Model>
+		<Model name="50cc"></Model>
+	</Make>
+	<Make name="Azel">
+		<Model name="Aries"></Model>
+		<Model name="Sweet"></Model>
+	</Make>
+	<Make name="BMW">
+		<Model name="C 1"></Model>
+		<Model name="C 400 GT"></Model>
+		<Model name="C 400 X"></Model>
+		<Model name="C 600 Sport"></Model>
+		<Model name="C 650 GT"></Model>
+		<Model name="C 650 Sport"></Model>
+		<Model name="C evolution"></Model>
+		<Model name="CE 04"></Model>
+	</Make>
+	<Make name="Bajaj">
+		<Model name="125 Classic"></Model>
+		<Model name="Chetak"></Model>
+	</Make>
+	<Make name="Baltmotors">
+		<Model name="Biwis 125"></Model>
+		<Model name="E-CHARM 150"></Model>
+		<Model name="E-JEWEL 150"></Model>
+		<Model name="Galactica 125"></Model>
+		<Model name="Galactica 50"></Model>
+		<Model name="Galaxy 125"></Model>
+		<Model name="Hiker 125"></Model>
+		<Model name="Hiker 2.0 Electro"></Model>
+		<Model name="Hiker 50"></Model>
+		<Model name="Joy 50"></Model>
+		<Model name="Joy-X"></Model>
+		<Model name="Maxxy 125"></Model>
+		<Model name="Mint 50"></Model>
+		<Model name="S1"></Model>
+		<Model name="Smile 50"></Model>
+		<Model name="Style 50"></Model>
+	</Make>
+	<Make name="Baotian (UMC)">
+		<Model name="BT151T-2B6"></Model>
+		<Model name="BT49QT-11"></Model>
+		<Model name="BT49QT-12"></Model>
+		<Model name="BT49QT-2"></Model>
+		<Model name="BT49QT-20B3"></Model>
+		<Model name="BT49QT-7"></Model>
+		<Model name="BT49QT-7D"></Model>
+		<Model name="BT49QT-9"></Model>
+		<Model name="BT49QT-9F3"></Model>
+	</Make>
+	<Make name="Bashan">
+		<Model name="BS 110"></Model>
+	</Make>
+	<Make name="Beauty">
+		<Model name="Q9 150"></Model>
+	</Make>
+	<Make name="Benda">
+		<Model name="BD50QT-12A"></Model>
+	</Make>
+	<Make name="Benelli">
+		<Model name="491"></Model>
+		<Model name="Adiva"></Model>
+		<Model name="Caffe Nero 125"></Model>
+		<Model name="Caffe Nero 150"></Model>
+		<Model name="Caffe Nero 250"></Model>
+		<Model name="Pepe"></Model>
+		<Model name="QattroNove X"></Model>
+		<Model name="Velvet 125"></Model>
+		<Model name="Velvet 150"></Model>
+		<Model name="Velvet 250"></Model>
+	</Make>
+	<Make name="Benzhou">
+		<Model name="YY50QT-15A"></Model>
+	</Make>
+	<Make name="Beta">
+		<Model name="Ark 50"></Model>
+	</Make>
+	<Make name="Blata">
+		<Model name="Blatino"></Model>
+	</Make>
+	<Make name="Brushless Adult">
+		<Model name="Namber 1"></Model>
+	</Make>
+	<Make name="C.MOTO">
+		<Model name="50"></Model>
+		<Model name="Citycoco"></Model>
+		<Model name="Cityflex"></Model>
+		<Model name="Delta"></Model>
+		<Model name="FS"></Model>
+		<Model name="Forester"></Model>
+		<Model name="Hunter"></Model>
+		<Model name="Sport"></Model>
+		<Model name="Tours"></Model>
+	</Make>
+	<Make name="CFMOTO">
+		<Model name="Jet Max (CF250T-6A)"></Model>
+		<Model name="ZEEHO AE 6"></Model>
+		<Model name="ZEEHO AE 8"></Model>
+	</Make>
+	<Make name="CPI">
+		<Model name="Aragon"></Model>
+		<Model name="Formula R"></Model>
+		<Model name="GTR 150"></Model>
+		<Model name="GTR 50"></Model>
+		<Model name="GTX 125"></Model>
+		<Model name="Hussar"></Model>
+		<Model name="Oliver"></Model>
+		<Model name="Popcorn"></Model>
+	</Make>
+	<Make name="CSR">
+		<Model name="Ona"></Model>
+	</Make>
+	<Make name="CYBER">
+		<Model name="SANE 3 LB50QT-39"></Model>
+	</Make>
+	<Make name="CZ">
+		<Model name="CZ-502"></Model>
+	</Make>
+	<Make name="Cagiva">
+		<Model name="Cucciolo"></Model>
+	</Make>
+	<Make name="Changjiang">
+		<Model name="Scarab 350"></Model>
+	</Make>
+	<Make name="Cinquanta">
+		<Model name="YY50QT-6A"></Model>
+	</Make>
+	<Make name="City Jet">
+		<Model name="F50"></Model>
+		<Model name="ZIP"></Model>
+	</Make>
+	<Make name="City-Bird">
+		<Model name="Thor"></Model>
+	</Make>
+	<Make name="CityCoco">
+		<Model name="BR20 2WD PRO FAST OFF-ROAD"></Model>
+		<Model name="BR20 3000 PRO FAST"></Model>
+		<Model name="BR30 2WD PRO FAST"></Model>
+		<Model name="BR30 3000 PRO FAST"></Model>
+		<Model name="BR4000 FAST"></Model>
+		<Model name="BR50 3000 PRO MAX"></Model>
+		<Model name="BR60 3000 PRO FAST"></Model>
+		<Model name="CHOPPER 3000 PRO"></Model>
+		<Model name="Classic"></Model>
+		<Model name="GT M2"></Model>
+		<Model name="GT TF1 SMARDA"></Model>
+		<Model name="GT X1 PRO"></Model>
+		<Model name="GT X11"></Model>
+		<Model name="GT X3 PRO"></Model>
+		<Model name="GT X5"></Model>
+		<Model name="GT X7 BR20"></Model>
+		<Model name="GT X7 PRO Plus"></Model>
+		<Model name="GT X7 PRO Plus 2000"></Model>
+		<Model name="GT-X9"></Model>
+		<Model name="Harley 2000W"></Model>
+		<Model name="KUGOO C1 PLUS"></Model>
+		<Model name="MINI GT X1"></Model>
+		<Model name="MINI GT X2"></Model>
+		<Model name="MINI GT X4"></Model>
+		<Model name="MINI X2"></Model>
+		<Model name="MINI X3"></Model>
+		<Model name="PHANTOM 4000W"></Model>
+		<Model name="TRIKE BR40-3000 PRO FAST OFF-ROAD"></Model>
+		<Model name="TRIKE BR80"></Model>
+		<Model name="TRIKE CHOPPER 4000 PRO FAST"></Model>
+		<Model name="TRIKE GT-X11 Grand"></Model>
+		<Model name="TRIKE GT-X3 Pro"></Model>
+		<Model name="TRIKE GT-X7"></Model>
+		<Model name="VAG"></Model>
+		<Model name="X10 PRO"></Model>
+		<Model name="X12"></Model>
+	</Make>
+	<Make name="Colt">
+		<Model name="International"></Model>
+	</Make>
+	<Make name="Corsa">
+		<Model name="Allegro"></Model>
+		<Model name="Bimbo"></Model>
+		<Model name="Felicita"></Model>
+		<Model name="Fratello"></Model>
+		<Model name="Ragazzo"></Model>
+	</Make>
+	<Make name="Cronus">
+		<Model name="Kazoku-50"></Model>
+		<Model name="Mika 50QT-3"></Model>
+		<Model name="Predator"></Model>
+		<Model name="Raptor"></Model>
+	</Make>
+	<Make name="Cyclone">
+		<Model name="RT1 (SR150T)"></Model>
+		<Model name="RT2 (XQ250)"></Model>
+		<Model name="RT3 (XQ250)"></Model>
+		<Model name="RT3S (XQ300)"></Model>
+	</Make>
+	<Make name="Daelim">
+		<Model name="A-Four"></Model>
+		<Model name="B-Bone"></Model>
+		<Model name="B-Bone 125"></Model>
+		<Model name="Besbi"></Model>
+		<Model name="Besbi 125"></Model>
+		<Model name="Citi Ace 110"></Model>
+		<Model name="Cordi"></Model>
+		<Model name="Cordi 50"></Model>
+		<Model name="DT-150T"></Model>
+		<Model name="DT-50QT-13 Loton"></Model>
+		<Model name="DT-50QT-3 Nostalgy"></Model>
+		<Model name="DT-50QT-4A Lamberti"></Model>
+		<Model name="DT-50QT-5 Sprinter"></Model>
+		<Model name="DT-50QT-7 Kengli"></Model>
+		<Model name="Dart 125"></Model>
+		<Model name="Delfino 125"></Model>
+		<Model name="E-Five"></Model>
+		<Model name="E-Five ATS"></Model>
+		<Model name="Free Wing 125"></Model>
+		<Model name="History"></Model>
+		<Model name="History 125"></Model>
+		<Model name="Major S-Five"></Model>
+		<Model name="Message 50"></Model>
+		<Model name="NS-125 DLX"></Model>
+		<Model name="NS-125 III"></Model>
+		<Model name="Steezer"></Model>
+	</Make>
+	<Make name="Dayang">
+		<Model name="DY50QT-8"></Model>
+	</Make>
+	<Make name="Defiant">
+		<Model name="DT-125QTB Concord"></Model>
+		<Model name="DT-50 1M Monkey"></Model>
+		<Model name="DT-50QT-7 Kengli"></Model>
+	</Make>
+	<Make name="Derbi">
+		<Model name="Atlantis"></Model>
+		<Model name="Atlantis 50 2T"></Model>
+		<Model name="Atlantis 50 2T Bullet"></Model>
+		<Model name="Atlantis 50 4T"></Model>
+		<Model name="Atlantis City"></Model>
+		<Model name="Atlantis City 100 4T"></Model>
+		<Model name="Atlantis Two Chic 2t"></Model>
+		<Model name="Boulevard 125"></Model>
+		<Model name="Boulevard 150"></Model>
+		<Model name="Boulevard 200"></Model>
+		<Model name="Boulevard 50 2T"></Model>
+		<Model name="GP1 125"></Model>
+		<Model name="GP1 125 Racing"></Model>
+		<Model name="GP1 250"></Model>
+		<Model name="GP1 250 Racing"></Model>
+		<Model name="GP1 50"></Model>
+		<Model name="GP1 50 Open"></Model>
+		<Model name="GP1 50 Racing"></Model>
+		<Model name="Hunter"></Model>
+		<Model name="Predator"></Model>
+		<Model name="Rambla"></Model>
+	</Make>
+	<Make name="Dexter">
+		<Model name="Dfxte"></Model>
+	</Make>
+	<Make name="Di Blasi">
+		<Model name="Di Blasi R7"></Model>
+	</Make>
+	<Make name="Doctor">
+		<Model name="Lux 10"></Model>
+	</Make>
+	<Make name="Doohan">
+		<Model name="iDuo"></Model>
+		<Model name="iLark"></Model>
+		<Model name="iMigo"></Model>
+		<Model name="iTango"></Model>
+		<Model name="iTank"></Model>
+	</Make>
+	<Make name="Ducati">
+		<Model name="500 GTL"></Model>
+		<Model name="Panigale 50"></Model>
+	</Make>
+	<Make name="E-max">
+		<Model name="110L"></Model>
+		<Model name="110S"></Model>
+		<Model name="120L"></Model>
+		<Model name="120S"></Model>
+		<Model name="190L"></Model>
+		<Model name="90S"></Model>
+		<Model name="City 80L"></Model>
+		<Model name="City 80L-3W"></Model>
+	</Make>
+	<Make name="E-moto">
+		<Model name="XJ50QT-5"></Model>
+	</Make>
+	<Make name="ELTRECO">
+		<Model name="Air Seagull"></Model>
+		<Model name="Apple"></Model>
+		<Model name="E-Max 72V"></Model>
+		<Model name="Trike Round"></Model>
+		<Model name="Zing General"></Model>
+		<Model name="Zing Prime"></Model>
+		<Model name="Zing Quick"></Model>
+		<Model name="Zing Vinni"></Model>
+		<Model name="Zing Wide"></Model>
+	</Make>
+	<Make name="Ecooter">
+		<Model name="E5"></Model>
+	</Make>
+	<Make name="Electra">
+		<Model name="GAS CHOPPER SCOOTER 88905"></Model>
+	</Make>
+	<Make name="Eliq">
+		<Model name="Внедорожный электробайк"></Model>
+	</Make>
+	<Make name="Eurotex">
+		<Model name="Adrenalin"></Model>
+		<Model name="Alpha"></Model>
+		<Model name="Atom"></Model>
+		<Model name="Bravo"></Model>
+		<Model name="City-Lux"></Model>
+		<Model name="Corsa"></Model>
+		<Model name="Cyclone"></Model>
+		<Model name="Eclipse"></Model>
+		<Model name="GT Striker"></Model>
+		<Model name="Galleon"></Model>
+		<Model name="IMP"></Model>
+		<Model name="Jazz"></Model>
+		<Model name="Modena"></Model>
+		<Model name="Octane"></Model>
+		<Model name="Raptor"></Model>
+		<Model name="Reflex"></Model>
+		<Model name="Runner"></Model>
+		<Model name="Steed"></Model>
+		<Model name="Stingray"></Model>
+		<Model name="Storm"></Model>
+		<Model name="Tornado"></Model>
+		<Model name="Urban Racer"></Model>
+		<Model name="X-Treme"></Model>
+	</Make>
+	<Make name="FX">
+		<Model name="MC-50"></Model>
+	</Make>
+	<Make name="Fada">
+		<Model name="Speed fd50qt-5"></Model>
+	</Make>
+	<Make name="Forsage">
+		<Model name="Chameleon TS 50"></Model>
+		<Model name="Clever 50"></Model>
+		<Model name="Neo 50"></Model>
+		<Model name="Scooter Bike 50"></Model>
+		<Model name="Sirius 250 (ZN 250T-B)"></Model>
+		<Model name="TS 50 QT-4-2"></Model>
+		<Model name="TS 50 QT-8 Cometa"></Model>
+	</Make>
+	<Make name="Fortuna">
+		<Model name="YH50QT-L"></Model>
+	</Make>
+	<Make name="Fortune">
+		<Model name="Lux 50 QT-9"></Model>
+	</Make>
+	<Make name="Futong">
+		<Model name="FT50QT"></Model>
+	</Make>
+	<Make name="GX moto">
+		<Model name="GX Alpha"></Model>
+		<Model name="GX City"></Model>
+		<Model name="GX Corvette"></Model>
+		<Model name="GX F3"></Model>
+		<Model name="GX Flash"></Model>
+		<Model name="GX Jeans"></Model>
+		<Model name="GX Jetta"></Model>
+		<Model name="GX Matrix"></Model>
+		<Model name="GX Omega"></Model>
+		<Model name="GX Ranger"></Model>
+		<Model name="GX Stinger"></Model>
+		<Model name="Riga-4"></Model>
+		<Model name="Router"></Model>
+		<Model name="Variant"></Model>
+	</Make>
+	<Make name="Garelli">
+		<Model name="Flexi"></Model>
+		<Model name="GSP"></Model>
+		<Model name="Mosquito"></Model>
+		<Model name="Tiesse"></Model>
+		<Model name="Хо"></Model>
+	</Make>
+	<Make name="Geely">
+		<Model name="jl50qt-15"></Model>
+	</Make>
+	<Make name="Generic">
+		<Model name="IDEO 50"></Model>
+		<Model name="ROC 50"></Model>
+		<Model name="SOHO"></Model>
+		<Model name="XOR"></Model>
+		<Model name="XOR Competition"></Model>
+		<Model name="XOR Stroke"></Model>
+		<Model name="Zion 125"></Model>
+	</Make>
+	<Make name="Gilera">
+		<Model name="DNA 125"></Model>
+		<Model name="DNA 180"></Model>
+		<Model name="DNA 50"></Model>
+		<Model name="Fuoco 500"></Model>
+		<Model name="Fuoco 500 IE"></Model>
+		<Model name="GP 800"></Model>
+		<Model name="Ice"></Model>
+		<Model name="Nexus 125"></Model>
+		<Model name="Nexus 250"></Model>
+		<Model name="Nexus 300"></Model>
+		<Model name="Nexus 500"></Model>
+		<Model name="Runner 125"></Model>
+		<Model name="Runner 180"></Model>
+		<Model name="Runner 200"></Model>
+		<Model name="Runner 50"></Model>
+		<Model name="Stalker 50"></Model>
+		<Model name="Storm 50"></Model>
+		<Model name="VXR 200"></Model>
+	</Make>
+	<Make name="GreenCamel">
+		<Model name="Colt 815"></Model>
+		<Model name="Cruise"></Model>
+		<Model name="Infinity"></Model>
+		<Model name="Trofi"></Model>
+		<Model name="Trofi SUMMA"></Model>
+		<Model name="Vesta Style"></Model>
+		<Model name="Тайфун 350"></Model>
+		<Model name="Тайфун 400"></Model>
+		<Model name="Тайфун 460"></Model>
+		<Model name="Тендер"></Model>
+	</Make>
+	<Make name="Gryphon">
+		<Model name="Cometa 50"></Model>
+		<Model name="Orion 100"></Model>
+		<Model name="Orion 110"></Model>
+		<Model name="Orion 50В"></Model>
+		<Model name="Orion City 125"></Model>
+		<Model name="Racer 150"></Model>
+		<Model name="Rocket 50"></Model>
+		<Model name="Saturn"></Model>
+		<Model name="Sting"></Model>
+		<Model name="Ufo"></Model>
+	</Make>
+	<Make name="Gvalior">
+		<Model name="BD50Q-5A"></Model>
+		<Model name="Street"></Model>
+	</Make>
+	<Make name="HUIMA">
+		<Model name="TJHM-010"></Model>
+	</Make>
+	<Make name="Haobon">
+		<Model name="HB50 QT-10"></Model>
+		<Model name="HP50 QT-4A"></Model>
+	</Make>
+	<Make name="Hiker">
+		<Model name="50cc"></Model>
+	</Make>
+	<Make name="Honda">
+		<Model name="ADV150"></Model>
+		<Model name="ADV160"></Model>
+		<Model name="ADV350"></Model>
+		<Model name="ASR 50 rp"></Model>
+		<Model name="Actica"></Model>
+		<Model name="Activa 125"></Model>
+		<Model name="Airblade"></Model>
+		<Model name="Ape 50"></Model>
+		<Model name="BS6 150"></Model>
+		<Model name="Beat"></Model>
+		<Model name="Benly"></Model>
+		<Model name="Big Ruckus PS250"></Model>
+		<Model name="Bite 50"></Model>
+		<Model name="Broad"></Model>
+		<Model name="CHF50 Metropolitan"></Model>
+		<Model name="CN 250"></Model>
+		<Model name="Cabina"></Model>
+		<Model name="Caren"></Model>
+		<Model name="Chaly"></Model>
+		<Model name="Click 125i"></Model>
+		<Model name="Click 150"></Model>
+		<Model name="Click 160"></Model>
+		<Model name="Click 170"></Model>
+		<Model name="Crea Scoopy"></Model>
+		<Model name="Cross Cub"></Model>
+		<Model name="Dax"></Model>
+		<Model name="Dio 110"></Model>
+		<Model name="Dio 65"></Model>
+		<Model name="Dio AF-18"></Model>
+		<Model name="Dio AF-27"></Model>
+		<Model name="Dio AF-34"></Model>
+		<Model name="Dio AF-34 Cesta"></Model>
+		<Model name="Dio AF-35 SR"></Model>
+		<Model name="Dio AF-35 ZX"></Model>
+		<Model name="Dio AF-56"></Model>
+		<Model name="Dio AF-57"></Model>
+		<Model name="Dio AF-62"></Model>
+		<Model name="Dio AF-62 Cesta"></Model>
+		<Model name="Dio AF-63 Z4"></Model>
+		<Model name="Dio AF-68"></Model>
+		<Model name="Dio AF-68 Cesta"></Model>
+		<Model name="Dio AF28 SR"></Model>
+		<Model name="Dio AF28 ZX"></Model>
+		<Model name="Dio Fit AF-27"></Model>
+		<Model name="Dio RX"></Model>
+		<Model name="Dio SR AF25"></Model>
+		<Model name="Dio ZX (AF35)"></Model>
+		<Model name="Dio rp"></Model>
+		<Model name="Dj-1R"></Model>
+		<Model name="Dunk"></Model>
+		<Model name="Dylan"></Model>
+		<Model name="E4-01"></Model>
+		<Model name="EZ-9"></Model>
+		<Model name="Elite 150"></Model>
+		<Model name="Eve Pax"></Model>
+		<Model name="Eve Smile"></Model>
+		<Model name="Express"></Model>
+		<Model name="Faze"></Model>
+		<Model name="Flush S"></Model>
+		<Model name="Foresight"></Model>
+		<Model name="Forza"></Model>
+		<Model name="Freeway"></Model>
+		<Model name="Fusion"></Model>
+		<Model name="G&#39;Dash"></Model>
+		<Model name="GTR Supra 110 (50)"></Model>
+		<Model name="Giorcub"></Model>
+		<Model name="Giorno AF24"></Model>
+		<Model name="Giorno AF54"></Model>
+		<Model name="Giorno AF70"></Model>
+		<Model name="Giorno AF77"></Model>
+		<Model name="Giorno Crea"></Model>
+		<Model name="Gorilla"></Model>
+		<Model name="Gyro"></Model>
+		<Model name="Gyro Canopy"></Model>
+		<Model name="Gyro UP"></Model>
+		<Model name="Gyro X"></Model>
+		<Model name="Gyro X-2"></Model>
+		<Model name="Hero"></Model>
+		<Model name="Humming"></Model>
+		<Model name="Innova"></Model>
+		<Model name="Integra"></Model>
+		<Model name="Jazz"></Model>
+		<Model name="Joker 50 (AF42)"></Model>
+		<Model name="Joker 90"></Model>
+		<Model name="Julio"></Model>
+		<Model name="Just"></Model>
+		<Model name="Lead 100"></Model>
+		<Model name="Lead 110"></Model>
+		<Model name="Lead 125"></Model>
+		<Model name="Lead 50"></Model>
+		<Model name="Lead 90"></Model>
+		<Model name="Lead AF48"></Model>
+		<Model name="Leader"></Model>
+		<Model name="Little Cub"></Model>
+		<Model name="MT50"></Model>
+		<Model name="Meteor 50"></Model>
+		<Model name="NC750 Integra"></Model>
+		<Model name="NCZ 50 Motocompo"></Model>
+		<Model name="NSC"></Model>
+		<Model name="NSS 250"></Model>
+		<Model name="PA50i"></Model>
+		<Model name="PCX 125"></Model>
+		<Model name="PCX 150"></Model>
+		<Model name="PCX 160"></Model>
+		<Model name="PS"></Model>
+		<Model name="PS 250"></Model>
+		<Model name="Pal"></Model>
+		<Model name="Pal AF17"></Model>
+		<Model name="Pantheon"></Model>
+		<Model name="S-Wing"></Model>
+		<Model name="SFX 50"></Model>
+		<Model name="SH"></Model>
+		<Model name="SH150"></Model>
+		<Model name="Scoopy I"></Model>
+		<Model name="Shadow 50"></Model>
+		<Model name="Silver Wing 400"></Model>
+		<Model name="Silver Wing 600"></Model>
+		<Model name="Sky"></Model>
+		<Model name="Spacy"></Model>
+		<Model name="Squash"></Model>
+		<Model name="Stream"></Model>
+		<Model name="Super Cub"></Model>
+		<Model name="TRICKLER 2"></Model>
+		<Model name="Tact AB-07"></Model>
+		<Model name="Tact AF09"></Model>
+		<Model name="Tact AF13-100"></Model>
+		<Model name="Tact AF16"></Model>
+		<Model name="Tact AF24"></Model>
+		<Model name="Tact AF30"></Model>
+		<Model name="Tact AF51"></Model>
+		<Model name="Tact AF75"></Model>
+		<Model name="Tact AF75 PGM-FI"></Model>
+		<Model name="Tact AF79"></Model>
+		<Model name="Tacty"></Model>
+		<Model name="Today"></Model>
+		<Model name="Topic"></Model>
+		<Model name="Vario"></Model>
+		<Model name="Via"></Model>
+		<Model name="Vocal"></Model>
+		<Model name="Wave"></Model>
+		<Model name="X-ADV"></Model>
+		<Model name="X8R-S"></Model>
+		<Model name="Zook"></Model>
+		<Model name="Zoomer 150"></Model>
+		<Model name="Zoomer 4T 80cc rp"></Model>
+		<Model name="Zoomer 50"></Model>
+		<Model name="Zoomer E"></Model>
+		<Model name="Zoomer X 110"></Model>
+	</Make>
+	<Make name="Honling">
+		<Model name="Adonis"></Model>
+		<Model name="Adonis 300 Fi"></Model>
+		<Model name="Ataka"></Model>
+		<Model name="Boomerang"></Model>
+		<Model name="Caper"></Model>
+		<Model name="Cruiser"></Model>
+		<Model name="F5"></Model>
+		<Model name="Flagman"></Model>
+		<Model name="Jog"></Model>
+		<Model name="Joker"></Model>
+		<Model name="Knight"></Model>
+		<Model name="Master"></Model>
+		<Model name="Master QT-6"></Model>
+		<Model name="Navigator"></Model>
+		<Model name="Pharaon"></Model>
+		<Model name="Prestige"></Model>
+		<Model name="Priboy"></Model>
+		<Model name="RS 8"></Model>
+		<Model name="Summer"></Model>
+		<Model name="Titan"></Model>
+		<Model name="Viking"></Model>
+	</Make>
+	<Make name="Hors">
+		<Model name="051"></Model>
+		<Model name="056"></Model>
+		<Model name="057"></Model>
+		<Model name="058"></Model>
+		<Model name="252"></Model>
+		<Model name="Alpha"></Model>
+	</Make>
+	<Make name="Horwin">
+		<Model name="SK3"></Model>
+	</Make>
+	<Make name="Huasha">
+		<Model name="HS50QT-16"></Model>
+	</Make>
+	<Make name="Huatain">
+		<Model name="HT150-8"></Model>
+		<Model name="Sprint"></Model>
+	</Make>
+	<Make name="Huatian">
+		<Model name="HT125T-25"></Model>
+		<Model name="HT150T-15C"></Model>
+		<Model name="HT50QT"></Model>
+		<Model name="HT50QT-6"></Model>
+	</Make>
+	<Make name="Hyosung">
+		<Model name="EZ100"></Model>
+		<Model name="MS1 Exceed"></Model>
+		<Model name="MS3"></Model>
+		<Model name="SF 50"></Model>
+		<Model name="SF R"></Model>
+	</Make>
+	<Make name="IRBIS">
+		<Model name="Action"></Model>
+		<Model name="BWS"></Model>
+		<Model name="Centrino 150"></Model>
+		<Model name="Centrino 50cc"></Model>
+		<Model name="Centrino 80"></Model>
+		<Model name="Centrino 80 4T"></Model>
+		<Model name="Centrino H 125"></Model>
+		<Model name="Centrino S 2T"></Model>
+		<Model name="Dingo 50"></Model>
+		<Model name="Dragster 125"></Model>
+		<Model name="Dragster 180"></Model>
+		<Model name="Dragster 50"></Model>
+		<Model name="F1"></Model>
+		<Model name="FR 50"></Model>
+		<Model name="Formula 125"></Model>
+		<Model name="Grace 150"></Model>
+		<Model name="Grace 50 2T (M)"></Model>
+		<Model name="Irokez s"></Model>
+		<Model name="J50"></Model>
+		<Model name="Kaori"></Model>
+		<Model name="LX 50"></Model>
+		<Model name="LX GTR 90 2T"></Model>
+		<Model name="Nirvana 150"></Model>
+		<Model name="Nirvana 50"></Model>
+		<Model name="Nirvana 80"></Model>
+		<Model name="Prometey"></Model>
+		<Model name="RZR 150"></Model>
+		<Model name="RZR 170cc 4T"></Model>
+		<Model name="SLX"></Model>
+		<Model name="Skynet"></Model>
+		<Model name="Stinger"></Model>
+		<Model name="Virago"></Model>
+		<Model name="WY150T-3"></Model>
+		<Model name="Z50R"></Model>
+		<Model name="Z50RS"></Model>
+		<Model name="ZRS 150"></Model>
+		<Model name="ZRX"></Model>
+	</Make>
+	<Make name="IZH-BIKE">
+		<Model name="350W"></Model>
+	</Make>
+	<Make name="IconBIT">
+		<Model name="RUBIKON R3"></Model>
+	</Make>
+	<Make name="Innocenti">
+		<Model name="Chromel"></Model>
+		<Model name="Cinquanta"></Model>
+		<Model name="Copper"></Model>
+		<Model name="Facile"></Model>
+		<Model name="Neo"></Model>
+		<Model name="Nesso"></Model>
+		<Model name="Premiera"></Model>
+		<Model name="RT"></Model>
+		<Model name="Radium"></Model>
+	</Make>
+	<Make name="Innosenti">
+		<Model name="Chromel 125"></Model>
+		<Model name="Copper 125"></Model>
+		<Model name="Copper 50"></Model>
+		<Model name="Facile 50"></Model>
+		<Model name="Radium 300"></Model>
+	</Make>
+	<Make name="Iris">
+		<Model name="BD50QT-12A"></Model>
+	</Make>
+	<Make name="Iron Eagle">
+		<Model name="LBC-50"></Model>
+	</Make>
+	<Make name="Italjet">
+		<Model name="Digita 50"></Model>
+		<Model name="Dragon 50"></Model>
+		<Model name="Dragster"></Model>
+		<Model name="Eagle 50"></Model>
+		<Model name="Formula 125"></Model>
+		<Model name="Insento 125"></Model>
+		<Model name="Trevis 125"></Model>
+	</Make>
+	<Make name="JAN-Scuter">
+		<Model name="KN-DN01"></Model>
+	</Make>
+	<Make name="Jawa">
+		<Model name="50 Agent"></Model>
+		<Model name="50 Classic"></Model>
+	</Make>
+	<Make name="Jcadi">
+		<Model name="DTR"></Model>
+	</Make>
+	<Make name="Jiajue">
+		<Model name="11"></Model>
+	</Make>
+	<Make name="Jialing">
+		<Model name="JL150T-7"></Model>
+		<Model name="JL50 QT-22"></Model>
+		<Model name="JL50QT-16"></Model>
+		<Model name="JL50QT-30"></Model>
+		<Model name="JL50QT-38"></Model>
+	</Make>
+	<Make name="Jmstar">
+		<Model name="JSD250T-22"></Model>
+	</Make>
+	<Make name="Johnny pag">
+		<Model name="Joyride"></Model>
+	</Make>
+	<Make name="Jonway">
+		<Model name="GST125T-25A"></Model>
+		<Model name="YY100T-13A"></Model>
+		<Model name="YY125T-10A"></Model>
+		<Model name="YY125T-11A"></Model>
+		<Model name="YY125T-14A"></Model>
+		<Model name="YY125T-15A"></Model>
+		<Model name="YY125T-2A"></Model>
+		<Model name="YY125T-3A"></Model>
+		<Model name="YY125T-8A"></Model>
+		<Model name="YY150T-22A"></Model>
+		<Model name="YY250T"></Model>
+	</Make>
+	<Make name="Jordan">
+		<Model name="50Q-D"></Model>
+	</Make>
+	<Make name="Jumbo">
+		<Model name="Jet 150"></Model>
+		<Model name="Jet YH50QT-17"></Model>
+	</Make>
+	<Make name="Kansas">
+		<Model name="Avenger"></Model>
+		<Model name="Eagle King 150"></Model>
+		<Model name="Octane"></Model>
+		<Model name="Pirania 50"></Model>
+		<Model name="Tour S"></Model>
+	</Make>
+	<Make name="Kanuni">
+		<Model name="Glide"></Model>
+		<Model name="Hop"></Model>
+		<Model name="Jet"></Model>
+		<Model name="Motion"></Model>
+		<Model name="Yak"></Model>
+	</Make>
+	<Make name="Kawasaki">
+		<Model name="J300"></Model>
+	</Make>
+	<Make name="Keeway">
+		<Model name="Arn 125"></Model>
+		<Model name="Arn 50"></Model>
+		<Model name="City 100"></Model>
+		<Model name="City 150"></Model>
+		<Model name="Country"></Model>
+		<Model name="F-Act 100"></Model>
+		<Model name="F-Act 150"></Model>
+		<Model name="F-Act 50"></Model>
+		<Model name="F-Act 90"></Model>
+		<Model name="Flash"></Model>
+		<Model name="Flash 50"></Model>
+		<Model name="Focus 125"></Model>
+		<Model name="Focus 50"></Model>
+		<Model name="Hacker 125"></Model>
+		<Model name="Hacker 50"></Model>
+		<Model name="Hurricane 50"></Model>
+		<Model name="Hurricane 90"></Model>
+		<Model name="Matrix 125"></Model>
+		<Model name="Matrix 150"></Model>
+		<Model name="Matrix 50"></Model>
+		<Model name="Milan 50"></Model>
+		<Model name="Outlook 125"></Model>
+		<Model name="Outlook 150"></Model>
+		<Model name="Partner 100"></Model>
+		<Model name="Partner 110"></Model>
+		<Model name="Pixel 50"></Model>
+		<Model name="RY8 50"></Model>
+		<Model name="Silverblade 125"></Model>
+		<Model name="Silverblade 250"></Model>
+		<Model name="Street"></Model>
+		<Model name="Viva"></Model>
+		<Model name="X-Ray 50"></Model>
+	</Make>
+	<Make name="KiloWatT">
+		<Model name="KIB Cross 900"></Model>
+	</Make>
+	<Make name="Kinfan">
+		<Model name="KF110ZH-B"></Model>
+	</Make>
+	<Make name="Kinlon Motors">
+		<Model name="JL50"></Model>
+	</Make>
+	<Make name="Kometa">
+		<Model name="Cross"></Model>
+		<Model name="II"></Model>
+		<Model name="II Lux"></Model>
+		<Model name="KT 50"></Model>
+		<Model name="Lux"></Model>
+	</Make>
+	<Make name="Kreidler">
+		<Model name="Florett"></Model>
+		<Model name="Galactica"></Model>
+		<Model name="Hiker 2.0 Electro"></Model>
+		<Model name="Jigger 50 City"></Model>
+	</Make>
+	<Make name="Kugoo">
+		<Model name="C1"></Model>
+		<Model name="C1 PRO"></Model>
+		<Model name="C2"></Model>
+		<Model name="C3"></Model>
+		<Model name="C3 PRO"></Model>
+		<Model name="C5 PRO"></Model>
+		<Model name="C6 PRO"></Model>
+		<Model name="C7"></Model>
+		<Model name="C7 PRO"></Model>
+		<Model name="Kirin C2"></Model>
+		<Model name="V Pro"></Model>
+	</Make>
+	<Make name="KugooKirin">
+		<Model name="C1 Plus"></Model>
+		<Model name="C2 Pro"></Model>
+		<Model name="Note"></Model>
+		<Model name="V Pro"></Model>
+	</Make>
+	<Make name="Kymco">
+		<Model name="AXR"></Model>
+		<Model name="Activ"></Model>
+		<Model name="Agility"></Model>
+		<Model name="Agility City 125"></Model>
+		<Model name="Agility City 50"></Model>
+		<Model name="Agility Fat 50"></Model>
+		<Model name="Agility RS 125"></Model>
+		<Model name="Bet &amp; Win"></Model>
+		<Model name="Caro 100"></Model>
+		<Model name="Cobra"></Model>
+		<Model name="DJ 50 S"></Model>
+		<Model name="DJ Refined"></Model>
+		<Model name="Dink"></Model>
+		<Model name="Downtown"></Model>
+		<Model name="Filly"></Model>
+		<Model name="Grand Dink"></Model>
+		<Model name="Heroism"></Model>
+		<Model name="Like"></Model>
+		<Model name="Movie"></Model>
+		<Model name="MyRoad"></Model>
+		<Model name="Nexxon"></Model>
+		<Model name="People"></Model>
+		<Model name="Sooner"></Model>
+		<Model name="Spike"></Model>
+		<Model name="Straight"></Model>
+		<Model name="Super 8"></Model>
+		<Model name="Super 9"></Model>
+		<Model name="Super Fever"></Model>
+		<Model name="Top Boy"></Model>
+		<Model name="Visa"></Model>
+		<Model name="Vitality"></Model>
+		<Model name="Xciting"></Model>
+		<Model name="Yup"></Model>
+	</Make>
+	<Make name="LML">
+		<Model name="Star"></Model>
+	</Make>
+	<Make name="Lambretta">
+		<Model name="Li Series 1"></Model>
+		<Model name="Li Series 2"></Model>
+		<Model name="Model A"></Model>
+		<Model name="Model B"></Model>
+		<Model name="Model C/LC"></Model>
+		<Model name="Pato"></Model>
+		<Model name="SX200"></Model>
+		<Model name="TV Series 1"></Model>
+		<Model name="X150 Special"></Model>
+	</Make>
+	<Make name="Leike">
+		<Model name="LK125T-26"></Model>
+		<Model name="LK150T-7B"></Model>
+		<Model name="LK150T-7D"></Model>
+		<Model name="LK150T-7E"></Model>
+		<Model name="LK150T-7F"></Model>
+		<Model name="LK150T-7G"></Model>
+		<Model name="LK150T-7H"></Model>
+		<Model name="LK180GY-2"></Model>
+		<Model name="LK50QT-14D"></Model>
+		<Model name="LK50QT-14E"></Model>
+		<Model name="LK50QT-15"></Model>
+		<Model name="LK50QT-17E"></Model>
+		<Model name="LK50QT-7A"></Model>
+	</Make>
+	<Make name="Leopard">
+		<Model name="LP150T-15"></Model>
+	</Make>
+	<Make name="Lifan">
+		<Model name="LF100"></Model>
+		<Model name="LF125"></Model>
+		<Model name="LF150"></Model>
+		<Model name="LF250"></Model>
+		<Model name="LF50"></Model>
+		<Model name="LF50Q-2"></Model>
+		<Model name="LF50Q-2A"></Model>
+		<Model name="LF50QT-15"></Model>
+		<Model name="LF50QT-26"></Model>
+		<Model name="LF50QT-2В"></Model>
+	</Make>
+	<Make name="Lima">
+		<Model name="BWS"></Model>
+		<Model name="Brownies"></Model>
+		<Model name="Caiding"></Model>
+		<Model name="LM699"></Model>
+		<Model name="LM827"></Model>
+		<Model name="Lightning"></Model>
+		<Model name="Maydo"></Model>
+		<Model name="PRINCE"></Model>
+		<Model name="VIKE"></Model>
+	</Make>
+	<Make name="Lingben">
+		<Model name="LB125T"></Model>
+		<Model name="LB150T"></Model>
+		<Model name="LB250T"></Model>
+		<Model name="LB50QT"></Model>
+	</Make>
+	<Make name="Linhai">
+		<Model name="HT-50QT-41"></Model>
+		<Model name="HT125T-27"></Model>
+		<Model name="HT150T-20"></Model>
+		<Model name="LH300-BT"></Model>
+	</Make>
+	<Make name="Lintex">
+		<Model name="HT50-QT16 Smart"></Model>
+	</Make>
+	<Make name="Linye">
+		<Model name="WY150-6"></Model>
+	</Make>
+	<Make name="Loncin">
+		<Model name="LX 125"></Model>
+		<Model name="LX48Q"></Model>
+	</Make>
+	<Make name="Luyuan">
+		<Model name="MNR-DAS7220-Z7"></Model>
+	</Make>
+	<Make name="MATADOR">
+		<Model name="WY50Q-2A"></Model>
+		<Model name="Wangye WY150-5"></Model>
+	</Make>
+	<Make name="MATTIAS">
+		<Model name="GH-32605C"></Model>
+	</Make>
+	<Make name="MBK">
+		<Model name="Flame"></Model>
+		<Model name="Nitro"></Model>
+	</Make>
+	<Make name="MI-TU">
+		<Model name="X9"></Model>
+	</Make>
+	<Make name="MM">
+		<Model name="ARC (FOS)"></Model>
+		<Model name="Activ Novo"></Model>
+		<Model name="Active Torro"></Model>
+		<Model name="Alpha BD50Q-3A"></Model>
+		<Model name="Axis"></Model>
+		<Model name="City (Jog 3)"></Model>
+		<Model name="City PG"></Model>
+		<Model name="Colt"></Model>
+		<Model name="Colt 2 (ALLOY)"></Model>
+		<Model name="Crosstrack"></Model>
+		<Model name="FX 50"></Model>
+		<Model name="FX МС-50"></Model>
+		<Model name="Flash"></Model>
+		<Model name="Forester Street"></Model>
+		<Model name="Galaxy"></Model>
+		<Model name="Gatan"></Model>
+		<Model name="Iris"></Model>
+		<Model name="Jogger"></Model>
+		<Model name="Jordan Evo"></Model>
+		<Model name="Joyride"></Model>
+		<Model name="Largo"></Model>
+		<Model name="Matador EVO"></Model>
+		<Model name="NORDWING"></Model>
+		<Model name="Nitro"></Model>
+		<Model name="Quantum"></Model>
+		<Model name="RAPIRA JET"></Model>
+		<Model name="Raid"></Model>
+		<Model name="Rapira BD50QT-2-F3"></Model>
+		<Model name="Rubicon"></Model>
+		<Model name="Scirocco"></Model>
+		<Model name="Shifter"></Model>
+		<Model name="Shuriken"></Model>
+		<Model name="Sigma sport 125"></Model>
+		<Model name="Sigma sport 50"></Model>
+		<Model name="Slash 50"></Model>
+		<Model name="Stingray 50"></Model>
+		<Model name="Storm Indigo Cross"></Model>
+		<Model name="Strike"></Model>
+		<Model name="Swift"></Model>
+		<Model name="Tempo"></Model>
+		<Model name="Tracer ADV"></Model>
+		<Model name="Trickler"></Model>
+		<Model name="Vega 50"></Model>
+		<Model name="Vortex Streetfighter"></Model>
+		<Model name="Warrior jet 150"></Model>
+		<Model name="Wizard"></Model>
+		<Model name="X Trail"></Model>
+		<Model name="Zodiak"></Model>
+		<Model name="Zodiak Sport"></Model>
+	</Make>
+	<Make name="Malaguti">
+		<Model name="Blog 125"></Model>
+		<Model name="Blog 160"></Model>
+		<Model name="Centro 125ie"></Model>
+		<Model name="Centro 50 4T"></Model>
+		<Model name="Ciak Master"></Model>
+		<Model name="Crosser"></Model>
+		<Model name="Drakon NKD 50"></Model>
+		<Model name="F10"></Model>
+		<Model name="F15 Firefox"></Model>
+		<Model name="Madison 125"></Model>
+		<Model name="Madison 150"></Model>
+		<Model name="Madison 250"></Model>
+		<Model name="Madison K400"></Model>
+		<Model name="Password 250"></Model>
+		<Model name="Phantom"></Model>
+		<Model name="Phantom F12R"></Model>
+		<Model name="Phantom Max"></Model>
+		<Model name="Spidermax GT500"></Model>
+		<Model name="Yesterday"></Model>
+	</Make>
+	<Make name="Manet">
+		<Model name="Korado 216"></Model>
+	</Make>
+	<Make name="Mars">
+		<Model name="DF150T-L"></Model>
+	</Make>
+	<Make name="Matias">
+		<Model name="26"></Model>
+	</Make>
+	<Make name="Maxx">
+		<Model name="Kento"></Model>
+	</Make>
+	<Make name="Meiduo">
+		<Model name="MD-150T"></Model>
+		<Model name="MD50QT-15"></Model>
+		<Model name="MD50QT-9"></Model>
+	</Make>
+	<Make name="Meitian">
+		<Model name="MT50QT-10"></Model>
+	</Make>
+	<Make name="MiLG">
+		<Model name="N1"></Model>
+	</Make>
+	<Make name="Millennium">
+		<Model name="Alpha Allroad"></Model>
+		<Model name="Alpha RS11"></Model>
+		<Model name="Alpha RS11 Champ"></Model>
+		<Model name="Alpha RS12"></Model>
+		<Model name="Alpha RS12M Champ"></Model>
+		<Model name="Alpha V"></Model>
+		<Model name="Alpha Охотник"></Model>
+		<Model name="BWS"></Model>
+		<Model name="BWSR-50"></Model>
+		<Model name="Delta"></Model>
+		<Model name="Delta Sport L"></Model>
+		<Model name="Force"></Model>
+		<Model name="Meteor"></Model>
+		<Model name="RS12 Champ"></Model>
+		<Model name="Storm"></Model>
+		<Model name="Tank"></Model>
+	</Make>
+	<Make name="MiniPro">
+		<Model name="C3"></Model>
+		<Model name="Mi 656"></Model>
+		<Model name="Mi 716"></Model>
+		<Model name="Mi T01"></Model>
+	</Make>
+	<Make name="Minsk">
+		<Model name="2.154"></Model>
+		<Model name="D4 50"></Model>
+		<Model name="Upa-Upa 500E"></Model>
+		<Model name="Vesna"></Model>
+		<Model name="Vesna 125"></Model>
+		<Model name="Vesna 50"></Model>
+		<Model name="ТX 49"></Model>
+		<Model name="ТМ 49"></Model>
+		<Model name="ТС 49"></Model>
+	</Make>
+	<Make name="Mitsubishi">
+		<Model name="Silver Pigeon"></Model>
+	</Make>
+	<Make name="MoTesla">
+		<Model name="DH"></Model>
+		<Model name="EM20"></Model>
+		<Model name="Eagle"></Model>
+		<Model name="Force"></Model>
+		<Model name="H2"></Model>
+		<Model name="NIU 3"></Model>
+		<Model name="ST-B2"></Model>
+		<Model name="SV PRO"></Model>
+		<Model name="U9"></Model>
+		<Model name="UU"></Model>
+		<Model name="V"></Model>
+		<Model name="XM"></Model>
+		<Model name="Zuma"></Model>
+	</Make>
+	<Make name="Motax">
+		<Model name="E-NOT 4812"></Model>
+		<Model name="E-NOT 4820"></Model>
+		<Model name="E-NOT COMPACT"></Model>
+		<Model name="E-NOT LUX 4820"></Model>
+		<Model name="E-NOT PRO 4812"></Model>
+		<Model name="E-NOT PRO 4820"></Model>
+		<Model name="E-not"></Model>
+	</Make>
+	<Make name="Moto Italy">
+		<Model name="Chromel 125"></Model>
+		<Model name="Cinquanta 50"></Model>
+		<Model name="Copper 50/125"></Model>
+		<Model name="Facile 50"></Model>
+		<Model name="Neo 50"></Model>
+		<Model name="Nesso 125"></Model>
+		<Model name="Premiera 50"></Model>
+		<Model name="RT 50"></Model>
+		<Model name="Radium 300I"></Model>
+	</Make>
+	<Make name="Moto Zeta">
+		<Model name="Rally 50"></Model>
+	</Make>
+	<Make name="Motoland">
+		<Model name="Active"></Model>
+		<Model name="Alpha"></Model>
+		<Model name="Alpha 11"></Model>
+		<Model name="Alpha 7"></Model>
+		<Model name="Alpha RF 11"></Model>
+		<Model name="Alpha RX"></Model>
+		<Model name="Alpha RX 11"></Model>
+		<Model name="Alpha RX LUX"></Model>
+		<Model name="Alpha RX7"></Model>
+		<Model name="Alpha VR11"></Model>
+		<Model name="BWS 150"></Model>
+		<Model name="BWS 50"></Model>
+		<Model name="Corsa"></Model>
+		<Model name="Delta"></Model>
+		<Model name="Discovery"></Model>
+		<Model name="Epoch Leike"></Model>
+		<Model name="F1"></Model>
+		<Model name="F22"></Model>
+		<Model name="FC 50"></Model>
+		<Model name="FS"></Model>
+		<Model name="Fashion"></Model>
+		<Model name="Grace"></Model>
+		<Model name="Guiana"></Model>
+		<Model name="JOG 150"></Model>
+		<Model name="Linye WY150-5"></Model>
+		<Model name="Matrix 150"></Model>
+		<Model name="Miami"></Model>
+		<Model name="Orlando"></Model>
+		<Model name="Paladin 150"></Model>
+		<Model name="Paladin 50"></Model>
+		<Model name="Paladin WY50QT-7A"></Model>
+		<Model name="Purga"></Model>
+		<Model name="RX11"></Model>
+		<Model name="Sky Wing"></Model>
+		<Model name="Sport"></Model>
+		<Model name="Sunbrd 680rs"></Model>
+		<Model name="Sunny"></Model>
+		<Model name="Tank 150"></Model>
+		<Model name="Triton"></Model>
+		<Model name="VR 150"></Model>
+		<Model name="VX R5 Racing"></Model>
+		<Model name="Voyage (ZS50- D)"></Model>
+		<Model name="Wave"></Model>
+	</Make>
+	<Make name="Motolife">
+		<Model name="HN50QT-8"></Model>
+		<Model name="Mega CY125T-3B"></Model>
+		<Model name="Metis"></Model>
+		<Model name="WY50QT-16A"></Model>
+	</Make>
+	<Make name="Motowell">
+		<Model name="Magnet RS"></Model>
+	</Make>
+	<Make name="Musstang">
+		<Model name="MT 110-2B"></Model>
+	</Make>
+	<Make name="NIU">
+		<Model name="MQi GT"></Model>
+		<Model name="MQi GT evo"></Model>
+		<Model name="MQi Pro"></Model>
+		<Model name="MQi+ Sport"></Model>
+		<Model name="NQi GT"></Model>
+		<Model name="NQi S"></Model>
+		<Model name="NQi Sport"></Model>
+		<Model name="UQi"></Model>
+		<Model name="UQi GT"></Model>
+	</Make>
+	<Make name="Nanfang">
+		<Model name="NF 150T-9F"></Model>
+		<Model name="NF 50QT-6B"></Model>
+		<Model name="NF 50QT-9F"></Model>
+	</Make>
+	<Make name="Navigator">
+		<Model name="Mars"></Model>
+	</Make>
+	<Make name="Neo">
+		<Model name="350 (GE-CE 20)"></Model>
+		<Model name="350 (GE-CE)"></Model>
+		<Model name="500 (JT-DE)"></Model>
+		<Model name="500 (SK-DE)"></Model>
+		<Model name="500 (T60-DE)"></Model>
+		<Model name="YY50QT-22"></Model>
+	</Make>
+	<Make name="Nexus">
+		<Model name="BW-S"></Model>
+		<Model name="Batman"></Model>
+		<Model name="Bird"></Model>
+		<Model name="Blaster"></Model>
+		<Model name="Booster"></Model>
+		<Model name="Booster Maxi"></Model>
+		<Model name="Classic"></Model>
+		<Model name="F22"></Model>
+		<Model name="F35"></Model>
+		<Model name="Falcon"></Model>
+		<Model name="Fantom"></Model>
+		<Model name="Highway"></Model>
+		<Model name="Jet"></Model>
+		<Model name="Master"></Model>
+		<Model name="Matrix 150"></Model>
+		<Model name="Matrix 50"></Model>
+		<Model name="Panther"></Model>
+		<Model name="Panther-S"></Model>
+		<Model name="Retro"></Model>
+		<Model name="Roar"></Model>
+		<Model name="Shift"></Model>
+		<Model name="Splash"></Model>
+		<Model name="Street"></Model>
+		<Model name="Vector"></Model>
+		<Model name="Viper"></Model>
+		<Model name="X1"></Model>
+		<Model name="XR"></Model>
+		<Model name="Zoom"></Model>
+	</Make>
+	<Make name="Ninebot">
+		<Model name="A90+"></Model>
+		<Model name="E100"></Model>
+		<Model name="E200 One"></Model>
+		<Model name="F90M"></Model>
+		<Model name="M85C"></Model>
+		<Model name="M95C"></Model>
+		<Model name="Mmax 110P"></Model>
+		<Model name="N70C"></Model>
+		<Model name="Q80C"></Model>
+	</Make>
+	<Make name="Nipponia">
+		<Model name="Brio 110"></Model>
+		<Model name="Brio 125"></Model>
+		<Model name="Brio 50"></Model>
+		<Model name="Ezio 50"></Model>
+		<Model name="NC 90"></Model>
+		<Model name="Vorrei 125"></Model>
+	</Make>
+	<Make name="OEM">
+		<Model name="S-tricycle turtle"></Model>
+	</Make>
+	<Make name="OKLA">
+		<Model name="Dream"></Model>
+		<Model name="HERBEN"></Model>
+		<Model name="LG-PLUS"></Model>
+		<Model name="MINI+ REAR BOX"></Model>
+		<Model name="MX PLUS"></Model>
+		<Model name="Mojito"></Model>
+		<Model name="OVEGA"></Model>
+		<Model name="SHENMA"></Model>
+	</Make>
+	<Make name="Omaks Motors">
+		<Model name="Alpha"></Model>
+		<Model name="Ardour"></Model>
+		<Model name="Bettle"></Model>
+		<Model name="Bumer"></Model>
+		<Model name="Bws JJ150T-7"></Model>
+		<Model name="CM50Q-2"></Model>
+		<Model name="Classic 150"></Model>
+		<Model name="Cuxi"></Model>
+		<Model name="F22"></Model>
+		<Model name="F3"></Model>
+		<Model name="F35"></Model>
+		<Model name="Falcone"></Model>
+		<Model name="JJ125T-17"></Model>
+		<Model name="JJ125T-19"></Model>
+		<Model name="JJ125T-23"></Model>
+		<Model name="JJ125T-4"></Model>
+		<Model name="JJ50Q-22-B09 (RY8)"></Model>
+		<Model name="JJ50QT-22-B08"></Model>
+		<Model name="JJ50QT-27 Yutu"></Model>
+		<Model name="Jogi"></Model>
+		<Model name="LK180GY-2"></Model>
+		<Model name="LK50QT"></Model>
+		<Model name="MT50QT"></Model>
+		<Model name="Matador"></Model>
+		<Model name="Offroad"></Model>
+		<Model name="PANTHER YK-13"></Model>
+		<Model name="Phantom"></Model>
+		<Model name="Purga"></Model>
+		<Model name="Revenger JJ50QT-3"></Model>
+		<Model name="V1"></Model>
+		<Model name="Vero YG100-5"></Model>
+		<Model name="Virtuality"></Model>
+		<Model name="WJ50"></Model>
+		<Model name="XF110Q"></Model>
+	</Make>
+	<Make name="Opai">
+		<Model name="Gо Go"></Model>
+	</Make>
+	<Make name="Orion">
+		<Model name="50B"></Model>
+	</Make>
+	<Make name="PGO">
+		<Model name="B1-125 EFI"></Model>
+		<Model name="B1-150"></Model>
+		<Model name="B1-150 EFI"></Model>
+		<Model name="B1-50"></Model>
+		<Model name="B2-125 EFI"></Model>
+		<Model name="B2-150"></Model>
+		<Model name="B2-150 EFI"></Model>
+		<Model name="B2-50"></Model>
+		<Model name="BD3-150 Cargo Trike"></Model>
+		<Model name="Big Max 50"></Model>
+		<Model name="Bubu 100"></Model>
+		<Model name="Bubu 50"></Model>
+		<Model name="CP-125"></Model>
+		<Model name="CP-50"></Model>
+		<Model name="Comet 50"></Model>
+		<Model name="Ewave"></Model>
+		<Model name="G-MAX 125 EFI"></Model>
+		<Model name="G-MAX 150 EFI"></Model>
+		<Model name="G-MAX 200"></Model>
+		<Model name="G-MAX 220 EFI"></Model>
+		<Model name="G-MAX 50"></Model>
+		<Model name="GTA 50"></Model>
+		<Model name="I-Charge 125"></Model>
+		<Model name="Idep"></Model>
+		<Model name="J-Bubu 115 EFI"></Model>
+		<Model name="J-Bubu 125 Duo"></Model>
+		<Model name="J-Bubu S 110"></Model>
+		<Model name="Libra 125 EFI"></Model>
+		<Model name="Libra 50"></Model>
+		<Model name="Ligero 125"></Model>
+		<Model name="Ligero RS"></Model>
+		<Model name="M2-125"></Model>
+		<Model name="M2-150"></Model>
+		<Model name="M2-220"></Model>
+		<Model name="M2-50"></Model>
+		<Model name="My bubu 125"></Model>
+		<Model name="No Fear 50"></Model>
+		<Model name="PA-50 DB"></Model>
+		<Model name="PMS-50"></Model>
+		<Model name="PMX 50"></Model>
+		<Model name="PMX Naked 110"></Model>
+		<Model name="PMX Sport"></Model>
+		<Model name="Roadshow 50"></Model>
+		<Model name="T-REX 150"></Model>
+		<Model name="TR3-50"></Model>
+		<Model name="Tigra-125 EFI"></Model>
+		<Model name="Tornado 50"></Model>
+		<Model name="X-Hot 50"></Model>
+	</Make>
+	<Make name="PROMAX">
+		<Model name="Active"></Model>
+		<Model name="Angel"></Model>
+		<Model name="Delta"></Model>
+		<Model name="Magnus 200"></Model>
+		<Model name="Milan"></Model>
+		<Model name="Speedster 240"></Model>
+		<Model name="Sport"></Model>
+		<Model name="Street Led 110"></Model>
+		<Model name="Super Max Led 150"></Model>
+		<Model name="Vision 200"></Model>
+	</Make>
+	<Make name="Partner">
+		<Model name="SF-8"></Model>
+	</Make>
+	<Make name="Patron">
+		<Model name="Active 50"></Model>
+		<Model name="Active 50 F"></Model>
+		<Model name="Avenue 150 Z"></Model>
+		<Model name="Clever 50"></Model>
+		<Model name="Dinamit 150"></Model>
+		<Model name="Dinamit 50"></Model>
+		<Model name="Folly 50"></Model>
+		<Model name="Grand"></Model>
+		<Model name="Joker 150"></Model>
+		<Model name="Joker 50"></Model>
+		<Model name="Leo 125"></Model>
+		<Model name="LeoN 125"></Model>
+		<Model name="Major 150 N"></Model>
+		<Model name="Quest 50"></Model>
+		<Model name="Ringer 110"></Model>
+		<Model name="Robot 50"></Model>
+		<Model name="Shark 125"></Model>
+		<Model name="Shark 50"></Model>
+		<Model name="Sparrow 50"></Model>
+		<Model name="Spine 50 Z"></Model>
+		<Model name="Stilet 150 Z"></Model>
+		<Model name="Stilet 50"></Model>
+		<Model name="Traffic 50"></Model>
+		<Model name="Traffic 50Z"></Model>
+		<Model name="Universal 50"></Model>
+	</Make>
+	<Make name="Peda">
+		<Model name="Zum50"></Model>
+	</Make>
+	<Make name="Peugeot">
+		<Model name="Blaster"></Model>
+		<Model name="Django 125"></Model>
+		<Model name="Django 50"></Model>
+		<Model name="Elystar 125"></Model>
+		<Model name="Elystar 150"></Model>
+		<Model name="Elystar 50"></Model>
+		<Model name="GeoStyle 300"></Model>
+		<Model name="Geopolis 125"></Model>
+		<Model name="Geopolis 250"></Model>
+		<Model name="Geopolis 400"></Model>
+		<Model name="Geopolis 500"></Model>
+		<Model name="Jet C-Tech"></Model>
+		<Model name="Kisbee 50"></Model>
+		<Model name="LXR 125"></Model>
+		<Model name="LXR 200"></Model>
+		<Model name="Looxor 100"></Model>
+		<Model name="Looxor 125"></Model>
+		<Model name="Looxor 150"></Model>
+		<Model name="Looxor 50"></Model>
+		<Model name="Ludix 50"></Model>
+		<Model name="Metal-x"></Model>
+		<Model name="Metropolis"></Model>
+		<Model name="Metropolis 400 GT"></Model>
+		<Model name="Satelis 125"></Model>
+		<Model name="Satelis 250"></Model>
+		<Model name="Satelis 400"></Model>
+		<Model name="Satelis 500"></Model>
+		<Model name="Speedfight 100"></Model>
+		<Model name="Speedfight 125"></Model>
+		<Model name="Speedfight 50"></Model>
+		<Model name="Sum-up"></Model>
+		<Model name="TKR"></Model>
+		<Model name="Tweet"></Model>
+		<Model name="Tweet PRO"></Model>
+		<Model name="V-Clic 50"></Model>
+		<Model name="Vivacity 125"></Model>
+		<Model name="Vivacity 50"></Model>
+		<Model name="Zenith"></Model>
+	</Make>
+	<Make name="Phoenix">
+		<Model name="Flight"></Model>
+		<Model name="KT 50"></Model>
+		<Model name="Lux"></Model>
+	</Make>
+	<Make name="Piaggio">
+		<Model name="Beverly 200"></Model>
+		<Model name="Beverly 300"></Model>
+		<Model name="Beverly 350 S"></Model>
+		<Model name="Beverly 500"></Model>
+		<Model name="Beverly Cruiser 250"></Model>
+		<Model name="Beverly Cruiser 500"></Model>
+		<Model name="Beverly S 300"></Model>
+		<Model name="Beverly S 400"></Model>
+		<Model name="Beverly Sport Touring"></Model>
+		<Model name="Beverly Tourer 300"></Model>
+		<Model name="Beverly Tourer 400"></Model>
+		<Model name="Carnaby 125"></Model>
+		<Model name="Carnaby 200"></Model>
+		<Model name="Carnaby Cruiser 300"></Model>
+		<Model name="Ciao"></Model>
+		<Model name="Free 50"></Model>
+		<Model name="Hexagon"></Model>
+		<Model name="Ice"></Model>
+		<Model name="Liberty 125"></Model>
+		<Model name="Liberty 150"></Model>
+		<Model name="Liberty 150 S"></Model>
+		<Model name="Liberty 200"></Model>
+		<Model name="Liberty 50"></Model>
+		<Model name="Liberty Catalyzed"></Model>
+		<Model name="MP3 125 Hybrid"></Model>
+		<Model name="MP3 125 IE"></Model>
+		<Model name="MP3 250"></Model>
+		<Model name="MP3 250 IE"></Model>
+		<Model name="MP3 300 IE"></Model>
+		<Model name="MP3 400"></Model>
+		<Model name="MP3 400 IE"></Model>
+		<Model name="MP3 500"></Model>
+		<Model name="MP3 Hybrid"></Model>
+		<Model name="MP3 LT"></Model>
+		<Model name="MP3 LT 300"></Model>
+		<Model name="MP3 LT 300 Business"></Model>
+		<Model name="MP3 LT 300 Sport"></Model>
+		<Model name="MP3 LT 350 Sport"></Model>
+		<Model name="MP3 LT 500"></Model>
+		<Model name="MP3 LT 500 Executive"></Model>
+		<Model name="MP3 LT 500 Sport"></Model>
+		<Model name="MP3 LT Tourban"></Model>
+		<Model name="MP3 LT Tourban Sport"></Model>
+		<Model name="MP3 Yourban"></Model>
+		<Model name="Medley 125"></Model>
+		<Model name="NRG Power DD"></Model>
+		<Model name="NRG Power DT"></Model>
+		<Model name="NRG mc3 DD"></Model>
+		<Model name="NRG mc3 DT"></Model>
+		<Model name="NTT"></Model>
+		<Model name="Sfera 50"></Model>
+		<Model name="Skipper"></Model>
+		<Model name="Typhoon 125"></Model>
+		<Model name="Typhoon 50"></Model>
+		<Model name="X10"></Model>
+		<Model name="X7"></Model>
+		<Model name="X9"></Model>
+		<Model name="ZIP 50"></Model>
+		<Model name="ZIP SP"></Model>
+	</Make>
+	<Make name="Pioneer">
+		<Model name="Bravo Racing 680"></Model>
+		<Model name="Challenger"></Model>
+		<Model name="Favorite"></Model>
+		<Model name="General"></Model>
+		<Model name="Leader"></Model>
+		<Model name="Pegas"></Model>
+		<Model name="Premium"></Model>
+		<Model name="Racer Sport G-max"></Model>
+		<Model name="Vector"></Model>
+	</Make>
+	<Make name="Pirania">
+		<Model name="Jet"></Model>
+	</Make>
+	<Make name="Prorab">
+		<Model name="Coyote XL"></Model>
+	</Make>
+	<Make name="QingQi">
+		<Model name="QM50QT-3E(G)"></Model>
+		<Model name="QM50QW"></Model>
+		<Model name="Variant"></Model>
+	</Make>
+	<Make name="Qlink">
+		<Model name="Achilles 150"></Model>
+		<Model name="Commuter 250"></Model>
+		<Model name="Pegasus 150"></Model>
+		<Model name="Siena 150"></Model>
+		<Model name="Splendor 400"></Model>
+	</Make>
+	<Make name="Quadro">
+		<Model name="Quadro 350"></Model>
+		<Model name="Quadro 350s"></Model>
+	</Make>
+	<Make name="RATO">
+		<Model name="BWS"></Model>
+		<Model name="RX Classic 50"></Model>
+		<Model name="Reco Cool Cub 125(50)"></Model>
+		<Model name="Reco Cool Cub Lux 125(50)"></Model>
+		<Model name="Simple 125(50)"></Model>
+		<Model name="T-Cool"></Model>
+		<Model name="T-Cub 125(50)"></Model>
+		<Model name="Warrior 125(50)"></Model>
+	</Make>
+	<Make name="Racer">
+		<Model name="Alpha 125 см3 XE SPORT"></Model>
+		<Model name="Alpha Trophy 110"></Model>
+		<Model name="CM48Q ALPHA"></Model>
+		<Model name="CM50Q-2"></Model>
+		<Model name="CM70 ALPHA"></Model>
+		<Model name="Dorado"></Model>
+		<Model name="GS-125"></Model>
+		<Model name="Indigo"></Model>
+		<Model name="MT50QT-13 Shuttle"></Model>
+		<Model name="MT50QT-24 Meteor"></Model>
+		<Model name="Pegasus"></Model>
+		<Model name="RC-G-110 Muravei"></Model>
+		<Model name="RC110N Trophy"></Model>
+		<Model name="RC125T-19 Arrow"></Model>
+		<Model name="RC125T-9 Lupus"></Model>
+		<Model name="RC125T-9C Lupus"></Model>
+		<Model name="RC125T-9X Flame"></Model>
+		<Model name="RC150T-11 Dragon"></Model>
+		<Model name="RC150T-15 Stells"></Model>
+		<Model name="RC150T-15F Flame"></Model>
+		<Model name="RC150T-15X BWS"></Model>
+		<Model name="RC48QA Delta"></Model>
+		<Model name="RC50 ALPHA"></Model>
+		<Model name="RC50-A DELTA"></Model>
+		<Model name="RC50-F Alpha"></Model>
+		<Model name="RC50-K TROPHY"></Model>
+		<Model name="RC50-X Alpha"></Model>
+		<Model name="RC50QT-15J"></Model>
+		<Model name="RC50QT-15K Stells"></Model>
+		<Model name="RC50QT-19 Arrow"></Model>
+		<Model name="RC50QT-3 Meteor"></Model>
+		<Model name="RC50QT-3 Wolf"></Model>
+		<Model name="RC50QT-3S"></Model>
+		<Model name="RC50QT-3X Jog"></Model>
+		<Model name="RC50QT-3X Neo"></Model>
+		<Model name="RC50QT-6 Sagita"></Model>
+		<Model name="RC50QT-6F Flame"></Model>
+		<Model name="RC50QT-6X BWS"></Model>
+		<Model name="RC50QT-9 Lupus"></Model>
+		<Model name="RC50QT-9V Corvus"></Model>
+		<Model name="RC50T-15J Taurus"></Model>
+		<Model name="RC70 ALPHA"></Model>
+		<Model name="Taurus RC150T-15J"></Model>
+		<Model name="Wave RS50CC"></Model>
+		<Model name="YH50-MS Orion"></Model>
+		<Model name="YH50-S Delta"></Model>
+		<Model name="YH50QT-B"></Model>
+		<Model name="YH50QT-F Sirius"></Model>
+		<Model name="YH50QT-J2 Uragan"></Model>
+	</Make>
+	<Make name="Reggy">
+		<Model name="Bison"></Model>
+		<Model name="Breeze"></Model>
+		<Model name="City SL"></Model>
+		<Model name="Falcon"></Model>
+		<Model name="Fantom"></Model>
+		<Model name="Hawk"></Model>
+		<Model name="Joker"></Model>
+		<Model name="Odyssey"></Model>
+		<Model name="RG50M1401"></Model>
+		<Model name="Spider"></Model>
+	</Make>
+	<Make name="Regulmoto">
+		<Model name="Alpha (RM-1)"></Model>
+		<Model name="Alpha (RM-2)"></Model>
+		<Model name="Alpha (RM-3)"></Model>
+		<Model name="Alpha (RM-4)"></Model>
+		<Model name="Digita 50"></Model>
+		<Model name="Eagle 50"></Model>
+		<Model name="Estate 125"></Model>
+		<Model name="Estate 125 EFI"></Model>
+		<Model name="Formula 125"></Model>
+		<Model name="Formula 125 EFI"></Model>
+		<Model name="Grido"></Model>
+		<Model name="Insetto 125"></Model>
+		<Model name="SK100"></Model>
+		<Model name="Saige (KX-V)"></Model>
+		<Model name="Trevis 125"></Model>
+		<Model name="XDV 300i"></Model>
+		<Model name="XDV 300i EFI"></Model>
+		<Model name="XDV ADVENTURE"></Model>
+	</Make>
+	<Make name="Riger">
+		<Model name="Clever New NM50QT-8D"></Model>
+	</Make>
+	<Make name="Riya">
+		<Model name="RY125T-39"></Model>
+	</Make>
+	<Make name="Rockot">
+		<Model name="ALPHA OFFROAD M-11 LUX+"></Model>
+		<Model name="ALPHA OFFROAD M-12"></Model>
+		<Model name="ALPHA TOURIST M-11"></Model>
+		<Model name="ALPHA TOURIST M-12"></Model>
+	</Make>
+	<Make name="Roliz">
+		<Model name="Alpha Lux"></Model>
+		<Model name="Alpha Offroad"></Model>
+		<Model name="Alpha Restyling"></Model>
+		<Model name="Alpha Touist"></Model>
+	</Make>
+	<Make name="Rubikon">
+		<Model name="Pro Sport"></Model>
+		<Model name="Sport 110"></Model>
+	</Make>
+	<Make name="Rutrike">
+		<Model name="Boomerang"></Model>
+		<Model name="Navigator"></Model>
+		<Model name="Pass S2"></Model>
+		<Model name="S1 V2"></Model>
+		<Model name="S2 L1"></Model>
+		<Model name="S2 V2"></Model>
+		<Model name="Шкипер New"></Model>
+	</Make>
+	<Make name="S2 motors">
+		<Model name="Alpha RX"></Model>
+		<Model name="Alpha Турист"></Model>
+		<Model name="Alpha Ягуар Lux"></Model>
+		<Model name="Alpha Ягуар New"></Model>
+		<Model name="Corvette"></Model>
+		<Model name="Fire Blade"></Model>
+		<Model name="Альфа RS 10 (Alpha RS 10)"></Model>
+		<Model name="Альфа RS 12 (Alpha RS 12)"></Model>
+		<Model name="Альфа RS 13 (Alpha RS 13)"></Model>
+		<Model name="Альфа Лесник"></Model>
+		<Model name="Альфа Спорт"></Model>
+		<Model name="Альфа Ягуар Лесник 11 (Alpha Jaguar Forest 11)"></Model>
+		<Model name="Альфа Ягуар Лесник Люкс 11 (Alpha Jaguar Forest Lux 11)"></Model>
+		<Model name="Альфа Ягуар Люкс 11 (Alpha Jaguar Lux 11)"></Model>
+	</Make>
+	<Make name="SCOUT">
+		<Model name="YD50Q-6"></Model>
+	</Make>
+	<Make name="SHULZ">
+		<Model name="E200"></Model>
+	</Make>
+	<Make name="SWIFT">
+		<Model name="STREET YD50Q-6"></Model>
+	</Make>
+	<Make name="Sabur">
+		<Model name="S 500 3A"></Model>
+	</Make>
+	<Make name="Sachs">
+		<Model name="49ER"></Model>
+		<Model name="49ER II"></Model>
+		<Model name="Bee 125"></Model>
+		<Model name="Bee 50"></Model>
+		<Model name="Eagle 125"></Model>
+		<Model name="Eagle 50"></Model>
+		<Model name="LF 125"></Model>
+		<Model name="MadAss 49cc"></Model>
+		<Model name="SR 125"></Model>
+		<Model name="SX 1"></Model>
+		<Model name="Speedforce"></Model>
+	</Make>
+	<Make name="Sagitta">
+		<Model name="Acuto"></Model>
+		<Model name="Comodo"></Model>
+		<Model name="Elegante"></Model>
+		<Model name="Esperto"></Model>
+		<Model name="Forte"></Model>
+		<Model name="Insolente"></Model>
+		<Model name="Rapido"></Model>
+		<Model name="Resistente"></Model>
+		<Model name="Volare"></Model>
+	</Make>
+	<Make name="Sakura">
+		<Model name="TDR038Z-978"></Model>
+	</Make>
+	<Make name="Scorpion">
+		<Model name="BD50QT-8A"></Model>
+	</Make>
+	<Make name="Shandao">
+		<Model name="Longtu 350"></Model>
+	</Make>
+	<Make name="Sigma">
+		<Model name="City"></Model>
+		<Model name="KT50 Sport"></Model>
+		<Model name="Sport (VRX)"></Model>
+	</Make>
+	<Make name="Simargl Elektro">
+		<Model name="Trike"></Model>
+	</Make>
+	<Make name="Simbel">
+		<Model name="RT-50"></Model>
+	</Make>
+	<Make name="Simson">
+		<Model name="KR50"></Model>
+		<Model name="KR51 Schwalbe"></Model>
+		<Model name="Spatz"></Model>
+	</Make>
+	<Make name="Sinclair">
+		<Model name="C5"></Model>
+	</Make>
+	<Make name="Sinski">
+		<Model name="Corsa Fratello XSJ150T-11"></Model>
+	</Make>
+	<Make name="Sirius">
+		<Model name="Cross"></Model>
+		<Model name="Extra"></Model>
+		<Model name="SM 48"></Model>
+		<Model name="Sport"></Model>
+	</Make>
+	<Make name="Skyba">
+		<Model name="DF150T-L"></Model>
+	</Make>
+	<Make name="Skyboard">
+		<Model name="Altai 4000W"></Model>
+		<Model name="Amur Blue BR100 5000W"></Model>
+		<Model name="Amur Red BR100 5000W"></Model>
+		<Model name="BR10"></Model>
+		<Model name="BR100"></Model>
+		<Model name="BR20-2WD"></Model>
+		<Model name="BR20-2WD Pro"></Model>
+		<Model name="BR20-3000 Pro"></Model>
+		<Model name="BR20-3000 Pro Fast"></Model>
+		<Model name="BR30-2WD Pro"></Model>
+		<Model name="BR30-3000 Pro"></Model>
+		<Model name="BR30-3000 Pro Fast"></Model>
+		<Model name="BR4000 Fast"></Model>
+		<Model name="BR50-3000 Pro"></Model>
+		<Model name="BR50-3000 Pro Max"></Model>
+		<Model name="BR500-3000 Max"></Model>
+		<Model name="BR60"></Model>
+		<Model name="BR70-2WD"></Model>
+		<Model name="BR70-3000 Max"></Model>
+		<Model name="BR70-4000 Max"></Model>
+		<Model name="BR90"></Model>
+		<Model name="Chopper 3000 Pro"></Model>
+		<Model name="Crimea 5000W"></Model>
+		<Model name="Dnepr Chopper 4000W"></Model>
+		<Model name="Elbrus Chopper 4000W"></Model>
+		<Model name="Enisei Chopper 4000W"></Model>
+		<Model name="FAR EAST 5000W"></Model>
+		<Model name="Kazbek 1200W"></Model>
+		<Model name="Kuban 1500W"></Model>
+		<Model name="Sakhalin 1200W"></Model>
+		<Model name="Trike BR40-3000 Pro"></Model>
+		<Model name="Trike BR40-3000 Pro Fast"></Model>
+		<Model name="Trike BR60-3000 Pro"></Model>
+		<Model name="Trike BR60-3000 Pro Fast"></Model>
+		<Model name="Trike BR80"></Model>
+		<Model name="Trike Chopper-2000"></Model>
+	</Make>
+	<Make name="Skygo">
+		<Model name="SG126"></Model>
+	</Make>
+	<Make name="Smile">
+		<Model name="QM"></Model>
+	</Make>
+	<Make name="Sonik">
+		<Model name="Axis"></Model>
+		<Model name="B10"></Model>
+		<Model name="Cool Boy"></Model>
+		<Model name="Corsa"></Model>
+		<Model name="DF150T-L"></Model>
+		<Model name="Delta"></Model>
+		<Model name="Eagle King"></Model>
+		<Model name="Eagle Wind"></Model>
+		<Model name="Fortune LH50QT-6"></Model>
+		<Model name="Freewind"></Model>
+		<Model name="Hunt Eagle 7"></Model>
+		<Model name="Lingben LB150T-12"></Model>
+		<Model name="Little Angel"></Model>
+		<Model name="Little Fish"></Model>
+		<Model name="Little Shark"></Model>
+		<Model name="Mach 2"></Model>
+		<Model name="Monza"></Model>
+		<Model name="RVX 150"></Model>
+		<Model name="Raptor"></Model>
+		<Model name="Speedmax"></Model>
+		<Model name="Spring Wind"></Model>
+		<Model name="Strada"></Model>
+		<Model name="Tour"></Model>
+		<Model name="Tours"></Model>
+		<Model name="Vortex"></Model>
+		<Model name="Yh50tq"></Model>
+	</Make>
+	<Make name="Spark">
+		<Model name="Sp 80"></Model>
+	</Make>
+	<Make name="Speed Gear">
+		<Model name="SG50QT"></Model>
+	</Make>
+	<Make name="Spyracing">
+		<Model name="50QT"></Model>
+	</Make>
+	<Make name="Stalker">
+		<Model name="LB50QT-16"></Model>
+	</Make>
+	<Make name="Star Quad">
+		<Model name="JL-50QT-5"></Model>
+	</Make>
+	<Make name="Stels">
+		<Model name="Alpha"></Model>
+		<Model name="Alpha 50 Benelli"></Model>
+		<Model name="Arrow"></Model>
+		<Model name="Arrow 100 benelli"></Model>
+		<Model name="Arrow 50 benelli"></Model>
+		<Model name="Caffenero"></Model>
+		<Model name="Leader"></Model>
+		<Model name="Navigator 200 - f50"></Model>
+		<Model name="Orbit"></Model>
+		<Model name="Outlander"></Model>
+		<Model name="Rash"></Model>
+		<Model name="Skif"></Model>
+		<Model name="Tactic"></Model>
+		<Model name="Tactic 50"></Model>
+		<Model name="Velvet"></Model>
+		<Model name="Vortex"></Model>
+		<Model name="Zion"></Model>
+	</Make>
+	<Make name="Stingear">
+		<Model name="Bajo"></Model>
+		<Model name="Bajo-2"></Model>
+		<Model name="Dingo"></Model>
+		<Model name="Dream"></Model>
+		<Model name="Fantom"></Model>
+		<Model name="Hercules"></Model>
+		<Model name="Mirage"></Model>
+		<Model name="Mystic"></Model>
+		<Model name="Nostalgy"></Model>
+		<Model name="Razor"></Model>
+		<Model name="XY200T-7"></Model>
+	</Make>
+	<Make name="Stingray">
+		<Model name="125"></Model>
+	</Make>
+	<Make name="Storm">
+		<Model name="125"></Model>
+	</Make>
+	<Make name="Strom">
+		<Model name="Dio DY50QT"></Model>
+		<Model name="TDST-50"></Model>
+		<Model name="TR"></Model>
+	</Make>
+	<Make name="Sukida">
+		<Model name="Dragonfly"></Model>
+	</Make>
+	<Make name="Sundiro">
+		<Model name="50 CH Greiff"></Model>
+	</Make>
+	<Make name="Sunny">
+		<Model name="SY150T-18 Shtorm"></Model>
+	</Make>
+	<Make name="Sunra">
+		<Model name="Grace"></Model>
+	</Make>
+	<Make name="Super">
+		<Model name="Sport Acar XB50T18"></Model>
+	</Make>
+	<Make name="Super Soco">
+		<Model name="CPx"></Model>
+		<Model name="CPx1"></Model>
+		<Model name="CU Mini"></Model>
+		<Model name="CUx"></Model>
+		<Model name="CUx SE DUCATI"></Model>
+		<Model name="CUx Scooter"></Model>
+		<Model name="VS1"></Model>
+	</Make>
+	<Make name="Suzuki">
+		<Model name="AN 125"></Model>
+		<Model name="AP 50"></Model>
+		<Model name="Address 110"></Model>
+		<Model name="Address 120"></Model>
+		<Model name="Address 50 NEW CA1NA"></Model>
+		<Model name="Address AD 50"></Model>
+		<Model name="Address FL125"></Model>
+		<Model name="Address V100"></Model>
+		<Model name="Address V125"></Model>
+		<Model name="Address V125G"></Model>
+		<Model name="Address V125S"></Model>
+		<Model name="Address V125SS"></Model>
+		<Model name="Address V50"></Model>
+		<Model name="Address V50 G"></Model>
+		<Model name="Avenis 125"></Model>
+		<Model name="Avenis 150"></Model>
+		<Model name="Bara"></Model>
+		<Model name="Birdie 50"></Model>
+		<Model name="Birdie 90"></Model>
+		<Model name="Burgman (SkyWave) 250"></Model>
+		<Model name="Burgman (SkyWave) 400"></Model>
+		<Model name="Burgman (SkyWave) 650"></Model>
+		<Model name="Burgman UH 125"></Model>
+		<Model name="Burgman UH 150"></Model>
+		<Model name="Burgman UH 200"></Model>
+		<Model name="Carna"></Model>
+		<Model name="Choinori"></Model>
+		<Model name="FA50"></Model>
+		<Model name="Gemma"></Model>
+		<Model name="Hayate 125 FI"></Model>
+		<Model name="Hi-Up"></Model>
+		<Model name="Katana AY50"></Model>
+		<Model name="Katana R50"></Model>
+		<Model name="Landie 50"></Model>
+		<Model name="Lets 1"></Model>
+		<Model name="Lets 2"></Model>
+		<Model name="Lets 2 New"></Model>
+		<Model name="Lets 4"></Model>
+		<Model name="Lets 4 Basket"></Model>
+		<Model name="Lets 5"></Model>
+		<Model name="Lets 5G"></Model>
+		<Model name="Lets 6"></Model>
+		<Model name="Love 3"></Model>
+		<Model name="Mollet"></Model>
+		<Model name="Nex 150"></Model>
+		<Model name="RB50 GAG"></Model>
+		<Model name="Ran"></Model>
+		<Model name="SIXteen 125"></Model>
+		<Model name="SIXteen 150"></Model>
+		<Model name="Sepia"></Model>
+		<Model name="Sepia AF50"></Model>
+		<Model name="Sepia AJ-50"></Model>
+		<Model name="Sepia ZZ"></Model>
+		<Model name="Skywave 250S-3"></Model>
+		<Model name="Skywave 650 LX"></Model>
+		<Model name="Street Magic"></Model>
+		<Model name="Vecstar 125"></Model>
+		<Model name="Vecstar 150"></Model>
+		<Model name="Verde"></Model>
+		<Model name="ZZ"></Model>
+	</Make>
+	<Make name="Sym">
+		<Model name="Allo 125"></Model>
+		<Model name="Allo 150"></Model>
+		<Model name="Allo 50"></Model>
+		<Model name="Attila Elizabeth"></Model>
+		<Model name="Attila Victoria"></Model>
+		<Model name="Bonus 100"></Model>
+		<Model name="Citycom 125I"></Model>
+		<Model name="Citycom 300I"></Model>
+		<Model name="Crox 125"></Model>
+		<Model name="Crox 50"></Model>
+		<Model name="Cruisym a 300"></Model>
+		<Model name="DD 50"></Model>
+		<Model name="Euro MX"></Model>
+		<Model name="Excel"></Model>
+		<Model name="Fiddle"></Model>
+		<Model name="Fighter 150"></Model>
+		<Model name="GTS 125"></Model>
+		<Model name="GTS 200"></Model>
+		<Model name="GTS 250"></Model>
+		<Model name="GTS 300"></Model>
+		<Model name="GTS 300 Evo"></Model>
+		<Model name="GTS 300i Evo"></Model>
+		<Model name="HD 125"></Model>
+		<Model name="HD 200"></Model>
+		<Model name="HD 300"></Model>
+		<Model name="Jet 4 125"></Model>
+		<Model name="Jet 4 50"></Model>
+		<Model name="Jet BasiX"></Model>
+		<Model name="Jet EuroX"></Model>
+		<Model name="Jet SportX"></Model>
+		<Model name="Jet14 200"></Model>
+		<Model name="Jet4 R Naked 50"></Model>
+		<Model name="Joymax 300i"></Model>
+		<Model name="Joyride"></Model>
+		<Model name="Magic"></Model>
+		<Model name="Mask"></Model>
+		<Model name="Maxsym 400"></Model>
+		<Model name="Maxsym 600"></Model>
+		<Model name="Maxsym TL 500"></Model>
+		<Model name="Maxsym TL 500i"></Model>
+		<Model name="Megalo"></Model>
+		<Model name="Mio"></Model>
+		<Model name="Mio 50"></Model>
+		<Model name="Orbit"></Model>
+		<Model name="Orbit 125"></Model>
+		<Model name="Orbit 50"></Model>
+		<Model name="R1-Z"></Model>
+		<Model name="RS"></Model>
+		<Model name="RV 250"></Model>
+		<Model name="RV1"></Model>
+		<Model name="Super Duke 125"></Model>
+		<Model name="Symphony 125"></Model>
+		<Model name="Symphony 50"></Model>
+		<Model name="Symphony ST 200"></Model>
+		<Model name="VS"></Model>
+		<Model name="X-Pro"></Model>
+	</Make>
+	<Make name="TGB">
+		<Model name="101R"></Model>
+		<Model name="303R"></Model>
+		<Model name="Express 50"></Model>
+		<Model name="R50X"></Model>
+	</Make>
+	<Make name="TRION">
+		<Model name="Shturman dual"></Model>
+	</Make>
+	<Make name="TVS">
+		<Model name="Scooty"></Model>
+		<Model name="Super XL"></Model>
+	</Make>
+	<Make name="Tachilla">
+		<Model name="Eagle"></Model>
+		<Model name="Hunter"></Model>
+		<Model name="Little Star"></Model>
+		<Model name="Wind"></Model>
+		<Model name="X-Fighter BT49QT-9F3"></Model>
+	</Make>
+	<Make name="TaiLG">
+		<Model name="TDR 161Z"></Model>
+		<Model name="TDR 21CZ"></Model>
+		<Model name="TDR 222Z"></Model>
+		<Model name="TDR 341Z"></Model>
+		<Model name="TDR 538Z"></Model>
+		<Model name="TDR 554Z"></Model>
+		<Model name="TDR 810Z"></Model>
+	</Make>
+	<Make name="Tank Sports">
+		<Model name="Urban 50"></Model>
+		<Model name="Urban Classic 150"></Model>
+		<Model name="Urban Courier 150"></Model>
+		<Model name="Urban Racer 150"></Model>
+		<Model name="Urban Sporty 150"></Model>
+		<Model name="Urban Viaggio 150"></Model>
+	</Make>
+	<Make name="Taotao">
+		<Model name="CY50T-8C"></Model>
+	</Make>
+	<Make name="Tirrex">
+		<Model name="FX502"></Model>
+	</Make>
+	<Make name="Tomos">
+		<Model name="25-Luxe"></Model>
+		<Model name="APN 6"></Model>
+		<Model name="Alpino"></Model>
+		<Model name="Arrow"></Model>
+		<Model name="E-Lite"></Model>
+		<Model name="E-Lite 45"></Model>
+		<Model name="Flexer"></Model>
+		<Model name="Flexer 50"></Model>
+		<Model name="Hip-Hop"></Model>
+		<Model name="Motos"></Model>
+		<Model name="Nitro 125"></Model>
+		<Model name="Nitro 50"></Model>
+		<Model name="PackR"></Model>
+		<Model name="Quadro 50"></Model>
+		<Model name="Racing"></Model>
+		<Model name="Revival TS"></Model>
+		<Model name="Roadie"></Model>
+		<Model name="ST (A35)"></Model>
+		<Model name="Sprint"></Model>
+		<Model name="Standard"></Model>
+		<Model name="Street Soul"></Model>
+		<Model name="Streetmate"></Model>
+		<Model name="Tomos LX"></Model>
+		<Model name="Twister 125"></Model>
+		<Model name="Twister 50"></Model>
+		<Model name="Youngst R Racing"></Model>
+	</Make>
+	<Make name="Tornado">
+		<Model name="Fighter RR"></Model>
+	</Make>
+	<Make name="Tosheen">
+		<Model name="Strada Jazz"></Model>
+	</Make>
+	<Make name="Tracer">
+		<Model name="ADV 50cc"></Model>
+		<Model name="Jet 150"></Model>
+	</Make>
+	<Make name="Tramp">
+		<Model name="50 QT-2"></Model>
+	</Make>
+	<Make name="Truva">
+		<Model name="TR 150T-4"></Model>
+	</Make>
+	<Make name="UM">
+		<Model name="BWS 50"></Model>
+		<Model name="Bobcat 150"></Model>
+		<Model name="Fashion 150"></Model>
+		<Model name="Leike"></Model>
+		<Model name="Matrix II"></Model>
+		<Model name="Orlando 150"></Model>
+		<Model name="Orlando 50"></Model>
+		<Model name="Purga 150"></Model>
+		<Model name="Skywing 150"></Model>
+		<Model name="Tactic 150"></Model>
+		<Model name="Wave 50"></Model>
+	</Make>
+	<Make name="UMC">
+		<Model name="BT49QT-12E1"></Model>
+		<Model name="Forsage"></Model>
+		<Model name="TourS"></Model>
+	</Make>
+	<Make name="Ultron">
+		<Model name="T108 PRO"></Model>
+	</Make>
+	<Make name="Universal">
+		<Model name="Colt 2"></Model>
+		<Model name="Delivery 50cc"></Model>
+		<Model name="Epoch Like 50"></Model>
+		<Model name="F1 150"></Model>
+		<Model name="Nordwing"></Model>
+		<Model name="Retro"></Model>
+		<Model name="Rocket 50cc"></Model>
+		<Model name="Skywing"></Model>
+		<Model name="Storm INDIGO"></Model>
+	</Make>
+	<Make name="Vectrix">
+		<Model name="Electric 3-Wheeler"></Model>
+		<Model name="Electric Maxi-Scooter"></Model>
+	</Make>
+	<Make name="Vega">
+		<Model name="KT 50"></Model>
+	</Make>
+	<Make name="Venta">
+		<Model name="Allegro"></Model>
+		<Model name="FK50QT-1"></Model>
+		<Model name="FK50QT-6 Orlando"></Model>
+		<Model name="FL50QT-5 Lux"></Model>
+		<Model name="JX150T-6"></Model>
+		<Model name="JX50QT"></Model>
+		<Model name="VT50QT"></Model>
+	</Make>
+	<Make name="Vento">
+		<Model name="City"></Model>
+		<Model name="Corsa"></Model>
+		<Model name="Corsa 50 (150)"></Model>
+		<Model name="Corsica"></Model>
+		<Model name="Hot Rod"></Model>
+		<Model name="Inferno"></Model>
+		<Model name="MAX 200"></Model>
+		<Model name="MAX RS 150 Efi"></Model>
+		<Model name="Naked"></Model>
+		<Model name="PCX-200cc"></Model>
+		<Model name="Phantera"></Model>
+		<Model name="Phantom"></Model>
+		<Model name="Retro"></Model>
+		<Model name="Riva"></Model>
+		<Model name="Riva II RX"></Model>
+		<Model name="Riva II classic"></Model>
+		<Model name="Riva II СX"></Model>
+		<Model name="Riva RX"></Model>
+		<Model name="Sauron"></Model>
+		<Model name="Smart"></Model>
+		<Model name="Smart II"></Model>
+		<Model name="Smart III"></Model>
+		<Model name="Sorrento"></Model>
+		<Model name="Triton"></Model>
+		<Model name="Turino"></Model>
+		<Model name="Vmc Icorsa"></Model>
+		<Model name="ZIP"></Model>
+	</Make>
+	<Make name="Vespa">
+		<Model name="946"></Model>
+		<Model name="946 Emporio Armani"></Model>
+		<Model name="946 RED"></Model>
+		<Model name="Cosa"></Model>
+		<Model name="ET2"></Model>
+		<Model name="ET4"></Model>
+		<Model name="Elettrica"></Model>
+		<Model name="GT"></Model>
+		<Model name="GTS 125"></Model>
+		<Model name="GTS 150"></Model>
+		<Model name="GTS 250"></Model>
+		<Model name="GTS 300"></Model>
+		<Model name="GTS Super 300"></Model>
+		<Model name="GTV 125"></Model>
+		<Model name="GTV 250"></Model>
+		<Model name="LX 125"></Model>
+		<Model name="LX 150"></Model>
+		<Model name="LX 50"></Model>
+		<Model name="LXV 125"></Model>
+		<Model name="LXV 50"></Model>
+		<Model name="PK 50"></Model>
+		<Model name="PX 150"></Model>
+		<Model name="PX 200"></Model>
+		<Model name="Primavera 125"></Model>
+		<Model name="Primavera 150 ABS"></Model>
+		<Model name="Primavera 50"></Model>
+		<Model name="Primavera Elettrica"></Model>
+		<Model name="S 100"></Model>
+		<Model name="S 125"></Model>
+		<Model name="S 50"></Model>
+		<Model name="Sei Giorni (GTV 300)"></Model>
+		<Model name="Sprint 125"></Model>
+		<Model name="Sprint 150"></Model>
+		<Model name="Sprint 50"></Model>
+		<Model name="VX 125"></Model>
+		<Model name="Vie Delle Mode (GTV 300)"></Model>
+	</Make>
+	<Make name="Vingorous">
+		<Model name="Piranya"></Model>
+	</Make>
+	<Make name="Viper">
+		<Model name="Active"></Model>
+		<Model name="Booster"></Model>
+		<Model name="Delta"></Model>
+		<Model name="F50"></Model>
+		<Model name="Kinetik 80"></Model>
+		<Model name="Navigator"></Model>
+		<Model name="Phantom"></Model>
+		<Model name="Race 50"></Model>
+		<Model name="Salute F-50"></Model>
+		<Model name="Storm"></Model>
+		<Model name="Storm 150"></Model>
+		<Model name="Wind"></Model>
+	</Make>
+	<Make name="Voge">
+		<Model name="SR4"></Model>
+	</Make>
+	<Make name="Volteco">
+		<Model name="Easy 350W"></Model>
+		<Model name="Stormer 3000W"></Model>
+		<Model name="TRIKE"></Model>
+		<Model name="TRIKE New"></Model>
+	</Make>
+	<Make name="Vortex">
+		<Model name="City"></Model>
+		<Model name="Dragon Eye"></Model>
+		<Model name="Hattori"></Model>
+		<Model name="Jordan"></Model>
+		<Model name="Katana"></Model>
+		<Model name="NRG"></Model>
+		<Model name="Ninja"></Model>
+		<Model name="Pro Sport"></Model>
+		<Model name="Scorpion"></Model>
+		<Model name="Street Katana"></Model>
+		<Model name="Streetfighter"></Model>
+		<Model name="Streetfire"></Model>
+		<Model name="Turbo"></Model>
+		<Model name="Warlords"></Model>
+		<Model name="Wildcat"></Model>
+	</Make>
+	<Make name="WUXI">
+		<Model name="DK"></Model>
+		<Model name="DK-Z"></Model>
+	</Make>
+	<Make name="Wangye">
+		<Model name="WY150T-3"></Model>
+		<Model name="WY150T-5"></Model>
+	</Make>
+	<Make name="Wanmi">
+		<Model name="Mini 24AH"></Model>
+	</Make>
+	<Make name="Wanqiang motorcycle">
+		<Model name="City"></Model>
+		<Model name="Colt"></Model>
+		<Model name="Colt 2"></Model>
+		<Model name="Crosstrack"></Model>
+		<Model name="Flash"></Model>
+		<Model name="Galaxy"></Model>
+		<Model name="Jordan"></Model>
+		<Model name="Joyride"></Model>
+		<Model name="Largo"></Model>
+		<Model name="Nordwing"></Model>
+		<Model name="Quantum"></Model>
+		<Model name="Raid"></Model>
+		<Model name="Rubikon"></Model>
+		<Model name="Scirocco"></Model>
+		<Model name="Shuriken"></Model>
+		<Model name="Sigma"></Model>
+		<Model name="Sigma Sport"></Model>
+		<Model name="Stingray"></Model>
+		<Model name="Storm"></Model>
+		<Model name="Strike"></Model>
+		<Model name="Swift"></Model>
+		<Model name="Tempo"></Model>
+		<Model name="Trickler"></Model>
+		<Model name="Vega"></Model>
+		<Model name="Vortex"></Model>
+		<Model name="Vortex Wildcat"></Model>
+		<Model name="Wizard"></Model>
+		<Model name="Zodiak"></Model>
+	</Make>
+	<Make name="Wels">
+		<Model name="Action"></Model>
+		<Model name="Alpha"></Model>
+		<Model name="BWS"></Model>
+		<Model name="Beatles"></Model>
+		<Model name="Bison"></Model>
+		<Model name="Boma"></Model>
+		<Model name="Eagle"></Model>
+		<Model name="Grace"></Model>
+		<Model name="Kiddy"></Model>
+		<Model name="Marne"></Model>
+		<Model name="NEW CHOKE"></Model>
+		<Model name="Orlando"></Model>
+		<Model name="Paladin"></Model>
+		<Model name="Purga"></Model>
+		<Model name="SPORT FS"></Model>
+		<Model name="Special"></Model>
+		<Model name="Storm"></Model>
+		<Model name="TOURS"></Model>
+		<Model name="Thunder"></Model>
+		<Model name="TrueSpirit"></Model>
+		<Model name="VERDЕ"></Model>
+		<Model name="Viper"></Model>
+		<Model name="XG"></Model>
+	</Make>
+	<Make name="White Siberia">
+		<Model name="Ikra 5000 W"></Model>
+		<Model name="Light 1200 W"></Model>
+		<Model name="Mini R 1200 W"></Model>
+		<Model name="Pro 2500 W"></Model>
+		<Model name="Pro 2WD 4000 W"></Model>
+		<Model name="Pro Black Edition 5000W"></Model>
+		<Model name="Pro Max 3950 W"></Model>
+		<Model name="Pro Trike 3000 W"></Model>
+		<Model name="Sibtrike 2000 W"></Model>
+		<Model name="Sibtrike L 2000W"></Model>
+		<Model name="Sibtrike R 2000 W"></Model>
+		<Model name="TRIKE MINI 2000W"></Model>
+		<Model name="WS-IKRA 5000W"></Model>
+		<Model name="WS-MINI R 1200W"></Model>
+		<Model name="WS-MUXA 1300W"></Model>
+		<Model name="WS-PRO 2WD 4000W"></Model>
+		<Model name="WS-PRO MAX+ 3950W"></Model>
+		<Model name="WS-PRO TRIKE+ 3000W"></Model>
+		<Model name="WS-PRO+ 2500W"></Model>
+		<Model name="WS-SOCHI 1300W"></Model>
+		<Model name="WS-WILD WHEEL 3950W"></Model>
+		<Model name="Wild Wheel 3950 W"></Model>
+	</Make>
+	<Make name="Wizard">
+		<Model name="BWS"></Model>
+	</Make>
+	<Make name="Wolong">
+		<Model name="C1 PRO"></Model>
+	</Make>
+	<Make name="Wonjan">
+		<Model name="Classic"></Model>
+	</Make>
+	<Make name="Woqu">
+		<Model name="C1"></Model>
+		<Model name="C1 PRO"></Model>
+		<Model name="X1"></Model>
+	</Make>
+	<Make name="Wottan">
+		<Model name="Storm"></Model>
+	</Make>
+	<Make name="X-Man">
+		<Model name="LB50QT-37"></Model>
+	</Make>
+	<Make name="X-Motors">
+		<Model name="City"></Model>
+		<Model name="City PRO"></Model>
+		<Model name="Corsa"></Model>
+		<Model name="Corsa PRO"></Model>
+		<Model name="Hero 200"></Model>
+		<Model name="Inferno 150cc Honda Click"></Model>
+		<Model name="Naked"></Model>
+		<Model name="Naked PRO"></Model>
+		<Model name="Retro"></Model>
+		<Model name="Retro PRO"></Model>
+		<Model name="Smart"></Model>
+		<Model name="Smart II PRO"></Model>
+		<Model name="Smart PRO"></Model>
+	</Make>
+	<Make name="XBmoto">
+		<Model name="XB 50T-3"></Model>
+	</Make>
+	<Make name="Xiaomi">
+		<Model name="Himo T1"></Model>
+	</Make>
+	<Make name="XingYue">
+		<Model name="SEEYES XY600DT-6"></Model>
+		<Model name="SEEYES XY800DT-2"></Model>
+		<Model name="XY125T-11"></Model>
+		<Model name="XY125ZK"></Model>
+		<Model name="XY150T-4"></Model>
+		<Model name="XY150T-6"></Model>
+		<Model name="XY150ZK"></Model>
+		<Model name="XY150ZK-3"></Model>
+		<Model name="XY150ZK-B"></Model>
+		<Model name="XY150ZK-C"></Model>
+		<Model name="XY200T-6"></Model>
+		<Model name="XY200T-7"></Model>
+		<Model name="XY260T-4"></Model>
+		<Model name="XY50QT-15"></Model>
+		<Model name="XY50ZK"></Model>
+	</Make>
+	<Make name="Xinling">
+		<Model name="XL125T-7A"></Model>
+	</Make>
+	<Make name="Xuzhou Tongxinhe">
+		<Model name="CN"></Model>
+		<Model name="SY"></Model>
+		<Model name="TSL"></Model>
+	</Make>
+	<Make name="Yadea">
+		<Model name="E8S"></Model>
+	</Make>
+	<Make name="Yakuza">
+		<Model name="Fabius"></Model>
+	</Make>
+	<Make name="Yamaha">
+		<Model name="Active 35R"></Model>
+		<Model name="Aerox 100"></Model>
+		<Model name="Aerox 155"></Model>
+		<Model name="Aerox 50"></Model>
+		<Model name="Aerox R 50"></Model>
+		<Model name="Aerox TY race 50 c"></Model>
+		<Model name="Axis"></Model>
+		<Model name="Axis Grand 100 cc"></Model>
+		<Model name="BJ (YL50)"></Model>
+		<Model name="BWs 100"></Model>
+		<Model name="BWs 125 X Motard"></Model>
+		<Model name="BWs 150"></Model>
+		<Model name="BWs 50"></Model>
+		<Model name="Beluga"></Model>
+		<Model name="Champ"></Model>
+		<Model name="Champ CX"></Model>
+		<Model name="Cuxi 100"></Model>
+		<Model name="Cygnus RS"></Model>
+		<Model name="CygnusX"></Model>
+		<Model name="CygnusX 125"></Model>
+		<Model name="E-vino"></Model>
+		<Model name="Excel"></Model>
+		<Model name="Filano"></Model>
+		<Model name="Filano 110"></Model>
+		<Model name="Filano 115"></Model>
+		<Model name="Filano 125"></Model>
+		<Model name="Filano Grand"></Model>
+		<Model name="Fino"></Model>
+		<Model name="Fino 115"></Model>
+		<Model name="Fino 115 Grande Luxury Red"></Model>
+		<Model name="Fino 115 Grande Royal Blue"></Model>
+		<Model name="Fino 115 Premium Black Expresso"></Model>
+		<Model name="Fino 115 Premium Caramel Brown"></Model>
+		<Model name="Fino 115 Premium White Latte"></Model>
+		<Model name="Fino 115 Sporty Classic Blue"></Model>
+		<Model name="Fino 115 Sporty Retro Green"></Model>
+		<Model name="Fino 115 Sporty Vintage Red"></Model>
+		<Model name="Fino 125"></Model>
+		<Model name="GTR 125"></Model>
+		<Model name="GTR AERO"></Model>
+		<Model name="Gear"></Model>
+		<Model name="Gear 2T"></Model>
+		<Model name="Gear 4T"></Model>
+		<Model name="Giggle"></Model>
+		<Model name="Giggle 50"></Model>
+		<Model name="Grand Filano"></Model>
+		<Model name="Grand Filano 125"></Model>
+		<Model name="JYM 110"></Model>
+		<Model name="Jog"></Model>
+		<Model name="Jog AY01"></Model>
+		<Model name="Jog Aprio"></Model>
+		<Model name="Jog Artistic "></Model>
+		<Model name="Jog CV50"></Model>
+		<Model name="Jog CoolStyle"></Model>
+		<Model name="Jog Next Zone"></Model>
+		<Model name="Jog Poche"></Model>
+		<Model name="Jog RR"></Model>
+		<Model name="Jog RR50"></Model>
+		<Model name="Jog SA16"></Model>
+		<Model name="Jog SA36J"></Model>
+		<Model name="Jog ZR-3"></Model>
+		<Model name="MLN - Legendary 110(50)"></Model>
+		<Model name="Majesty 125/180"></Model>
+		<Model name="Majesty 155S"></Model>
+		<Model name="Majesty 250"></Model>
+		<Model name="Majesty 400"></Model>
+		<Model name="Malic"></Model>
+		<Model name="Mate"></Model>
+		<Model name="Maxam (CP250)"></Model>
+		<Model name="Maxam 250 CC"></Model>
+		<Model name="Maxam 3000"></Model>
+		<Model name="Maxter"></Model>
+		<Model name="Maxter 125"></Model>
+		<Model name="Maxter 150"></Model>
+		<Model name="Mint"></Model>
+		<Model name="Mio MX"></Model>
+		<Model name="Mio/Ego"></Model>
+		<Model name="NM-X"></Model>
+		<Model name="NMAX 125"></Model>
+		<Model name="NMAX 150"></Model>
+		<Model name="NMAX 155"></Model>
+		<Model name="NMAX 200"></Model>
+		<Model name="NVX 150"></Model>
+		<Model name="NVX 50"></Model>
+		<Model name="Neos"></Model>
+		<Model name="Night MAX"></Model>
+		<Model name="Nouvo"></Model>
+		<Model name="Nouvo MX"></Model>
+		<Model name="Nouvo RC"></Model>
+		<Model name="Nouvo S"></Model>
+		<Model name="Nouvo Z"></Model>
+		<Model name="Nozza Grande 150"></Model>
+		<Model name="Passol"></Model>
+		<Model name="Passol (EC-02)"></Model>
+		<Model name="Q-BIX"></Model>
+		<Model name="RX 50 Special"></Model>
+		<Model name="Salient"></Model>
+		<Model name="Slider"></Model>
+		<Model name="Smax"></Model>
+		<Model name="Soul GT"></Model>
+		<Model name="Super Jog ZR"></Model>
+		<Model name="T-MAX (XP560D)"></Model>
+		<Model name="TMAX"></Model>
+		<Model name="TMAX 2012"></Model>
+		<Model name="TMAX 530"></Model>
+		<Model name="TMAX DX"></Model>
+		<Model name="TMAX DX ABS"></Model>
+		<Model name="Teos"></Model>
+		<Model name="Teos 125"></Model>
+		<Model name="Town Mate"></Model>
+		<Model name="Tracy CZ125"></Model>
+		<Model name="Tricity"></Model>
+		<Model name="Tricity 125"></Model>
+		<Model name="Try"></Model>
+		<Model name="VIno 150"></Model>
+		<Model name="VIno Molfe"></Model>
+		<Model name="VOX"></Model>
+		<Model name="Versity XC300"></Model>
+		<Model name="Vino 125"></Model>
+		<Model name="Vino 50"></Model>
+		<Model name="Vino 50 Classic"></Model>
+		<Model name="Vino FI SA37J"></Model>
+		<Model name="Vino SA26J"></Model>
+		<Model name="Vity"></Model>
+		<Model name="Why"></Model>
+		<Model name="X-City"></Model>
+		<Model name="X-MAX 155"></Model>
+		<Model name="X-MAX 250"></Model>
+		<Model name="Xenter"></Model>
+		<Model name="Zuma 150"></Model>
+		<Model name="Zuma 50"></Model>
+	</Make>
+	<Make name="Yamasaki">
+		<Model name="Cobra MB50-8A"></Model>
+		<Model name="Diablo"></Model>
+		<Model name="Lizard Lux"></Model>
+		<Model name="Princess YM50QT-C3"></Model>
+		<Model name="Skorpion"></Model>
+		<Model name="ZX6R"></Model>
+	</Make>
+	<Make name="Yamati">
+		<Model name="Strada RX150"></Model>
+	</Make>
+	<Make name="Yiben">
+		<Model name="YB150T"></Model>
+		<Model name="YB50QT-15"></Model>
+		<Model name="YB50QT-3"></Model>
+	</Make>
+	<Make name="Yinxiang">
+		<Model name="YX 150 T-2"></Model>
+		<Model name="YX 48Q"></Model>
+		<Model name="YX 48Q-2"></Model>
+		<Model name="YX 50-J"></Model>
+	</Make>
+	<Make name="Yokomoto">
+		<Model name="HL50 QT-21"></Model>
+		<Model name="KT50 QT-9"></Model>
+		<Model name="YHXTE"></Model>
+		<Model name="YX48Q"></Model>
+	</Make>
+	<Make name="ZEV">
+		<Model name="10 LRC"></Model>
+		<Model name="LRC-X Maxi"></Model>
+	</Make>
+	<Make name="ZIP MOTORS">
+		<Model name="Alpha"></Model>
+		<Model name="Pegas"></Model>
+	</Make>
+	<Make name="Zeeho">
+		<Model name="AE6+"></Model>
+		<Model name="AE8 S+"></Model>
+	</Make>
+	<Make name="ZhiWei (Taizhou)">
+		<Model name="Motorcycle 100-110CC"></Model>
+		<Model name="Motorcycle 125CC"></Model>
+		<Model name="Motorcycle 150CC"></Model>
+		<Model name="Motorcycle 250CC"></Model>
+		<Model name="Motorcycle 50CC"></Model>
+	</Make>
+	<Make name="Zhweki">
+		<Model name="Zw150t-8"></Model>
+	</Make>
+	<Make name="Zipp">
+		<Model name="GP500"></Model>
+		<Model name="Neken"></Model>
+		<Model name="Pro 50"></Model>
+	</Make>
+	<Make name="Zongshen">
+		<Model name="CQR-250"></Model>
+		<Model name="LZX"></Model>
+		<Model name="LZX50Q-3"></Model>
+		<Model name="ZS125-30"></Model>
+		<Model name="ZS125-50"></Model>
+		<Model name="ZS125ST"></Model>
+		<Model name="ZS125T-2"></Model>
+		<Model name="ZS125T-30"></Model>
+		<Model name="ZS125T-7"></Model>
+		<Model name="ZS125T-8"></Model>
+		<Model name="ZS150T-3"></Model>
+		<Model name="ZS150T-4"></Model>
+		<Model name="ZS50Q"></Model>
+		<Model name="ZS50Q-17"></Model>
+		<Model name="ZS50QT-4"></Model>
+		<Model name="ZS50QT-8 Cama"></Model>
+		<Model name="ZSPM50QT-4A"></Model>
+	</Make>
+	<Make name="Zontes">
+		<Model name="ZT350-D"></Model>
+		<Model name="ZT350-E"></Model>
+		<Model name="ZT350-M"></Model>
+	</Make>
+	<Make name="Армед">
+		<Model name="YSC-01"></Model>
+	</Make>
+	<Make name="ВПМЗ">
+		<Model name="Вятка ВП-150"></Model>
+		<Model name="Вятка ВП-150М Электрон"></Model>
+		<Model name="Вятка МГ-150"></Model>
+		<Model name="Электрон"></Model>
+	</Make>
+	<Make name="ВПМЗ (Молот)">
+		<Model name="Стриж"></Model>
+	</Make>
+	<Make name="Другая">
+		<Model name="Другая"></Model>
+	</Make>
+	<Make name="ЗиД">
+		<Model name="50 Аркан"></Model>
+		<Model name="50-01"></Model>
+		<Model name="50-02"></Model>
+		<Model name="50-05"></Model>
+		<Model name="YX50-C9"></Model>
+	</Make>
+	<Make name="ИП Черкасов">
+		<Model name="АНТИЛОПА 1050 Basic"></Model>
+	</Make>
+	<Make name="ЛМЗ">
+		<Model name="Карпаты v501"></Model>
+		<Model name="Карпаты-2"></Model>
+		<Model name="Карпаты-2 Спорт"></Model>
+	</Make>
+	<Make name="Ленинградский Северный завод">
+		<Model name="Пегас 31"></Model>
+	</Make>
+	<Make name="Мотомир">
+		<Model name="Axis"></Model>
+		<Model name="XTRAIL"></Model>
+	</Make>
+	<Make name="ПВЗ">
+		<Model name="16ВМ"></Model>
+		<Model name="ЗИФ 77"></Model>
+		<Model name="М18"></Model>
+	</Make>
+	<Make name="РМЗ">
+		<Model name="Дельта"></Model>
+		<Model name="Рига-11"></Model>
+		<Model name="Рига-12"></Model>
+		<Model name="Рига-13"></Model>
+		<Model name="Рига-14"></Model>
+		<Model name="Рига-16"></Model>
+		<Model name="Рига-22"></Model>
+		<Model name="Рига-24"></Model>
+		<Model name="Рига-26"></Model>
+		<Model name="Рига-3"></Model>
+		<Model name="Рига-4"></Model>
+		<Model name="Рига-5"></Model>
+		<Model name="Рига-7"></Model>
+		<Model name="Стелла"></Model>
+	</Make>
+	<Make name="Спец Электро Транспорт">
+		<Model name="Атлет"></Model>
+		<Model name="Борец"></Model>
+		<Model name="Кросс"></Model>
+		<Model name="Лидер"></Model>
+		<Model name="Мастер"></Model>
+		<Model name="Прогресс"></Model>
+		<Model name="Салют"></Model>
+		<Model name="Старт"></Model>
+		<Model name="Элемент"></Model>
+	</Make>
+	<Make name="ТМЗ (Туламашзавод)">
+		<Model name="Муравей"></Model>
+		<Model name="Муравей-2М"></Model>
+		<Model name="Муравей-2М-01"></Model>
+		<Model name="Муравей-2М-02"></Model>
+		<Model name="Муравей-3М"></Model>
+		<Model name="Т200"></Model>
+		<Model name="Т200М"></Model>
+		<Model name="Тулица"></Model>
+		<Model name="Турист"></Model>
+		<Model name="Турист Т-200"></Model>
+	</Make>
+	<Make name="Тофалар">
+		<Model name="Тофалар"></Model>
+	</Make>
+</Motorbikes_and_scooters>

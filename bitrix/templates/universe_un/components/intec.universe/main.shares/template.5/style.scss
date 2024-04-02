@@ -1,0 +1,202 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'shares';
+$template: 'template-5';
+
+$item: 'widget-item';
+$loader: 'widget-loader';
+
+@mixin webkit-box($lines, $lineheight) {
+  max-height: #{$lines * $lineheight}px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+}
+
+@keyframes c-#{$component}-#{$template}-loader {
+  from {
+    @include transform-translate(-100%, -100%);
+  } to {
+      @include transform-translate(100%, 100%);
+    }
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-all {
+    display: block;
+    width: 140px;
+    padding-left: 10px;
+    text-align: right;
+    text-decoration: none;
+  }
+  .widget-all-desktop {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-break: break-word;
+    @include transition(.35s, color);
+  }
+  .widget-all-mobile {
+    display: none;
+    padding: 6px 7px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+  .widget-header {
+    &[data-link-all='true'] {
+      .widget-title {
+        &.align-center {
+          margin-left: 150px;
+        }
+      }
+      .widget-description {
+        &.align-center {
+          margin-left: 150px;
+        }
+      }
+    }
+  }
+  .widget-content {
+    overflow: hidden;
+  }
+
+  .#{$item} {
+    position: relative;
+    display: block;
+    height: 375px;
+    overflow: hidden;
+    @include border-radius(4px);
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.58) 100%);
+      @include transition(.35s, opacity);
+    }
+    &:hover {
+      &:after {
+        opacity: 0.4;
+      }
+    }
+  }
+  .#{$item}-picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &[data-lazyload-use='true'] {
+      background-color: #F2F2F2;
+    }
+  }
+  .#{$item}-timer {
+    position: absolute;
+    top: 32px;
+    left: 24px;
+    right: 24px;
+    z-index: 1;
+  }
+  .#{$item}-text {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    bottom: 32px;
+    z-index: 1;
+  }
+  .#{$item}-period {
+    font-size: 12px;
+    line-height: 1.333333;
+    color: #F2F2F2;
+    margin-bottom: 8px;
+  }
+  .#{$item}-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.38;
+    color: #FFFFFF;
+    @include webkit-box(4, 22);
+  }
+  
+  .#{$loader}-effect {
+    position: relative;
+    background-color: #F2F2F2;
+    overflow: hidden;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      right: -50%;
+      bottom: -50%;
+      background: linear-gradient(135deg, rgba(0, 0, 0, 0) 35%, rgba(255, 255, 255, 0.85) 50%, rgba(0, 0, 0, 0) 65%);
+      z-index: 1;
+      animation-name: c-#{$component}-#{$template}-loader;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+    }
+  }
+  .#{$loader}-timer {
+    overflow: hidden;
+  }
+  .#{$loader}-timer-item {
+    width: 52px;
+    height: 30px;
+    @include border-radius(4px);
+  }
+
+  @include breakpoint-custom(500) {
+    .widget-header {
+      &[data-link-all='true'] {
+        .widget-title {
+          &.align-center {
+            margin-left: 40px;
+          }
+        }
+        .widget-description {
+          &.align-center {
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+    .widget-all-desktop {
+      display: none;
+    }
+    .widget-all-mobile {
+      display: block;
+    }
+    .widget-all {
+      width: 30px;
+      padding-left: 0;
+      margin-left: 10px;
+    }
+    .widget-title-margin.align-center {
+      margin-left: 30px;
+    }
+
+    .#{$item}-timer,
+    .#{$item}-text {
+      left: 16px;
+      right: 16px;
+    }
+  }
+}

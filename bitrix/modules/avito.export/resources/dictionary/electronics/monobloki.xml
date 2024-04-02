@@ -1,0 +1,193 @@
+<Monobloki>
+	<Brand name="AOC"></Brand>
+	<Brand name="AVTECH"></Brand>
+	<Brand name="Acer"></Brand>
+	<Brand name="All-in-One"></Brand>
+	<Brand name="Apple">
+		<Model name="iMac (2006)">
+			<Diagonal name="17"></Diagonal>
+			<Diagonal name="20"></Diagonal>
+			<Diagonal name="24"></Diagonal>
+		</Model>
+		<Model name="iMac (2007)">
+			<Diagonal name="20"></Diagonal>
+			<Diagonal name="24"></Diagonal>
+		</Model>
+		<Model name="iMac (2008)">
+			<Diagonal name="20"></Diagonal>
+			<Diagonal name="24"></Diagonal>
+		</Model>
+		<Model name="iMac 20 (2009)">
+			<Diagonal name="20"></Diagonal>
+		</Model>
+		<Model name="iMac 21.5 (2009)">
+			<Diagonal name="21.5"></Diagonal>
+		</Model>
+		<Model name="iMac 21.5 (2010)">
+			<Diagonal name="21.5"></Diagonal>
+		</Model>
+		<Model name="iMac 21.5 (2011)">
+			<Diagonal name="21.5"></Diagonal>
+		</Model>
+		<Model name="iMac 21.5 (2012)">
+			<Diagonal name="21.5"></Diagonal>
+		</Model>
+		<Model name="iMac 21.5 (2013)">
+			<Diagonal name="21.5"></Diagonal>
+		</Model>
+		<Model name="iMac 21.5 (2014)">
+			<Diagonal name="21.5"></Diagonal>
+		</Model>
+		<Model name="iMac 21.5 (2015)">
+			<Diagonal name="21.5"></Diagonal>
+		</Model>
+		<Model name="iMac 21.5 (2017)">
+			<Diagonal name="21.5"></Diagonal>
+		</Model>
+		<Model name="iMac 21.5 (2019)">
+			<Diagonal name="21.5"></Diagonal>
+		</Model>
+		<Model name="iMac 24 (2009)">
+			<Diagonal name="24"></Diagonal>
+		</Model>
+		<Model name="iMac 24 (2021)">
+			<Diagonal name="24"></Diagonal>
+		</Model>
+		<Model name="iMac 24 (2023)">
+			<Diagonal name="24"></Diagonal>
+		</Model>
+		<Model name="iMac 27 (2009)">
+			<Diagonal name="27"></Diagonal>
+		</Model>
+		<Model name="iMac 27 (2010)">
+			<Diagonal name="27"></Diagonal>
+		</Model>
+		<Model name="iMac 27 (2011)">
+			<Diagonal name="27"></Diagonal>
+		</Model>
+		<Model name="iMac 27 (2012)">
+			<Diagonal name="27"></Diagonal>
+		</Model>
+		<Model name="iMac 27 (2013)">
+			<Diagonal name="27"></Diagonal>
+		</Model>
+		<Model name="iMac 27 (2014)">
+			<Diagonal name="27"></Diagonal>
+		</Model>
+		<Model name="iMac 27 (2015)">
+			<Diagonal name="27"></Diagonal>
+		</Model>
+		<Model name="iMac 27 (2017)">
+			<Diagonal name="27"></Diagonal>
+		</Model>
+		<Model name="iMac 27 (2019)">
+			<Diagonal name="27"></Diagonal>
+		</Model>
+		<Model name="iMac 27 (2020)">
+			<Diagonal name="27"></Diagonal>
+		</Model>
+		<Model name="iMac G3">
+			<Diagonal name="15"></Diagonal>
+		</Model>
+		<Model name="iMac G4">
+			<Diagonal name="15"></Diagonal>
+			<Diagonal name="17"></Diagonal>
+			<Diagonal name="20"></Diagonal>
+		</Model>
+		<Model name="iMac G5">
+			<Diagonal name="17"></Diagonal>
+			<Diagonal name="20"></Diagonal>
+		</Model>
+		<Model name="iMac Pro 27 (2017)">
+			<Diagonal name="27"></Diagonal>
+		</Model>
+	</Brand>
+	<Brand name="Aquarius"></Brand>
+	<Brand name="Asus"></Brand>
+	<Brand name="Azerty"></Brand>
+	<Brand name="BLCOOF"></Brand>
+	<Brand name="Broktechnology"></Brand>
+	<Brand name="CityLine"></Brand>
+	<Brand name="Colorful"></Brand>
+	<Brand name="Compolis"></Brand>
+	<Brand name="DEPO"></Brand>
+	<Brand name="DEXP"></Brand>
+	<Brand name="DIGMA"></Brand>
+	<Brand name="DNS"></Brand>
+	<Brand name="Dell"></Brand>
+	<Brand name="DigitalRazor"></Brand>
+	<Brand name="ECS"></Brand>
+	<Brand name="Echips"></Brand>
+	<Brand name="Eryhon"></Brand>
+	<Brand name="Evision"></Brand>
+	<Brand name="F+"></Brand>
+	<Brand name="Fox"></Brand>
+	<Brand name="Frbby"></Brand>
+	<Brand name="Fujitsu"></Brand>
+	<Brand name="GIGABYTE"></Brand>
+	<Brand name="HIPER"></Brand>
+	<Brand name="HP"></Brand>
+	<Brand name="Haier"></Brand>
+	<Brand name="Heovose"></Brand>
+	<Brand name="Hibertek"></Brand>
+	<Brand name="HomeNET"></Brand>
+	<Brand name="Huawei"></Brand>
+	<Brand name="IBM"></Brand>
+	<Brand name="ICL">
+		<Model name="S222Mi">
+			<Diagonal name="21.5"></Diagonal>
+		</Model>
+	</Brand>
+	<Brand name="Irbis"></Brand>
+	<Brand name="KOTIN"></Brand>
+	<Brand name="KVADRA"></Brand>
+	<Brand name="Kraftway"></Brand>
+	<Brand name="LG"></Brand>
+	<Brand name="Lenovo"></Brand>
+	<Brand name="Loop"></Brand>
+	<Brand name="MSI"></Brand>
+	<Brand name="Maifan"></Brand>
+	<Brand name="MapleTouch"></Brand>
+	<Brand name="Matrix Computers"></Brand>
+	<Brand name="MaxiCom"></Brand>
+	<Brand name="MicroXperts"></Brand>
+	<Brand name="Microsoft"></Brand>
+	<Brand name="MonoX"></Brand>
+	<Brand name="NEC"></Brand>
+	<Brand name="NERPA"></Brand>
+	<Brand name="NPC"></Brand>
+	<Brand name="Onda"></Brand>
+	<Brand name="POScenter"></Brand>
+	<Brand name="Packard Bell"></Brand>
+	<Brand name="Panasonic"></Brand>
+	<Brand name="Pegatron"></Brand>
+	<Brand name="Philips"></Brand>
+	<Brand name="Pipo"></Brand>
+	<Brand name="PowerCool"></Brand>
+	<Brand name="Prime Box"></Brand>
+	<Brand name="Prittec"></Brand>
+	<Brand name="Q27BS"></Brand>
+	<Brand name="RDW"></Brand>
+	<Brand name="Rikor"></Brand>
+	<Brand name="Rombica"></Brand>
+	<Brand name="RoverBook"></Brand>
+	<Brand name="Samsung"></Brand>
+	<Brand name="Shenzhen Qiming Microelectronics"></Brand>
+	<Brand name="Shuttle"></Brand>
+	<Brand name="SmartX"></Brand>
+	<Brand name="Sony"></Brand>
+	<Brand name="SunWind"></Brand>
+	<Brand name="Teclast"></Brand>
+	<Brand name="Toshiba"></Brand>
+	<Brand name="USN"></Brand>
+	<Brand name="V&amp;L"></Brand>
+	<Brand name="Wibtek"></Brand>
+	<Brand name="XComIO"></Brand>
+	<Brand name="Zotac"></Brand>
+	<Brand name="dHP"></Brand>
+	<Brand name="iRU"></Brand>
+	<Brand name="БЕШТАУ"></Brand>
+	<Brand name="Гравитон"></Brand>
+	<Brand name="Таволга"></Brand>
+	<Brand name="Тесла"></Brand>
+</Monobloki>

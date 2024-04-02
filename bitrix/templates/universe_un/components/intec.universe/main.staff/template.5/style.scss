@@ -1,0 +1,245 @@
+$component: 'staff';
+$template: 'template-5';
+
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin user-select ($value) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-content-wrap {
+    position: relative;
+
+  }
+  .widget-content {
+    position: relative;
+  }
+  .widget-background {
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .widget-element {}
+
+  .widget-element-wrapper {
+    padding: 0 132px;
+    word-break: break-word;
+  }
+
+  .widget-element-position {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B0B0B0;
+    margin-bottom: 8px;
+  }
+
+  .widget-element-name {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #404040;
+    margin-bottom: 16px;
+  }
+
+  .widget-element-phone i {
+    margin-right: 10px;
+    font-size: 11px;
+    line-height: 20px;
+    color: #B0B0B0;
+  }
+  .widget-element-phone-value {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #404040;
+    text-decoration: none;
+
+    & + .widget-element-phone-value {
+      margin-top: 8px;
+    }
+  }
+
+  .widget-element-email i {
+    margin-right: 10px;
+    font-size: 11px;
+    line-height: 20px;
+    color: #B0B0B0;
+  }
+  .widget-element-email-value {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #404040;
+    text-decoration: none;
+
+    & + .widget-element-email-value {
+      margin-top: 8px;
+    }
+  }
+
+  .widget-element-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+    margin-top: 16px;
+    word-wrap: break-word;
+  }
+
+  .widget-element-picture-wrap {
+    width: 35%;
+  }
+  .widget-element-picture {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-top: 100%;
+    border-radius: 50%;
+  }
+
+  .widget-element-button-wrap {
+    margin-top: 24px;
+  }
+
+  .widget-element-button {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 15px 21px;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+
+    @include border-radius(2px);
+    @include transition((background-color, color, border-color), 0.4s);
+
+    &:hover {
+      color: #fff !important;
+    }
+  }
+
+
+  [data-role="dots"] {}
+  [data-role="navigation"] {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+
+    i {
+      color: #fff;
+      font-size: 40px;
+    }
+  }
+
+  .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+
+    button {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      font-size: 9px;
+      line-height: 1;
+      background: #fff;
+      color: #808080;
+      border: 1px solid #E8E8E8;
+      @include border-radius(2px);
+      @include transition(all, 0.35s);
+      transform: translateY(-50%);
+      cursor: pointer;
+      outline: none;
+
+      svg {
+        path {
+          stroke: #808080;
+
+          transition: all 0.4s;
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            stroke: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        display: none;
+      }
+    }
+    .owl-prev {
+      left: 0;
+
+      i {
+        padding-right: 2px;
+      }
+    }
+    .owl-next {
+      right: 0;
+
+      i {
+        padding-left: 2px;
+      }
+    }
+  }
+
+  @media all and (max-width: 1290px) {
+
+  }
+  @media all and (max-width: 1100px) {
+    .widget-element-wrapper {
+      padding: 0 62px;
+    }
+  }
+  @media all and (max-width: 768px) {
+    .widget-element-wrapper {
+      padding: 0 40px;
+    }
+  }
+  @media all and (max-width: 500px) {
+
+  }
+}

@@ -1,0 +1,6 @@
+<?php
+
+$MESS["VKAPI.MARKET.EXPORT.ITEM.TEST"] = "VKAPI.MARKET.EXPORT.ITEM.TEST";
+$MESS["VKAPI.MARKET.EXPORT.ITEM.ERROR_EXPORT_NOT_FOUND"] = "Экспорт не найден";
+$MESS["VKAPI.MARKET.EXPORT.ITEM.ERROR_INIT_CONNECTION"] = "Ошибка инициализации аккаунта для подключения к API ВК - [#CODE#] #MSG#";
+$MESS["VKAPI.MARKET.EXPORT.ITEM.ERROR_CHECK_CONNECTION_ACCESS"] = "Ошибка проверки доступа к API ВК - [#CODE#] #MSG#";

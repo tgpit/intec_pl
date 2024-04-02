@@ -1,0 +1,92 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'main-pagenavigation';
+$template: 'lazy-2';
+$class: 'pagenavigation';
+
+@keyframes c-#{$component}-#{$template} {
+  from {
+    @include transform-rotate(0);
+  }
+  to {
+    @include transform-rotate(360deg);
+  }
+}
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  text-align: center;
+
+  .#{$class}-button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px 24px;
+    border: 1px solid;
+    @include user-select(none);
+    @include border-radius(4px);
+    @include transition(.35s, (color, background-color, border-color));
+  }
+  .#{$class}-button-content {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .#{$class}-button-loader {
+    display: none;
+  }
+
+  [data-state='active'] {
+    cursor: pointer;
+
+    &:hover {
+      color: #FFF !important;
+    }
+  }
+  [data-state='processing'] {
+    cursor: progress;
+
+    .#{$class}-button-content {
+      display: none;
+    }
+    .#{$class}-button-loader {
+      display: block;
+    }
+    svg {
+      -webkit-animation-name: c-#{$component}-#{$template};
+      -moz-animation-name: c-#{$component}-#{$template};
+      -o-animation-name: c-#{$component}-#{$template};
+      animation-name: c-#{$component}-#{$template};
+      -webkit-animation-duration: 0.8s;
+      -moz-animation-duration: 0.8s;
+      -o-animation-duration: 0.8s;
+      animation-duration: 0.8s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    }
+
+    &:hover {
+      svg {
+        path {
+          stroke: #FFF !important;
+        }
+      }
+    }
+  }
+  [data-state='disabled'] {
+    color: #B0B0B0 !important;
+    background-color: #F2F2F2 !important;
+    border-color: #F2F2F2 !important;
+    cursor: not-allowed;
+  }
+}

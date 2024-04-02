@@ -1,0 +1,224 @@
+$namespace: 'intec-universe';
+$component: 'profile-add';
+$template: 'template-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .#{$class}-form-field-group {
+    display: block;
+    padding: 40px 32px;
+    border: 1px solid #E8E8E8;
+    background-color: #F9F9FB;
+    max-width: 900px;
+    margin-bottom: 36px;
+  }
+
+  .#{$class}-form-field-title {
+    display: block;
+    font-size: 13px;
+    line-height: 13px;
+    color: #808080;
+    margin-bottom: 8px;
+
+    &.#{$class}-form-field-title-required {
+
+      &:after {
+        content: '*';
+        color: #ff0000;
+        font-weight: normal;
+        font-style: normal;
+      }
+    }
+  }
+
+  .#{$class}-form-block {
+    margin-bottom: 24px;
+    word-break: break-word;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .#{$class}-form-field-text-date {
+    position: relative;
+  }
+
+  .#{$class}-form-field-text-date-icon-calendar {
+    display: block;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    width: 18px;
+    height: 18px;
+    background-image: url('images/calendar.svg');
+    background-size: 18px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .#{$class}-form-field-text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #404040;
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+    background-color: #fff;
+    padding: 12px 24px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 8px;
+    outline: none;
+  }
+
+  .#{$class}-form-field-select {
+    width: 100%;
+    padding: 12px 24px;
+    background-color: #FBFCFD;
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: normal;
+    color: #404040;
+    outline: none;
+
+    option {
+      padding: 3px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  .#{$class}-form-field-textarea {
+    font-size: 14px;
+    line-height: 18px;
+    color: #404040;
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+    background-color: #fff;
+    padding: 12px 24px;
+    width: 100% !important;
+    max-height: 118px;
+    min-height: 44px;
+    outline: none;
+  }
+
+  .#{$class}-form-field-location {
+    margin-bottom: 8px;
+
+    .bx-slst .dropdown-block {
+      border: 1px solid #E8E8E8;
+      border-radius: 2px;
+      background-color: #fff;
+      padding: 4px 32px;
+    }
+
+    .bx-slst .dropdown-icon {
+      top: 14px;
+    }
+
+    .bx-slst .bx-ui-combobox-toggle {
+      top: 4px;
+    }
+
+    .bx-sls .dropdown-block {
+      border: 1px solid #E8E8E8;
+      border-radius: 2px;
+      background-color: #fff;
+      padding: 8px 32px;
+    }
+
+    .bx-sls .dropdown-icon {
+      top: 14px;
+    }
+
+    .bx-sls .bx-ui-sls-clear {
+      margin-top: 6px;
+    }
+
+    .bx-sls input[type="text"] {
+      height: 100%;
+    }
+  }
+
+  .#{$class}-form-field-default-files {
+    margin-bottom: 24px;
+  }
+
+  .#{$class}-form-field-default-file {
+    text-align: center;
+  }
+
+  .#{$class}-form-field-default-file-picture {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 16px;
+    padding: 4px;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+  }
+
+  .#{$class}-form-field-default-file-name {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 16px;
+    max-width: 150px;
+    word-break: break-word;
+  }
+
+  .#{$class}-form-field-default-file-download {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 16px;
+  }
+
+  .#{$class}-form-field-file {
+    font-size: 0;
+  }
+
+  .#{$class}-form-field-file-choose {
+
+  }
+
+  .#{$class}-form-field-file-choose-input {
+    display: none;
+  }
+
+  .#{$class}-form-field-file-load-info {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #404040;
+  }
+
+  .#{$class}-form-field-file-load-cancel {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    height: 14px;
+    color: #404040;
+    cursor: pointer;
+
+    &[data-active="false"] {
+      display: none;
+    }
+  }
+
+  .#{$class}-form-field-group-title {
+    font-size: 24px;
+    line-height: 30px;
+    color: #404040;
+    margin-bottom: 24px;
+  }
+
+  .#{$class}-form-button {
+    padding: 20px 50px;
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}

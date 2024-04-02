@@ -1,0 +1,351 @@
+$component: 'services';
+$template: 'template-25';
+$item: 'widget-item';
+$nav: 'widget-nav';
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin translateY($translate) {
+  -webkit-transform: translateY($translate);
+  -moz-transform: translateY($translate);
+  -ms-transform: translateY($translate);
+  -o-transform: translateY($translate);
+  transform: translateY($translate);
+}
+
+@mixin transition($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+@mixin box-sizing($sizing) {
+  -webkit-box-sizing: $sizing;
+  -moz-box-sizing: $sizing;
+  box-sizing: $sizing;
+}
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+
+  .widget-content-wrapper {
+    overflow: hidden;
+  }
+
+  .widget-content-items {
+    position: relative;
+
+    &[data-jointly="true"] {
+
+      .#{$item} {
+
+        &[data-picture="true"] {
+
+          .#{$item}-content {
+            padding: 85px 0 85px 100px;
+          }
+        }
+      }
+
+      .#{$item}-picture {
+        position: absolute;
+        height: 100%;
+
+        .#{$item}-picture-front {
+          display: none;
+        }
+      }
+
+      .#{$nav} {
+        top: auto;
+        bottom: 72px;
+      }
+    }
+
+    &[data-picture="false"] {
+
+      .#{$nav} {
+        top: auto;
+        bottom: 72px;
+      }
+
+      .#{$item} {
+        padding-bottom: 96px;
+      }
+    }
+  }
+
+  .owl-carousel .owl-stage-outer {
+    overflow: visible;
+  }
+
+  .owl-carousel .owl-item {
+    opacity: 0;
+    pointer-events: none;
+
+    @include transition(all, 0.4s);
+  }
+
+  .owl-carousel .owl-item.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .#{$item} {
+    position: relative;
+
+    &[data-scheme="black"] {
+
+      .#{$item}-index-current {
+        color: #000;
+      }
+
+      .#{$item}-index-total {
+        color: #B0B0B0;
+      }
+
+      .#{$item}-name {
+        color: #000000;
+      }
+
+      .#{$item}-description {
+        color: #000;
+      }
+    }
+    &[data-scheme="white"] {
+
+      .#{$item}-index-current {
+        color: #fff;
+      }
+
+      .#{$item}-index-total {
+        color: #fff;
+      }
+
+      .#{$item}-name {
+        color: #fff;
+      }
+
+      .#{$item}-description {
+        color: #fff;
+      }
+    }
+  }
+
+  .#{$item}-content {}
+
+  .#{$item}-picture {
+    display: block;
+    position: relative;
+    height: 475px;
+    margin-bottom: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+
+  .#{$item}-picture-front {
+    display: block;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+  }
+
+  .#{$item}-indexes {
+    margin-bottom: 16px;
+  }
+
+  .#{$item}-index-current {
+    font-size: 18px;
+    line-height: 158.9%;
+  }
+
+  .#{$item}-index-total {
+    font-size: 14px;
+    line-height: 158.9%;
+  }
+
+  .#{$item}-name {
+    display: block;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+
+    @include transition(color, 0.4s);
+    @include webkit-box(1, 29);
+  }
+
+  .#{$item}-description {
+    font-size: 16px;
+    line-height: 25px;
+
+    @include webkit-box(4, 25);
+  }
+
+  .#{$item}-button {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 18px 34px;
+    margin-top: 32px;
+  }
+
+  .#{$nav} {
+    display: block;
+    position: absolute;
+    width: 108px;
+    top: 451px;
+    right: 0;
+    z-index: 2;
+
+    span {
+      font-size: 22px;
+      line-height: 16px;
+      color: #808080;
+    }
+
+    button {
+      position: absolute;
+      top: 0;
+      width: 48px;
+      height: 48px;
+      background-color: #fff;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 0;
+      border-radius: 3px;
+      box-shadow: 0 8px 32px rgba(27, 30, 37, 0.08);
+      cursor: pointer;
+
+      @include transition(all, 0.4s);
+
+      &:hover {
+        span {
+          color: #fff;
+        }
+      }
+
+      &.disabled {
+        opacity: 0.4;
+        background-color: #fff!important;
+
+        &:hover {
+          span {
+            color: #808080;
+          }
+        }
+      }
+
+      &.nav-prev {
+        left: 0;
+
+        span {
+          padding-right: 2px;
+        }
+      }
+
+      &.nav-next {
+        right: 0;
+
+        span {
+          padding-left: 2px;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    .widget-content-items {
+
+      &[data-jointly="true"] {
+
+        .#{$item} {
+
+          &[data-picture="true"] {
+
+            .#{$item}-content {
+              padding: 0;
+            }
+          }
+        }
+
+        .#{$item}-picture {
+          position: relative;
+        }
+      }
+    }
+
+    .#{$item} {
+      padding-bottom: 22px;
+    }
+
+    .#{$item}-picture {
+      width: 100%!important;
+      height: 350px!important;
+      border-radius: 6px;
+
+      .#{$item}-picture-front {
+        display: block!important;
+      }
+    }
+
+    .#{$item}-picture-front {
+      display: none;
+    }
+
+    .#{$item}-index-current {
+      color: #000!important;
+    }
+
+    .#{$item}-index-total {
+      color: #B0B0B0!important;
+    }
+
+    .#{$item}-name {
+      color: #000000!important;
+
+      @include webkit-box(2, 29);
+    }
+
+    .#{$item}-description {
+      color: #000!important;
+    }
+
+    .#{$nav} {
+      top: auto;
+      bottom: 72px;
+    }
+  }
+
+  @media all and (max-width: 425px) {
+    .#{$item}-picture {
+      height: 240px!important;
+    }
+  }
+}

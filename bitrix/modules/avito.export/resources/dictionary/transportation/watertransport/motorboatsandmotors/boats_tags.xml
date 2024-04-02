@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MotorBoatsAndMotors>
+	<Type name="Лодка ПВХ (надувная)">
+		<FloorType name="Натяжное"></FloorType>
+		<FloorType name="Надувное, высокого давления"></FloorType>
+		<FloorType name="Надувное, низкого давления"></FloorType>
+		<FloorType name="Тоннель"></FloorType>
+		<FloorType name="Катамаран"></FloorType>
+		<FloorType name="Тримаран"></FloorType>
+		<FloorType name="Гидролыжа"></FloorType>
+		<FloorType name="Двухкорпусное"></FloorType>
+		<FloorType name="Алюминиевые пайолы"></FloorType>
+		<FloorType name="Фанерные пайолы"></FloorType>
+		<FloorType name="Реечная слань"></FloorType>
+		<Length variable="int"></Length>
+		<Width variable="int"></Width>
+		<TransomHeight variable="int"></TransomHeight>
+		<Weight variable="int"></Weight>
+		<SeatingCapacity variable="int"></SeatingCapacity>
+		<MaxPower variable="int"></MaxPower>
+		<TrailerIncluded name="Нет"></TrailerIncluded>
+		<TrailerIncluded name="Да"></TrailerIncluded>
+		<EngineIncluded name="Нет"></EngineIncluded>
+		<EngineIncluded name="Да">
+			<EngineType name="Бензин">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<EngineType name="Дизель">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<EngineType name="Электро"></EngineType>
+			<EngineType name="Болотоход">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<EngineType name="Водомёт">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<Power variable="int"></Power>
+			<ShaftLength variable="int"></ShaftLength>
+			<EngineWeight variable="int"></EngineWeight>
+			<Control name="Дистанционное"></Control>
+			<Control name="Румпельное"></Control>
+			<Control name="Румпельно-дистанционное"></Control>
+			<StartingSystem name="Ручной"></StartingSystem>
+			<StartingSystem name="Электростартер"></StartingSystem>
+			<StartingSystem name="Ручной и электростартер"></StartingSystem>
+		</EngineIncluded>
+	</Type>
+	<Type name="Лодка RIB (комбинированная)">
+		<FloorType name="Алюминиевое"></FloorType>
+		<FloorType name="Пластиковое"></FloorType>
+		<Length variable="int"></Length>
+		<Width variable="int"></Width>
+		<TransomHeight variable="int"></TransomHeight>
+		<Weight variable="int"></Weight>
+		<SeatingCapacity variable="int"></SeatingCapacity>
+		<MaxPower variable="int"></MaxPower>
+		<TrailerIncluded name="Нет"></TrailerIncluded>
+		<TrailerIncluded name="Да"></TrailerIncluded>
+		<EngineIncluded name="Нет"></EngineIncluded>
+		<EngineIncluded name="Да">
+			<EngineType name="Бензин">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<EngineType name="Дизель">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<EngineType name="Электро"></EngineType>
+			<EngineType name="Болотоход">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<EngineType name="Водомёт">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<Power variable="int"></Power>
+			<ShaftLength variable="int"></ShaftLength>
+			<EngineWeight variable="int"></EngineWeight>
+			<Control name="Дистанционное"></Control>
+			<Control name="Румпельное"></Control>
+			<Control name="Румпельно-дистанционное"></Control>
+			<StartingSystem name="Ручной"></StartingSystem>
+			<StartingSystem name="Электростартер"></StartingSystem>
+			<StartingSystem name="Ручной и электростартер"></StartingSystem>
+		</EngineIncluded>
+	</Type>
+	<Type name="Лодка с жестким корпусом">
+		<Length variable="int"></Length>
+		<Width variable="int"></Width>
+		<TransomHeight variable="int"></TransomHeight>
+		<Weight variable="int"></Weight>
+		<SeatingCapacity variable="int"></SeatingCapacity>
+		<MaxPower variable="int"></MaxPower>
+		<Material name="Алюминий"></Material>
+		<Material name="Дюралюминий"></Material>
+		<Material name="Сталь"></Material>
+		<Material name="Пластик"></Material>
+		<Material name="Стеклопластик"></Material>
+		<Material name="Дерево"></Material>
+		<Material name="Кевлар"></Material>
+		<Material name="Алюминий и стеклопластик"></Material>
+		<Material name="Другое"></Material>
+		<TrailerIncluded name="Нет"></TrailerIncluded>
+		<TrailerIncluded name="Да"></TrailerIncluded>
+		<EngineIncluded name="Нет"></EngineIncluded>
+		<EngineIncluded name="Да">
+			<EngineType name="Бензин">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<EngineType name="Дизель">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<EngineType name="Электро"></EngineType>
+			<EngineType name="Болотоход">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<EngineType name="Водомёт">
+				<Stroke name="2"></Stroke>
+				<Stroke name="4"></Stroke>
+			</EngineType>
+			<Power variable="int"></Power>
+			<ShaftLength variable="int"></ShaftLength>
+			<EngineWeight variable="int"></EngineWeight>
+			<Control name="Дистанционное"></Control>
+			<Control name="Румпельное"></Control>
+			<Control name="Румпельно-дистанционное"></Control>
+			<StartingSystem name="Ручной"></StartingSystem>
+			<StartingSystem name="Электростартер"></StartingSystem>
+			<StartingSystem name="Ручной и электростартер"></StartingSystem>
+		</EngineIncluded>
+	</Type>
+	<Type name="Лодочный мотор">
+		<EngineType name="Бензин">
+			<Stroke name="2"></Stroke>
+			<Stroke name="4"></Stroke>
+		</EngineType>
+		<EngineType name="Дизель">
+			<Stroke name="2"></Stroke>
+			<Stroke name="4"></Stroke>
+		</EngineType>
+		<EngineType name="Электро"></EngineType>
+		<EngineType name="Болотоход">
+			<Stroke name="2"></Stroke>
+			<Stroke name="4"></Stroke>
+		</EngineType>
+		<EngineType name="Водомёт">
+			<Stroke name="2"></Stroke>
+			<Stroke name="4"></Stroke>
+		</EngineType>
+		<Power variable="int"></Power>
+		<ShaftLength variable="int"></ShaftLength>
+		<EngineWeight variable="int"></EngineWeight>
+		<Control name="Дистанционное"></Control>
+		<Control name="Румпельное"></Control>
+		<Control name="Румпельно-дистанционное"></Control>
+		<StartingSystem name="Ручной"></StartingSystem>
+		<StartingSystem name="Электростартер"></StartingSystem>
+		<StartingSystem name="Ручной и электростартер"></StartingSystem>
+	</Type>
+</MotorBoatsAndMotors>

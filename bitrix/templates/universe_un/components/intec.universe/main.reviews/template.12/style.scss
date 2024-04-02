@@ -1,0 +1,319 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'reviews';
+$template: 'template-12';
+$item: 'widget-item';
+
+@mixin webkit-box ($lines, $line-height) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+  max-height: #{$lines * $line-height}px;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-link-all {
+    font-size: 0;
+    margin-top: 35px;
+
+    & > a {
+      display: inline-block;
+      padding: 12px 18px;
+      font-size: 12px;
+      line-height: 12px;
+      letter-spacing: 0.1em;
+      font-weight: 500;
+      text-transform: uppercase;
+      border-width: 1px;
+      border-radius: 2px;
+    }
+  }
+  .widget-content-left {}
+  .widget-content-right {
+    width: 75%;
+    padding-left: 40px;
+  }
+  .widget-description {
+    margin-top: 15px;
+  }
+  .widget-item-wrapper {
+    padding: 30px 38px 48px 38px;
+    height: 100%;
+  }
+  .widget-owl-item {
+    &:last-child {
+      .widget-item {
+        border-right: 1px solid #F2F2F2;
+      }
+    }
+
+    .widget-item {
+      background: #ffffff;
+      border: 1px solid #F2F2F2;
+      border-right: 0;
+    }
+  }
+  .#{$item}-date {
+    margin-bottom: 12px;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #808080;
+  }
+  .#{$item}-image {
+    display: block;
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include border-radius(50%);
+  }
+  .#{$item}-description {
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    @include webkit-box(5, 24);
+  }
+
+  .#{$item}-name {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 20px;
+    color: #404040;
+    text-decoration: none;
+    @include transition(350ms, color);
+  }
+  .#{$item}-rating-item {
+    svg {
+      width: 20px;
+      height: 20px;
+
+      path {
+        fill: #E8E8E8;
+        stroke: #E8E8E8;
+      }
+    }
+
+    &[data-active='true'] {
+      svg {
+        path {
+          fill: #FBCD56;
+          stroke: #FBCD56;
+        }
+      }
+    }
+  }
+  .#{$item}-link-detail {
+    margin: auto 0 0 0;
+  }
+  .#{$item}-link-detail-button {
+    padding: 12px 18px !important;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-width: 1px;
+  }
+
+  .intec-ui-control-navigation {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-20px);
+
+    .intec-ui-part-button-left,
+    .intec-ui-part-button-right {
+      font-size: 0;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #f2f2f2;
+      @include border-radius(2px);
+      @include transition(350ms, (background-color, border-color));
+      background-color: #ffffff;
+      outline: none;
+
+      svg {
+        path {
+          stroke: #808080;
+          @include transition(0.4s, all);
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            stroke: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        background-color: #FFF!important;
+        border-color: #F2F2F2!important;
+        opacity: 0.7;
+        cursor: not-allowed;
+
+        @include user-select(none);
+
+        svg {
+          path {
+            stroke: #F2F2F2!important;
+          }
+        }
+      }
+    }
+    .intec-ui-part-button-left {
+      left: -20px;
+    }
+    .intec-ui-part-button-right {
+      right: -20px;
+    }
+  }
+  .widget-footer-button {
+    color: #2d2d2d !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #fff !important;
+    }
+  }
+
+  .widget-items-dots {
+    margin-top: 25px;
+
+    .widget-items-dot {
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:not(.active):not(:hover) {
+        background: #CFCFCF !important;
+      }
+
+      margin-left: 16px;
+      border-radius: 50%;
+      cursor: pointer;
+      @include transition(background 0.3s);
+
+      span {
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .widget-header {
+    overflow: hidden;
+  }
+  .widget-all-container {
+    display: none;
+  }
+  .widget-all-button {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #808080;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    i {
+      display: none;
+      font-size: 18px;
+    }
+  }
+
+  @media all and (max-width: 550px) {
+    .widget-all-container {
+      display: block;
+    }
+    .widget-title.align-center.widget-title-margin {
+      margin-left: 25px;
+    }
+    .widget-all-container.mobile {
+      text-align: right;
+      width: 25px;
+      max-height: 36px;
+    }
+    .widget-all-container i {
+      display: inline-block;
+    }
+    .widget-link-all.mobile{
+      display: none;
+    }
+    .widget-all-container {
+      width: 25px;
+    }
+  }
+
+  @media all and (max-width: 980px) {
+    .widget-content-left {
+      padding-right: 20px;
+    }
+    .widget-content-right {
+      width: 66%;
+      padding-left: 20px;
+    }
+  }
+
+  @media all and (max-width: 800px) {
+    .widget-content-right {
+      width: 100%;
+      margin-top: 20px;
+      padding-left: 0;
+    }
+    .widget-link-all {
+      margin-top: 20px;
+    }
+  }
+
+  @media all and (max-width: 720px) {
+    .widget-description {
+      margin-top: 0;
+    }
+  }
+
+  @media all and (max-width: 700px) {
+    .widget-owl-item {
+      &:hover {
+        z-index: 2;
+        box-shadow: none;
+        transform: none;
+      }
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    .widget-items {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .widget-item-wrapper {
+      padding: 24px;
+    }
+    .#{$item}-description {
+      position: relative;
+      margin-top: 12px;
+      padding-bottom: 20px;
+      font-size: 14px;
+      line-height: 24px;
+      color: #808080;
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+}

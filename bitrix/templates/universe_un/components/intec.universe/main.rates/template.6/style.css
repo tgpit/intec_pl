@@ -1,0 +1,208 @@
+.widget.c-rates.c-rates-template-6 .widget-overhead {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2.8px;
+  color: #444444;
+  margin-bottom: 10px;
+}
+.widget.c-rates.c-rates-template-6 .widget-items-wrap {
+  overflow-y: hidden;
+  padding-bottom: 10px;
+}
+.widget.c-rates.c-rates-template-6 .widget-items {
+  display: table;
+  min-width: 100%;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-head {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-head-property-name {
+  display: table-cell;
+  padding: 25px;
+  width: 40%;
+  background: #FAFAFA;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-head-property {
+  text-align: center;
+  display: table-cell;
+  padding: 18px 30px;
+  background: #E6F1F8;
+  color: #2D9CDB;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-head-property:nth-child(1) {
+  background: #FAFAFA;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-head-property:nth-child(2), .widget.c-rates.c-rates-template-6 .widget-item-head-property:nth-child(4n+2) {
+  background: #DDF3E7;
+  color: #219653;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-head-property:nth-child(3), .widget.c-rates.c-rates-template-6 .widget-item-head-property:nth-child(4n+3) {
+  background: #EBE2F3;
+  color: #9B51E0;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-head-property:nth-child(4), .widget.c-rates.c-rates-template-6 .widget-item-head-property:nth-child(4n+4) {
+  background: #F4E1E1;
+  color: #EB5757;
+}
+.widget.c-rates.c-rates-template-6 .widget-item,
+.widget.c-rates.c-rates-template-6 .widget-item-property-name {
+  position: relative;
+  background: #fafafa;
+  display: table-row;
+}
+.widget.c-rates.c-rates-template-6 .widget-item:nth-child(2n) {
+  background: #fff;
+}
+.widget.c-rates.c-rates-template-6 .widget-item:nth-child(2n) .widget-item-property-name {
+  background: #fff;
+}
+.widget.c-rates.c-rates-template-6 .icon-available {
+  display: inline-block;
+  background: url("images/available.png") no-repeat center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.widget.c-rates.c-rates-template-6 .icon-unavailable {
+  display: inline-block;
+  background: url("images/unavailable.png") no-repeat center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-property {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #1B1E25;
+  display: table-cell;
+  padding: 18px 24px;
+  vertical-align: middle;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-property-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #808080;
+  display: table-cell;
+  padding: 18px 24px;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-head-mobile {
+  display: none;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-discount-wrap + .widget-item-price-value {
+  margin-top: 4px;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-discount-wrap {
+  font-size: 14px;
+  line-height: 24px;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-discount-value {
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-line: line-through;
+  color: #B0B0B0;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-price-wrap {
+  font-size: 18px;
+  line-height: 24px;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-price-value {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #1B1E25;
+  white-space: nowrap;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-sticker {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #FFFFFF;
+  padding: 6px 8px;
+  margin-left: 8px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-price-wrap + .widget-item-button-wrap {
+  margin-top: 16px;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-button {
+  padding: 15px 27px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #404040;
+  border: 1px solid #F2C94C;
+  white-space: nowrap;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-button:hover {
+  background: #F2C94C;
+}
+.widget.c-rates.c-rates-template-6 .widget-item-price-block-wrap .widget-item-property {
+  padding: 24px 20px;
+}
+@media all and (max-width: 768px) {
+  .widget.c-rates.c-rates-template-6 .widget-item-head-property-name,
+.widget.c-rates.c-rates-template-6 .widget-item-head-property,
+.widget.c-rates.c-rates-template-6 .widget-item-property-name,
+.widget.c-rates.c-rates-template-6 .widget-item-property {
+    padding: 10px;
+  }
+  .widget.c-rates.c-rates-template-6 .widget-item-price-block-wrap .widget-item-property {
+    padding: 10px;
+  }
+  .widget.c-rates.c-rates-template-6 .widget-item-property-name,
+.widget.c-rates.c-rates-template-6 .widget-item-property {
+    font-size: 12px;
+  }
+  .widget.c-rates.c-rates-template-6 .widget-item-discount-value {
+    font-size: 12px;
+  }
+  .widget.c-rates.c-rates-template-6 .widget-item-price-value {
+    font-size: 14px;
+  }
+  .widget.c-rates.c-rates-template-6 .widget-item-sticker {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .widget.c-rates.c-rates-template-6 .icon-available {
+    width: 24px;
+    height: 24px;
+  }
+  .widget.c-rates.c-rates-template-6 .icon-unavailable {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

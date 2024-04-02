@@ -1,0 +1,172 @@
+@import "./../../../../sources/styles/include.scss";
+
+$namespace: 'bitrix';
+$component: 'search-title';
+$template: 'input-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  %#{$class}-form-element {
+    display: block;
+    outline: none;
+    padding: 9px 10px;
+
+    &:hover,
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .#{$class} {
+    display: block;
+    background: #f0f0f0;
+    border-radius: 5px;
+
+    &-form {
+      display: block;
+      padding: 0;
+      margin: 0;
+    }
+
+    &-input {
+      @extend %#{$class}-form-element;
+
+      background: transparent;
+      border: none;
+      width: 100%;
+      color: #1d1d1d;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    &-button {
+      @extend %#{$class}-form-element;
+
+      background: transparent;
+      border: none;
+      line-height: 1;
+      color: #0065ff;
+      cursor: pointer;
+    }
+  }
+
+  &.#{$class}-results {
+    @include box-sizing(border-box);
+    @include flex();
+    @include flex-align-horizontal(start);
+    @include flex-align-vertical(stretch);
+    @include flex-wrap(none);
+
+    background: #fff;
+    border-radius: 2px;
+    width: 760px;
+    overflow: hidden;
+
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+
+    .#{$class}-categories {
+      @include box-sizing(border-box);
+      @include flex-item-auto();
+
+      padding: 30px 32px;
+      width: 330px;
+    }
+
+    .#{$class}-category {
+      padding-top: 32px;
+
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+
+    .#{$class}-category-title {
+      color: #b0b0b0;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 17px;
+    }
+
+    .#{$class}-category-items {}
+
+    .#{$class}-category-item {
+      padding-top: 16px;
+    }
+
+    .#{$class}-category-item-link {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: normal;
+      color: #404040;
+      line-height: 18px;
+      text-decoration: none;
+    }
+
+    .#{$class}-additional {
+      @include box-sizing(border-box);
+      @include flex-item-full();
+
+      border-left: 1px solid #e8e8e8;
+      padding: 30px 32px;
+      width: calc(100% - 330px);
+    }
+
+    .#{$class}-additional-products {
+      position: relative;
+      width: 100%;
+
+      & + .#{$class}-additional-button {
+        padding-top: 24px;
+      }
+    }
+
+    .#{$class}-additional-button {}
+
+    .#{$class}-additional-button-control {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      padding: 13px 30px;
+      text-transform: uppercase;
+    }
+  }
+
+  @include breakpoint-768() {
+    &.#{$class}-results {
+      width: auto;
+      height: 100%;
+      overflow-y: auto;
+
+      @include flex-wrap();
+
+      .#{$class}-categories {
+        width: auto;
+        padding: 24px 20px;
+
+        @include flex-basis(100%);
+      }
+      .#{$class}-additional {
+        border-top: 1px solid #e8e8e8;
+        border-left: none;
+        padding: 24px 20px;
+      }
+      .#{$class}-additional-products {
+        display: none;
+      }
+    }
+  }
+}
+
+.title-search-result {
+  display: none;
+  z-index: 101;
+
+  @include breakpoint-768() {
+    height: 55%;
+  }
+}

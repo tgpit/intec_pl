@@ -1,0 +1,193 @@
+$namespace: 'intec-universe';
+$component: 'sale-products-gift-section';
+$template: 'template-1';
+$class: #{$component};
+
+$color-black-1: #1B1E25;
+$color-black-2:#404040;
+$color-gray-1: #808080;
+$color-gray-2: #B0B0B0;
+$color-gray-3: #E8E8E8;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+
+  &[data-position="top"] {
+    margin-bottom: 50px;
+  }
+  &[data-position="middle"] {
+    margin: 50px 0;
+  }
+  &[data-position="bottom"] {
+    margin-top: 50px;
+  }
+  &[data-position="none"] {
+    margin: 0;
+
+    .sale-products-gift-navigation-bottom {
+      margin: 0;
+    }
+  }
+  [data-role="gift.navigation"] {
+    &.disabled {
+      display: none;
+    }
+  }
+
+  .sale-products-gift-header {
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: $color-black-2;
+  }
+
+  .catalog-products-viewed-header{
+    font-size:14px;
+    font-weight: bold;
+    text-align: left;
+    margin:5px 0;
+    padding:5px 15px;
+    border-bottom: 2px solid #d9dee6;
+    color: $color-black-1;
+  }
+
+  .gift-navigation-left,
+  .gift-navigation-right {
+    width: 35px;
+    height: 35px;
+    font-size: 9px;
+    line-height: 1;
+    background: #fff;
+    color: #333;
+    border: 1px solid $color-gray-3;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:focus,
+    &:active {
+      outline: none;
+    }
+    &.disabled {
+      opacity: 0.5;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      &:hover {
+        background: #fff!important;
+        color: #333!important;
+        border: 1px solid $color-gray-3!important;
+      }
+    }
+  }
+
+  .sale-products-gift-navigation-bottom {
+    margin-top: 16px;
+  }
+
+  &[data-view="4"] {
+
+    .owl-carousel .owl-stage {
+      display: flex;
+    }
+
+    .owl-carousel .owl-item {
+      align-self: stretch;
+
+      &:nth-last-child(1) {
+
+        .ns-bitrix.c-catalog-item.c-catalog-item-template-4 .catalog-item-body {
+          border-right: 1px solid #F2F2F2;
+        }
+      }
+    }
+
+    .sale-products-gift-item {
+      height: 100%;
+    }
+
+    .ns-bitrix.c-catalog-item.c-catalog-item-template-4 .catalog-item-body {
+      border-right: none;
+    }
+  }
+
+  &[data-view="3"] {
+    .c-sale-products-gift-items-wrap {
+      position: relative;
+    }
+    .sale-products-gift-navigation {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      z-index: 2;
+    }
+    .gift-navigation-left,
+    .gift-navigation-right {
+      position: absolute;
+      margin-top: -17px;
+    }
+
+    .gift-navigation-left {
+      left: -17px;
+    }
+    .gift-navigation-right {
+      right: -17px;
+    }
+  }
+
+  &[data-view="2"] {
+    .owl-stage-outer {
+      padding-bottom: 60px;
+    }
+  }
+
+  .intec-ui.intec-ui-control-input.intec-ui-view-2:disabled, .intec-ui.intec-ui-control-input.intec-ui-view-2.intec-ui-state-disabled, .intec-ui.intec-ui-control-input.intec-ui-view-2[data-ui-state="disabled"] {
+    border: 1px solid #efefef;
+    color: #9f9f9f;
+  }
+  .gift-navigation-left {
+    margin-right: 7px;
+  }
+
+  .#{$class}-item {
+    position: relative;
+    z-index: 1;
+
+    &:hover {
+      z-index: 2;
+    }
+
+    &[data-expanded="true"] {
+      .ns-bitrix.c-catalog-item.c-catalog-item-template-2 .catalog-item-button-container-wrap {
+        display: block;
+      }
+      .ns-bitrix.c-catalog-item.c-catalog-item-template-2  .catalog-item-button-container {
+        position: absolute;
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        overflow: hidden;
+      }
+    }
+
+    @media all and (max-width: 768px) {
+      .ns-bitrix.c-catalog-item.c-catalog-item-template-2 .catalog-item-button-container-wrap {
+        display: block;
+      }
+      .ns-bitrix.c-catalog-item.c-catalog-item-template-2  .catalog-item-button-container {
+        position: absolute;
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        overflow: hidden;
+      }
+    }
+  }
+}

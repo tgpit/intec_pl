@@ -1,0 +1,70 @@
+.widget.c-widget.c-widget-web-form {
+  padding-left: 50px;
+  padding-right: 20px;
+  background-color: #fafafa;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.widget.c-widget.c-widget-web-form .web-form-container {
+  overflow: hidden;
+}
+.widget.c-widget.c-widget-web-form .web-form-name {
+  max-width: 35%;
+  overflow: hidden;
+}
+.widget.c-widget.c-widget-web-form .web-form-name-container {
+  min-height: 130px;
+  background: url("images/question_mark.png") no-repeat 50% 50%;
+}
+.widget.c-widget.c-widget-web-form .web-form-name-text {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 32px;
+  color: #2e3431;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.widget.c-widget.c-widget-web-form .web-form-name-decoration-item {
+  width: 4px;
+  height: 50px;
+}
+.widget.c-widget.c-widget-web-form .web-form-description-text {
+  color: #262928;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.widget.c-widget.c-widget-web-form .web-form-buttons {
+  text-align: center;
+}
+.widget.c-widget.c-widget-web-form .web-form-button {
+  font-size: 14px;
+  font-weight: 600;
+}
+@media all and (max-width: 1024px) {
+  .widget.c-widget.c-widget-web-form {
+    padding: 40px 32px;
+  }
+  .widget.c-widget.c-widget-web-form .web-form-name {
+    max-width: none;
+  }
+  .widget.c-widget.c-widget-web-form .web-form-name-container {
+    min-height: auto;
+    background-image: none;
+  }
+  .widget.c-widget.c-widget-web-form .web-form-name-text {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .widget.c-widget.c-widget-web-form .web-form-name-decoration {
+    display: none;
+  }
+  .widget.c-widget.c-widget-web-form .web-form-description-text {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

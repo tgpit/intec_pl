@@ -1,0 +1,266 @@
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 {
+  display: block;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-search {
+  display: block;
+  border-radius: 2px;
+  max-width: 600px;
+  border: 1px solid #E8E8E8;
+  background-color: #FFFFFF;
+  padding: 11px 10px 11px 16px;
+  margin-bottom: 35px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-search .support-ticket-list-search-form {
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-search .support-ticket-list-search-form-input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  color: #808080;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 0;
+  outline: none;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-search .support-ticket-list-search-form-button {
+  background: transparent;
+  border: none;
+  line-height: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter {
+  background-color: #F9F9FB;
+  border: 1px solid #F2F2F2;
+  margin-bottom: 15px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404040;
+  padding: 15px 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-wrap {
+  padding: 15px 30px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-form {
+  font-size: 0;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-form .support-ticket-list-filter-form-label {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+  margin-bottom: 10px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-form .support-ticket-list-filter-form-input {
+  font-size: 14px;
+  line-height: 18px;
+  color: #404040;
+  padding: 8px 16px;
+  max-width: 200px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-form .support-ticket-list-filter-form-select {
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+  border: 1px solid #E8E8E8;
+  border-right: none;
+  outline: none;
+  height: 36px;
+  min-width: 200px;
+  padding: 7px 45px 7px 14px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("./images/arrow_select.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-form .support-ticket-list-filter-form-button-apply,
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-form .support-ticket-list-filter-form-button-clear {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 11px 24px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-form .support-ticket-list-filter-form-button-clear {
+  color: #808080;
+  border-color: #E8E8E8;
+  background-color: transparent;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-form .support-ticket-list-filter-form-button-clear:hover {
+  border-color: initial;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items {
+  background-color: #F9F9FB;
+  border: 1px solid #F2F2F2;
+  margin-bottom: 16px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-items-title {
+  padding: 16px 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-items-title .support-ticket-list-items-title-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404040;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-items-title .support-ticket-list-items-title-button {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 10px 22px;
+  border-width: 1px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item {
+  padding: 12px 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item:last-child {
+  border-bottom: none;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item.support-ticket-list-item-header .support-ticket-list-item-text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-text {
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+  text-decoration: none;
+  word-break: break-word;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap {
+  flex-basis: 100%;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap[data-code=id] {
+  max-width: 210px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap[data-code=status] {
+  max-width: 240px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap[data-code=title] {
+  max-width: 260px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap[data-code=category] {
+  max-width: 235px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap[data-code=date] {
+  max-width: 160px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap .support-ticket-list-item-text-header {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+  padding-right: 10px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #0065ff;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-statuses {
+  background-color: #F9F9FB;
+  border: 1px solid #F2F2F2;
+  margin-bottom: 24px;
+  padding: 16px 30px;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-statuses .support-ticket-list-status-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #0065ff;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-statuses .support-ticket-list-status-indicator[data-code=red] {
+  background-color: #ff0000;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-statuses .support-ticket-list-status-indicator[data-code=green] {
+  background-color: #008000;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-statuses .support-ticket-list-status-indicator[data-code=grey] {
+  background-color: #808080;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-statuses .support-ticket-list-status-indicator[data-code=yellow] {
+  background-color: #ffff00;
+}
+.ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-statuses .support-ticket-list-status-text {
+  font-size: 15px;
+  line-height: 18px;
+  color: #404040;
+}
+@media all and (min-width: 1025px) {
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap .support-ticket-list-item-text-header {
+    display: none;
+  }
+}
+@media all and (max-width: 1200px) {
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap[data-code=id] {
+    max-width: 185px;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap[data-code=status] {
+    max-width: 200px;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap[data-code=title] {
+    max-width: 210px;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap[data-code=category] {
+    max-width: 190px;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap[data-code=date] {
+    max-width: 145px;
+  }
+}
+@media all and (max-width: 1024px) {
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-items-title {
+    padding: 16px 15px;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item {
+    padding: 20px 15px;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-text {
+    font-size: 13px;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item.support-ticket-list-item-header {
+    display: none;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap {
+    max-width: unset !important;
+    margin-bottom: 16px;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-items .support-ticket-list-item .support-ticket-list-item-wrap:last-child {
+    margin-bottom: 0px;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-title {
+    padding: 15px 15px;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-filter .support-ticket-list-filter-wrap {
+    padding: 15px 15px;
+  }
+  .ns-bitrix.c-support-ticket-list.c-support-ticket-list-template-1 .support-ticket-list-statuses {
+    padding: 16px 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

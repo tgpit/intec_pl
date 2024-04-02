@@ -1,0 +1,185 @@
+.ns-intec-universe.c-reviews.c-reviews-popup-1 {
+  min-width: 450px;
+  max-width: 450px;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-form-fragment + * {
+  margin-top: 32px;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-form-section + * {
+  margin-top: 24px;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-form-submit {
+  position: relative;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-form-submit-button {
+  position: relative;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  min-width: 180px;
+  padding: 20px 32px;
+  z-index: 1;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-form-submit-button[disabled] {
+  background-color: #CCCCCC;
+  border-color: #CCCCCC;
+  cursor: not-allowed;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-form-submit-button[disabled]:hover + .reviews-form-submit-popup {
+  display: inline-block;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-form-submit-popup {
+  display: none;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  max-width: 216px;
+  padding: 8px;
+  background-color: #FFF;
+  z-index: 2;
+  -webkit-box-shadow: 0 0 24px 0 rgba(27, 30, 37, 0.08);
+  -moz-box-shadow: 0 0 24px 0 rgba(27, 30, 37, 0.08);
+  box-shadow: 0 0 24px 0 rgba(27, 30, 37, 0.08);
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-form-submit-popup-content {
+  font-size: 12px;
+  line-height: 1.25;
+  color: #808080;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-label {
+  display: block;
+  font-size: 0;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-name {
+  display: block;
+  font-size: 13px;
+  line-height: 1.39;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-name + .reviews-field-picture, .ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-name + .reviews-field-input {
+  margin-top: 8px;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-name-value {
+  color: #808080;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-name-value a {
+  text-decoration: none;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-name-required {
+  color: #E05757;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-picture {
+  display: block;
+  text-align: left;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-picture + .reviews-field-input {
+  margin-top: 8px;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-input {
+  min-width: 100%;
+  max-width: 100%;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-input-error {
+  border: 1px solid #ec9a9a;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: border-color;
+  -moz-transition-property: border-color;
+  -ms-transition-property: border-color;
+  -o-transition-property: border-color;
+  transition-property: border-color;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-input-error:hover {
+  border-color: #E05757;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-field-captcha .reviews-field-input {
+  width: 180px;
+  min-width: auto;
+  max-width: none;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-rating {
+  display: block;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-rating [data-role="rating.information"] {
+  display: none;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-rating [data-role="rating.information"][data-active=true] {
+  display: block;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-rating-item {
+  display: block;
+  cursor: pointer;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-rating-item svg path {
+  fill: #E8E8E8;
+  stroke: #E8E8E8;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: fill, stroke;
+  -moz-transition-property: fill, stroke;
+  -ms-transition-property: fill, stroke;
+  -o-transition-property: fill, stroke;
+  transition-property: fill, stroke;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-rating-item[data-active=true] svg path, .ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-rating-item[data-hover=true] svg path {
+  fill: #FBCD56;
+  stroke: #FBCD56;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-rating-item[data-active=true][data-hover=true] svg path {
+  fill: #fde3a1;
+  stroke: #fde3a1;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-rating-caption {
+  font-size: 14px;
+  line-height: 1;
+  color: #404040;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-rating-caption-separator {
+  display: block;
+  width: 8px;
+  border-bottom: 1px solid #404040;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-message {
+  font-size: 18px;
+  line-height: 24px;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-message-neutral {
+  color: #808080;
+}
+.ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-message-success {
+  color: #1DB940;
+}
+@media all and (max-width: 600px) {
+  .ns-intec-universe.c-reviews.c-reviews-popup-1 {
+    min-width: auto;
+    max-width: none;
+  }
+  .ns-intec-universe.c-reviews.c-reviews-popup-1 .reviews-rating-item[data-active=true][data-hover=true] svg path {
+    fill: #FBCD56;
+    stroke: #FBCD56;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

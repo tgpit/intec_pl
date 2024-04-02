@@ -1,0 +1,19 @@
+<Snegohod_tags>
+	<Type name="Утилитарный"></Type>
+	<Type name="Спортивный или горный"></Type>
+	<Type name="Туристический"></Type>
+	<Type name="Детский"></Type>
+	<Type name="Мотобуксировщик"></Type>
+	<EngineType name="Бензин">
+		<Power variable="int"></Power>
+		<EngineCapacity variable="int"></EngineCapacity>
+		<Stroke name="2"></Stroke>
+		<Stroke name="4"></Stroke>
+	</EngineType>
+	<EngineType name="Электро">
+		<Power variable="int"></Power>
+	</EngineType>
+	<PersonCapacity variable="int"></PersonCapacity>
+	<TrackWidth variable="int"></TrackWidth>
+	<VIN variable="int"></VIN>
+</Snegohod_tags>

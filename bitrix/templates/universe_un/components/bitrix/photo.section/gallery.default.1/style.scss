@@ -1,0 +1,84 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'photo-section';
+$template: 'default-1';
+
+$item: #{$component}-item;
+$back: #{$component}-back;
+
+.ns-bitrix.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$component}-items {
+    @extend %overflow;
+  }
+  .#{$component}-footer {
+    font-size: 0;
+    margin-top: 32px;
+  }
+
+  .#{$item} {
+    position: relative;
+    cursor: pointer;
+  }
+  .#{$item}-content {
+    position: relative;
+    z-index: 1;
+  }
+  .#{$item}-overlay {
+    position: absolute;
+    @include sides(0, 0, 0, 0);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 2;
+    @include transition(.35s, opacity);
+  }
+  .#{$item}-overlay-icon {
+    svg {
+      path {
+        stroke: #FFF;
+      }
+    }
+  }
+  .#{$item}-picture {
+    min-height: 230px;
+    padding-top: 100% /16 * 9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &[data-lazyload-use='true'] {
+      background-color: #F2F2F2;
+    }
+  }
+
+  .#{$item}:hover {
+    .#{$item}-overlay {
+      opacity: 1;
+    }
+  }
+
+  .#{$back} {
+    display: inline-block;
+
+    @extend %overflow;
+  }
+  .#{$back}-icon {
+    svg {
+      path {
+        stroke: #808080;
+      }
+    }
+  }
+  .#{$back}-content {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #525458;
+    text-decoration: none;
+    @include transition(.35s, color);
+  }
+
+  %overflow {
+    overflow: hidden;
+  }
+}

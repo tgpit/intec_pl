@@ -1,0 +1,37 @@
+<?php
+
+$MESS["VKAPI.MARKET.PAGE_LIST_TITLE_NAV_TEXT"] = "Выгрузки";
+$MESS["VKAPI.MARKET.PAGE_LIST_TITLE"] = "Выгрузки";
+$MESS["VKAPI.MARKET.MENU_RESET_STATE"] = "Сбросить состояние и начать сначала";
+$MESS["VKAPI.MARKET.MENU_EXPORT_NOW_START"] = "Выгрузить вручную";
+$MESS["VKAPI.MARKET.MENU_AUTO_EXPORT_ENABLE"] = "Включить автоматический экспорт";
+$MESS["VKAPI.MARKET.MENU_EDIT"] = "Изменить";
+$MESS["VKAPI.MARKET.MENU_AUTO_EXPORT_DISABLE"] = "Отключить автоматический экспорт";
+$MESS["VKAPI.MARKET.MENU_COPY"] = "Копировать";
+$MESS["VKAPI.MARKET.MENU_BTN_NEW_TITLE"] = "Добавить";
+$MESS["VKAPI.MARKET.LIST_SELECTED"] = "Выделено";
+$MESS["VKAPI.MARKET.LIST_DELETE"] = "Удалить";
+$MESS["VKAPI.MARKET.LIST_DEACTIVATE"] = "Деактивировать";
+$MESS["VKAPI.MARKET.LIST_CHECKED"] = "Выбрано";
+$MESS["VKAPI.MARKET.LIST_ACTIVE"] = "Активировать";
+$MESS["VKAPI.MARKET.ITEM.STATUS.RUNNING"] = "<span class=\"vkapi__market__export__list-status-item\">Выгрузка запущена #TIME0#</span> ";
+$MESS["VKAPI.MARKET.ITEM.STATUS.EMPTY"] = "Данные о статусе пока отсутствуют";
+$MESS["VKAPI.MARKET.ITEM.STATUS.COMPLETE"] = "<span class=\"vkapi__market__export__list-status-item\">Выгрузка завершена #TIME0# - #TIME1#</span> ";
+$MESS["VKAPI.MARKET.ITEM.AJAX_ERROR_UNKNOWN_METHOD"] = "Неизвестный метод";
+$MESS["VKAPI.MARKET.ITEM.AJAX_ERROR_SESSID"] = "Ваша сессия закончилась, обновите страницу";
+$MESS["VKAPI.MARKET.ITEM.AJAX_ERROR_ACCESS"] = "Нет доступа";
+$MESS["VKAPI.MARKET.HEAD.STATUS_RESULT"] = "Собрано по условию #ALL# <br>Будут обновлены: #UPDATE#<br>Будут выгружены: #ADD#";
+$MESS["VKAPI.MARKET.HEAD.STATUS"] = "Статус";
+$MESS["VKAPI.MARKET.HEAD.SITE_ID"] = "Сайт";
+$MESS["VKAPI.MARKET.HEAD.PRICE_ID"] = "Тип цены";
+$MESS["VKAPI.MARKET.HEAD.NAME"] = "Название";
+$MESS["VKAPI.MARKET.HEAD.ID"] = "ID";
+$MESS["VKAPI.MARKET.HEAD.GROUP_NAME"] = "Группа";
+$MESS["VKAPI.MARKET.HEAD.CURRENCY"] = "Валюта";
+$MESS["VKAPI.MARKET.HEAD.CATALOG_ID"] = "Каталог";
+$MESS["VKAPI.MARKET.HEAD.AUTO_1"] = "<span class=\"vkapi__market__export__list-auto-on\">включен автоэкспорт</span>";
+$MESS["VKAPI.MARKET.HEAD.AUTO_0"] = "<span class=\"vkapi__market__export__list-auto-off\">выключен автоэкспорт</span>";
+$MESS["VKAPI.MARKET.HEAD.AUTO"] = "Автоматический экспорт";
+$MESS["VKAPI.MARKET.HEAD.ACTIVE_1"] = "<span class=\"vkapi__market__export__list-auto-on\">да</span>";
+$MESS["VKAPI.MARKET.HEAD.ACTIVE_0"] = "<span class=\"vkapi__market__export__list-auto-off\">нет</span>";
+$MESS["VKAPI.MARKET.HEAD.ACTIVE"] = "Активность";

@@ -1,0 +1,73 @@
+$type: widget;
+$component: #{$type}-icons;
+$template: #{$component}-default;
+
+.#{$type}.#{$component}.#{$template} {
+  .#{$component}-header {
+    font-size: 18px;
+    line-height: 25px;
+    color: #292929;
+
+    & + .#{$component}-items {
+      margin-top: 24px;
+    }
+  }
+  .#{$component}-items {
+    @extend %overflow-hidden;
+  }
+  .#{$component}-items-wrapper {
+    margin: -10px -50px;
+  }
+  .#{$component}-item {
+    padding:  10px 50px;
+  }
+  .#{$component}-item-content {
+    @extend %overflow-hidden;
+  }
+  .#{$component}-item-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  .#{$component}-item-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .#{$component}-item-picture {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+  }
+  .#{$component}-item-name {
+    font-size: 14px;
+    line-height: 1.45;
+    text-align: left;
+    color: #000000;
+    margin-top: 8px;
+  }
+
+  %overflow-hidden {
+    overflow: hidden;
+  }
+
+  @media all and (max-width: 768px) {
+    .#{$component}-items-wrapper {
+      margin-left: -25px;
+      margin-right: -25px;
+    }
+    .#{$component}-item {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+}

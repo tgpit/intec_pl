@@ -1,0 +1,65 @@
+<Motorcycles_tags>
+	<Type name="Круизер или чоппер"></Type>
+	<Type name="Спортбайк"></Type>
+	<Type name="Туристический"></Type>
+	<Type name="Спорт-турист"></Type>
+	<Type name="Тур-эндуро"></Type>
+	<Type name="Трицикл"></Type>
+	<Type name="Naked bike"></Type>
+	<Type name="Мотард"></Type>
+	<Type name="Эндуро"></Type>
+	<Type name="Кроссовый"></Type>
+	<Type name="Питбайк"></Type>
+	<Type name="Триал"></Type>
+	<Type name="Детский"></Type>
+	<Type name="Кастом"></Type>
+	<EngineType name="Бензин">
+		<Power variable="int"></Power>
+		<EngineCapacity variable="int"></EngineCapacity>
+		<FuelFeed name="Карбюратор"></FuelFeed>
+		<FuelFeed name="Инжектор"></FuelFeed>
+		<DriveType name="Цепь"></DriveType>
+		<DriveType name="Ремень"></DriveType>
+		<DriveType name="Кардан"></DriveType>
+		<Stroke name="2"></Stroke>
+		<Stroke name="4"></Stroke>
+		<Cylinders name="1"></Cylinders>
+		<Cylinders name="2"></Cylinders>
+		<Cylinders name="3"></Cylinders>
+		<Cylinders name="4"></Cylinders>
+		<Cylinders name="5"></Cylinders>
+		<Cylinders name="6"></Cylinders>
+		<Transmission name="Механика">
+			<NumberOfGears name="3"></NumberOfGears>
+			<NumberOfGears name="4"></NumberOfGears>
+			<NumberOfGears name="5"></NumberOfGears>
+			<NumberOfGears name="6"></NumberOfGears>
+		</Transmission>
+		<Transmission name="Автомат"></Transmission>
+		<Transmission name="Робот"></Transmission>
+		<Transmission name="Вариатор"></Transmission>
+		<CylindersPosition name="V-образное"></CylindersPosition>
+		<CylindersPosition name="Оппозитное"></CylindersPosition>
+		<CylindersPosition name="Рядное"></CylindersPosition>
+		<EngineCooling name="Воздушное"></EngineCooling>
+		<EngineCooling name="Жидкостное"></EngineCooling>
+	</EngineType>
+	<EngineType name="Электро">
+		<Power variable="int"></Power>
+		<TopSpeed variable="int"></TopSpeed>
+		<BatteryCapacity variable="int"></BatteryCapacity>
+		<ElectricRange variable="int"></ElectricRange>
+		<ChargingTime variable="int"></ChargingTime>
+	</EngineType>
+	<VIN variable="int"></VIN>
+	<TechnicalPassport name="Оригинал"></TechnicalPassport>
+	<TechnicalPassport name="Дубликат"></TechnicalPassport>
+	<TechnicalPassport name="Электронный"></TechnicalPassport>
+	<TechnicalPassport name="Нет"></TechnicalPassport>
+	<AdditionalOptions name="Электростартер"></AdditionalOptions>
+	<AdditionalOptions name="Антиблокировочная система (ABS)"></AdditionalOptions>
+	<AdditionalOptions name="Трэкшн-контроль (TCS)"></AdditionalOptions>
+	<AdditionalOptions name="Система «старт-стоп»"></AdditionalOptions>
+	<AdditionalOptions name="Ветровое стекло"></AdditionalOptions>
+	<AdditionalOptions name="Кофр"></AdditionalOptions>
+</Motorcycles_tags>

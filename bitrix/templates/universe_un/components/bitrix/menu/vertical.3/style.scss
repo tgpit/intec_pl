@@ -1,0 +1,307 @@
+$namespace: 'bitrix';
+$component: 'menu';
+$template: 'vertical-3';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+  background: #fff;
+
+  .#{$class}-wrapper {}
+
+  .#{$class}-items {
+    height: 0;
+    overflow: hidden;
+
+    &[data-expanded="true"] {
+      height: auto;
+      overflow: visible;
+    }
+  }
+  .#{$class}-item-catalog {
+    padding: 0px 30px 0px 0px;
+    position: relative;
+    cursor: pointer;
+
+    & + .#{$class}-items {
+      margin-top: 28px;
+    }
+  }
+
+  .#{$class}-item-catalog-icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+  }
+  .#{$class}-item-catalog-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1B1E25;
+    margin-left: 8px;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .#{$class}-item-catalog-arrow {
+    display: block;
+    position: absolute;
+    left: auto;
+    font-size: 18px;
+    line-height: 1;
+    margin-top: -9px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    top: 50%;
+    right: 12px;
+    bottom: auto;
+
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+
+    -webkit-transition-property: transform;
+    -moz-transition-property: transform;
+    -ms-transition-property: transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+
+    &[data-active="true"] {
+      transform: rotate(-90deg);
+    }
+  }
+
+  .#{$class}-item {
+    display: block;
+    position: relative;
+    border: 1px solid #f2f2f2;
+    border-top: none;
+    cursor: pointer;
+    color: #808080;
+
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+
+    -webkit-transition-property: background;
+    -moz-transition-property: background;
+    -ms-transition-property: background;
+    -o-transition-property: background;
+    transition-property: background;
+
+    &:first-child {
+      border-top: 1px solid #f2f2f2;
+    }
+
+    &[data-selected="true"] {
+      background: #fbfcfd;
+
+      .#{$class}-item-text {
+        font-weight: 600;
+        color: #404040;
+      }
+    }
+
+    &:hover {
+      background: #fbfcfd;
+    }
+  }
+
+  .#{$class}-item-text {
+    display: block;
+    position: relative;
+    padding: 20px 35px 19px 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: inherit;
+    text-decoration: none;
+
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -ms-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  .#{$class}-item-arrow {
+    display: block;
+    position: absolute;
+    left: auto;
+    font-size: 18px;
+    line-height: 1;
+    margin-top: -9px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    top: 50%;
+    right: 12px;
+    bottom: auto;
+
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+
+    -webkit-transition-property: transform;
+    -moz-transition-property: transform;
+    -ms-transition-property: transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+
+    &[data-active="true"] {
+      transform: rotate(-90deg);
+    }
+  }
+
+  .#{$class}-item-picture {
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+
+    svg {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .#{$class}-item-submenu {
+    display: none;
+    height: 0;
+    background: #fff;
+    min-width: 100%;
+    z-index: 20;
+    cursor: default;
+    margin-bottom: 16px;
+
+    &[data-expanded="true"] {
+      display: block;
+      height: auto;
+      background: inherit;
+    }
+
+    .#{$class}-item-submenu-item {
+      display: block;
+      position: relative;
+      border-top: none;
+      color: #808080;
+      cursor: pointer;
+
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+
+      -webkit-transition-property: background, border;
+      -moz-transition-property: background, border;
+      -ms-transition-property: background, border;
+      -o-transition-property: background, border;
+      transition-property: background, border;
+
+      &:first-child {
+      }
+
+      &:hover {
+        background: #fbfcfd;
+
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+
+        -webkit-transition-property: background;
+        -moz-transition-property: background;
+        -ms-transition-property: background;
+        -o-transition-property: background;
+        transition-property: background;
+      }
+
+      &[data-selected="true"] {
+        background: #fbfcfd;
+
+        & > .#{$class}-item-submenu-item-text {
+          color: #404040;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .#{$class}-item-submenu-item-text {
+      display: block;
+      position: relative;
+      padding: 4px 35px 4px 30px;
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: normal;
+      color: inherit;
+      text-decoration: none !important;
+
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+
+      -webkit-transition-property: color;
+      -moz-transition-property: color;
+      -ms-transition-property: color;
+      -o-transition-property: color;
+      transition-property: color;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+
+    .#{$class}-item-submenu-item-arrow {
+      display: block;
+      position: absolute;
+      left: auto;
+      font-size: 18px;
+      line-height: 1;
+      margin-top: -9px;
+      top: 50%;
+      right: 15px;
+      bottom: auto;
+    }
+
+  }
+
+  &[data-view="pictures"] {
+    .#{$class}-item-text {
+      padding: 18px 35px 17px 24px;
+    }
+    .#{$class}-item-submenu {
+      padding-left: 46px;
+    }
+    .#{$class}-item-submenu-item-text {
+      padding: 4px 35px 4px 20px;
+    }
+  }
+}

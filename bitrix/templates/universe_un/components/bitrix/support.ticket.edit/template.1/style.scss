@@ -1,0 +1,376 @@
+$namespace: 'bitrix';
+$component: 'support-ticket-edit';
+$template: 'template-1';
+$class: $component;
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  display: block;
+
+  .#{$class}-wrapper {}
+  .#{$class}-wrapper-2 {}
+
+  .#{$class}-return {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .#{$class}-header {
+    background-color: #F9F9FB;
+    border: 1px solid #F2F2F2;
+    margin-bottom: 15px;
+  }
+
+  .#{$class}-header-top {
+    padding: 16px 30px;
+    border-bottom: 1px solid #F2F2F2;
+
+    .#{$class}-title {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      color: #404040;
+    }
+
+    .#{$class}-open-ticket {
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 11px 24px;
+    }
+  }
+
+  .#{$class}-header-bottom {
+    padding: 16px 30px;
+
+    .#{$class}-subtitle {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 18px;
+      color: #808080;
+      padding-right: 8px;
+      margin-bottom: 8px;
+    }
+
+    .#{$class}-text {
+      font-size: 15px;
+      line-height: 18px;
+      color: #404040;
+      word-break: break-word;
+    }
+
+    .#{$class}-order-status {
+      display: inline-block;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 12px;
+      color: #fff;
+      text-align: center;
+      padding: 6px 8px;
+      border-radius: 2px;
+      background-color: #808080;
+    }
+
+    .#{$class}-info-item {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+  .#{$class}-messages {
+    background-color: #F9F9FB;
+    border: 1px solid #F2F2F2;
+    margin-bottom: 24px;
+  }
+
+  .#{$class}-messages-title {
+    padding: 16px 30px;
+    border-bottom: 1px solid #F2F2F2;
+  }
+
+  .#{$class}-messages-title-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #404040;
+  }
+
+  .#{$class}-messages-item {
+    padding: 20px 30px;
+    border-bottom: 1px solid #F2F2F2;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .#{$class}-messages-item-title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #404040;
+    margin-bottom: 12px;
+  }
+
+  .#{$class}-messages-item-status {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    padding: 6px 8px;
+    background-color: #808080;
+    border-radius: 2px;
+
+    &.#{$class}-messages-item-status-client {
+      background-color: #1DB940;
+    }
+
+    &.#{$class}-messages-item-status-support {
+      background-color: #3384FF;
+    }
+  }
+
+  .#{$class}-messages-item-date {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 8px;
+  }
+
+  .#{$class}-messages-item-text {
+    font-size: 15px;
+    line-height: 18px;
+    color: #404040;
+    margin-bottom: 32px;
+  }
+
+  .#{$class}-messages-item-files {
+
+  }
+
+  .#{$class}-messages-item-files-title {
+    font-size: 14px;
+    line-height: 18px;
+    color: #808080;
+    margin-bottom: 8px;
+  }
+
+  .#{$class}-messages-item-file {
+    font-size: 14px;
+    line-height: 20px;
+    color: #B0B0B0;
+    margin-bottom: 8px;
+    word-break: break-word;
+
+    & * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .#{$class}-messages-item-quote {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #808080;
+    padding: 12px 24px;
+    border: 1px solid #B0B0B0;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -ms-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms;
+
+    &:hover {
+      background-color: #B0B0B0;
+      color: #fff;
+    }
+  }
+
+  .#{$class}-form {
+    background-color: #F9F9FB;
+    border: 1px solid #F2F2F2;
+    margin-bottom: 24px;
+    max-width: 690px;
+  }
+
+  .#{$class}-form-title {
+    padding: 16px 30px;
+    border-bottom: 1px solid #F2F2F2;
+  }
+
+  .#{$class}-form-title-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #404040;
+  }
+
+  .#{$class}-form-wrap {
+    padding: 16px 30px;
+  }
+
+  .#{$class}-form-field {
+    margin-bottom: 24px;
+  }
+
+  .#{$class}-form-field-title {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    color: #808080;
+    margin-bottom: 12px;
+  }
+
+  .#{$class}-form-button-message {
+    margin-bottom: 12px;
+  }
+
+  .#{$class}-form-field-inputtext,
+  .#{$class}-form-field-system input[type="text"] {
+    font-size: 14px;
+    line-height: 18px;
+    color: #404040;
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+    background-color: #fff;
+    padding: 12px 24px;
+    width: 100%;
+    max-width: 100%;
+    outline: none;
+  }
+
+  .#{$class}-form-field-textarea {
+    font-size: 14px;
+    line-height: 18px;
+    color: #404040;
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+    background-color: #fff;
+    padding: 12px 24px;
+    width: 100%!important;
+    max-height: 118px;
+    min-height: 44px;
+    outline: none;
+  }
+
+  .#{$class}-form-field-inputfile {
+
+    & input {
+      display: none;
+    }
+
+    & label {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 10px;
+      border-width: 1px;
+      padding: 12px 24px;
+    }
+  }
+
+  .#{$class}-form-field-filesize {
+    font-size: 14px;
+    line-height: 18px;
+    color: #808080;
+  }
+
+  .#{$class}-form-field-select {
+    font-size: 14px;
+    line-height: 18px;
+    color: #404040;
+    border: 1px solid #E8E8E8;
+    border-right: none;
+    outline: none;
+    width: 100%;
+    padding: 12px 45px 12px 24px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url(./images/arrow_select.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+  }
+
+  .#{$class}-form-field-button-close {
+
+    & input {
+      display: none;
+    }
+  }
+
+  .#{$class}-form-button {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    color: #808080;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-color: #E8E8E8;
+    border-width: 1px;
+    padding: 12px 24px;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .#{$class}-form-button-close-info {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #808080;
+  }
+
+  @media all and (max-width: 550px) {
+    .#{$class}-header-top {
+      padding: 16px;
+    }
+
+    .#{$class}-header-bottom {
+      padding: 16px;
+
+      .#{$class}-info-item {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+      }
+    }
+
+    .#{$class}-messages-title {
+      padding: 16px;
+    }
+
+    .#{$class}-messages-item {
+      padding: 20px 16px;
+    }
+
+    .#{$class}-form-title {
+      padding: 16px;
+    }
+
+    .#{$class}-form-wrap {
+      padding: 16px;
+    }
+  }
+}

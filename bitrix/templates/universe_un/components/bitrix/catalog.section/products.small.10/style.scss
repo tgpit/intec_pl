@@ -1,0 +1,68 @@
+@import './../../../../sources/styles/include.scss';
+
+$namespace: 'bitrix';
+$component: 'catalog-section';
+$template: 'products-small-9';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$class}-items {
+    margin: -12px 0;
+  }
+
+  .#{$class}-item {
+    display: block;
+    padding: 12px 0;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .#{$class}-item-wrapper {
+    @include flex();
+    @include flex-wrap(none);
+    @include flex-align-horizontal(center);
+    @include flex-align-vertical(center);
+  }
+
+  .#{$class}-item-image {
+    @include flex-item-auto();
+
+    padding-right: 22px;
+  }
+
+  .#{$class}-item-image-wrapper {
+    height: 74px;
+    width: 74px;
+  }
+
+  .#{$class}-item-information {
+    @include flex-item-full();
+
+    width: calc(100% - 96px);
+  }
+
+  .#{$class}-item-name {
+    color: #404040;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .#{$class}-item-price {
+    padding-top: 10px;
+  }
+
+  .#{$class}-item-price-base {
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .#{$class}-item-price-discount {
+    color: #808080;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: line-through;
+  }
+}

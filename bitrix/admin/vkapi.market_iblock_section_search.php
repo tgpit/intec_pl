@@ -1,0 +1,1 @@
+<? require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/vkapi.market/admin/iblock_section_search.php");?>

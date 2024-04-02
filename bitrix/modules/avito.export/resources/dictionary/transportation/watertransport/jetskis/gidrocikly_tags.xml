@@ -1,0 +1,9 @@
+<Gidrocikly_tags>
+	<Type name="Спортивные"></Type>
+	<Type name="Туристические"></Type>
+	<SeatingCapacity variable="int"></SeatingCapacity>
+	<TrailerIncluded name="Нет"></TrailerIncluded>
+	<TrailerIncluded name="Да"></TrailerIncluded>
+	<Power variable="int"></Power>
+	<EngineCapacity variable="int"></EngineCapacity>
+</Gidrocikly_tags>

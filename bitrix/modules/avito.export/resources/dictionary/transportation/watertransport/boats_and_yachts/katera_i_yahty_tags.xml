@@ -1,0 +1,33 @@
+<katera_i_yahty_tags>
+	<Type name="Катер">
+		<BoatCategory name="Боурайдер"></BoatCategory>
+		<BoatCategory name="Катер с каютой"></BoatCategory>
+		<BoatCategory name="Катер с хардтопом"></BoatCategory>
+		<BoatCategory name="Спортивный буксировщик"></BoatCategory>
+		<BoatCategory name="Судно на воздушной подушке"></BoatCategory>
+		<BoatCategory name="Катер с закрытой носовой частью"></BoatCategory>
+		<BoatCategory name="Понтонный катер"></BoatCategory>
+		<EngineType name="Навесной"></EngineType>
+		<EngineType name="Стационарный"></EngineType>
+		<EngineType name="Водомёт"></EngineType>
+		<TrailerIncluded name="Нет"></TrailerIncluded>
+		<TrailerIncluded name="Да"></TrailerIncluded>
+	</Type>
+	<Type name="Моторная яхта"></Type>
+	<Type name="Парусная яхта"></Type>
+	<Type name="Суда"></Type>
+	<Length variable="int"></Length>
+	<Width variable="int"></Width>
+	<Draft variable="int"></Draft>
+	<SeatingCapacity variable="int"></SeatingCapacity>
+	<Material name="Алюминий"></Material>
+	<Material name="Дюралюминий"></Material>
+	<Material name="Сталь"></Material>
+	<Material name="Пластик"></Material>
+	<Material name="Стеклопластик"></Material>
+	<Material name="Дерево"></Material>
+	<Material name="Кевлар"></Material>
+	<Material name="Алюминий и стеклопластик"></Material>
+	<Material name="Другое"></Material>
+	<SeatingCapacity variable="int"></SeatingCapacity>
+</katera_i_yahty_tags>

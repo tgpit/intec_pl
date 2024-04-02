@@ -1,0 +1,106 @@
+$namespace: 'bitrix';
+$component: 'news-list';
+$template: 'help-1';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+
+  .#{$class}-banner {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 78px;
+    min-height: 250px;
+    margin-bottom: 32px;
+    overflow: hidden;
+
+    &[data-theme='light'] {
+      color: #FFFFFF;
+    }
+
+    &[data-theme='dark'] {
+
+      .#{$class}-banner-title {
+        color: #1B1E25;
+      }
+
+      .#{$class}-banner-subtitle {
+        color: #404040;
+      }
+    }
+  }
+
+  .#{$class}-banner-title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 8px;
+    word-break: break-word;
+    max-height: 80px;
+    overflow: hidden;
+  }
+
+  .#{$class}-banner-subtitle {
+    font-size: 14px;
+    line-height: 24px;
+    word-break: break-word;
+    max-height: 72px;
+    overflow: hidden;
+  }
+
+  .#{$class}-iblock-description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+  }
+
+  .#{$class}-items {
+    margin-top: 40px;
+  }
+
+  .#{$class}-item {
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.4s;
+
+    &:hover {
+      box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+    }
+  }
+
+  .#{$class}-item-picture {
+    width: 100%;
+    padding-top: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px 2px 0 0;
+  }
+
+  .#{$class}-item-name {
+    display: block;
+    margin: 20px 16px 26px 16px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #404040;
+    transition: all 0.4s;
+    overflow: hidden;
+  }
+
+  @media all and (max-width: 550px) {
+    .#{$class}-banner {
+      padding: 78px 20px;
+    }
+
+    .#{$class}-banner-title {
+      font-size: 24px;
+      line-height: 28px;
+      max-height: 56px;
+    }
+  }
+}

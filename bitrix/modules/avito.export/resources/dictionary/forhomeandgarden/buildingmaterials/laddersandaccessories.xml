@@ -1,0 +1,13 @@
+<LaddersAndAccessories>
+	<LadderType name="Лестница"></LadderType>
+	<LadderType name="Балясина"></LadderType>
+	<LadderType name="Косоур"></LadderType>
+	<LadderType name="Перила"></LadderType>
+	<LadderType name="Площадка"></LadderType>
+	<LadderType name="Подступенок"></LadderType>
+	<LadderType name="Поручень"></LadderType>
+	<LadderType name="Столб"></LadderType>
+	<LadderType name="Ступень"></LadderType>
+	<LadderType name="Тетива"></LadderType>
+	<LadderType name="Другое"></LadderType>
+</LaddersAndAccessories>

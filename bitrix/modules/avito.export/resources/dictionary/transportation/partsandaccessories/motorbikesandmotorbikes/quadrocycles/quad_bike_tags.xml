@@ -1,0 +1,23 @@
+<Quad_bike_tags>
+	<Type name="Багги"></Type>
+	<Type name="Утилитарный"></Type>
+	<Type name="Спортивный"></Type>
+	<Type name="Туристический"></Type>
+	<Type name="Детский"></Type>
+	<EngineType name="Бензин">
+		<Power variable="int"></Power>
+		<EngineCapacity variable="int"></EngineCapacity>
+		<FuelFeed name="Карбюратор"></FuelFeed>
+		<FuelFeed name="Инжектор"></FuelFeed>
+		<DriveType name="Цепь"></DriveType>
+		<DriveType name="Ремень"></DriveType>
+		<DriveType name="Кардан"></DriveType>
+		<Stroke name="2"></Stroke>
+		<Stroke name="4"></Stroke>
+	</EngineType>
+	<EngineType name="Электро">
+		<Power variable="int"></Power>
+	</EngineType>
+	<PersonCapacity variable="int"></PersonCapacity>
+	<VIN variable="int"></VIN>
+</Quad_bike_tags>

@@ -1,0 +1,66 @@
+<Root>
+	<GoodsSubType name="Мебель">
+		<FurnitureType name="Прилавки" />
+		<FurnitureType name="Столы" />
+		<FurnitureType name="Кассовые боксы" />
+		<FurnitureType name="Стеллажи" />
+		<FurnitureType name="Шкафы" />
+		<FurnitureType name="Витрины" />
+		<FurnitureType name="Торговые островки" />
+		<FurnitureType name="Комплекты" />
+		<FurnitureType name="Диваны" />
+		<FurnitureType name="Стулья" />
+		<FurnitureType name="Ресепшены" />
+		<FurnitureType name="Сейфы" />
+		<FurnitureType name="Экономпанели и фурнитура" />
+		<FurnitureType name="Перегородки" />
+		<FurnitureType name="Кресла" />
+		<FurnitureType name="Барные стойки" />
+		<FurnitureType name="Полки" />
+		<FurnitureType name="Торговые стойки" />
+		<FurnitureType name="Тумбы и подставки" />
+	</GoodsSubType>
+	<GoodsSubType name="Расчетно-кассовое">
+		<CashierType name="Контрольно-кассовые аппараты" />
+		<CashierType name="Кассовое ПО" />
+		<CashierType name="POS-моноблоки и мониторы" />
+		<CashierType name="Денежные ящики" />
+		<CashierType name="Сканеры" />
+		<CashierType name="Принтеры" />
+		<CashierType name="Расходные материалы и аксессуары" />
+		<CashierType name="Фискальные накопители" />
+		<CashierType name="Счетчики и сортировщики" />
+		<CashierType name="Детекторы банкнот" />
+	</GoodsSubType>
+	<GoodsSubType name="Рекламное">
+		<AdvertisingType name="Вывески" />
+		<AdvertisingType name="Видеоэкраны" />
+		<AdvertisingType name="Бегущие строки" />
+		<AdvertisingType name="Информационные стенды и доски" />
+		<AdvertisingType name="Проекторы" />
+		<AdvertisingType name="Баннеры и билборды" />
+	</GoodsSubType>
+	<GoodsSubType name="Павильоны и фудтраки">
+		<PavilionsType name="Фудтраки и автолавки" />
+		<PavilionsType name="Павильоны" />
+		<PavilionsType name="Шатры" />
+		<PavilionsType name="Киоски" />
+	</GoodsSubType>
+	<GoodsSubType name="Вендинговые и торговые аппараты" />
+	<GoodsSubType name="Развлекательное">
+		<EntertainingType name="Аттракционы" />
+		<EntertainingType name="Батуты" />
+		<EntertainingType name="Инвентарь" />
+	</GoodsSubType>
+	<GoodsSubType name="Торговый инвентарь">
+		<InventoryType name="Торговые весы" />
+		<InventoryType name="Освещение" />
+		<InventoryType name="Манекены" />
+		<InventoryType name="Вешалки" />
+		<InventoryType name="Покупательские корзины и тележки" />
+		<InventoryType name="Канцелярия" />
+		<InventoryType name="Аквариумы" />
+		<InventoryType name="Зеркала" />
+	</GoodsSubType>
+	<GoodsSubType name="Другое" />
+</Root>

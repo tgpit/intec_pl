@@ -1,0 +1,22 @@
+<GatesAndFences>
+	<FenceType name="3D-забор, гиттер"></FenceType>
+	<FenceType name="Ворота"></FenceType>
+	<FenceType name="Габион"></FenceType>
+	<FenceType name="Декор"></FenceType>
+	<FenceType name="Евроштакетник"></FenceType>
+	<FenceType name="Забор из бетона"></FenceType>
+	<FenceType name="Забор из дерева"></FenceType>
+	<FenceType name="Забор из камня"></FenceType>
+	<FenceType name="Забор из профнастила"></FenceType>
+	<FenceType name="Калитка"></FenceType>
+	<FenceType name="Кованый забор"></FenceType>
+	<FenceType name="Колпак"></FenceType>
+	<FenceType name="Колючая проволока"></FenceType>
+	<FenceType name="Крепление"></FenceType>
+	<FenceType name="Ограждение"></FenceType>
+	<FenceType name="Сетка"></FenceType>
+	<FenceType name="Столб"></FenceType>
+	<FenceType name="Труба"></FenceType>
+	<FenceType name="Шлагбаум"></FenceType>
+	<FenceType name="Другой"></FenceType>
+</GatesAndFences>

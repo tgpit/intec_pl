@@ -1,0 +1,28 @@
+$namespace: 'bitrix';
+$component: 'search-page';
+$template: 'catalog';
+$class: #{$component};
+
+.ns-#{$namespace}.c-#{$component}.c-#{$component}-#{$template} {
+  .#{$class}-content {
+
+    width: 100%;
+
+    .#{$class}-form {
+      margin-bottom: 25px;
+      border: none;
+      padding: 0;
+    }
+    .search-form-input {
+      background-color: #FFF;
+    }
+
+    @media all and (max-width: 1024px) {
+      .#{$class}-form {
+        width: 100%;
+      }
+    }
+  }
+}
+
+

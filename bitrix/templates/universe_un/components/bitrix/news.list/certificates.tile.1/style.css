@@ -1,0 +1,42 @@
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-1 {
+  display: block;
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-1 .news-list-item {
+  display: block;
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-1 .news-list-item-image {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-top: 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-1 .news-list-item-image:hover {
+  -webkit-box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.21);
+  box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.21);
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-1 .news-list-item-image[data-role=zoom] {
+  cursor: pointer;
+}
+.ns-bitrix.c-news-list.c-news-list-certificates-tile-1 .news-list-item-name {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

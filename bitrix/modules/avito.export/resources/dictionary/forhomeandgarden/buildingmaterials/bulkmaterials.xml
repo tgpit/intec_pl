@@ -1,0 +1,31 @@
+<BulkMaterials>
+	<PriceType name="за м3"></PriceType>
+	<PriceType name="за мешок">
+		<BagValue variable="numeric">
+			<BagUnits name="кг"></BagUnits>
+			<BagUnits name="литры"></BagUnits>
+		</BagValue>
+	</PriceType>
+	<PriceType name="за тонну"></PriceType>
+	<PriceType name="за килограмм"></PriceType>
+	<PriceType name="за штуку"></PriceType>
+	<PriceType name="за всё"></PriceType>
+	<BulkMaterialType name="Песок"></BulkMaterialType>
+	<BulkMaterialType name="Щебень"></BulkMaterialType>
+	<BulkMaterialType name="Асфальт"></BulkMaterialType>
+	<BulkMaterialType name="Глина"></BulkMaterialType>
+	<BulkMaterialType name="Гравий"></BulkMaterialType>
+	<BulkMaterialType name="Грунт"></BulkMaterialType>
+	<BulkMaterialType name="Дресва"></BulkMaterialType>
+	<BulkMaterialType name="Керамзит"></BulkMaterialType>
+	<BulkMaterialType name="Отсев"></BulkMaterialType>
+	<BulkMaterialType name="Пескогрунт"></BulkMaterialType>
+	<BulkMaterialType name="Песчано-гравийная смесь (ПГС, ОПГС)"></BulkMaterialType>
+	<BulkMaterialType name="Суглинок"></BulkMaterialType>
+	<BulkMaterialType name="Торф"></BulkMaterialType>
+	<BulkMaterialType name="Тырса"></BulkMaterialType>
+	<BulkMaterialType name="Чернозём"></BulkMaterialType>
+	<BulkMaterialType name="Шлак"></BulkMaterialType>
+	<BulkMaterialType name="Щебёночно-песчаная смесь (ЩПС)"></BulkMaterialType>
+	<BulkMaterialType name="Другой"></BulkMaterialType>
+</BulkMaterials>

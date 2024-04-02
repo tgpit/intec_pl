@@ -1,0 +1,194 @@
+$component: 'stages';
+$template: 'template-4';
+
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+@mixin box-shadow ($shadow) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-items {
+    display: block;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .widget-item {
+    display: block;
+    position: relative;
+    border-top: 1px solid #f2f2f2;
+    background: #FBFCFD;
+
+    @include transition ((background, box-shadow), 350ms);
+
+    &:hover {
+      z-index: 1;
+      background: #fff;
+      @include box-shadow (0px 8px 32px rgba(27, 30, 37, 0.08));
+
+      .widget-item-title-icon:before,
+      .widget-item-title-icon:after {
+        background-color: #404040;
+      }
+    }
+  }
+
+  .widget-item-title {
+    display: block;
+    padding: 24px 32px;
+    cursor: pointer;
+  }
+
+  .widget-item-title-wrapper {
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+
+    @include transition (color, 350ms);
+  }
+
+  .widget-item-title-text {
+    display: block;
+    padding-right: 75px;
+  }
+
+  .widget-item-title-icon {
+    display: block;
+    position: absolute;
+    text-align: center;
+    line-height: 1;
+    top: 50%;
+    right: 0;
+    width: 14px;
+    height: 14px;
+    margin-top: -7px;
+  }
+
+  .widget-item-title-icon:before,
+  .widget-item-title-icon:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #B0B0B0;
+    @include transition ((transform, background-color), 0.4s);
+  }
+
+  .widget-item[data-expanded=false] .widget-item-title-icon:before {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  .widget-item-description {
+    display: none;
+    padding: 0px 32px 40px 32px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .widget-item-description-wrapper {
+    display: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .widget-footer {}
+
+  .widget-footer-button {
+    color: #2d2d2d !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #fff !important;
+    }
+  }
+
+  .widget-item {
+    &[data-alignment="left"] {
+      text-align: left;
+    }
+
+    &[data-alignment="center"] {
+      text-align: center;
+
+      .widget-item-title-text {
+        padding-left: 75px;
+      }
+    }
+
+    &[data-alignment="right"] {
+      text-align: right;
+    }
+
+    &[data-expanded="true"] {
+      .widget-item-title-icon i {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  @media all and (max-width: 720px) {
+    .widget-item-title-text {
+      padding-right: 50px;
+    }
+
+    .widget-item[data-alignment="center"] .widget-item-title-text {
+      padding-left: 50px;
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    .widget-item-title {
+      padding: 15px;
+    }
+
+    .widget-item-title-wrapper {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .widget-item-title-text {
+      padding-right: 35px;
+    }
+
+    .widget-item-description {
+      padding: 0px 15px 20px 15px;
+    }
+
+    .widget-item-description-wrapper {
+      font-size: 13px;
+      line-height: 25px;
+    }
+  }
+}

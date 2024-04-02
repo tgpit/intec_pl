@@ -1,0 +1,156 @@
+--------
+13.02.2024 15:54:24  https://api.vk.com/method/users.get
+{
+    "user_ids": 71554634,
+    "fields": "photo_id, verified, sex, bdate, city, country, home_town, has_photo, photo_50, photo_100, photo_200_orig, photo_200, photo_400_orig, photo_max, photo_max_orig, online, lists, domain, has_mobile, contacts, site, education, universities, schools, status, last_seen, followers_count, common_count, occupation, nickname, relatives, relation, personal, connections, exports, wall_comments, activities, interests, music, movies, tv, books, games, about, quotes, can_post, can_see_all_posts, can_see_audio, can_write_private_message, can_send_friend_request, is_favorite, is_hidden_from_feed, timezone, screen_name, maiden_name, crop_photo, is_friend, friend_status, career, military, blacklisted, blacklisted_by_me",
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"response":[{"id":71554634,"nickname":"","maiden_name":"","domain":"muliars","bdate":"20.7.1981","timezone":2.000000,"photo_200":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/XLvBhFl75rlJwMICgkm2TAiZVslL8OsTWKQ564yXnZ0HCKKJ9QM7H8ZJ5-gj8Sdj6JAdaCd0XwNNnXLBnF6vyGNa.jpg?size=200x200&quality=95&crop=41,5,512,512&ava=1","photo_max":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/figj7HAZPTWrXnhGbfzL2TG9TqGwr-pnS7yODFfpDJujtN7ySM1kERv-lJj8l-MD9NjWfbqb4KDCI_pUD94dibMw.jpg?size=400x400&quality=95&crop=41,5,512,512&ava=1","photo_200_orig":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/XLvBhFl75rlJwMICgkm2TAiZVslL8OsTWKQ564yXnZ0HCKKJ9QM7H8ZJ5-gj8Sdj6JAdaCd0XwNNnXLBnF6vyGNa.jpg?size=200x200&quality=95&crop=41,5,512,512&ava=1","photo_400_orig":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/figj7HAZPTWrXnhGbfzL2TG9TqGwr-pnS7yODFfpDJujtN7ySM1kERv-lJj8l-MD9NjWfbqb4KDCI_pUD94dibMw.jpg?size=400x400&quality=95&crop=41,5,512,512&ava=1","photo_max_orig":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/figj7HAZPTWrXnhGbfzL2TG9TqGwr-pnS7yODFfpDJujtN7ySM1kERv-lJj8l-MD9NjWfbqb4KDCI_pUD94dibMw.jpg?size=400x400&quality=95&crop=41,5,512,512&ava=1","photo_id":"71554634_457239122","has_photo":1,"has_mobile":1,"is_friend":0,"wall_comments":1,"can_post":1,"can_see_all_posts":1,"can_see_audio":1,"interests":"","books":"","tv":"","quotes":"","about":"","games":"","movies":"","activities":"","music":"","can_write_private_message":1,"can_send_friend_request":1,"mobile_phone":"Nokia","home_phone":"","site":"","status":"","last_seen":{"platform":7,"time":1707827128},"crop_photo":{"photo":{"album_id":-6,"date":1676890968,"id":457239122,"owner_id":71554634,"post_id":723,"sizes":[{"height":75,"type":"s","width":75,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=75x75&quality=95&sign=f584a36fa923599bfa72e744f3b3d7d6&c_uniq_tag=M1jbY9UH2J0M4HKQP5sdf_NNbqRcASVWjZHIy-YUEJ8&type=album"},{"height":130,"type":"m","width":130,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=130x130&quality=95&sign=b86052fe0b16dfffa8c58226fefc21a1&c_uniq_tag=3mAQ3Oe4OhYTlkO7rJ_kumTObRekuZNY4C0qQsLK65s&type=album"},{"height":604,"type":"x","width":604,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=604x604&quality=95&sign=c56c33e3e0895c3d514541699b229f7b&c_uniq_tag=Hmkk4xBnqZlR5kpcO3YFTKRnFQtHdgbnr51UeXmDonA&type=album"},{"height":640,"type":"y","width":640,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=640x640&quality=95&sign=cc8c06e2f7800161d8e6bdd1fca128fe&c_uniq_tag=QLPLVgs4eoy48Tj_6PZ07tiiaZpwagh7tAVxqZ2yVFU&type=album"},{"height":130,"type":"o","width":130,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=130x130&quality=95&sign=b86052fe0b16dfffa8c58226fefc21a1&c_uniq_tag=3mAQ3Oe4OhYTlkO7rJ_kumTObRekuZNY4C0qQsLK65s&type=album"},{"height":200,"type":"p","width":200,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=200x200&quality=95&sign=d4923af22f49bad77524044811d8636f&c_uniq_tag=HBq0Y0vUGy57UnYza3uRAWidFU_I2f6ASaWvXZ6T6CE&type=album"},{"height":320,"type":"q","width":320,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=320x320&quality=95&sign=07fb93d37868bca12380906882e12e45&c_uniq_tag=OZAJKm0wdLQKQnTPsMwJWc-3aUsCLswkhUpy20F4zsU&type=album"},{"height":510,"type":"r","width":510,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=510x510&quality=95&sign=6450a741f137095d06b4c64890621c2b&c_uniq_tag=jkySNScDAnanPVm0o5CjcDtm64Dg4EGzjH-Ij5UqREs&type=album"}],"square_crop":"41,5,512","text":"","web_view_token":"c0fd6bab74648e9839","has_tags":false},"crop":{"x":6.410000,"y":0.780000,"x2":86.410000,"y2":80.780000},"rect":{"x":0.000000,"y":0.000000,"x2":100.000000,"y2":100.000000}},"followers_count":8797,"blacklisted":0,"blacklisted_by_me":0,"is_favorite":0,"is_hidden_from_feed":0,"common_count":0,"career":[],"military":[],"university":0,"university_name":"","faculty":0,"faculty_name":"","graduation":0,"home_town":"","relation":4,"personal":{"alcohol":4,"inspired_by":"Мои дети","langs":["Русский"],"langs_full":[{"id":0,"native_name":"Русский"}],"life_main":1,"people_main":2,"political":3,"religion":"Христианка","smoking":2},"universities":[],"schools":[],"relatives":[],"sex":1,"screen_name":"muliars","photo_50":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/SEMDvbXhsZ-FHA9ynfMZK6xva1hDBW-NBGxfRgPtCR-pK539ngRZvq_vR29rhNNPwLHdaBW4ScDOaCllxuYKZM67.jpg?size=50x50&quality=95&crop=41,5,512,512&ava=1","photo_100":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/GgeBvBgy0E7QUa8Ff9Re0jNfZ3IswC2mPo5lQdtmbdB5sCO6dDJn32WVFIz2v9Q5YCgw2z2EC6TV3ZVgnQ6a3YZl.jpg?size=100x100&quality=95&crop=41,5,512,512&ava=1","online":0,"verified":0,"friend_status":0,"first_name":"Елена","last_name":"Мулярина","can_access_closed":true,"is_closed":false}]}
+
+
+--------
+13.02.2024 15:54:33  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":15,"error_subcode":1133,"error_msg":"Access denied: no access to call this method. It cannot be called with current scopes.","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+
+--------
+13.02.2024 15:55:26  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":15,"error_subcode":1133,"error_msg":"Access denied: no access to call this method. It cannot be called with current scopes.","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+
+--------
+13.02.2024 15:59:35  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":15,"error_subcode":1133,"error_msg":"Access denied: no access to call this method. It cannot be called with current scopes.","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+
+--------
+13.02.2024 16:21:07  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":5,"error_msg":"User authorization failed: invalid access_token (4).","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+
+--------
+13.02.2024 16:21:24  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":5,"error_msg":"User authorization failed: invalid access_token (4).","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+
+--------
+13.02.2024 16:22:22  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":5,"error_msg":"User authorization failed: invalid access_token (4).","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+
+--------
+13.02.2024 16:22:44  https://api.vk.com/method/users.get
+{
+    "user_ids": 71554634,
+    "fields": "photo_id, verified, sex, bdate, city, country, home_town, has_photo, photo_50, photo_100, photo_200_orig, photo_200, photo_400_orig, photo_max, photo_max_orig, online, lists, domain, has_mobile, contacts, site, education, universities, schools, status, last_seen, followers_count, common_count, occupation, nickname, relatives, relation, personal, connections, exports, wall_comments, activities, interests, music, movies, tv, books, games, about, quotes, can_post, can_see_all_posts, can_see_audio, can_write_private_message, can_send_friend_request, is_favorite, is_hidden_from_feed, timezone, screen_name, maiden_name, crop_photo, is_friend, friend_status, career, military, blacklisted, blacklisted_by_me",
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"response":[{"id":71554634,"nickname":"","maiden_name":"","domain":"muliars","bdate":"20.7.1981","timezone":2.000000,"photo_200":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/XLvBhFl75rlJwMICgkm2TAiZVslL8OsTWKQ564yXnZ0HCKKJ9QM7H8ZJ5-gj8Sdj6JAdaCd0XwNNnXLBnF6vyGNa.jpg?size=200x200&quality=95&crop=41,5,512,512&ava=1","photo_max":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/figj7HAZPTWrXnhGbfzL2TG9TqGwr-pnS7yODFfpDJujtN7ySM1kERv-lJj8l-MD9NjWfbqb4KDCI_pUD94dibMw.jpg?size=400x400&quality=95&crop=41,5,512,512&ava=1","photo_200_orig":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/XLvBhFl75rlJwMICgkm2TAiZVslL8OsTWKQ564yXnZ0HCKKJ9QM7H8ZJ5-gj8Sdj6JAdaCd0XwNNnXLBnF6vyGNa.jpg?size=200x200&quality=95&crop=41,5,512,512&ava=1","photo_400_orig":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/figj7HAZPTWrXnhGbfzL2TG9TqGwr-pnS7yODFfpDJujtN7ySM1kERv-lJj8l-MD9NjWfbqb4KDCI_pUD94dibMw.jpg?size=400x400&quality=95&crop=41,5,512,512&ava=1","photo_max_orig":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/figj7HAZPTWrXnhGbfzL2TG9TqGwr-pnS7yODFfpDJujtN7ySM1kERv-lJj8l-MD9NjWfbqb4KDCI_pUD94dibMw.jpg?size=400x400&quality=95&crop=41,5,512,512&ava=1","photo_id":"71554634_457239122","has_photo":1,"has_mobile":1,"is_friend":0,"wall_comments":1,"can_post":1,"can_see_all_posts":1,"can_see_audio":1,"interests":"","books":"","tv":"","quotes":"","about":"","games":"","movies":"","activities":"","music":"","can_write_private_message":1,"can_send_friend_request":1,"mobile_phone":"Nokia","home_phone":"","site":"","status":"","last_seen":{"platform":7,"time":1707830538},"crop_photo":{"photo":{"album_id":-6,"date":1676890968,"id":457239122,"owner_id":71554634,"post_id":723,"sizes":[{"height":75,"type":"s","width":75,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=75x75&quality=95&sign=f584a36fa923599bfa72e744f3b3d7d6&c_uniq_tag=M1jbY9UH2J0M4HKQP5sdf_NNbqRcASVWjZHIy-YUEJ8&type=album"},{"height":130,"type":"m","width":130,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=130x130&quality=95&sign=b86052fe0b16dfffa8c58226fefc21a1&c_uniq_tag=3mAQ3Oe4OhYTlkO7rJ_kumTObRekuZNY4C0qQsLK65s&type=album"},{"height":604,"type":"x","width":604,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=604x604&quality=95&sign=c56c33e3e0895c3d514541699b229f7b&c_uniq_tag=Hmkk4xBnqZlR5kpcO3YFTKRnFQtHdgbnr51UeXmDonA&type=album"},{"height":640,"type":"y","width":640,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=640x640&quality=95&sign=cc8c06e2f7800161d8e6bdd1fca128fe&c_uniq_tag=QLPLVgs4eoy48Tj_6PZ07tiiaZpwagh7tAVxqZ2yVFU&type=album"},{"height":130,"type":"o","width":130,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=130x130&quality=95&sign=b86052fe0b16dfffa8c58226fefc21a1&c_uniq_tag=3mAQ3Oe4OhYTlkO7rJ_kumTObRekuZNY4C0qQsLK65s&type=album"},{"height":200,"type":"p","width":200,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=200x200&quality=95&sign=d4923af22f49bad77524044811d8636f&c_uniq_tag=HBq0Y0vUGy57UnYza3uRAWidFU_I2f6ASaWvXZ6T6CE&type=album"},{"height":320,"type":"q","width":320,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=320x320&quality=95&sign=07fb93d37868bca12380906882e12e45&c_uniq_tag=OZAJKm0wdLQKQnTPsMwJWc-3aUsCLswkhUpy20F4zsU&type=album"},{"height":510,"type":"r","width":510,"url":"https:\/\/sun9-60.userapi.com\/impg\/5z4ylg4LAFv87YR3ChVohIUh3nUsykyLX8K1mA\/Oh9i68qh7vU.jpg?size=510x510&quality=95&sign=6450a741f137095d06b4c64890621c2b&c_uniq_tag=jkySNScDAnanPVm0o5CjcDtm64Dg4EGzjH-Ij5UqREs&type=album"}],"square_crop":"41,5,512","text":"","web_view_token":"c0fd6bab74648e9839","has_tags":false},"crop":{"x":6.410000,"y":0.780000,"x2":86.410000,"y2":80.780000},"rect":{"x":0.000000,"y":0.000000,"x2":100.000000,"y2":100.000000}},"followers_count":8797,"blacklisted":0,"blacklisted_by_me":0,"is_favorite":0,"is_hidden_from_feed":0,"common_count":0,"career":[],"military":[],"university":0,"university_name":"","faculty":0,"faculty_name":"","graduation":0,"home_town":"","relation":4,"personal":{"alcohol":4,"inspired_by":"Мои дети","langs":["Русский"],"langs_full":[{"id":0,"native_name":"Русский"}],"life_main":1,"people_main":2,"political":3,"religion":"Христианка","smoking":2},"universities":[],"schools":[],"relatives":[],"sex":1,"screen_name":"muliars","photo_50":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/SEMDvbXhsZ-FHA9ynfMZK6xva1hDBW-NBGxfRgPtCR-pK539ngRZvq_vR29rhNNPwLHdaBW4ScDOaCllxuYKZM67.jpg?size=50x50&quality=95&crop=41,5,512,512&ava=1","photo_100":"https:\/\/sun1-93.userapi.com\/s\/v1\/ig2\/GgeBvBgy0E7QUa8Ff9Re0jNfZ3IswC2mPo5lQdtmbdB5sCO6dDJn32WVFIz2v9Q5YCgw2z2EC6TV3ZVgnQ6a3YZl.jpg?size=100x100&quality=95&crop=41,5,512,512&ava=1","online":1,"verified":0,"friend_status":0,"first_name":"Елена","last_name":"Мулярина","can_access_closed":true,"is_closed":false}]}
+
+
+--------
+13.02.2024 16:22:52  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":15,"error_subcode":1133,"error_msg":"Access denied: no access to call this method. It cannot be called with current scopes.","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+
+--------
+13.02.2024 16:23:16  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":15,"error_subcode":1133,"error_msg":"Access denied: no access to call this method. It cannot be called with current scopes.","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+
+--------
+13.02.2024 16:23:23  https://api.vk.com/method/groups.get
+{
+    "filter": "editor",
+    "extended": 1,
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"response":{"count":4,"items":[{"id":62440708,"name":"Твой Гараж","screen_name":"tvoygaraj","is_closed":0,"type":"group","photo_50":"https:\/\/sun1-30.userapi.com\/s\/v1\/ig2\/ZCiBtsI1s104c-X0VSWY_HfGoDw2LC87S3WnLYrpREtVrFnDkSLWUjV2-_DvnkeiS63EYm90UVJRbONOsw6P6xCF.jpg?size=50x50&quality=95&crop=14,0,2109,2109&ava=1","photo_100":"https:\/\/sun1-30.userapi.com\/s\/v1\/ig2\/cYUvbE9767b66-o6cpQGitEJdnFU704a8XoQ1w2H5NPLI-RnVmaRKCzaFiq4qWIGPv5xOT9nUvxa_nDDAuuTbkxa.jpg?size=100x100&quality=95&crop=14,0,2109,2109&ava=1","photo_200":"https:\/\/sun1-30.userapi.com\/s\/v1\/ig2\/Pbx__3jDVRI4Tr6xvHPxx-stpJvysSxKVUO7CDh-YRNsGU9VUazLrcqrf6JTkRJafruFSLPmNOFF7EUu3uwKsqVp.jpg?size=200x200&quality=95&crop=14,0,2109,2109&ava=1"},{"id":104279654,"name":"Интернет-магазин my-shops.com.ua","screen_name":"my_shops_com_ua","is_closed":0,"type":"group","photo_50":"https:\/\/sun1-88.userapi.com\/s\/v1\/if1\/QuzWZPp_nb5mZOTHGYUhJhn1hPjUoko0UWLmcHiPfQuG-twc8fdowt7sXOihwv0g9f3BuSn5.jpg?size=50x50&quality=96&crop=0,0,512,512&ava=1","photo_100":"https:\/\/sun1-88.userapi.com\/s\/v1\/if1\/y8zRZKb3d_fUApk2JtPnWLoiXvA_sOXn6hm7Z8ksoyqS-MwOZZdHG7yTQ6XrCentHIwjij90.jpg?size=100x100&quality=96&crop=0,0,512,512&ava=1","photo_200":"https:\/\/sun1-88.userapi.com\/s\/v1\/if1\/jRTkLohzIp3N8Z4cIb87VTN9E4o_u6SO2RNHIm6zbqyUPjcDa6MteIHS-uVmipmI6BbiDguN.jpg?size=200x200&quality=96&crop=0,0,512,512&ava=1"},{"id":141538742,"name":"Барахолка","screen_name":"club141538742","is_closed":0,"type":"group","photo_50":"https:\/\/vk.com\/images\/community_50.png","photo_100":"https:\/\/vk.com\/images\/community_100.png","photo_200":"https:\/\/vk.com\/images\/community_200.png"},{"id":104119906,"name":"Барахолка","screen_name":"odejda_obuv_baraholka1","is_closed":0,"type":"group","photo_50":"https:\/\/sun1-54.userapi.com\/s\/v1\/if1\/Ut-XZEnA7sYJoUCdPmcPN18aulWOny8AWJWAT682wVWHtf9uKu74lNjjBGlDKVwejkWundUr.jpg?size=50x50&quality=96&crop=121,17,351,351&ava=1","photo_100":"https:\/\/sun1-54.userapi.com\/s\/v1\/if1\/XHQQggtuibYjAroaSF4D6wMf1OWEN6AqHU_OVcCNXhwSfsePNg14o5UC5a9OeTpoPM8al1Nl.jpg?size=100x100&quality=96&crop=121,17,351,351&ava=1","photo_200":"https:\/\/sun1-54.userapi.com\/s\/v1\/if1\/dfN4SN9xg-iK3AWqpLN0qhPs7JHPCKwE3R-Sxa8o5t11OI4voqK-nYirVJEq0vIrFcrxhglx.jpg?size=200x200&quality=96&crop=121,17,351,351&ava=1"}]}}
+
+
+--------
+13.02.2024 16:34:41  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":15,"error_subcode":1133,"error_msg":"Access denied: no access to call this method. It cannot be called with current scopes.","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+
+--------
+13.02.2024 16:44:08  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":15,"error_subcode":1133,"error_msg":"Access denied: no access to call this method. It cannot be called with current scopes.","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+
+--------
+13.02.2024 16:53:43  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":15,"error_subcode":1133,"error_msg":"Access denied: no access to call this method. It cannot be called with current scopes.","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+
+--------
+14.02.2024 09:19:50  https://api.vk.com/method/market.getCategories
+{
+    "v": "5.140",
+    "access_token": "***"
+}
+- response: status200
+{"error":{"error_code":15,"error_subcode":1133,"error_msg":"Access denied: no access to call this method. It cannot be called with current scopes.","request_params":[{"key":"method","value":"market.getCategories"},{"key":"oauth","value":"1"},{"key":"v","value":"5.140"}]}}
+
+

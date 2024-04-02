@@ -1,0 +1,103 @@
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 {
+    width: 550px;
+    padding: 20px 80px;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-field {
+    margin-bottom: 30px;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-caption {
+    font-size: 16px;
+    color: #222222;
+    margin: 10px 0;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-caption {
+    font-size: 16px;
+    color: #222222;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-input {
+    width: 100%;
+    padding: 2px 0;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    background: transparent;
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-input.completed {
+    padding: 18px 0;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-input:focus {
+    outline: 0;
+    border-color: #888888;
+    padding: 18px 0;
+}
+
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-button-block {
+    margin-top: 45px;
+}
+
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-forgot-psw {
+    color: #888888;
+    font-size: 14px;
+}
+
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-remember-checkbox {
+    margin: 0;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-remember-checkbox input {
+    display: none;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-remember-selector {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    margin-right: 5px;
+    border: 2px solid #dddddd;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-remember-checkbox input:checked + .system-auth-authorize-remember-selector:after {
+    content: "\f00c";
+    display: block;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Font Awesome\ 5 Pro';
+    font-weight: 900;
+    color: #ddd;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-remember-text {
+    display: inline-block;
+    margin: 0;
+    color: #888888;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: normal;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .system-auth-authorize-login-button {
+    padding: 16px 48px !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+}
+
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .login-page_socserv_form {
+    margin-top: 70px;
+}
+.ns-bitrix.c-system-auth-authorize.c-system-auth-authorize-template-1 .login-page_socserv_form_title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #262626;
+}

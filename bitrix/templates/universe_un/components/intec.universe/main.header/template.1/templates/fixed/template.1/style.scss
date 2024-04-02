@@ -1,0 +1,110 @@
+$component: 'header';
+$template: 'template-1';
+$class: #{$component};
+
+.c-#{$component}.c-#{$component}-#{$template} {
+  .widget-view.widget-view-fixed {
+    .widget-view-fixed-1 {
+      display: block;
+      background: #fff;
+      -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+      position: relative;
+      z-index: 1;
+    }
+
+    .widget-wrapper {
+      position: relative;
+      z-index: 1;
+    }
+    .widget-wrapper-2 {
+      position: relative;
+    }
+
+    .widget-wrapper-3 {}
+
+    .widget-item {
+      display: block;
+      padding: 20px 0;
+    }
+
+    .widget-menu-popup-wrap {
+      z-index: 2;
+    }
+
+    .widget-logotype {
+      display: block;
+      font-size: 0;
+      text-align: center;
+      width: 130px;
+      text-decoration: none;
+      color: #1d1d1d;
+      position: relative;
+      font-size: 0px;
+      text-align: center;
+      white-space: nowrap;
+
+      svg {
+        max-height: 50px;
+      }
+      img {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+
+    .widget-menu {
+      padding: 0;
+      height: 100%;
+
+      .ns-bitrix.c-menu.c-menu-horizontal-1 {
+        height: 100%;
+
+        .menu-wrapper,
+        .menu-wrapper-2,
+        .menu-wrapper-3 {
+          height: 100%;
+        }
+
+        .menu-wrapper-4 {
+          position: static;
+          height: 100%;
+
+          .menu-item .menu-item-text-wrapper {
+            color: #1d1d1d !important;
+            font-weight: bold;
+          }
+        }
+      }
+
+      &-wrap {
+        position: static;
+        min-height: 60px;
+        z-index: 1;
+      }
+    }
+    .widget-basket {}
+
+    .widget-search {
+      .ns-bitrix.c-search-title.c-search-title-popup-1 {
+        .search-title {
+          z-index: 2;
+        }
+
+        .search-title-button {
+          color: #bebebf;
+          font-size: 20px;
+        }
+
+        .search-title-button-text-wrap {
+          display: none;
+        }
+      }
+    }
+
+    .widget-authorization {}
+  }
+}

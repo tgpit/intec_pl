@@ -1,0 +1,551 @@
+{
+    "name": "Чистка мягкой мебели",
+    "id": 77221,
+    "show_fields": true,
+    "fields": {
+        "node_name": "Чистка мягкой мебели",
+        "field_groups": [
+            {
+                "name": "Общие элементы",
+                "fields": [
+                    {
+                        "tag": "Id",
+                        "id": 246344,
+                        "description": "Это уникальный идентификатор, который вы присваиваете каждому объявлению в файле. Он помогает Авито распознавать объявления от загрузки к загрузке.\n\nИдентификаторы не должны повторяться и их нельзя менять — тогда вы избежите блокировок и других ошибок. Присвоить Id можно двумя способами:\n\n1) Если вы создаёте свой файл или используете шаблон Авито, придумайте Id самостоятельно. Заранее подумайте над правилами, по которым будете составлять его, — так будет проще добавлять новые Id. Например, можно использовать нумерацию по порядку.\n\n2) Если вы работаете в CRM, ERP или другой системе, там есть идентификатор товара или объявления. Можно использовать его.\n\nId может состоять из цифр, русских и английских букв, а также символов , \\ \/ ( ) [  ] - =. Всего — не более 100 знаков.",
+                        "required": true,
+                        "type": "input",
+                        "example": "<Id>xjfdge4735202<\/Id>"
+                    },
+                    {
+                        "tag": "DateBegin",
+                        "id": 248779,
+                        "description": "Это дата и&nbsp;время размещения объявления. Чтобы оно опубликовалось в&nbsp;начале дня по&nbsp;Москве, укажите дату в&nbsp;одном из&nbsp;форматов:\n\n&nbsp; — dd.MM.yyyy\n\n&nbsp; — dd.MM.yy\n\n&nbsp; — yyyy-MM-dd\n\nЧтобы публикация произошла с&nbsp;точностью до&nbsp;часа, добавьте время через пробел в&nbsp;формате HH:mm:ss или HH:mm.\n\nЕсли хотите явно указать часовой пояс, используйте формат [ISO&nbsp;8601](https:\/\/ru.wikipedia.org\/wiki\/ISO_8601): YYYY-MM-DDTHH:mm:ss+hh:mm.\n\nНесколько важных моментов:\n\n&nbsp; — Если в&nbsp;указанную дату автозагрузка будет выключена или тариф не&nbsp;оплачен, объявление не&nbsp;опубликуется.\n\n&nbsp; — Если дата из&nbsp;DateBegin ещё не&nbsp;наступила, а&nbsp;объявление уже размещено, оно закроется. Когда эта дата наступит, объявление снова опубликуется.\n\n&nbsp; — Публикация объявления по&nbsp;DateBegin не&nbsp;зависит от&nbsp;расписания загрузки вашего файла и&nbsp;произойдёт в&nbsp;указанную дату и&nbsp;время.",
+                        "required": false,
+                        "type": "input",
+                        "example": "<DateBegin>24.09.24 13:00<\/DateBegin>"
+                    },
+                    {
+                        "tag": "DateEnd",
+                        "id": 250415,
+                        "description": "Это дата и&nbsp;время окончания размещения. Чтобы объявление закрылось в&nbsp;конце дня по&nbsp;Москве, укажите дату в&nbsp;одном из&nbsp;форматов:\n\n&nbsp; — dd.MM.yyyy\n\n&nbsp; — dd.MM.yy\n\n&nbsp; — yyyy-MM-dd\n\nЧтобы объявление закрылось с&nbsp;точностью до&nbsp;часа, добавьте время через пробел в&nbsp;формате HH:mm:ss или HH:mm.\n\nЕсли хотите явно указать часовой пояс, используйте формат [ISO&nbsp;8601](https:\/\/ru.wikipedia.org\/wiki\/ISO_8601): YYYY-MM-DDTHH:mm:ss+hh:mm.\n\nЕсли вы&nbsp;укажете уже прошедшую дату, автозагрузка не&nbsp;обработает объявление.",
+                        "required": false,
+                        "type": "input",
+                        "example": "<DateEnd>24.09.24 13:00<\/DateEnd>"
+                    },
+                    {
+                        "tag": "ListingFee",
+                        "id": 250416,
+                        "description": "Вариант [платного размещения](https:\/\/support.avito.ru\/partitions\/63) ",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Package",
+                                "description": "размещение объявления осуществляется только при наличии подходящего пакета размещения"
+                            },
+                            {
+                                "value": "PackageSingle",
+                                "description": "при наличии подходящего пакета оплата размещения объявления произойдет с него; если нет подходящего пакета, но достаточно денег на кошельке Авито, то произойдет разовое размещение"
+                            },
+                            {
+                                "value": "Single",
+                                "description": "только разовое размещение, произойдет при наличии достаточной суммы на кошельке Авито; если есть подходящий пакет размещения, он будет проигнорирован"
+                            }
+                        ],
+                        "default": {
+                            "value": "Package"
+                        },
+                        "example": "<ListingFee>PackageSingle<\/ListingFee>"
+                    },
+                    {
+                        "tag": "AdStatus",
+                        "id": 250419,
+                        "description": "Услуга продвижения\n\nЧтобы услуга подключилась, в кошельке на Авито должно быть достаточно рублей или бонусов.\n\nЗа загрузку к объявлению можно подключить только одну услугу. Пока она действует, добавить ещё одну такую же не получится. Если вы попробуете это сделать, они подключатся по очереди. Разные услуги, которые увеличивают просмотры, тоже не сочетаются друг с другом.",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Free",
+                                "description": "обычное объявление, услуги не подключаются"
+                            },
+                            {
+                                "value": "Highlight",
+                                "description": "«Выделение цветом» (действует 7 дней)"
+                            },
+                            {
+                                "value": "XL",
+                                "description": "«XL-объявление» (действует 7 дней)"
+                            },
+                            {
+                                "value": "x2_1",
+                                "description": "«До 2 раз больше просмотров на 1 день»"
+                            },
+                            {
+                                "value": "x2_7",
+                                "description": "«До 2 раз больше просмотров на 7 дней»"
+                            },
+                            {
+                                "value": "x5_1",
+                                "description": "«До 5 раз больше просмотров на 1 день»"
+                            },
+                            {
+                                "value": "x5_7",
+                                "description": "«До 5 раз больше просмотров на 7 дней»"
+                            },
+                            {
+                                "value": "x10_1",
+                                "description": "«До 10 раз больше просмотров на 1 день»"
+                            },
+                            {
+                                "value": "x10_7",
+                                "description": "«До 10 раз больше просмотров на 7 дней»."
+                            },
+                            {
+                                "value": "x15_1",
+                                "description": "«До 15 раз больше просмотров на 1 день». Доступно в некоторых регионах и категориях."
+                            },
+                            {
+                                "value": "x15_7",
+                                "description": "«До 15 раз больше просмотров на 7 дней». Доступно в некоторых регионах и категориях."
+                            },
+                            {
+                                "value": "x20_1",
+                                "description": "«До 20 раз больше просмотров на 1 день». Доступно в некоторых регионах и категориях."
+                            },
+                            {
+                                "value": "x20_7",
+                                "description": "«До 20 раз больше просмотров на 7 дней». Доступно в некоторых регионах и категориях."
+                            }
+                        ],
+                        "default": {
+                            "value": "Free"
+                        },
+                        "example": "<AdStatus>x10_7<\/AdStatus>"
+                    },
+                    {
+                        "tag": "AvitoId",
+                        "id": 250417,
+                        "description": "Это номер объявления на Авито.\n\nЕсли вы добавляете в файл новое объявление, не заполняйте AvitoId. Номер присвоится автоматически.\n\nВы заполняете AvitoId сами, только если добавляете в файл уже размещённое объявление. Причины могут быть разные — например, вы размещали его не через автозагрузку или у него изменился Id. Тогда Авито сможет сопоставить объявления, а вы избежите ошибок.\n\nЕсть два способа узнать AvitoId. Первый — скачать файл с объявлениями [в настройках автозагрузки](https:\/\/www.avito.ru\/autoload\/settings). Второй — поискать номер в объявлении, он будет либо внизу, либо вверху страницы.\n\nЕсли у вас появились проблемы с заполнением поля AvitoId, можете указать его в поле Description в формате: «AvitoId: ХХХ», где ХХХ — это номер объявления. Пользователи Авито не увидят эту информацию.",
+                        "required": false,
+                        "type": "input",
+                        "example": "**Вариант 1. Отдельный элемент**\n<AvitoId>742817810<\/AvitoId>\n\n**Вариант 2. Внутри элемента Description**\n<Description>\nАвтомобиль покупался новым в мае 2013 года, все ТО пройдены по регламенту.\nAvitoId: 742817810\n<\/Description>"
+                    },
+                    {
+                        "tag": "ManagerName",
+                        "id": 250421,
+                        "description": "Имя менеджера, контактного лица компании по данному объявлению — строка не более 40 символов.",
+                        "required": false,
+                        "type": "input",
+                        "example": "<ManagerName>Иван Петров-Водкин<\/ManagerName>"
+                    },
+                    {
+                        "tag": "ContactPhone",
+                        "id": 250424,
+                        "description": "Контактный телефон — строка, содержащая только один российский номер телефона. Обязательно указать код города или мобильного оператора:\n\n — Код города должен указываться с +7 или 8 в начале\n\n — Код мобильного оператора можно без 8 и 7 в начале\n\nКорректные примеры:\n\n — +7 (495) 777-10-66\n\n — (81374) 4-55-75\n\n — 8 905 207 04 90\n\n — +7 905 2070490\n\n — 88123855085",
+                        "required": false,
+                        "type": "input",
+                        "example": "<ContactPhone>+7 495 777-10-66<\/ContactPhone>"
+                    }
+                ]
+            },
+            {
+                "name": "Местоположение",
+                "fields": [
+                    {
+                        "tag": "Address",
+                        "id": 293125,
+                        "description": "Полный адрес объекта — строка до 256 символов.\n\n Является альтернативой параметрам **Latitude**, **Longitude**",
+                        "required": true,
+                        "type": "input",
+                        "dependency": [
+                            "Если не указаны Latitude и Longitude"
+                        ],
+                        "example": "<Address>Тамбовская область, Моршанск, Лесная улица, 7<\/Address>"
+                    },
+                    {
+                        "tag": "Latitude",
+                        "id": 293141,
+                        "description": "Широта [в градусах — десятичные дроби](https:\/\/ru.wikipedia.org\/wiki\/%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%82%D1%8B#.D0.A4.D0.BE.D1.80.D0.BC.D0.B0.D1.82.D1.8B_.D0.B7.D0.B0.D0.BF.D0.B8.D1.81.D0.B8_.D0.B3.D0.B5.D0.BE.D0.B3.D1.80.D0.B0.D1.84.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B8.D1.85_.D0.BA.D0.BE.D0.BE.D1.80.D0.B4.D0.B8.D0.BD.D0.B0.D1.82)\n\nВместе с параметром **Longitude** используется для указания точки на карте с помощью географических координат.\n\nЯвляется альтернативой элементу **Address**.",
+                        "required": false,
+                        "type": "input",
+                        "dependency": [
+                            "Если указан Address"
+                        ],
+                        "example": "<Latitude>55.778669<\/Latitude>"
+                    },
+                    {
+                        "tag": "Longitude",
+                        "id": 293157,
+                        "description": "Долгота [в градусах — десятичные дроби](https:\/\/ru.wikipedia.org\/wiki\/%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%82%D1%8B#.D0.A4.D0.BE.D1.80.D0.BC.D0.B0.D1.82.D1.8B_.D0.B7.D0.B0.D0.BF.D0.B8.D1.81.D0.B8_.D0.B3.D0.B5.D0.BE.D0.B3.D1.80.D0.B0.D1.84.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B8.D1.85_.D0.BA.D0.BE.D0.BE.D1.80.D0.B4.D0.B8.D0.BD.D0.B0.D1.82)\n\nВместе с параметром **Latitude** используется для указания точки на карте с помощью географических координат.\n\nЯвляется альтернативой параметру **Address**.",
+                        "required": false,
+                        "type": "input",
+                        "dependency": [
+                            "Если указан Address"
+                        ],
+                        "example": "<Longitude>37.587964<\/Longitude>"
+                    }
+                ]
+            },
+            {
+                "name": "Фото и видео",
+                "fields": [
+                    {
+                        "tag": "Images",
+                        "id": 254109,
+                        "description": "Фотографии — вложенные элементы, по одному элементу «Image» на каждое изображение. На файл фотографии можно ссылаться с помощью (указание обоих атрибутов не допускается):\n\n— прямой HTTP-ссылки или ссылки на Яндекс Диск ([подробнее](https:\/\/www.avito.ru\/autoload\/documentation#yandexDiskPublicLinks)) — атрибут «url»;\n\n— названия файла с указанием расширения — атрибут «name». Такой способ используется при загрузке файла с объявлениями и архива с фотографиями вручную через Личный кабинет.\n\nДопустимые графические форматы: [JPEG](https:\/\/ru.wikipedia.org\/wiki\/JPEG), [PNG](https:\/\/ru.wikipedia.org\/wiki\/PNG).\n\nМаксимальный размер одного изображения – 25 Мб.\n\nК одному объявлению можно добавить не более 10 фотографий, остальные будут проигнорированы.\n\nПри загрузке фото по ссылке проверьте, что изображение уже доступно и его можно открыть или скачать.\n\nЧтобы изменить фотографию в объявлении, используйте другую ссылку. Новое изображение по прежнему url-адресу не будет загружено.",
+                        "required": true,
+                        "type": "input",
+                        "example": "<Images>\n    <Image url=\"http:\/\/img.test.ru\/8F7B-4A4F3A0F2BA1.jpg\" \/>\n    <Image url=\"http:\/\/img.test.ru\/8F7B-4A4F3A0F2XA3.jpg\" \/>\n<\/Images>\n\n\n<Images>\n    <Image name=\"a1.jpg\"\/>\n    <Image name=\"a2.jpg\"\/>\n    <Image name=\"a3.jpg\"\/>\n<\/Images>"
+                    },
+                    {
+                        "tag": "VideoURL",
+                        "id": 254112,
+                        "description": "Видео - ссылка в формате\n\n — https:\/\/www.youtube.com\/watch?v=*** для Youtube\n\n — https:\/\/rutube.ru\/video\/***\/ для Rutube",
+                        "required": false,
+                        "type": "input",
+                        "example": "<VideoURL>https:\/\/www.youtube.com\/watch?v=YKmDXNrDdBI<\/VideoURL>"
+                    }
+                ]
+            },
+            {
+                "name": "Способ связи",
+                "fields": [
+                    {
+                        "tag": "ContactMethod",
+                        "id": 289559,
+                        "description": "Способ связи",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "По телефону и в сообщениях"
+                            },
+                            {
+                                "value": "По телефону"
+                            }
+                        ],
+                        "default": {
+                            "value": "По телефону"
+                        },
+                        "example": "<ContactMethod>По телефону и в сообщениях<\/ContactMethod>"
+                    }
+                ]
+            },
+            {
+                "name": "Описание услуги",
+                "fields": [
+                    {
+                        "tag": "Category",
+                        "id": 8018807,
+                        "description": "Категория объявления",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Предложение услуг"
+                            }
+                        ],
+                        "example": "```xml\n<Category>Предложение услуг<\/Category>\n```"
+                    },
+                    {
+                        "tag": "Price",
+                        "id": 8218209,
+                        "description": "Цена в рублях — целое число.\n\n\n **Обязательный** для категории **Аренда спецтехники**.",
+                        "required": false,
+                        "type": "input",
+                        "example": "<Price>25000<\/Price>"
+                    },
+                    {
+                        "tag": "Title",
+                        "id": 8217908,
+                        "description": "Название объявления — строка до 50 символов.\n\nПримечание: не пишите в название цену и контактную информацию — для этого есть отдельные поля — и не используйте слово «продам».",
+                        "required": true,
+                        "type": "input",
+                        "example": "<Title>Уборка квартир и домов<\/Title>"
+                    },
+                    {
+                        "tag": "Description",
+                        "id": 8217968,
+                        "description": "Текстовое описание объявления в соответствии с [правилами Авито](https:\/\/support.avito.ru\/sections\/139) — строка не более 7500 символов.\n\n Для объявлений, параметры которых соответствуют оплаченному [тарифу](https:\/\/www.avito.ru\/business\/tariffs), вы можете использовать дополнительное форматирование с помощью HTML-тегов. Для формата XML описание должно быть внутри [CDATA](https:\/\/ru.wikipedia.org\/wiki\/CDATA#CDATA_.D0.B2_XML). Использовать можно только HTML-теги из списка: p, br, strong, em, ul, ol, li. \n\n**Важно:**\n\n — Тег n (перенос строки) преобразуется в br, поэтому при использовании CDATA интервалы между абзацами будут увеличены\n\n — В секции CDATA распознается только один элемент разметки&nbsp;–&nbsp;строка CDEnd. Поэтому все символы левой угловой скобки и амперсанда могут предстать здесь в своем обычном текстовом виде. Эти символы не нужно маскировать с помощью комбинаций '\\&lt;', '\\&gt;' и '\\&amp;'.",
+                        "required": true,
+                        "type": "input",
+                        "example": "<Description> Занимаюcь профессиoнальнoй убоpкой квартир, дoмoв, oфиcoв.Oпыт paботы болеe 5 лeт. Bыeзжаю толькo co свoeй кoмандoй oпытных клинeров(РФ) и cпeциaлиcтoв по xимчиcткe мeбели. Гарaнтия кaчества pабoты нa 100%.<\/Description>"
+                    }
+                ]
+            },
+            {
+                "name": "Способ связи",
+                "fields": [
+                    {
+                        "tag": "InternetCalls",
+                        "id": 165193,
+                        "description": "Включение интернет-звонков через Авито. По объявлениям смогут звонить по интернету. Вы не пропустите звонки и не потеряете клиентов: если интернет плохой, в объявлении покажем временный номер, а вся история вызовов сохранится в чате.\n\n**Интернет-звонки работают корректно, если вы укажете устройство для приёма звонков в параметре CallsDevices.**\n\nПреимущества интернет-звонков:\n\n — Легко отличить важные вызовы от спама: видно кто звонит и по какому объявлению.\n\n — Сделки совершаются быстрее: пользователи с включенными интернет-звонками получают на 24% больше звонков.\n\nВходящие интернет-звонки через Авито можно отключить для всех объявлений в [Настройках](https:\/\/www.avito.ru\/profile\/settings) в любое время.",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Да"
+                            },
+                            {
+                                "value": "Нет"
+                            }
+                        ],
+                        "example": "```xml\n<InternetCalls>Да<\/InternetCalls>\n```"
+                    },
+                    {
+                        "tag": "CallsDevices",
+                        "id": 165194,
+                        "description": "Идентификатор (ID) мобильного устройства, на которые будут приходить интернет-звонки. Можно выбрать одно или несколько для каждого объявления.\n\nИдентификатор устройства (ID) можно посмотреть в [Настройках](https:\/\/www.avito.ru\/profile\/settings) (на мобильных устройствах — в профиле) → «Устройства для приёма звонков через Авито».\n\nЕсли ничего не выбрать, звонки будут поступать на первое устройство из списка.",
+                        "required": false,
+                        "type": "input",
+                        "example": "<CallsDevices><Option>123456789<\/Option><Option>67890123<\/Option><\/CallsDevices>"
+                    }
+                ]
+            },
+            {
+                "name": "Описание услуги",
+                "fields": [
+                    {
+                        "tag": "ServiceType",
+                        "id": 716,
+                        "description": "Вид услуги",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Уборка"
+                            }
+                        ],
+                        "example": "```xml\n<ServiceType>Уборка<\/ServiceType>\n```"
+                    },
+                    {
+                        "tag": "ServiceSubtype",
+                        "id": 1389,
+                        "description": "Тип услуги",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Чистка мягкой мебели"
+                            }
+                        ],
+                        "example": "```xml\n<ServiceSubtype>Чистка мягкой мебели<\/ServiceSubtype>\n```"
+                    }
+                ]
+            },
+            {
+                "name": "Уборка",
+                "fields": [
+                    {
+                        "tag": "SameDayPickup",
+                        "id": 128584,
+                        "description": "Выезд в день заказа",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Да"
+                            },
+                            {
+                                "value": "Нет"
+                            }
+                        ],
+                        "example": "```xml\n<SameDayPickup>Да\n<\/SameDayPickup><SameDayPickup>Нет\n<\/SameDayPickup>```"
+                    },
+                    {
+                        "tag": "PerformersOnTheTeam",
+                        "id": 128585,
+                        "description": "Исполнителей в команде",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "1"
+                            },
+                            {
+                                "value": "2–5"
+                            },
+                            {
+                                "value": "6 и больше"
+                            }
+                        ],
+                        "example": "```xml\n<PerformersOnTheTeam>1\n<\/PerformersOnTheTeam><PerformersOnTheTeam>2–5\n<\/PerformersOnTheTeam><PerformersOnTheTeam>6 и больше\n<\/PerformersOnTheTeam>```"
+                    },
+                    {
+                        "tag": "RoomType",
+                        "id": 128586,
+                        "description": "Тип помещения",
+                        "required": true,
+                        "type": "checkbox",
+                        "values_title": "Одно или несколько значений",
+                        "values": [
+                            {
+                                "value": "Жилое"
+                            },
+                            {
+                                "value": "Нежилое"
+                            }
+                        ],
+                        "example": "```xml\n<RoomType>Жилое\n<\/RoomType><RoomType>Нежилое\n<\/RoomType>```"
+                    },
+                    {
+                        "tag": "WorkExperience",
+                        "id": 128587,
+                        "description": "Опыт работы",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Меньше года"
+                            },
+                            {
+                                "value": "1–3 года"
+                            },
+                            {
+                                "value": "3–7 лет"
+                            },
+                            {
+                                "value": "7–10 лет"
+                            },
+                            {
+                                "value": "10 лет и больше"
+                            }
+                        ],
+                        "example": "```xml\n<WorkExperience>Меньше года\n<\/WorkExperience><WorkExperience>1–3 года\n<\/WorkExperience><WorkExperience>3–7 лет\n<\/WorkExperience><WorkExperience>7–10 лет\n<\/WorkExperience><WorkExperience>10 лет и больше\n<\/WorkExperience>```"
+                    },
+                    {
+                        "tag": "MinimumOrderAmount",
+                        "id": 128588,
+                        "description": "Минимальная сумма заказа",
+                        "required": true,
+                        "type": "input",
+                        "example": ""
+                    },
+                    {
+                        "tag": "CleaningProducts",
+                        "id": 128589,
+                        "description": "Средства для уборки",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Есть свои"
+                            },
+                            {
+                                "value": "Нужно предоставить"
+                            }
+                        ],
+                        "example": "```xml\n<CleaningProducts>Есть свои\n<\/CleaningProducts><CleaningProducts>Нужно предоставить\n<\/CleaningProducts>```"
+                    },
+                    {
+                        "tag": "WorkWithLegalEntities",
+                        "id": 128755,
+                        "description": "Работаете с юрлицами и ИП",
+                        "required": true,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values": [
+                            {
+                                "value": "Да"
+                            },
+                            {
+                                "value": "Нет"
+                            }
+                        ],
+                        "example": "```xml\n<WorkWithLegalEntities>Да\n<\/WorkWithLegalEntities><WorkWithLegalEntities>Нет\n<\/WorkWithLegalEntities>```"
+                    }
+                ]
+            },
+            {
+                "name": "График работы",
+                "fields": [
+                    {
+                        "tag": "WorkDays",
+                        "id": 117681,
+                        "description": "График работы, дни недели",
+                        "required": false,
+                        "type": "checkbox",
+                        "values_title": "Одно или несколько значений",
+                        "values": [
+                            {
+                                "value": "пн."
+                            },
+                            {
+                                "value": "вт."
+                            },
+                            {
+                                "value": "ср."
+                            },
+                            {
+                                "value": "чт."
+                            },
+                            {
+                                "value": "пт."
+                            },
+                            {
+                                "value": "сб."
+                            },
+                            {
+                                "value": "вс."
+                            }
+                        ],
+                        "example": "```xml\n<WorkDays>\n    <Option>пн.<\/Option>\n    <Option>вт.<\/Option>\n<\/WorkDays>\n```"
+                    },
+                    {
+                        "tag": "WorkTimeFrom",
+                        "id": 117982,
+                        "description": "Время работы, нижняя граница",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values_link": "\/web\/1\/autoload\/user-docs\/category\/77221\/field\/117982\/values-xml",
+                        "example": "```xml\n<WorkTimeFrom>13:00<\/WorkTimeFrom>\n```"
+                    },
+                    {
+                        "tag": "WorkTimeTo",
+                        "id": 117983,
+                        "description": "Время работы, верхняя граница",
+                        "required": false,
+                        "type": "select",
+                        "values_title": "Одно из значений",
+                        "values_link": "\/web\/1\/autoload\/user-docs\/category\/77221\/field\/117983\/values-xml",
+                        "example": "```xml\n<WorkTimeTo>18:30<\/WorkTimeTo>\n```"
+                    }
+                ]
+            },
+            {
+                "name": "Прайс лист",
+                "fields": [
+                    {
+                        "tag": "PriceList",
+                        "id": 118577,
+                        "description": "Прайс-лист. Перечислите в параметре все услуги для этого объявления и цены на них. В прайс-лист нельзя добавить больше 50 услуг.\n\nДля файлов в формате Excel\/CSV каждая услуга в параметре PriceList описывается в отдельной строке в той же ячейке по шаблону:\nServiceName|ServiceTitle|ServicePrice|ServiceStartingPrice|ServicePriceType\n\nДля файлов в формате XML каждая услуга описывается во вложенном элементе Service, в котором перечисляются её характеристики:\n- **ServiceName** – Услуга. Обязательный параметр, заполняется значением из справочника (см. ниже). Укажите в нём «Своя услуга», если в справочнике не оказалось подходящего варианта;\n- **ServiceTitle** – Название услуги. Обязательный параметр, если в ServiceName указано значение «Своя услуга». В остальных случаях его заполнять не нужно;\n- **ServicePrice** – Стоимость. Обязательный параметр, заполняется целым числом в рублях;\n- **ServiceStartingPrice** – Если указанная в ServicePrice стоимость является начальной для услуги («цена от»), то укажите в этом параметре значение «Да»;\n- **ServicePriceType** – Тип стоимости. Одно из значений списка:\n  - за услугу (значение по умолчанию)\n  - за час\n  - за единицу\n  - за день\n  - за месяц\n  - за минуту\n\n\nСправочник для параметра **ServiceName**:\nЧистка мягкой мебели – [справочник](https:\/\/www.avito.ru\/web\/1\/autoload\/user-docs\/category\/77221\/field\/128597\/values-xml)",
+                        "required": false,
+                        "type": "range",
+                        "values_title": "Допустимый интервал",
+                        "values_range": {
+                            "max": 50
+                        },
+                        "example": "```xml\n<PriceList>\n  <Service>\n    <ServiceName>Химчистка дивана<\/ServiceName>\n    <ServicePrice>2000<\/ServicePrice>\n  <\/Service>\n  <Service>\n    <ServiceName>Химчистка кресла<\/ServiceName>\n    <ServicePrice>3000<\/ServicePrice>\n    <ServiceStartingPrice>Да<\/ServiceStartingPrice>\n    <ServicePriceType>за час<\/ServicePriceType>\n  <\/Service>\n  <Service>\n    <ServiceName>Своя услуга<\/ServiceName>\n    <ServiceTitle>Химчистка колясок<\/ServiceTitle>\n    <ServicePrice>650<\/ServicePrice>\n    <ServiceStartingPrice>Да<\/ServiceStartingPrice>\n  <\/Service>\n<\/PriceList>\n```"
+                    }
+                ]
+            }
+        ],
+        "file_template": {
+            "xml": "\/web\/1\/autoload\/user-docs\/node\/77221\/template\/xml",
+            "excel": "\/web\/1\/autoload\/user-docs\/node\/77221\/template\/xlsx"
+        },
+        "file_template_text": ""
+    }
+}

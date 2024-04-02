@@ -1,0 +1,4723 @@
+<Processors>
+	<Brand name="AMD">
+		<Model name="5350G">
+			<ProducerCode name="100-000000256"></ProducerCode>
+		</Model>
+		<Model name="A10-4600M">
+			<ProducerCode name="AM4600DEC44HJ"></ProducerCode>
+		</Model>
+		<Model name="A10-5700">
+			<ProducerCode name="AD5700OKA44HJ"></ProducerCode>
+		</Model>
+		<Model name="A10-5750M">
+			<ProducerCode name="AM5750DEC44HL"></ProducerCode>
+		</Model>
+		<Model name="A10-5800B">
+			<ProducerCode name="AD580BWOA44HJ"></ProducerCode>
+		</Model>
+		<Model name="A10-5800K">
+			<ProducerCode name="AD580KWOA44HJ"></ProducerCode>
+		</Model>
+		<Model name="A10-6700 APU OEM">
+			<ProducerCode name="AD6700KA44HL"></ProducerCode>
+		</Model>
+		<Model name="A10-6790K">
+			<ProducerCode name="AD679KWOA44HL"></ProducerCode>
+		</Model>
+		<Model name="A10-6800K">
+			<ProducerCode name="AD680KWOA44HL"></ProducerCode>
+		</Model>
+		<Model name="A10-7700K">
+			<ProducerCode name="AD770KXBI44JA"></ProducerCode>
+		</Model>
+		<Model name="A10-7800">
+			<ProducerCode name="AD7800YBI44JA"></ProducerCode>
+		</Model>
+		<Model name="A10-7850K">
+			<ProducerCode name="AD785KXBI44JA"></ProducerCode>
+		</Model>
+		<Model name="A10-7870k">
+			<ProducerCode name="AD787KXDJCBOX"></ProducerCode>
+		</Model>
+		<Model name="A10-8700B">
+			<ProducerCode name="AM870BAAY43KA"></ProducerCode>
+		</Model>
+		<Model name="A10-8750 FM2+">
+			<ProducerCode name="AD8750YBI44JC"></ProducerCode>
+		</Model>
+		<Model name="A10-9700">
+			<ProducerCode name="AD9700AGM44AB"></ProducerCode>
+		</Model>
+		<Model name="A10-9700E APU">
+			<ProducerCode name="AD9700AHM44AB"></ProducerCode>
+		</Model>
+		<Model name="A12-9800">
+			<ProducerCode name="AD9800AUM44AB"></ProducerCode>
+		</Model>
+		<Model name="A4-3300">
+			<ProducerCode name="AD3300OJZ22GX"></ProducerCode>
+			<ProducerCode name="ADA3800IAA5CU"></ProducerCode>
+		</Model>
+		<Model name="A4-3300M">
+			<ProducerCode name="AM3300DDX23GX"></ProducerCode>
+		</Model>
+		<Model name="A4-3305M">
+			<ProducerCode name="AM3305DDX22GX"></ProducerCode>
+		</Model>
+		<Model name="A4-3310MX">
+			<ProducerCode name="AM3310HLX23GX"></ProducerCode>
+		</Model>
+		<Model name="A4-3320M">
+			<ProducerCode name="AM3320DDX23GX"></ProducerCode>
+		</Model>
+		<Model name="A4-3400">
+			<ProducerCode name="AD3400OJZ22GX"></ProducerCode>
+		</Model>
+		<Model name="A4-3420">
+			<ProducerCode name="AD3420OJZ22HX"></ProducerCode>
+		</Model>
+		<Model name="A4-4000">
+			<ProducerCode name="AD4000OKA23HL"></ProducerCode>
+		</Model>
+		<Model name="A4-4020">
+			<ProducerCode name="AD4020OKA23HL"></ProducerCode>
+		</Model>
+		<Model name="A4-4300M">
+			<ProducerCode name="AM4300DEC23HJ"></ProducerCode>
+		</Model>
+		<Model name="A4-5000">
+			<ProducerCode name="AM5000IBJ44HM"></ProducerCode>
+		</Model>
+		<Model name="A4-5150M">
+			<ProducerCode name="AM5150DEC23HL"></ProducerCode>
+		</Model>
+		<Model name="A4-5300">
+			<ProducerCode name="AD5300OKA23HJ"></ProducerCode>
+		</Model>
+		<Model name="A4-6210">
+			<ProducerCode name="AM6210ITJ44JB"></ProducerCode>
+		</Model>
+		<Model name="A4-6300">
+			<ProducerCode name="AD63000KA23HL"></ProducerCode>
+			<ProducerCode name="AD63200KA23HL"></ProducerCode>
+		</Model>
+		<Model name="A4-7210">
+			<ProducerCode name="AM7210JBY44JB"></ProducerCode>
+		</Model>
+		<Model name="A4-7300">
+			<ProducerCode name="AD7300OKA23HL"></ProducerCode>
+		</Model>
+		<Model name="A4-9120e"></Model>
+		<Model name="A6-3400M">
+			<ProducerCode name="AM3400DDX43GX"></ProducerCode>
+		</Model>
+		<Model name="A6-3410MX">
+			<ProducerCode name="A6-3410MX"></ProducerCode>
+		</Model>
+		<Model name="A6-3420M">
+			<ProducerCode name="AM3420DDX43GX"></ProducerCode>
+		</Model>
+		<Model name="A6-3500">
+			<ProducerCode name="AD3500OJZ33GX"></ProducerCode>
+		</Model>
+		<Model name="A6-3600">
+			<ProducerCode name="AD3600OJZ43GX"></ProducerCode>
+		</Model>
+		<Model name="A6-3650">
+			<ProducerCode name="AD3650WNZ43GX"></ProducerCode>
+		</Model>
+		<Model name="A6-3670K">
+			<ProducerCode name="AD3670WNZ43GX"></ProducerCode>
+		</Model>
+		<Model name="A6-4400M">
+			<ProducerCode name="AM4400DEC23HJ"></ProducerCode>
+		</Model>
+		<Model name="A6-5200">
+			<ProducerCode name="AM5200IAJ44HM"></ProducerCode>
+		</Model>
+		<Model name="A6-5400B">
+			<ProducerCode name="AD540BOKA23HJ"></ProducerCode>
+		</Model>
+		<Model name="A6-5400K">
+			<ProducerCode name="AD540KOKA23HJ"></ProducerCode>
+		</Model>
+		<Model name="A6-6400B">
+			<ProducerCode name="AD640BOKA23HL"></ProducerCode>
+		</Model>
+		<Model name="A6-6400K">
+			<ProducerCode name="AD640KOKA23HL"></ProducerCode>
+		</Model>
+		<Model name="A6-6420K">
+			<ProducerCode name="AD642KOKHL"></ProducerCode>
+		</Model>
+		<Model name="A6-7310">
+			<ProducerCode name="AM7310JBY44JB"></ProducerCode>
+		</Model>
+		<Model name="A6-7400K">
+			<ProducerCode name="AD740KYBI23JA"></ProducerCode>
+		</Model>
+		<Model name="A6-7470K">
+			<ProducerCode name="AD747KYBI23JC"></ProducerCode>
+		</Model>
+		<Model name="A6-7480">
+			<ProducerCode name="AD7480ACI23AB"></ProducerCode>
+		</Model>
+		<Model name="A6-8550B">
+			<ProducerCode name="AD855BYBI23JC"></ProducerCode>
+		</Model>
+		<Model name="A6-8570E PRO">
+			<ProducerCode name="AD857BAHM23AB"></ProducerCode>
+		</Model>
+		<Model name="A6-9220e">
+			<ProducerCode name="AM922EANN23AC"></ProducerCode>
+		</Model>
+		<Model name="A6-9225">
+			<ProducerCode name="AM9225AYN23AC"></ProducerCode>
+		</Model>
+		<Model name="A6-9400">
+			<ProducerCode name="AD9400AGM23AB"></ProducerCode>
+		</Model>
+		<Model name="A6-9500">
+			<ProducerCode name="AD9500AGM23AB"></ProducerCode>
+		</Model>
+		<Model name="A6-9500E">
+			<ProducerCode name="AD9500AHM23AB"></ProducerCode>
+		</Model>
+		<Model name="A8 6600K">
+			<ProducerCode name="AD660KWOA44HL"></ProducerCode>
+		</Model>
+		<Model name="A8-3500m">
+			<ProducerCode name="AM3500DDX43GX"></ProducerCode>
+		</Model>
+		<Model name="A8-3510MX">
+			<ProducerCode name="AM3510HLX43GX"></ProducerCode>
+		</Model>
+		<Model name="A8-3800">
+			<ProducerCode name="AD3800OJZ43GX"></ProducerCode>
+			<ProducerCode name="AD3850WNZ43GX"></ProducerCode>
+		</Model>
+		<Model name="A8-3820">
+			<ProducerCode name="AD3820OJZ43GX"></ProducerCode>
+		</Model>
+		<Model name="A8-3850">
+			<ProducerCode name="AD3850WNZ43GX"></ProducerCode>
+		</Model>
+		<Model name="A8-3870K">
+			<ProducerCode name="AD3870WNZ43GX"></ProducerCode>
+		</Model>
+		<Model name="A8-4500M">
+			<ProducerCode name="AM4500DEC44HJ"></ProducerCode>
+		</Model>
+		<Model name="A8-5500">
+			<ProducerCode name="AD5500OKA44HJ"></ProducerCode>
+		</Model>
+		<Model name="A8-5550M">
+			<ProducerCode name="AM5550DEC44HL"></ProducerCode>
+		</Model>
+		<Model name="A8-5600K">
+			<ProducerCode name="AD560KW0A44HJ"></ProducerCode>
+		</Model>
+		<Model name="A8-6410">
+			<ProducerCode name="AM6410ITJ44JB"></ProducerCode>
+		</Model>
+		<Model name="A8-6500">
+			<ProducerCode name="AD6500OKA44HL"></ProducerCode>
+		</Model>
+		<Model name="A8-6500T APU">
+			<ProducerCode name="AD650TYHA44HL"></ProducerCode>
+		</Model>
+		<Model name="A8-7500">
+			<ProducerCode name="AD7500YBI44JA"></ProducerCode>
+		</Model>
+		<Model name="A8-7600">
+			<ProducerCode name="AD7600YBJABOX"></ProducerCode>
+		</Model>
+		<Model name="A8-7650K">
+			<ProducerCode name="AD765KXBI44JA"></ProducerCode>
+		</Model>
+		<Model name="A8-7680">
+			<ProducerCode name="AD7680ACABCBX"></ProducerCode>
+		</Model>
+		<Model name="A8-8600E">
+			<ProducerCode name="AD867BAHM44AB"></ProducerCode>
+		</Model>
+		<Model name="A8-9600">
+			<ProducerCode name="AD9600AGM44AB"></ProducerCode>
+		</Model>
+		<Model name="A80486DX2-80NV8T">
+			<ProducerCode name="A80486DX2-80NV8T"></ProducerCode>
+		</Model>
+		<Model name="A9-9410">
+			<ProducerCode name="AM9410AFY23AC"></ProducerCode>
+		</Model>
+		<Model name="A9-9425">
+			<ProducerCode name="AM9425AYN23AC"></ProducerCode>
+		</Model>
+		<Model name="Athlon">
+			<ProducerCode name="A1400AMS3C"></ProducerCode>
+		</Model>
+		<Model name="Athlon 200GE">
+			<ProducerCode name="YD200GC6FBBOX"></ProducerCode>
+			<ProducerCode name="YD200GC6M2OFB"></ProducerCode>
+		</Model>
+		<Model name="Athlon 220GE">
+			<ProducerCode name="YD220GC6M2OFB"></ProducerCode>
+		</Model>
+		<Model name="Athlon 240GE">
+			<ProducerCode name="YD240GC6M2OFB"></ProducerCode>
+		</Model>
+		<Model name="Athlon 3000G">
+			<ProducerCode name="YD3000C6M20FB"></ProducerCode>
+			<ProducerCode name="YD3000C6M2OFH"></ProducerCode>
+		</Model>
+		<Model name="Athlon 300GE">
+			<ProducerCode name="YD30GEC6M2OFH"></ProducerCode>
+		</Model>
+		<Model name="Athlon 4050e">
+			<ProducerCode name="ADH4050IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon 4850e">
+			<ProducerCode name="ADH4850IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon 5150">
+			<ProducerCode name="AD5150JAH44HM"></ProducerCode>
+			<ProducerCode name="AD5150JAHMBOX"></ProducerCode>
+		</Model>
+		<Model name="Athlon 5200B">
+			<ProducerCode name="ADO520BIAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon 5350">
+			<ProducerCode name="AD5350JAH44HM"></ProducerCode>
+			<ProducerCode name="AD5350JAHMBOX"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 2700+">
+			<ProducerCode name="AMD2700BKX4LB"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 2800+">
+			<ProducerCode name="ADA2800AEP4AP"></ProducerCode>
+			<ProducerCode name="ADAAA2800ACN5"></ProducerCode>
+			<ProducerCode name="AMD2800BKX4LB"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 3000+">
+			<ProducerCode name="ADA3000AEP4AX"></ProducerCode>
+			<ProducerCode name="ADA3000AIK4BX"></ProducerCode>
+			<ProducerCode name="ADA3000DAA4BP"></ProducerCode>
+			<ProducerCode name="ADA3000DAA4BW"></ProducerCode>
+			<ProducerCode name="ADA3000DEP4AW"></ProducerCode>
+			<ProducerCode name="ADA3000DIK4BI"></ProducerCode>
+			<ProducerCode name="ADA3000IAA4CN"></ProducerCode>
+			<ProducerCode name="ADA3000IAA4CW"></ProducerCode>
+			<ProducerCode name="AMA3000BEX5AR"></ProducerCode>
+			<ProducerCode name="AMD3000BKX4LB"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 3200+">
+			<ProducerCode name="ADA3200AEP4AX"></ProducerCode>
+			<ProducerCode name="ADA3200DAA4BP"></ProducerCode>
+			<ProducerCode name="ADA3200DAA4BW"></ProducerCode>
+			<ProducerCode name="ADA3200DEP4AW"></ProducerCode>
+			<ProducerCode name="ADA3200DIK4BI"></ProducerCode>
+			<ProducerCode name="ADA3200DKA4CG"></ProducerCode>
+			<ProducerCode name="ADA3200IAA4CN"></ProducerCode>
+			<ProducerCode name="ADA3200IAA4CW"></ProducerCode>
+			<ProducerCode name="AMN3200BIX5AR"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 3400+">
+			<ProducerCode name="ADA3400AEP4AX"></ProducerCode>
+			<ProducerCode name="AMN3400BIX5AR"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 3500+">
+			<ProducerCode name="ADA3500DAA4BN"></ProducerCode>
+			<ProducerCode name="ADA3500DAA4BP"></ProducerCode>
+			<ProducerCode name="ADA3500DAA4BW"></ProducerCode>
+			<ProducerCode name="ADA3500DEP4AS"></ProducerCode>
+			<ProducerCode name="ADA3500DEP4AW"></ProducerCode>
+			<ProducerCode name="ADA3500DIK4BI"></ProducerCode>
+			<ProducerCode name="ADA3500DKA4CG"></ProducerCode>
+			<ProducerCode name="ADA3500IAA4CN"></ProducerCode>
+			<ProducerCode name="ADA3500IAA4CW"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 3700+">
+			<ProducerCode name="ADA3700DAA5BN"></ProducerCode>
+			<ProducerCode name="ADA3700DKA5CF"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 3800+">
+			<ProducerCode name="ADA3800DAA4BW"></ProducerCode>
+			<ProducerCode name="ADA3800DEP4AW"></ProducerCode>
+			<ProducerCode name="ADA3800IAA4CW"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 4000+">
+			<ProducerCode name="ADA4000DEP5AS"></ProducerCode>
+			<ProducerCode name="ADA4000DKA5CF"></ProducerCode>
+			<ProducerCode name="ADA4000IAA4DH"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 FX-51">
+			<ProducerCode name="ADAFX51CEP5AK"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 FX-53">
+			<ProducerCode name="ADAFX53DEP5AS"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 FX-55">
+			<ProducerCode name="ADAFX55DEI5AS"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 FX-57">
+			<ProducerCode name="ADAFX57DAA5BN"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 FX-60">
+			<ProducerCode name="ADAFX60DAA6CD"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 FX-62">
+			<ProducerCode name="ADAFX62IAA6CS"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 FX-70">
+			<ProducerCode name="ADAFX70GAA6DI"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 FX-72">
+			<ProducerCode name="ADAFX72GAA6DI"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 FX-74">
+			<ProducerCode name="ADAFX74GAA6DI"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 LE-1600">
+			<ProducerCode name="ADH1600IAA5DH"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 LE-1620">
+			<ProducerCode name="ADH1620IAA5DH"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 LE-1640">
+			<ProducerCode name="ADH1640IAA5DH"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 LE-1660">
+			<ProducerCode name="ADH1660IAA4DP"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 QI-46">
+			<ProducerCode name="AMQI46SAM12GG"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 TF-20">
+			<ProducerCode name="AMGTF20HAX4DN"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 3250e">
+			<ProducerCode name="ADJ3250IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 3600+">
+			<ProducerCode name="ADA3600DAA4BV"></ProducerCode>
+			<ProducerCode name="ADO3600IAA4CU"></ProducerCode>
+			<ProducerCode name="ADO3600IAA5DD"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 3800+">
+			<ProducerCode name="ADA3800DAA5BV"></ProducerCode>
+			<ProducerCode name="ADA3800DAA5CD"></ProducerCode>
+			<ProducerCode name="ADD3800IAA5CU"></ProducerCode>
+			<ProducerCode name="ADO3800IAA5CS"></ProducerCode>
+			<ProducerCode name="ADO3800IAA5CU"></ProducerCode>
+			<ProducerCode name="ADO3800IAA5CZ"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 4000+">
+			<ProducerCode name="ADA4000IAA6CS"></ProducerCode>
+			<ProducerCode name="ADO4000IAA5DD"></ProducerCode>
+			<ProducerCode name="AMN4000BKX5BU"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 4200+">
+			<ProducerCode name="ADA4200DAA5BV"></ProducerCode>
+			<ProducerCode name="ADA4200IAA5CU"></ProducerCode>
+			<ProducerCode name="ADO4200IAA5DD"></ProducerCode>
+			<ProducerCode name="ADO4200IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 4400+">
+			<ProducerCode name="ADA4400DAA6CD"></ProducerCode>
+			<ProducerCode name="ADO4400IAA5DO"></ProducerCode>
+			<ProducerCode name="ADO4400IAA5DU"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 4600+">
+			<ProducerCode name="ADA4600DAA5BV"></ProducerCode>
+			<ProducerCode name="ADA4600IAA5CU"></ProducerCode>
+			<ProducerCode name="ADO4600IAA5CZ"></ProducerCode>
+			<ProducerCode name="ADO4600IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 4800+">
+			<ProducerCode name="ADA4800DAA6CD"></ProducerCode>
+			<ProducerCode name="ADO4800IAA5DO"></ProducerCode>
+			<ProducerCode name="ADO4800IAA6CS"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 5000+">
+			<ProducerCode name="AD05000IAA5D0"></ProducerCode>
+			<ProducerCode name="AD50000DJ22GI"></ProducerCode>
+			<ProducerCode name="ADA5000IAA5CZ"></ProducerCode>
+			<ProducerCode name="ADO5000IAA5DU"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 5200+">
+			<ProducerCode name="ADO5200IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 5400+">
+			<ProducerCode name="ADA5400IAA5CZ"></ProducerCode>
+			<ProducerCode name="ADO5400IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 5600+">
+			<ProducerCode name="ADA5600IAA6CZ"></ProducerCode>
+			<ProducerCode name="ADO5600IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 5800+">
+			<ProducerCode name="ADA5800IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 6000+">
+			<ProducerCode name="ADA6000IAA6CZ"></ProducerCode>
+			<ProducerCode name="ADV6000IAA5DO"></ProducerCode>
+			<ProducerCode name="ADX6000IAA6CZ"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 6400+">
+			<ProducerCode name="ADX6400IAA6CZ"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 QL-60">
+			<ProducerCode name="AMQL60DAM22GG"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 QL-65">
+			<ProducerCode name="AMQL65DAM22GG"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 TK-53">
+			<ProducerCode name="AMDTK53HAX4DC"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 TK-55">
+			<ProducerCode name="AMDTK55HAX4DC"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 TK-57">
+			<ProducerCode name="AMDTK57HAX4DM"></ProducerCode>
+		</Model>
+		<Model name="Athlon 64 X2 TL-60">
+			<ProducerCode name="TMDTL60HAX5DC"></ProducerCode>
+		</Model>
+		<Model name="Athlon 650 MHz">
+			<ProducerCode name="AMD-K7650MTR51B A"></ProducerCode>
+		</Model>
+		<Model name="Athlon 7550">
+			<ProducerCode name="AD7550WCJ2BGH"></ProducerCode>
+		</Model>
+		<Model name="Athlon Gold 3150G">
+			<ProducerCode name="YD3150C5M4MFH"></ProducerCode>
+		</Model>
+		<Model name="Athlon II 160u">
+			<ProducerCode name="AD160UEAK13GQ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II 170u">
+			<ProducerCode name="AD170UEAK13GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II Dual-Core M320">
+			<ProducerCode name="AMM320DBO22GQ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II Dual-Core P320">
+			<ProducerCode name="AMP320SGR22GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II M340">
+			<ProducerCode name="AMM340DBO22GQ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II P340">
+			<ProducerCode name="AMP340SGR22GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II P360">
+			<ProducerCode name="AMP360SGR22GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 210e">
+			<ProducerCode name="AD210EHDK22GI"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 215">
+			<ProducerCode name="ADX215OCK22GQ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 220">
+			<ProducerCode name="ADX220OCK22GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 225">
+			<ProducerCode name="ADX225OCK22GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 235e">
+			<ProducerCode name="AD235EHDK23GQ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 240">
+			<ProducerCode name="ADX240OCK23GM"></ProducerCode>
+			<ProducerCode name="ADX240OCK23GQ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 240e">
+			<ProducerCode name="ADA3200AEP5AR"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 245">
+			<ProducerCode name="ADX245OCK23GQ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 245e">
+			<ProducerCode name="AD245EHDK23GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 250">
+			<ProducerCode name="ADX250OCK23GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 250e">
+			<ProducerCode name="AD250EHDK23M"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 250u">
+			<ProducerCode name="AD250USCK23GQ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 255">
+			<ProducerCode name="ADX255OCK23GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 260">
+			<ProducerCode name="ADX260OCK23GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 260u">
+			<ProducerCode name="AD260USCK23GM"></ProducerCode>
+			<ProducerCode name="AD260USCK23GQ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 265">
+			<ProducerCode name="ADX265OCK23GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 270">
+			<ProducerCode name="ADX270OCK23GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 270u">
+			<ProducerCode name="AD270USCK23GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 275">
+			<ProducerCode name="ADX275OCK23GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 280">
+			<ProducerCode name="ADX280OCK23GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 B22">
+			<ProducerCode name="ADXB22OCK23GQ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X2 B24">
+			<ProducerCode name="ADXB24OCK23GQ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X3 400e">
+			<ProducerCode name="AD400EHDK32GI"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X3 405e">
+			<ProducerCode name="AD405EHDK32GI"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X3 415e">
+			<ProducerCode name="AD415EHDK32GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X3 420e">
+			<ProducerCode name="AD420EHDK32GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X3 425">
+			<ProducerCode name="ADX425WFK32GI"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X3 435">
+			<ProducerCode name="ADX435WFK32GI"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X3 440">
+			<ProducerCode name="ADX440WFK32GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X3 445">
+			<ProducerCode name="ADX445WFK32GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X3 450">
+			<ProducerCode name="ADX450WFK32GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X3 455">
+			<ProducerCode name="ADX455WFK32GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X3 460">
+			<ProducerCode name="ADX460WFK32GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 600e">
+			<ProducerCode name="AD600EHDK42GI"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 605e">
+			<ProducerCode name="AD605EHDK42GI"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 610e">
+			<ProducerCode name="AD610EHDK42GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 615e">
+			<ProducerCode name="AD615EHDK42GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 620">
+			<ProducerCode name="ADX620WFK42GI"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 620e">
+			<ProducerCode name="AD620EHDK42GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 630">
+			<ProducerCode name="ADX630W"></ProducerCode>
+			<ProducerCode name="ADX630WFK42GI"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 631">
+			<ProducerCode name="AD631XWNZ43GX"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 635">
+			<ProducerCode name="ADX635WFK42GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 638">
+			<ProducerCode name="AD638XOJZ43GX"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 640">
+			<ProducerCode name="ADX640WFK42GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 641">
+			<ProducerCode name="AD641XWNZ43GX"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 645">
+			<ProducerCode name="ADX645WFK42GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 650">
+			<ProducerCode name="ADX650WFK42GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 651">
+			<ProducerCode name="AD651XWNZ43GX"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 651K">
+			<ProducerCode name="AD651KWNZ43GX"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 655">
+			<ProducerCode name="ADX655WFK42GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 730">
+			<ProducerCode name="AD730XOKA44HJ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 740">
+			<ProducerCode name="AD740XOKA44HJ"></ProducerCode>
+		</Model>
+		<Model name="Athlon II X4 750K">
+			<ProducerCode name="AD750KWOA44HJ"></ProducerCode>
+		</Model>
+		<Model name="Athlon PRO 300GE">
+			<ProducerCode name="YD300BC6M2OFH"></ProducerCode>
+		</Model>
+		<Model name="Athlon Silver 3050GE">
+			<ProducerCode name="YD305GC6M2OFH"></ProducerCode>
+		</Model>
+		<Model name="Athlon Silver 3050U">
+			<ProducerCode name="YM3050C4T2OFG"></ProducerCode>
+		</Model>
+		<Model name="Athlon Silver PRO 3125GE">
+			<ProducerCode name="YD3125C6M2OFH"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 340">
+			<ProducerCode name="AD340XOKA23HJ"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 370K">
+			<ProducerCode name="AD370KOKA23HL"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 4450B">
+			<ProducerCode name="ADH445BIAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 4450e">
+			<ProducerCode name="ADH4450IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 450">
+			<ProducerCode name="AD450XYBI23JA"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 4850B">
+			<ProducerCode name="ADH485BIAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 5000+">
+			<ProducerCode name="ADO5000IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 5000B">
+			<ProducerCode name="ADO500BIAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 5050e">
+			<ProducerCode name="ADH5050IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 5200+">
+			<ProducerCode name="AD5200OCK22GM"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 5400B">
+			<ProducerCode name="ADO540BIAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 5600B">
+			<ProducerCode name="ADO560BIAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 64 X2 5200+">
+			<ProducerCode name="ADO5200IAA6CS"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 7450">
+			<ProducerCode name="AD7450WCJ2BGH"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 7750">
+			<ProducerCode name="AD7750WCJ2BGH"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 7850">
+			<ProducerCode name="AD785ZWCJ2BGH"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 BE-2300">
+			<ProducerCode name="ADH2300IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 BE-2350">
+			<ProducerCode name="ADH2350IAA5DD"></ProducerCode>
+		</Model>
+		<Model name="Athlon X2 BE-2400">
+			<ProducerCode name="ADH2400IAA5DO"></ProducerCode>
+		</Model>
+		<Model name="Athlon X4 750">
+			<ProducerCode name="AD750XOKA44HL"></ProducerCode>
+		</Model>
+		<Model name="Athlon X4 760K">
+			<ProducerCode name="AD760KWOA44HL"></ProducerCode>
+		</Model>
+		<Model name="Athlon X4 830">
+			<ProducerCode name="AD830XYBI44JA"></ProducerCode>
+		</Model>
+		<Model name="Athlon X4 840">
+			<ProducerCode name="AD840XYBI44JA"></ProducerCode>
+		</Model>
+		<Model name="Athlon X4 845">
+			<ProducerCode name="AD845XACI43KA"></ProducerCode>
+		</Model>
+		<Model name="Athlon X4 860K">
+			<ProducerCode name="AD860KXBI44JA"></ProducerCode>
+		</Model>
+		<Model name="Athlon X4 870K">
+			<ProducerCode name="AD870KXBI44JC"></ProducerCode>
+		</Model>
+		<Model name="Athlon X4 880K">
+			<ProducerCode name="AD880KXBI44JC"></ProducerCode>
+		</Model>
+		<Model name="Athlon X4 940">
+			<ProducerCode name="AD940XAGM44AB"></ProducerCode>
+		</Model>
+		<Model name="Athlon X4 950">
+			<ProducerCode name="AD950XAGM44AB"></ProducerCode>
+		</Model>
+		<Model name="Athlon X4 970">
+			<ProducerCode name="AD970XAUM44AB"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 1500+">
+			<ProducerCode name="AX1500DMT3C"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 1600+">
+			<ProducerCode name="AX1600DMT3C"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 1700+">
+			<ProducerCode name="AX1700DMT3C"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 1800+">
+			<ProducerCode name="AXMD1800FQQ3B"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 1900+">
+			<ProducerCode name="AX1900DMT3C"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 2000+">
+			<ProducerCode name="AXDA2000DUT3C"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 2100+">
+			<ProducerCode name="AXDA2100DUT3C"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 2200+">
+			<ProducerCode name="AXDA2200DUV3C"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 2400+">
+			<ProducerCode name="AXDA2400DKV3C"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 2500+">
+			<ProducerCode name="AXDA2500DKV4D"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 2600+">
+			<ProducerCode name="AXDA2600DKV3C"></ProducerCode>
+			<ProducerCode name="AXDA2600DKV3D"></ProducerCode>
+			<ProducerCode name="AXDA2600DKV4D"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 2700+">
+			<ProducerCode name="AXDA2700DKV3D"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 2800+">
+			<ProducerCode name="AXDA2800DKV4C"></ProducerCode>
+			<ProducerCode name="AXDA2800DKV4D"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 3000+">
+			<ProducerCode name="AXDA3000DKV4D"></ProducerCode>
+			<ProducerCode name="AXDL3000DLV4E"></ProducerCode>
+		</Model>
+		<Model name="Athlon XP 3200+">
+			<ProducerCode name="AXDA3200DKV4E"></ProducerCode>
+		</Model>
+		<Model name="Duron 1100">
+			<ProducerCode name="DHD1100AMT1B"></ProducerCode>
+		</Model>
+		<Model name="Duron 1800+">
+			<ProducerCode name="DHD1800DLV1C"></ProducerCode>
+		</Model>
+		<Model name="Duron 850">
+			<ProducerCode name="D850AUT1B"></ProducerCode>
+		</Model>
+		<Model name="Duron 950">
+			<ProducerCode name="D950AUT1B"></ProducerCode>
+		</Model>
+		<Model name="E-350">
+			<ProducerCode name="EME350GBB22GT"></ProducerCode>
+		</Model>
+		<Model name="E-450">
+			<ProducerCode name="EME450GBB22GV"></ProducerCode>
+		</Model>
+		<Model name="E1-1200">
+			<ProducerCode name="EM1200GBB22GV"></ProducerCode>
+		</Model>
+		<Model name="E1-2100">
+			<ProducerCode name="EM2100ICJ23HM"></ProducerCode>
+		</Model>
+		<Model name="E1-6010">
+			<ProducerCode name="EM6010IUJ23JB"></ProducerCode>
+		</Model>
+		<Model name="E2-3200">
+			<ProducerCode name="ED3200OJZ22GX"></ProducerCode>
+		</Model>
+		<Model name="E2-3800">
+			<ProducerCode name="EM3800IBJ44HM"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7232P">
+			<ProducerCode name="100-000000081"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7251">
+			<ProducerCode name="PS7251BFV8SAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7252">
+			<ProducerCode name="100-100000080"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7261">
+			<ProducerCode name="PS7261BEV8RAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7262">
+			<ProducerCode name="100-000000041"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7272">
+			<ProducerCode name="100-100000079"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7281">
+			<ProducerCode name="PS7281BEAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7282">
+			<ProducerCode name="100-100000078"></ProducerCode>
+		</Model>
+		<Model name="EPYC 72F3">
+			<ProducerCode name="100-000000327"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7301">
+			<ProducerCode name="PS7301BEVGPAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7302">
+			<ProducerCode name="100-000000043"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7302P">
+			<ProducerCode name="100-000000049"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7313">
+			<ProducerCode name="100-000000329"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7343">
+			<ProducerCode name="100-000000338"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7351">
+			<ProducerCode name="PS7351BEVGPAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7351P">
+			<ProducerCode name="PS735PBEVGPAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7352">
+			<ProducerCode name="100-000000077"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7371">
+			<ProducerCode name="PS7371BDVGPAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7373X">
+			<ProducerCode name="100-000000508"></ProducerCode>
+		</Model>
+		<Model name="EPYC 73F3">
+			<ProducerCode name="100-000000321"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7401">
+			<ProducerCode name="PS7401BEVHCAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7401P">
+			<ProducerCode name="PS740PBEVHCAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7402">
+			<ProducerCode name="100-000000046"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7402P">
+			<ProducerCode name="100-000000048"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7413">
+			<ProducerCode name="100-000000323"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7443">
+			<ProducerCode name="100-000000340"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7443P">
+			<ProducerCode name="100-000000342"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7451">
+			<ProducerCode name="PS7451BDVHCAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7452">
+			<ProducerCode name="100-000000057"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7453">
+			<ProducerCode name="100-000000319"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7502">
+			<ProducerCode name="100-000000054"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7502P">
+			<ProducerCode name="100-000000045"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7532">
+			<ProducerCode name="100-000000136"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7542">
+			<ProducerCode name="100-000000075"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7551">
+			<ProducerCode name="PS7551BDVIHAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7551P">
+			<ProducerCode name="PS755PBDVIHAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7552">
+			<ProducerCode name="100-000000076"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7601">
+			<ProducerCode name="PS7601BDVIHAF"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7642">
+			<ProducerCode name="100-000000074"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7662">
+			<ProducerCode name="100-000000137"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7702">
+			<ProducerCode name="100-000000038"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7702P">
+			<ProducerCode name="100-000000047"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7742">
+			<ProducerCode name="100-000000053"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7B12">
+			<ProducerCode name="9HY6769N00188"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7F32">
+			<ProducerCode name="100-000000139"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7F52">
+			<ProducerCode name="100-000000140"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7F72">
+			<ProducerCode name="100-000000141"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7H12">
+			<ProducerCode name="100-000000055"></ProducerCode>
+		</Model>
+		<Model name="EPYC 7T83">
+			<ProducerCode name="100-000000348"></ProducerCode>
+		</Model>
+		<Model name="EPYC 9654">
+			<ProducerCode name="100-000000789"></ProducerCode>
+		</Model>
+		<Model name="Epyc 7501">
+			<ProducerCode name="PS7501BEVIHAF"></ProducerCode>
+		</Model>
+		<Model name="FX 4330">
+			<ProducerCode name="FD4330WMW4KHK"></ProducerCode>
+		</Model>
+		<Model name="FX 8320E">
+			<ProducerCode name="FD832EWMW8KHK"></ProducerCode>
+		</Model>
+		<Model name="FX 9590">
+			<ProducerCode name="FD9590FHW8KHK"></ProducerCode>
+		</Model>
+		<Model name="FX-4100">
+			<ProducerCode name="FD4100WMW4KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-4120">
+			<ProducerCode name="FD4120WMW4KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-4130">
+			<ProducerCode name="FD4130FRW4MGU"></ProducerCode>
+		</Model>
+		<Model name="FX-4150">
+			<ProducerCode name="FD4150WMW4KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-4170">
+			<ProducerCode name="FD4170FRW4KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-4200">
+			<ProducerCode name="FD4200FRW4KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-4300">
+			<ProducerCode name="FD4300WMW4MHK"></ProducerCode>
+		</Model>
+		<Model name="FX-4320">
+			<ProducerCode name="FD4320WMW4MHK"></ProducerCode>
+		</Model>
+		<Model name="FX-4350">
+			<ProducerCode name="FD4350FRHK"></ProducerCode>
+			<ProducerCode name="FD4350FRW4KHK"></ProducerCode>
+		</Model>
+		<Model name="FX-6100">
+			<ProducerCode name="FD6100WMW6KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-6120">
+			<ProducerCode name="FD6120WMW6KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-6130">
+			<ProducerCode name="FD6130FRW6KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-6200">
+			<ProducerCode name="FD6200FRW6KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-6300">
+			<ProducerCode name="9H64353I20410"></ProducerCode>
+			<ProducerCode name="FD6300WMW6KHK"></ProducerCode>
+		</Model>
+		<Model name="FX-6330">
+			<ProducerCode name="FD6330WMW6KHK"></ProducerCode>
+		</Model>
+		<Model name="FX-6350">
+			<ProducerCode name="9GV2939R70141"></ProducerCode>
+			<ProducerCode name="FD6350FRHK"></ProducerCode>
+			<ProducerCode name="FD6350FRW6KHK"></ProducerCode>
+		</Model>
+		<Model name="FX-770K">
+			<ProducerCode name="FD770KYBI44JA"></ProducerCode>
+		</Model>
+		<Model name="FX-8100">
+			<ProducerCode name="FD8100WMW8KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-8120">
+			<ProducerCode name="FD8120FRW8KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-8150">
+			<ProducerCode name="FD8150FRW8KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-8170">
+			<ProducerCode name="FD8170FRW8KGU"></ProducerCode>
+		</Model>
+		<Model name="FX-8300">
+			<ProducerCode name="FD8300FRW8KHK"></ProducerCode>
+			<ProducerCode name="FD8300WMW8KHK"></ProducerCode>
+		</Model>
+		<Model name="FX-8320">
+			<ProducerCode name="FD8320FRW8KHK"></ProducerCode>
+		</Model>
+		<Model name="FX-8350">
+			<ProducerCode name="FD8350FRW8KHK"></ProducerCode>
+		</Model>
+		<Model name="FX-8370">
+			<ProducerCode name="FD8370FRW8KHK"></ProducerCode>
+		</Model>
+		<Model name="FX-9370">
+			<ProducerCode name="FD9370FHHKWOF"></ProducerCode>
+			<ProducerCode name="FD9370FHW8KHK"></ProducerCode>
+		</Model>
+		<Model name="FX-9830P">
+			<ProducerCode name="FM983PAEY44AB"></ProducerCode>
+		</Model>
+		<Model name="G-T40E">
+			<ProducerCode name="GET40EFQB22GVE"></ProducerCode>
+		</Model>
+		<Model name="GX-215JJ">
+			<ProducerCode name="GE215JAWY23AC"></ProducerCode>
+		</Model>
+		<Model name="GX-420CA">
+			<ProducerCode name="GE420CIAJ44HM"></ProducerCode>
+		</Model>
+		<Model name="K5 75">
+			<ProducerCode name="AMD-SSA/5-75ABR"></ProducerCode>
+		</Model>
+		<Model name="K6-2 400">
+			<ProducerCode name="AMD-K6-2/450AFX"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1210">
+			<ProducerCode name="OSA1210IAA6CZ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1210 HE">
+			<ProducerCode name="OSO1210IAA6CZ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1212">
+			<ProducerCode name="OSA1212IAA6CS"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1212 HE">
+			<ProducerCode name="OSO1212IAA6CZ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1214">
+			<ProducerCode name="OSA1214IAA6CS"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1214 HE">
+			<ProducerCode name="OSO1214IAA6CZ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1216">
+			<ProducerCode name="OSA1216IAA6CS"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1216 HE">
+			<ProducerCode name="OSO1216IAA6CZ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1218">
+			<ProducerCode name="OSA1218IAA6CZ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1218 HE">
+			<ProducerCode name="OSO1218CZ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1220">
+			<ProducerCode name="OSA1220IAA6CZ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1352">
+			<ProducerCode name="OS1352WBJ4BGH"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1354">
+			<ProducerCode name="OS1354WBJ4BGD"></ProducerCode>
+		</Model>
+		<Model name="Opteron 1356">
+			<ProducerCode name="OS1356WBJ4BGH"></ProducerCode>
+		</Model>
+		<Model name="Opteron 140">
+			<ProducerCode name="OSA140CCO5AG"></ProducerCode>
+		</Model>
+		<Model name="Opteron 142">
+			<ProducerCode name="OSA142CCO5AG"></ProducerCode>
+		</Model>
+		<Model name="Opteron 144">
+			<ProducerCode name="OSA144CEP5AT"></ProducerCode>
+		</Model>
+		<Model name="Opteron 146">
+			<ProducerCode name="OSA146DAA5BN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 148">
+			<ProducerCode name="OSA148CEP5AT"></ProducerCode>
+		</Model>
+		<Model name="Opteron 150">
+			<ProducerCode name="OSA150CEP5AT"></ProducerCode>
+		</Model>
+		<Model name="Opteron 165">
+			<ProducerCode name="OSA165DAA6CD"></ProducerCode>
+		</Model>
+		<Model name="Opteron 170">
+			<ProducerCode name="OSA170DAA6CD"></ProducerCode>
+		</Model>
+		<Model name="Opteron 175">
+			<ProducerCode name="OSA175DAA6CD"></ProducerCode>
+		</Model>
+		<Model name="Opteron 180">
+			<ProducerCode name="OSA180DAA6CD"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2210">
+			<ProducerCode name="OSA2210GAA6CX"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2210 HE">
+			<ProducerCode name="OSA2210GAA6CQ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2212">
+			<ProducerCode name="OSA2212GAA6CX"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2214 HE">
+			<ProducerCode name="OSP2214GAA6CQ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2216">
+			<ProducerCode name="OSA2216GAA6CQ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2216 HE">
+			<ProducerCode name="OSP2216GAA6CX"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2218">
+			<ProducerCode name="OSA2218GAA6CX"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2218 HE">
+			<ProducerCode name="OSP2218GAA6CX"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2220">
+			<ProducerCode name="OSA2220GAA6CX"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2220 SE">
+			<ProducerCode name="OSY2220GAA6CQ"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2222">
+			<ProducerCode name="OSA2222GAA6CX"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2222 SE">
+			<ProducerCode name="OSY2222GAA6CX"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2224 SE">
+			<ProducerCode name="OSY2224GAA6CX"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2344 HE">
+			<ProducerCode name="OS2344PAL4BGC"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2346 HE">
+			<ProducerCode name="OS2346PAL4BGE"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2347">
+			<ProducerCode name="OS2347WAL4BGC"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2347 HE">
+			<ProducerCode name="OS2347PAL4BGE"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2350">
+			<ProducerCode name="OS2350WAL4BGH"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2352">
+			<ProducerCode name="OS2352WAL4BGH"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2354">
+			<ProducerCode name="OS2354WAL4BGH"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2356">
+			<ProducerCode name="OS2356WAL4BGH"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2376">
+			<ProducerCode name="OS2376WAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2378">
+			<ProducerCode name="OS2378WAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2380">
+			<ProducerCode name="OS2380WAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2382">
+			<ProducerCode name="OS2382WAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2384">
+			<ProducerCode name="OS2384WAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2386 SE">
+			<ProducerCode name="OS2386YAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2387">
+			<ProducerCode name="OS2387WHP4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2389">
+			<ProducerCode name="OS2389WHP4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2393 SE">
+			<ProducerCode name="OS2393YCP4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 240">
+			<ProducerCode name="OSA240CEP5AL"></ProducerCode>
+		</Model>
+		<Model name="Opteron 242">
+			<ProducerCode name="OSA242CEP5AU"></ProducerCode>
+			<ProducerCode name="OSA242FAA5BL"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2423 HE">
+			<ProducerCode name="OS2423PDS6DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2425 HE">
+			<ProducerCode name="OS2425PDS6DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2427">
+			<ProducerCode name="OS2427WJS6DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2431">
+			<ProducerCode name="OS2431WJS6DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2435">
+			<ProducerCode name="OS2435WJS6DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 2439 SE">
+			<ProducerCode name="OS2439YDS6DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 244">
+			<ProducerCode name="OSA244CEP5AU"></ProducerCode>
+			<ProducerCode name="OSA244FAA5BL"></ProducerCode>
+		</Model>
+		<Model name="Opteron 246">
+			<ProducerCode name="OSA246CEP5AL"></ProducerCode>
+			<ProducerCode name="OSA246FAA5BL"></ProducerCode>
+		</Model>
+		<Model name="Opteron 248">
+			<ProducerCode name="OSA248CEP5AU"></ProducerCode>
+			<ProducerCode name="OSA248FAA5BL"></ProducerCode>
+		</Model>
+		<Model name="Opteron 250">
+			<ProducerCode name="OSP250CIP5AU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 252">
+			<ProducerCode name="OSP252FAA5BL"></ProducerCode>
+		</Model>
+		<Model name="Opteron 254">
+			<ProducerCode name="OSP254FAA5BL"></ProducerCode>
+		</Model>
+		<Model name="Opteron 265">
+			<ProducerCode name="OSP265FAA6CB"></ProducerCode>
+		</Model>
+		<Model name="Opteron 270">
+			<ProducerCode name="OST270FAA6CB"></ProducerCode>
+		</Model>
+		<Model name="Opteron 275">
+			<ProducerCode name="OSA275FAA6CB"></ProducerCode>
+		</Model>
+		<Model name="Opteron 285">
+			<ProducerCode name="OST285FAA6CB"></ProducerCode>
+		</Model>
+		<Model name="Opteron 4100 Series 4122">
+			<ProducerCode name="OS4122WLU4DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 4100 Series 4130">
+			<ProducerCode name="OS4130WLU4DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 4100 Series 4162 EE">
+			<ProducerCode name="OS4162HJU6DGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 4100 Series 4164 EE">
+			<ProducerCode name="OS4164HJU6DGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 4100 Series 4170 HE">
+			<ProducerCode name="OS4170OFU6DGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 4100 Series 4174 HE">
+			<ProducerCode name="OS4174OFU6DGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 4100 Series 4176 HE">
+			<ProducerCode name="OS4176OFU6DGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 4100 Series 4180">
+			<ProducerCode name="OS4180WLU6DGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 4100 Series 4184">
+			<ProducerCode name="OS4184WLU6DGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 4200 Series 4256 EE">
+			<ProducerCode name="OS4256HJU8KGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 4300 Series 4310 EE">
+			<ProducerCode name="OS4310HPU4KHK"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6124 HE">
+			<ProducerCode name="OS6124VATCEGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6128">
+			<ProducerCode name="OS6128WKT8EGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6128 HE">
+			<ProducerCode name="OS6128VAT8EGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6134">
+			<ProducerCode name="OS6134WKT8EGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6136">
+			<ProducerCode name="OS6136WKT8EGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6164 HE">
+			<ProducerCode name="OS6164VATCEGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6168">
+			<ProducerCode name="OS6168WKTCEGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6172">
+			<ProducerCode name="OS6172WKTCEGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6174">
+			<ProducerCode name="OS6174WKTCEGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6176">
+			<ProducerCode name="OS6176WKTCEGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6176 SE">
+			<ProducerCode name="OS6176YETCEGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6100 Series 6180 SE">
+			<ProducerCode name="OS6180YETCEGO"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6200 Series 6204">
+			<ProducerCode name="OS6204WKT4GGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6200 Series 6212">
+			<ProducerCode name="OS6212WKT8GGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6200 Series 6220">
+			<ProducerCode name="OS6220WKT8GGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6200 Series 6234">
+			<ProducerCode name="OS6234WKTCGGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6200 Series 6238">
+			<ProducerCode name="OS6238WKTCGGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6200 Series 6262 HE">
+			<ProducerCode name="OS6262VATGGGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6200 Series 6272">
+			<ProducerCode name="OS6272WKTGGGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6200 Series 6274">
+			<ProducerCode name="OS6274WKTGGGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6200 Series 6276">
+			<ProducerCode name="OS6276WKTGGGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6200 Series 6278">
+			<ProducerCode name="OS6278WKTGGGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6200 Series 6282 SE">
+			<ProducerCode name="OS6282YETGGGU"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6300 Series 6308">
+			<ProducerCode name="OS6308WKT4GHK"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6300 Series 6320">
+			<ProducerCode name="OS6320WKT8GHK"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6300 Series 6328">
+			<ProducerCode name="OS6328WKT8GHK"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6300 Series 6344">
+			<ProducerCode name="OS6344WKTCGHK"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6300 Series 6348">
+			<ProducerCode name="OS6348WKTCGHK"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6300 Series 6366 HE">
+			<ProducerCode name="OS6366VATGGHK"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6300 Series 6376">
+			<ProducerCode name="OS6376WKTGGHK"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6300 Series 6378">
+			<ProducerCode name="OS6378WKTGGHK"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6300 Series 6380">
+			<ProducerCode name="OS6380WKTGGHK"></ProducerCode>
+		</Model>
+		<Model name="Opteron 6300 Series 6386 SE">
+			<ProducerCode name="OS6386YETGGHK"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8212">
+			<ProducerCode name="OSA8212GAA6CR"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8212 HE">
+			<ProducerCode name="OSP8212GAA6CR"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8214">
+			<ProducerCode name="OSA8214GAA6CR"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8214 HE">
+			<ProducerCode name="OSP8214GAA6CY"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8216">
+			<ProducerCode name="OSA8216GAA6CY"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8216 HE">
+			<ProducerCode name="OSP8216GAA6CY"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8218">
+			<ProducerCode name="OSA8218GAA6CR"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8218 HE">
+			<ProducerCode name="OSP8218GAA6CY"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8220">
+			<ProducerCode name="OSY8220GAA6CR"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8220 SE">
+			<ProducerCode name="OSY8220GAA6CY"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8222">
+			<ProducerCode name="OSA8222GAA6CY"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8222 SE">
+			<ProducerCode name="OSY8222GAA6CY"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8224 SE">
+			<ProducerCode name="OSY8224GAA6CY"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8346 HE">
+			<ProducerCode name="OS8346PAL4BGC"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8347">
+			<ProducerCode name="OS8347WAL4BGE"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8347 HE">
+			<ProducerCode name="OS8347PAL4BGH"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8350">
+			<ProducerCode name="OS8350WAL4BGH"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8354">
+			<ProducerCode name="OS8354WAL4BGH"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8356">
+			<ProducerCode name="OS8356WAL4BGH"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8358 SE">
+			<ProducerCode name="OS8358YAL4BGD"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8360 SE">
+			<ProducerCode name="OS8360YAL4BGH"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8374 HE">
+			<ProducerCode name="OS8374PAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8376 HE">
+			<ProducerCode name="OS8376PAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8378">
+			<ProducerCode name="OS8378WAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8380">
+			<ProducerCode name="OS8380WAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8382">
+			<ProducerCode name="OS8382WAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8384">
+			<ProducerCode name="OS8384WAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8386 SE">
+			<ProducerCode name="OS8386YAL4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8387">
+			<ProducerCode name="OS8387WHP4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8389">
+			<ProducerCode name="OS8389WHP4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8393 SE">
+			<ProducerCode name="OS8393YCP4DGI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 840">
+			<ProducerCode name="OSA840CCO5AI"></ProducerCode>
+		</Model>
+		<Model name="Opteron 842">
+			<ProducerCode name="OSA842CEP5AV"></ProducerCode>
+			<ProducerCode name="OSA842FAA5BM"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8425 HE">
+			<ProducerCode name="OS8425PDS6DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8431">
+			<ProducerCode name="OS8431WJS6DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8435">
+			<ProducerCode name="OS8435WJS6DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 8439 SE">
+			<ProducerCode name="OS8439YDS6DGN"></ProducerCode>
+		</Model>
+		<Model name="Opteron 844">
+			<ProducerCode name="OSA844CEP5AM"></ProducerCode>
+			<ProducerCode name="OSA844FAA5BM"></ProducerCode>
+		</Model>
+		<Model name="Opteron 846">
+			<ProducerCode name="OSA846CEP5AV"></ProducerCode>
+			<ProducerCode name="OSA846FAA5BM"></ProducerCode>
+		</Model>
+		<Model name="Opteron 848">
+			<ProducerCode name="OSA848CEP5AM"></ProducerCode>
+			<ProducerCode name="OSA848FAA5BM"></ProducerCode>
+		</Model>
+		<Model name="Opteron 850">
+			<ProducerCode name="OSA850CEP5AV"></ProducerCode>
+		</Model>
+		<Model name="Opteron 852">
+			<ProducerCode name="OSA852FAA5BM"></ProducerCode>
+		</Model>
+		<Model name="Opteron 865">
+			<ProducerCode name="OSA865FKM6BS"></ProducerCode>
+		</Model>
+		<Model name="Opteron 865 HE">
+			<ProducerCode name="OSK860FAA6CC"></ProducerCode>
+		</Model>
+		<Model name="Opteron 870">
+			<ProducerCode name="OSA870FAA6CC"></ProducerCode>
+		</Model>
+		<Model name="Opteron 870 HE">
+			<ProducerCode name="OSK870FAA6CC"></ProducerCode>
+		</Model>
+		<Model name="Opteron 875">
+			<ProducerCode name="OST875FAA6CC"></ProducerCode>
+		</Model>
+		<Model name="Opteron 875 HE">
+			<ProducerCode name="OSK875FAA6CC"></ProducerCode>
+		</Model>
+		<Model name="Opteron 880">
+			<ProducerCode name="OST880FAA6CC"></ProducerCode>
+		</Model>
+		<Model name="Opteron 885">
+			<ProducerCode name="OSA885FAA6CC"></ProducerCode>
+		</Model>
+		<Model name="Opteron 890">
+			<ProducerCode name="OSA890FAA6CC"></ProducerCode>
+		</Model>
+		<Model name="PRO A10-8770">
+			<ProducerCode name="AD877BAGM44AB"></ProducerCode>
+		</Model>
+		<Model name="PRO A10-9700E">
+			<ProducerCode name="AD970BAHM44AB"></ProducerCode>
+		</Model>
+		<Model name="PRO A6-8570">
+			<ProducerCode name="AD857BAGM23AB"></ProducerCode>
+		</Model>
+		<Model name="PRO A6-8570E">
+			<ProducerCode name="AD857BAHM23AB"></ProducerCode>
+		</Model>
+		<Model name="PRO A6-8580">
+			<ProducerCode name="AD858BAGM23AB"></ProducerCode>
+		</Model>
+		<Model name="PRO A6-9500">
+			<ProducerCode name="AD950BAGM23AB"></ProducerCode>
+		</Model>
+		<Model name="PRO A8-8650B">
+			<ProducerCode name="AD865BYBI44JC"></ProducerCode>
+		</Model>
+		<Model name="Phenom II N620">
+			<ProducerCode name="HMN620DCR23GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II N830">
+			<ProducerCode name="HMN830DCR32GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II N850">
+			<ProducerCode name="HMN850DCR32GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II N930">
+			<ProducerCode name="HMN930DCR42GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II N950">
+			<ProducerCode name="HMN950DCR42GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II N970">
+			<ProducerCode name="HMN970DCR42GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II P820">
+			<ProducerCode name="HMP820SGR32GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II P840">
+			<ProducerCode name="HMP840SGR32GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II P960">
+			<ProducerCode name="HMP960SGR42GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X2 521">
+			<ProducerCode name="HDX521OCK23GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X2 545">
+			<ProducerCode name="HDX545WFK2DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X2 550">
+			<ProducerCode name="HDZ550WFK2DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X2 550 (rev. C3)">
+			<ProducerCode name="HDX550WFK2DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X2 555">
+			<ProducerCode name="HDZ555WFK2DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X2 560">
+			<ProducerCode name="HDZ560WFK2DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X2 565">
+			<ProducerCode name="HDZ565WFK2DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X2 B53">
+			<ProducerCode name="HDXB53WFK2DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X2 B59">
+			<ProducerCode name="HDXB59WFK2DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X2 N660">
+			<ProducerCode name="HMN660DCR23GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X3 700e">
+			<ProducerCode name="HD700EOCK3DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X3 705e">
+			<ProducerCode name="HD705EOCK3DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X3 710">
+			<ProducerCode name="HDX710WFK3DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X3 720">
+			<ProducerCode name="HDZ720WFK3DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X3 740">
+			<ProducerCode name="HDZ740WFK3DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 805">
+			<ProducerCode name="HDX805WFK4FGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 810">
+			<ProducerCode name="HDX810WFK4FGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 820">
+			<ProducerCode name="HDX820WFK4FGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 840">
+			<ProducerCode name="HDX840WFK42GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 840T">
+			<ProducerCode name="HD840TWFK4DGR"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 900e">
+			<ProducerCode name="HD900EOCK4DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 905e">
+			<ProducerCode name="HD905EOCK4DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 920">
+			<ProducerCode name="HDX920XCJ4DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 925">
+			<ProducerCode name="HDX925WFK4DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 940">
+			<ProducerCode name="HDZ940XCJ4DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 945">
+			<ProducerCode name="HDX945WFK4DGI"></ProducerCode>
+			<ProducerCode name="HDX945WFK4DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 955">
+			<ProducerCode name="HDX955FBK4DGM"></ProducerCode>
+			<ProducerCode name="HDX955WFK4DGM"></ProducerCode>
+			<ProducerCode name="HDZ955FBK4DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 960T">
+			<ProducerCode name="HD96ZTWFK4DGR"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 965">
+			<ProducerCode name="HDZ965FBK4DGI"></ProducerCode>
+			<ProducerCode name="HDZ965FBK4DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 970">
+			<ProducerCode name="HDZ970FBK4DGM"></ProducerCode>
+			<ProducerCode name="HDZ970FBK4DGR"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 975">
+			<ProducerCode name="HDZ975FBK4DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 980">
+			<ProducerCode name="HDZ980FBK4DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 B55">
+			<ProducerCode name="CMPXCHG8B"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 B93">
+			<ProducerCode name="HDXB93WFK4DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 B95">
+			<ProducerCode name="HDXB95WFK4DGI"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 B97">
+			<ProducerCode name="HDXB97WFK4DGM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 N970">
+			<ProducerCode name="HMN970DCR42GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X4 P920">
+			<ProducerCode name="HMP920SGR42GM"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X6 1035T">
+			<ProducerCode name="HDT35TWFK6DGR"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X6 1045T">
+			<ProducerCode name="HDT45TWFK6DGR"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X6 1055T">
+			<ProducerCode name="HDT55TFBGR"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X6 1065T">
+			<ProducerCode name="HDT65TWFK6DGR"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X6 1075T">
+			<ProducerCode name="HDT75TFBK6DGR"></ProducerCode>
+			<ProducerCode name="HDT75TWFGRBOX"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X6 1090T">
+			<ProducerCode name="HDT90ZFBK6DGR"></ProducerCode>
+		</Model>
+		<Model name="Phenom II X6 1100T">
+			<ProducerCode name="HDE00ZFBK6DGR"></ProducerCode>
+		</Model>
+		<Model name="Phenom X3 8250e">
+			<ProducerCode name="OSA842CCO5AI"></ProducerCode>
+		</Model>
+		<Model name="Phenom X3 8400">
+			<ProducerCode name="HD8400WCJ3BGD"></ProducerCode>
+		</Model>
+		<Model name="Phenom X3 8450">
+			<ProducerCode name="HD8450WCJ3BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X3 8450e">
+			<ProducerCode name="HD8450ODJ3BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X3 8550">
+			<ProducerCode name="HD8550WCJ3BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X3 8600">
+			<ProducerCode name="HD8600WCJ3BGD"></ProducerCode>
+		</Model>
+		<Model name="Phenom X3 8650">
+			<ProducerCode name="HD8650WCJ3BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X3 8750">
+			<ProducerCode name="HD8750WCJ3BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X3 8850">
+			<ProducerCode name="HD8850WCJ3BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X4 9100e">
+			<ProducerCode name="HD9100OBJ4BGD"></ProducerCode>
+		</Model>
+		<Model name="Phenom X4 9150e">
+			<ProducerCode name="HD9150ODJ4BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X4 9350e">
+			<ProducerCode name="HD9350ODJ4BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X4 9450e">
+			<ProducerCode name="HD9450ODJ4BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X4 9500">
+			<ProducerCode name="HD9500WCJ4BGD"></ProducerCode>
+		</Model>
+		<Model name="Phenom X4 9550">
+			<ProducerCode name="HD9550WCJ4BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X4 9600">
+			<ProducerCode name="HD9600WCJ4BGD"></ProducerCode>
+		</Model>
+		<Model name="Phenom X4 9650">
+			<ProducerCode name="HD9650WCJ4BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X4 9750">
+			<ProducerCode name="HD9750WCJ4BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X4 9850">
+			<ProducerCode name="HD9850WCJ4BGH"></ProducerCode>
+			<ProducerCode name="HD985ZXAJ4BGH"></ProducerCode>
+		</Model>
+		<Model name="Phenom X4 9950">
+			<ProducerCode name="HD995ZFAJ4BGH"></ProducerCode>
+		</Model>
+		<Model name="RX-425BB">
+			<ProducerCode name="RE425BDGH44JA"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 1200">
+			<ProducerCode name="YD1200BBAEBOX"></ProducerCode>
+			<ProducerCode name="YD1200BBAFBOX"></ProducerCode>
+			<ProducerCode name="YD1200BBM4KAE"></ProducerCode>
+			<ProducerCode name="YD1200BBM4KAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 1200 AF">
+			<ProducerCode name="YD1200BBM4KAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 1300X">
+			<ProducerCode name="YD130XBBM4KAE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 2200G">
+			<ProducerCode name="YD2200C5FBBOX"></ProducerCode>
+			<ProducerCode name="YD2200C5M4MFB"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 2200G OEM">
+			<ProducerCode name="YD2200C5M4MFB"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 2200GE">
+			<ProducerCode name="YD2200C6M4MFB"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 2300X">
+			<ProducerCode name="YD230XBBM4KAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 3100">
+			<ProducerCode name="100-000000284"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 3200G">
+			<ProducerCode name="YD3200C5FHBOX"></ProducerCode>
+			<ProducerCode name="YD3200C5M4MFH"></ProducerCode>
+			<ProducerCode name="YD320GC5M4MFI"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 3200GE">
+			<ProducerCode name="YD3200C6M4MFH"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 3200U">
+			<ProducerCode name="YM3200C4T2OFG"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 3300X">
+			<ProducerCode name="100-000000159"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 4100">
+			<ProducerCode name="100-000000510"></ProducerCode>
+			<ProducerCode name="100-100000510BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 4300G">
+			<ProducerCode name="100-000000144"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 4300GE">
+			<ProducerCode name="100-000000151"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 5300G">
+			<ProducerCode name="100-000000253"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 PRO 1200">
+			<ProducerCode name="YD120BBBM4KAE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 PRO 1300">
+			<ProducerCode name="YD130BBBM4KAE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 PRO 2100GE OEM">
+			<ProducerCode name="YD210BC6M2OFB"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 PRO 2200GE">
+			<ProducerCode name="YD220BC6M4MFB"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 PRO 3200G">
+			<ProducerCode name="YD320BC5M4MFH"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 PRO 3200GE">
+			<ProducerCode name="YD320BC6M4MFH"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 PRO 4350G">
+			<ProducerCode name="100-000000148"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 3 PRO 4350GE">
+			<ProducerCode name="100-000000154"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 1400">
+			<ProducerCode name="YD1400BBM4KAE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 1500X">
+			<ProducerCode name="YD150XBBM4GAE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 1600">
+			<ProducerCode name="YD1600BBAEBOX"></ProducerCode>
+			<ProducerCode name="YD1600BBM6IAE"></ProducerCode>
+			<ProducerCode name="YD1600BBM6IAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 1600 AF">
+			<ProducerCode name="YD1600BBAFBOX"></ProducerCode>
+			<ProducerCode name="YD1600BBM6IAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 1600X">
+			<ProducerCode name="YD160XBCM6IAE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 2400G">
+			<ProducerCode name="YD2400C5FBBOX"></ProducerCode>
+			<ProducerCode name="YD2400C5M4MFB"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 2400GE">
+			<ProducerCode name="YD2400C6M4MFB"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 2500X">
+			<ProducerCode name="YD250XBBM4KAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 2600">
+			<ProducerCode name="YD2600BBAFBOX"></ProducerCode>
+			<ProducerCode name="YD2600BBM6IAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 2600E">
+			<ProducerCode name="YD260EBHM6IAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 2600X">
+			<ProducerCode name="YD260XBCAFBOX"></ProducerCode>
+			<ProducerCode name="YD260XBCM6IAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 3350G">
+			<ProducerCode name="YD3350C5M4MFH"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 3400G">
+			<ProducerCode name="YD3400C5M4MFH"></ProducerCode>
+			<ProducerCode name="YD340GC5M4MFI"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 3400GE">
+			<ProducerCode name="YD3400C6M4MFH"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 3500">
+			<ProducerCode name="100-000000050"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 3500X">
+			<ProducerCode name="100-000000158"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 3600">
+			<ProducerCode name="100-000000031"></ProducerCode>
+			<ProducerCode name="100-100000031AWOF"></ProducerCode>
+			<ProducerCode name="100-100000031BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 3600X">
+			<ProducerCode name="100-000000022"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 3600XT">
+			<ProducerCode name="100-000000281"></ProducerCode>
+			<ProducerCode name="100-100000281BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 4500">
+			<ProducerCode name="100-000000644"></ProducerCode>
+			<ProducerCode name="100-100000644CBX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 4600G">
+			<ProducerCode name="100-000000147"></ProducerCode>
+			<ProducerCode name="100-000000147BOX"></ProducerCode>
+			<ProducerCode name="100-100000147"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 4600H">
+			<ProducerCode name="9JK8235N10375"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 5500">
+			<ProducerCode name="100-000000457"></ProducerCode>
+			<ProducerCode name="100-100000457"></ProducerCode>
+			<ProducerCode name="100-100000457BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 5500U">
+			<ProducerCode name="100-000000375"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 5600">
+			<ProducerCode name="100-000000927"></ProducerCode>
+			<ProducerCode name="100-100000927BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 5600G">
+			<ProducerCode name="100-000000252"></ProducerCode>
+			<ProducerCode name="100-100000252BOX"></ProducerCode>
+			<ProducerCode name="9JW1864M20265"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 5600GE">
+			<ProducerCode name="100-000000261"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 5600H">
+			<ProducerCode name="100-000000296"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 5600X">
+			<ProducerCode name="100-000000065"></ProducerCode>
+			<ProducerCode name="100-100000065BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 6600H">
+			<ProducerCode name="100-000000546"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 7500F">
+			<ProducerCode name="100-000000597CBX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 7500F BOX">
+			<ProducerCode name="YV01611Q30037"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 7500F OEM">
+			<ProducerCode name="100-000000597"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 7600">
+			<ProducerCode name="100-000001015"></ProducerCode>
+			<ProducerCode name="100-100001015BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 7600X">
+			<ProducerCode name="100-000000593"></ProducerCode>
+			<ProducerCode name="100-100000593"></ProducerCode>
+			<ProducerCode name="100-100000593WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 8600G">
+			<ProducerCode name="100-000001237"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 PRO 1500">
+			<ProducerCode name="YD150BBBM4GAE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 PRO 2400G">
+			<ProducerCode name="YD240BC5M4MFB"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 PRO 2600">
+			<ProducerCode name="AMD"></ProducerCode>
+			<ProducerCode name="YD260BBBM6IAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 PRO 3350G">
+			<ProducerCode name="YD335BC5M4MFH"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 PRO 3400GE">
+			<ProducerCode name="YD340BC6M4MFH"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 PRO 3600">
+			<ProducerCode name="100-000000029"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 PRO 4650G">
+			<ProducerCode name="100-000000143"></ProducerCode>
+			<ProducerCode name="100-100000143MPK"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 PRO 5650G">
+			<ProducerCode name="100-000000255"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 1700">
+			<ProducerCode name="YD1700BBAEBOX"></ProducerCode>
+			<ProducerCode name="YD1700BBM88AE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 1700X">
+			<ProducerCode name="YD170XBCAEWOF"></ProducerCode>
+			<ProducerCode name="YD170XBCM88AE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 1800X">
+			<ProducerCode name="YD180XBCAEWOF"></ProducerCode>
+			<ProducerCode name="YD180XBCM88AE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 2700">
+			<ProducerCode name="YD2700BBAFBOX"></ProducerCode>
+			<ProducerCode name="YD2700BBM88AF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 2700X">
+			<ProducerCode name="YD270XBGAFBOX"></ProducerCode>
+			<ProducerCode name="YD270XBGM88AF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 3700X">
+			<ProducerCode name="100-000000071"></ProducerCode>
+			<ProducerCode name="100-100000071BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 3750H">
+			<ProducerCode name="YM3700C4T4MFG"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 3800X">
+			<ProducerCode name="100-000000025"></ProducerCode>
+			<ProducerCode name="100-100000025BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 3800XT">
+			<ProducerCode name="100-000000279"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 4700G">
+			<ProducerCode name="100-000000146"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 4800H">
+			<ProducerCode name="100-000000098"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 5700G">
+			<ProducerCode name="100-000000263"></ProducerCode>
+			<ProducerCode name="100-100000263BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 5700U">
+			<ProducerCode name="100-000000371"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 5700X">
+			<ProducerCode name="100-000000926"></ProducerCode>
+			<ProducerCode name="100-100000926"></ProducerCode>
+			<ProducerCode name="100-100000926WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 5700X3D">
+			<ProducerCode name="100-000001503"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 5800">
+			<ProducerCode name="100-000000456"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 5800H">
+			<ProducerCode name="100-000000295"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 5800U">
+			<ProducerCode name="100-000000285"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 5800X">
+			<ProducerCode name="100-000000063"></ProducerCode>
+			<ProducerCode name="100-100000063WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 5800X3D">
+			<ProducerCode name="100-000000651"></ProducerCode>
+			<ProducerCode name="100-100000651"></ProducerCode>
+			<ProducerCode name="100-100000651WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 6800H">
+			<ProducerCode name="100-000000561"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 7700">
+			<ProducerCode name="100-000000592"></ProducerCode>
+			<ProducerCode name="100-100000592BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 7700X">
+			<ProducerCode name="100-000000591"></ProducerCode>
+			<ProducerCode name="100-100000591"></ProducerCode>
+			<ProducerCode name="100-100000591WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 7735HS">
+			<ProducerCode name="100-000000985"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 7800X3D">
+			<ProducerCode name="100-000000910"></ProducerCode>
+			<ProducerCode name="100-000000910 OEM"></ProducerCode>
+			<ProducerCode name="100-100000910WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 7840HS">
+			<ProducerCode name="100-000001129"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 PRO 1700">
+			<ProducerCode name="YD170BBBM88AE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 PRO 1700X">
+			<ProducerCode name="YD17XBBAM88AE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 PRO 2700">
+			<ProducerCode name="YD270BBBM88AF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 PRO 3700">
+			<ProducerCode name="100-000000073"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 PRO 4750G">
+			<ProducerCode name="100-000000145"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 PRO 5750G">
+			<ProducerCode name="100-000000254"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 3900">
+			<ProducerCode name="100-000000070"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 3900X">
+			<ProducerCode name="100-000000023"></ProducerCode>
+			<ProducerCode name="100-100000023BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 3900XT">
+			<ProducerCode name="100-000000277"></ProducerCode>
+			<ProducerCode name="100-100000277WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 3950X">
+			<ProducerCode name="100-000000051"></ProducerCode>
+			<ProducerCode name="100-100000051BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 5900X">
+			<ProducerCode name="100-000000061"></ProducerCode>
+			<ProducerCode name="100-100000061WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 5950X">
+			<ProducerCode name="100-000000059"></ProducerCode>
+			<ProducerCode name="100-100000059WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 6900HX">
+			<ProducerCode name="100-000000544"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 7900">
+			<ProducerCode name="100-000000590"></ProducerCode>
+			<ProducerCode name="100-100000590BOX"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 7900X">
+			<ProducerCode name="100-000000589"></ProducerCode>
+			<ProducerCode name="100-100000589"></ProducerCode>
+			<ProducerCode name="100-100000589WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 7900X3D">
+			<ProducerCode name="100-000000909"></ProducerCode>
+			<ProducerCode name="100-100000909WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 7950X">
+			<ProducerCode name="100-000000514"></ProducerCode>
+			<ProducerCode name="100-100000514WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 9 7950X3D">
+			<ProducerCode name="100-000000908"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper 1900X">
+			<ProducerCode name="YD190XA8U8QAE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper 1920X">
+			<ProducerCode name="YD192XA8UC9AE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper 1950X">
+			<ProducerCode name="YD195XA8UGAAE"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper 2920X">
+			<ProducerCode name="YD292XA8UC9AF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper 2950X">
+			<ProducerCode name="YD295XA8UGAAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper 2970WX">
+			<ProducerCode name="YD297XAZUHCAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper 2990WX">
+			<ProducerCode name="YD299XAZUIHAF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper 3960X">
+			<ProducerCode name="100-000000010"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper 3970X">
+			<ProducerCode name="100-000000011"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper 3990X">
+			<ProducerCode name="100-000000163"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper PRO 3955WX">
+			<ProducerCode name="100-000000167"></ProducerCode>
+			<ProducerCode name="100-100000167WOF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper PRO 3975WX">
+			<ProducerCode name="100-000000086"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper PRO 5955WX">
+			<ProducerCode name="100-000000447"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper PRO 5965WX">
+			<ProducerCode name="100-000000446"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper PRO 5975WX">
+			<ProducerCode name="100-000000445"></ProducerCode>
+		</Model>
+		<Model name="Ryzen Threadripper PRO 5995WX">
+			<ProducerCode name="100-000000444"></ProducerCode>
+		</Model>
+		<Model name="Ryzen V1780B">
+			<ProducerCode name="YE1780C3T4MFB"></ProducerCode>
+		</Model>
+		<Model name="SEMPRON-64 3200+">
+			<ProducerCode name="SDA3200IAA2CW"></ProducerCode>
+		</Model>
+		<Model name="Sempron 130">
+			<ProducerCode name="SDX130HBK12GM"></ProducerCode>
+		</Model>
+		<Model name="Sempron 140">
+			<ProducerCode name="SDX140HBK13GQ"></ProducerCode>
+		</Model>
+		<Model name="Sempron 145">
+			<ProducerCode name="SDX145HBK13GM"></ProducerCode>
+		</Model>
+		<Model name="Sempron 150">
+			<ProducerCode name="SDX150HBK13GM"></ProducerCode>
+		</Model>
+		<Model name="Sempron 180">
+			<ProducerCode name="SDX180HDK22GM"></ProducerCode>
+		</Model>
+		<Model name="Sempron 2200+">
+			<ProducerCode name="SDA2200DUT3D"></ProducerCode>
+		</Model>
+		<Model name="Sempron 2300+">
+			<ProducerCode name="SDA2300DUT3D"></ProducerCode>
+		</Model>
+		<Model name="Sempron 2400+">
+			<ProducerCode name="SDA2400DUT3D"></ProducerCode>
+		</Model>
+		<Model name="Sempron 2500+">
+			<ProducerCode name="SDA2500AIO3BX"></ProducerCode>
+			<ProducerCode name="SDA2500DUT3D"></ProducerCode>
+		</Model>
+		<Model name="Sempron 2600+">
+			<ProducerCode name="SDA2600AIO2BA"></ProducerCode>
+			<ProducerCode name="SDA2600DUT3D"></ProducerCode>
+			<ProducerCode name="SMN2600BIX2BA"></ProducerCode>
+		</Model>
+		<Model name="Sempron 2650">
+			<ProducerCode name="SD2650JAH23HM"></ProducerCode>
+			<ProducerCode name="SD2650JAHMBOX"></ProducerCode>
+		</Model>
+		<Model name="Sempron 2800+">
+			<ProducerCode name="SDA2800AIO3BX"></ProducerCode>
+			<ProducerCode name="SDA2800DUT3D"></ProducerCode>
+			<ProducerCode name="SDA2800IAA2CN"></ProducerCode>
+			<ProducerCode name="SMN2800BIX3BA"></ProducerCode>
+		</Model>
+		<Model name="Sempron 3000+">
+			<ProducerCode name="SDA3000AIO2BA"></ProducerCode>
+			<ProducerCode name="SDA3000AIO2BX"></ProducerCode>
+			<ProducerCode name="SDA3000DIO2BW"></ProducerCode>
+			<ProducerCode name="SDA3000IAA3CN"></ProducerCode>
+			<ProducerCode name="SMN3000BIX2BA"></ProducerCode>
+		</Model>
+		<Model name="Sempron 3100+">
+			<ProducerCode name="SDA3100AIO3BX"></ProducerCode>
+		</Model>
+		<Model name="Sempron 3200+">
+			<ProducerCode name="SDD3200IAA2CN"></ProducerCode>
+		</Model>
+		<Model name="Sempron 3300+">
+			<ProducerCode name="SDA3300AIO2BA"></ProducerCode>
+		</Model>
+		<Model name="Sempron 3400+">
+			<ProducerCode name="SDA3400AIO3BX"></ProducerCode>
+			<ProducerCode name="SDA3400IAA3CN"></ProducerCode>
+		</Model>
+		<Model name="Sempron 3500+">
+			<ProducerCode name="SDA3500IAA2CW"></ProducerCode>
+		</Model>
+		<Model name="Sempron 3600+">
+			<ProducerCode name="SDA3600IAA3CN"></ProducerCode>
+		</Model>
+		<Model name="Sempron 3800+">
+			<ProducerCode name="SDA3800IAA3CN"></ProducerCode>
+		</Model>
+		<Model name="Sempron 3850">
+			<ProducerCode name="SD3850JAH44HM"></ProducerCode>
+			<ProducerCode name="SD3850JAHMBOX"></ProducerCode>
+		</Model>
+		<Model name="Sempron LE-1100">
+			<ProducerCode name="SDH1100IAA3DE"></ProducerCode>
+		</Model>
+		<Model name="Sempron LE-1150">
+			<ProducerCode name="SDH1150IAA3DE"></ProducerCode>
+		</Model>
+		<Model name="Sempron LE-1200">
+			<ProducerCode name="SDH1200IAA4DP"></ProducerCode>
+		</Model>
+		<Model name="Sempron LE-1250">
+			<ProducerCode name="SDH1250IAA4DP"></ProducerCode>
+		</Model>
+		<Model name="Sempron LE-1300">
+			<ProducerCode name="SDH1300IAA4DP"></ProducerCode>
+		</Model>
+		<Model name="Sempron Mobile M100">
+			<ProducerCode name="SMM100SB012GQ"></ProducerCode>
+		</Model>
+		<Model name="Sempron X2 190">
+			<ProducerCode name="SDX190HDK22GM"></ProducerCode>
+		</Model>
+		<Model name="Sempron X2 2100">
+			<ProducerCode name="SDO2100IAA4DO"></ProducerCode>
+		</Model>
+		<Model name="Sempron X2 2200">
+			<ProducerCode name="SDO2200IAA4DO"></ProducerCode>
+		</Model>
+		<Model name="Sempron X2 2300">
+			<ProducerCode name="SDO2300IAA4DO"></ProducerCode>
+		</Model>
+		<Model name="Sempron X2 240">
+			<ProducerCode name="SD240XOKA23HJ"></ProducerCode>
+		</Model>
+		<Model name="Sempron X2 250">
+			<ProducerCode name="SD250XOKA23HL"></ProducerCode>
+		</Model>
+		<Model name="Turion 64 MK-36">
+			<ProducerCode name="TMDMK36HAX4CM"></ProducerCode>
+		</Model>
+		<Model name="Turion 64 MK-38">
+			<ProducerCode name="TMDMK38HAX4CM"></ProducerCode>
+		</Model>
+		<Model name="Turion 64 X2 RM-74">
+			<ProducerCode name="TMRM74DAM22GG"></ProducerCode>
+		</Model>
+		<Model name="Turion 64 X2 RM-75">
+			<ProducerCode name="TMRM75DAM22GG"></ProducerCode>
+		</Model>
+		<Model name="Turion 64 X2 TL-50">
+			<ProducerCode name="TMDTL50HAX4CT"></ProducerCode>
+		</Model>
+		<Model name="Turion 64 X2 TL-52">
+			<ProducerCode name="TMDTL52HAX5CT"></ProducerCode>
+		</Model>
+		<Model name="Turion 64 X2 TL-56">
+			<ProducerCode name="TMDTL56HAX5CT"></ProducerCode>
+		</Model>
+		<Model name="Turion 64 X2 TL-58">
+			<ProducerCode name="TMDTL58HAX5DC"></ProducerCode>
+		</Model>
+		<Model name="Turion 64 X2 TL-60">
+			<ProducerCode name="TMDTL60HAX5DC"></ProducerCode>
+		</Model>
+		<Model name="Turion 64 X2 TL-64">
+			<ProducerCode name="TMDTL64HAX5DM"></ProducerCode>
+		</Model>
+		<Model name="Turion 64 X2 TL-68">
+			<ProducerCode name="TMDTL68HAX5DM"></ProducerCode>
+		</Model>
+		<Model name="Turion II M500">
+			<ProducerCode name="TMM500DBO22GQ"></ProducerCode>
+		</Model>
+		<Model name="Turion II M520">
+			<ProducerCode name="TMM520DBO22GQ"></ProducerCode>
+		</Model>
+		<Model name="Turion II Neo N40L">
+			<ProducerCode name="TEN40LGAV23GME"></ProducerCode>
+		</Model>
+		<Model name="Turion II P520">
+			<ProducerCode name="TMP520SGR23GM"></ProducerCode>
+		</Model>
+		<Model name="Turion II P540">
+			<ProducerCode name="TMP540SGR23GM"></ProducerCode>
+		</Model>
+		<Model name="Turion II Ultra Dual-Core Mobile M600">
+			<ProducerCode name="TMM600DBO23GQ"></ProducerCode>
+		</Model>
+		<Model name="Turion X2 Ultra Dual-Core ZM-80">
+			<ProducerCode name="TMZM80DAM23GG"></ProducerCode>
+		</Model>
+		<Model name="Turion X2 Ultra Dual-Core ZM-84">
+			<ProducerCode name="TMZM84DAM23GG"></ProducerCode>
+		</Model>
+		<Model name="V Series V140">
+			<ProducerCode name="VMV140SGR12GM"></ProducerCode>
+		</Model>
+		<Model name="X5-133ADW">
+			<ProducerCode name="AMD-X5-133ADW"></ProducerCode>
+		</Model>
+		<Model name="X6 1055T">
+			<ProducerCode name="HDT55TFBGRBOX"></ProducerCode>
+		</Model>
+		<Model name="a4-9120">
+			<ProducerCode name="AM9120AYN23AC"></ProducerCode>
+		</Model>
+	</Brand>
+	<Brand name="Cyrix">
+		<Model name="MII-233GP"></Model>
+	</Brand>
+	<Brand name="IBM">
+		<Model name="6x86MX">
+			<ProducerCode name="IBM26x86MX-AVAPR166GA"></ProducerCode>
+		</Model>
+	</Brand>
+	<Brand name="Intel">
+		<Model name="Atom 230">
+			<ProducerCode name="AU80586RE025D"></ProducerCode>
+		</Model>
+		<Model name="Atom 330">
+			<ProducerCode name="AU80587RE0251M"></ProducerCode>
+		</Model>
+		<Model name="Atom D2550">
+			<ProducerCode name="DF8064101211300"></ProducerCode>
+		</Model>
+		<Model name="Atom D2700">
+			<ProducerCode name="DF8064101055647"></ProducerCode>
+		</Model>
+		<Model name="Atom D410"></Model>
+		<Model name="Atom D425"></Model>
+		<Model name="Atom D510"></Model>
+		<Model name="Atom D525"></Model>
+		<Model name="Atom E3845">
+			<ProducerCode name="FH8065301487715"></ProducerCode>
+		</Model>
+		<Model name="Atom N270"></Model>
+		<Model name="Atom N550">
+			<ProducerCode name="AU80610006291AA"></ProducerCode>
+		</Model>
+		<Model name="Atom Z3740"></Model>
+		<Model name="Atom x5-Z8350"></Model>
+		<Model name="Celeron 1000A"></Model>
+		<Model name="Celeron 1000M">
+			<ProducerCode name="AW8063801120200"></ProducerCode>
+		</Model>
+		<Model name="Celeron 1005M"></Model>
+		<Model name="Celeron 1017U"></Model>
+		<Model name="Celeron 1037U"></Model>
+		<Model name="Celeron 2950M">
+			<ProducerCode name="CW8064701487007"></ProducerCode>
+		</Model>
+		<Model name="Celeron 2957U">
+			<ProducerCode name="CL8064701570000"></ProducerCode>
+		</Model>
+		<Model name="Celeron 333">
+			<ProducerCode name="FV80524RX333128"></ProducerCode>
+		</Model>
+		<Model name="Celeron 366">
+			<ProducerCode name="FV80524RX366128"></ProducerCode>
+		</Model>
+		<Model name="Celeron 420"></Model>
+		<Model name="Celeron 430"></Model>
+		<Model name="Celeron 433"></Model>
+		<Model name="Celeron 440"></Model>
+		<Model name="Celeron 450"></Model>
+		<Model name="Celeron 500">
+			<ProducerCode name="FV80524RX500128"></ProducerCode>
+		</Model>
+		<Model name="Celeron 533">
+			<ProducerCode name="FV524RX533"></ProducerCode>
+		</Model>
+		<Model name="Celeron 633">
+			<ProducerCode name="RB80526RX633128"></ProducerCode>
+		</Model>
+		<Model name="Celeron 667">
+			<ProducerCode name="RB80526RX667128"></ProducerCode>
+		</Model>
+		<Model name="Celeron 900"></Model>
+		<Model name="Celeron B800">
+			<ProducerCode name="FF8062701142600"></ProducerCode>
+		</Model>
+		<Model name="Celeron B815">
+			<ProducerCode name="FF8062701159901"></ProducerCode>
+		</Model>
+		<Model name="Celeron B820"></Model>
+		<Model name="Celeron B830">
+			<ProducerCode name="FF8062700848702"></ProducerCode>
+		</Model>
+		<Model name="Celeron D 310"></Model>
+		<Model name="Celeron D 315"></Model>
+		<Model name="Celeron D 320"></Model>
+		<Model name="Celeron D 325"></Model>
+		<Model name="Celeron D 325J"></Model>
+		<Model name="Celeron D 326"></Model>
+		<Model name="Celeron D 330"></Model>
+		<Model name="Celeron D 330J"></Model>
+		<Model name="Celeron D 331"></Model>
+		<Model name="Celeron D 335"></Model>
+		<Model name="Celeron D 335J"></Model>
+		<Model name="Celeron D 336"></Model>
+		<Model name="Celeron D 340"></Model>
+		<Model name="Celeron D 340J"></Model>
+		<Model name="Celeron D 341"></Model>
+		<Model name="Celeron D 345"></Model>
+		<Model name="Celeron D 345J"></Model>
+		<Model name="Celeron D 346"></Model>
+		<Model name="Celeron D 347"></Model>
+		<Model name="Celeron D 350"></Model>
+		<Model name="Celeron D 351"></Model>
+		<Model name="Celeron D 352"></Model>
+		<Model name="Celeron D 355"></Model>
+		<Model name="Celeron D 356"></Model>
+		<Model name="Celeron D 360"></Model>
+		<Model name="Celeron D 365"></Model>
+		<Model name="Celeron E1200"></Model>
+		<Model name="Celeron E1400"></Model>
+		<Model name="Celeron E1500"></Model>
+		<Model name="Celeron E1600"></Model>
+		<Model name="Celeron E3200"></Model>
+		<Model name="Celeron E3300"></Model>
+		<Model name="Celeron E3400"></Model>
+		<Model name="Celeron E3500"></Model>
+		<Model name="Celeron G1610"></Model>
+		<Model name="Celeron G1610T"></Model>
+		<Model name="Celeron G1620"></Model>
+		<Model name="Celeron G1620T"></Model>
+		<Model name="Celeron G1630"></Model>
+		<Model name="Celeron G1820"></Model>
+		<Model name="Celeron G1820T"></Model>
+		<Model name="Celeron G1830"></Model>
+		<Model name="Celeron G1840"></Model>
+		<Model name="Celeron G1840T"></Model>
+		<Model name="Celeron G1850"></Model>
+		<Model name="Celeron G3900"></Model>
+		<Model name="Celeron G3900T"></Model>
+		<Model name="Celeron G3920"></Model>
+		<Model name="Celeron G3930">
+			<ProducerCode name="BX80677G3930"></ProducerCode>
+		</Model>
+		<Model name="Celeron G3930T"></Model>
+		<Model name="Celeron G3950"></Model>
+		<Model name="Celeron G440"></Model>
+		<Model name="Celeron G460"></Model>
+		<Model name="Celeron G465"></Model>
+		<Model name="Celeron G470"></Model>
+		<Model name="Celeron G4900"></Model>
+		<Model name="Celeron G4900T"></Model>
+		<Model name="Celeron G4920"></Model>
+		<Model name="Celeron G4930"></Model>
+		<Model name="Celeron G4950"></Model>
+		<Model name="Celeron G530"></Model>
+		<Model name="Celeron G530T"></Model>
+		<Model name="Celeron G540"></Model>
+		<Model name="Celeron G540T"></Model>
+		<Model name="Celeron G550"></Model>
+		<Model name="Celeron G550T"></Model>
+		<Model name="Celeron G555"></Model>
+		<Model name="Celeron G5900"></Model>
+		<Model name="Celeron G5905"></Model>
+		<Model name="Celeron G5920"></Model>
+		<Model name="Celeron G5925"></Model>
+		<Model name="Celeron G6900">
+			<ProducerCode name="CM8071504651805-SRL67"></ProducerCode>
+		</Model>
+		<Model name="Celeron G6900T"></Model>
+		<Model name="Celeron J1800">
+			<ProducerCode name="FH8065301615103"></ProducerCode>
+		</Model>
+		<Model name="Celeron J1900"></Model>
+		<Model name="Celeron J3060">
+			<ProducerCode name="FH8066501715934"></ProducerCode>
+		</Model>
+		<Model name="Celeron J3160"></Model>
+		<Model name="Celeron J3355"></Model>
+		<Model name="Celeron J3455">
+			<ProducerCode name="FH8066802986102"></ProducerCode>
+		</Model>
+		<Model name="Celeron J4005">
+			<ProducerCode name="FH8068003067416"></ProducerCode>
+		</Model>
+		<Model name="Celeron J4025"></Model>
+		<Model name="Celeron J4105">
+			<ProducerCode name="FH8068003067403"></ProducerCode>
+		</Model>
+		<Model name="Celeron J4125"></Model>
+		<Model name="Celeron M 320"></Model>
+		<Model name="Celeron M 330"></Model>
+		<Model name="Celeron M 340"></Model>
+		<Model name="Celeron M 350"></Model>
+		<Model name="Celeron M 350J"></Model>
+		<Model name="Celeron M 353"></Model>
+		<Model name="Celeron M 360"></Model>
+		<Model name="Celeron M 360J"></Model>
+		<Model name="Celeron M 370"></Model>
+		<Model name="Celeron M 380"></Model>
+		<Model name="Celeron M 390"></Model>
+		<Model name="Celeron M 410"></Model>
+		<Model name="Celeron M 420"></Model>
+		<Model name="Celeron M 430"></Model>
+		<Model name="Celeron M 440"></Model>
+		<Model name="Celeron M 520">
+			<ProducerCode name="LF80537NE0251M"></ProducerCode>
+		</Model>
+		<Model name="Celeron M 530"></Model>
+		<Model name="Celeron M 540"></Model>
+		<Model name="Celeron M 550">
+			<ProducerCode name="LE80537NE0411M"></ProducerCode>
+		</Model>
+		<Model name="Celeron M 560">
+			<ProducerCode name="LF80537NE0461M"></ProducerCode>
+		</Model>
+		<Model name="Celeron M 575"></Model>
+		<Model name="Celeron M900">
+			<ProducerCode name="AW80585NG0491MA"></ProducerCode>
+		</Model>
+		<Model name="Celeron N2807"></Model>
+		<Model name="Celeron N3050"></Model>
+		<Model name="Celeron N3150">
+			<ProducerCode name="FH8066501715913"></ProducerCode>
+		</Model>
+		<Model name="Celeron N3160">
+			<ProducerCode name="FH8066501715928"></ProducerCode>
+		</Model>
+		<Model name="Celeron N3350"></Model>
+		<Model name="Celeron N4120"></Model>
+		<Model name="Celeron N5095">
+			<ProducerCode name="DC8069704609810"></ProducerCode>
+		</Model>
+		<Model name="Celeron N5105"></Model>
+		<Model name="Celeron P4600">
+			<ProducerCode name="FC-PGA10"></ProducerCode>
+		</Model>
+		<Model name="Celeron SL656"></Model>
+		<Model name="Celeron SL69Z">
+			<ProducerCode name="BX80531P170G128"></ProducerCode>
+		</Model>
+		<Model name="Celeron SL6A2">
+			<ProducerCode name="BX80531P180G128"></ProducerCode>
+		</Model>
+		<Model name="Celeron SL6H8">
+			<ProducerCode name="RH80530WZ006256"></ProducerCode>
+		</Model>
+		<Model name="Celeron SL6T2"></Model>
+		<Model name="Celeron SL6VU">
+			<ProducerCode name="RK80532RC056128"></ProducerCode>
+		</Model>
+		<Model name="Celeron SL6W5">
+			<ProducerCode name="BX80532RC2600B"></ProducerCode>
+		</Model>
+		<Model name="Celeron SR103">
+			<ProducerCode name="AW8063801121200"></ProducerCode>
+		</Model>
+		<Model name="Celeron T1600"></Model>
+		<Model name="Celeron T3000">
+			<ProducerCode name="AW80577GG0331ML"></ProducerCode>
+		</Model>
+		<Model name="Celeron T3100">
+			<ProducerCode name="AW80577GG0371ML"></ProducerCode>
+		</Model>
+		<Model name="Celeron T3300"></Model>
+		<Model name="Celeron T3500">
+			<ProducerCode name="AW80577GG0451ML"></ProducerCode>
+		</Model>
+		<Model name="Core 2"></Model>
+		<Model name="Core 2 Duo E4300"></Model>
+		<Model name="Core 2 Duo E4400"></Model>
+		<Model name="Core 2 Duo E4500"></Model>
+		<Model name="Core 2 Duo E4600"></Model>
+		<Model name="Core 2 Duo E4700"></Model>
+		<Model name="Core 2 Duo E6300"></Model>
+		<Model name="Core 2 Duo E6305"></Model>
+		<Model name="Core 2 Duo E6320"></Model>
+		<Model name="Core 2 Duo E6400"></Model>
+		<Model name="Core 2 Duo E6405"></Model>
+		<Model name="Core 2 Duo E6420"></Model>
+		<Model name="Core 2 Duo E6540"></Model>
+		<Model name="Core 2 Duo E6550"></Model>
+		<Model name="Core 2 Duo E6600"></Model>
+		<Model name="Core 2 Duo E6700"></Model>
+		<Model name="Core 2 Duo E6750"></Model>
+		<Model name="Core 2 Duo E6850"></Model>
+		<Model name="Core 2 Duo E7200"></Model>
+		<Model name="Core 2 Duo E7300"></Model>
+		<Model name="Core 2 Duo E7400"></Model>
+		<Model name="Core 2 Duo E7500"></Model>
+		<Model name="Core 2 Duo E7600"></Model>
+		<Model name="Core 2 Duo E8190"></Model>
+		<Model name="Core 2 Duo E8200"></Model>
+		<Model name="Core 2 Duo E8290"></Model>
+		<Model name="Core 2 Duo E8300"></Model>
+		<Model name="Core 2 Duo E8400"></Model>
+		<Model name="Core 2 Duo E8500"></Model>
+		<Model name="Core 2 Duo E8600"></Model>
+		<Model name="Core 2 Duo L7300"></Model>
+		<Model name="Core 2 Duo Mobile T8100"></Model>
+		<Model name="Core 2 Duo P7350">
+			<ProducerCode name="AW80577SH0413M"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo P7450">
+			<ProducerCode name="AW80576GH0463M"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo P8600">
+			<ProducerCode name="AW80577P8600"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo P8700">
+			<ProducerCode name="AW80577SH0613MG"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo P8800"></Model>
+		<Model name="Core 2 Duo P9500">
+			<ProducerCode name="AW80576SH0616M"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo P9600"></Model>
+		<Model name="Core 2 Duo T5200"></Model>
+		<Model name="Core 2 Duo T5250"></Model>
+		<Model name="Core 2 Duo T5270"></Model>
+		<Model name="Core 2 Duo T5300"></Model>
+		<Model name="Core 2 Duo T5450"></Model>
+		<Model name="Core 2 Duo T5500"></Model>
+		<Model name="Core 2 Duo T5550"></Model>
+		<Model name="Core 2 Duo T5600"></Model>
+		<Model name="Core 2 Duo T5670"></Model>
+		<Model name="Core 2 Duo T5750">
+			<ProducerCode name="LF80537GF0412M"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo T5800">
+			<ProducerCode name="LF80537GG041F"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo T5870">
+			<ProducerCode name="LF80537GG0412MN"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo T5900">
+			<ProducerCode name="LF80537GG049F"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo T6400">
+			<ProducerCode name="AW80577GG0412MA"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo T6500">
+			<ProducerCode name="AW80577GG0452MA"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo T6570">
+			<ProducerCode name="AW80577GG0452MH"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo T6600"></Model>
+		<Model name="Core 2 Duo T7100"></Model>
+		<Model name="Core 2 Duo T7200"></Model>
+		<Model name="Core 2 Duo T7250"></Model>
+		<Model name="Core 2 Duo T7300"></Model>
+		<Model name="Core 2 Duo T7400"></Model>
+		<Model name="Core 2 Duo T7500"></Model>
+		<Model name="Core 2 Duo T7600"></Model>
+		<Model name="Core 2 Duo T7700"></Model>
+		<Model name="Core 2 Duo T8300"></Model>
+		<Model name="Core 2 Duo T9300"></Model>
+		<Model name="Core 2 Duo T9400"></Model>
+		<Model name="Core 2 Duo T9500"></Model>
+		<Model name="Core 2 Duo T9550"></Model>
+		<Model name="Core 2 Duo T9600">
+			<ProducerCode name="BX80576T9600"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo T9800"></Model>
+		<Model name="Core 2 Duo T9900">
+			<ProducerCode name="AW80576GH0836MG"></ProducerCode>
+		</Model>
+		<Model name="Core 2 Duo U7500"></Model>
+		<Model name="Core 2 Duo U7600"></Model>
+		<Model name="Core 2 Extreme QX9300">
+			<ProducerCode name="AW80581ZH061003"></ProducerCode>
+		</Model>
+		<Model name="Core 2 QX6700"></Model>
+		<Model name="Core 2 QX6800"></Model>
+		<Model name="Core 2 QX6850"></Model>
+		<Model name="Core 2 QX9650"></Model>
+		<Model name="Core 2 QX9770"></Model>
+		<Model name="Core 2 QX9775"></Model>
+		<Model name="Core 2 Quad Q6600"></Model>
+		<Model name="Core 2 Quad Q6700"></Model>
+		<Model name="Core 2 Quad Q8200"></Model>
+		<Model name="Core 2 Quad Q8200S"></Model>
+		<Model name="Core 2 Quad Q8300"></Model>
+		<Model name="Core 2 Quad Q8400"></Model>
+		<Model name="Core 2 Quad Q8400S"></Model>
+		<Model name="Core 2 Quad Q9000"></Model>
+		<Model name="Core 2 Quad Q9100"></Model>
+		<Model name="Core 2 Quad Q9300"></Model>
+		<Model name="Core 2 Quad Q9400"></Model>
+		<Model name="Core 2 Quad Q9400S"></Model>
+		<Model name="Core 2 Quad Q9450"></Model>
+		<Model name="Core 2 Quad Q9500"></Model>
+		<Model name="Core 2 Quad Q9505"></Model>
+		<Model name="Core 2 Quad Q9505S"></Model>
+		<Model name="Core 2 Quad Q9550"></Model>
+		<Model name="Core 2 Quad Q9550S"></Model>
+		<Model name="Core 2 Quad Q9650"></Model>
+		<Model name="Core 2 X6800"></Model>
+		<Model name="Core Duo T2050"></Model>
+		<Model name="Core Duo T2250">
+			<ProducerCode name="LF80539GE0302M"></ProducerCode>
+		</Model>
+		<Model name="Core Duo T2300"></Model>
+		<Model name="Core Duo T2300E"></Model>
+		<Model name="Core Duo T2400"></Model>
+		<Model name="Core Duo T2450">
+			<ProducerCode name="LF80539GE0412M"></ProducerCode>
+		</Model>
+		<Model name="Core Duo T2500"></Model>
+		<Model name="Core Duo T2600"></Model>
+		<Model name="Core Duo T2700"></Model>
+		<Model name="Core I5-680"></Model>
+		<Model name="Core Solo T1400"></Model>
+		<Model name="Core i3-10100"></Model>
+		<Model name="Core i3-10100F">
+			<ProducerCode name="BX8070110100F"></ProducerCode>
+			<ProducerCode name="CM8070104291318"></ProducerCode>
+		</Model>
+		<Model name="Core i3-10100T"></Model>
+		<Model name="Core i3-10105"></Model>
+		<Model name="Core i3-10105F">
+			<ProducerCode name="BX8070110105F"></ProducerCode>
+		</Model>
+		<Model name="Core i3-10105T"></Model>
+		<Model name="Core i3-10110U"></Model>
+		<Model name="Core i3-10300"></Model>
+		<Model name="Core i3-10305"></Model>
+		<Model name="Core i3-10320"></Model>
+		<Model name="Core i3-10325"></Model>
+		<Model name="Core i3-12100"></Model>
+		<Model name="Core i3-12100F"></Model>
+		<Model name="Core i3-12100T"></Model>
+		<Model name="Core i3-12300"></Model>
+		<Model name="Core i3-12300T"></Model>
+		<Model name="Core i3-13100">
+			<ProducerCode name="BX8071513100"></ProducerCode>
+			<ProducerCode name="CM8071505092202-SRMBU"></ProducerCode>
+		</Model>
+		<Model name="Core i3-13100F"></Model>
+		<Model name="Core i3-2100"></Model>
+		<Model name="Core i3-2100T"></Model>
+		<Model name="Core i3-2102"></Model>
+		<Model name="Core i3-2105"></Model>
+		<Model name="Core i3-2120"></Model>
+		<Model name="Core i3-2120T"></Model>
+		<Model name="Core i3-2125"></Model>
+		<Model name="Core i3-2130"></Model>
+		<Model name="Core i3-2310M">
+			<ProducerCode name="FF8062700999405"></ProducerCode>
+		</Model>
+		<Model name="Core i3-2312M">
+			<ProducerCode name="FF8062700853009"></ProducerCode>
+		</Model>
+		<Model name="Core i3-2328M"></Model>
+		<Model name="Core i3-2330m">
+			<ProducerCode name="FF8062700846606"></ProducerCode>
+		</Model>
+		<Model name="Core i3-2350M">
+			<ProducerCode name="FF8062700995906"></ProducerCode>
+		</Model>
+		<Model name="Core i3-2370M">
+			<ProducerCode name="SR0DP"></ProducerCode>
+		</Model>
+		<Model name="Core i3-3110M">
+			<ProducerCode name="AW8063801032700"></ProducerCode>
+		</Model>
+		<Model name="Core i3-3120M">
+			<ProducerCode name="AV8063801112300"></ProducerCode>
+			<ProducerCode name="AW8063801111700"></ProducerCode>
+		</Model>
+		<Model name="Core i3-3210"></Model>
+		<Model name="Core i3-3220"></Model>
+		<Model name="Core i3-3220T"></Model>
+		<Model name="Core i3-3225"></Model>
+		<Model name="Core i3-3240"></Model>
+		<Model name="Core i3-3240T"></Model>
+		<Model name="Core i3-3245"></Model>
+		<Model name="Core i3-3250"></Model>
+		<Model name="Core i3-3250T"></Model>
+		<Model name="Core i3-330m">
+			<ProducerCode name="CP80617004122AG"></ProducerCode>
+		</Model>
+		<Model name="Core i3-350M">
+			<ProducerCode name="CP80617004161AC"></ProducerCode>
+		</Model>
+		<Model name="Core i3-370M">
+			<ProducerCode name="CP80617004119AL"></ProducerCode>
+		</Model>
+		<Model name="Core i3-380M">
+			<ProducerCode name="CN80617004116AH"></ProducerCode>
+		</Model>
+		<Model name="Core i3-390M"></Model>
+		<Model name="Core i3-4000M">
+			<ProducerCode name="CW8064701486802"></ProducerCode>
+		</Model>
+		<Model name="Core i3-4130">
+			<ProducerCode name="CM8064601483615"></ProducerCode>
+		</Model>
+		<Model name="Core i3-4130T"></Model>
+		<Model name="Core i3-4150"></Model>
+		<Model name="Core i3-4150T"></Model>
+		<Model name="Core i3-4160"></Model>
+		<Model name="Core i3-4160T"></Model>
+		<Model name="Core i3-4170"></Model>
+		<Model name="Core i3-4170T"></Model>
+		<Model name="Core i3-4330"></Model>
+		<Model name="Core i3-4330T"></Model>
+		<Model name="Core i3-4330TE"></Model>
+		<Model name="Core i3-4340"></Model>
+		<Model name="Core i3-4350"></Model>
+		<Model name="Core i3-4350T"></Model>
+		<Model name="Core i3-4360"></Model>
+		<Model name="Core i3-4360T"></Model>
+		<Model name="Core i3-4370"></Model>
+		<Model name="Core i3-4370T"></Model>
+		<Model name="Core i3-5005U">
+			<ProducerCode name="FH8065801884006"></ProducerCode>
+		</Model>
+		<Model name="Core i3-530"></Model>
+		<Model name="Core i3-540"></Model>
+		<Model name="Core i3-550"></Model>
+		<Model name="Core i3-560"></Model>
+		<Model name="Core i3-6098P"></Model>
+		<Model name="Core i3-6100"></Model>
+		<Model name="Core i3-6100T"></Model>
+		<Model name="Core i3-6100U"></Model>
+		<Model name="Core i3-6300"></Model>
+		<Model name="Core i3-6300T"></Model>
+		<Model name="Core i3-6320"></Model>
+		<Model name="Core i3-7100"></Model>
+		<Model name="Core i3-7100T"></Model>
+		<Model name="Core i3-7300"></Model>
+		<Model name="Core i3-7300T"></Model>
+		<Model name="Core i3-7320"></Model>
+		<Model name="Core i3-7350K"></Model>
+		<Model name="Core i3-8100"></Model>
+		<Model name="Core i3-8100T"></Model>
+		<Model name="Core i3-8109U">
+			<ProducerCode name="FH8068403419422"></ProducerCode>
+		</Model>
+		<Model name="Core i3-8121U"></Model>
+		<Model name="Core i3-8300"></Model>
+		<Model name="Core i3-8300T"></Model>
+		<Model name="Core i3-8350K"></Model>
+		<Model name="Core i3-9100"></Model>
+		<Model name="Core i3-9100F"></Model>
+		<Model name="Core i3-9100T"></Model>
+		<Model name="Core i3-9300"></Model>
+		<Model name="Core i3-9300T"></Model>
+		<Model name="Core i3-9320"></Model>
+		<Model name="Core i3-9350K"></Model>
+		<Model name="Core i3-9350KF"></Model>
+		<Model name="Core i5 Mobile 3230M"></Model>
+		<Model name="Core i5-10210U"></Model>
+		<Model name="Core i5-1035G4"></Model>
+		<Model name="Core i5-1035G7"></Model>
+		<Model name="Core i5-10400"></Model>
+		<Model name="Core i5-10400F"></Model>
+		<Model name="Core i5-10400T">
+			<ProducerCode name="CM8070104290806"></ProducerCode>
+		</Model>
+		<Model name="Core i5-10500"></Model>
+		<Model name="Core i5-10500T">
+			<ProducerCode name="CM8070104290606"></ProducerCode>
+		</Model>
+		<Model name="Core i5-10600"></Model>
+		<Model name="Core i5-10600 OEM">
+			<ProducerCode name="CM8070104290312"></ProducerCode>
+		</Model>
+		<Model name="Core i5-10600K"></Model>
+		<Model name="Core i5-10600KA"></Model>
+		<Model name="Core i5-10600KF"></Model>
+		<Model name="Core i5-11320H"></Model>
+		<Model name="Core i5-11400"></Model>
+		<Model name="Core i5-11400F"></Model>
+		<Model name="Core i5-11400F OEM">
+			<ProducerCode name="CM8070804497016-SRKP1"></ProducerCode>
+		</Model>
+		<Model name="Core i5-11400H">
+			<ProducerCode name="CM8070804497015-SRKP0"></ProducerCode>
+		</Model>
+		<Model name="Core i5-11400T"></Model>
+		<Model name="Core i5-11500"></Model>
+		<Model name="Core i5-11600">
+			<ProducerCode name="CM8070804491513"></ProducerCode>
+		</Model>
+		<Model name="Core i5-11600K"></Model>
+		<Model name="Core i5-11600KF">
+			<ProducerCode name="BX8070811600KF"></ProducerCode>
+		</Model>
+		<Model name="Core i5-11600T"></Model>
+		<Model name="Core i5-12400"></Model>
+		<Model name="Core i5-12400F"></Model>
+		<Model name="Core i5-12400T"></Model>
+		<Model name="Core i5-12490F"></Model>
+		<Model name="Core i5-12500"></Model>
+		<Model name="Core i5-12500T"></Model>
+		<Model name="Core i5-12600">
+			<ProducerCode name="CM8071504647406-SRL5T"></ProducerCode>
+		</Model>
+		<Model name="Core i5-12600K">
+			<ProducerCode name="CM8071504555227S RL4T"></ProducerCode>
+		</Model>
+		<Model name="Core i5-12600KF"></Model>
+		<Model name="Core i5-12600T"></Model>
+		<Model name="Core i5-13400">
+			<ProducerCode name="CM8071505093004"></ProducerCode>
+		</Model>
+		<Model name="Core i5-13400F">
+			<ProducerCode name="CM8071504821107"></ProducerCode>
+			<ProducerCode name="CM8071505093005"></ProducerCode>
+		</Model>
+		<Model name="Core i5-13490F">
+			<ProducerCode name="BXC8071513490F"></ProducerCode>
+		</Model>
+		<Model name="Core i5-13500">
+			<ProducerCode name="CM8071505093101"></ProducerCode>
+			<ProducerCode name="CM8071505093101S RMBM"></ProducerCode>
+		</Model>
+		<Model name="Core i5-13600K">
+			<ProducerCode name="CM8071504821005-SRMBD"></ProducerCode>
+		</Model>
+		<Model name="Core i5-13600KF"></Model>
+		<Model name="Core i5-14400F"></Model>
+		<Model name="Core i5-14600K">
+			<ProducerCode name="CM8071504821015 SRN43"></ProducerCode>
+		</Model>
+		<Model name="Core i5-14600KF">
+			<ProducerCode name="BX8071514600KF"></ProducerCode>
+		</Model>
+		<Model name="Core i5-2300"></Model>
+		<Model name="Core i5-2310"></Model>
+		<Model name="Core i5-2320"></Model>
+		<Model name="Core i5-2380P"></Model>
+		<Model name="Core i5-2390T"></Model>
+		<Model name="Core i5-2400"></Model>
+		<Model name="Core i5-2400S"></Model>
+		<Model name="Core i5-2405S"></Model>
+		<Model name="Core i5-2410M">
+			<ProducerCode name="FF8062700845205"></ProducerCode>
+		</Model>
+		<Model name="Core i5-2430m">
+			<ProducerCode name="FF8062700995505"></ProducerCode>
+		</Model>
+		<Model name="Core i5-2450M">
+			<ProducerCode name="FF8062700995606"></ProducerCode>
+		</Model>
+		<Model name="Core i5-2450P"></Model>
+		<Model name="Core i5-2500"></Model>
+		<Model name="Core i5-2500K"></Model>
+		<Model name="Core i5-2500S"></Model>
+		<Model name="Core i5-2500T"></Model>
+		<Model name="Core i5-2520M">
+			<ProducerCode name="FF8062700840017"></ProducerCode>
+		</Model>
+		<Model name="Core i5-2540M">
+			<ProducerCode name="FF8062700839209"></ProducerCode>
+		</Model>
+		<Model name="Core i5-2550K"></Model>
+		<Model name="Core i5-3210M">
+			<ProducerCode name="AW8063801032301"></ProducerCode>
+		</Model>
+		<Model name="Core i5-3320M">
+			<ProducerCode name="AV8063801031900"></ProducerCode>
+		</Model>
+		<Model name="Core i5-3330"></Model>
+		<Model name="Core i5-3330S"></Model>
+		<Model name="Core i5-3335S"></Model>
+		<Model name="Core i5-3337U"></Model>
+		<Model name="Core i5-3340"></Model>
+		<Model name="Core i5-3340S"></Model>
+		<Model name="Core i5-3350P"></Model>
+		<Model name="Core i5-3380M">
+			<ProducerCode name="AW8063801109500"></ProducerCode>
+		</Model>
+		<Model name="Core i5-3450"></Model>
+		<Model name="Core i5-3450S"></Model>
+		<Model name="Core i5-3470"></Model>
+		<Model name="Core i5-3470S"></Model>
+		<Model name="Core i5-3470T"></Model>
+		<Model name="Core i5-3475S"></Model>
+		<Model name="Core i5-3550"></Model>
+		<Model name="Core i5-3550S"></Model>
+		<Model name="Core i5-3570"></Model>
+		<Model name="Core i5-3570K"></Model>
+		<Model name="Core i5-3570S"></Model>
+		<Model name="Core i5-3570T"></Model>
+		<Model name="Core i5-3610ME">
+			<ProducerCode name="AW8063801115901"></ProducerCode>
+		</Model>
+		<Model name="Core i5-4200M">
+			<ProducerCode name="CW8064701486606"></ProducerCode>
+		</Model>
+		<Model name="Core i5-4210M">
+			<ProducerCode name="CW8064701486601"></ProducerCode>
+		</Model>
+		<Model name="Core i5-4250U">
+			<ProducerCode name="CL8064701463101"></ProducerCode>
+		</Model>
+		<Model name="Core i5-4300M">
+			<ProducerCode name="CW8064701486506"></ProducerCode>
+		</Model>
+		<Model name="Core i5-430M">
+			<ProducerCode name="CP80617004161AD"></ProducerCode>
+		</Model>
+		<Model name="Core i5-4330M"></Model>
+		<Model name="Core i5-4430"></Model>
+		<Model name="Core i5-4430S"></Model>
+		<Model name="Core i5-4440"></Model>
+		<Model name="Core i5-4440S"></Model>
+		<Model name="Core i5-4460">
+			<ProducerCode name="CM8064601560722"></ProducerCode>
+		</Model>
+		<Model name="Core i5-4460S"></Model>
+		<Model name="Core i5-4460T"></Model>
+		<Model name="Core i5-450M">
+			<ProducerCode name="CP80617004119AI"></ProducerCode>
+		</Model>
+		<Model name="Core i5-4570"></Model>
+		<Model name="Core i5-4570S"></Model>
+		<Model name="Core i5-4570T"></Model>
+		<Model name="Core i5-4590"></Model>
+		<Model name="Core i5-4590S"></Model>
+		<Model name="Core i5-4590T"></Model>
+		<Model name="Core i5-460M">
+			<ProducerCode name="CN80617004116AI"></ProducerCode>
+		</Model>
+		<Model name="Core i5-4670"></Model>
+		<Model name="Core i5-4670K"></Model>
+		<Model name="Core i5-4670S"></Model>
+		<Model name="Core i5-4670T"></Model>
+		<Model name="Core i5-4690"></Model>
+		<Model name="Core i5-4690K"></Model>
+		<Model name="Core i5-4690S"></Model>
+		<Model name="Core i5-4690T"></Model>
+		<Model name="Core i5-480M">
+			<ProducerCode name="CP80617005487AC"></ProducerCode>
+		</Model>
+		<Model name="Core i5-520M"></Model>
+		<Model name="Core i5-5250U">
+			<ProducerCode name="FH8065802063410"></ProducerCode>
+		</Model>
+		<Model name="Core i5-540M">
+			<ProducerCode name="CN80617004116AD"></ProducerCode>
+		</Model>
+		<Model name="Core i5-560M">
+			<ProducerCode name="CP80617005487AA"></ProducerCode>
+		</Model>
+		<Model name="Core i5-5675C"></Model>
+		<Model name="Core i5-6300HQ">
+			<ProducerCode name="CL8066202194632"></ProducerCode>
+		</Model>
+		<Model name="Core i5-6400"></Model>
+		<Model name="Core i5-6400T"></Model>
+		<Model name="Core i5-6402P"></Model>
+		<Model name="Core i5-650"></Model>
+		<Model name="Core i5-6500"></Model>
+		<Model name="Core i5-6500T"></Model>
+		<Model name="Core i5-655K"></Model>
+		<Model name="Core i5-660"></Model>
+		<Model name="Core i5-6600"></Model>
+		<Model name="Core i5-6600K">
+			<ProducerCode name="CM8066201920300"></ProducerCode>
+		</Model>
+		<Model name="Core i5-6600T"></Model>
+		<Model name="Core i5-661"></Model>
+		<Model name="Core i5-670"></Model>
+		<Model name="Core i5-7300HQ">
+			<ProducerCode name="V743A925SR32S"></ProducerCode>
+		</Model>
+		<Model name="Core i5-7400"></Model>
+		<Model name="Core i5-7400T"></Model>
+		<Model name="Core i5-750"></Model>
+		<Model name="Core i5-7500"></Model>
+		<Model name="Core i5-7500T"></Model>
+		<Model name="Core i5-750S"></Model>
+		<Model name="Core i5-760"></Model>
+		<Model name="Core i5-7600"></Model>
+		<Model name="Core i5-7600K"></Model>
+		<Model name="Core i5-7600T"></Model>
+		<Model name="Core i5-7640X"></Model>
+		<Model name="Core i5-8250U">
+			<ProducerCode name="FJ8067703282221"></ProducerCode>
+		</Model>
+		<Model name="Core i5-8300H">
+			<ProducerCode name="CL8068403373522"></ProducerCode>
+		</Model>
+		<Model name="Core i5-8350U">
+			<ProducerCode name="FJ8067703282016"></ProducerCode>
+		</Model>
+		<Model name="Core i5-8400"></Model>
+		<Model name="Core i5-8400T"></Model>
+		<Model name="Core i5-8500"></Model>
+		<Model name="Core i5-8500T"></Model>
+		<Model name="Core i5-8600"></Model>
+		<Model name="Core i5-8600K"></Model>
+		<Model name="Core i5-8600T"></Model>
+		<Model name="Core i5-9300H">
+			<ProducerCode name="CL8068404069606"></ProducerCode>
+		</Model>
+		<Model name="Core i5-9400"></Model>
+		<Model name="Core i5-9400F"></Model>
+		<Model name="Core i5-9400T"></Model>
+		<Model name="Core i5-9500"></Model>
+		<Model name="Core i5-9500E">
+			<ProducerCode name="CM8068404404932"></ProducerCode>
+		</Model>
+		<Model name="Core i5-9500F"></Model>
+		<Model name="Core i5-9500T"></Model>
+		<Model name="Core i5-9600"></Model>
+		<Model name="Core i5-9600K"></Model>
+		<Model name="Core i5-9600KF"></Model>
+		<Model name="Core i7"></Model>
+		<Model name="Core i7-10700"></Model>
+		<Model name="Core i7-10700F"></Model>
+		<Model name="Core i7-10700K"></Model>
+		<Model name="Core i7-10700KA"></Model>
+		<Model name="Core i7-10700KF"></Model>
+		<Model name="Core i7-10700T"></Model>
+		<Model name="Core i7-10710U"></Model>
+		<Model name="Core i7-10750H"></Model>
+		<Model name="Core i7-11600H"></Model>
+		<Model name="Core i7-11700"></Model>
+		<Model name="Core i7-11700F">
+			<ProducerCode name="CM8070804491213"></ProducerCode>
+		</Model>
+		<Model name="Core i7-11700K"></Model>
+		<Model name="Core i7-11700KF"></Model>
+		<Model name="Core i7-11700T"></Model>
+		<Model name="Core i7-12650H"></Model>
+		<Model name="Core i7-12700">
+			<ProducerCode name="CM8071504555019-SRL4Q"></ProducerCode>
+		</Model>
+		<Model name="Core i7-12700F">
+			<ProducerCode name="CM8071504555020"></ProducerCode>
+			<ProducerCode name="CM8071504555020-SRL4R"></ProducerCode>
+		</Model>
+		<Model name="Core i7-12700H"></Model>
+		<Model name="Core i7-12700K"></Model>
+		<Model name="Core i7-12700KF">
+			<ProducerCode name="BX8071512700KF"></ProducerCode>
+			<ProducerCode name="CM8071504553829-SRL4P"></ProducerCode>
+		</Model>
+		<Model name="Core i7-12700T"></Model>
+		<Model name="Core i7-12800H"></Model>
+		<Model name="Core i7-13700">
+			<ProducerCode name="CM8071504820805-SRMBA"></ProducerCode>
+		</Model>
+		<Model name="Core i7-13700F">
+			<ProducerCode name="CM8071504820806"></ProducerCode>
+		</Model>
+		<Model name="Core i7-13700K"></Model>
+		<Model name="Core i7-13700KF">
+			<ProducerCode name="CM807150482070-SRMB8"></ProducerCode>
+			<ProducerCode name="CM8071504820706-SRMB9"></ProducerCode>
+		</Model>
+		<Model name="Core i7-13790F"></Model>
+		<Model name="Core i7-14700K">
+			<ProducerCode name="CM8071504820721"></ProducerCode>
+		</Model>
+		<Model name="Core i7-14700KF">
+			<ProducerCode name="BX8071514700KF"></ProducerCode>
+		</Model>
+		<Model name="Core i7-2600"></Model>
+		<Model name="Core i7-2600K"></Model>
+		<Model name="Core i7-2600S"></Model>
+		<Model name="Core i7-2620M">
+			<ProducerCode name="AV8062700839009"></ProducerCode>
+		</Model>
+		<Model name="Core i7-2630QM"></Model>
+		<Model name="Core i7-2640M">
+			<ProducerCode name="FF8062700838905"></ProducerCode>
+		</Model>
+		<Model name="Core i7-2649M">
+			<ProducerCode name="AV8062700850010"></ProducerCode>
+		</Model>
+		<Model name="Core i7-2670QM">
+			<ProducerCode name="FF8062701065500"></ProducerCode>
+		</Model>
+		<Model name="Core i7-2700K"></Model>
+		<Model name="Core i7-2720QM">
+			<ProducerCode name="FF8062700835817"></ProducerCode>
+		</Model>
+		<Model name="Core i7-2760QM">
+			<ProducerCode name="FF8062701065300"></ProducerCode>
+		</Model>
+		<Model name="Core i7-2820QM">
+			<ProducerCode name="FF8062700834709"></ProducerCode>
+		</Model>
+		<Model name="Core i7-2860QM">
+			<ProducerCode name="FF8062701065100"></ProducerCode>
+		</Model>
+		<Model name="Core i7-3520M"></Model>
+		<Model name="Core i7-3540M">
+			<ProducerCode name="W8063801108900"></ProducerCode>
+		</Model>
+		<Model name="Core i7-3610QM"></Model>
+		<Model name="Core i7-3612QM">
+			<ProducerCode name="AW8063801130504"></ProducerCode>
+		</Model>
+		<Model name="Core i7-3630QM">
+			<ProducerCode name="AW8063801106200"></ProducerCode>
+		</Model>
+		<Model name="Core i7-3632QM">
+			<ProducerCode name="AW8063801152800"></ProducerCode>
+		</Model>
+		<Model name="Core i7-3720QM">
+			<ProducerCode name="AV8063801013210"></ProducerCode>
+		</Model>
+		<Model name="Core i7-3740QM">
+			<ProducerCode name="AW8063801105000"></ProducerCode>
+		</Model>
+		<Model name="Core i7-3770"></Model>
+		<Model name="Core i7-3770K"></Model>
+		<Model name="Core i7-3770S"></Model>
+		<Model name="Core i7-3770T"></Model>
+		<Model name="Core i7-3820"></Model>
+		<Model name="Core i7-3820QM">
+			<ProducerCode name="AW8063801012708"></ProducerCode>
+		</Model>
+		<Model name="Core i7-3840QM"></Model>
+		<Model name="Core i7-3930K"></Model>
+		<Model name="Core i7-3960X"></Model>
+		<Model name="Core i7-3970X"></Model>
+		<Model name="Core i7-4600M"></Model>
+		<Model name="Core i7-4700MQ">
+			<ProducerCode name="CW8064701470702"></ProducerCode>
+		</Model>
+		<Model name="Core i7-4702MQ">
+			<ProducerCode name="CW8064701470802"></ProducerCode>
+		</Model>
+		<Model name="Core i7-4710MQ">
+			<ProducerCode name="CW8064701473404"></ProducerCode>
+		</Model>
+		<Model name="Core i7-4712MQ"></Model>
+		<Model name="Core i7-4765T"></Model>
+		<Model name="Core i7-4770"></Model>
+		<Model name="Core i7-4770K"></Model>
+		<Model name="Core i7-4770S"></Model>
+		<Model name="Core i7-4770T"></Model>
+		<Model name="Core i7-4770TE">
+			<ProducerCode name="CM8064601538900"></ProducerCode>
+		</Model>
+		<Model name="Core i7-4771"></Model>
+		<Model name="Core i7-4785T"></Model>
+		<Model name="Core i7-4790"></Model>
+		<Model name="Core i7-4790K"></Model>
+		<Model name="Core i7-4790S"></Model>
+		<Model name="Core i7-4790T"></Model>
+		<Model name="Core i7-4800MQ"></Model>
+		<Model name="Core i7-4820K"></Model>
+		<Model name="Core i7-4870HQ"></Model>
+		<Model name="Core i7-4910MQ"></Model>
+		<Model name="Core i7-4930K"></Model>
+		<Model name="Core i7-4960X"></Model>
+		<Model name="Core i7-4980HQ"></Model>
+		<Model name="Core i7-5775C"></Model>
+		<Model name="Core i7-5820K"></Model>
+		<Model name="Core i7-5930K"></Model>
+		<Model name="Core i7-5960X"></Model>
+		<Model name="Core i7-620M">
+			<ProducerCode name="CP80617003981AH"></ProducerCode>
+		</Model>
+		<Model name="Core i7-6400T"></Model>
+		<Model name="Core i7-640M">
+			<ProducerCode name="CP80617004152AE"></ProducerCode>
+		</Model>
+		<Model name="Core i7-6700"></Model>
+		<Model name="Core i7-6700K"></Model>
+		<Model name="Core i7-6700T"></Model>
+		<Model name="Core i7-6800K"></Model>
+		<Model name="Core i7-6820HK"></Model>
+		<Model name="Core i7-6850K"></Model>
+		<Model name="Core i7-6900K"></Model>
+		<Model name="Core i7-6950X"></Model>
+		<Model name="Core i7-720QM">
+			<ProducerCode name="BY80607002907AH"></ProducerCode>
+		</Model>
+		<Model name="Core i7-740QM">
+			<ProducerCode name="BX80607I7740QM"></ProducerCode>
+		</Model>
+		<Model name="Core i7-7500U"></Model>
+		<Model name="Core i7-7700"></Model>
+		<Model name="Core i7-7700K"></Model>
+		<Model name="Core i7-7700T"></Model>
+		<Model name="Core i7-7740X"></Model>
+		<Model name="Core i7-7800X"></Model>
+		<Model name="Core i7-7820X"></Model>
+		<Model name="Core i7-8086K"></Model>
+		<Model name="Core i7-820QM"></Model>
+		<Model name="Core i7-840QM">
+			<ProducerCode name="BY80607002901AI"></ProducerCode>
+		</Model>
+		<Model name="Core i7-8550U"></Model>
+		<Model name="Core i7-8559U">
+			<ProducerCode name="FH8068403419332"></ProducerCode>
+		</Model>
+		<Model name="Core i7-860"></Model>
+		<Model name="Core i7-860S"></Model>
+		<Model name="Core i7-8650U">
+			<ProducerCode name="FJ8067703281718"></ProducerCode>
+		</Model>
+		<Model name="Core i7-870"></Model>
+		<Model name="Core i7-8700"></Model>
+		<Model name="Core i7-8700K"></Model>
+		<Model name="Core i7-8700T"></Model>
+		<Model name="Core i7-8705G"></Model>
+		<Model name="Core i7-875K"></Model>
+		<Model name="Core i7-880"></Model>
+		<Model name="Core i7-920"></Model>
+		<Model name="Core i7-930"></Model>
+		<Model name="Core i7-940"></Model>
+		<Model name="Core i7-950"></Model>
+		<Model name="Core i7-960"></Model>
+		<Model name="Core i7-965"></Model>
+		<Model name="Core i7-970"></Model>
+		<Model name="Core i7-9700"></Model>
+		<Model name="Core i7-9700F"></Model>
+		<Model name="Core i7-9700K"></Model>
+		<Model name="Core i7-9700KF"></Model>
+		<Model name="Core i7-9700T"></Model>
+		<Model name="Core i7-975"></Model>
+		<Model name="Core i7-980"></Model>
+		<Model name="Core i7-9800X"></Model>
+		<Model name="Core i7-980X"></Model>
+		<Model name="Core i7-990X"></Model>
+		<Model name="Core i7-QHQG">
+			<ProducerCode name="0506E1h"></ProducerCode>
+		</Model>
+		<Model name="Core i9-10850K"></Model>
+		<Model name="Core i9-10850KA"></Model>
+		<Model name="Core i9-10900"></Model>
+		<Model name="Core i9-10900F"></Model>
+		<Model name="Core i9-10900K"></Model>
+		<Model name="Core i9-10900KA"></Model>
+		<Model name="Core i9-10900KF"></Model>
+		<Model name="Core i9-10900X"></Model>
+		<Model name="Core i9-10920X"></Model>
+		<Model name="Core i9-10940X"></Model>
+		<Model name="Core i9-10980XE"></Model>
+		<Model name="Core i9-11900"></Model>
+		<Model name="Core i9-11900F"></Model>
+		<Model name="Core i9-11900K"></Model>
+		<Model name="Core i9-11900KF"></Model>
+		<Model name="Core i9-12900"></Model>
+		<Model name="Core i9-12900F">
+			<ProducerCode name="CM8071504549318-SRL4L"></ProducerCode>
+		</Model>
+		<Model name="Core i9-12900K">
+			<ProducerCode name="BX8071512900K"></ProducerCode>
+		</Model>
+		<Model name="Core i9-12900KF"></Model>
+		<Model name="Core i9-12900KS">
+			<ProducerCode name="CM8071504569915"></ProducerCode>
+		</Model>
+		<Model name="Core i9-12900T"></Model>
+		<Model name="Core i9-13900">
+			<ProducerCode name="BX8071513900"></ProducerCode>
+		</Model>
+		<Model name="Core i9-13900F">
+			<ProducerCode name="CM8071504820606-SRMB7"></ProducerCode>
+		</Model>
+		<Model name="Core i9-13900K"></Model>
+		<Model name="Core i9-13900KF">
+			<ProducerCode name="CM8071505094012-SRMBJ"></ProducerCode>
+		</Model>
+		<Model name="Core i9-13900KS">
+			<ProducerCode name="CM8071504820503"></ProducerCode>
+		</Model>
+		<Model name="Core i9-14900KF">
+			<ProducerCode name="CM8071505094018S RN49"></ProducerCode>
+		</Model>
+		<Model name="Core i9-14900k"></Model>
+		<Model name="Core i9-7900X"></Model>
+		<Model name="Core i9-7920X"></Model>
+		<Model name="Core i9-7940X"></Model>
+		<Model name="Core i9-7960X"></Model>
+		<Model name="Core i9-7980XE"></Model>
+		<Model name="Core i9-9820X"></Model>
+		<Model name="Core i9-9900"></Model>
+		<Model name="Core i9-9900K"></Model>
+		<Model name="Core i9-9900KF"></Model>
+		<Model name="Core i9-9900KS"></Model>
+		<Model name="Core i9-9900T"></Model>
+		<Model name="Core i9-9900X"></Model>
+		<Model name="Core i9-9920X"></Model>
+		<Model name="Core i9-9940X"></Model>
+		<Model name="Core i9-9960X"></Model>
+		<Model name="Core i9-9980XE"></Model>
+		<Model name="Intel Core i7-13700K">
+			<ProducerCode name="BX8071513700K-SRMB8"></ProducerCode>
+		</Model>
+		<Model name="Pentium"></Model>
+		<Model name="Pentium 100">
+			<ProducerCode name="A80502100"></ProducerCode>
+		</Model>
+		<Model name="Pentium 1403"></Model>
+		<Model name="Pentium 1405"></Model>
+		<Model name="Pentium 1407"></Model>
+		<Model name="Pentium 166 MMX">
+			<ProducerCode name="A80503166"></ProducerCode>
+		</Model>
+		<Model name="Pentium 2020M">
+			<ProducerCode name="AW8063801033501"></ProducerCode>
+		</Model>
+		<Model name="Pentium 4"></Model>
+		<Model name="Pentium 4 3.0E">
+			<ProducerCode name="RK80546PG0801M"></ProducerCode>
+		</Model>
+		<Model name="Pentium 4 505"></Model>
+		<Model name="Pentium 4 506"></Model>
+		<Model name="Pentium 4 511"></Model>
+		<Model name="Pentium 4 515"></Model>
+		<Model name="Pentium 4 516"></Model>
+		<Model name="Pentium 4 517"></Model>
+		<Model name="Pentium 4 519J"></Model>
+		<Model name="Pentium 4 520"></Model>
+		<Model name="Pentium 4 520J"></Model>
+		<Model name="Pentium 4 521"></Model>
+		<Model name="Pentium 4 524"></Model>
+		<Model name="Pentium 4 530"></Model>
+		<Model name="Pentium 4 530J"></Model>
+		<Model name="Pentium 4 531"></Model>
+		<Model name="Pentium 4 540"></Model>
+		<Model name="Pentium 4 540J"></Model>
+		<Model name="Pentium 4 541"></Model>
+		<Model name="Pentium 4 550"></Model>
+		<Model name="Pentium 4 550J"></Model>
+		<Model name="Pentium 4 551"></Model>
+		<Model name="Pentium 4 560"></Model>
+		<Model name="Pentium 4 560J"></Model>
+		<Model name="Pentium 4 561"></Model>
+		<Model name="Pentium 4 570"></Model>
+		<Model name="Pentium 4 570J"></Model>
+		<Model name="Pentium 4 571"></Model>
+		<Model name="Pentium 4 630"></Model>
+		<Model name="Pentium 4 631"></Model>
+		<Model name="Pentium 4 640"></Model>
+		<Model name="Pentium 4 641"></Model>
+		<Model name="Pentium 4 650"></Model>
+		<Model name="Pentium 4 651"></Model>
+		<Model name="Pentium 4 660"></Model>
+		<Model name="Pentium 4 661"></Model>
+		<Model name="Pentium 4 670"></Model>
+		<Model name="Pentium 965"></Model>
+		<Model name="Pentium B940"></Model>
+		<Model name="Pentium B950">
+			<ProducerCode name="FF8062700847901"></ProducerCode>
+		</Model>
+		<Model name="Pentium B960">
+			<ProducerCode name="FF8062700997701"></ProducerCode>
+		</Model>
+		<Model name="Pentium B970"></Model>
+		<Model name="Pentium B980"></Model>
+		<Model name="Pentium D 805"></Model>
+		<Model name="Pentium D 820"></Model>
+		<Model name="Pentium D 830"></Model>
+		<Model name="Pentium D 840"></Model>
+		<Model name="Pentium D 915"></Model>
+		<Model name="Pentium D 920"></Model>
+		<Model name="Pentium D 925"></Model>
+		<Model name="Pentium D 930"></Model>
+		<Model name="Pentium D 935"></Model>
+		<Model name="Pentium D 940"></Model>
+		<Model name="Pentium D 945"></Model>
+		<Model name="Pentium D 950"></Model>
+		<Model name="Pentium D 960"></Model>
+		<Model name="Pentium Dual Core T2130"></Model>
+		<Model name="Pentium Dual Core T3200"></Model>
+		<Model name="Pentium Dual-Core T2390">
+			<ProducerCode name="LF80537GE0361M"></ProducerCode>
+		</Model>
+		<Model name="Pentium E2140"></Model>
+		<Model name="Pentium E2160"></Model>
+		<Model name="Pentium E2180"></Model>
+		<Model name="Pentium E2200"></Model>
+		<Model name="Pentium E2210"></Model>
+		<Model name="Pentium E2220"></Model>
+		<Model name="Pentium E5200"></Model>
+		<Model name="Pentium E5300"></Model>
+		<Model name="Pentium E5400"></Model>
+		<Model name="Pentium E5500"></Model>
+		<Model name="Pentium E5700"></Model>
+		<Model name="Pentium E5800"></Model>
+		<Model name="Pentium E6300"></Model>
+		<Model name="Pentium E6500"></Model>
+		<Model name="Pentium E6500K"></Model>
+		<Model name="Pentium E6600"></Model>
+		<Model name="Pentium E6700"></Model>
+		<Model name="Pentium E6800"></Model>
+		<Model name="Pentium G2010"></Model>
+		<Model name="Pentium G2020"></Model>
+		<Model name="Pentium G2020T"></Model>
+		<Model name="Pentium G2030"></Model>
+		<Model name="Pentium G2030T"></Model>
+		<Model name="Pentium G2100T"></Model>
+		<Model name="Pentium G2120"></Model>
+		<Model name="Pentium G2120T"></Model>
+		<Model name="Pentium G2130"></Model>
+		<Model name="Pentium G2140"></Model>
+		<Model name="Pentium G3220"></Model>
+		<Model name="Pentium G3220T"></Model>
+		<Model name="Pentium G3240"></Model>
+		<Model name="Pentium G3240T"></Model>
+		<Model name="Pentium G3250"></Model>
+		<Model name="Pentium G3250T"></Model>
+		<Model name="Pentium G3258"></Model>
+		<Model name="Pentium G3260"></Model>
+		<Model name="Pentium G3260T"></Model>
+		<Model name="Pentium G3320TE"></Model>
+		<Model name="Pentium G3420"></Model>
+		<Model name="Pentium G3420T"></Model>
+		<Model name="Pentium G3430"></Model>
+		<Model name="Pentium G3440"></Model>
+		<Model name="Pentium G3440T"></Model>
+		<Model name="Pentium G3450"></Model>
+		<Model name="Pentium G3450T"></Model>
+		<Model name="Pentium G3460"></Model>
+		<Model name="Pentium G3460T"></Model>
+		<Model name="Pentium G3470"></Model>
+		<Model name="Pentium G4400"></Model>
+		<Model name="Pentium G4400T"></Model>
+		<Model name="Pentium G4500"></Model>
+		<Model name="Pentium G4500T"></Model>
+		<Model name="Pentium G4520"></Model>
+		<Model name="Pentium G4560"></Model>
+		<Model name="Pentium G4560T"></Model>
+		<Model name="Pentium G4600"></Model>
+		<Model name="Pentium G4600T"></Model>
+		<Model name="Pentium G4620"></Model>
+		<Model name="Pentium G620"></Model>
+		<Model name="Pentium G620T"></Model>
+		<Model name="Pentium G622"></Model>
+		<Model name="Pentium G630"></Model>
+		<Model name="Pentium G630T"></Model>
+		<Model name="Pentium G632"></Model>
+		<Model name="Pentium G640"></Model>
+		<Model name="Pentium G640T"></Model>
+		<Model name="Pentium G645"></Model>
+		<Model name="Pentium G645T"></Model>
+		<Model name="Pentium G6950"></Model>
+		<Model name="Pentium G6960"></Model>
+		<Model name="Pentium G840"></Model>
+		<Model name="Pentium G850"></Model>
+		<Model name="Pentium G860"></Model>
+		<Model name="Pentium G860T"></Model>
+		<Model name="Pentium G870"></Model>
+		<Model name="Pentium Gold G5400"></Model>
+		<Model name="Pentium Gold G5400T"></Model>
+		<Model name="Pentium Gold G5420"></Model>
+		<Model name="Pentium Gold G5420T"></Model>
+		<Model name="Pentium Gold G5500"></Model>
+		<Model name="Pentium Gold G5500T"></Model>
+		<Model name="Pentium Gold G5600"></Model>
+		<Model name="Pentium Gold G5600F"></Model>
+		<Model name="Pentium Gold G5600T"></Model>
+		<Model name="Pentium Gold G5620"></Model>
+		<Model name="Pentium Gold G6400"></Model>
+		<Model name="Pentium Gold G6405"></Model>
+		<Model name="Pentium Gold G6500"></Model>
+		<Model name="Pentium Gold G6505"></Model>
+		<Model name="Pentium Gold G6600"></Model>
+		<Model name="Pentium Gold G6605"></Model>
+		<Model name="Pentium Gold G7400">
+			<ProducerCode name="CM8071504651605-SRL66"></ProducerCode>
+		</Model>
+		<Model name="Pentium Gold G7400T"></Model>
+		<Model name="Pentium II (SL2YM)">
+			<ProducerCode name="B80523P400512E"></ProducerCode>
+		</Model>
+		<Model name="Pentium II (SL356)"></Model>
+		<Model name="Pentium III (SL35D)"></Model>
+		<Model name="Pentium III (SL35E)"></Model>
+		<Model name="Pentium III (SL3F7)"></Model>
+		<Model name="Pentium III (SL3FJ)"></Model>
+		<Model name="Pentium III (SL52R)">
+			<ProducerCode name="BX80526C1000256"></ProducerCode>
+		</Model>
+		<Model name="Pentium III 1100"></Model>
+		<Model name="Pentium J2900">
+			<ProducerCode name="FH8065301614903"></ProducerCode>
+		</Model>
+		<Model name="Pentium M 705"></Model>
+		<Model name="Pentium M 713"></Model>
+		<Model name="Pentium M 715"></Model>
+		<Model name="Pentium M 718"></Model>
+		<Model name="Pentium M 723"></Model>
+		<Model name="Pentium M 725"></Model>
+		<Model name="Pentium M 730"></Model>
+		<Model name="Pentium M 733"></Model>
+		<Model name="Pentium M 735"></Model>
+		<Model name="Pentium M 738"></Model>
+		<Model name="Pentium M 740"></Model>
+		<Model name="Pentium M 745"></Model>
+		<Model name="Pentium M 750"></Model>
+		<Model name="Pentium M 755"></Model>
+		<Model name="Pentium M 765"></Model>
+		<Model name="Pentium M 770"></Model>
+		<Model name="Pentium Mobile N3540">
+			<ProducerCode name="FH8065301919700"></ProducerCode>
+		</Model>
+		<Model name="Pentium N3530">
+			<ProducerCode name="FH8065301728501"></ProducerCode>
+		</Model>
+		<Model name="Pentium N3710">
+			<ProducerCode name="FH8066501715927"></ProducerCode>
+		</Model>
+		<Model name="Pentium P6000">
+			<ProducerCode name="CP80617004170AF"></ProducerCode>
+		</Model>
+		<Model name="Pentium P6100">
+			<ProducerCode name="SLBURJ028C259"></ProducerCode>
+		</Model>
+		<Model name="Pentium P6200">
+			<ProducerCode name="CP80617004122AW"></ProducerCode>
+		</Model>
+		<Model name="Pentium P6300">
+			<ProducerCode name="CP80617004161AK"></ProducerCode>
+		</Model>
+		<Model name="Pentium Silver J5005">
+			<ProducerCode name="FH8068003067415"></ProducerCode>
+			<ProducerCode name="FH8068003067443"></ProducerCode>
+		</Model>
+		<Model name="Pentium Silver N5000"></Model>
+		<Model name="Pentium T2310"></Model>
+		<Model name="Pentium T2330"></Model>
+		<Model name="Pentium T2370">
+			<ProducerCode name="LF80537GE0301M"></ProducerCode>
+		</Model>
+		<Model name="Pentium T2410"></Model>
+		<Model name="Pentium T3200"></Model>
+		<Model name="Pentium T3400"></Model>
+		<Model name="Pentium T4200">
+			<ProducerCode name="AW80577GG0411MA"></ProducerCode>
+		</Model>
+		<Model name="Pentium T4300">
+			<ProducerCode name="AW80577GG0451MA"></ProducerCode>
+		</Model>
+		<Model name="Pentium T4400">
+			<ProducerCode name="AW80577T4400"></ProducerCode>
+		</Model>
+		<Model name="Pentium T4500">
+			<ProducerCode name="AW80577GG0521MA"></ProducerCode>
+		</Model>
+		<Model name="Processor N100"></Model>
+		<Model name="Processor N95"></Model>
+		<Model name="Ryzen 5 3350G">
+			<ProducerCode name="YD3350C5M4MFH"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 5 PRO 3400G"></Model>
+		<Model name="SL6W4">
+			<ProducerCode name="BX80532RC2400B"></ProducerCode>
+		</Model>
+		<Model name="SL8P7"></Model>
+		<Model name="Turion II Ultra Dual-Core Mobile M620">
+			<ProducerCode name="TMM620DBO23GQ"></ProducerCode>
+		</Model>
+		<Model name="Xeon 3040"></Model>
+		<Model name="Xeon 3050"></Model>
+		<Model name="Xeon 3060"></Model>
+		<Model name="Xeon 3065"></Model>
+		<Model name="Xeon 3070"></Model>
+		<Model name="Xeon 3075"></Model>
+		<Model name="Xeon 3085"></Model>
+		<Model name="Xeon 3200DP"></Model>
+		<Model name="Xeon 3400DP"></Model>
+		<Model name="Xeon 5030"></Model>
+		<Model name="Xeon 5050"></Model>
+		<Model name="Xeon 5060"></Model>
+		<Model name="Xeon 5063"></Model>
+		<Model name="Xeon 5080"></Model>
+		<Model name="Xeon 5110"></Model>
+		<Model name="Xeon 5120"></Model>
+		<Model name="Xeon 5128"></Model>
+		<Model name="Xeon 5130"></Model>
+		<Model name="Xeon 5138"></Model>
+		<Model name="Xeon 5140"></Model>
+		<Model name="Xeon 5148"></Model>
+		<Model name="Xeon 5150"></Model>
+		<Model name="Xeon 5160"></Model>
+		<Model name="Xeon 5317">
+			<ProducerCode name="CD8068904657302"></ProducerCode>
+		</Model>
+		<Model name="Xeon 6135"></Model>
+		<Model name="Xeon 6151"></Model>
+		<Model name="Xeon 6208U">
+			<ProducerCode name="CD8069504449101"></ProducerCode>
+		</Model>
+		<Model name="Xeon 6209U">
+			<ProducerCode name="CD8069504284804"></ProducerCode>
+		</Model>
+		<Model name="Xeon 6240L">
+			<ProducerCode name="CD8069504284503"></ProducerCode>
+		</Model>
+		<Model name="Xeon 6334">
+			<ProducerCode name="CD8068904657601"></ProducerCode>
+		</Model>
+		<Model name="Xeon 6338T">
+			<ProducerCode name="CD8068904658201"></ProducerCode>
+		</Model>
+		<Model name="Xeon 6444Y"></Model>
+		<Model name="Xeon 7130M"></Model>
+		<Model name="Xeon Bronze 3104"></Model>
+		<Model name="Xeon Bronze 3106"></Model>
+		<Model name="Xeon Bronze 3204"></Model>
+		<Model name="Xeon Bronze 3206R"></Model>
+		<Model name="Xeon E-2124"></Model>
+		<Model name="Xeon E-2124G"></Model>
+		<Model name="Xeon E-2126G"></Model>
+		<Model name="Xeon E-2134"></Model>
+		<Model name="Xeon E-2136"></Model>
+		<Model name="Xeon E-2144G"></Model>
+		<Model name="Xeon E-2146G"></Model>
+		<Model name="Xeon E-2174G"></Model>
+		<Model name="Xeon E-2176G"></Model>
+		<Model name="Xeon E-2186G"></Model>
+		<Model name="Xeon E-2186M"></Model>
+		<Model name="Xeon E-2224"></Model>
+		<Model name="Xeon E-2224G"></Model>
+		<Model name="Xeon E-2226G"></Model>
+		<Model name="Xeon E-2226GE"></Model>
+		<Model name="Xeon E-2234"></Model>
+		<Model name="Xeon E-2236"></Model>
+		<Model name="Xeon E-2244G"></Model>
+		<Model name="Xeon E-2246G"></Model>
+		<Model name="Xeon E-2274G"></Model>
+		<Model name="Xeon E-2276G"></Model>
+		<Model name="Xeon E-2278G"></Model>
+		<Model name="Xeon E-2286G"></Model>
+		<Model name="Xeon E-2286M">
+			<ProducerCode name="CL8068404068710"></ProducerCode>
+		</Model>
+		<Model name="Xeon E-2288G"></Model>
+		<Model name="Xeon E-2314">
+			<ProducerCode name="CM8070804496113"></ProducerCode>
+		</Model>
+		<Model name="Xeon E-2386G">
+			<ProducerCode name="CM8070804494716"></ProducerCode>
+		</Model>
+		<Model name="Xeon E-2388G">
+			<ProducerCode name="CM8070804494617"></ProducerCode>
+		</Model>
+		<Model name="Xeon E3-1220"></Model>
+		<Model name="Xeon E3-1220L"></Model>
+		<Model name="Xeon E3-1220LV2"></Model>
+		<Model name="Xeon E3-1220LV3"></Model>
+		<Model name="Xeon E3-1220V2"></Model>
+		<Model name="Xeon E3-1220V3"></Model>
+		<Model name="Xeon E3-1220V5"></Model>
+		<Model name="Xeon E3-1220V6"></Model>
+		<Model name="Xeon E3-1225"></Model>
+		<Model name="Xeon E3-1225V2"></Model>
+		<Model name="Xeon E3-1225V3"></Model>
+		<Model name="Xeon E3-1225V5"></Model>
+		<Model name="Xeon E3-1225V6"></Model>
+		<Model name="Xeon E3-1226V3"></Model>
+		<Model name="Xeon E3-1230"></Model>
+		<Model name="Xeon E3-1230LV3"></Model>
+		<Model name="Xeon E3-1230V2"></Model>
+		<Model name="Xeon E3-1230V3"></Model>
+		<Model name="Xeon E3-1230V5"></Model>
+		<Model name="Xeon E3-1230V6"></Model>
+		<Model name="Xeon E3-1231V3"></Model>
+		<Model name="Xeon E3-1235"></Model>
+		<Model name="Xeon E3-1235LV5"></Model>
+		<Model name="Xeon E3-1240"></Model>
+		<Model name="Xeon E3-1240LV3"></Model>
+		<Model name="Xeon E3-1240LV5"></Model>
+		<Model name="Xeon E3-1240V2"></Model>
+		<Model name="Xeon E3-1240V3"></Model>
+		<Model name="Xeon E3-1240V5"></Model>
+		<Model name="Xeon E3-1240V6"></Model>
+		<Model name="Xeon E3-1241V3"></Model>
+		<Model name="Xeon E3-1245"></Model>
+		<Model name="Xeon E3-1245V2"></Model>
+		<Model name="Xeon E3-1245V3"></Model>
+		<Model name="Xeon E3-1245V5"></Model>
+		<Model name="Xeon E3-1245V6"></Model>
+		<Model name="Xeon E3-1246V3"></Model>
+		<Model name="Xeon E3-1260L"></Model>
+		<Model name="Xeon E3-1260LV5"></Model>
+		<Model name="Xeon E3-1265LV2"></Model>
+		<Model name="Xeon E3-1265LV3"></Model>
+		<Model name="Xeon E3-1268LV3"></Model>
+		<Model name="Xeon E3-1268LV5"></Model>
+		<Model name="Xeon E3-1270"></Model>
+		<Model name="Xeon E3-1270V2"></Model>
+		<Model name="Xeon E3-1270V3"></Model>
+		<Model name="Xeon E3-1270V5"></Model>
+		<Model name="Xeon E3-1270V6"></Model>
+		<Model name="Xeon E3-1271V3"></Model>
+		<Model name="Xeon E3-1275"></Model>
+		<Model name="Xeon E3-1275LV3"></Model>
+		<Model name="Xeon E3-1275V2"></Model>
+		<Model name="Xeon E3-1275V3"></Model>
+		<Model name="Xeon E3-1275V5"></Model>
+		<Model name="Xeon E3-1275V6"></Model>
+		<Model name="Xeon E3-1276V3"></Model>
+		<Model name="Xeon E3-1280"></Model>
+		<Model name="Xeon E3-1280V2"></Model>
+		<Model name="Xeon E3-1280V3"></Model>
+		<Model name="Xeon E3-1280V5"></Model>
+		<Model name="Xeon E3-1280V6"></Model>
+		<Model name="Xeon E3-1281V3"></Model>
+		<Model name="Xeon E3-1285LV3"></Model>
+		<Model name="Xeon E3-1285V3"></Model>
+		<Model name="Xeon E3-1285V4">
+			<ProducerCode name="CM8065802482701SR2CX"></ProducerCode>
+		</Model>
+		<Model name="Xeon E3-1285V6"></Model>
+		<Model name="Xeon E3-1286LV3"></Model>
+		<Model name="Xeon E3-1286V3"></Model>
+		<Model name="Xeon E3-1290"></Model>
+		<Model name="Xeon E3-1290V2"></Model>
+		<Model name="Xeon E3110"></Model>
+		<Model name="Xeon E3120"></Model>
+		<Model name="Xeon E5 2666 v3">
+			<ProducerCode name="CM8064401675902"></ProducerCode>
+		</Model>
+		<Model name="Xeon E5-1410"></Model>
+		<Model name="Xeon E5-1428L"></Model>
+		<Model name="Xeon E5-1603"></Model>
+		<Model name="Xeon E5-1603V3"></Model>
+		<Model name="Xeon E5-1603V4"></Model>
+		<Model name="Xeon E5-1607"></Model>
+		<Model name="Xeon E5-1607V2"></Model>
+		<Model name="Xeon E5-1607V3"></Model>
+		<Model name="Xeon E5-1607V4"></Model>
+		<Model name="Xeon E5-1620"></Model>
+		<Model name="Xeon E5-1620V2"></Model>
+		<Model name="Xeon E5-1620V3"></Model>
+		<Model name="Xeon E5-1620V4"></Model>
+		<Model name="Xeon E5-1630V3"></Model>
+		<Model name="Xeon E5-1630V4"></Model>
+		<Model name="Xeon E5-1650"></Model>
+		<Model name="Xeon E5-1650V2"></Model>
+		<Model name="Xeon E5-1650V3"></Model>
+		<Model name="Xeon E5-1650V4"></Model>
+		<Model name="Xeon E5-1660"></Model>
+		<Model name="Xeon E5-1660V2"></Model>
+		<Model name="Xeon E5-1660V3"></Model>
+		<Model name="Xeon E5-1660V4"></Model>
+		<Model name="Xeon E5-1680V2"></Model>
+		<Model name="Xeon E5-1680V3"></Model>
+		<Model name="Xeon E5-1680V4"></Model>
+		<Model name="Xeon E5-1681V3"></Model>
+		<Model name="Xeon E5-1686V3"></Model>
+		<Model name="Xeon E5-1691V3"></Model>
+		<Model name="Xeon E5-2403"></Model>
+		<Model name="Xeon E5-2403V2"></Model>
+		<Model name="Xeon E5-2407"></Model>
+		<Model name="Xeon E5-2407V2"></Model>
+		<Model name="Xeon E5-2418L"></Model>
+		<Model name="Xeon E5-2418LV2"></Model>
+		<Model name="Xeon E5-2420"></Model>
+		<Model name="Xeon E5-2420V2"></Model>
+		<Model name="Xeon E5-2428L"></Model>
+		<Model name="Xeon E5-2428LV2"></Model>
+		<Model name="Xeon E5-2430"></Model>
+		<Model name="Xeon E5-2430L"></Model>
+		<Model name="Xeon E5-2430LV2"></Model>
+		<Model name="Xeon E5-2430V2"></Model>
+		<Model name="Xeon E5-2440"></Model>
+		<Model name="Xeon E5-2440V2"></Model>
+		<Model name="Xeon E5-2448L"></Model>
+		<Model name="Xeon E5-2448LV2"></Model>
+		<Model name="Xeon E5-2449L"></Model>
+		<Model name="Xeon E5-2450"></Model>
+		<Model name="Xeon E5-2450L"></Model>
+		<Model name="Xeon E5-2450LV2"></Model>
+		<Model name="Xeon E5-2450V2"></Model>
+		<Model name="Xeon E5-2470"></Model>
+		<Model name="Xeon E5-2470V2"></Model>
+		<Model name="Xeon E5-2600V4">
+			<ProducerCode name="CM8066002733700"></ProducerCode>
+		</Model>
+		<Model name="Xeon E5-2603"></Model>
+		<Model name="Xeon E5-2603V2"></Model>
+		<Model name="Xeon E5-2603V3"></Model>
+		<Model name="Xeon E5-2603V4"></Model>
+		<Model name="Xeon E5-2608LV3"></Model>
+		<Model name="Xeon E5-2608LV4"></Model>
+		<Model name="Xeon E5-2609"></Model>
+		<Model name="Xeon E5-2609V2"></Model>
+		<Model name="Xeon E5-2609V3"></Model>
+		<Model name="Xeon E5-2609V4"></Model>
+		<Model name="Xeon E5-2618LV2"></Model>
+		<Model name="Xeon E5-2618LV3"></Model>
+		<Model name="Xeon E5-2618LV4"></Model>
+		<Model name="Xeon E5-2620"></Model>
+		<Model name="Xeon E5-2620V2"></Model>
+		<Model name="Xeon E5-2620V3"></Model>
+		<Model name="Xeon E5-2620V4"></Model>
+		<Model name="Xeon E5-2622V3"></Model>
+		<Model name="Xeon E5-2623V3"></Model>
+		<Model name="Xeon E5-2623V4"></Model>
+		<Model name="Xeon E5-2628LV2"></Model>
+		<Model name="Xeon E5-2628LV3"></Model>
+		<Model name="Xeon E5-2628LV4"></Model>
+		<Model name="Xeon E5-2628V3"></Model>
+		<Model name="Xeon E5-2629V3"></Model>
+		<Model name="Xeon E5-2630"></Model>
+		<Model name="Xeon E5-2630L"></Model>
+		<Model name="Xeon E5-2630LV2"></Model>
+		<Model name="Xeon E5-2630LV3"></Model>
+		<Model name="Xeon E5-2630LV4"></Model>
+		<Model name="Xeon E5-2630V2"></Model>
+		<Model name="Xeon E5-2630V3"></Model>
+		<Model name="Xeon E5-2630V4">
+			<ProducerCode name="CM8066002032301"></ProducerCode>
+		</Model>
+		<Model name="Xeon E5-2637"></Model>
+		<Model name="Xeon E5-2637V2"></Model>
+		<Model name="Xeon E5-2637V3"></Model>
+		<Model name="Xeon E5-2637V4"></Model>
+		<Model name="Xeon E5-2640"></Model>
+		<Model name="Xeon E5-2640V2"></Model>
+		<Model name="Xeon E5-2640V3"></Model>
+		<Model name="Xeon E5-2640V4"></Model>
+		<Model name="Xeon E5-2643"></Model>
+		<Model name="Xeon E5-2643V2"></Model>
+		<Model name="Xeon E5-2643V3"></Model>
+		<Model name="Xeon E5-2643V4"></Model>
+		<Model name="Xeon E5-2648LV2"></Model>
+		<Model name="Xeon E5-2648LV3"></Model>
+		<Model name="Xeon E5-2648LV4"></Model>
+		<Model name="Xeon E5-2649V3"></Model>
+		<Model name="Xeon E5-2650"></Model>
+		<Model name="Xeon E5-2650L"></Model>
+		<Model name="Xeon E5-2650LV2"></Model>
+		<Model name="Xeon E5-2650LV3"></Model>
+		<Model name="Xeon E5-2650LV4"></Model>
+		<Model name="Xeon E5-2650V2"></Model>
+		<Model name="Xeon E5-2650V3"></Model>
+		<Model name="Xeon E5-2650V4"></Model>
+		<Model name="Xeon E5-2651 v2">
+			<ProducerCode name="CM8063501521101"></ProducerCode>
+		</Model>
+		<Model name="Xeon E5-2652V3"></Model>
+		<Model name="Xeon E5-2658"></Model>
+		<Model name="Xeon E5-2658V2"></Model>
+		<Model name="Xeon E5-2658V3"></Model>
+		<Model name="Xeon E5-2658V4"></Model>
+		<Model name="Xeon E5-2660"></Model>
+		<Model name="Xeon E5-2660V2"></Model>
+		<Model name="Xeon E5-2660V3"></Model>
+		<Model name="Xeon E5-2660V4"></Model>
+		<Model name="Xeon E5-2663V3"></Model>
+		<Model name="Xeon E5-2665"></Model>
+		<Model name="Xeon E5-2667"></Model>
+		<Model name="Xeon E5-2667V2"></Model>
+		<Model name="Xeon E5-2667V3"></Model>
+		<Model name="Xeon E5-2667V4">
+			<ProducerCode name="CM8066002041900"></ProducerCode>
+		</Model>
+		<Model name="Xeon E5-2669V3"></Model>
+		<Model name="Xeon E5-2670"></Model>
+		<Model name="Xeon E5-2670V2"></Model>
+		<Model name="Xeon E5-2670V3"></Model>
+		<Model name="Xeon E5-2673V2"></Model>
+		<Model name="Xeon E5-2673V3"></Model>
+		<Model name="Xeon E5-2673V4"></Model>
+		<Model name="Xeon E5-2675v3"></Model>
+		<Model name="Xeon E5-2676V3"></Model>
+		<Model name="Xeon E5-2678 v3">
+			<ProducerCode name="CM8064401967500"></ProducerCode>
+		</Model>
+		<Model name="Xeon E5-2679V4"></Model>
+		<Model name="Xeon E5-2680"></Model>
+		<Model name="Xeon E5-2680V2"></Model>
+		<Model name="Xeon E5-2680V3"></Model>
+		<Model name="Xeon E5-2680V4"></Model>
+		<Model name="Xeon E5-2682V4"></Model>
+		<Model name="Xeon E5-2683V3"></Model>
+		<Model name="Xeon E5-2683V4"></Model>
+		<Model name="Xeon E5-2685V3"></Model>
+		<Model name="Xeon E5-2686V3"></Model>
+		<Model name="Xeon E5-2686V4"></Model>
+		<Model name="Xeon E5-2687W"></Model>
+		<Model name="Xeon E5-2687WV2"></Model>
+		<Model name="Xeon E5-2687WV3"></Model>
+		<Model name="Xeon E5-2687WV4"></Model>
+		<Model name="Xeon E5-2689">
+			<ProducerCode name="CM8062101163000"></ProducerCode>
+		</Model>
+		<Model name="Xeon E5-2689V4"></Model>
+		<Model name="Xeon E5-2690"></Model>
+		<Model name="Xeon E5-2690V2"></Model>
+		<Model name="Xeon E5-2690V3"></Model>
+		<Model name="Xeon E5-2690V4"></Model>
+		<Model name="Xeon E5-2692V2"></Model>
+		<Model name="Xeon E5-2695V2"></Model>
+		<Model name="Xeon E5-2695V3"></Model>
+		<Model name="Xeon E5-2695V4"></Model>
+		<Model name="Xeon E5-2696 v3">
+			<ProducerCode name="CM8064401610101"></ProducerCode>
+		</Model>
+		<Model name="Xeon E5-2696V2">
+			<ProducerCode name="CM8063501287802"></ProducerCode>
+		</Model>
+		<Model name="Xeon E5-2696V4"></Model>
+		<Model name="Xeon E5-2697AV4"></Model>
+		<Model name="Xeon E5-2697V2"></Model>
+		<Model name="Xeon E5-2697V3"></Model>
+		<Model name="Xeon E5-2697V4"></Model>
+		<Model name="Xeon E5-2698V3"></Model>
+		<Model name="Xeon E5-2698V4"></Model>
+		<Model name="Xeon E5-2699AV4"></Model>
+		<Model name="Xeon E5-2699RV4"></Model>
+		<Model name="Xeon E5-2699V3"></Model>
+		<Model name="Xeon E5-2699V4"></Model>
+		<Model name="Xeon E5-4603"></Model>
+		<Model name="Xeon E5-4603V2"></Model>
+		<Model name="Xeon E5-4607"></Model>
+		<Model name="Xeon E5-4607V2"></Model>
+		<Model name="Xeon E5-4610"></Model>
+		<Model name="Xeon E5-4610V2"></Model>
+		<Model name="Xeon E5-4610V3"></Model>
+		<Model name="Xeon E5-4610V4"></Model>
+		<Model name="Xeon E5-4617"></Model>
+		<Model name="Xeon E5-4620"></Model>
+		<Model name="Xeon E5-4620V2"></Model>
+		<Model name="Xeon E5-4620V3"></Model>
+		<Model name="Xeon E5-4620V4"></Model>
+		<Model name="Xeon E5-4624LV2"></Model>
+		<Model name="Xeon E5-4627V2"></Model>
+		<Model name="Xeon E5-4627V3"></Model>
+		<Model name="Xeon E5-4627V4"></Model>
+		<Model name="Xeon E5-4628LV4"></Model>
+		<Model name="Xeon E5-4640"></Model>
+		<Model name="Xeon E5-4640V2"></Model>
+		<Model name="Xeon E5-4640V3"></Model>
+		<Model name="Xeon E5-4640V4"></Model>
+		<Model name="Xeon E5-4648V3"></Model>
+		<Model name="Xeon E5-4650"></Model>
+		<Model name="Xeon E5-4650L"></Model>
+		<Model name="Xeon E5-4650V2"></Model>
+		<Model name="Xeon E5-4650V3"></Model>
+		<Model name="Xeon E5-4650V4"></Model>
+		<Model name="Xeon E5-4655V3"></Model>
+		<Model name="Xeon E5-4655V4"></Model>
+		<Model name="Xeon E5-4657LV2"></Model>
+		<Model name="Xeon E5-4660V3"></Model>
+		<Model name="Xeon E5-4660V4"></Model>
+		<Model name="Xeon E5-4667V3"></Model>
+		<Model name="Xeon E5-4667V4"></Model>
+		<Model name="Xeon E5-4669V3"></Model>
+		<Model name="Xeon E5-4669V4"></Model>
+		<Model name="Xeon E5205"></Model>
+		<Model name="Xeon E5220"></Model>
+		<Model name="Xeon E5240"></Model>
+		<Model name="Xeon E5310"></Model>
+		<Model name="Xeon E5320"></Model>
+		<Model name="Xeon E5335"></Model>
+		<Model name="Xeon E5345"></Model>
+		<Model name="Xeon E5405"></Model>
+		<Model name="Xeon E5410"></Model>
+		<Model name="Xeon E5420"></Model>
+		<Model name="Xeon E5430"></Model>
+		<Model name="Xeon E5440"></Model>
+		<Model name="Xeon E5450"></Model>
+		<Model name="Xeon E5462"></Model>
+		<Model name="Xeon E5472"></Model>
+		<Model name="Xeon E5502"></Model>
+		<Model name="Xeon E5503"></Model>
+		<Model name="Xeon E5504"></Model>
+		<Model name="Xeon E5506"></Model>
+		<Model name="Xeon E5507"></Model>
+		<Model name="Xeon E5520"></Model>
+		<Model name="Xeon E5530"></Model>
+		<Model name="Xeon E5540"></Model>
+		<Model name="Xeon E5603"></Model>
+		<Model name="Xeon E5606"></Model>
+		<Model name="Xeon E5607"></Model>
+		<Model name="Xeon E5620"></Model>
+		<Model name="Xeon E5630"></Model>
+		<Model name="Xeon E5640"></Model>
+		<Model name="Xeon E5645"></Model>
+		<Model name="Xeon E5649"></Model>
+		<Model name="Xeon E7-4850V4"></Model>
+		<Model name="Xeon E7-4880V2"></Model>
+		<Model name="Xeon E7-8867L"></Model>
+		<Model name="Xeon E7-8880 v4">
+			<ProducerCode name="CM8066902325500"></ProducerCode>
+		</Model>
+		<Model name="Xeon E7-8890V4"></Model>
+		<Model name="Xeon E7-8891V4"></Model>
+		<Model name="Xeon E7-8894 v4">
+			<ProducerCode name="CM8066903251800"></ProducerCode>
+		</Model>
+		<Model name="Xeon GOLD 6278C"></Model>
+		<Model name="Xeon Gold 5115"></Model>
+		<Model name="Xeon Gold 5117"></Model>
+		<Model name="Xeon Gold 5117F"></Model>
+		<Model name="Xeon Gold 5118"></Model>
+		<Model name="Xeon Gold 5119T"></Model>
+		<Model name="Xeon Gold 5120"></Model>
+		<Model name="Xeon Gold 5120T"></Model>
+		<Model name="Xeon Gold 5122"></Model>
+		<Model name="Xeon Gold 5215"></Model>
+		<Model name="Xeon Gold 5215L"></Model>
+		<Model name="Xeon Gold 5215M"></Model>
+		<Model name="Xeon Gold 5217"></Model>
+		<Model name="Xeon Gold 5218"></Model>
+		<Model name="Xeon Gold 5218B"></Model>
+		<Model name="Xeon Gold 5218N"></Model>
+		<Model name="Xeon Gold 5218R"></Model>
+		<Model name="Xeon Gold 5220"></Model>
+		<Model name="Xeon Gold 5220R"></Model>
+		<Model name="Xeon Gold 5220S">
+			<ProducerCode name="CD8069504283804"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 5220T"></Model>
+		<Model name="Xeon Gold 5222"></Model>
+		<Model name="Xeon Gold 5317"></Model>
+		<Model name="Xeon Gold 5318H">
+			<ProducerCode name="CD8070604481600-SRJY3"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 5320T">
+			<ProducerCode name="CD8068904659101-SRKXJ"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 5420+">
+			<ProducerCode name="PK8071305120600"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6126"></Model>
+		<Model name="Xeon Gold 6126F"></Model>
+		<Model name="Xeon Gold 6126T"></Model>
+		<Model name="Xeon Gold 6128"></Model>
+		<Model name="Xeon Gold 6130"></Model>
+		<Model name="Xeon Gold 6130F"></Model>
+		<Model name="Xeon Gold 6130T"></Model>
+		<Model name="Xeon Gold 6132"></Model>
+		<Model name="Xeon Gold 6133"></Model>
+		<Model name="Xeon Gold 6134"></Model>
+		<Model name="Xeon Gold 6134M"></Model>
+		<Model name="Xeon Gold 6136"></Model>
+		<Model name="Xeon Gold 6137">
+			<ProducerCode name="P08416-B22"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6138"></Model>
+		<Model name="Xeon Gold 6138F"></Model>
+		<Model name="Xeon Gold 6138T"></Model>
+		<Model name="Xeon Gold 6140"></Model>
+		<Model name="Xeon Gold 6140M"></Model>
+		<Model name="Xeon Gold 6142"></Model>
+		<Model name="Xeon Gold 6142F"></Model>
+		<Model name="Xeon Gold 6142M"></Model>
+		<Model name="Xeon Gold 6144"></Model>
+		<Model name="Xeon Gold 6145"></Model>
+		<Model name="Xeon Gold 6146"></Model>
+		<Model name="Xeon Gold 6148"></Model>
+		<Model name="Xeon Gold 6148F"></Model>
+		<Model name="Xeon Gold 6149"></Model>
+		<Model name="Xeon Gold 6150"></Model>
+		<Model name="Xeon Gold 6152"></Model>
+		<Model name="Xeon Gold 6154"></Model>
+		<Model name="Xeon Gold 6161"></Model>
+		<Model name="Xeon Gold 6210U"></Model>
+		<Model name="Xeon Gold 6212U"></Model>
+		<Model name="Xeon Gold 6226"></Model>
+		<Model name="Xeon Gold 6226R"></Model>
+		<Model name="Xeon Gold 6230"></Model>
+		<Model name="Xeon Gold 6230N"></Model>
+		<Model name="Xeon Gold 6230R"></Model>
+		<Model name="Xeon Gold 6233"></Model>
+		<Model name="Xeon Gold 6234"></Model>
+		<Model name="Xeon Gold 6238"></Model>
+		<Model name="Xeon Gold 6238R"></Model>
+		<Model name="Xeon Gold 6238T"></Model>
+		<Model name="Xeon Gold 6240"></Model>
+		<Model name="Xeon Gold 6240R"></Model>
+		<Model name="Xeon Gold 6240Y"></Model>
+		<Model name="Xeon Gold 6242"></Model>
+		<Model name="Xeon Gold 6242R"></Model>
+		<Model name="Xeon Gold 6244"></Model>
+		<Model name="Xeon Gold 6246"></Model>
+		<Model name="Xeon Gold 6246R"></Model>
+		<Model name="Xeon Gold 6248"></Model>
+		<Model name="Xeon Gold 6248R"></Model>
+		<Model name="Xeon Gold 6250"></Model>
+		<Model name="Xeon Gold 6252"></Model>
+		<Model name="Xeon Gold 6254"></Model>
+		<Model name="Xeon Gold 6256"></Model>
+		<Model name="Xeon Gold 6258R"></Model>
+		<Model name="Xeon Gold 6266C">
+			<ProducerCode name="SRF83"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6314U">
+			<ProducerCode name="CD8068904570101-SRKHL"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6326">
+			<ProducerCode name="CD8068904657502"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6330">
+			<ProducerCode name="CD8068904572101"></ProducerCode>
+			<ProducerCode name="CD8068904572101 SRKHM"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6330N">
+			<ProducerCode name="CD8068904582501"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6336Y">
+			<ProducerCode name="CD8068904658702"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6338">
+			<ProducerCode name="CD8068904572501S"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6342">
+			<ProducerCode name="CD8068904657701-SRKXA"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6346">
+			<ProducerCode name="CD8068904570201"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6348">
+			<ProducerCode name="CD8068904572204"></ProducerCode>
+		</Model>
+		<Model name="Xeon Gold 6348H">
+			<ProducerCode name="CD8070604481101"></ProducerCode>
+		</Model>
+		<Model name="Xeon L3426"></Model>
+		<Model name="Xeon L5240"></Model>
+		<Model name="Xeon L5310"></Model>
+		<Model name="Xeon L5320"></Model>
+		<Model name="Xeon L5335"></Model>
+		<Model name="Xeon L5408"></Model>
+		<Model name="Xeon L5410"></Model>
+		<Model name="Xeon L5420"></Model>
+		<Model name="Xeon L5430"></Model>
+		<Model name="Xeon L5506"></Model>
+		<Model name="Xeon L5520"></Model>
+		<Model name="Xeon L5530"></Model>
+		<Model name="Xeon L5609"></Model>
+		<Model name="Xeon L5618"></Model>
+		<Model name="Xeon L5630"></Model>
+		<Model name="Xeon L5638"></Model>
+		<Model name="Xeon L5640"></Model>
+		<Model name="Xeon MP 7020"></Model>
+		<Model name="Xeon MP 7030"></Model>
+		<Model name="Xeon MP 7040"></Model>
+		<Model name="Xeon MP 7041"></Model>
+		<Model name="Xeon MP 7110M"></Model>
+		<Model name="Xeon MP 7110N"></Model>
+		<Model name="Xeon MP 7120M"></Model>
+		<Model name="Xeon MP 7120N"></Model>
+		<Model name="Xeon MP 7130N"></Model>
+		<Model name="Xeon MP 7140M"></Model>
+		<Model name="Xeon MP 7140N"></Model>
+		<Model name="Xeon MP 7150N"></Model>
+		<Model name="Xeon MP E6510"></Model>
+		<Model name="Xeon MP E6540"></Model>
+		<Model name="Xeon MP E7-2803"></Model>
+		<Model name="Xeon MP E7-2820"></Model>
+		<Model name="Xeon MP E7-2830"></Model>
+		<Model name="Xeon MP E7-2870"></Model>
+		<Model name="Xeon MP E7-4807"></Model>
+		<Model name="Xeon MP E7-4820"></Model>
+		<Model name="Xeon MP E7-4830"></Model>
+		<Model name="Xeon MP E7-4850"></Model>
+		<Model name="Xeon MP E7-4860"></Model>
+		<Model name="Xeon MP E7-4870"></Model>
+		<Model name="Xeon MP E7-8830"></Model>
+		<Model name="Xeon MP E7-8837"></Model>
+		<Model name="Xeon MP E7-8850"></Model>
+		<Model name="Xeon MP E7-8860"></Model>
+		<Model name="Xeon MP E7-8870"></Model>
+		<Model name="Xeon MP E7210"></Model>
+		<Model name="Xeon MP E7220"></Model>
+		<Model name="Xeon MP E7310"></Model>
+		<Model name="Xeon MP E7320"></Model>
+		<Model name="Xeon MP E7330"></Model>
+		<Model name="Xeon MP E7340"></Model>
+		<Model name="Xeon MP E7420"></Model>
+		<Model name="Xeon MP E7430"></Model>
+		<Model name="Xeon MP E7440"></Model>
+		<Model name="Xeon MP E7450"></Model>
+		<Model name="Xeon MP E7458"></Model>
+		<Model name="Xeon MP E7520"></Model>
+		<Model name="Xeon MP E7530"></Model>
+		<Model name="Xeon MP E7540"></Model>
+		<Model name="Xeon MP L7445"></Model>
+		<Model name="Xeon MP L7455"></Model>
+		<Model name="Xeon MP L7545"></Model>
+		<Model name="Xeon MP L7555"></Model>
+		<Model name="Xeon MP X6550"></Model>
+		<Model name="Xeon MP X7350"></Model>
+		<Model name="Xeon MP X7460"></Model>
+		<Model name="Xeon MP X7542"></Model>
+		<Model name="Xeon MP X7550"></Model>
+		<Model name="Xeon MP X7560"></Model>
+		<Model name="Xeon Platinum 6162"></Model>
+		<Model name="Xeon Platinum 8124">
+			<ProducerCode name="CD8067302577901"></ProducerCode>
+		</Model>
+		<Model name="Xeon Platinum 8136">
+			<ProducerCode name="CD8067302578001"></ProducerCode>
+		</Model>
+		<Model name="Xeon Platinum 8151"></Model>
+		<Model name="Xeon Platinum 8153"></Model>
+		<Model name="Xeon Platinum 8156"></Model>
+		<Model name="Xeon Platinum 8158"></Model>
+		<Model name="Xeon Platinum 8160"></Model>
+		<Model name="Xeon Platinum 8160F"></Model>
+		<Model name="Xeon Platinum 8160M"></Model>
+		<Model name="Xeon Platinum 8160T"></Model>
+		<Model name="Xeon Platinum 8164"></Model>
+		<Model name="Xeon Platinum 8167M"></Model>
+		<Model name="Xeon Platinum 8168"></Model>
+		<Model name="Xeon Platinum 8170"></Model>
+		<Model name="Xeon Platinum 8170M"></Model>
+		<Model name="Xeon Platinum 8171M"></Model>
+		<Model name="Xeon Platinum 8173M"></Model>
+		<Model name="Xeon Platinum 8175M"></Model>
+		<Model name="Xeon Platinum 8176"></Model>
+		<Model name="Xeon Platinum 8176F"></Model>
+		<Model name="Xeon Platinum 8176M"></Model>
+		<Model name="Xeon Platinum 8180"></Model>
+		<Model name="Xeon Platinum 8180M"></Model>
+		<Model name="Xeon Platinum 8253"></Model>
+		<Model name="Xeon Platinum 8255C"></Model>
+		<Model name="Xeon Platinum 8256"></Model>
+		<Model name="Xeon Platinum 8260"></Model>
+		<Model name="Xeon Platinum 8260L"></Model>
+		<Model name="Xeon Platinum 8260M"></Model>
+		<Model name="Xeon Platinum 8260Y"></Model>
+		<Model name="Xeon Platinum 8268"></Model>
+		<Model name="Xeon Platinum 8270"></Model>
+		<Model name="Xeon Platinum 8276"></Model>
+		<Model name="Xeon Platinum 8276L"></Model>
+		<Model name="Xeon Platinum 8276M"></Model>
+		<Model name="Xeon Platinum 8280"></Model>
+		<Model name="Xeon Platinum 8280L"></Model>
+		<Model name="Xeon Platinum 8280M"></Model>
+		<Model name="Xeon Platinum 8336C"></Model>
+		<Model name="Xeon Platinum 8351N">
+			<ProducerCode name="CD8068904582702-SRKJ3"></ProducerCode>
+		</Model>
+		<Model name="Xeon Platinum 8352M">
+			<ProducerCode name="CD8068904686504"></ProducerCode>
+		</Model>
+		<Model name="Xeon Platinum 8352S">
+			<ProducerCode name="CD8068904642802"></ProducerCode>
+		</Model>
+		<Model name="Xeon Platinum 8352V">
+			<ProducerCode name="CD8068904571501-SRKJ2"></ProducerCode>
+		</Model>
+		<Model name="Xeon Platinum 8358"></Model>
+		<Model name="Xeon Platinum 8358P">
+			<ProducerCode name="CD8068904599101-SRKJ0"></ProducerCode>
+		</Model>
+		<Model name="Xeon Platinum 8360Y"></Model>
+		<Model name="Xeon Platinum 8362">
+			<ProducerCode name="CD8068904722404"></ProducerCode>
+		</Model>
+		<Model name="Xeon Platinum 8368"></Model>
+		<Model name="Xeon Platinum 8368Q"></Model>
+		<Model name="Xeon Platinum 8372C"></Model>
+		<Model name="Xeon Platinum 8375C"></Model>
+		<Model name="Xeon Platinum 8376HL">
+			<ProducerCode name="CD8070604480601-SRJXT"></ProducerCode>
+		</Model>
+		<Model name="Xeon Platinum 8380">
+			<ProducerCode name="CD8068904572601"></ProducerCode>
+		</Model>
+		<Model name="Xeon SL7PD"></Model>
+		<Model name="Xeon SL7PE">
+			<ProducerCode name="RK80546KG0801M"></ProducerCode>
+		</Model>
+		<Model name="Xeon Silver 4108"></Model>
+		<Model name="Xeon Silver 4109T"></Model>
+		<Model name="Xeon Silver 4110"></Model>
+		<Model name="Xeon Silver 4112"></Model>
+		<Model name="Xeon Silver 4114"></Model>
+		<Model name="Xeon Silver 4114T"></Model>
+		<Model name="Xeon Silver 4116"></Model>
+		<Model name="Xeon Silver 4116T"></Model>
+		<Model name="Xeon Silver 4208"></Model>
+		<Model name="Xeon Silver 4209T"></Model>
+		<Model name="Xeon Silver 4210"></Model>
+		<Model name="Xeon Silver 4210R"></Model>
+		<Model name="Xeon Silver 4214"></Model>
+		<Model name="Xeon Silver 4214R"></Model>
+		<Model name="Xeon Silver 4214Y"></Model>
+		<Model name="Xeon Silver 4215"></Model>
+		<Model name="Xeon Silver 4215R"></Model>
+		<Model name="Xeon Silver 4216"></Model>
+		<Model name="Xeon Silver 4309Y">
+			<ProducerCode name="CD8068904658102"></ProducerCode>
+		</Model>
+		<Model name="Xeon Silver 4310">
+			<ProducerCode name="CD8068904657901-SRKXN"></ProducerCode>
+		</Model>
+		<Model name="Xeon Silver 4310T">
+			<ProducerCode name="CD8068904659001"></ProducerCode>
+		</Model>
+		<Model name="Xeon Silver 4314">
+			<ProducerCode name="CD8068904655303-SRKXL"></ProducerCode>
+		</Model>
+		<Model name="Xeon Silver 4316">
+			<ProducerCode name="CD8068904656601-SRKXH"></ProducerCode>
+		</Model>
+		<Model name="Xeon W-1290">
+			<ProducerCode name="CM8070104379111"></ProducerCode>
+		</Model>
+		<Model name="Xeon W-2102"></Model>
+		<Model name="Xeon W-2104"></Model>
+		<Model name="Xeon W-2123"></Model>
+		<Model name="Xeon W-2125"></Model>
+		<Model name="Xeon W-2133"></Model>
+		<Model name="Xeon W-2135"></Model>
+		<Model name="Xeon W-2145"></Model>
+		<Model name="Xeon W-2155"></Model>
+		<Model name="Xeon W-2175"></Model>
+		<Model name="Xeon W-2195"></Model>
+		<Model name="Xeon W-2223"></Model>
+		<Model name="Xeon W-2225"></Model>
+		<Model name="Xeon W-2235"></Model>
+		<Model name="Xeon W-2245"></Model>
+		<Model name="Xeon W-2255"></Model>
+		<Model name="Xeon W-2265"></Model>
+		<Model name="Xeon W-2275"></Model>
+		<Model name="Xeon W-2295"></Model>
+		<Model name="Xeon W-3175X">
+			<ProducerCode name="BX80673W3175X"></ProducerCode>
+		</Model>
+		<Model name="Xeon W-3223">
+			<ProducerCode name="CD8069504248402"></ProducerCode>
+		</Model>
+		<Model name="Xeon W-3265">
+			<ProducerCode name="CD8069504153002"></ProducerCode>
+		</Model>
+		<Model name="Xeon W3505"></Model>
+		<Model name="Xeon W3520"></Model>
+		<Model name="Xeon W3530"></Model>
+		<Model name="Xeon W3540"></Model>
+		<Model name="Xeon W3550"></Model>
+		<Model name="Xeon W3565"></Model>
+		<Model name="Xeon W3570"></Model>
+		<Model name="Xeon W3580"></Model>
+		<Model name="Xeon W3680"></Model>
+		<Model name="Xeon W3690">
+			<ProducerCode name="BX80613W3690"></ProducerCode>
+		</Model>
+		<Model name="Xeon W5580"></Model>
+		<Model name="Xeon W5590"></Model>
+		<Model name="Xeon X3210"></Model>
+		<Model name="Xeon X3220"></Model>
+		<Model name="Xeon X3230"></Model>
+		<Model name="Xeon X3320"></Model>
+		<Model name="Xeon X3323"></Model>
+		<Model name="Xeon X3330"></Model>
+		<Model name="Xeon X3350"></Model>
+		<Model name="Xeon X3360"></Model>
+		<Model name="Xeon X3370"></Model>
+		<Model name="Xeon X3430"></Model>
+		<Model name="Xeon X3440">
+			<ProducerCode name="BV80605002517AQ"></ProducerCode>
+		</Model>
+		<Model name="Xeon X3450"></Model>
+		<Model name="Xeon X3460"></Model>
+		<Model name="Xeon X3470"></Model>
+		<Model name="Xeon X3480"></Model>
+		<Model name="Xeon X5260"></Model>
+		<Model name="Xeon X5270"></Model>
+		<Model name="Xeon X5272"></Model>
+		<Model name="Xeon X5355"></Model>
+		<Model name="Xeon X5365"></Model>
+		<Model name="Xeon X5450"></Model>
+		<Model name="Xeon X5460"></Model>
+		<Model name="Xeon X5470"></Model>
+		<Model name="Xeon X5472"></Model>
+		<Model name="Xeon X5482"></Model>
+		<Model name="Xeon X5492"></Model>
+		<Model name="Xeon X5550"></Model>
+		<Model name="Xeon X5560"></Model>
+		<Model name="Xeon X5570"></Model>
+		<Model name="Xeon X5647"></Model>
+		<Model name="Xeon X5650"></Model>
+		<Model name="Xeon X5660"></Model>
+		<Model name="Xeon X5667"></Model>
+		<Model name="Xeon X5670"></Model>
+		<Model name="Xeon X5672"></Model>
+		<Model name="Xeon X5675"></Model>
+		<Model name="Xeon X5677"></Model>
+		<Model name="Xeon X5680"></Model>
+		<Model name="Xeon X5687"></Model>
+		<Model name="Xeon X5690"></Model>
+		<Model name="Xeon w7-3455"></Model>
+		<Model name="i3-2348M"></Model>
+		<Model name="i3-4100M">
+			<ProducerCode name="CW8064701486707"></ProducerCode>
+		</Model>
+		<Model name="i486">
+			<ProducerCode name="A80486DX2-66"></ProducerCode>
+		</Model>
+		<Model name="i5-5200u">
+			<ProducerCode name="FH8065801620204"></ProducerCode>
+		</Model>
+		<Model name="i5-8259U"></Model>
+	</Brand>
+	<Brand name="Sun Microsystems">
+		<Model name="UltraSparc IV">
+			<ProducerCode name="SME1167ALGA-1350"></ProducerCode>
+		</Model>
+		<Model name="UltraSparc IV+">
+			<ProducerCode name="SME1178ALGA-1500"></ProducerCode>
+		</Model>
+	</Brand>
+	<Brand name="МЦСТ">
+		<Model name="Эльбрус-8СВ">
+			<ProducerCode name="1891ВМ12АЯ"></ProducerCode>
+			<ProducerCode name="1891ВМ12БЯ"></ProducerCode>
+			<ProducerCode name="1891ВМ12ВЯ"></ProducerCode>
+		</Model>
+	</Brand>
+</Processors>

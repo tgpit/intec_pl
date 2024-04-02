@@ -1,0 +1,152 @@
+.widget.c-services.c-services-template-26 {
+  display: block;
+}
+.widget.c-services.c-services-template-26 .widget-items {
+  position: relative;
+}
+.widget.c-services.c-services-template-26 .widget-item {
+  padding: 24px 20px;
+  background-color: #FFF;
+  border: 1px solid #F2F2F2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.widget.c-services.c-services-template-26 .widget-item-picture {
+  display: block;
+  width: 152px;
+  height: 152px;
+  margin: auto;
+}
+.widget.c-services.c-services-template-26 .widget-item-picture img {
+  max-width: 100%;
+}
+.widget.c-services.c-services-template-26 .widget-item-section {
+  display: block;
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #808080;
+  word-break: break-word;
+  margin-bottom: 8px;
+  height: 16px;
+  overflow: hidden;
+}
+.widget.c-services.c-services-template-26 .widget-item-name {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #3E3E3E;
+  word-break: break-word;
+  text-decoration: none;
+  height: 27px;
+  overflow: hidden;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.widget.c-services.c-services-template-26 .widget-item-description {
+  font-size: 14px;
+  line-height: 22px;
+  color: #808080;
+  word-break: break-word;
+  margin-top: 8px;
+  max-height: 88px;
+  overflow: hidden;
+}
+.widget.c-services.c-services-template-26 .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.widget.c-services.c-services-template-26 .owl-nav button {
+  position: absolute;
+  top: 0;
+  font-size: 0;
+  text-align: center;
+  padding: 14px;
+  background-color: #FFF;
+  border: 1px solid #F2F2F2;
+  cursor: pointer;
+  outline: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: background-color, border-color, opacity;
+  -moz-transition-property: background-color, border-color, opacity;
+  -ms-transition-property: background-color, border-color, opacity;
+  -o-transition-property: background-color, border-color, opacity;
+  transition-property: background-color, border-color, opacity;
+}
+.widget.c-services.c-services-template-26 .owl-nav button.disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+.widget.c-services.c-services-template-26 .owl-nav button.widget-navigation-left {
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.widget.c-services.c-services-template-26 .owl-nav button.widget-navigation-right {
+  right: 0;
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  -o-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
+.widget.c-services.c-services-template-26 .owl-nav button svg {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  max-width: 10px;
+  max-height: 100%;
+}
+.widget.c-services.c-services-template-26 .owl-nav button svg path {
+  stroke: #808080;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+}
+.widget.c-services.c-services-template-26 .owl-nav button:hover svg path {
+  stroke: #FFF;
+}
+@media all and (max-width: 550px) {
+  .widget.c-services.c-services-template-26 .widget-item-section,
+.widget.c-services.c-services-template-26 .widget-item-name,
+.widget.c-services.c-services-template-26 .widget-item-description {
+    text-align: center;
+  }
+  .widget.c-services.c-services-template-26 .owl-nav button {
+    padding: 10px;
+  }
+  .widget.c-services.c-services-template-26 .widget-item {
+    padding: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,100 @@
+$component: 'categories';
+$template: 'template-18';
+$item: 'widget-item';
+
+@mixin transition ($property, $time) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $time;
+  -moz-transition-duration: $time;
+  -ms-transition-duration: $time;
+  -o-transition-duration: $time;
+  transition-duration: $time;
+}
+
+@mixin transformScale ($size) {
+  -webkit-transform: scale($size);
+  -moz-transform: scale($size);
+  -ms-transform: scale($size);
+  -o-transform: scale($size);
+  transform: scale($size);
+}
+
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+
+  .widget-items{
+    position:relative;
+  }
+
+  .#{$item} {
+    display: block;
+    position: relative;
+    height: 100%;
+    padding: 35px 30px;
+    text-decoration: none;
+    overflow: hidden;
+
+    &:hover .#{$item}-picture {
+      @include transformScale(1.1);
+    }
+
+    &[data-theme="dark"] {
+
+      .#{$item}-name,
+      .#{$item}-preview-text {
+         color:#fff;
+      }
+    }
+  }
+  .#{$item}-picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+    @include transition(all, 0.35s);
+  }
+  .#{$item}-content {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+  }
+  .#{$item}-name {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #000;
+    word-break: break-word;
+    max-height: 66px;
+    overflow: hidden;
+  }
+  .#{$item}-preview-text {
+    font-size: 16px;
+    color: #000;
+    margin-top: 15px;
+    line-height: 1.4;
+    word-break: break-word;
+    max-height: 88px;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width:600px) {
+    .#{$item} {
+      padding: 20px;
+    }
+    .#{$item}-content {
+      width: 60%;
+    }
+  }
+}

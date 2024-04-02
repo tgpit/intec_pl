@@ -1,0 +1,56 @@
+<Ironmongery>
+	<RCProduct name="Плита">
+		<RCSlabType name="Плита перекрытия"></RCSlabType>
+		<RCSlabType name="Плита аэродромная"></RCSlabType>
+		<RCSlabType name="Плита для железнодорожных путей"></RCSlabType>
+		<RCSlabType name="Плита для трамвайных путей"></RCSlabType>
+		<RCSlabType name="Плита дорожная"></RCSlabType>
+		<RCSlabType name="Плита карнизная"></RCSlabType>
+		<RCSlabType name="Плита козырька входа"></RCSlabType>
+		<RCSlabType name="Плита лоджии, балкона"></RCSlabType>
+		<RCSlabType name="Плита опорная"></RCSlabType>
+		<RCSlabType name="Плита опорно-анкерная"></RCSlabType>
+		<RCSlabType name="Плита парапетная"></RCSlabType>
+		<RCSlabType name="Плита переходная"></RCSlabType>
+		<RCSlabType name="Плита плоская"></RCSlabType>
+		<RCSlabType name="Плита подкладная"></RCSlabType>
+		<RCSlabType name="Плита стеновая"></RCSlabType>
+		<RCSlabType name="Плита тротуарная"></RCSlabType>
+		<RCSlabType name="Плита укрепления"></RCSlabType>
+		<RCSlabType name="Плита фундаментная"></RCSlabType>
+		<RCSlabType name="Плиты покрытия"></RCSlabType>
+	</RCProduct>
+	<RCProduct name="Балка"></RCProduct>
+	<RCProduct name="Вентиляционный блок"></RCProduct>
+	<RCProduct name="Диафрагма жёсткости"></RCProduct>
+	<RCProduct name="Кабельный блок"></RCProduct>
+	<RCProduct name="Колонна"></RCProduct>
+	<RCProduct name="Лежень"></RCProduct>
+	<RCProduct name="Лоток"></RCProduct>
+	<RCProduct name="Опорная подушка"></RCProduct>
+	<RCProduct name="Панель"></RCProduct>
+	<RCProduct name="Перемычка"></RCProduct>
+	<RCProduct name="Приставка"></RCProduct>
+	<RCProduct name="Прогон"></RCProduct>
+	<RCProduct name="Ригель"></RCProduct>
+	<RCProduct name="Стенка">
+		<RCWallType name="Откосная"></RCWallType>
+		<RCWallType name="Портальная"></RCWallType>
+	</RCProduct>
+	<RCProduct name="Столбик"></RCProduct>
+	<RCProduct name="Труба"></RCProduct>
+	<RCProduct name="Утяжелитель"></RCProduct>
+	<RCProduct name="Фундаментный блок"></RCProduct>
+	<RCProduct name="Шахта лифта"></RCProduct>
+	<RCProduct name="Элемент коллектора"></RCProduct>
+	<RCProduct name="Элемент колодца">
+		<RCElementType name="Днище"></RCElementType>
+		<RCElementType name="Кабельный колодец"></RCElementType>
+		<RCElementType name="Кольцо"></RCElementType>
+		<RCElementType name="Кольцо горловины"></RCElementType>
+		<RCElementType name="Крышка"></RCElementType>
+		<RCElementType name="Телефонный колодец"></RCElementType>
+	</RCProduct>
+	<RCProduct name="Элемент мостовой конструкции"></RCProduct>
+	<RCProduct name="Другое"></RCProduct>
+</Ironmongery>

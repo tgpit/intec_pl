@@ -1,0 +1,35 @@
+<?php
+
+$MESS["VKAPI.MARKET.EXPORT_NOW.TAB.DELETE"] = "Ручной экспорт";
+$MESS["VKAPI.MARKET.EXPORT_NOW.PAGE_TITLE"] = "Ручной экспорт";
+$MESS["VKAPI.MARKET.EXPORT_NOW.NO_SELECT"] = "- не выбрано -";
+$MESS["VKAPI.MARKET.EXPORT_NOW.EXPORT_TIME_NOW"] = "затрачено времени: <span>00:00:00</span>";
+$MESS["VKAPI.MARKET.EXPORT_NOW.EXPORT_PROGRESS.SECTION"] = "<span class=\"name\">1. Обход разделов</span><span class=\"pos\">0</span> из <span class=\"count\">0</span> / <span class=\"percent\">0%</span>";
+$MESS["VKAPI.MARKET.EXPORT_NOW.EXPORT_PROGRESS.EXPORT_SECTIONS"] = "<span class=\"name\">3. Обработка разделов и экспорт подборок</span><span class=\"pos\">0</span> из <span class=\"count\">0</span> / <span class=\"percent\">0%</span>";
+$MESS["VKAPI.MARKET.EXPORT_NOW.EXPORT_PROGRESS.EXPORT_GOODS"] = "<span class=\"name\">4. Обработка товаров и торговых предложений (выгрузятся только удовлетворяющие настройкам)</span><span class=\"pos\">0</span> из <span class=\"count\">0</span> / <span class=\"percent\">0%</span>.";
+$MESS["VKAPI.MARKET.EXPORT_NOW.EXPORT_PROGRESS.ELEMENT"] = "<span class=\"name\">2. Обход товаров и торговых предложений</span><span class=\"pos\">0</span> из <span class=\"count\">0</span> / <span class=\"percent\">0%</span>";
+$MESS["VKAPI.MARKET.EXPORT_NOW.EXPORT_ID"] = "Выберите выгрузку";
+$MESS["VKAPI.MARKET.EXPORT_NOW.EXPORT_AUTO_MESSAGE"] = "Для ручного экспорта доступны только выгрузки, в настройках которых отключен автоматический экспорт во избежание ошибок. \n<br><b>Важно:</b> не уходите со страницы, пока начавшийся экспорт не закончится или вы не остановите его и не увидите надпись что экспорт остановлен, иначе автоматическая выгрузка работать не будет. <br><br>\nВ ручном экспорте для ускорения процесса выгружаются только основные картинки товара, дополнительные картинки будут выгружены при автоматической выгрузке(после окончания ручного экспорта в \nнастройках выгрузки поставьте галочку - автоматический экспорт). <br> Ручной экспорт делать не обязательно, можно сразу поставить галочку в настройках выгрузки и забыть - товары автоматически выгрузятся.";
+$MESS["VKAPI.MARKET.EXPORT_NOW.EXPORT_ALL_PHOTO_HINT"] = "Выгрузка доп. картинок - замедлит ручной экспорт, лучше не ставить галочку, так как при автоматическом экспорте доп. картинки будут все равно загружены.";
+$MESS["VKAPI.MARKET.EXPORT_NOW.EXPORT_ALL_PHOTO"] = "Выгружать сразу доп. картинки";
+$MESS["VKAPI.MARKET.EXPORT_NOW.BTN_STOP"] = "Остановить";
+$MESS["VKAPI.MARKET.EXPORT_NOW.BTN_START"] = "Начать экспорт";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.EXPORT.STOP"] = "<b>Экспорт остановлен</b>";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.EXPORT.STARTED"] = "Началась подготовка к экспорту";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.EXPORT.PREPIRE_SECTION"] = "Подготовка разделов";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.EXPORT.PREPIRE_ELEMENTS"] = "Подготовка элементов";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.EXPORT.FINISH"] = "<b>Экспорт закончен.</b> Соответствующих настройкам выгрузки и фильтрации выгружено - #COUNT#";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.EXPORT.EXPORT_STOP"] = "Завершение экспорта";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.EXPORT.EXPORT_PRODUCTS"] = "Экспорт товаров. Соответствующих настройкам выгрузки и фильтрации выгружено - #COUNT#";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.EXPORT.EXPORT_ALBUMS"] = "Экспорт подборок";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.ERROR.EXPORT_AUTO"] = "У выгрузки должен быть отключен автоматический экспорт";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.ERROR.ACCESS"] = "Недостаточно прав";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.ERROR.SESSID"] = "Ваша сессия закончилась, обновите страницу";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.STEP1"] = "Остановка автоматической выгрузки";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.STEP2"] = "Выгрузка подборок";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.STEP3"] = "Выгрузка свойств";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.STEP4"] = "Выгрузка товаров";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX.STEP5"] = "Включение автоматической выгрузки";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX_ERROR_UNKNOWN_METHOD"] = "Неизвестный метод";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX_ERROR_ACCESS"] = "Нет доступа";
+$MESS["VKAPI.MARKET.EXPORT_NOW.AJAX_ERROR_EXPORT_ID"] = "Выберите выгрузку";

@@ -1,0 +1,272 @@
+@keyframes c-reviews-template-8-keyframes {
+  0%, 100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.widget.c-reviews.c-reviews-template-8 .widget-title {
+  overflow: hidden;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-send {
+  color: #808080;
+  padding: 8px 14px;
+  border: 1px solid #E8E8E8;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color, border-color;
+  -moz-transition-property: color, border-color;
+  -ms-transition-property: color, border-color;
+  -o-transition-property: color, border-color;
+  transition-property: color, border-color;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-send-icon svg path {
+  stroke: #B0B0B0;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-send-content {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: inherit;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-all {
+  display: block;
+  text-decoration: none;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-all-desktop {
+  display: block;
+  font-size: 10px;
+  line-height: 1;
+  color: #808080;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-all-mobile {
+  display: none;
+  padding: 6px 7px;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-all-mobile svg path {
+  stroke: #B0B0B0;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: stroke;
+  -moz-transition-property: stroke;
+  -ms-transition-property: stroke;
+  -o-transition-property: stroke;
+  transition-property: stroke;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item:first-child .widget-item-wrapper {
+  padding-top: 0;
+  border-top: none;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item:last-child .widget-item-wrapper {
+  padding-bottom: 0;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid #e8e8e8;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-picture {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-name {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 21px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-position {
+  font-size: 12px;
+  line-height: 18px;
+  color: #949494;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-additional {
+  margin-top: 15px;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-additional-item {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 5px;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-additional-item:last-child {
+  margin-bottom: 0;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-additional-item-name {
+  font-weight: 700;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-additional-item-link {
+  text-decoration: none;
+  border-bottom: 1px dashed transparent;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: color, border-color;
+  -moz-transition-property: color, border-color;
+  -ms-transition-property: color, border-color;
+  -o-transition-property: color, border-color;
+  transition-property: color, border-color;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-additional-item-link:hover {
+  border-color: inherit;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-description {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 15px;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-video {
+  font-size: 0;
+  text-align: center;
+  width: 260px;
+  height: 170px;
+  margin-left: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 9px 24px 0 rgba(111, 129, 162, 0.35);
+  -moz-box-shadow: 0 9px 24px 0 rgba(111, 129, 162, 0.35);
+  box-shadow: 0 9px 24px 0 rgba(111, 129, 162, 0.35);
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-video::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-video:hover {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-video:hover .widget-item-video-icon {
+  opacity: 1;
+  animation-name: c-reviews-template-8-keyframes;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+}
+.widget.c-reviews.c-reviews-template-8 .widget-item-video-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  opacity: 0.7;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -ms-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+@media all and (max-width: 768px) {
+  .widget.c-reviews.c-reviews-template-8 .widget-send-content {
+    display: none;
+  }
+  .widget.c-reviews.c-reviews-template-8 .widget-item-video {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media all and (max-width: 500px) {
+  .widget.c-reviews.c-reviews-template-8 .widget-send {
+    padding: 6px;
+  }
+  .widget.c-reviews.c-reviews-template-8 .widget-all-desktop {
+    display: none;
+  }
+  .widget.c-reviews.c-reviews-template-8 .widget-all-mobile {
+    display: block;
+  }
+  .widget.c-reviews.c-reviews-template-8 .widget-item-picture {
+    margin-bottom: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

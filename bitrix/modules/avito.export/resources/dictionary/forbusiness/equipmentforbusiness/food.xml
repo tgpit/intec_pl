@@ -1,0 +1,75 @@
+<Root>
+	<GoodsSubType name="Тепловое">
+		<EquipmentType name="Грили" />
+		<EquipmentType name="Пароконвектоматы" />
+		<EquipmentType name="Печи" />
+		<EquipmentType name="Тепловые шкафы" />
+		<EquipmentType name="Фритюрницы" />
+		<EquipmentType name="Аппараты для ваты и попкорна" />
+		<EquipmentType name="Тепловые витрины" />
+		<EquipmentType name="Мармиты" />
+		<EquipmentType name="Вафельницы" />
+		<EquipmentType name="Кипятильники" />
+		<EquipmentType name="Коптильни" />
+		<EquipmentType name="Дегидраторы" />
+		<EquipmentType name="Плиты" />
+		<EquipmentType name="Рисоварки" />
+		<EquipmentType name="Блинницы" />
+		<EquipmentType name="Макароноварки" />
+		<EquipmentType name="Тостеры" />
+		<EquipmentType name="Пищеварочные котлы" />
+		<EquipmentType name="Подогреватели" />
+	</GoodsSubType>
+	<GoodsSubType name="Для производства напитков">
+		<EquipmentType name="Граниторы" />
+		<EquipmentType name="Кофемашины" />
+		<EquipmentType name="Пивоваренное оборудование" />
+		<EquipmentType name="Соковыжималки" />
+	</GoodsSubType>
+	<GoodsSubType name="Холодильное">
+		<EquipmentType name="Холодильные столы" />
+		<EquipmentType name="Морозильные шкафы" />
+		<EquipmentType name="Запчасти и комплектующие" />
+		<EquipmentType name="Льдогенераторы" />
+		<EquipmentType name="Холодильные шкафы" />
+		<EquipmentType name="Охладители" />
+		<EquipmentType name="Холодильные витрины" />
+		<EquipmentType name="Холодильные моноблоки" />
+		<EquipmentType name="Холодильные камеры" />
+		<EquipmentType name="Морозильные лари" />
+		<EquipmentType name="Холодильные горки" />
+	</GoodsSubType>
+	<GoodsSubType name="Нейтральное">
+		<EquipmentType name="Столы" />
+		<EquipmentType name="Моечное оборудование" />
+		<EquipmentType name="Стеллажи" />
+		<EquipmentType name="Полки" />
+		<EquipmentType name="Зонты вытяжные" />
+	</GoodsSubType>
+	<GoodsSubType name="Хлебопекарное">
+		<EquipmentType name="Тестомесы" />
+		<EquipmentType name="Тестораскаточные аппараты" />
+		<EquipmentType name="Тестоделители" />
+		<EquipmentType name="Хлеборезки" />
+		<EquipmentType name="Мукопросеиватели" />
+		<EquipmentType name="Ферментаторы" />
+		<EquipmentType name="Тестоокруглители" />
+	</GoodsSubType>
+	<GoodsSubType name="Электромеханическое">
+		<EquipmentType name="Миксеры" />
+		<EquipmentType name="Пельменные аппараты" />
+		<EquipmentType name="Овощерезки" />
+		<EquipmentType name="Мясорубки" />
+		<EquipmentType name="Котлетоформовочные аппараты" />
+		<EquipmentType name="Слайсеры" />
+		<EquipmentType name="Блендеры" />
+		<EquipmentType name="Измельчители" />
+		<EquipmentType name="Овощечистки и рыбочистки" />
+		<EquipmentType name="Фаршемешалки" />
+		<EquipmentType name="Массажеры для мяса" />
+		<EquipmentType name="Тендерайзеры" />
+		<EquipmentType name="Запчасти и комплектующие" />
+		<EquipmentType name="Шприцы колбасные" />
+	</GoodsSubType>
+	<GoodsSubType name="Кухонный инвентарь"></GoodsSubType>
+</Root>

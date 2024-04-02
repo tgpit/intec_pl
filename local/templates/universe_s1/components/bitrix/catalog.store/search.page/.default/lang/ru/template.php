@@ -1,0 +1,37 @@
+<?php
+
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_PLACEHOLDER'] = 'Поисковой запрос';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_ALL'] = '(везде)';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_GO'] = 'Найти';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_ITEM_TAGS'] = 'Теги';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_DATE_CHANGE'] = 'Изменено';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_FOUND'] = 'Найдено';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_ORDER'] = 'Отсортировано';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_ORDER_BY_RANK'] = 'по релевантности';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_ORDER_BY_DATE'] = 'по дате';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_ADVANCED_SEARCH'] = 'Расширенный поиск';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_WHERE_LABEL'] = 'Область поиска';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_TAGS'] = 'теги';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_WHERE'] = 'раздел';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_EVERYWHERE'] = 'везде';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_WHEN'] = 'дата';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_DATES_FROM_TO'] = 'с #FROM# по #TO#';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_DATES_FROM'] = 'с #FROM#';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_DATES_TO'] = 'по #TO#';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_DATES_ALL'] = 'все';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_ERROR'] = 'В поисковой фразе обнаружена ошибка:';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_CORRECT_AND_CONTINUE'] = 'Исправьте поисковую фразу и повторите поиск.';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_SINTAX'] = '<b>Синтаксис поискового запроса:</b><br /><br />Обычно запрос представляет из себя просто одно или несколько слов, например: <br /><i>контактная информация</i><br />По такому запросу будут найдены страницы, на которых встречаются оба слова запроса. <br /><br />Логические операторы позволяют строить более сложные запросы, например: <br /><i>контактная информация или телефон</i><br />По такому запросу будут найдены страницы, на которых встречаются либо слова &quot;контактная&quot; и &quot;информация&quot;, либо слово &quot;телефон&quot;.<br /><br /> <i>контактная информация не телефон</i><br /> По такому запросу будут найдены страницы, на которых встречаются либо слова &quot;контактная&quot; и &quot;информация&quot;, но не встречается слово &quot;телефон&quot;.<br /> Вы можете использовать скобки для построения более сложных запросов.<br />';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_LOGIC'] = 'Логические операторы:';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_OPERATOR'] = 'Оператор';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_SYNONIM'] = ' Синонимы';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_DESCRIPTION'] = 'Описание';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_AND'] = 'и';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_AND_ALT'] = 'Оператор <i>логическое &quot;и&quot;</i> подразумевается, его можно опускать: запрос &quot;контактная информация&quot; полностью эквивалентен запросу &quot;контактная и информация&quot;.';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_OR'] = 'или';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_OR_ALT'] = 'Оператор <i>логическое &quot;или&quot;</i> позволяет искать товары, содержащие хотя бы один из операндов.';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_NOT'] = 'не';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_NOT_ALT'] = 'Оператор <i>логическое &quot;не&quot;</i> ограничивает поиск страниц, не содержащих слово, указанное после оператора.';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_BRACKETS_ALT'] = '<i>Круглые скобки</i> задают порядок действия логических операторов.';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_NOTHING_TO_FOUND'] = 'К сожалению, на ваш поисковый запрос ничего не найдено.';
+$MESS['C_SEARCH_PAGE_TEMPLATE_DEFAULT_TEMPLATE_KEYBOARD_WARNING'] = 'В запросе \'#query#\' восстановлена раскладка клавиатуры.';

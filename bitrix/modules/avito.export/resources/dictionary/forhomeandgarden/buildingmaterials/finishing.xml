@@ -1,0 +1,55 @@
+<Finishing>
+	<FinishingType name="Плитка, керамогранит и мозаика">
+		<FinishingSubType name="Керамическая плитка"></FinishingSubType>
+		<FinishingSubType name="Керамические уголки для ванной"></FinishingSubType>
+		<FinishingSubType name="Керамогранит"></FinishingSubType>
+		<FinishingSubType name="Мозаика"></FinishingSubType>
+	</FinishingType>
+	<FinishingType name="Обои и декоративные покрытия">
+		<FinishingSubType name="Обои"></FinishingSubType>
+		<FinishingSubType name="Жидкие обои"></FinishingSubType>
+		<FinishingSubType name="Самоклеящаяся пленка"></FinishingSubType>
+		<FinishingSubType name="Стеклообои"></FinishingSubType>
+		<FinishingSubType name="Фактурные декоративные покрытия"></FinishingSubType>
+		<FinishingSubType name="Фотообои"></FinishingSubType>
+		<FinishingSubType name="Фрески"></FinishingSubType>
+	</FinishingType>
+	<FinishingType name="Стеновые панели">
+		<FinishingSubType name="Гипсовые панели"></FinishingSubType>
+		<FinishingSubType name="Панели МДФ"></FinishingSubType>
+		<FinishingSubType name="Панели ПВХ"></FinishingSubType>
+		<FinishingSubType name="Пробковые панели"></FinishingSubType>
+	</FinishingType>
+	<FinishingType name="Напольные покрытия">
+		<FinishingSubType name="Аксессуары для укладки напольных покрытий"></FinishingSubType>
+		<FinishingSubType name="Инженерная доска"></FinishingSubType>
+		<FinishingSubType name="Ковролин"></FinishingSubType>
+		<FinishingSubType name="Ламинат"></FinishingSubType>
+		<FinishingSubType name="Линолеум"></FinishingSubType>
+		<FinishingSubType name="Массивная доска"></FinishingSubType>
+		<FinishingSubType name="Паркетная доска"></FinishingSubType>
+		<FinishingSubType name="Плинтусы и пороги"></FinishingSubType>
+		<FinishingSubType name="Плитка ПВХ"></FinishingSubType>
+		<FinishingSubType name="Подложка"></FinishingSubType>
+		<FinishingSubType name="Пробковый пол"></FinishingSubType>
+	</FinishingType>
+	<FinishingType name="Фасадные материалы">
+		<FinishingSubType name="Декоративный камень"></FinishingSubType>
+		<FinishingSubType name="Клинкерная плитка"></FinishingSubType>
+		<FinishingSubType name="Сайдинг"></FinishingSubType>
+		<FinishingSubType name="Фасадные панели"></FinishingSubType>
+	</FinishingType>
+	<FinishingType name="Потолочная плитка и декор">
+		<FinishingSubType name="Декор потолка"></FinishingSubType>
+		<FinishingSubType name="Отделочный профиль, уголки"></FinishingSubType>
+		<FinishingSubType name="Потолочная плитка"></FinishingSubType>
+		<FinishingSubType name="Потолочные плинтусы"></FinishingSubType>
+	</FinishingType>
+	<FinishingType name="Уличные покрытия">
+		<FinishingSubType name="Газонная решётка"></FinishingSubType>
+		<FinishingSubType name="Искусственная трава"></FinishingSubType>
+		<FinishingSubType name="Тротуарная плитка и брусчатка"></FinishingSubType>
+		<FinishingSubType name="Бордюр"></FinishingSubType>
+	</FinishingType>
+	<FinishingType name="Другое"></FinishingType>
+</Finishing>

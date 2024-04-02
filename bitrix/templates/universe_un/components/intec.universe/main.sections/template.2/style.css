@@ -1,0 +1,142 @@
+.widget.c-sections.c-sections-template-2 .widget-element {
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.widget.c-sections.c-sections-template-2 .widget-element[data-picture-size=big] .widget-element-picture {
+  width: 120px;
+  height: 120px;
+}
+.widget.c-sections.c-sections-template-2 .widget-title.align-center.widget-title-margin {
+  margin-left: 150px;
+}
+.widget.c-sections.c-sections-template-2 .widget-all-container {
+  text-align: right;
+}
+.widget.c-sections.c-sections-template-2 .widget-title-container + .widget-all-container {
+  width: 150px;
+  overflow: hidden;
+}
+.widget.c-sections.c-sections-template-2 .widget-all-container i {
+  display: none;
+  font-size: 19px;
+}
+.widget.c-sections.c-sections-template-2 .widget-all-button {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  color: #808080;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.widget.c-sections.c-sections-template-2 .widget-element-wrap {
+  overflow: hidden;
+}
+.widget.c-sections.c-sections-template-2 .widget-element-wrap:last-child .widget-element {
+  padding-bottom: 0;
+}
+.widget.c-sections.c-sections-template-2 .widget-element-picture {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.widget.c-sections.c-sections-template-2 .widget-element-text {
+  padding-left: 25px;
+  overflow: hidden;
+}
+.widget.c-sections.c-sections-template-2 .widget-element-name {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #222222;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.widget.c-sections.c-sections-template-2 .widget-element-section {
+  padding-top: 10px;
+  margin: -3px -7px;
+}
+.widget.c-sections.c-sections-template-2 .widget-element-section-element {
+  font-size: 13px;
+  line-height: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 3px 7px;
+}
+.widget.c-sections.c-sections-template-2 .widget-element-section-name {
+  text-decoration: none;
+  color: #666666;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.widget.c-sections.c-sections-template-2 .widget-element-section-count {
+  color: #222222;
+}
+.widget.c-sections.c-sections-template-2 .intec-grid-item-2 .widget-element-section {
+  font-size: 0;
+}
+.widget.c-sections.c-sections-template-2 .intec-grid-item-2 .widget-element-section-element {
+  display: inline-block;
+}
+@media all and (max-width: 1000px) {
+  .widget.c-sections.c-sections-template-2 .intec-grid-item-2 .widget-element-section-element {
+    display: block;
+  }
+  .widget.c-sections.c-sections-template-2[data-picture-size=big] .widget-element-picture {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media all and (max-width: 768px) {
+  .widget.c-sections.c-sections-template-2[data-picture-size=big] .widget-element-picture {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media all and (max-width: 550px) {
+  .widget.c-sections.c-sections-template-2 .widget-title.align-center.widget-title-margin {
+    margin-left: 20px;
+  }
+  .widget.c-sections.c-sections-template-2 .widget-title-container + .widget-all-container.mobile {
+    width: 20px;
+    max-height: 36px;
+  }
+  .widget.c-sections.c-sections-template-2 .widget-all-container.mobile i {
+    display: inline-block;
+  }
+  .widget.c-sections.c-sections-template-2 .widget-all-container.mobile span {
+    display: none;
+  }
+  .widget.c-sections.c-sections-template-2 .widget-all-container.mobile + .widget-all-button {
+    width: 20px;
+  }
+  .widget.c-sections.c-sections-template-2 .widget-element {
+    padding-right: 0;
+  }
+  .widget.c-sections.c-sections-template-2 .widget-element-section {
+    font-size: 0;
+  }
+  .widget.c-sections.c-sections-template-2 .widget-element-section-element {
+    display: inline-block !important;
+    margin-bottom: 4px;
+    margin-right: 15px;
+    line-height: 18px;
+    white-space: initial;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

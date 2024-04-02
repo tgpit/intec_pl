@@ -1,0 +1,156 @@
+@import './../../../../sources/styles/include.scss';
+
+$component: 'faq';
+$template: 'template-4';
+$item: 'widget-item';
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+
+  .widget-items {
+
+    @include transition(0.4s, height);
+
+    &[data-expanded='false'] {
+
+      .#{$item} {
+
+        &[data-action='hide'] {
+          opacity: 0;
+        }
+      }
+    }
+
+    &[data-expanded='true'] {
+
+      .#{$item} {
+
+        &[data-action='hide'] {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .#{$item} {
+    background-color: #ffffff;
+    border: 1px solid #E8E8E8;
+    border-top: none;
+
+    &:first-child {
+      border-top: 1px solid #E8E8E8;
+    }
+
+    &[data-expanded='true'] {
+
+      .#{$item}-name-icon {
+
+        @include transform-rotate(180deg);
+      }
+    }
+
+    &[data-action='hide'] {
+
+      @include transition(0.4s, opacity);
+    }
+  }
+
+  .#{$item}-name {
+    display: block;
+    position: relative;
+    padding: 24px 60px 24px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #404040;
+    word-break: break-word;
+    cursor: pointer;
+  }
+  .#{$item}-name-icon {
+    display: inline-block;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+    @include transition(0.3s, all);
+  }
+  .#{$item}-content {
+    display: none;
+    padding: 0 32px;
+  }
+  .#{$item}-description {
+    display: block;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #808080;
+  }
+
+  .widget-list-desktop {
+
+    &.align-left {
+      text-align: left;
+    }
+
+    &.align-center {
+      text-align: center;
+    }
+
+    &.align-right {
+      text-align: right;
+    }
+  }
+
+  .widget-list-mobile {
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+
+    svg {
+      path {
+        stroke: #B0B0B0;
+        @include transition(.35s, stroke);
+      }
+    }
+  }
+
+  .widget-button {
+    padding: 20px 36px;
+    border-width: 1px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #fff !important;
+    }
+  }
+
+  @include breakpoint-custom(500) {
+    .widget-header {
+
+      &[data-link-all="true"] {
+
+        .widget-title {
+
+          &.align-center {
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+
+    .widget-list-desktop {
+      display: none;
+    }
+
+    .widget-list-mobile {
+      display: block;
+    }
+  }
+}

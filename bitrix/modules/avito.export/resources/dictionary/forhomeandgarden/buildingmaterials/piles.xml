@@ -1,0 +1,12 @@
+<Piles>
+	<PileType name="Буронабивная"></PileType>
+	<PileType name="Винтовая"></PileType>
+	<PileType name="Забивная"></PileType>
+	<PileType name="Шпунтовая"></PileType>
+	<PileType name="Наконечник для сваи"></PileType>
+	<PileType name="Оголовок для сваи"></PileType>
+	<PileType name="Другой"></PileType>
+	<PileMaterial name="Дерево"></PileMaterial>
+	<PileMaterial name="Железобетон"></PileMaterial>
+	<PileMaterial name="Металл"></PileMaterial>
+</Piles>

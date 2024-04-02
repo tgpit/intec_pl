@@ -1,0 +1,39 @@
+.ns-bitrix.c-catalog-section.c-catalog-section-products-additional-1 {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-additional-1 .catalog-section-items {
+  margin: -5px 0;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-additional-1 .catalog-section-item {
+  display: block;
+  padding: 5px 0;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-additional-1 .catalog-section-item[data-basket-state=added] .catalog-section-item-switch-control {
+  display: none;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-additional-1 .catalog-section-item[data-basket-state=added] .catalog-section-item-switch-state {
+  display: block;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-additional-1 .catalog-section-total-price {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #808080;
+  margin: 7px 0 0 0;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-additional-1 .catalog-section-total-price[data-active=false] {
+  display: none;
+}
+.ns-bitrix.c-catalog-section.c-catalog-section-products-additional-1 .catalog-section-total-price-value {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #404040;
+  margin: 0 0 0 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

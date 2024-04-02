@@ -1,0 +1,122 @@
+$component: 'advantages';
+$template: 'template-34';
+$item: 'widget-item';
+
+@mixin transition ($property, $duration) {
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -ms-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -ms-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.widget.c-#{$component}.c-#{$component}-#{$template} {
+  padding: 60px 0;
+
+  .widget-header-wrapper {
+    padding-right: 80px;
+  }
+
+  .widget-header .widget-title {
+    font-size: 24px;
+    line-height: 30px;
+    color: #404040;
+  }
+
+  .widget-header .widget-description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+    margin-top: 16px;
+  }
+
+  .widget-header + .widget-content {
+    margin-top: 0;
+  }
+
+  .widget-button-wrap {
+    margin-top: 24px;
+  }
+
+  .widget-items-wrap {
+    overflow: hidden;
+  }
+
+  .widget-items {
+    margin: -16px 0;
+  }
+
+  .#{$item} {
+    padding: 16px 0;
+  }
+
+  @media all and (max-width: 1000px) {
+    .widget-header-wrapper {
+      padding-right: 0px;
+      padding-bottom: 32px;
+    }
+  }
+
+  .#{$item}-information {
+    font-size: 14px;
+    line-height: 22px;
+    color: #404040;
+  }
+  .#{$item}-count {
+    font-weight: 500;
+  }
+  .#{$item}-information + .#{$item}-line {
+    margin-top: 12px;
+  }
+  .#{$item}-line {
+    height: 8px;
+    background: #E7F1FF;
+    width: 100%;
+  }
+  .#{$item}-subline {
+    height: 8px;
+    width: 0;
+    display: block;
+
+    @include transition(width, 1s);
+  }
+
+  &[data-theme="dark"] {
+    .widget-header .widget-title {
+      color: #ffffff;
+    }
+    .widget-header .widget-description {
+      color: #ffffff;
+    }
+    .#{$item}-number {
+      color: #ffffff;
+    }
+    .#{$item}-description {
+      color: #ffffff;
+    }
+    .#{$item}-information {
+      color: #ffffff;
+    }
+  }
+
+  &[data-button-align="left"] {
+    .widget-button-wrap {
+      text-align: left;
+    }
+  }
+  &[data-button-align="center"] {
+    .widget-button-wrap {
+      text-align: center;
+    }
+  }
+  &[data-button-align="right"] {
+    .widget-button-wrap {
+      text-align: right;
+    }
+  }
+}

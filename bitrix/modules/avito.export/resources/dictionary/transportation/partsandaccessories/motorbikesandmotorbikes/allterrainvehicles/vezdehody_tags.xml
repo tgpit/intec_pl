@@ -1,0 +1,31 @@
+<VezdehodyTags>
+	<Type name="Гусеничный">
+		<TrackWidth variable="int"></TrackWidth>
+	</Type>
+	<Type name="Колёсный"></Type>
+	<Type name="Самодельный"></Type>
+	<EngineType name="Бензин"></EngineType>
+	<EngineType name="Дизель"></EngineType>
+	<Power variable="int"></Power>
+	<EngineCapacity variable="int"></EngineCapacity>
+	<FuelFeed name="Карбюратор"></FuelFeed>
+	<FuelFeed name="Инжектор"></FuelFeed>
+	<DriveType name="Цепь"></DriveType>
+	<DriveType name="Ремень"></DriveType>
+	<DriveType name="Кардан"></DriveType>
+	<Stroke name="2"></Stroke>
+	<Stroke name="4"></Stroke>
+	<PersonCapacity variable="int"></PersonCapacity>
+	<LoadCapacity variable="int"></LoadCapacity>
+	<VIN variable="int"></VIN>
+	<TechnicalPassport name="Оригинал"></TechnicalPassport>
+	<TechnicalPassport name="Дубликат"></TechnicalPassport>
+	<TechnicalPassport name="Электронный"></TechnicalPassport>
+	<TechnicalPassport name="Нет"></TechnicalPassport>
+	<AdditionalOptions name="Электростартер"></AdditionalOptions>
+	<AdditionalOptions name="Антиблокировочная система (ABS)"></AdditionalOptions>
+	<AdditionalOptions name="Трэкшн-контроль (TCS)"></AdditionalOptions>
+	<AdditionalOptions name="Система «старт-стоп»"></AdditionalOptions>
+	<AdditionalOptions name="Ветровое стекло"></AdditionalOptions>
+	<AdditionalOptions name="Кофр"></AdditionalOptions>
+</VezdehodyTags>
