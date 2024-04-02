@@ -722,12 +722,14 @@
 	<Brand name="Aceline">
 		<Model name="24HEN1"></Model>
 		<Model name="24HHS1"></Model>
+		<Model name="24HHY1"></Model>
 		<Model name="32HEN1"></Model>
 		<Model name="32HHS1"></Model>
 		<Model name="32HHY1"></Model>
 		<Model name="40FEN1"></Model>
 		<Model name="43FEN1"></Model>
 		<Model name="55UCA1"></Model>
+		<Model name="65UCA1"></Model>
 	</Brand>
 	<Brand name="Acer">
 		<Model name="AL2603W"></Model>
@@ -1349,6 +1351,7 @@
 		<Model name="87 ТЦ-02 ПС 883"></Model>
 		<Model name="87 ТЦ-03"></Model>
 		<Model name="TRB-2158"></Model>
+		<Model name="ТЦС-2101"></Model>
 	</Brand>
 	<Brand name="BAFF">
 		<Model name="24 STV-HTSr"></Model>
@@ -1356,6 +1359,7 @@
 		<Model name="32 HTV-HTSr"></Model>
 		<Model name="32 STV-ATSr"></Model>
 		<Model name="32 STV-HTSr"></Model>
+		<Model name="32Y HD-R"></Model>
 		<Model name="32Y STV-R"></Model>
 		<Model name="40 FTV-ATSr"></Model>
 		<Model name="40 STV-ATSr"></Model>
@@ -1454,6 +1458,7 @@
 		<Model name="24LEM-1037/FT2C"></Model>
 		<Model name="24LEM-1037/T2C"></Model>
 		<Model name="24LEM-1043/T2C"></Model>
+		<Model name="24LEM-1049/T2C"></Model>
 		<Model name="24LEM-1055/FT2C"></Model>
 		<Model name="24LEM-1056/FT2C"></Model>
 		<Model name="24LEM-1056/T2C"></Model>
@@ -1616,6 +1621,7 @@
 		<Model name="32LEX-7250/TS2C"></Model>
 		<Model name="32LEX-7252/TS2C"></Model>
 		<Model name="32LEX-7254/TS2C"></Model>
+		<Model name="32LEX-7259/TS2C"></Model>
 		<Model name="32LEX-7264/TS2C"></Model>
 		<Model name="32LEX-7265/TS2C"></Model>
 		<Model name="32LEX-7268/TS2C"></Model>
@@ -1721,6 +1727,7 @@
 		<Model name="40LEX-7259/FTS2C"></Model>
 		<Model name="40LEX-7270/FTS2C"></Model>
 		<Model name="40LEX-7272/FTS2C"></Model>
+		<Model name="40LEX-9201/FTS2C"></Model>
 		<Model name="42LEM-1009/FT2C"></Model>
 		<Model name="42LEM-1023/FTS2C"></Model>
 		<Model name="42LEM-1024/FTS2C"></Model>
@@ -1762,6 +1769,7 @@
 		<Model name="43LEM-1052/FTS2C"></Model>
 		<Model name="43LEM-1056/FTS2C"></Model>
 		<Model name="43LEM-1058/FTS2C"></Model>
+		<Model name="43LEM-1060/FTS2C"></Model>
 		<Model name="43LEM-1063/FTS2C"></Model>
 		<Model name="43LEM-1070/FT2C"></Model>
 		<Model name="43LEM-1071/FTS2C"></Model>
@@ -1886,6 +1894,7 @@
 		<Model name="55LEX-8174/UTS2C"></Model>
 		<Model name="55LEX-8178/UTS2C"></Model>
 		<Model name="55LEX-8243/UTS2C"></Model>
+		<Model name="55LEX-8264/UTS2C"></Model>
 		<Model name="55LEX-8272/UTS2C"></Model>
 		<Model name="55LEX-8280/UTS2C"></Model>
 		<Model name="55LEX-8287"></Model>
@@ -1907,6 +1916,7 @@
 		<Model name="65LEX-8173/UTS2C"></Model>
 		<Model name="65LEX-8174/UTS2C"></Model>
 		<Model name="65LEX-8202/UTS2C"></Model>
+		<Model name="65LEX-8204/UTS2C"></Model>
 		<Model name="65LEX-8207/UTS2C"></Model>
 		<Model name="65LEX-8234/UTS2C"></Model>
 		<Model name="65LEX-8243"></Model>
@@ -2326,6 +2336,7 @@
 		<Model name="65SU11B"></Model>
 		<Model name="65SU23G"></Model>
 		<Model name="75FSU01B"></Model>
+		<Model name="75FSU02B"></Model>
 		<Model name="75FSU15B"></Model>
 		<Model name="86FSU02B"></Model>
 	</Brand>
@@ -2721,6 +2732,7 @@
 		<Model name="Bt 2403B"></Model>
 		<Model name="Bt 2404B"></Model>
 		<Model name="Bt 24S02B"></Model>
+		<Model name="Bt 3208B"></Model>
 		<Model name="Bt 3210B"></Model>
 		<Model name="Bt 32S01B"></Model>
 		<Model name="Bt 32S05B"></Model>
@@ -2752,6 +2764,7 @@
 		<Model name="32FB5000T"></Model>
 		<Model name="32FBC5000"></Model>
 		<Model name="32HBC5000"></Model>
+		<Model name="32HW5000T"></Model>
 		<Model name="32WB965T"></Model>
 		<Model name="32WC955"></Model>
 		<Model name="32WC965T"></Model>
@@ -2789,6 +2802,7 @@
 		<Model name="65UN265T"></Model>
 		<Model name="65UN965T"></Model>
 		<Model name="65UW5000T"></Model>
+		<Model name="BLA-40/233I-GB-5B2-FHBKU-EU"></Model>
 	</Brand>
 	<Brand name="Bose">
 		<Model name="VideoWave Entertainment System"></Model>
@@ -2823,6 +2837,7 @@
 		<Model name="LCT-32H09"></Model>
 		<Model name="LET-15T03"></Model>
 		<Model name="TV-8700S"></Model>
+		<Model name="TV-M420"></Model>
 	</Brand>
 	<Brand name="CENTEK">
 		<Model name="CT-8024"></Model>
@@ -2863,6 +2878,7 @@
 		<Model name="CT-8732"></Model>
 		<Model name="CT-8740"></Model>
 		<Model name="CT-8743"></Model>
+		<Model name="CT-8750"></Model>
 	</Brand>
 	<Brand name="CITIZEN">
 		<Model name="LCD T530"></Model>
@@ -2916,6 +2932,9 @@
 		<Model name="Uno 50"></Model>
 		<Model name="Uno 55"></Model>
 		<Model name="Uno 65"></Model>
+	</Brand>
+	<Brand name="Carrera">
+		<Model name="504"></Model>
 	</Brand>
 	<Brand name="Changhong">
 		<Model name="08"></Model>
@@ -3304,11 +3323,13 @@
 		<Model name="32A7000"></Model>
 		<Model name="32FCY1"></Model>
 		<Model name="32FKN1"></Model>
+		<Model name="32HHG1"></Model>
 		<Model name="32HHS1"></Model>
 		<Model name="32HHY1"></Model>
 		<Model name="32HKN1"></Model>
 		<Model name="40A7000"></Model>
 		<Model name="40A7100"></Model>
+		<Model name="40FCY1"></Model>
 		<Model name="40FKN1"></Model>
 		<Model name="42A7000"></Model>
 		<Model name="42A8000"></Model>
@@ -3332,6 +3353,8 @@
 		<Model name="55A8000"></Model>
 		<Model name="55UCS1"></Model>
 		<Model name="55UCY1"></Model>
+		<Model name="55UCY2/G"></Model>
+		<Model name="65UCS1"></Model>
 		<Model name="65UCS1/G"></Model>
 		<Model name="65UCY1"></Model>
 		<Model name="65UCY2/G"></Model>
@@ -3589,6 +3612,7 @@
 		<Model name="H39F7000Q/W"></Model>
 		<Model name="H39F8000Q"></Model>
 		<Model name="H39G8000Q"></Model>
+		<Model name="Q501"></Model>
 		<Model name="Q551"></Model>
 		<Model name="Q651"></Model>
 		<Model name="Q751"></Model>
@@ -3847,6 +3871,11 @@
 		<Model name="DM-LED55UQ31"></Model>
 		<Model name="DM-LED55UQ32"></Model>
 		<Model name="DM-LED65UQ33"></Model>
+		<Model name="PRO QLED 43L"></Model>
+		<Model name="PRO QLED 55L"></Model>
+		<Model name="PRO QLED 65L"></Model>
+		<Model name="PRO UHD 43C"></Model>
+		<Model name="PRO UHD 55C"></Model>
 	</Brand>
 	<Brand name="DMTECH">
 		<Model name="LT20XT"></Model>
@@ -3960,12 +3989,14 @@
 		<Model name="55DM54UA"></Model>
 		<Model name="55DM55UQP"></Model>
 		<Model name="65DH55UQ"></Model>
+		<Model name="65DH55UQMS"></Model>
 		<Model name="65DM54UA"></Model>
 		<Model name="70DH55UQ"></Model>
 		<Model name="70DM54UA"></Model>
 		<Model name="D50 DM55 UQPNS"></Model>
 		<Model name="D55DH55UQMS"></Model>
 		<Model name="D55DM54UANS"></Model>
+		<Model name="D65DH55UQNS"></Model>
 		<Model name="DCS-2037VR"></Model>
 		<Model name="DLP-19H1"></Model>
 		<Model name="DLP-19L1"></Model>
@@ -4457,6 +4488,7 @@
 		<Model name="65DUS86"></Model>
 		<Model name="65DUS93"></Model>
 		<Model name="65EUS89"></Model>
+		<Model name="65GUS86"></Model>
 		<Model name="65KUS65"></Model>
 		<Model name="75EUS89"></Model>
 	</Brand>
@@ -4556,6 +4588,7 @@
 		<Model name="EX-32HT015B"></Model>
 		<Model name="EX-32HT016B"></Model>
 		<Model name="EX-32HT017B"></Model>
+		<Model name="EX-32HT019B"></Model>
 		<Model name="EX-39HS001"></Model>
 		<Model name="EX-39HS002B"></Model>
 		<Model name="EX-39HS003B"></Model>
@@ -4589,10 +4622,12 @@
 		<Model name="EX-43FS002B"></Model>
 		<Model name="EX-43FS003B"></Model>
 		<Model name="EX-43FS004B"></Model>
+		<Model name="EX-43FS005B"></Model>
 		<Model name="EX-43FT001B"></Model>
 		<Model name="EX-43FT002B"></Model>
 		<Model name="EX-43FT003B"></Model>
 		<Model name="EX-43FT004B"></Model>
+		<Model name="EX-43FT005B"></Model>
 		<Model name="EX-43US001B"></Model>
 		<Model name="EX-50FS001B"></Model>
 		<Model name="EX-50US001B"></Model>
@@ -4648,10 +4683,14 @@
 		<Model name="CTR-1498"></Model>
 		<Model name="CTR-2036EMK"></Model>
 		<Model name="CTR-20T39EMK"></Model>
+		<Model name="CTR-2166DS"></Model>
 		<Model name="CTR-25ST00EMK"></Model>
 		<Model name="CTV-1430"></Model>
 		<Model name="E-707"></Model>
 		<Model name="TVCR 2010-NEMK"></Model>
+	</Brand>
+	<Brand name="Elektra">
+		<Model name="tv-9000"></Model>
 	</Brand>
 	<Brand name="Elenberg">
 		<Model name="1401"></Model>
@@ -4676,6 +4715,7 @@
 		<Model name="2130"></Model>
 		<Model name="2136P"></Model>
 		<Model name="2170F"></Model>
+		<Model name="2185F"></Model>
 		<Model name="21A2"></Model>
 		<Model name="21F08"></Model>
 		<Model name="21F09"></Model>
@@ -4806,8 +4846,10 @@
 		<Model name="T320SP"></Model>
 	</Brand>
 	<Brand name="Eplutus">
+		<Model name="121T"></Model>
 		<Model name="EP-122T"></Model>
 		<Model name="EP-133T"></Model>
+		<Model name="EP-143T"></Model>
 		<Model name="EP-145T"></Model>
 		<Model name="EP-1500"></Model>
 		<Model name="EP-1501"></Model>
@@ -4824,6 +4866,7 @@
 		<Model name="EP-221Т"></Model>
 		<Model name="EP-240T"></Model>
 		<Model name="EP-700T"></Model>
+		<Model name="EP-7057"></Model>
 		<Model name="EP-900T"></Model>
 		<Model name="EP-9511"></Model>
 		<Model name="LS-107T"></Model>
@@ -5008,6 +5051,7 @@
 		<Model name="2108"></Model>
 		<Model name="2109"></Model>
 		<Model name="2120"></Model>
+		<Model name="2150"></Model>
 		<Model name="21F1"></Model>
 		<Model name="21F2"></Model>
 		<Model name="21F23"></Model>
@@ -5225,6 +5269,7 @@
 		<Model name="32LEA18T2 Smart"></Model>
 		<Model name="32LEA19T2 Smart"></Model>
 		<Model name="32LEA20T2 Smart"></Model>
+		<Model name="32LEA20T2SM"></Model>
 		<Model name="32LEA21T2W Smart"></Model>
 		<Model name="32LEA28T2"></Model>
 		<Model name="32LEA70T2"></Model>
@@ -5286,6 +5331,7 @@
 		<Model name="32LES78T2W"></Model>
 		<Model name="32LES800T2"></Model>
 		<Model name="32LES801T2"></Model>
+		<Model name="32LES802T2"></Model>
 		<Model name="32LES80T2"></Model>
 		<Model name="32LES80T2 Smart"></Model>
 		<Model name="32LES81T2"></Model>
@@ -5559,6 +5605,7 @@
 		<Model name="ET-2950"></Model>
 		<Model name="ET-2975"></Model>
 		<Model name="ET-2985A"></Model>
+		<Model name="Evgo ET-2550"></Model>
 	</Brand>
 	<Brand name="Exmork">
 		<Model name="2228C"></Model>
@@ -5672,6 +5719,7 @@
 		<Model name="HTM-42A"></Model>
 		<Model name="MYRICA P50-2"></Model>
 		<Model name="MYRICA V32-1"></Model>
+		<Model name="Myrica P42-2"></Model>
 		<Model name="Myrica PQ50-1"></Model>
 		<Model name="Myrica V27-1"></Model>
 		<Model name="Myrica V30-1"></Model>
@@ -5683,6 +5731,7 @@
 		<Model name="P42HHS30"></Model>
 		<Model name="P42HTA51RS"></Model>
 		<Model name="P42HTS40"></Model>
+		<Model name="P42HTS40RS"></Model>
 		<Model name="P42VCA21"></Model>
 		<Model name="P42VHA30"></Model>
 		<Model name="P50XHA10E"></Model>
@@ -5759,6 +5808,7 @@
 		<Model name="FLTV-22T100T"></Model>
 		<Model name="FLTV-22T9"></Model>
 		<Model name="FLTV-22W7"></Model>
+		<Model name="FLTV-22W9D"></Model>
 		<Model name="FLTV-23L18B"></Model>
 		<Model name="FLTV-24A310"></Model>
 		<Model name="FLTV-24AS210"></Model>
@@ -5784,6 +5834,7 @@
 		<Model name="FLTV-28C11"></Model>
 		<Model name="FLTV-28C12"></Model>
 		<Model name="FLTV-28K62"></Model>
+		<Model name="FLTV-28T21"></Model>
 		<Model name="FLTV-28T25"></Model>
 		<Model name="FLTV-29L28B"></Model>
 		<Model name="FLTV-30B100"></Model>
@@ -5911,12 +5962,14 @@
 		<Model name="CF-14D60B"></Model>
 		<Model name="CF-14E20B"></Model>
 		<Model name="CF-20A80Y"></Model>
+		<Model name="CF-20B70Y"></Model>
 		<Model name="CF-20D10B"></Model>
 		<Model name="CF-20D60B"></Model>
 		<Model name="CF-20D70B"></Model>
 		<Model name="CF-20E20B"></Model>
 		<Model name="CF-20E60"></Model>
 		<Model name="CF-21A80Y"></Model>
+		<Model name="CF-21A90B"></Model>
 		<Model name="CF-21B70Y"></Model>
 		<Model name="CF-21C22X"></Model>
 		<Model name="CF-21D10B"></Model>
@@ -6030,6 +6083,7 @@
 		<Model name="37VLE9270BR"></Model>
 		<Model name="37VLE9272CL"></Model>
 		<Model name="40 GGF 6900B"></Model>
+		<Model name="40 GHF 6500"></Model>
 		<Model name="40FLE9170SH"></Model>
 		<Model name="40FLE9270BR"></Model>
 		<Model name="40FLE9270SR"></Model>
@@ -6041,6 +6095,7 @@
 		<Model name="40VLE8130BF"></Model>
 		<Model name="40VLE8270BH"></Model>
 		<Model name="40VLE8270WR"></Model>
+		<Model name="42VLC9142C"></Model>
 		<Model name="42VLE9270BR"></Model>
 		<Model name="42VLE9272CL"></Model>
 		<Model name="42VLE9372 SL/BL/WL"></Model>
@@ -6050,6 +6105,7 @@
 		<Model name="43 GGF 6900B"></Model>
 		<Model name="43 GGU 7902A"></Model>
 		<Model name="43 GGU 7950A"></Model>
+		<Model name="43 GHU 7830"></Model>
 		<Model name="43 GHU 7980"></Model>
 		<Model name="46VLE630"></Model>
 		<Model name="46VLE7230WR"></Model>
@@ -6059,6 +6115,7 @@
 		<Model name="47VLE9372 SL/BL/WL"></Model>
 		<Model name="47VLE9381SL"></Model>
 		<Model name="47VLE983 BH/WH"></Model>
+		<Model name="48 VLX 8481 BL"></Model>
 		<Model name="48VLE4520BM"></Model>
 		<Model name="50 GFU 7800B"></Model>
 		<Model name="50 GGU 7950A"></Model>
@@ -6072,6 +6129,7 @@
 		<Model name="55 GHU 7830"></Model>
 		<Model name="55 GHU 7980"></Model>
 		<Model name="55 GOB 9290"></Model>
+		<Model name="55 NANO GH 8100"></Model>
 		<Model name="55 OLED GG 970B"></Model>
 		<Model name="55FLE9270BR"></Model>
 		<Model name="55FLE9270SR"></Model>
@@ -6083,8 +6141,10 @@
 		<Model name="65 GGU 7900B"></Model>
 		<Model name="65 GGU 7970A"></Model>
 		<Model name="65 GGU 8960"></Model>
+		<Model name="65 NANO GH 8100"></Model>
 		<Model name="65 OLED GG 970B"></Model>
 		<Model name="65GHU7830"></Model>
+		<Model name="65GHU7980"></Model>
 		<Model name="65GOB9290"></Model>
 		<Model name="75 GHU 7930"></Model>
 		<Model name="82 MFW 82-530/9 DPL"></Model>
@@ -6092,6 +6152,7 @@
 		<Model name="ARGANTO 70 Flat MFW 70-530/9 DPL"></Model>
 		<Model name="Arcance 55 T 55-5211"></Model>
 		<Model name="Arcance 72 Flat TF 72-5211"></Model>
+		<Model name="Cinaro 72 Flat MF72-5410/7"></Model>
 		<Model name="DAVIO 37 P 37-4101"></Model>
 		<Model name="DAVIO 55 T 55-4101"></Model>
 		<Model name="FINE ARTS MFW 82-730/9 DVD"></Model>
@@ -6120,6 +6181,8 @@
 		<Model name="LXW 94-9650 FHD"></Model>
 		<Model name="Lenaro 19 LXW 49-7711"></Model>
 		<Model name="M 70-290/8"></Model>
+		<Model name="M 84-211/8 IDTV"></Model>
+		<Model name="M72-410/9"></Model>
 		<Model name="M95-411"></Model>
 		<Model name="MF 72-430/8 Dolby"></Model>
 		<Model name="MFW 82-720/9 DVD"></Model>
@@ -6177,6 +6240,7 @@
 		<Model name="55HRP8508"></Model>
 	</Brand>
 	<Brand name="HANNSPREE">
+		<Model name="HSG1075"></Model>
 		<Model name="HSG1143"></Model>
 		<Model name="T094"></Model>
 	</Brand>
@@ -6206,6 +6270,7 @@
 		<Model name="28R6752T"></Model>
 		<Model name="28R6753T"></Model>
 		<Model name="28RO770WU"></Model>
+		<Model name="32H11T"></Model>
 		<Model name="32H31T"></Model>
 		<Model name="32R0550Т"></Model>
 		<Model name="32R470T"></Model>
@@ -6283,6 +6348,7 @@
 		<Model name="40F011B-T2"></Model>
 		<Model name="HT-24H06B-VZ 24"></Model>
 		<Model name="HT-32H06B-VZ"></Model>
+		<Model name="HTM-32HDR06B-S2"></Model>
 		<Model name="HTM-43FHD06B-S2"></Model>
 		<Model name="HTS-32HDR05B-S2"></Model>
 		<Model name="HTV-22F011B-T2/PVR"></Model>
@@ -6339,6 +6405,7 @@
 		<Model name="HTY-50UHD11B-S2"></Model>
 		<Model name="HTY-50UHDO11G-HC22"></Model>
 		<Model name="HTY-50UHDO11MG-HC22"></Model>
+		<Model name="HTY-55U11B-VS"></Model>
 		<Model name="HTY-55U11S-VD"></Model>
 		<Model name="HTY-55UHD05B-S2"></Model>
 		<Model name="HTY-55UHD06B-S2"></Model>
@@ -6383,6 +6450,7 @@
 	<Brand name="HIPER">
 		<Model name="H24YQ2200GR"></Model>
 		<Model name="H32YQ2200GR"></Model>
+		<Model name="QL43UD700AD"></Model>
 		<Model name="QL50UD700AD"></Model>
 		<Model name="QL55UD700AD"></Model>
 		<Model name="QL65UD700AD"></Model>
@@ -6395,6 +6463,7 @@
 		<Model name="43F6-A2EU"></Model>
 	</Brand>
 	<Brand name="HOLLEBERG">
+		<Model name="HGTV-LED43FHD101T2"></Model>
 		<Model name="HGTV-LED55UHDS101T2"></Model>
 		<Model name="HGTV-LED65UHDS100T2"></Model>
 		<Model name="HTV-LED32HD100T2"></Model>
@@ -6438,6 +6507,7 @@
 		<Model name="43 Smart TV MX Light"></Model>
 		<Model name="43 Smart TV S1"></Model>
 		<Model name="43 Smart TV S3"></Model>
+		<Model name="43 Smart TV S4"></Model>
 		<Model name="50 SMART TV BX"></Model>
 		<Model name="50 SMART TV DX"></Model>
 		<Model name="50 Smart TV AX Pro"></Model>
@@ -6447,7 +6517,9 @@
 		<Model name="50 Smart TV MX"></Model>
 		<Model name="50 Smart TV S1"></Model>
 		<Model name="50 Smart TV S3"></Model>
+		<Model name="50 Smart TV S4"></Model>
 		<Model name="50 Smart TV S5"></Model>
+		<Model name="55 OLED S9 Ultra"></Model>
 		<Model name="55 SMART TV BX"></Model>
 		<Model name="55 SMART TV HX LED"></Model>
 		<Model name="55 SMART TV S1"></Model>
@@ -6457,6 +6529,7 @@
 		<Model name="55 Smart TV DX2"></Model>
 		<Model name="55 Smart TV MX"></Model>
 		<Model name="55 Smart TV S3"></Model>
+		<Model name="55 Smart TV S4"></Model>
 		<Model name="58 SMART TV BX"></Model>
 		<Model name="58 Smart TV K6"></Model>
 		<Model name="58 Smart TV MX"></Model>
@@ -6483,6 +6556,7 @@
 		<Model name="H50K6UG"></Model>
 		<Model name="H55S9UG PRO"></Model>
 		<Model name="H65S9UG PRO"></Model>
+		<Model name="HEC R1 55 S 4K"></Model>
 		<Model name="HS-2198"></Model>
 		<Model name="HT3728"></Model>
 		<Model name="L24F6"></Model>
@@ -6558,6 +6632,7 @@
 		<Model name="LE65U6900UG"></Model>
 		<Model name="LE65X7000U"></Model>
 		<Model name="LE75U6600U"></Model>
+		<Model name="LET22T1000HF"></Model>
 		<Model name="LET22Z6"></Model>
 		<Model name="LET24Z6"></Model>
 		<Model name="LET26T1000HF"></Model>
@@ -6631,8 +6706,10 @@
 		<Model name="65US131XS"></Model>
 		<Model name="65USY151X"></Model>
 		<Model name="C14-RM50"></Model>
+		<Model name="RT-24H01FB"></Model>
 		<Model name="RX-32H01FB"></Model>
 		<Model name="RX-43U01FB"></Model>
+		<Model name="RY-65U01FB"></Model>
 		<Model name="VHIT-24H179MS"></Model>
 		<Model name="VHIT-32F102SS"></Model>
 		<Model name="VHIT-32H169MS"></Model>
@@ -6719,12 +6796,14 @@
 		<Model name="55A7500F"></Model>
 		<Model name="55A7GQ"></Model>
 		<Model name="55A85H"></Model>
+		<Model name="55A85K"></Model>
 		<Model name="55A8G"></Model>
 		<Model name="55AE7200F"></Model>
 		<Model name="55AE7400F"></Model>
 		<Model name="55E76GQ"></Model>
 		<Model name="55E7HQ"></Model>
 		<Model name="55E7KQ"></Model>
+		<Model name="55E7KQ PRO"></Model>
 		<Model name="55K321UWT"></Model>
 		<Model name="55U6KQ"></Model>
 		<Model name="55U7HQ"></Model>
@@ -6743,8 +6822,10 @@
 		<Model name="65A7500F"></Model>
 		<Model name="65A7GQ"></Model>
 		<Model name="65A85H"></Model>
+		<Model name="65A85K"></Model>
 		<Model name="65E7HQ"></Model>
 		<Model name="65E7KQ"></Model>
+		<Model name="65E7KQ PRO"></Model>
 		<Model name="65K321UW"></Model>
 		<Model name="65U6KQ"></Model>
 		<Model name="65U7HQ"></Model>
@@ -6755,6 +6836,8 @@
 		<Model name="75A6BG"></Model>
 		<Model name="75A6K"></Model>
 		<Model name="75A7GQ"></Model>
+		<Model name="75E7KQ"></Model>
+		<Model name="75E7KQ PRO"></Model>
 		<Model name="75U7KQ"></Model>
 		<Model name="75U8HQ"></Model>
 		<Model name="75U8KQ"></Model>
@@ -6824,12 +6907,14 @@
 		<Model name="H65U9A"></Model>
 		<Model name="H75N6800"></Model>
 		<Model name="H75U9A"></Model>
+		<Model name="HS24K300"></Model>
 		<Model name="LCD-32V88E"></Model>
 		<Model name="LCD1909DVD"></Model>
 		<Model name="LCD24V77"></Model>
 		<Model name="LCD3233NEU"></Model>
 		<Model name="LCD32V86"></Model>
 		<Model name="LCD32W61N"></Model>
+		<Model name="LCD4033EU"></Model>
 		<Model name="LED-N42K220DP"></Model>
 		<Model name="LED26K16"></Model>
 		<Model name="LED40K26P"></Model>
@@ -6858,6 +6943,8 @@
 		<Model name="Laser TV 100L9H"></Model>
 		<Model name="PDH4233"></Model>
 		<Model name="PDP4212EU"></Model>
+		<Model name="TF2988"></Model>
+		<Model name="TLM3733D"></Model>
 	</Brand>
 	<Brand name="Hitachi">
 		<Model name=" 43HK6W64"></Model>
@@ -6869,8 +6956,10 @@
 		<Model name="32H8L02"></Model>
 		<Model name="32H8S02"></Model>
 		<Model name="32HB4T62"></Model>
+		<Model name="32HB6T61"></Model>
 		<Model name="32HE1000R"></Model>
 		<Model name="32HE2000"></Model>
+		<Model name="32HE3000R"></Model>
 		<Model name="32HE4000"></Model>
 		<Model name="32HXC01"></Model>
 		<Model name="32HXT06"></Model>
@@ -6878,6 +6967,7 @@
 		<Model name="32HXT56"></Model>
 		<Model name="32LD8800TA"></Model>
 		<Model name="32LD9800TA"></Model>
+		<Model name="32PD5000"></Model>
 		<Model name="32PD7800TA"></Model>
 		<Model name="37LD8800TA"></Model>
 		<Model name="37LD9000TA"></Model>
@@ -6894,8 +6984,11 @@
 		<Model name="42PD7800TA"></Model>
 		<Model name="42PD8500TA"></Model>
 		<Model name="42PD8800TA"></Model>
+		<Model name="42PD8900TA"></Model>
 		<Model name="42PD9500TA"></Model>
 		<Model name="42PD9800TA"></Model>
+		<Model name="43HAE4351"></Model>
+		<Model name="43HB6T62"></Model>
 		<Model name="43HGW69"></Model>
 		<Model name="43HL15W64"></Model>
 		<Model name="49HB6W62"></Model>
@@ -6953,6 +7046,7 @@
 		<Model name="CMT-2400"></Model>
 		<Model name="CMT1460"></Model>
 		<Model name="CMT1461M"></Model>
+		<Model name="CMT2157"></Model>
 		<Model name="CMT2191"></Model>
 		<Model name="CMT2195"></Model>
 		<Model name="CMT2198"></Model>
@@ -6987,7 +7081,9 @@
 		<Model name="50GFU-FDVB"></Model>
 		<Model name="55FCUG-FDVB"></Model>
 		<Model name="55FU-FDVB"></Model>
+		<Model name="55GFU-FDVB"></Model>
 		<Model name="65FU-FDVB"></Model>
+		<Model name="65GFU-FDVB"></Model>
 	</Brand>
 	<Brand name="Horizont">
 		<Model name="14A01"></Model>
@@ -6999,6 +7095,7 @@
 		<Model name="19LE5206D"></Model>
 		<Model name="20A10"></Model>
 		<Model name="21A20"></Model>
+		<Model name="21A20M"></Model>
 		<Model name="21A21"></Model>
 		<Model name="21A40"></Model>
 		<Model name="21A48"></Model>
@@ -7008,6 +7105,7 @@
 		<Model name="21AF42L"></Model>
 		<Model name="21AF44"></Model>
 		<Model name="21AF52"></Model>
+		<Model name="21AF56"></Model>
 		<Model name="21BF22"></Model>
 		<Model name="21BF41"></Model>
 		<Model name="21BF42"></Model>
@@ -7017,6 +7115,7 @@
 		<Model name="24LCD825M"></Model>
 		<Model name="24LE3181"></Model>
 		<Model name="24LE5181D"></Model>
+		<Model name="25EF05"></Model>
 		<Model name="29CF54S"></Model>
 		<Model name="29CF57S"></Model>
 		<Model name="29EF07"></Model>
@@ -7153,6 +7252,7 @@
 		<Model name="H-LED22V1"></Model>
 		<Model name="H-LED22V13"></Model>
 		<Model name="H-LED22V14"></Model>
+		<Model name="H-LED22V15"></Model>
 		<Model name="H-LED22V16"></Model>
 		<Model name="H-LED22V20"></Model>
 		<Model name="H-LED22V25"></Model>
@@ -7282,6 +7382,7 @@
 		<Model name="H-LED43BU7008"></Model>
 		<Model name="H-LED43ES5001"></Model>
 		<Model name="H-LED43ES5004"></Model>
+		<Model name="H-LED43ET3000"></Model>
 		<Model name="H-LED43ET3001"></Model>
 		<Model name="H-LED43ET3003"></Model>
 		<Model name="H-LED43ET4100"></Model>
@@ -7289,6 +7390,7 @@
 		<Model name="H-LED43EU1312"></Model>
 		<Model name="H-LED43EU7001"></Model>
 		<Model name="H-LED43EU7008"></Model>
+		<Model name="H-LED43F308BT2"></Model>
 		<Model name="H-LED43F402BS2"></Model>
 		<Model name="H-LED43F408BT2S"></Model>
 		<Model name="H-LED43F501SS2S"></Model>
@@ -7317,6 +7419,7 @@
 		<Model name="H-LED50ET1003"></Model>
 		<Model name="H-LED50ET3001"></Model>
 		<Model name="H-LED50EU1311"></Model>
+		<Model name="H-LED50EU7000"></Model>
 		<Model name="H-LED50EU7001"></Model>
 		<Model name="H-LED50EU7008"></Model>
 		<Model name="H-LED50EU8000"></Model>
@@ -7344,6 +7447,7 @@
 		<Model name="H-LED55FU7001"></Model>
 		<Model name="H-LED55FU7004"></Model>
 		<Model name="H-LED55GU7003"></Model>
+		<Model name="H-LED55OBU7700"></Model>
 		<Model name="H-LED55QBU7500"></Model>
 		<Model name="H-LED55U601BS2S"></Model>
 		<Model name="H-LED55U602BS2S"></Model>
@@ -7360,6 +7464,7 @@
 		<Model name="H-LED65FU7003"></Model>
 		<Model name="H-LED65GU7001"></Model>
 		<Model name="H-LED65GU7003"></Model>
+		<Model name="H-LED65OBU7700"></Model>
 		<Model name="H-LED65QBU7500"></Model>
 		<Model name="H-LED75BU7002"></Model>
 		<Model name="H-LED75BU7005"></Model>
@@ -7457,9 +7562,12 @@
 		<Model name="24H1YDX133BS2"></Model>
 		<Model name="24H1YDX149BS2"></Model>
 		<Model name="24H1YDX160BS2"></Model>
+		<Model name="24H1YDX171BS2"></Model>
 		<Model name="24S01HD309B"></Model>
 		<Model name="24S30FD104B"></Model>
 		<Model name="24S31HD304B"></Model>
+		<Model name="24S80HD401B"></Model>
+		<Model name="32DFH09LC"></Model>
 		<Model name="32H1SBR202BS2"></Model>
 		<Model name="32H1T002B"></Model>
 		<Model name="32H1T011B"></Model>
@@ -7522,6 +7630,7 @@
 		<Model name="43U1YDX157FBS2"></Model>
 		<Model name="50S01UD314B"></Model>
 		<Model name="50S01UD315B"></Model>
+		<Model name="50S01UD322B"></Model>
 		<Model name="50S01UD354BS"></Model>
 		<Model name="50S01UD394B"></Model>
 		<Model name="50S01UD395B"></Model>
@@ -7533,6 +7642,7 @@
 		<Model name="50U1YDX175BS2"></Model>
 		<Model name="55S01UD318B"></Model>
 		<Model name="55S01UD324B"></Model>
+		<Model name="55S01UD357BS"></Model>
 		<Model name="55S01UD358"></Model>
 		<Model name="55S01UD396B"></Model>
 		<Model name="55S01UD397B"></Model>
@@ -7633,6 +7743,9 @@
 		<Model name="TLE40F212B"></Model>
 		<Model name="TLE40FD190B"></Model>
 	</Brand>
+	<Brand name="JAT">
+		<Model name="WS 54A100"></Model>
+	</Brand>
 	<Brand name="JEC">
 		<Model name="TV-9416"></Model>
 	</Brand>
@@ -7724,6 +7837,7 @@
 		<Model name="AV-2136EE"></Model>
 		<Model name="AV-2137V1"></Model>
 		<Model name="AV-2140SE"></Model>
+		<Model name="AV-2144LE"></Model>
 		<Model name="AV-2153WE"></Model>
 		<Model name="AV-2155TEE"></Model>
 		<Model name="AV-2157VE"></Model>
@@ -7757,6 +7871,7 @@
 		<Model name="AV-2553VE"></Model>
 		<Model name="AV-2554LE"></Model>
 		<Model name="AV-2555TEE"></Model>
+		<Model name="AV-2557VE"></Model>
 		<Model name="AV-2568TEE"></Model>
 		<Model name="AV-2569ТЕЕ"></Model>
 		<Model name="AV-2584VE"></Model>
@@ -7845,6 +7960,7 @@
 		<Model name="HV-2937VI"></Model>
 		<Model name="HV-29JL27"></Model>
 		<Model name="HV-29LPZ"></Model>
+		<Model name="HV-29ML26E"></Model>
 		<Model name="HV-29SL50"></Model>
 		<Model name="HV-29VH73"></Model>
 		<Model name="HV-29WH21"></Model>
@@ -7855,6 +7971,7 @@
 		<Model name="HV-L29PRO-EE"></Model>
 		<Model name="HV-Z29J4"></Model>
 		<Model name="LT-19A1"></Model>
+		<Model name="LT-20B70BS"></Model>
 		<Model name="LT-20C70"></Model>
 		<Model name="LT-20E50SU"></Model>
 		<Model name="LT-20J50S"></Model>
@@ -7881,6 +7998,7 @@
 		<Model name="LT-28M340"></Model>
 		<Model name="LT-28M540"></Model>
 		<Model name="LT-32A100"></Model>
+		<Model name="LT-32A61BU"></Model>
 		<Model name="LT-32A62SE"></Model>
 		<Model name="LT-32A70SU"></Model>
 		<Model name="LT-32A80ZU"></Model>
@@ -7898,6 +8016,7 @@
 		<Model name="LT-32M345"></Model>
 		<Model name="LT-32M350"></Model>
 		<Model name="LT-32M355"></Model>
+		<Model name="LT-32M380"></Model>
 		<Model name="LT-32M385 2018"></Model>
 		<Model name="LT-32M395"></Model>
 		<Model name="LT-32M540"></Model>
@@ -7925,7 +8044,9 @@
 		<Model name="LT-40M640"></Model>
 		<Model name="LT-40M645"></Model>
 		<Model name="LT-40M680"></Model>
+		<Model name="LT-40M690"></Model>
 		<Model name="LT-40M695"></Model>
+		<Model name="LT-40VAF3100"></Model>
 		<Model name="LT-42A80SU"></Model>
 		<Model name="LT-42EX18"></Model>
 		<Model name="LT-42G80BU"></Model>
@@ -7933,6 +8054,7 @@
 		<Model name="LT-42M450"></Model>
 		<Model name="LT-42M650 2016 LED"></Model>
 		<Model name="LT-42M655"></Model>
+		<Model name="LT-42M690"></Model>
 		<Model name="LT-42MU308"></Model>
 		<Model name="LT-42MU310"></Model>
 		<Model name="LT-42P80BU"></Model>
@@ -7958,6 +8080,8 @@
 		<Model name="LT-50M640"></Model>
 		<Model name="LT-50M645"></Model>
 		<Model name="LT-50M650"></Model>
+		<Model name="LT-50M795"></Model>
+		<Model name="LT-50M797"></Model>
 		<Model name="LT-50VF30K"></Model>
 		<Model name="LT-55M790"></Model>
 		<Model name="LT-65VA3000"></Model>
@@ -8124,6 +8248,7 @@
 		<Model name="KTV-P43FHD02T2CIWL"></Model>
 		<Model name="KTV-P43UHD02T2CIWL"></Model>
 		<Model name="KTV-P50UHD02T2CIWL"></Model>
+		<Model name="KTVC-3904LEDT2D-TG"></Model>
 		<Model name="KTVP-4001LEDT2WL"></Model>
 	</Brand>
 	<Brand name="KTC">
@@ -8192,7 +8317,9 @@
 		<Model name=" 75UR78001LJ.ARUB"></Model>
 		<Model name=" CT-29K37E"></Model>
 		<Model name=" OLED77C2"></Model>
+		<Model name=" UE40F6510"></Model>
 		<Model name="14CC4RB-T2"></Model>
+		<Model name="14FU7RB-T2"></Model>
 		<Model name="14SA2RB"></Model>
 		<Model name="14SB1RB"></Model>
 		<Model name="15FC2AB"></Model>
@@ -8218,6 +8345,7 @@
 		<Model name="20LC1RB"></Model>
 		<Model name="20LS1R"></Model>
 		<Model name="20MT48VF"></Model>
+		<Model name="21D3RG"></Model>
 		<Model name="21FB2RG"></Model>
 		<Model name="21FB7RG"></Model>
 		<Model name="21FC1RG"></Model>
@@ -8291,6 +8419,7 @@
 		<Model name="22MT47V-WZ"></Model>
 		<Model name="22MT48VF-PZ"></Model>
 		<Model name="22MT49VF"></Model>
+		<Model name="22MT55D"></Model>
 		<Model name="22MT55V LED"></Model>
 		<Model name="22MT57V-P"></Model>
 		<Model name="22MT58VF-PZ"></Model>
@@ -8596,6 +8725,7 @@
 		<Model name="32LH570U"></Model>
 		<Model name="32LH590U"></Model>
 		<Model name="32LH595U"></Model>
+		<Model name="32LH6047"></Model>
 		<Model name="32LH604V"></Model>
 		<Model name="32LH609V"></Model>
 		<Model name="32LH7000"></Model>
@@ -8716,6 +8846,7 @@
 		<Model name="32LV370S"></Model>
 		<Model name="32LV4500"></Model>
 		<Model name="32LV571S"></Model>
+		<Model name="32LV765H"></Model>
 		<Model name="32LW4500"></Model>
 		<Model name="32LW575S"></Model>
 		<Model name="32LW641H"></Model>
@@ -8743,6 +8874,7 @@
 		<Model name="37LE5300"></Model>
 		<Model name="37LE5450"></Model>
 		<Model name="37LE5500"></Model>
+		<Model name="37LE7500"></Model>
 		<Model name="37LF2510"></Model>
 		<Model name="37LF65"></Model>
 		<Model name="37LF75"></Model>
@@ -8876,6 +9008,7 @@
 		<Model name="42LD565"></Model>
 		<Model name="42LD650"></Model>
 		<Model name="42LD750"></Model>
+		<Model name="42LE2R"></Model>
 		<Model name="42LE4500"></Model>
 		<Model name="42LE5300"></Model>
 		<Model name="42LE5500"></Model>
@@ -8951,6 +9084,7 @@
 		<Model name="42LN541V"></Model>
 		<Model name="42LN542V"></Model>
 		<Model name="42LN548C"></Model>
+		<Model name="42LN549E"></Model>
 		<Model name="42LN570V"></Model>
 		<Model name="42LN575S"></Model>
 		<Model name="42LN613V"></Model>
@@ -8987,6 +9121,7 @@
 		<Model name="42LW575S"></Model>
 		<Model name="42LW650S"></Model>
 		<Model name="42LX1Q6"></Model>
+		<Model name="42LX3"></Model>
 		<Model name="42LX3Q6LA"></Model>
 		<Model name="42LX6500"></Model>
 		<Model name="42LY310C"></Model>
@@ -9051,6 +9186,7 @@
 		<Model name="42UB820V"></Model>
 		<Model name="42UB828V"></Model>
 		<Model name="42VS20-BAA"></Model>
+		<Model name="42WS50MS"></Model>
 		<Model name="43LF510V"></Model>
 		<Model name="43LF540V"></Model>
 		<Model name="43LF570V"></Model>
@@ -9187,6 +9323,7 @@
 		<Model name="43UM7500PLA"></Model>
 		<Model name="43UM7600"></Model>
 		<Model name="43UM7650"></Model>
+		<Model name="43UM7650PLA"></Model>
 		<Model name="43UN68006LA"></Model>
 		<Model name="43UN70006LA"></Model>
 		<Model name="43UN71006LB"></Model>
@@ -9269,6 +9406,7 @@
 		<Model name="47LA741V"></Model>
 		<Model name="47LA790V"></Model>
 		<Model name="47LA860V"></Model>
+		<Model name="47LA868V"></Model>
 		<Model name="47LA960V"></Model>
 		<Model name="47LB2RF"></Model>
 		<Model name="47LB561V"></Model>
@@ -9398,6 +9536,7 @@
 		<Model name="49LV300C"></Model>
 		<Model name="49LV340C"></Model>
 		<Model name="49LV640S"></Model>
+		<Model name="49LV761H"></Model>
 		<Model name="49LW310C"></Model>
 		<Model name="49LX341C"></Model>
 		<Model name="49NANO806NA"></Model>
@@ -9554,6 +9693,7 @@
 		<Model name="50PK560"></Model>
 		<Model name="50PK760"></Model>
 		<Model name="50PK960"></Model>
+		<Model name="50PM1M"></Model>
 		<Model name="50PM4700"></Model>
 		<Model name="50PM4M"></Model>
 		<Model name="50PM670S"></Model>
@@ -9562,6 +9702,7 @@
 		<Model name="50PN4500"></Model>
 		<Model name="50PN450D"></Model>
 		<Model name="50PN452D"></Model>
+		<Model name="50PN650T"></Model>
 		<Model name="50PN651T"></Model>
 		<Model name="50PQ100R"></Model>
 		<Model name="50PQ200R"></Model>
@@ -9642,6 +9783,7 @@
 		<Model name="50UR80003LJ"></Model>
 		<Model name="50UR81006LJ"></Model>
 		<Model name="50UR81009LK"></Model>
+		<Model name="50UR91006LA"></Model>
 		<Model name="50US662H0ZC"></Model>
 		<Model name="52LD550"></Model>
 		<Model name="52LG5020"></Model>
@@ -9678,6 +9820,7 @@
 		<Model name="55LA965V"></Model>
 		<Model name="55LA970V"></Model>
 		<Model name="55LB582V"></Model>
+		<Model name="55LB620V"></Model>
 		<Model name="55LB631V"></Model>
 		<Model name="55LB650V"></Model>
 		<Model name="55LB652V"></Model>
@@ -9697,6 +9840,7 @@
 		<Model name="55LE5300"></Model>
 		<Model name="55LE5500"></Model>
 		<Model name="55LE8500"></Model>
+		<Model name="55LF580V-ZA"></Model>
 		<Model name="55LF6309"></Model>
 		<Model name="55LF630V"></Model>
 		<Model name="55LF631V"></Model>
@@ -9973,6 +10117,7 @@
 		<Model name="65NANO786QA"></Model>
 		<Model name="65NANO79VND"></Model>
 		<Model name="65NANO809PA"></Model>
+		<Model name="65NANO80VPA"></Model>
 		<Model name="65NANO813QA"></Model>
 		<Model name="65NANO816PA"></Model>
 		<Model name="65NANO829QB"></Model>
@@ -9981,7 +10126,9 @@
 		<Model name="65NANO896PC"></Model>
 		<Model name="65NANO916NA"></Model>
 		<Model name="65NANO926PB"></Model>
+		<Model name="65NANO966"></Model>
 		<Model name="65NANO966PA"></Model>
+		<Model name="65NANO966PA.ADGG"></Model>
 		<Model name="65NANO996NA"></Model>
 		<Model name="65QNED756RA"></Model>
 		<Model name="65QNED7S6QA"></Model>
@@ -9993,6 +10140,7 @@
 		<Model name="65QNED876QB"></Model>
 		<Model name="65QNED876RA"></Model>
 		<Model name="65QNED876RA.ARUB"></Model>
+		<Model name="65QNED913QE"></Model>
 		<Model name="65QNED916PA"></Model>
 		<Model name="65QNED966PA"></Model>
 		<Model name="65QNED993PB"></Model>
@@ -10050,8 +10198,10 @@
 		<Model name="65UM7050PLA"></Model>
 		<Model name="65UM7100"></Model>
 		<Model name="65UM7300"></Model>
+		<Model name="65UM7300PLB"></Model>
 		<Model name="65UM7400"></Model>
 		<Model name="65UM7450"></Model>
+		<Model name="65UM7510PLA"></Model>
 		<Model name="65UM7610"></Model>
 		<Model name="65UM7660"></Model>
 		<Model name="65UN73006"></Model>
@@ -10125,6 +10275,7 @@
 		<Model name="75NANO95VPA"></Model>
 		<Model name="75NANO966PA"></Model>
 		<Model name="75QNED756RA"></Model>
+		<Model name="75QNED7S6QA"></Model>
 		<Model name="75QNED816QA"></Model>
 		<Model name="75QNED816RA"></Model>
 		<Model name="75QNED826RE"></Model>
@@ -10162,6 +10313,7 @@
 		<Model name="75UQ80006LB"></Model>
 		<Model name="75UQ81009LB"></Model>
 		<Model name="75UQ81009LC"></Model>
+		<Model name="75UQ90006LD"></Model>
 		<Model name="75UQ91006LA"></Model>
 		<Model name="75UQ91009LD"></Model>
 		<Model name="75UR78001LJ"></Model>
@@ -10204,6 +10356,7 @@
 		<Model name="86UQ90006LD"></Model>
 		<Model name="86UQ9000PSD"></Model>
 		<Model name="86UQ91006LA"></Model>
+		<Model name="86UR640S0ZD"></Model>
 		<Model name="86UR7800"></Model>
 		<Model name="86UR78006LB"></Model>
 		<Model name="86UR81006LA"></Model>
@@ -10218,6 +10371,7 @@
 		<Model name="CE-29Q46ET"></Model>
 		<Model name="CE-29Q90ID"></Model>
 		<Model name="CF-14D10K"></Model>
+		<Model name="CF-14D16"></Model>
 		<Model name="CF-14D60"></Model>
 		<Model name="CF-14E20"></Model>
 		<Model name="CF-14F30K"></Model>
@@ -10256,6 +10410,7 @@
 		<Model name="CF-20F82"></Model>
 		<Model name="CF-20F89"></Model>
 		<Model name="CF-20G20R"></Model>
+		<Model name="CF-20J3BG"></Model>
 		<Model name="CF-20J50K"></Model>
 		<Model name="CF-20K49E"></Model>
 		<Model name="CF-20K50E"></Model>
@@ -10296,11 +10451,13 @@
 		<Model name="CT-14F65M"></Model>
 		<Model name="CT-14F95M"></Model>
 		<Model name="CT-14J55M"></Model>
+		<Model name="CT-14S10KE"></Model>
 		<Model name="CT-14T35M"></Model>
 		<Model name="CT-15Q91KE"></Model>
 		<Model name="CT-15Q92E"></Model>
 		<Model name="CT-15Q95KE"></Model>
 		<Model name="CT-15Q96"></Model>
+		<Model name="CT-15Q9RB"></Model>
 		<Model name="CT-20F35M"></Model>
 		<Model name="CT-20J55M"></Model>
 		<Model name="CT-20T30KE"></Model>
@@ -10380,6 +10537,7 @@
 		<Model name="LT-20A20"></Model>
 		<Model name="LT-40M445"></Model>
 		<Model name="LT-Z37EX6"></Model>
+		<Model name="Lafinion 72"></Model>
 		<Model name="M1931D"></Model>
 		<Model name="M1962D"></Model>
 		<Model name="M2232D"></Model>
@@ -10394,7 +10552,9 @@
 		<Model name="M2452D"></Model>
 		<Model name="M2732D"></Model>
 		<Model name="M2752T"></Model>
+		<Model name="M3204CCWA"></Model>
 		<Model name="M4214CCBA"></Model>
+		<Model name="M4214CCWA"></Model>
 		<Model name="M5203CCBA"></Model>
 		<Model name="MFL67441710"></Model>
 		<Model name="MT-40PA10"></Model>
@@ -10563,6 +10723,7 @@
 		<Model name="OLED48A2RLA"></Model>
 		<Model name="OLED48C11LB"></Model>
 		<Model name="OLED48C1RLA"></Model>
+		<Model name="OLED48C2"></Model>
 		<Model name="OLED48C21LA"></Model>
 		<Model name="OLED48C24LA"></Model>
 		<Model name="OLED48C25LB"></Model>
@@ -10572,10 +10733,13 @@
 		<Model name="OLED48C3RLA.ARUB"></Model>
 		<Model name="OLED48CXRLA"></Model>
 		<Model name="OLED55A1RLA"></Model>
+		<Model name="OLED55A2"></Model>
 		<Model name="OLED55A26LA"></Model>
 		<Model name="OLED55A2RLA"></Model>
 		<Model name="OLED55A2RLA.ADKG"></Model>
+		<Model name="OLED55A3RLA"></Model>
 		<Model name="OLED55B1RLA"></Model>
+		<Model name="OLED55B2"></Model>
 		<Model name="OLED55B23LA"></Model>
 		<Model name="OLED55B2RLA"></Model>
 		<Model name="OLED55B3RLA.ARUB"></Model>
@@ -10611,6 +10775,7 @@
 		<Model name="OLED65A26LA"></Model>
 		<Model name="OLED65A2RLA"></Model>
 		<Model name="OLED65B1RLA"></Model>
+		<Model name="OLED65B2"></Model>
 		<Model name="OLED65B2RLA"></Model>
 		<Model name="OLED65B3RLA.ARUB"></Model>
 		<Model name="OLED65B6V"></Model>
@@ -10625,6 +10790,7 @@
 		<Model name="OLED65C29LD"></Model>
 		<Model name="OLED65C2RLA"></Model>
 		<Model name="OLED65C3"></Model>
+		<Model name="OLED65C3RLA"></Model>
 		<Model name="OLED65C3RLA.ARUB"></Model>
 		<Model name="OLED65C8PLA"></Model>
 		<Model name="OLED65CS6LA"></Model>
@@ -10634,8 +10800,10 @@
 		<Model name="OLED65G2RLA"></Model>
 		<Model name="OLED65G3"></Model>
 		<Model name="OLED65G3RLA.ARUB"></Model>
+		<Model name="OLED65G6V"></Model>
 		<Model name="OLED65R19LA"></Model>
 		<Model name="OLED65W7V"></Model>
+		<Model name="OLED77A1"></Model>
 		<Model name="OLED77B1"></Model>
 		<Model name="OLED77B2"></Model>
 		<Model name="OLED77C19LA"></Model>
@@ -10698,12 +10866,14 @@
 		<Model name="RT-20CA55M"></Model>
 		<Model name="RT-20CA60M"></Model>
 		<Model name="RT-20CA70M"></Model>
+		<Model name="RT-20CA80VE"></Model>
 		<Model name="RT-20CC25M"></Model>
 		<Model name="RT-20LA30"></Model>
 		<Model name="RT-21CA50M"></Model>
 		<Model name="RT-21CA55M"></Model>
 		<Model name="RT-21CA60M"></Model>
 		<Model name="RT-21CA70M"></Model>
+		<Model name="RT-21CA75M"></Model>
 		<Model name="RT-21FA20KE"></Model>
 		<Model name="RT-21FA31"></Model>
 		<Model name="RT-21FA32X"></Model>
@@ -10802,6 +10972,7 @@
 		<Model name="RZ-32LZ50"></Model>
 		<Model name="RZ-32LZ55"></Model>
 		<Model name="RZ-37LZ30"></Model>
+		<Model name="RZ-52SZ60DB"></Model>
 		<Model name="TM2792S"></Model>
 		<Model name="UE75AU7100U"></Model>
 		<Model name="lafinion 55RQ"></Model>
@@ -10839,6 +11010,8 @@
 		<Model name="X3-55"></Model>
 	</Brand>
 	<Brand name="Leff">
+		<Model name="24F260T"></Model>
+		<Model name="24F560T"></Model>
 		<Model name="24H110/1T"></Model>
 		<Model name="24H110T"></Model>
 		<Model name="24H111T"></Model>
@@ -10870,6 +11043,7 @@
 		<Model name="40F240T"></Model>
 		<Model name="40F540S"></Model>
 		<Model name="40F541T"></Model>
+		<Model name="40F550T"></Model>
 		<Model name="42F540S"></Model>
 		<Model name="43F110T"></Model>
 		<Model name="43F510T"></Model>
@@ -10885,6 +11059,7 @@
 		<Model name="50U510S"></Model>
 		<Model name="50U520S"></Model>
 		<Model name="50U540S"></Model>
+		<Model name="50U550T"></Model>
 		<Model name="50U610S"></Model>
 		<Model name="50U620S"></Model>
 		<Model name="50U630S"></Model>
@@ -10954,6 +11129,7 @@
 		<Model name="Credo 7681"></Model>
 		<Model name="Ergo 6781ZP"></Model>
 		<Model name="FL 38"></Model>
+		<Model name="Iconic V65"></Model>
 		<Model name="Individual 32"></Model>
 		<Model name="Individual 40"></Model>
 		<Model name="Individual 46"></Model>
@@ -10968,6 +11144,7 @@
 		<Model name="One 40"></Model>
 		<Model name="One 55"></Model>
 		<Model name="Planus 4663 Z"></Model>
+		<Model name="Planus 4672 ZP L72"></Model>
 		<Model name="Planus 4781 ZP U62"></Model>
 		<Model name="Reference 55"></Model>
 		<Model name="Reference 85"></Model>
@@ -10983,6 +11160,7 @@
 		<Model name="Xelos A 42"></Model>
 		<Model name="Xelos A20"></Model>
 		<Model name="Xelos A32"></Model>
+		<Model name="Xelos SL 20 A60"></Model>
 		<Model name="Xelos SL 37"></Model>
 		<Model name="bild 1.32"></Model>
 		<Model name="bild 1.40"></Model>
@@ -11027,6 +11205,7 @@
 		<Model name="20NK5003"></Model>
 		<Model name="24NP5001"></Model>
 		<Model name="24NV5001"></Model>
+		<Model name="32NK5001"></Model>
 		<Model name="32NP5001"></Model>
 		<Model name="32NP5101"></Model>
 		<Model name="32NV4001"></Model>
@@ -11056,6 +11235,7 @@
 	</Brand>
 	<Brand name="MAIBENBEN">
 		<Model name="32M2A"></Model>
+		<Model name="50M2UB"></Model>
 		<Model name="55M2UB"></Model>
 		<Model name="65M2UC"></Model>
 	</Brand>
@@ -11099,6 +11279,7 @@
 	<Brand name="Manya">
 		<Model name="24MH01BS"></Model>
 		<Model name="32MH03B"></Model>
+		<Model name="32MH03S"></Model>
 		<Model name="39MH01B"></Model>
 		<Model name="43MF02B"></Model>
 		<Model name="43MF02SS"></Model>
@@ -11127,6 +11308,7 @@
 		<Model name="MLT24H01"></Model>
 		<Model name="MLT32HSD02"></Model>
 		<Model name="MLT32HSX02"></Model>
+		<Model name="MLT43FSD02"></Model>
 		<Model name="MLT43USD02"></Model>
 		<Model name="MLT55USD02"></Model>
 		<Model name="MLT55USX02"></Model>
@@ -11142,6 +11324,7 @@
 	<Brand name="Metz">
 		<Model name="42TN92"></Model>
 		<Model name="55MOC9001"></Model>
+		<Model name="55MUB7000"></Model>
 		<Model name="55ТК68"></Model>
 		<Model name="Clarus 32 ML"></Model>
 		<Model name="Cosmo 32"></Model>
@@ -11178,6 +11361,7 @@
 		<Model name="MDT651S"></Model>
 		<Model name="VS-7085"></Model>
 		<Model name="VS-L55HM70U"></Model>
+		<Model name="WD-65737"></Model>
 	</Brand>
 	<Brand name="Miyota">
 		<Model name="M-TV-5005R"></Model>
@@ -11385,6 +11569,7 @@
 		<Model name="MTV-5032LTA2"></Model>
 		<Model name="MTV-5531LTA2"></Model>
 		<Model name="MTV-5532LTA2"></Model>
+		<Model name="MTV-5534UTA2"></Model>
 		<Model name="MTV-810"></Model>
 		<Model name="MTV-920"></Model>
 		<Model name="MTV-970"></Model>
@@ -11420,6 +11605,7 @@
 		<Model name="FS-2181SKB"></Model>
 		<Model name="MultiSync LCD4620"></Model>
 		<Model name="MultiSync V484"></Model>
+		<Model name="MultiSync V554 Silver"></Model>
 		<Model name="PX-42VP4P-GU/S"></Model>
 		<Model name="PX-42VR5W"></Model>
 		<Model name="PX-50XR5W"></Model>
@@ -11438,6 +11624,7 @@
 		<Model name="LT-32NH7020"></Model>
 		<Model name="LT-32NH7020S"></Model>
 		<Model name="LT-32NH8000S"></Model>
+		<Model name="LT-40NF5000S"></Model>
 		<Model name="LT-43NF7020S"></Model>
 		<Model name="LT-43NX7020S"></Model>
 		<Model name="LT-50NX7020S"></Model>
@@ -11453,6 +11640,7 @@
 		<Model name="32KR550"></Model>
 		<Model name="32PR515S"></Model>
 		<Model name="32PR530"></Model>
+		<Model name="32PR545S"></Model>
 		<Model name="32PR615S"></Model>
 		<Model name="32R570T2"></Model>
 		<Model name="32R573T2"></Model>
@@ -11483,6 +11671,10 @@
 		<Model name="55PU615S"></Model>
 		<Model name="65KU625S"></Model>
 		<Model name="65PU615S"></Model>
+	</Brand>
+	<Brand name="NORDFROST">
+		<Model name="Y 2401 HD-R"></Model>
+		<Model name="Y 4001 FHD-R"></Model>
 	</Brand>
 	<Brand name="NORDSTAR">
 		<Model name="NSTV-2801"></Model>
@@ -11600,7 +11792,11 @@
 		<Model name="ODL50680F-TIB"></Model>
 	</Brand>
 	<Brand name="OKARI">
+		<Model name="CTV-914"></Model>
 		<Model name="CTV-921"></Model>
+	</Brand>
+	<Brand name="ONVO">
+		<Model name="OV110500"></Model>
 	</Brand>
 	<Brand name="OPTA">
 		<Model name="CTV 2102"></Model>
@@ -11643,6 +11839,7 @@
 		<Model name=" 21 NVR"></Model>
 		<Model name="14 Candy Dlx"></Model>
 		<Model name="14 Magic"></Model>
+		<Model name="21 IQ"></Model>
 		<Model name="21 Oxygen"></Model>
 		<Model name="29 NVR"></Model>
 		<Model name="Black 350"></Model>
@@ -11672,6 +11869,7 @@
 		<Model name="LCD3220"></Model>
 		<Model name="LCD4752"></Model>
 		<Model name="LED 2245"></Model>
+		<Model name="LED 2247"></Model>
 		<Model name="LED 3248"></Model>
 		<Model name="LED 3254"></Model>
 		<Model name="LED1946"></Model>
@@ -11685,6 +11883,7 @@
 		<Model name="OLT-22512"></Model>
 		<Model name="OLT-22950"></Model>
 		<Model name="OLT-22955"></Model>
+		<Model name="OLT-24100"></Model>
 		<Model name="OLT-24202"></Model>
 		<Model name="OLT-24302"></Model>
 		<Model name="OLT-24402"></Model>
@@ -11731,12 +11930,14 @@
 		<Model name="T1426MTX"></Model>
 		<Model name="T20MS"></Model>
 		<Model name="T2188MJ"></Model>
+		<Model name="T2190MJ"></Model>
 		<Model name="TV/DVD-1432"></Model>
 		<Model name="TV1450MK5"></Model>
 		<Model name="TV1470MJ"></Model>
 		<Model name="TV2050MK5"></Model>
 		<Model name="TV34088"></Model>
 		<Model name="TV42FX500D"></Model>
+		<Model name="TVR1000MX"></Model>
 		<Model name="ПТ-101ЖК-110ЦТ"></Model>
 		<Model name="ПТ-114ЖК-100ЦТ"></Model>
 		<Model name="ПТ-127ЖК-240ЦТ"></Model>
@@ -11759,6 +11960,7 @@
 		<Model name="43FN82T2"></Model>
 	</Brand>
 	<Brand name="Panasonic">
+		<Model name=" TC-14S10"></Model>
 		<Model name=" TH-42PV8"></Model>
 		<Model name=" TX-PR54Z11"></Model>
 		<Model name="25PT4107/58"></Model>
@@ -11803,6 +12005,7 @@
 		<Model name="TC-14S1D"></Model>
 		<Model name="TC-14S1RCP"></Model>
 		<Model name="TC-14S20RDF"></Model>
+		<Model name="TC-14S80R"></Model>
 		<Model name="TC-14SV10S"></Model>
 		<Model name="TC-14X1"></Model>
 		<Model name="TC-14X2"></Model>
@@ -11821,7 +12024,9 @@
 		<Model name="TC-2150R"></Model>
 		<Model name="TC-2150RM"></Model>
 		<Model name="TC-2150RS"></Model>
+		<Model name="TC-2155R"></Model>
 		<Model name="TC-2158R"></Model>
+		<Model name="TC-2160EE"></Model>
 		<Model name="TC-2160R"></Model>
 		<Model name="TC-2166R"></Model>
 		<Model name="TC-2170R"></Model>
@@ -11869,11 +12074,13 @@
 		<Model name="TC-21S80R"></Model>
 		<Model name="TC-21S85R"></Model>
 		<Model name="TC-21SV10S"></Model>
+		<Model name="TC-21V50R"></Model>
 		<Model name="TC-21V80R"></Model>
 		<Model name="TC-21W2"></Model>
 		<Model name="TC-21X1"></Model>
 		<Model name="TC-21X2"></Model>
 		<Model name="TC-21Z2A"></Model>
+		<Model name="TC-21Z88R"></Model>
 		<Model name="TC-24WG12H"></Model>
 		<Model name="TC-25AS1R"></Model>
 		<Model name="TC-25GF10R"></Model>
@@ -11887,6 +12094,7 @@
 		<Model name="TC-26B4R"></Model>
 		<Model name="TC-26L1R"></Model>
 		<Model name="TC-28WG12H"></Model>
+		<Model name="TC-2990EE"></Model>
 		<Model name="TC-29A4R"></Model>
 		<Model name="TC-29AS1R"></Model>
 		<Model name="TC-29EG20TS"></Model>
@@ -11924,8 +12132,10 @@
 		<Model name="TH-37PA60E"></Model>
 		<Model name="TH-37PA60R"></Model>
 		<Model name="TH-37PV600E"></Model>
+		<Model name="TH-37PV60E"></Model>
 		<Model name="TH-37PV60R"></Model>
 		<Model name="TH-37PV60RH"></Model>
+		<Model name="TH-37PV8"></Model>
 		<Model name="TH-37PW5"></Model>
 		<Model name="TH-42EL7KS"></Model>
 		<Model name="TH-42EL80K"></Model>
@@ -11933,6 +12143,7 @@
 		<Model name="TH-42LF6U"></Model>
 		<Model name="TH-42PA20"></Model>
 		<Model name="TH-42PA30"></Model>
+		<Model name="TH-42PA40C"></Model>
 		<Model name="TH-42PA50E"></Model>
 		<Model name="TH-42PA50R"></Model>
 		<Model name="TH-42PA60E"></Model>
@@ -11940,6 +12151,7 @@
 		<Model name="TH-42PG9W"></Model>
 		<Model name="TH-42PH11"></Model>
 		<Model name="TH-42PHD6"></Model>
+		<Model name="TH-42PHD8"></Model>
 		<Model name="TH-42PHW6"></Model>
 		<Model name="TH-42PS10RS"></Model>
 		<Model name="TH-42PS9WK/WS"></Model>
@@ -11974,6 +12186,7 @@
 		<Model name="TH-50PH10RK"></Model>
 		<Model name="TH-50PH11EK"></Model>
 		<Model name="TH-50PH9WS"></Model>
+		<Model name="TH-50PHD5"></Model>
 		<Model name="TH-50PHD8"></Model>
 		<Model name="TH-50PHW5"></Model>
 		<Model name="TH-50PHW6RZ"></Model>
@@ -12017,6 +12230,7 @@
 		<Model name="TH-R42PV8A"></Model>
 		<Model name="TH-R42PY70"></Model>
 		<Model name="TH-R42PY80"></Model>
+		<Model name="TH-R42PY80A"></Model>
 		<Model name="TH-R42PY85"></Model>
 		<Model name="TH-R42PY8K"></Model>
 		<Model name="TH-R46PY8"></Model>
@@ -12116,6 +12330,7 @@
 		<Model name="TX-28WG25C"></Model>
 		<Model name="TX-29AB50F"></Model>
 		<Model name="TX-29AL10P"></Model>
+		<Model name="TX-29AS1P"></Model>
 		<Model name="TX-29E220T"></Model>
 		<Model name="TX-29E340TS"></Model>
 		<Model name="TX-29EG20T"></Model>
@@ -12130,6 +12345,7 @@
 		<Model name="TX-29FJ50T"></Model>
 		<Model name="TX-29FX50T"></Model>
 		<Model name="TX-29G10T"></Model>
+		<Model name="TX-29G450T"></Model>
 		<Model name="TX-29GF10P"></Model>
 		<Model name="TX-29GF35T"></Model>
 		<Model name="TX-29GF85T"></Model>
@@ -12153,6 +12369,7 @@
 		<Model name="TX-29PS70T"></Model>
 		<Model name="TX-29PS72X"></Model>
 		<Model name="TX-29PX10P"></Model>
+		<Model name="TX-29PX15P"></Model>
 		<Model name="TX-29PX20"></Model>
 		<Model name="TX-29RX20T"></Model>
 		<Model name="TX-29RX20TH"></Model>
@@ -12206,6 +12423,7 @@
 		<Model name="TX-32LX85"></Model>
 		<Model name="TX-32LZ80"></Model>
 		<Model name="TX-32PB50F/P"></Model>
+		<Model name="TX-32PD30F/P"></Model>
 		<Model name="TX-32PL10P/M"></Model>
 		<Model name="TX-32PM11P"></Model>
 		<Model name="TX-32PS11P"></Model>
@@ -12336,6 +12554,7 @@
 		<Model name="TX-50GXR700"></Model>
 		<Model name="TX-51GF85T"></Model>
 		<Model name="TX-51P250H"></Model>
+		<Model name="TX-51P400H"></Model>
 		<Model name="TX-51P800H"></Model>
 		<Model name="TX-55AS640"></Model>
 		<Model name="TX-55AS650E"></Model>
@@ -12526,6 +12745,7 @@
 		<Model name="TX-LR47ET5"></Model>
 		<Model name="TX-LR47WT50"></Model>
 		<Model name="TX-LR50B6"></Model>
+		<Model name="TX-LR55ET5"></Model>
 		<Model name="TX-LR60DT60"></Model>
 		<Model name="TX-P(R)42GT60"></Model>
 		<Model name="TX-P(R)42ST50"></Model>
@@ -12599,6 +12819,7 @@
 		<Model name="TX-PR42S10"></Model>
 		<Model name="TX-PR42S20"></Model>
 		<Model name="TX-PR42ST30"></Model>
+		<Model name="TX-PR42ST50"></Model>
 		<Model name="TX-PR42U10"></Model>
 		<Model name="TX-PR42U20"></Model>
 		<Model name="TX-PR42U30"></Model>
@@ -12615,6 +12836,7 @@
 		<Model name="TX-PR50GT30"></Model>
 		<Model name="TX-PR50GT50"></Model>
 		<Model name="TX-PR50S10"></Model>
+		<Model name="TX-PR50S20"></Model>
 		<Model name="TX-PR50ST30"></Model>
 		<Model name="TX-PR50ST50"></Model>
 		<Model name="TX-PR50U10"></Model>
@@ -12631,6 +12853,7 @@
 		<Model name="TX-PR50XT50"></Model>
 		<Model name="TX-PR55ST50"></Model>
 		<Model name="TX-PR55VT50"></Model>
+		<Model name="TX-PR55VT60"></Model>
 		<Model name="TX-PR65V10"></Model>
 		<Model name="TX-PR65VT20"></Model>
 		<Model name="TX-PR65VT30"></Model>
@@ -12657,12 +12880,15 @@
 		<Model name="TX-R37LX86K"></Model>
 		<Model name="TX-R37LZ70"></Model>
 		<Model name="TX-W36D3DP"></Model>
+		<Model name="TX20S1T"></Model>
 		<Model name="TX25X1CP"></Model>
 		<Model name="TY-ST05-S"></Model>
 		<Model name="TY-ST42PX5W"></Model>
 		<Model name="Tаu GIGA 100"></Model>
 		<Model name="VIERA TX-48ASR650"></Model>
 		<Model name="VIERA TX-LR32B6"></Model>
+		<Model name="VIERA TX-LR47DT60"></Model>
+		<Model name="VIERA TX-PR65VT60"></Model>
 		<Model name="ТС-25GF70R"></Model>
 		<Model name="ТС-2990ЕЕ"></Model>
 	</Brand>
@@ -12747,10 +12973,12 @@
 		<Model name="19PFL3205H"></Model>
 		<Model name="19PFL3403"></Model>
 		<Model name="19PFL3403D"></Model>
+		<Model name="19PFL3403S/60"></Model>
 		<Model name="19PFL3404"></Model>
 		<Model name="19PFL3404D"></Model>
 		<Model name="19PFL3404H"></Model>
 		<Model name="19PFL3405"></Model>
+		<Model name="19PFL3405/12"></Model>
 		<Model name="19PFL3405H"></Model>
 		<Model name="19PFL3507H"></Model>
 		<Model name="19PFL3507T"></Model>
@@ -12798,8 +13026,10 @@
 		<Model name="20PHK4109"></Model>
 		<Model name="20PT1354"></Model>
 		<Model name="20PT138A"></Model>
+		<Model name="20PT1554"></Model>
 		<Model name="20PT2381/50B"></Model>
 		<Model name="20PT2381/59R"></Model>
+		<Model name="21CN4461/93S"></Model>
 		<Model name="21CN4472"></Model>
 		<Model name="21GR1260/58R"></Model>
 		<Model name="21GR1366/58R"></Model>
@@ -12826,6 +13056,7 @@
 		<Model name="21PT1727"></Model>
 		<Model name="21PT1865"></Model>
 		<Model name="21PT1967"></Model>
+		<Model name="21PT2381/58R"></Model>
 		<Model name="21PT5107"></Model>
 		<Model name="21PT5117"></Model>
 		<Model name="21PT5121"></Model>
@@ -12952,6 +13183,7 @@
 		<Model name="24PFL2908H"></Model>
 		<Model name="24PFL3108H"></Model>
 		<Model name="24PFL3507H"></Model>
+		<Model name="24PFL3507T/60"></Model>
 		<Model name="24PFL4008H"></Model>
 		<Model name="24PFL4028H"></Model>
 		<Model name="24PFL4208H"></Model>
@@ -13710,6 +13942,7 @@
 		<Model name="37PFL9632D"></Model>
 		<Model name="37PFL9732D"></Model>
 		<Model name="37PFL9903H"></Model>
+		<Model name="37PfL7662D/12"></Model>
 		<Model name="37TA2800"></Model>
 		<Model name="39HFL2869T"></Model>
 		<Model name="39PFL3008H"></Model>
@@ -13924,6 +14157,7 @@
 		<Model name="42PF3320"></Model>
 		<Model name="42PF3321"></Model>
 		<Model name="42PF3331"></Model>
+		<Model name="42PF3331/10"></Model>
 		<Model name="42PF5320"></Model>
 		<Model name="42PF5321"></Model>
 		<Model name="42PF5331"></Model>
@@ -14160,6 +14394,7 @@
 		<Model name="42PFS7309"></Model>
 		<Model name="42PFS7509"></Model>
 		<Model name="42PFT4001"></Model>
+		<Model name="42PFT4001/60"></Model>
 		<Model name="42PFT5209"></Model>
 		<Model name="42PFT5609"></Model>
 		<Model name="42PFT6109"></Model>
@@ -14469,6 +14704,7 @@
 		<Model name="47PFT6309"></Model>
 		<Model name="47PFT6309/60"></Model>
 		<Model name="47PFT6569"></Model>
+		<Model name="47PFT6569/60"></Model>
 		<Model name="48HFL2819D"></Model>
 		<Model name="48HFL2829T"></Model>
 		<Model name="48HFL2869T"></Model>
@@ -14649,9 +14885,11 @@
 		<Model name="50PUS8507/60"></Model>
 		<Model name="50PUS8517"></Model>
 		<Model name="50PUS8518/12"></Model>
+		<Model name="50PUS8519/60"></Model>
 		<Model name="50PUS8556/12"></Model>
 		<Model name="50PUS8807"></Model>
 		<Model name="50PUS8808"></Model>
+		<Model name="50PUS8808/12"></Model>
 		<Model name="50PUS8818"></Model>
 		<Model name="50PUS9005"></Model>
 		<Model name="50PUS9006 LED"></Model>
@@ -14687,6 +14925,7 @@
 		<Model name="55HFL5010T"></Model>
 		<Model name="55HFL5011T"></Model>
 		<Model name="55HFL5214U/12"></Model>
+		<Model name="55HFL6114U/12"></Model>
 		<Model name="55HFL7011T"></Model>
 		<Model name="55OLED706"></Model>
 		<Model name="55OLED708"></Model>
@@ -14694,6 +14933,7 @@
 		<Model name="55OLED806/12"></Model>
 		<Model name="55OLED807/12"></Model>
 		<Model name="55OLED808"></Model>
+		<Model name="55OLED808/12"></Model>
 		<Model name="55OLED818"></Model>
 		<Model name="55OLED848/12"></Model>
 		<Model name="55OLED855/12"></Model>
@@ -14850,12 +15090,14 @@
 		<Model name="55PUS8118/12"></Model>
 		<Model name="55PUS8303"></Model>
 		<Model name="55PUS8503"></Model>
+		<Model name="55PUS8548/12"></Model>
 		<Model name="55PUS8601"></Model>
 		<Model name="55PUS8602"></Model>
 		<Model name="55PUS8700"></Model>
 		<Model name="55PUS8804"></Model>
 		<Model name="55PUS8807"></Model>
 		<Model name="55PUS8808"></Model>
+		<Model name="55PUS8808/12"></Model>
 		<Model name="55PUS8809"></Model>
 		<Model name="55PUS8818"></Model>
 		<Model name="55PUS8848/12"></Model>
@@ -14959,6 +15201,7 @@
 		<Model name="65PUS8506/60"></Model>
 		<Model name="65PUS8507/60"></Model>
 		<Model name="65PUS8517"></Model>
+		<Model name="65PUS8519/60"></Model>
 		<Model name="65PUS8536"></Model>
 		<Model name="65PUS8601"></Model>
 		<Model name="65PUS8602"></Model>
@@ -15025,6 +15268,7 @@
 		<Model name="BDL4330QL"></Model>
 		<Model name="BDS4231R"></Model>
 		<Model name="CTV 8219"></Model>
+		<Model name="KV-28WS4R"></Model>
 		<Model name="LC150X02-A4"></Model>
 		<Model name="LC201V02-A3KB"></Model>
 		<Model name="LC260WX2-SL01"></Model>
@@ -15076,6 +15320,7 @@
 	</Brand>
 	<Brand name="Pioneer">
 		<Model name="AVX-7300 7&#34;"></Model>
+		<Model name="KK-110TD"></Model>
 		<Model name="KRL-32V"></Model>
 		<Model name="KRL-37V"></Model>
 		<Model name="KRL-46V"></Model>
@@ -15436,6 +15681,7 @@
 		<Model name="P32L32T2CSM"></Model>
 		<Model name="P32L33T2C"></Model>
 		<Model name="P32L34T2C"></Model>
+		<Model name="P32L34T2CSM"></Model>
 		<Model name="P32L34T2SC"></Model>
 		<Model name="P32L35T2C"></Model>
 		<Model name="P32L5001"></Model>
@@ -15680,6 +15926,7 @@
 		<Model name="PTV32DN02Z-WH-CIS"></Model>
 		<Model name="PTV32DS00Z"></Model>
 		<Model name="PTV32SN02Z-BK-CIS"></Model>
+		<Model name="PTV32SN03Z"></Model>
 		<Model name="PTV32SN04Z"></Model>
 		<Model name="PTV32SN04Z-CIS-BK"></Model>
 		<Model name="PTV32SN05Z"></Model>
@@ -15774,6 +16021,7 @@
 		<Model name="LE-32F406"></Model>
 		<Model name="LE-32F407"></Model>
 		<Model name="LE-32F407W"></Model>
+		<Model name="LE-32F409H"></Model>
 		<Model name="LE-32F410H"></Model>
 		<Model name="LE-32F427"></Model>
 		<Model name="LE-32F427W"></Model>
@@ -15817,6 +16065,7 @@
 		<Model name="HDTV-808S"></Model>
 		<Model name="HDTV-850WNS"></Model>
 		<Model name="HDTV-909S"></Model>
+		<Model name="Hdtv-80l"></Model>
 	</Brand>
 	<Brand name="Proto-X">
 		<Model name="ТСР-LED32-2/2"></Model>
@@ -15832,6 +16081,7 @@
 		<Model name="Q43YK-MB"></Model>
 	</Brand>
 	<Brand name="RAZZ">
+		<Model name="K24HSS23"></Model>
 		<Model name="K32H23"></Model>
 		<Model name="K43FSS23"></Model>
 		<Model name="K50USS23"></Model>
@@ -15843,6 +16093,8 @@
 		<Model name="TL-22BB"></Model>
 		<Model name="TL-26BB"></Model>
 		<Model name="TL-32BB"></Model>
+		<Model name="TLE-32SBM"></Model>
+		<Model name="TLE-43FSBM"></Model>
 	</Brand>
 	<Brand name="Rainford">
 		<Model name="TFS-3775C"></Model>
@@ -15883,6 +16135,7 @@
 		<Model name="TFT-4280TSPAC"></Model>
 		<Model name="TV-3709C"></Model>
 		<Model name="TV-3734C"></Model>
+		<Model name="TV-3746C"></Model>
 		<Model name="TV-3762C"></Model>
 		<Model name="TV-3763C"></Model>
 		<Model name="TV-3767С"></Model>
@@ -16449,18 +16702,24 @@
 		<Model name="SBX-55U219TSS"></Model>
 		<Model name="SBX-65U219TSS"></Model>
 		<Model name="SDX-32F2121"></Model>
+		<Model name="SDX-32F2123"></Model>
+		<Model name="SDX-32F2126"></Model>
 		<Model name="SDX-32H2010B"></Model>
 		<Model name="SDX-32H2012B"></Model>
 		<Model name="SDX-32H2120B"></Model>
 		<Model name="SDX-32H2122B"></Model>
+		<Model name="SDX-32H2124"></Model>
 		<Model name="SDX-32H2125"></Model>
+		<Model name="SDX-42F2018"></Model>
 		<Model name="SDX-43F2010B"></Model>
 		<Model name="SDX-43F2012B"></Model>
 		<Model name="SDX-43F2012S"></Model>
 		<Model name="SDX-43F2120B"></Model>
 		<Model name="SDX-43F2122B"></Model>
+		<Model name="SDX-43F2124"></Model>
 		<Model name="SDX-43U4010B"></Model>
 		<Model name="SDX-43U4123B"></Model>
+		<Model name="SDX-43U4124"></Model>
 		<Model name="SDX-43U4126"></Model>
 		<Model name="SDX-50U4010B"></Model>
 		<Model name="SDX-50U4123B"></Model>
@@ -16468,6 +16727,7 @@
 		<Model name="SDX-50UQ5230T"></Model>
 		<Model name="SDX-55U4010B"></Model>
 		<Model name="SDX-55U4123B"></Model>
+		<Model name="SDX-55U4126"></Model>
 		<Model name="SDX-55U4127"></Model>
 		<Model name="SDX-55UQ5230T"></Model>
 		<Model name="SDX-65U4014B"></Model>
@@ -16481,6 +16741,9 @@
 		<Model name="14 e 06"></Model>
 		<Model name="29 E 06"></Model>
 		<Model name="STV 21-200"></Model>
+	</Brand>
+	<Brand name="SEG">
+		<Model name="7191"></Model>
 	</Brand>
 	<Brand name="SIESTA">
 		<Model name="J-1410"></Model>
@@ -16608,10 +16871,12 @@
 		<Model name="SW-LED55UG403"></Model>
 		<Model name="SW-LED58UB400"></Model>
 		<Model name="SW-LED58UB401"></Model>
+		<Model name="SW-LED58UB405"></Model>
 		<Model name="SW-LED58UG401"></Model>
 		<Model name="SW-LED65U101BS2S"></Model>
 		<Model name="SW-LED65UB405"></Model>
 		<Model name="SW-LED65UG401"></Model>
+		<Model name="SW-LED65UG402"></Model>
 		<Model name="SW-LED65UG403"></Model>
 		<Model name="SW32BB202"></Model>
 	</Brand>
@@ -17256,6 +17521,7 @@
 		<Model name="STV-LC60GT5000U"></Model>
 		<Model name="STV-LC65ST0045U"></Model>
 		<Model name="STV-LC65ST2000U"></Model>
+		<Model name="STV-LC75ST0045U"></Model>
 		<Model name="STV1494"></Model>
 		<Model name="TH-50PHD7W"></Model>
 	</Brand>
@@ -17331,6 +17597,7 @@
 		<Model name="400CX-2"></Model>
 		<Model name="400UX-3"></Model>
 		<Model name="43NU7100"></Model>
+		<Model name="45g8000"></Model>
 		<Model name="460EXN"></Model>
 		<Model name="460UX-2"></Model>
 		<Model name="49UK6390"></Model>
@@ -17339,9 +17606,12 @@
 		<Model name="75 Neo QLED 8K QN800A"></Model>
 		<Model name="75Q70C"></Model>
 		<Model name="85Q70B"></Model>
+		<Model name="932MW"></Model>
 		<Model name="AA68-03845N"></Model>
+		<Model name="AA68-03912Q"></Model>
 		<Model name="AA68-03952A"></Model>
 		<Model name="BE32R-B"></Model>
+		<Model name="BE43R"></Model>
 		<Model name="BE50T-H"></Model>
 		<Model name="BE75A-H"></Model>
 		<Model name="CK-1448"></Model>
@@ -17368,6 +17638,7 @@
 		<Model name="CK-22B9GWXR"></Model>
 		<Model name="CK-2502SXR"></Model>
 		<Model name="CK-25D4VR"></Model>
+		<Model name="CK-2902SXR"></Model>
 		<Model name="CK-29D4R"></Model>
 		<Model name="CK-331EZR"></Model>
 		<Model name="CK-331FVR"></Model>
@@ -17400,6 +17671,7 @@
 		<Model name="CK-5052M"></Model>
 		<Model name="CK-5061M"></Model>
 		<Model name="CK-5062M"></Model>
+		<Model name="CK-5066ZR"></Model>
 		<Model name="CK-5073ZR"></Model>
 		<Model name="CK-5079ZR"></Model>
 		<Model name="CK-5081T"></Model>
@@ -17429,8 +17701,10 @@
 		<Model name="CK-5342ATBR"></Model>
 		<Model name="CK-5361AT"></Model>
 		<Model name="CK-5366ZR"></Model>
+		<Model name="CK-5373TR"></Model>
 		<Model name="CK-5373ZR"></Model>
 		<Model name="CK-5379ZR"></Model>
+		<Model name="CK-5385TBR"></Model>
 		<Model name="CK-5385ZR"></Model>
 		<Model name="CK-542ZSE"></Model>
 		<Model name="CK-6202WTR"></Model>
@@ -17450,6 +17724,7 @@
 		<Model name="CS-14F3R"></Model>
 		<Model name="CS-14H1R"></Model>
 		<Model name="CS-14H3 R"></Model>
+		<Model name="CS-14H3X"></Model>
 		<Model name="CS-14H4R"></Model>
 		<Model name="CS-14R1R"></Model>
 		<Model name="CS-14Y51R"></Model>
@@ -17466,6 +17741,7 @@
 		<Model name="CS-15K5WQ"></Model>
 		<Model name="CS-15K8MJQ"></Model>
 		<Model name="CS-15K8Q"></Model>
+		<Model name="CS-15K8WBQ"></Model>
 		<Model name="CS-15K8WQ"></Model>
 		<Model name="CS-15K9IQ"></Model>
 		<Model name="CS-15K9MJQ"></Model>
@@ -17618,6 +17894,7 @@
 		<Model name="CS-25K10MHQ"></Model>
 		<Model name="CS-25K10MQQ"></Model>
 		<Model name="CS-25K10ZQQ"></Model>
+		<Model name="CS-25M20"></Model>
 		<Model name="CS-25M20EQQ"></Model>
 		<Model name="CS-25M20MQQ"></Model>
 		<Model name="CS-25M20SPQ"></Model>
@@ -17744,6 +18021,7 @@
 		<Model name="CS21Z55Z34XBWT"></Model>
 		<Model name="CS25A6WT7X/BWT"></Model>
 		<Model name="CS25M6HN8X"></Model>
+		<Model name="CS29A7HF9X"></Model>
 		<Model name="CW-21Z573N"></Model>
 		<Model name="CW-28C33N PROGUN"></Model>
 		<Model name="CW-28C75V"></Model>
@@ -17775,6 +18053,7 @@
 		<Model name="CZ-21F12 ZSR"></Model>
 		<Model name="CZ-21F52ZR"></Model>
 		<Model name="CZ-21H12 ZSR"></Model>
+		<Model name="DC55E"></Model>
 		<Model name="DM32E"></Model>
 		<Model name="DM65D"></Model>
 		<Model name="DM82D"></Model>
@@ -17869,9 +18148,11 @@
 		<Model name="HP-T5064"></Model>
 		<Model name="KS1A15K9"></Model>
 		<Model name="KS1A2073"></Model>
+		<Model name="KS1A20F10"></Model>
 		<Model name="LA32B450C4"></Model>
 		<Model name="LA32C450E1"></Model>
 		<Model name="LA32S71B"></Model>
+		<Model name="LA40A450C1"></Model>
 		<Model name="LA40C530F1R"></Model>
 		<Model name="LA40R71B"></Model>
 		<Model name="LE-15S51BP"></Model>
@@ -18047,6 +18328,7 @@
 		<Model name="LE-37A616A3F"></Model>
 		<Model name="LE-37A656A1F"></Model>
 		<Model name="LE-37A686M1F"></Model>
+		<Model name="LE-37A699M1WXZG"></Model>
 		<Model name="LE-37A756R1M"></Model>
 		<Model name="LE-37B457"></Model>
 		<Model name="LE-37B530P7"></Model>
@@ -18076,6 +18358,7 @@
 		<Model name="LE-37D551K2W"></Model>
 		<Model name="LE-37D570"></Model>
 		<Model name="LE-37M87BD"></Model>
+		<Model name="LE-37R41B"></Model>
 		<Model name="LE-37R72B"></Model>
 		<Model name="LE-37R81B"></Model>
 		<Model name="LE-37R82B"></Model>
@@ -18239,6 +18522,7 @@
 		<Model name="LE19D451"></Model>
 		<Model name="LE19R71W"></Model>
 		<Model name="LE20S53BP"></Model>
+		<Model name="LE20S81BX/BWT"></Model>
 		<Model name="LE20S82B"></Model>
 		<Model name="LE22B350F2W"></Model>
 		<Model name="LE22B450C8W"></Model>
@@ -18276,11 +18560,13 @@
 		<Model name="LE32A466C2W"></Model>
 		<Model name="LE32A556P1F"></Model>
 		<Model name="LE32A557P2F"></Model>
+		<Model name="LE32A756R1F"></Model>
 		<Model name="LE32B350F1W"></Model>
 		<Model name="LE32B450C4W"></Model>
 		<Model name="LE32B450C4WX"></Model>
 		<Model name="LE32B450C7W"></Model>
 		<Model name="LE32B455C4W"></Model>
+		<Model name="LE32B460B2W"></Model>
 		<Model name="LE32B530P7W"></Model>
 		<Model name="LE32B531P7W"></Model>
 		<Model name="LE32B551A6W"></Model>
@@ -18309,6 +18595,7 @@
 		<Model name="LE32D550K1W"></Model>
 		<Model name="LE32D551"></Model>
 		<Model name="LE32D551K2"></Model>
+		<Model name="LE32D551K2W"></Model>
 		<Model name="LE32E420"></Model>
 		<Model name="LE32E420M2W"></Model>
 		<Model name="LE32M61BS"></Model>
@@ -18340,6 +18627,7 @@
 		<Model name="LE40A656A1FXRU"></Model>
 		<Model name="LE40B530P7W"></Model>
 		<Model name="LE40B531P7W"></Model>
+		<Model name="LE40B551A6W"></Model>
 		<Model name="LE40B653T5W"></Model>
 		<Model name="LE40B750U1W"></Model>
 		<Model name="LE40C530F1W"></Model>
@@ -18361,6 +18649,7 @@
 		<Model name="LE40R71B"></Model>
 		<Model name="LE46A557P2F"></Model>
 		<Model name="LE46B530P7W"></Model>
+		<Model name="LE46B551A6W"></Model>
 		<Model name="LE46C650"></Model>
 		<Model name="LE46C750"></Model>
 		<Model name="LE46D550"></Model>
@@ -18372,10 +18661,13 @@
 		<Model name="LH32DCEPLGC"></Model>
 		<Model name="LH32PMFPBGC/RU"></Model>
 		<Model name="LH40RMDPLGU"></Model>
+		<Model name="LH43BERELGAXRU"></Model>
 		<Model name="LH43QBNEBGC"></Model>
 		<Model name="LH48DCEPLGC"></Model>
+		<Model name="LH48DMEPLGC/RU"></Model>
 		<Model name="LH48RMDPLGU"></Model>
 		<Model name="LH55BETHLGUXRU"></Model>
+		<Model name="LH55UEDPLGCRU"></Model>
 		<Model name="LH75BETHLGUXRU"></Model>
 		<Model name="LS43BM700UIXCI"></Model>
 		<Model name="LT19C350EX"></Model>
@@ -18399,6 +18691,7 @@
 		<Model name="LT32E310EX"></Model>
 		<Model name="LT32E315EX"></Model>
 		<Model name="LV32F390FIXXRU"></Model>
+		<Model name="LV32F390SIX"></Model>
 		<Model name="LW-15M13C"></Model>
 		<Model name="LW-15M23C"></Model>
 		<Model name="LW-17E34C"></Model>
@@ -18427,6 +18720,7 @@
 		<Model name="MNA110MS1AC"></Model>
 		<Model name="MNA114MS1AC"></Model>
 		<Model name="MNA99MS1AAC"></Model>
+		<Model name="Neo QLED 4K QN87A"></Model>
 		<Model name="Neo QLED 8K QN700A"></Model>
 		<Model name="Nx10rp07uz"></Model>
 		<Model name="OLED KN55S9"></Model>
@@ -18435,6 +18729,7 @@
 		<Model name="PE43H4500"></Model>
 		<Model name="PE51H4500"></Model>
 		<Model name="PE51H4500AK"></Model>
+		<Model name="PM49H"></Model>
 		<Model name="PPM42M6HS"></Model>
 		<Model name="PS-37S4A1R"></Model>
 		<Model name="PS-42A410C1"></Model>
@@ -18605,6 +18900,7 @@
 		<Model name="PS50C530C1W"></Model>
 		<Model name="PS50C6900"></Model>
 		<Model name="PS50C7000"></Model>
+		<Model name="PS50C91HX/BWT"></Model>
 		<Model name="PS51D450"></Model>
 		<Model name="PS51D450A2W"></Model>
 		<Model name="PS51D451"></Model>
@@ -18621,6 +18917,7 @@
 		<Model name="PS51E450"></Model>
 		<Model name="PS51E450A1W"></Model>
 		<Model name="PS51E451"></Model>
+		<Model name="PS51E451A2W"></Model>
 		<Model name="PS51E452"></Model>
 		<Model name="PS51E452A4W"></Model>
 		<Model name="PS51E490"></Model>
@@ -18672,11 +18969,14 @@
 		<Model name="PS64F8500"></Model>
 		<Model name="QA43Q65BAKXXT"></Model>
 		<Model name="QA55Q65BAKXXT"></Model>
+		<Model name="QA55Q70BAKXXT"></Model>
 		<Model name="QA65LS01TAJXXZ"></Model>
 		<Model name="QA65LS03BAJXXZ"></Model>
 		<Model name="QA65Q70CAJXXZ"></Model>
+		<Model name="QA65Q70CAKXXT"></Model>
 		<Model name="QB43R"></Model>
 		<Model name="QB49R"></Model>
+		<Model name="QB65R-B"></Model>
 		<Model name="QB75N-W"></Model>
 		<Model name="QE32LS03B"></Model>
 		<Model name="QE32LS03C"></Model>
@@ -18688,11 +18988,14 @@
 		<Model name="QE43Q60AAUXCE"></Model>
 		<Model name="QE43Q60ABU"></Model>
 		<Model name="QE43Q60ABUX"></Model>
+		<Model name="QE43Q60B"></Model>
 		<Model name="QE43Q60BAU"></Model>
 		<Model name="QE43Q60C"></Model>
+		<Model name="QE43Q60CAU"></Model>
 		<Model name="QE43Q67AAUXRU"></Model>
 		<Model name="QE43Q67BAU"></Model>
 		<Model name="QE43QN90AAU"></Model>
+		<Model name="QE43QN90B"></Model>
 		<Model name="QE43QN90BAU"></Model>
 		<Model name="QE43QN90C"></Model>
 		<Model name="QE43QN90CAT"></Model>
@@ -18705,6 +19008,7 @@
 		<Model name="QE50LS03BAUXCE"></Model>
 		<Model name="QE50LS03BG"></Model>
 		<Model name="QE50Q60ABU"></Model>
+		<Model name="QE50Q60B"></Model>
 		<Model name="QE50Q60C"></Model>
 		<Model name="QE50Q60CAUXRU"></Model>
 		<Model name="QE50Q67AAU"></Model>
@@ -18725,6 +19029,7 @@
 		<Model name="QE55LS01BBU"></Model>
 		<Model name="QE55LS01BG"></Model>
 		<Model name="QE55LS01TBUXRU"></Model>
+		<Model name="QE55LS03A"></Model>
 		<Model name="QE55LS03BAU"></Model>
 		<Model name="QE55LS03BG"></Model>
 		<Model name="QE55LST7TAUXRU"></Model>
@@ -18742,6 +19047,7 @@
 		<Model name="QE55Q70BAUXCE"></Model>
 		<Model name="QE55Q70BAUXRU"></Model>
 		<Model name="QE55Q70C"></Model>
+		<Model name="QE55Q70CAU"></Model>
 		<Model name="QE55Q77AAU"></Model>
 		<Model name="QE55Q77B"></Model>
 		<Model name="QE55Q77C"></Model>
@@ -18784,7 +19090,9 @@
 		<Model name="QE65LS01BG"></Model>
 		<Model name="QE65LS01T"></Model>
 		<Model name="QE65LS01TAU"></Model>
+		<Model name="QE65LS03A"></Model>
 		<Model name="QE65LS03AAUXRU"></Model>
+		<Model name="QE65LS03BAUXCE"></Model>
 		<Model name="QE65LS03BG"></Model>
 		<Model name="QE65LST7TAU"></Model>
 		<Model name="QE65LST7TAUXRU"></Model>
@@ -18800,6 +19108,7 @@
 		<Model name="QE65Q70AAUXRU"></Model>
 		<Model name="QE65Q70BAU"></Model>
 		<Model name="QE65Q70C"></Model>
+		<Model name="QE65Q77A"></Model>
 		<Model name="QE65Q77AAU"></Model>
 		<Model name="QE65Q77B"></Model>
 		<Model name="QE65Q77BAT"></Model>
@@ -18813,6 +19122,7 @@
 		<Model name="QE65Q80BAUXCE"></Model>
 		<Model name="QE65Q80C"></Model>
 		<Model name="QE65Q80CAU"></Model>
+		<Model name="QE65QN700B"></Model>
 		<Model name="QE65QN700BT"></Model>
 		<Model name="QE65QN700BU"></Model>
 		<Model name="QE65QN700BUXCE"></Model>
@@ -18828,7 +19138,9 @@
 		<Model name="QE65QN85BAT"></Model>
 		<Model name="QE65QN85C"></Model>
 		<Model name="QE65QN87A"></Model>
+		<Model name="QE65QN87AAUXRU"></Model>
 		<Model name="QE65QN900A"></Model>
+		<Model name="QE65QN900AUXRU"></Model>
 		<Model name="QE65QN900B"></Model>
 		<Model name="QE65QN900BUXCE"></Model>
 		<Model name="QE65QN900C"></Model>
@@ -18844,12 +19156,14 @@
 		<Model name="QE65S90C"></Model>
 		<Model name="QE65S90CAU"></Model>
 		<Model name="QE65S90CAUXRU"></Model>
+		<Model name="QE65S92C"></Model>
 		<Model name="QE65S95B"></Model>
 		<Model name="QE65S95C"></Model>
 		<Model name="QE65S95CAUXRU"></Model>
 		<Model name="QE75LS03A"></Model>
 		<Model name="QE75LS03AAUXRU"></Model>
 		<Model name="QE75LS03BAU"></Model>
+		<Model name="QE75LS03BAUXCE"></Model>
 		<Model name="QE75LS03BG"></Model>
 		<Model name="QE75LST7TAU"></Model>
 		<Model name="QE75LST7TAUXRU"></Model>
@@ -18871,6 +19185,7 @@
 		<Model name="QE75Q80A"></Model>
 		<Model name="QE75Q80B"></Model>
 		<Model name="QE75Q80C"></Model>
+		<Model name="QE75QN700B"></Model>
 		<Model name="QE75QN700BUXCE"></Model>
 		<Model name="QE75QN800AU"></Model>
 		<Model name="QE75QN800B"></Model>
@@ -18885,6 +19200,7 @@
 		<Model name="QE75QN85CAUXRU"></Model>
 		<Model name="QE75QN87AAU"></Model>
 		<Model name="QE75QN900AU"></Model>
+		<Model name="QE75QN900AUXCE"></Model>
 		<Model name="QE75QN900AUXRU"></Model>
 		<Model name="QE75QN900BU"></Model>
 		<Model name="QE75QN900BUXCE"></Model>
@@ -18892,9 +19208,11 @@
 		<Model name="QE75QN900C"></Model>
 		<Model name="QE75QN900CU"></Model>
 		<Model name="QE75QN90AAU"></Model>
+		<Model name="QE75QN90B"></Model>
 		<Model name="QE75QN90BAU"></Model>
 		<Model name="QE75QN90BAUXCE"></Model>
 		<Model name="QE75QN90C"></Model>
+		<Model name="QE75QN90CAU"></Model>
 		<Model name="QE75QN91BAT"></Model>
 		<Model name="QE75QN93B"></Model>
 		<Model name="QE75QN95B"></Model>
@@ -18946,6 +19264,8 @@
 		<Model name="QE98QN100BUXRU"></Model>
 		<Model name="QE98QN90AAT"></Model>
 		<Model name="QE98QN90AAU"></Model>
+		<Model name="QE98QN90AAUXCE"></Model>
+		<Model name="QE98QN990CU"></Model>
 		<Model name="QLED GQ43Q60RGT"></Model>
 		<Model name="QLED GQ49Q60RGT"></Model>
 		<Model name="QLED GQ49Q6FNG"></Model>
@@ -19191,8 +19511,12 @@
 		<Model name="QM43R-T"></Model>
 		<Model name="QM55R-B"></Model>
 		<Model name="QM65H"></Model>
+		<Model name="QM75C"></Model>
+		<Model name="QM75R-A"></Model>
 		<Model name="QM85R"></Model>
+		<Model name="QP82R"></Model>
 		<Model name="S24AM506NI"></Model>
+		<Model name="S27BM500EI"></Model>
 		<Model name="S32BM500EI"></Model>
 		<Model name="SP-403JHAR"></Model>
 		<Model name="SP-42Q2HLR"></Model>
@@ -19230,6 +19554,7 @@
 		<Model name="SyncMaster P2770HD"></Model>
 		<Model name="T19B300"></Model>
 		<Model name="T19C350EX"></Model>
+		<Model name="T200HD"></Model>
 		<Model name="T220HD"></Model>
 		<Model name="T22A350"></Model>
 		<Model name="T22B300"></Model>
@@ -19281,6 +19606,7 @@
 		<Model name="TW-14C6R"></Model>
 		<Model name="TW-14N5R"></Model>
 		<Model name="TW-14N6R"></Model>
+		<Model name="TW-14P6"></Model>
 		<Model name="TW-20C5DR"></Model>
 		<Model name="TW-21B4D"></Model>
 		<Model name="TW-21B5DR"></Model>
@@ -19344,6 +19670,7 @@
 		<Model name="UE-32D6540"></Model>
 		<Model name="UE-32D6570"></Model>
 		<Model name="UE-32D6750"></Model>
+		<Model name="UE-32H6200K"></Model>
 		<Model name="UE-37B6000"></Model>
 		<Model name="UE-37C5000"></Model>
 		<Model name="UE-37C5100QW"></Model>
@@ -19508,6 +19835,7 @@
 		<Model name="UE22F5410"></Model>
 		<Model name="UE22F5470"></Model>
 		<Model name="UE22H5000"></Model>
+		<Model name="UE22H5000AK"></Model>
 		<Model name="UE22H5005AK"></Model>
 		<Model name="UE22H5020"></Model>
 		<Model name="UE22H5600"></Model>
@@ -19541,6 +19869,7 @@
 		<Model name="UE28J4100A"></Model>
 		<Model name="UE28J4100AK"></Model>
 		<Model name="UE28N4500AU"></Model>
+		<Model name="UE32C4000PW"></Model>
 		<Model name="UE32C5000QW"></Model>
 		<Model name="UE32C5100"></Model>
 		<Model name="UE32C6000RW"></Model>
@@ -19564,16 +19893,19 @@
 		<Model name="UE32D6510"></Model>
 		<Model name="UE32D6510WS"></Model>
 		<Model name="UE32D6530"></Model>
+		<Model name="UE32D6530WS"></Model>
 		<Model name="UE32EH4000"></Model>
 		<Model name="UE32EH4000W"></Model>
 		<Model name="UE32EH4000WX"></Model>
 		<Model name="UE32EH4003"></Model>
+		<Model name="UE32EH4003W"></Model>
 		<Model name="UE32EH4004W"></Model>
 		<Model name="UE32EH4030"></Model>
 		<Model name="UE32EH4050"></Model>
 		<Model name="UE32EH5000"></Model>
 		<Model name="UE32EH5000W"></Model>
 		<Model name="UE32EH5007"></Model>
+		<Model name="UE32EH5007K"></Model>
 		<Model name="UE32EH5020W"></Model>
 		<Model name="UE32EH5030"></Model>
 		<Model name="UE32EH5037"></Model>
@@ -19581,6 +19913,7 @@
 		<Model name="UE32EH5047"></Model>
 		<Model name="UE32EH5047K"></Model>
 		<Model name="UE32EH5050"></Model>
+		<Model name="UE32EH5050W"></Model>
 		<Model name="UE32EH5057"></Model>
 		<Model name="UE32EH5057K"></Model>
 		<Model name="UE32EH5300"></Model>
@@ -19614,6 +19947,7 @@
 		<Model name="UE32ES6540"></Model>
 		<Model name="UE32ES6547"></Model>
 		<Model name="UE32ES6550"></Model>
+		<Model name="UE32ES6550S"></Model>
 		<Model name="UE32ES6557"></Model>
 		<Model name="UE32ES6570"></Model>
 		<Model name="UE32ES6577"></Model>
@@ -19651,6 +19985,7 @@
 		<Model name="UE32F6270"></Model>
 		<Model name="UE32F6300"></Model>
 		<Model name="UE32F6330"></Model>
+		<Model name="UE32F6330AK"></Model>
 		<Model name="UE32F6400"></Model>
 		<Model name="UE32F6400AK"></Model>
 		<Model name="UE32F6470"></Model>
@@ -19669,6 +20004,7 @@
 		<Model name="UE32H4500"></Model>
 		<Model name="UE32H4500AK"></Model>
 		<Model name="UE32H4510"></Model>
+		<Model name="UE32H4510AK"></Model>
 		<Model name="UE32H5000"></Model>
 		<Model name="UE32H5000AK"></Model>
 		<Model name="UE32H5020"></Model>
@@ -19833,6 +20169,7 @@
 		<Model name="UE40D5000"></Model>
 		<Model name="UE40D5000PW"></Model>
 		<Model name="UE40D5003"></Model>
+		<Model name="UE40D500PW"></Model>
 		<Model name="UE40D5500"></Model>
 		<Model name="UE40D5520"></Model>
 		<Model name="UE40D5800"></Model>
@@ -19877,6 +20214,7 @@
 		<Model name="UE40ES6200"></Model>
 		<Model name="UE40ES6300"></Model>
 		<Model name="UE40ES6307"></Model>
+		<Model name="UE40ES6307U"></Model>
 		<Model name="UE40ES6340"></Model>
 		<Model name="UE40ES6535"></Model>
 		<Model name="UE40ES6540"></Model>
@@ -19939,6 +20277,7 @@
 		<Model name="UE40F6740"></Model>
 		<Model name="UE40F6770"></Model>
 		<Model name="UE40F6800"></Model>
+		<Model name="UE40F6800AB"></Model>
 		<Model name="UE40F7000"></Model>
 		<Model name="UE40F7500"></Model>
 		<Model name="UE40F8000"></Model>
@@ -19977,6 +20316,7 @@
 		<Model name="UE40H6400"></Model>
 		<Model name="UE40H6400AK"></Model>
 		<Model name="UE40H6410"></Model>
+		<Model name="UE40H6410AU"></Model>
 		<Model name="UE40H6470"></Model>
 		<Model name="UE40H6475SU"></Model>
 		<Model name="UE40H6500"></Model>
@@ -20302,10 +20642,12 @@
 		<Model name="UE43T5300AU"></Model>
 		<Model name="UE43T5300AUXCE"></Model>
 		<Model name="UE43T5370AU"></Model>
+		<Model name="UE43TU7000K"></Model>
 		<Model name="UE43TU7002U"></Model>
 		<Model name="UE43TU7002UXRU"></Model>
 		<Model name="UE43TU7072U"></Model>
 		<Model name="UE43TU7090U"></Model>
+		<Model name="UE43TU7090UXRU"></Model>
 		<Model name="UE43TU7097U"></Model>
 		<Model name="UE43TU7100U"></Model>
 		<Model name="UE43TU7140U"></Model>
@@ -20334,12 +20676,15 @@
 		<Model name="UE46D5500"></Model>
 		<Model name="UE46D5520"></Model>
 		<Model name="UE46D6100"></Model>
+		<Model name="UE46D6100SW"></Model>
 		<Model name="UE46D6510"></Model>
 		<Model name="UE46D6510WS"></Model>
 		<Model name="UE46D6530"></Model>
 		<Model name="UE46D6530WS"></Model>
 		<Model name="UE46D7000"></Model>
+		<Model name="UE46D7000LS"></Model>
 		<Model name="UE46D8000"></Model>
+		<Model name="UE46D8000YS"></Model>
 		<Model name="UE46EH5000"></Model>
 		<Model name="UE46EH5007"></Model>
 		<Model name="UE46EH5030"></Model>
@@ -20425,6 +20770,7 @@
 		<Model name="UE46F6500"></Model>
 		<Model name="UE46F6510"></Model>
 		<Model name="UE46F6540"></Model>
+		<Model name="UE46F6540AB"></Model>
 		<Model name="UE46F6640"></Model>
 		<Model name="UE46F6650"></Model>
 		<Model name="UE46F6670"></Model>
@@ -20435,6 +20781,7 @@
 		<Model name="UE46F7100"></Model>
 		<Model name="UE46F7500"></Model>
 		<Model name="UE46F8000"></Model>
+		<Model name="UE46F8000AT"></Model>
 		<Model name="UE46F8080"></Model>
 		<Model name="UE46F8090"></Model>
 		<Model name="UE46F8500"></Model>
@@ -20562,6 +20909,7 @@
 		<Model name="UE48JU6790U"></Model>
 		<Model name="UE48JU6800J"></Model>
 		<Model name="UE48JU7000"></Model>
+		<Model name="UE48JU7000U"></Model>
 		<Model name="UE48JU7002"></Model>
 		<Model name="UE48JU7005T"></Model>
 		<Model name="UE48JU7080T"></Model>
@@ -20707,6 +21055,7 @@
 		<Model name="UE49NU7120U"></Model>
 		<Model name="UE49NU7140U"></Model>
 		<Model name="UE49NU7170U"></Model>
+		<Model name="UE49NU7170UXRU"></Model>
 		<Model name="UE49NU7172U"></Model>
 		<Model name="UE49NU7179U"></Model>
 		<Model name="UE49NU7300U"></Model>
@@ -20738,6 +21087,7 @@
 		<Model name="UE50AU7100UX"></Model>
 		<Model name="UE50AU7100UXCE"></Model>
 		<Model name="UE50AU7100UXRU"></Model>
+		<Model name="UE50AU7101UCCE"></Model>
 		<Model name="UE50AU7140U"></Model>
 		<Model name="UE50AU7160UXRU"></Model>
 		<Model name="UE50AU7170"></Model>
@@ -20762,6 +21112,7 @@
 		<Model name="UE50BU8500U"></Model>
 		<Model name="UE50BU8500UXCE"></Model>
 		<Model name="UE50BU8510"></Model>
+		<Model name="UE50CU7100U"></Model>
 		<Model name="UE50CU7100UXRU"></Model>
 		<Model name="UE50CU8000UXRU"></Model>
 		<Model name="UE50CU8500U"></Model>
@@ -20912,6 +21263,7 @@
 		<Model name="UE55AU7100U"></Model>
 		<Model name="UE55AU7100UXCE"></Model>
 		<Model name="UE55AU7100UXRU"></Model>
+		<Model name="UE55AU7101UCCE"></Model>
 		<Model name="UE55AU7140U"></Model>
 		<Model name="UE55AU7160U"></Model>
 		<Model name="UE55AU7160UXRU"></Model>
@@ -20937,6 +21289,7 @@
 		<Model name="UE55C7000"></Model>
 		<Model name="UE55C8000"></Model>
 		<Model name="UE55C9000"></Model>
+		<Model name="UE55CU7100U"></Model>
 		<Model name="UE55CU7100UXRU"></Model>
 		<Model name="UE55CU8000UX"></Model>
 		<Model name="UE55CU8000UXRU"></Model>
@@ -20946,6 +21299,7 @@
 		<Model name="UE55D6530"></Model>
 		<Model name="UE55D7000"></Model>
 		<Model name="UE55D8000"></Model>
+		<Model name="UE55D8000YS"></Model>
 		<Model name="UE55ES6100"></Model>
 		<Model name="UE55ES6300"></Model>
 		<Model name="UE55ES6300U"></Model>
@@ -21023,6 +21377,7 @@
 		<Model name="UE55H6800"></Model>
 		<Model name="UE55H6850"></Model>
 		<Model name="UE55H7000"></Model>
+		<Model name="UE55H7000AT"></Model>
 		<Model name="UE55H8000"></Model>
 		<Model name="UE55H8000AT"></Model>
 		<Model name="UE55H8080"></Model>
@@ -21180,6 +21535,7 @@
 		<Model name="UE55M5500AU"></Model>
 		<Model name="UE55M5502AK"></Model>
 		<Model name="UE55M5510AU"></Model>
+		<Model name="UE55M5510AUXRU"></Model>
 		<Model name="UE55M5512AK"></Model>
 		<Model name="UE55M5513AU"></Model>
 		<Model name="UE55M5550AU"></Model>
@@ -21302,6 +21658,7 @@
 		<Model name="UE55RU7300U"></Model>
 		<Model name="UE55RU7400U"></Model>
 		<Model name="UE55RU7402U"></Model>
+		<Model name="UE55RU7452U"></Model>
 		<Model name="UE55RU7470U"></Model>
 		<Model name="UE55RU7472U"></Model>
 		<Model name="UE55RU8000U"></Model>
@@ -21394,6 +21751,7 @@
 		<Model name="UE60KU6079U"></Model>
 		<Model name="UE65AU7002U"></Model>
 		<Model name="UE65AU7002UXRU"></Model>
+		<Model name="UE65AU7092"></Model>
 		<Model name="UE65AU7100U"></Model>
 		<Model name="UE65AU7100UX"></Model>
 		<Model name="UE65AU7100UXCE"></Model>
@@ -21409,6 +21767,7 @@
 		<Model name="UE65AU9070UXRU"></Model>
 		<Model name="UE65BU8000"></Model>
 		<Model name="UE65BU8000U"></Model>
+		<Model name="UE65BU8000UXCE"></Model>
 		<Model name="UE65BU8500"></Model>
 		<Model name="UE65C7000"></Model>
 		<Model name="UE65C8000"></Model>
@@ -21472,6 +21831,7 @@
 		<Model name="UE65JU6800J"></Model>
 		<Model name="UE65JU6800U"></Model>
 		<Model name="UE65JU7000"></Model>
+		<Model name="UE65JU7000U"></Model>
 		<Model name="UE65JU7002"></Model>
 		<Model name="UE65JU7005T"></Model>
 		<Model name="UE65JU7080T"></Model>
@@ -21616,6 +21976,7 @@
 		<Model name="UE65RU8005"></Model>
 		<Model name="UE65TU7072U"></Model>
 		<Model name="UE65TU7090U"></Model>
+		<Model name="UE65TU7090UXRU"></Model>
 		<Model name="UE65TU7100U"></Model>
 		<Model name="UE65TU7100UXRU"></Model>
 		<Model name="UE65TU7140U"></Model>
@@ -21660,6 +22021,7 @@
 		<Model name="UE75BU8500U"></Model>
 		<Model name="UE75CU7100U"></Model>
 		<Model name="UE75CU8000UXRU "></Model>
+		<Model name="UE75CU8500U"></Model>
 		<Model name="UE75CU8500UXRU"></Model>
 		<Model name="UE75D9500"></Model>
 		<Model name="UE75ES9000"></Model>
@@ -21754,6 +22116,7 @@
 		<Model name="UE82RU8002U"></Model>
 		<Model name="UE82TU8000U"></Model>
 		<Model name="UE82TU8072U"></Model>
+		<Model name="UE85AU7100"></Model>
 		<Model name="UE85AU7100U"></Model>
 		<Model name="UE85AU7100UX"></Model>
 		<Model name="UE85AU7100UXCE"></Model>
@@ -21763,6 +22126,8 @@
 		<Model name="UE85BU8000UXCE"></Model>
 		<Model name="UE85BU8000UXRU"></Model>
 		<Model name="UE85BU8072"></Model>
+		<Model name="UE85CU7100U"></Model>
+		<Model name="UE85CU8000U"></Model>
 		<Model name="UE85CU8000UXRU"></Model>
 		<Model name="UE85HU7500"></Model>
 		<Model name="UE85HU7580"></Model>
@@ -21786,6 +22151,7 @@
 		<Model name="WS-32Z10HVTQ"></Model>
 		<Model name="WS-32Z30HEQ"></Model>
 		<Model name="WS-32Z30HPQ"></Model>
+		<Model name="WS-32Z316V"></Model>
 		<Model name="WS-32Z31HSQ"></Model>
 		<Model name="WS-32Z31SSQ"></Model>
 		<Model name="WS-32Z40HTQ"></Model>
@@ -21909,7 +22275,9 @@
 		<Model name="CE21EF1"></Model>
 		<Model name="CE21EF8C"></Model>
 		<Model name="CE21FS2"></Model>
+		<Model name="CE21G4"></Model>
 		<Model name="CE21KF8R"></Model>
+		<Model name="CE21NF66"></Model>
 		<Model name="CE21PF85"></Model>
 		<Model name="CE21SE1M"></Model>
 		<Model name="CE21SP8R"></Model>
@@ -21956,6 +22324,7 @@
 		<Model name="LCD-20CA1"></Model>
 		<Model name="LCD-20XA2"></Model>
 		<Model name="LCD-23XP2"></Model>
+		<Model name="LCD-24K40"></Model>
 		<Model name="LCD-26XR7"></Model>
 		<Model name="LCD-27CA1Z"></Model>
 		<Model name="LCD-27XA2"></Model>
@@ -22246,6 +22615,7 @@
 	<Brand name="Scoole">
 		<Model name="SL-LED24S90T2S"></Model>
 		<Model name="SL-LED32S78T2"></Model>
+		<Model name="SL-LED50S02T2SU"></Model>
 		<Model name="SL-LED55S01T2SU"></Model>
 		<Model name="SL-LED58S01T2SU"></Model>
 	</Brand>
@@ -22584,6 +22954,7 @@
 		<Model name="LC-108"></Model>
 		<Model name="LC-10A3M"></Model>
 		<Model name="LC-10A3U"></Model>
+		<Model name="LC-121M2"></Model>
 		<Model name="LC-12A2E"></Model>
 		<Model name="LC-13B2M"></Model>
 		<Model name="LC-13B4E"></Model>
@@ -22736,6 +23107,7 @@
 		<Model name="LC-30HV4M"></Model>
 		<Model name="LC-32A37"></Model>
 		<Model name="LC-32A47"></Model>
+		<Model name="LC-32A47RU-BK"></Model>
 		<Model name="LC-32A66"></Model>
 		<Model name="LC-32AD5RU"></Model>
 		<Model name="LC-32BT8E"></Model>
@@ -23320,6 +23692,7 @@
 		<Model name="PN-E802"></Model>
 		<Model name="PN-G655E"></Model>
 		<Model name="PN-G655RE"></Model>
+		<Model name="PN-H701"></Model>
 		<Model name="PN-L601B"></Model>
 		<Model name="PN-L602B"></Model>
 		<Model name="PN-L702B"></Model>
@@ -23338,9 +23711,11 @@
 		<Model name="TL-M4600"></Model>
 		<Model name="TL-M5200"></Model>
 		<Model name="VT-1428M"></Model>
+		<Model name="VT-1480B"></Model>
 		<Model name="VT-2128M"></Model>
 		<Model name="VT-2198B"></Model>
 		<Model name="VT-21DV30W"></Model>
+		<Model name="VT-2598M"></Model>
 	</Brand>
 	<Brand name="Shinco">
 		<Model name="DTV-2630"></Model>
@@ -23428,6 +23803,7 @@
 		<Model name="STV-20LED14"></Model>
 		<Model name="STV-20LED25"></Model>
 		<Model name="STV-2113"></Model>
+		<Model name="STV-2119"></Model>
 		<Model name="STV-2129"></Model>
 		<Model name="STV-2137"></Model>
 		<Model name="STV-2139"></Model>
@@ -23648,6 +24024,7 @@
 		<Model name="LCD-2070"></Model>
 		<Model name="LCD-2611"></Model>
 		<Model name="LCD-2631W"></Model>
+		<Model name="LCD-2730W"></Model>
 		<Model name="LCD-2733"></Model>
 		<Model name="LCD-2770"></Model>
 		<Model name="LCD-3211"></Model>
@@ -23867,6 +24244,7 @@
 	</Brand>
 	<Brand name="Sony">
 		<Model name="29LS30K"></Model>
+		<Model name="4882A179"></Model>
 		<Model name="FW-43XE8001"></Model>
 		<Model name="FW-49XE9001"></Model>
 		<Model name="FW-55XE8001"></Model>
@@ -23969,6 +24347,7 @@
 		<Model name="KD-55X75WL"></Model>
 		<Model name="KD-55X8005C"></Model>
 		<Model name="KD-55X80K"></Model>
+		<Model name="KD-55X80L"></Model>
 		<Model name="KD-55X81J"></Model>
 		<Model name="KD-55X81K"></Model>
 		<Model name="KD-55X8500B"></Model>
@@ -24099,6 +24478,7 @@
 		<Model name="KD-75X81K"></Model>
 		<Model name="KD-75X8505C"></Model>
 		<Model name="KD-75X85K"></Model>
+		<Model name="KD-75X85L"></Model>
 		<Model name="KD-75X85TJ"></Model>
 		<Model name="KD-75X89J"></Model>
 		<Model name="KD-75X9105C"></Model>
@@ -24136,10 +24516,12 @@
 		<Model name="KD-85ZG9"></Model>
 		<Model name="KD-85ZH8"></Model>
 		<Model name="KD-98ZG9"></Model>
+		<Model name="KD43X80K"></Model>
 		<Model name="KD43X85TJR"></Model>
 		<Model name="KD50X85K"></Model>
 		<Model name="KD55X81JR"></Model>
 		<Model name="KD55X85TJ"></Model>
+		<Model name="KD55X85TJR"></Model>
 		<Model name="KD55X89J"></Model>
 		<Model name="KD65X75K"></Model>
 		<Model name="KD65X81J"></Model>
@@ -25009,6 +25391,7 @@
 		<Model name="KV-14DK1"></Model>
 		<Model name="KV-14FV1"></Model>
 		<Model name="KV-14LM1"></Model>
+		<Model name="KV-14LM1K"></Model>
 		<Model name="KV-14LT1"></Model>
 		<Model name="KV-14LT1K"></Model>
 		<Model name="KV-14M1"></Model>
@@ -25018,7 +25401,9 @@
 		<Model name="KV-14V1K"></Model>
 		<Model name="KV-14V5K"></Model>
 		<Model name="KV-14VM1"></Model>
+		<Model name="KV-1970MT"></Model>
 		<Model name="KV-1982M9"></Model>
+		<Model name="KV-2062MR"></Model>
 		<Model name="KV-21 DK2"></Model>
 		<Model name="KV-21 FX30 K"></Model>
 		<Model name="KV-2153MT"></Model>
@@ -25090,6 +25475,7 @@
 		<Model name="KV-29CS60K"></Model>
 		<Model name="KV-29E1R"></Model>
 		<Model name="KV-29F1R"></Model>
+		<Model name="KV-29F3R"></Model>
 		<Model name="KV-29FC60"></Model>
 		<Model name="KV-29FQ60K"></Model>
 		<Model name="KV-29FQ65"></Model>
@@ -25110,6 +25496,7 @@
 		<Model name="KV-29LS35K"></Model>
 		<Model name="KV-29LS40K"></Model>
 		<Model name="KV-29LS60"></Model>
+		<Model name="KV-29LS60K"></Model>
 		<Model name="KV-29SE10K"></Model>
 		<Model name="KV-29X1R"></Model>
 		<Model name="KV-29X5B"></Model>
@@ -25130,6 +25517,7 @@
 		<Model name="KV-32HQ150K"></Model>
 		<Model name="KV-32HX15E"></Model>
 		<Model name="KV-32LS60"></Model>
+		<Model name="KV-32WS4R"></Model>
 		<Model name="KV-3400DV2"></Model>
 		<Model name="KV-34FQ75"></Model>
 		<Model name="KV-34FQ75K"></Model>
@@ -25155,6 +25543,7 @@
 		<Model name="KV-BZ21M71"></Model>
 		<Model name="KV-BZ21M81"></Model>
 		<Model name="KV-C2171"></Model>
+		<Model name="KV-C2521D"></Model>
 		<Model name="KV-C27M"></Model>
 		<Model name="KV-DB29M91"></Model>
 		<Model name="KV-DB29M98"></Model>
@@ -25165,6 +25554,7 @@
 		<Model name="KV-E2541D"></Model>
 		<Model name="KV-E2941D"></Model>
 		<Model name="KV-E2951K"></Model>
+		<Model name="KV-E2961K"></Model>
 		<Model name="KV-ES29M61"></Model>
 		<Model name="KV-ES34M61"></Model>
 		<Model name="KV-ES38M61"></Model>
@@ -25226,6 +25616,7 @@
 		<Model name="KV-V1430E"></Model>
 		<Model name="KV-V1430K"></Model>
 		<Model name="KV-V2110K"></Model>
+		<Model name="KV-V2110K/P"></Model>
 		<Model name="KV-V2120K"></Model>
 		<Model name="KV-VF21M70"></Model>
 		<Model name="KV-VF21M77"></Model>
@@ -25300,6 +25691,7 @@
 		<Model name="XR-55X90K"></Model>
 		<Model name="XR-55X90L"></Model>
 		<Model name="XR-55X90S"></Model>
+		<Model name="XR-55X93K"></Model>
 		<Model name="XR-55X94J"></Model>
 		<Model name="XR-55X94K"></Model>
 		<Model name="XR-55X94KU"></Model>
@@ -25315,6 +25707,7 @@
 		<Model name="XR-65X90K"></Model>
 		<Model name="XR-65X90L"></Model>
 		<Model name="XR-65X92K"></Model>
+		<Model name="XR-65X93K"></Model>
 		<Model name="XR-65X94K"></Model>
 		<Model name="XR-65X95J"></Model>
 		<Model name="XR-65X95K"></Model>
@@ -25346,6 +25739,7 @@
 		<Model name="XR-98X90L"></Model>
 		<Model name="XR48A90KAEP"></Model>
 		<Model name="XR55A80JCEP"></Model>
+		<Model name="XR55A83K"></Model>
 		<Model name="XR55A95KAEP"></Model>
 		<Model name="XR65A90JCEP"></Model>
 		<Model name="kv-2180k"></Model>
@@ -25364,8 +25758,10 @@
 		<Model name="SM-LED22M06"></Model>
 		<Model name="SM-LED24M01"></Model>
 		<Model name="SM-LED24M02"></Model>
+		<Model name="SM-LED24M03"></Model>
 		<Model name="SM-LED24M07"></Model>
 		<Model name="SM-LED24M08"></Model>
+		<Model name="SM-LED24M09"></Model>
 		<Model name="SM-LED28M04"></Model>
 		<Model name="SM-LED32M01"></Model>
 		<Model name="SM-LED32M02"></Model>
@@ -25377,6 +25773,7 @@
 		<Model name="SM-LED32M08"></Model>
 		<Model name="SM-LED32M09S"></Model>
 		<Model name="SM-LED32M11S"></Model>
+		<Model name="SM-LED32M14S"></Model>
 		<Model name="SM-LED32M15"></Model>
 		<Model name="SM-LED39M01"></Model>
 		<Model name="SM-LED39M06"></Model>
@@ -25494,6 +25891,7 @@
 		<Model name="14D1"></Model>
 		<Model name="14F1"></Model>
 		<Model name="15B00H"></Model>
+		<Model name="15B10F50"></Model>
 		<Model name="19B01H"></Model>
 		<Model name="19B12H"></Model>
 		<Model name="19C15H"></Model>
@@ -25661,6 +26059,7 @@
 		<Model name="55P745"></Model>
 		<Model name="55Q10G"></Model>
 		<Model name="55S405"></Model>
+		<Model name="55V8E"></Model>
 		<Model name="55С639"></Model>
 		<Model name="65C635"></Model>
 		<Model name="65C645"></Model>
@@ -25670,6 +26069,7 @@
 		<Model name="65C728G"></Model>
 		<Model name="65C735"></Model>
 		<Model name="65C745"></Model>
+		<Model name="65C755"></Model>
 		<Model name="65C825"></Model>
 		<Model name="65C828"></Model>
 		<Model name="65C835"></Model>
@@ -25684,11 +26084,13 @@
 		<Model name="65P637"></Model>
 		<Model name="65P717"></Model>
 		<Model name="65P725"></Model>
+		<Model name="65P735"></Model>
 		<Model name="65P737"></Model>
 		<Model name="65P745"></Model>
 		<Model name="65P815"></Model>
 		<Model name="65Q10G"></Model>
 		<Model name="65Q10H"></Model>
+		<Model name="65QM850G"></Model>
 		<Model name="65R655"></Model>
 		<Model name="65T8G Max"></Model>
 		<Model name="65V8EPro"></Model>
@@ -25699,6 +26101,7 @@
 		<Model name="75C728"></Model>
 		<Model name="75C735"></Model>
 		<Model name="75C745"></Model>
+		<Model name="75C755"></Model>
 		<Model name="75C825"></Model>
 		<Model name="75C845"></Model>
 		<Model name="75P717"></Model>
@@ -25713,10 +26116,12 @@
 		<Model name="85P737"></Model>
 		<Model name="85P745"></Model>
 		<Model name="85Q10G"></Model>
+		<Model name="85Q10H"></Model>
 		<Model name="85T8G Max"></Model>
 		<Model name="85X955"></Model>
 		<Model name="98C731"></Model>
 		<Model name="98C735"></Model>
+		<Model name="98C745"></Model>
 		<Model name="98P745"></Model>
 		<Model name="98X11G"></Model>
 		<Model name="98X955"></Model>
@@ -26081,6 +26486,7 @@
 		<Model name="LED55D2930US"></Model>
 		<Model name="Mini LED 4K C935"></Model>
 		<Model name="PDP 403"></Model>
+		<Model name="Q750G"></Model>
 		<Model name="QLED 50C717"></Model>
 		<Model name="QLED 55C717"></Model>
 		<Model name="QLED 55C815"></Model>
@@ -26487,6 +26893,7 @@
 		<Model name="TF-LED43S11T2S"></Model>
 		<Model name="TF-LED43S13T2"></Model>
 		<Model name="TF-LED43S21T2SU"></Model>
+		<Model name="TF-LED43S22T2SU"></Model>
 		<Model name="TF-LED43S27T2"></Model>
 		<Model name="TF-LED43S30T2"></Model>
 		<Model name="TF-LED43S36T2"></Model>
@@ -26545,6 +26952,7 @@
 		<Model name="TF-LED65S03T2SU"></Model>
 		<Model name="TF-LED65S10T2SU"></Model>
 		<Model name="TF-LED65S15T2SU"></Model>
+		<Model name="TF-LED65S35T2SU"></Model>
 		<Model name="TF-LED65S37T2SU"></Model>
 		<Model name="TF-LED65S75T2SU"></Model>
 		<Model name="U15687BG T2/CI"></Model>
@@ -26601,12 +27009,14 @@
 		<Model name="32E320BH"></Model>
 		<Model name="32E325BH"></Model>
 		<Model name="32S605BHS"></Model>
+		<Model name="40E320BF"></Model>
 		<Model name="42Q310BF"></Model>
 		<Model name="43S605BFS"></Model>
 		<Model name="43S906BUS"></Model>
 		<Model name="50S906BUS"></Model>
 		<Model name="55S906BUS"></Model>
 		<Model name="65S906BUS"></Model>
+		<Model name="Q55K925SUS"></Model>
 	</Brand>
 	<Brand name="TMT">
 		<Model name="5507N"></Model>
@@ -26621,6 +27031,7 @@
 		<Model name="TVT 2894"></Model>
 	</Brand>
 	<Brand name="TOSHI">
+		<Model name="40HL933RK"></Model>
 		<Model name="CX-14M"></Model>
 	</Brand>
 	<Brand name="TV Star">
@@ -26709,6 +27120,7 @@
 		<Model name="TS-3730Bl"></Model>
 		<Model name="TS-4235"></Model>
 		<Model name="TS-5407"></Model>
+		<Model name="TS-5408F"></Model>
 		<Model name="TS-LCD-1962"></Model>
 		<Model name="TS-LCD-2605"></Model>
 		<Model name="TS-LCD-2630"></Model>
@@ -26801,6 +27213,7 @@
 		<Model name="15LCDM03B"></Model>
 		<Model name="15MH182"></Model>
 		<Model name="15MH182KG"></Model>
+		<Model name="15MH183KG"></Model>
 		<Model name="15MH183KH"></Model>
 		<Model name="15NHM183"></Model>
 		<Model name="15XA1000"></Model>
@@ -27028,9 +27441,11 @@
 		<Model name="28DK42E"></Model>
 		<Model name="28DK44E"></Model>
 		<Model name="28DK45ES"></Model>
+		<Model name="28DM184KG"></Model>
 		<Model name="28DP182"></Model>
 		<Model name="28DP25EG"></Model>
 		<Model name="28DP45EG"></Model>
+		<Model name="28DR182KG"></Model>
 		<Model name="28DT77DT"></Model>
 		<Model name="28HA3203"></Model>
 		<Model name="28HA3204"></Model>
@@ -27237,6 +27652,7 @@
 		<Model name="34DF410G"></Model>
 		<Model name="34DF45EG"></Model>
 		<Model name="34DF640G"></Model>
+		<Model name="36MF71"></Model>
 		<Model name="36MT11X"></Model>
 		<Model name="36WT610S"></Model>
 		<Model name="36WX642S"></Model>
@@ -27695,6 +28111,7 @@
 		<Model name="T43FSM5040"></Model>
 		<Model name="T43FSM6020"></Model>
 		<Model name="T43FSM6050"></Model>
+		<Model name="T43FSM6070"></Model>
 		<Model name="T43USL7000"></Model>
 		<Model name="T43USL7010"></Model>
 		<Model name="T43USM5200"></Model>
@@ -27788,6 +28205,7 @@
 		<Model name="TDTV32BS02H"></Model>
 		<Model name="TDTV32BS04H"></Model>
 		<Model name="TDTV32CN04H"></Model>
+		<Model name="TDTV32CS04HWE"></Model>
 		<Model name="TDTV40BN02F"></Model>
 		<Model name="TDTV40BS04F"></Model>
 		<Model name="TDTV40BS04FBK"></Model>
@@ -27928,6 +28346,7 @@
 		<Model name="2178XR"></Model>
 		<Model name="2185XR"></Model>
 		<Model name="218D7S"></Model>
+		<Model name="218D7S1"></Model>
 		<Model name="218Q6S"></Model>
 		<Model name="218X8M"></Model>
 		<Model name="21C2R"></Model>
@@ -27955,6 +28374,7 @@
 		<Model name="21CVZ5TR"></Model>
 		<Model name="21CVZ7DR"></Model>
 		<Model name="21CZ3R"></Model>
+		<Model name="21CZ3RX"></Model>
 		<Model name="21CZ4R1"></Model>
 		<Model name="21CZ4RX"></Model>
 		<Model name="21CZ4RX1"></Model>
@@ -28081,6 +28501,7 @@
 		<Model name="26AV505D"></Model>
 		<Model name="26AV603P"></Model>
 		<Model name="26AV605P"></Model>
+		<Model name="26AV605PR"></Model>
 		<Model name="26AV607P"></Model>
 		<Model name="26AV615D"></Model>
 		<Model name="26AV703"></Model>
@@ -28235,6 +28656,7 @@
 		<Model name="32EL833"></Model>
 		<Model name="32EL834"></Model>
 		<Model name="32EL933"></Model>
+		<Model name="32EL933RB"></Model>
 		<Model name="32EL934"></Model>
 		<Model name="32EL934RB"></Model>
 		<Model name="32HL833"></Model>
@@ -28273,6 +28695,7 @@
 		<Model name="32L5650"></Model>
 		<Model name="32L5660EV"></Model>
 		<Model name="32L5780EC"></Model>
+		<Model name="32L5865"></Model>
 		<Model name="32L5865EV"></Model>
 		<Model name="32L6353"></Model>
 		<Model name="32L6363"></Model>
@@ -28934,6 +29357,7 @@
 		<Model name="75U6863DG"></Model>
 		<Model name="84L9300"></Model>
 		<Model name="84L9363"></Model>
+		<Model name="Bomba"></Model>
 		<Model name="CELL REGZA 46XE2"></Model>
 		<Model name="CELL REGZA 55X2"></Model>
 		<Model name="CELL REGZA 55XE2"></Model>
@@ -28995,11 +29419,13 @@
 		<Model name="STV-43DFBK1R"></Model>
 		<Model name="STV-43FDUBK1R"></Model>
 		<Model name="STV-50FDUBK1R"></Model>
+		<Model name="STV-55FDUBK1R"></Model>
 		<Model name="STV-65DUBK1R"></Model>
 		<Model name="TD24HNGEV1"></Model>
 		<Model name="TD32HFGEV1"></Model>
 		<Model name="TD55UFGEV1"></Model>
 		<Model name="TQ65UFBCV1"></Model>
+		<Model name="TQ75UFBTV1"></Model>
 	</Brand>
 	<Brand name="UD">
 		<Model name="24W5210T"></Model>
@@ -29102,6 +29528,7 @@
 		<Model name="LD-39SR4815BS"></Model>
 		<Model name="LD-39TR4315BT"></Model>
 		<Model name="LD-39TR4615BS"></Model>
+		<Model name="LD-40SF4113BT"></Model>
 		<Model name="LD-40SF4613BS"></Model>
 		<Model name="LD-40SF6019BT"></Model>
 		<Model name="LD-40SF6031ST"></Model>
@@ -29124,6 +29551,7 @@
 		<Model name="LD-50SU8719BS"></Model>
 		<Model name="LD-50SU8731SS"></Model>
 		<Model name="LD-50SU8815BS"></Model>
+		<Model name="LD-55SQ9513BS"></Model>
 		<Model name="LD-55SU8719BS"></Model>
 		<Model name="LD-55SU8731SS"></Model>
 		<Model name="LD-55SU8815BS"></Model>
@@ -29146,6 +29574,8 @@
 		<Model name="43V3400"></Model>
 		<Model name="V32LH4000"></Model>
 		<Model name="V32LH4300"></Model>
+		<Model name="V65MU8500"></Model>
+		<Model name="V75MU6500"></Model>
 	</Brand>
 	<Brand name="VITEK">
 		<Model name="VT-3006"></Model>
@@ -29153,6 +29583,7 @@
 		<Model name="VT-3008 7&#34;"></Model>
 		<Model name="VT-3011"></Model>
 		<Model name="VT-3012"></Model>
+		<Model name="VT-3550"></Model>
 		<Model name="VT-3551"></Model>
 		<Model name="VT-3552"></Model>
 	</Brand>
@@ -29559,7 +29990,10 @@
 		<Model name="43ADS316BU"></Model>
 		<Model name="43DSA311B"></Model>
 		<Model name="50ADS314B"></Model>
+		<Model name="50KAU680B"></Model>
 		<Model name="55ADS314H"></Model>
+		<Model name="55VAQ750B"></Model>
+		<Model name="UHD 43ADS668S"></Model>
 		<Model name="UHD 50WOS315B"></Model>
 		<Model name="UHD50A11U672B"></Model>
 		<Model name="UHD50A667JBL"></Model>
@@ -29608,6 +30042,7 @@
 		<Model name="T1403SS"></Model>
 		<Model name="T1451SS"></Model>
 		<Model name="T1452"></Model>
+		<Model name="T2101"></Model>
 		<Model name="T2951S"></Model>
 		<Model name="TC1411H"></Model>
 		<Model name="TF1508"></Model>
@@ -29715,6 +30150,8 @@
 		<Model name="L43M7-EARU"></Model>
 		<Model name="L50M5-5ARU Mi"></Model>
 		<Model name="L50M6-6ARG"></Model>
+		<Model name="L50M7-EARU"></Model>
+		<Model name="L50R8-A"></Model>
 		<Model name="L55M5-5ARU"></Model>
 		<Model name="L55M7-EA"></Model>
 		<Model name="L65M5-5ASP"></Model>
@@ -29810,6 +30247,7 @@
 		<Model name="Mi TV 6 Extreme Edition 75"></Model>
 		<Model name="Mi TV 6 OLED 55"></Model>
 		<Model name="Mi TV 6 OLED 65"></Model>
+		<Model name="Mi TV A Pro 50"></Model>
 		<Model name="Mi TV A2 32"></Model>
 		<Model name="Mi TV A2 43 Full HD"></Model>
 		<Model name="Mi TV A2 65"></Model>
@@ -29878,6 +30316,7 @@
 		<Model name="Redmi X Pro 75"></Model>
 		<Model name="Redmi X55T"></Model>
 		<Model name="Redmi X65T"></Model>
+		<Model name="Redmi X85"></Model>
 		<Model name="TV A2"></Model>
 		<Model name="TV A2 32"></Model>
 		<Model name="TV A2 43"></Model>
@@ -29964,6 +30403,7 @@
 		<Model name="55UD81"></Model>
 		<Model name="65G11"></Model>
 		<Model name="65Q90"></Model>
+		<Model name="75Q90"></Model>
 		<Model name="LED 50G10"></Model>
 		<Model name="LED-32E1000"></Model>
 		<Model name="LED-32E7000"></Model>
@@ -29971,6 +30411,7 @@
 		<Model name="LED-32G11"></Model>
 		<Model name="LED-32G8"></Model>
 		<Model name="LED-32LG58"></Model>
+		<Model name="LED-43E5000"></Model>
 		<Model name="LED-43G1000T"></Model>
 		<Model name="LED-50G11"></Model>
 		<Model name="LED-50UD71"></Model>
@@ -29982,6 +30423,7 @@
 		<Model name="ULM-24TCW112U"></Model>
 		<Model name="ULM-32TC114"></Model>
 		<Model name="ULM-32TCS1134"></Model>
+		<Model name="ULM-32TCSW1135"></Model>
 		<Model name="ULM-32TCW115"></Model>
 		<Model name="ULM-39TC120"></Model>
 		<Model name="ULM-43FTC145"></Model>
@@ -30084,9 +30526,11 @@
 	</Brand>
 	<Brand name="Алтай">
 		<Model name="16ТБ-403Д"></Model>
+		<Model name="40ТБ-306"></Model>
 		<Model name="МT-401Д"></Model>
 	</Brand>
 	<Brand name="Березка">
+		<Model name="212"></Model>
 		<Model name="216"></Model>
 		<Model name="23ТБ-401"></Model>
 		<Model name="51ТЦ-487Д-1"></Model>
@@ -30204,6 +30648,7 @@
 		<Model name="32LH0204"></Model>
 		<Model name="32LH0205"></Model>
 		<Model name="32LH0206"></Model>
+		<Model name="32LH0220"></Model>
 		<Model name="32LH1201"></Model>
 		<Model name="32LH1202"></Model>
 		<Model name="32LH1204"></Model>
@@ -30252,7 +30697,9 @@
 		<Model name="43LF1204"></Model>
 		<Model name="43LF1206"></Model>
 		<Model name="43LF1207"></Model>
+		<Model name="43LF1218"></Model>
 		<Model name="43LU1204"></Model>
+		<Model name="43LU1218"></Model>
 		<Model name="46LCD821-5DC"></Model>
 		<Model name="50L401B03"></Model>
 		<Model name="50LU1201"></Model>
@@ -30322,6 +30769,7 @@
 		<Model name="63CTV721-2SP Luxor"></Model>
 		<Model name="65LU1204"></Model>
 		<Model name="65LU1207"></Model>
+		<Model name="65LU1218"></Model>
 		<Model name="65LU1221"></Model>
 		<Model name="70CTV710-1TS"></Model>
 		<Model name="70CTV711-1TS"></Model>
@@ -30342,6 +30790,7 @@
 		<Model name="206"></Model>
 		<Model name="26LCD840"></Model>
 		<Model name="34ТБ-450Д-И"></Model>
+		<Model name="37CTV-664-1"></Model>
 		<Model name="51ТЦ-418Д"></Model>
 		<Model name="51ТЦ412И"></Model>
 		<Model name="54CTV-678-I-29"></Model>
@@ -30503,6 +30952,7 @@
 		<Model name="LCD-3203EU"></Model>
 		<Model name="LCD-37L16"></Model>
 		<Model name="LCD-42L16"></Model>
+		<Model name="LT-2642D"></Model>
 		<Model name="LT-3242D"></Model>
 		<Model name="LT-4242D"></Model>
 		<Model name="LT-4642D"></Model>
@@ -30525,6 +30975,7 @@
 	<Brand name="Рассвет">
 		<Model name="306"></Model>
 		<Model name="307-1"></Model>
+		<Model name="40 ТБ-301"></Model>
 		<Model name="40ТБ-309"></Model>
 	</Brand>
 	<Brand name="Рекорд">
@@ -30577,6 +31028,7 @@
 		<Model name="В-312"></Model>
 		<Model name="ВЦ-311"></Model>
 		<Model name="ВЦ-381Д"></Model>
+		<Model name="Рекорд-12"></Model>
 		<Model name="Рекорд-67"></Model>
 	</Brand>
 	<Brand name="Рубин">
@@ -30593,6 +31045,7 @@
 		<Model name="37M20-0"></Model>
 		<Model name="37S20DVD"></Model>
 		<Model name="37М04-2"></Model>
+		<Model name="37М06"></Model>
 		<Model name="37М10-1"></Model>
 		<Model name="37МО9Т-2"></Model>
 		<Model name="4ТЦ-346"></Model>
@@ -30604,6 +31057,7 @@
 		<Model name="51М09T"></Model>
 		<Model name="51М10"></Model>
 		<Model name="51М10-2"></Model>
+		<Model name="54M03"></Model>
 		<Model name="54ТЦ-311И"></Model>
 		<Model name="54ТЦ-402ДИ"></Model>
 		<Model name="55FM09T"></Model>
@@ -30635,6 +31089,7 @@
 		<Model name="55М10-1"></Model>
 		<Model name="55М10-2"></Model>
 		<Model name="61ТЦ-4102ДВ"></Model>
+		<Model name="63S05T"></Model>
 		<Model name="63S06TP"></Model>
 		<Model name="63S10T"></Model>
 		<Model name="72FDS107"></Model>
@@ -30753,6 +31208,7 @@
 		<Model name="37ТЦ-6001"></Model>
 		<Model name="51ТЦ-423ДВН"></Model>
 		<Model name="54ТЦ-6002N"></Model>
+		<Model name="61ТЦ-460ДР"></Model>
 		<Model name="Ц280Д"></Model>
 	</Brand>
 	<Brand name="Саксенверк (ГДР)">
@@ -30760,6 +31216,7 @@
 	</Brand>
 	<Brand name="Сапфир">
 		<Model name="23ТБ-307"></Model>
+		<Model name="23ТБ-307Д"></Model>
 		<Model name="23ТБ-311Д"></Model>
 		<Model name="23ТБ-406Д"></Model>
 		<Model name="31ТБ-406Д"></Model>
@@ -30770,6 +31227,7 @@
 		<Model name="Сигнал-2"></Model>
 	</Brand>
 	<Brand name="Славутич">
+		<Model name="204"></Model>
 		<Model name="217"></Model>
 		<Model name="34тб-412д"></Model>
 		<Model name="51ТЦ-311Д"></Model>
@@ -30832,6 +31290,7 @@
 	<Brand name="Спектр">
 		<Model name="54ТЦ-6107IF-3"></Model>
 		<Model name="54ТЦ-6107ИF-3"></Model>
+		<Model name="54ТЦ-6522"></Model>
 		<Model name="61ТЦ-423ДВ"></Model>
 		<Model name="63ТЦ-6107IF-4"></Model>
 		<Model name="72ТЦ-6512"></Model>
@@ -30840,9 +31299,13 @@
 	<Brand name="Старт 3">
 		<Model name="Старт 3"></Model>
 	</Brand>
+	<Brand name="Старт 4">
+		<Model name="Старт 4"></Model>
+	</Brand>
 	<Brand name="Темп">
 		<Model name="209М"></Model>
 		<Model name="714"></Model>
+		<Model name="733"></Model>
 		<Model name="Ц-280Д"></Model>
 	</Brand>
 	<Brand name="Триколор">
@@ -30863,6 +31326,9 @@
 		<Model name="61ТЦ-469ДВ"></Model>
 		<Model name="УНТ-47-1"></Model>
 		<Model name="Ц-280Д"></Model>
+	</Brand>
+	<Brand name="Шилялис">
+		<Model name="402Д-1"></Model>
 	</Brand>
 	<Brand name="ЭЛЬДОРАДО">
 		<Model name="54TC6171"></Model>
@@ -30980,6 +31446,7 @@
 		<Model name="E54F18T"></Model>
 		<Model name="E72F14S"></Model>
 		<Model name="ВЛ-100"></Model>
+		<Model name="Е3718"></Model>
 		<Model name="Ц-401М"></Model>
 		<Model name="Ц-431Д"></Model>
 		<Model name="Ц-432"></Model>
@@ -30988,6 +31455,7 @@
 	<Brand name="Юность">
 		<Model name="31ТБ-303Д"></Model>
 		<Model name="32ТЦ-309Д"></Model>
+		<Model name="401"></Model>
 		<Model name="402"></Model>
 		<Model name="406Д"></Model>
 		<Model name="Р603"></Model>
@@ -31004,5 +31472,8 @@
 		<Model name="YNDX-00092"></Model>
 		<Model name="YNDX-00101"></Model>
 		<Model name="YNDX-00102"></Model>
+		<Model name="ТВ Станция Про с Алисой 55&#34;"></Model>
+		<Model name="ТВ Станция Про с Алисой 65&#34;"></Model>
+		<Model name="ТВ Станция с Алисой 50&#34;"></Model>
 	</Brand>
 </Televizory_novyj>

@@ -58,6 +58,7 @@ class Animals implements Category
 						'Rodents',
 						'Rabbits',
 						'Horses',
+						'Reptiles',
 						'Agricultural animals',
 						'Ferrets',
 						'Other',

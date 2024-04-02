@@ -47,7 +47,15 @@ class Wheels implements Structure\Category, Structure\CategoryLevel
 				    'RimDIA' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/wheels/rimdia.xml',
 				    'RimOffset' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/wheels/rimoffset.xml',
 				    'RimWidth' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/wheels/rimwidth.xml',
-			    ]
+			    ],
+			    'Condition-->CONDITION_USED' => [
+				    'ResidualTread' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/tires/residualtread.xml',
+			    ],
+			    'DifferentWidthTires-->DIFFERENT_WIDTH_TIRES_YES' => [
+				    'BackRimDiameter' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/tires/backrimdiameter.xml',
+				    'BackTireAspectRatio' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/tires/backtireaspectratio.xml',
+				    'BackTireSectionWidth' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/tires/backtiresectionwidth.xml',
+			    ],
 		    ])
 	    );
     }

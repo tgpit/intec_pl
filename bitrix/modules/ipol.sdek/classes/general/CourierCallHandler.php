@@ -320,7 +320,7 @@ class CourierCallHandler extends abstractGeneral
 
     /**
      * Checks state of given CourierCall: accepted or any errors raised etc
-     * @param int $callId
+     * @param $id
      * @return Result
      */
     public static function getCourierCallState($id)

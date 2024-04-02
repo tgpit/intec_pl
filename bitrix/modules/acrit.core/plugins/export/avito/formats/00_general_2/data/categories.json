@@ -236,7 +236,48 @@
                     {
                         "name": "Сад, благоустройство",
                         "id": 66883,
-                        "show_fields": true
+                        "nested": [
+                            {
+                                "name": "Водоёмы и фонтаны",
+                                "id": 77216,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Дорожное строительство",
+                                "id": 77217,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Заборы, ограждения, навесы",
+                                "id": 77218,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Земляные работы",
+                                "id": 77219,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Озеленение, уход за садом и огородом",
+                                "id": 77324,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Рольставни и ворота",
+                                "id": 77325,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Другое",
+                                "id": 77326,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Cкважины, колодцы",
+                                "id": 77327,
+                                "show_fields": true
+                            }
+                        ]
                     },
                     {
                         "name": "Ремонт и отделка",
@@ -388,7 +429,33 @@
                     {
                         "name": "Бытовые услуги",
                         "id": 66913,
-                        "show_fields": true
+                        "nested": [
+                            {
+                                "name": "Ювелирные услуги",
+                                "id": 76633,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Химчистка, стирка",
+                                "id": 76634,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Ремонт часов",
+                                "id": 76635,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Пошив и ремонт одежды",
+                                "id": 76636,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Изготовление ключей",
+                                "id": 76637,
+                                "show_fields": true
+                            }
+                        ]
                     },
                     {
                         "name": "Красота, здоровье",
@@ -453,6 +520,11 @@
                                 "name": "Диетология",
                                 "id": 68141,
                                 "show_fields": true
+                            },
+                            {
+                                "name": "Фитнес, йога",
+                                "id": 73319,
+                                "show_fields": true
                             }
                         ]
                     },
@@ -476,7 +548,7 @@
                                 "show_fields": true
                             },
                             {
-                                "name": "Предметы школы и ВУЗа",
+                                "name": "Предметы школы и вуза",
                                 "id": 70776,
                                 "show_fields": true
                             },
@@ -535,7 +607,43 @@
                     {
                         "name": "Уборка",
                         "id": 66928,
-                        "show_fields": true
+                        "nested": [
+                            {
+                                "name": "Дезинфекция, дезинсекция",
+                                "id": 77220,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Чистка мягкой мебели",
+                                "id": 77221,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Чистка ковров",
+                                "id": 77222,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Уборка после ремонта",
+                                "id": 77223,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Простая уборка",
+                                "id": 77224,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Мойка окон",
+                                "id": 77225,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Генеральная уборка",
+                                "id": 77226,
+                                "show_fields": true
+                            }
+                        ]
                     },
                     {
                         "name": "Ремонт и обслуживание техники",
@@ -611,7 +719,88 @@
                     {
                         "name": "Строительство",
                         "id": 66938,
-                        "show_fields": true
+                        "nested": [
+                            {
+                                "name": "Отделка деревянных домов, бань, саун",
+                                "id": 77201,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Сварочные работы",
+                                "id": 77202,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Снос и демонтаж",
+                                "id": 77203,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Фасадные работы",
+                                "id": 77204,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Изыскательные работы",
+                                "id": 77205,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Кладочные работы",
+                                "id": 77206,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Алмазное сверление и резка",
+                                "id": 77207,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Бетонные работы",
+                                "id": 77208,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Газификация",
+                                "id": 77209,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Кровельные работы",
+                                "id": 77210,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Лестницы",
+                                "id": 77211,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Проектирование и сметы",
+                                "id": 77212,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Строительство домов под ключ",
+                                "id": 77213,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Фундаментные работы",
+                                "id": 77214,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Другое",
+                                "id": 77215,
+                                "show_fields": true
+                            },
+                            {
+                                "name": "Строительство бань, саун",
+                                "id": 77352,
+                                "show_fields": true
+                            }
+                        ]
                     },
                     {
                         "name": "Вывоз мусора и вторсырья",

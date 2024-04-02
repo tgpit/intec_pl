@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RimOffsetValues>
-	<RimOffset>-120</RimOffset>
-	<RimOffset>-98</RimOffset>
-	<RimOffset>-88</RimOffset>
-	<RimOffset>-65</RimOffset>
-	<RimOffset>-50</RimOffset>
-	<RimOffset>-46</RimOffset>
-	<RimOffset>-45</RimOffset>
-	<RimOffset>-44</RimOffset>
-	<RimOffset>-40</RimOffset>
-	<RimOffset>-38</RimOffset>
-	<RimOffset>-36</RimOffset>
-	<RimOffset>-35</RimOffset>
-	<RimOffset>-32</RimOffset>
-	<RimOffset>-30</RimOffset>
-	<RimOffset>-28</RimOffset>
-	<RimOffset>-25</RimOffset>
-	<RimOffset>-24</RimOffset>
-	<RimOffset>-22</RimOffset>
-	<RimOffset>-20</RimOffset>
-	<RimOffset>-19</RimOffset>
-	<RimOffset>-18</RimOffset>
-	<RimOffset>-16</RimOffset>
-	<RimOffset>-15</RimOffset>
-	<RimOffset>-14</RimOffset>
-	<RimOffset>-13</RimOffset>
-	<RimOffset>-12</RimOffset>
-	<RimOffset>-10</RimOffset>
-	<RimOffset>-8</RimOffset>
-	<RimOffset>-7</RimOffset>
-	<RimOffset>-6</RimOffset>
-	<RimOffset>-5</RimOffset>
 	<RimOffset>-2</RimOffset>
+	<RimOffset>-3</RimOffset>
+	<RimOffset>-5</RimOffset>
+	<RimOffset>-6</RimOffset>
+	<RimOffset>-7</RimOffset>
+	<RimOffset>-8</RimOffset>
+	<RimOffset>-10</RimOffset>
+	<RimOffset>-12</RimOffset>
+	<RimOffset>-13</RimOffset>
+	<RimOffset>-14</RimOffset>
+	<RimOffset>-15</RimOffset>
+	<RimOffset>-16</RimOffset>
+	<RimOffset>-18</RimOffset>
+	<RimOffset>-19</RimOffset>
+	<RimOffset>-20</RimOffset>
+	<RimOffset>-22</RimOffset>
+	<RimOffset>-24</RimOffset>
+	<RimOffset>-25</RimOffset>
+	<RimOffset>-28</RimOffset>
+	<RimOffset>-30</RimOffset>
+	<RimOffset>-32</RimOffset>
+	<RimOffset>-35</RimOffset>
+	<RimOffset>-36</RimOffset>
+	<RimOffset>-38</RimOffset>
+	<RimOffset>-40</RimOffset>
+	<RimOffset>-44</RimOffset>
+	<RimOffset>-45</RimOffset>
+	<RimOffset>-46</RimOffset>
+	<RimOffset>-50</RimOffset>
+	<RimOffset>-65</RimOffset>
+	<RimOffset>-66</RimOffset>
+	<RimOffset>-88</RimOffset>
+	<RimOffset>-90</RimOffset>
+	<RimOffset>-98</RimOffset>
+	<RimOffset>-120</RimOffset>
+	<RimOffset>-130</RimOffset>
+	<RimOffset>-155</RimOffset>
+	<RimOffset>-172</RimOffset>
+	<RimOffset>-187</RimOffset>
 	<RimOffset>0</RimOffset>
 	<RimOffset>1</RimOffset>
 	<RimOffset>2</RimOffset>
@@ -111,6 +118,7 @@
 	<RimOffset>55</RimOffset>
 	<RimOffset>56</RimOffset>
 	<RimOffset>56.4</RimOffset>
+	<RimOffset>56.5</RimOffset>
 	<RimOffset>57</RimOffset>
 	<RimOffset>58</RimOffset>
 	<RimOffset>59</RimOffset>
@@ -131,6 +139,7 @@
 	<RimOffset>76</RimOffset>
 	<RimOffset>80</RimOffset>
 	<RimOffset>83</RimOffset>
+	<RimOffset>86</RimOffset>
 	<RimOffset>90</RimOffset>
 	<RimOffset>95</RimOffset>
 	<RimOffset>100</RimOffset>
@@ -144,6 +153,7 @@
 	<RimOffset>109.5</RimOffset>
 	<RimOffset>110</RimOffset>
 	<RimOffset>111</RimOffset>
+	<RimOffset>112</RimOffset>
 	<RimOffset>114</RimOffset>
 	<RimOffset>115</RimOffset>
 	<RimOffset>116</RimOffset>
@@ -163,6 +173,7 @@
 	<RimOffset>134</RimOffset>
 	<RimOffset>135</RimOffset>
 	<RimOffset>136</RimOffset>
+	<RimOffset>137.5</RimOffset>
 	<RimOffset>138</RimOffset>
 	<RimOffset>140</RimOffset>
 	<RimOffset>142</RimOffset>
@@ -174,7 +185,9 @@
 	<RimOffset>148</RimOffset>
 	<RimOffset>150</RimOffset>
 	<RimOffset>151.4</RimOffset>
+	<RimOffset>151.4</RimOffset>
 	<RimOffset>152</RimOffset>
+	<RimOffset>152.5</RimOffset>
 	<RimOffset>154</RimOffset>
 	<RimOffset>154,4</RimOffset>
 	<RimOffset>155</RimOffset>
@@ -188,14 +201,25 @@
 	<RimOffset>163,5</RimOffset>
 	<RimOffset>164</RimOffset>
 	<RimOffset>165</RimOffset>
+	<RimOffset>165.5</RimOffset>
 	<RimOffset>167</RimOffset>
 	<RimOffset>168</RimOffset>
 	<RimOffset>172</RimOffset>
 	<RimOffset>173</RimOffset>
+	<RimOffset>174</RimOffset>
+	<RimOffset>174.5</RimOffset>
 	<RimOffset>174.5</RimOffset>
 	<RimOffset>175</RimOffset>
+	<RimOffset>177.5</RimOffset>
 	<RimOffset>180</RimOffset>
+	<RimOffset>184</RimOffset>
 	<RimOffset>185</RimOffset>
+	<RimOffset>195</RimOffset>
+	<RimOffset>210</RimOffset>
 	<RimOffset>214</RimOffset>
 	<RimOffset>215</RimOffset>
+	<RimOffset>221.5</RimOffset>
+	<RimOffset>224</RimOffset>
+	<RimOffset>293</RimOffset>
+	<RimOffset>–</RimOffset>
 </RimOffsetValues>

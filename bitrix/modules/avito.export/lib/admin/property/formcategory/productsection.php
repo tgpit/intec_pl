@@ -5,6 +5,7 @@ use Bitrix\Main;
 use Bitrix\Iblock;
 use Avito\Export\Assert;
 use Avito\Export\Concerns;
+use Avito\Export\Data;
 
 /** @noinspection PhpUnused */
 class ProductSection extends Section
@@ -76,10 +77,21 @@ class ProductSection extends Section
 
 		while ($sectionLink = $querySectionLinks->Fetch())
 		{
-			$sections[] = $sectionLink['ID'];
+			$sections[] = (int)$sectionLink['ID'];
 		}
 
 		Main\Type\Collection::normalizeArrayValuesByInt($sections, false);
+
+		$primarySection = Data\Iblock\PrimarySection::forLinkedSections(
+			$sections,
+			(int)$row['IBLOCK_SECTION_ID'],
+			$form['skuIblockId']
+		);
+
+		if ($primarySection > 0)
+		{
+			$sections = array_unique(array_merge([ $primarySection ], $sections));
+		}
 
 		if (empty($sections))
 		{

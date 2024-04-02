@@ -20,26 +20,7 @@
         <ApparelType name="Анораки"></ApparelType>
         <ApparelType name="Другое"></ApparelType>
     </Apparel>
-    <Apparel name="Джинсы">
-        <Size name="36–38 (W23)"></Size>
-        <Size name="38 (W24)"></Size>
-        <Size name="40 (W25)"></Size>
-        <Size name="42 (W26)"></Size>
-        <Size name="42–44 (W27)"></Size>
-        <Size name="44 (W28)"></Size>
-        <Size name="44–46 (W29)"></Size>
-        <Size name="46 (W30)"></Size>
-        <Size name="46–48 (W31)"></Size>
-        <Size name="48 (W32)"></Size>
-        <Size name="48–50 (W33)"></Size>
-        <Size name="50 (W34)"></Size>
-        <Size name="50–52 (W35)"></Size>
-        <Size name="52 (W36)"></Size>
-        <Size name="54 (W38)"></Size>
-        <Size name="58 (W40)"></Size>
-        <Size name="62 (W42)"></Size>
-        <Size name="64+ (W44+)"></Size>
-    </Apparel>
+    <Apparel name="Джинсы"></Apparel>
     <Apparel name="Купальники"></Apparel>
     <Apparel name="Нижнее бельё"></Apparel>
     <Apparel name="Пиджаки и костюмы"></Apparel>

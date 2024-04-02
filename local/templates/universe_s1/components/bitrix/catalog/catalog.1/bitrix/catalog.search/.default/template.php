@@ -135,7 +135,7 @@ $arFilter = $arParams['FILTER'];
     ?>
     <?php $this->SetViewTarget('component_search');?>
         <?php $arElements['ID'] = $APPLICATION->IncludeComponent(
-            'bitrix:search.page',
+            'arturgolubev:search.page',
             'catalog',
             $arSearchPageParameters,
             $component,

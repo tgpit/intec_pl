@@ -27,6 +27,7 @@ $order_pt_fields = $order_fields[$order_pt];
                     <td class="adm-list-table-cell"><div class="adm-list-table-cell-inner"><?=Loc::getMessage('ACRIT_CRM_TAB_FIELDS_ORDER', ['#PAY_NUM#' => $order_pt]);?></div></td>
                     <td class="adm-list-table-cell"><div class="adm-list-table-cell-inner"><?=Loc::getMessage('ACRIT_CRM_TAB_FIELDS_STORE');?></div></td>
                     <td class="adm-list-table-cell"><div class="adm-list-table-cell-inner"><?=Loc::getMessage('ACRIT_CRM_TAB_FIELDS_DATE');?></div></td>
+                    <td class="adm-list-table-cell"><div class="adm-list-table-cell-inner"><?=Loc::getMessage('ACRIT_CRM_TAB_FIELDS_CHANGE_DISABLE');?></div></td>
                 </tr>
                 </thead>
                 <tbody>
@@ -45,8 +46,16 @@ $order_pt_fields = $order_fields[$order_pt];
                         <td class="adm-list-table-cell">
                         <input type="checkbox"  name="PROFILE[OTHER][FIELDS_DATE][]" value="<?=$order_field['ID'];?>"<?=in_array($order_field['ID'], $arProfile['OTHER']['FIELDS_DATE'] ? : [])?' checked':'';?>></div>
                         </td>
+                        <td class="adm-list-table-cell">
+                            <input type="checkbox"  name="PROFILE[OTHER][CHANGE_DISABLE][]" value="<?=$order_field['ID'];?>"<?=in_array($order_field['ID'], $arProfile['OTHER']['CHANGE_DISABLE'] ? : [])?' checked':'';?>></div>
+                        </td>
                     </tr>
                     <?endforeach;?>
+                    <tr>
+                        <td colspan=4 class="adm-list-table-cell">
+                            <div class="adm-list-table-cell-inner"><?=Loc::getMessage('ACRIT_CRM_TAB_FIELDS_MANUAL');?></div>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </td>

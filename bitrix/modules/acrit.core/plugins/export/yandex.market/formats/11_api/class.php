@@ -53,6 +53,7 @@ class YandexMarketApi extends UniversalPlugin {
 		$arResult['manufacturerCountries'] = ['MULTIPLE' => true, 'REQUIRED' => true, 'FIELD' => 'PROPERTY_COUNTRY'];
 		$arResult['urls'] = ['MULTIPLE' => true, 'FIELD' => 'DETAIL_PAGE_URL'];
 		$arResult['pictures'] = ['MULTIPLE' => true, 'REQUIRED' => true, 'FIELD' => ['DETAIL_PICTURE', 'PROPERTY_MORE_PHOTO']];
+		$arResult['videos'] = ['MULTIPLE' => true];
 		$arResult['vendor'] = ['FIELD' => ['PROPERTY_BRAND', 'PROPERTY_MANUFACTURER']];
 		$arResult['vendorCode'] = ['FIELD' => ['PROPERTY_ARTICLE', 'PROPERTY_CML2_ARTICLE', 'PROPERTY_ARTIKUL', 'PROPERTY_ARTNUMBER']];
 		$arResult['barcodes'] = ['MULTIPLE' => true, 'FIELD' => 'CATALOG_BARCODE'];
@@ -443,6 +444,10 @@ class YandexMarketApi extends UniversalPlugin {
 			}
 		}
 		#
+		if(is_array($arItem['videos'])){
+			$arItem['videos'] = array_values($arItem['videos']); // Prevent exporting videos as associative array
+		}
+		#
 		if(isset($arItem['mapping']['marketSku']) && Helper::strlen($arItem['mapping']['marketSku'])){
 			$arItem['mapping']['marketSku'] = intVal($arItem['mapping']['marketSku']);
 		}
@@ -729,7 +734,7 @@ class YandexMarketApi extends UniversalPlugin {
 		$arOffers = [];
 		foreach($arItems as $arItem){
 			$arOffer = $arItem['DATA_JSON']['offer'];
-			foreach(['urls', 'pictures', 'supplyScheduleDays', 'guaranteePeriod'] as $key){
+			foreach(['urls', 'pictures', 'videos', 'supplyScheduleDays', 'guaranteePeriod'] as $key){
 				unset($arOffer[$key]);	
 			}
 			if(is_numeric($fPrice = $arItem['DATA_MORE']['PRICE']['price']['value'])){

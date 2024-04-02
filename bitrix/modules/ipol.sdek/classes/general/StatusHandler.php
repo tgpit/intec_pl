@@ -10,7 +10,7 @@ use Ipolh\SDEK\Core\Entity\Collection;
 class StatusHandler extends abstractGeneral
 {
     /**
-     * choose all orders with uids and no sdek_id to fill it or cry loud
+     * Choose all orders with uid's and without sdek_id to fill it or cry loud
      */
     public static function getSendedOrdersState()
     {
@@ -38,7 +38,7 @@ class StatusHandler extends abstractGeneral
         if(!empty($arOrders)){
             foreach ($arOrders as $dbId => $arOrder){
                 if(!array_key_exists($arOrder['accID'],$arControllers)) {
-                    $app = self::makeApplication($arOrder['acc'],$arOrder['scr']);
+                    $app = self::makeApplication($arOrder['acc'], $arOrder['scr']);
                     $arControllers[$arOrder['accID']] = new Order($app);
                 }
 
@@ -69,9 +69,9 @@ class StatusHandler extends abstractGeneral
     }
 
     /**
+     * Checks either order with uid was accepted by sdek - or something is wrong
      * @param $uid
      * @return BasicResponse
-     * checks either order with uid was accepted by sdek - or smth is wrong
      */
     public static function getSendedOrderState($uid)
     {
@@ -88,7 +88,7 @@ class StatusHandler extends abstractGeneral
                 'src' => $obOrder['SOURCE']
             );
 
-            $app = self::makeApplication($arOrder['acc'],$arOrder['scr']);
+            $app = self::makeApplication($arOrder['acc'], $arOrder['scr']);
             $controller = new Order($app);
 
             $result = self::_getSenderOrderState($arOrder,$controller);
@@ -103,9 +103,9 @@ class StatusHandler extends abstractGeneral
     }
 
     /**
+     * Checks state for chosen order, sets stuff for tracking number, adds in table
      * @param $arOrder - array of type uid,oid,src
      * @param Order $controller
-     * checks state for chosen order, sets stuff for tracking number, adds in table
      */
     protected static function _getSenderOrderState($arOrder, $controller)
     {
@@ -132,6 +132,25 @@ class StatusHandler extends abstractGeneral
                 ));
                 $obRet->setResponse($sdekNumber);
 
+                $statusOption = !$arOrder['src'] ? 'statusOK' : 'stShipmentOK';
+                $status = \Ipolh\SDEK\option::get($statusOption);
+                if ($status) {
+                    if (!$arOrder['src']) {
+                        $order = \CSaleOrder::GetByID($arOrder['oid']);
+                        if ($order['STATUS_ID'] != $status) {
+                            \CSaleOrder::StatusOrder($arOrder['oid'], $status);
+                        }
+                    } else if (\sdekHelper::isConverted()) {
+                        $shipment = \Bitrix\Sale\Shipment::getList(array('filter' => array('ID' => $arOrder['oid'])))->Fetch();
+                        if ($shipment['STATUS_ID'] != $status) {
+                            $order = \Bitrix\Sale\Order::load($shipment['ORDER_ID']);
+                            $shipmentCollection = $order->getShipmentCollection();
+                            $shipment = $shipmentCollection->getItemById($arOrder['oid']);
+                            $shipment->setField('STATUS_ID', $status);
+                            $order->save();
+                        }
+                    }
+                }
                 \sdekdriver::setOrderTrackingNumber($arOrder['oid'],(!$arOrder['src'])?'order':'shipment',$sdekNumber);
             } elseif($check->getResponse()->getField('state') === 'INVALID'){
                 $obRet->setError($check->getError());

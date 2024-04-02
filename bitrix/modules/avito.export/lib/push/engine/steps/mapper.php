@@ -17,6 +17,8 @@ class Mapper extends Step
 
 	public const TYPE = 'mapper';
 
+	protected const MAX_URI_LENGTH = 8000;
+
 	protected $logger;
 
 	public function __construct(Push\Engine\Controller $controller)
@@ -70,7 +72,7 @@ class Mapper extends Step
 					[ '<=SERVICE_PRIMARY.TIMESTAMP_X' => $this->actualizeAllDate() ],
 				],
 			],
-			'limit' => max(1, (int)Config::getOption('push_submit_limit', 500)),
+			'limit' => max(1, (int)Config::getOption('push_submit_mapper_limit', 100)),
 		]);
 
 		return $query->fetchAll();
@@ -118,9 +120,39 @@ class Mapper extends Step
 	{
 		if (empty($stampQueue)) { return []; }
 
-		$response = $this->queryServiceMap($stampQueue);
+		$result = [];
+		foreach ($this->chunkStampQueue($stampQueue) as $stampQueueChunk)
+		{
+			$response = $this->queryServiceMap($stampQueueChunk);
+			$result += $this->compilePrimaryMap($response);
+		}
 
-		return $this->compilePrimaryMap($response);
+		return $result;
+	}
+
+	protected function chunkStampQueue(array $stampQueue) : array
+	{
+		$uriLength = mb_strlen((new Api\Autoload\V2\Items\AvitoIds\Request())->url() . '?query=');
+		$commaLength = mb_strlen(urlencode(','));
+
+		$chunks = [];
+		$chunkIndex = 0;
+		$chunkLength = $uriLength;
+		foreach ($stampQueue as $item)
+		{
+			$idLength = mb_strlen(urlencode($item['PRIMARY']));
+
+			if ($chunkLength + $idLength > self::MAX_URI_LENGTH)
+			{
+				$chunkLength = $uriLength;
+				$chunkIndex++;
+			}
+
+			$chunkLength += $idLength + $commaLength;
+			$chunks[$chunkIndex][] = $item;
+		}
+
+		return $chunks;
 	}
 
 	protected function queryServiceMap(array $stampQueue) : Api\Autoload\V2\Items\AvitoIds\Response

@@ -7,6 +7,7 @@ use Bitrix\Currency;
 use Bitrix\Sale;
 use Avito\Export\Concerns;
 use Avito\Export\Feed\Source;
+use Avito\Export\Config;
 
 class Fetcher extends Source\FetcherSkeleton
 {
@@ -660,7 +661,15 @@ class Fetcher extends Source\FetcherSkeleton
 	protected function userGroups() : array
 	{
 		return $this->once('userGroups', function() {
-			return Main\UserTable::getUserGroupIds(0);
+			$result = Main\UserTable::getUserGroupIds(0);
+
+			$optionGroup = Config::getOption('discounts_user_group');
+			if (!empty($optionGroup) && !in_array($optionGroup, $result, false))
+			{
+				$result[] = $optionGroup;
+			}
+
+			return $result;
 		});
 	}
 }

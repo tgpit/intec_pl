@@ -208,6 +208,7 @@
 			<Model name="RT528C"></Model>
 			<Model name="RT530E-2"></Model>
 			<Model name="RT540E"></Model>
+			<Model name="RT635C"></Model>
 			<Model name="RT650E"></Model>
 			<Model name="RT700E"></Model>
 			<Model name="RT745"></Model>
@@ -218,6 +219,7 @@
 			<Model name="TM500E-2"></Model>
 			<Model name="TM9120"></Model>
 			<Model name="TMC540"></Model>
+			<Model name="TMS250C"></Model>
 			<Model name="TMS635E"></Model>
 			<Model name="TMS700B"></Model>
 			<Model name="TMS700E"></Model>
@@ -241,6 +243,9 @@
 			<Model name="SA1200"></Model>
 			<Model name="UCX350"></Model>
 		</Make>
+		<Make name="Huahuan">
+			<Model name="TSW5110JQZB6"></Model>
+		</Make>
 		<Make name="Hyco">
 			<Model name="RT 121"></Model>
 			<Model name="RT 95"></Model>
@@ -260,8 +265,10 @@
 			<Model name="KR-100"></Model>
 			<Model name="KR-10H"></Model>
 			<Model name="KR-10HM"></Model>
+			<Model name="KR-20"></Model>
 			<Model name="KR-20H-2"></Model>
 			<Model name="KR-22H-3"></Model>
+			<Model name="KR-22H-II"></Model>
 			<Model name="KR-250"></Model>
 			<Model name="KR-25H-V5"></Model>
 			<Model name="KR-25H-V7"></Model>
@@ -303,6 +310,7 @@
 			<Model name="RK70-2"></Model>
 		</Make>
 		<Make name="Komatsu">
+			<Model name="LT 300-1"></Model>
 			<Model name="LT 500"></Model>
 			<Model name="LW 100"></Model>
 			<Model name="LW 100-1E"></Model>
@@ -318,6 +326,7 @@
 		<Make name="Krupp">
 			<Model name="35 GMT-AT"></Model>
 			<Model name="KMK 2020"></Model>
+			<Model name="KMK 2025"></Model>
 			<Model name="KMK 3045"></Model>
 			<Model name="KMK 3070"></Model>
 			<Model name="KMK 4070"></Model>
@@ -366,6 +375,7 @@
 			<Model name="LTM 1090/1"></Model>
 			<Model name="LTM 1090/2"></Model>
 			<Model name="LTM 1095-5.1"></Model>
+			<Model name="LTM 1100-4.1"></Model>
 			<Model name="LTM 1100-4.2"></Model>
 			<Model name="LTM 1100-5.2"></Model>
 			<Model name="LTM 1120-4.1"></Model>
@@ -427,6 +437,7 @@
 		<Make name="LiuGong">
 			<Model name="LTC250T5"></Model>
 			<Model name="LTC320L5"></Model>
+			<Model name="LTC350L5"></Model>
 			<Model name="LTC550C5L"></Model>
 			<Model name="LTC750C5L"></Model>
 		</Make>
@@ -527,6 +538,7 @@
 		</Make>
 		<Make name="P&amp;H">
 			<Model name="Omega 20"></Model>
+			<Model name="Omega E35"></Model>
 			<Model name="Omega S35"></Model>
 			<Model name="W200"></Model>
 			<Model name="W250"></Model>
@@ -579,13 +591,22 @@
 			<Model name="SAC100"></Model>
 			<Model name="SAC1800"></Model>
 			<Model name="SAC2200"></Model>
+			<Model name="SAC600T"></Model>
+			<Model name="SRC1100T"></Model>
+			<Model name="SRC1100T5"></Model>
+			<Model name="SRC300T"></Model>
 			<Model name="SRC350"></Model>
 			<Model name="SRC400T"></Model>
 			<Model name="SRC550"></Model>
 			<Model name="SRC600T"></Model>
 			<Model name="SRC750"></Model>
+			<Model name="SRC750T"></Model>
+			<Model name="SRC800T"></Model>
+			<Model name="SRC900T"></Model>
 			<Model name="STC00T5"></Model>
+			<Model name="STC1200T5"></Model>
 			<Model name="STC250"></Model>
+			<Model name="STC250T5-4R"></Model>
 			<Model name="STC250T5-5"></Model>
 			<Model name="STC250T5-5R"></Model>
 			<Model name="STC25C"></Model>
@@ -820,6 +841,7 @@
 			<Model name="XCA180S"></Model>
 			<Model name="XCA220"></Model>
 			<Model name="XCA220S"></Model>
+			<Model name="XCA230S"></Model>
 			<Model name="XCA300"></Model>
 			<Model name="XCA350"></Model>
 			<Model name="XCA450"></Model>
@@ -853,7 +875,9 @@
 			<Model name="XCT80L6_1"></Model>
 			<Model name="XCT80S"></Model>
 			<Model name="XGC70"></Model>
+			<Model name="XZJ5247JQZ16D"></Model>
 			<Model name="XZJ5266JQZ20B"></Model>
+			<Model name="XZJ5311JQZ25K"></Model>
 			<Model name="XZJ5328JQZ25K"></Model>
 		</Make>
 		<Make name="XJCM">
@@ -927,6 +951,7 @@
 			<Model name="ZAT2000"></Model>
 			<Model name="ZAT2000V"></Model>
 			<Model name="ZAT3000V"></Model>
+			<Model name="ZAT4500V"></Model>
 			<Model name="ZLJ5330JQZ"></Model>
 			<Model name="ZMC85"></Model>
 			<Model name="ZRT1100"></Model>
@@ -951,6 +976,7 @@
 			<Model name="ZMC-25-1C"></Model>
 			<Model name="ZMC-60"></Model>
 			<Model name="ZMC-60-1C1"></Model>
+			<Model name="ZМС-60-1W1"></Model>
 		</Make>
 		<Make name="Газакс">
 			<Model name="КС-45716"></Model>
@@ -988,6 +1014,7 @@
 			<Model name="КС-55713-5Л (ОВОИД)"></Model>
 			<Model name="КС-55713-6"></Model>
 			<Model name="КС-55713-6В"></Model>
+			<Model name="КС-55713-9В-1"></Model>
 			<Model name="КС-55715"></Model>
 			<Model name="КС-55721-1В"></Model>
 			<Model name="КС-55721-1В (ОВАЛОИД)"></Model>
@@ -1001,6 +1028,8 @@
 			<Model name="КС-55729-5B"></Model>
 			<Model name="КС-55729-5B-3"></Model>
 			<Model name="КС-55729-5В (ОВОИД)"></Model>
+			<Model name="КС-55729-7В"></Model>
+			<Model name="КС-55729-9В-3"></Model>
 			<Model name="КС-55729B"></Model>
 			<Model name="КС-55731-1"></Model>
 			<Model name="КС-55731-4"></Model>
@@ -1130,6 +1159,7 @@
 			<Model name="КС-55717К-3 Air"></Model>
 			<Model name="КС-55717К-3Р Air"></Model>
 			<Model name="КС-55717К-3Т"></Model>
+			<Model name="КС-55735-1"></Model>
 			<Model name="КС-55735-6"></Model>
 			<Model name="КС-55735-7"></Model>
 			<Model name="КС-55744"></Model>
@@ -1168,6 +1198,7 @@
 		</Make>
 		<Make name="Камышинский КЗ">
 			<Model name="КС-4561А"></Model>
+			<Model name="КС-55713-1К-3"></Model>
 			<Model name="КС-55713-1К-4"></Model>
 			<Model name="КС-55713-3К-1"></Model>
 			<Model name="КС-55713-5-21"></Model>
@@ -1185,6 +1216,7 @@
 			<Model name="КС-5576К-1"></Model>
 			<Model name="КС-65740-4"></Model>
 			<Model name="КС-65740-5"></Model>
+			<Model name="КС-65740-9К-4М"></Model>
 		</Make>
 		<Make name="Клинцы">
 			<Model name="КС 55729-9К-3"></Model>
@@ -1252,6 +1284,7 @@
 			<Model name="КС-55713-8К-4В"></Model>
 			<Model name="КС-55713-9К-3"></Model>
 			<Model name="КС-55713-9К-4"></Model>
+			<Model name="КС-55713-9К-4В"></Model>
 			<Model name="КС-55729-1К-3"></Model>
 			<Model name="КС-55729-1К-3 (ОВОИД)"></Model>
 			<Model name="КС-55729-3К-3 (ОВОИД)"></Model>
@@ -1274,6 +1307,7 @@
 			<Model name="КС-65719-5К (ОВОИД)"></Model>
 			<Model name="КС-65719-9К-1"></Model>
 			<Model name="ПКС-55713-1К-3"></Model>
+			<Model name="ПКС-55713-1К-4В"></Model>
 			<Model name="ПКС-55713-3К-3"></Model>
 			<Model name="ПКС-55713-5К-3"></Model>
 			<Model name="ПКС-55713-5К-4В"></Model>
@@ -1305,6 +1339,7 @@
 		<Make name="МАЗ">
 			<Model name="KC-5571BY-F-22"></Model>
 			<Model name="КС 55727-7-(12)"></Model>
+			<Model name="КС 55727-W"></Model>
 			<Model name="КС-3561А"></Model>
 			<Model name="КС-3562А"></Model>
 			<Model name="КС-3562Б"></Model>
@@ -1342,6 +1377,7 @@
 			<Model name="КС-45729А-4-02"></Model>
 			<Model name="КС-5479"></Model>
 			<Model name="КС-5571BY-С-22"></Model>
+			<Model name="КС-55727-1"></Model>
 			<Model name="КС-55727-1-11"></Model>
 			<Model name="КС-55727-5-11"></Model>
 			<Model name="КС-55727-7-12"></Model>

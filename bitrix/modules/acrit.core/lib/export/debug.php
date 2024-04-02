@@ -130,16 +130,28 @@ class Debug {
 	/********************************************************************************************************************/
 	
 	protected static function _getProduct($arSort, $intElementID=null, $arCustomFilter=null){
-		#$arFilter = Profile::getFilter(static::$arData['PROFILE_ID'], static::$arData['IBLOCK_ID']);
 		$arFilter = Helper::call(static::$strModuleId, 'Profile', 'getFilter', [static::$arData['PROFILE_ID'], static::$arData['IBLOCK_ID']]);
 		if(empty($arFilter)){
 			print 'No IBlocks configured in profile.';
 			return false;
 		}
+		$arCatalog = Helper::getCatalogArray(static::$arData['IBLOCK_ID']);
 		if($intElementID > 0){
-			$arFilter[] = array(
+			$arFilterByID = array(
 				'ID' => $intElementID,
 			);
+			if(is_array($arCatalog) && isset($arCatalog['OFFERS_IBLOCK_ID']) && $arCatalog['OFFERS_IBLOCK_ID']){
+				$arFilterByID = array_merge(array(
+					'LOGIC' => 'OR',
+					array(
+						'ID' => \CIBlockElement::subQuery('PROPERTY_CML2_LINK', array( // 'PROPERTY_'.$arCatalog['OFFERS_PROPERTY_ID']
+							'IBLOCK_ID' => $arCatalog['OFFERS_IBLOCK_ID'],
+							'ID' => $intElementID,
+						))
+					)
+				), [$arFilterByID]);
+			}
+			$arFilter[] = $arFilterByID;
 		}
 		if(is_array($arCustomFilter)){
 			$arFilter = array_merge($arFilter, $arCustomFilter);

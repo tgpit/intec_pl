@@ -1,4 +1,0 @@
-<?php
-
-$MESS['C_FOOTER_TEMPLATE_1_CONTACTS_CITY'] = 'г. #CITY#';
-$MESS['C_FOOTER_TEMPLATE_1_FORMS_CALL_TITLE'] = 'Заказать звонок';

@@ -20,6 +20,7 @@ class PointsHandler extends abstractGeneral
         if ($accountId = \Ipolh\SDEK\option::get('logged')) {
             $account = \sqlSdekLogs::getById($accountId);
             if ($requestType == self::REQUEST_TYPE_BACKUP) {
+                // @TODO: check / refactor
                 // - This is madness!
                 // - This is REQUEST_TYPE_BACKUP CALL!
                 $application = new transitApplication($account['ACCOUNT'], $account['SECURE']);

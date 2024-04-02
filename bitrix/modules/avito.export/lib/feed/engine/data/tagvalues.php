@@ -2,8 +2,9 @@
 namespace Avito\Export\Feed\Engine\Data;
 
 use Avito\Export\Feed\Tag;
+use Bitrix\Main;
 
-class TagValues
+class TagValues extends Main\Result
 {
 	protected $values = [];
 	protected $mixedTags = [

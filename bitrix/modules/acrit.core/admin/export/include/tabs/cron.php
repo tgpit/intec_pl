@@ -151,11 +151,11 @@ if($bCanAutoSetCrontab){
 								<td><?=Loc::getMessage('ACRIT_EXP_CRON_SCHEDULE_WEEKDAY');?></td>
 							</tr>
 							<tr>
-								<td><input type="text" maxlength="50" placeholder="*" name="minute" value="<?=$arSchedule[0];?>" /></td>
-								<td><input type="text" maxlength="50" placeholder="*" name="hour" value="<?=$arSchedule[1];?>" /></td>
-								<td><input type="text" maxlength="50" placeholder="*" name="day" value="<?=$arSchedule[2];?>" /></td>
-								<td><input type="text" maxlength="50" placeholder="*" name="month" value="<?=$arSchedule[3];?>" /></td>
-								<td><input type="text" maxlength="50" placeholder="*" name="weekday" value="<?=$arSchedule[4];?>" /></td>
+								<td><input type="text" placeholder="*" name="minute" value="<?=$arSchedule[0];?>" /></td>
+								<td><input type="text" placeholder="*" name="hour" value="<?=$arSchedule[1];?>" /></td>
+								<td><input type="text" placeholder="*" name="day" value="<?=$arSchedule[2];?>" /></td>
+								<td><input type="text" placeholder="*" name="month" value="<?=$arSchedule[3];?>" /></td>
+								<td><input type="text" placeholder="*" name="weekday" value="<?=$arSchedule[4];?>" /></td>
 							</tr>
 						</tbody>
 					</table>
@@ -254,4 +254,24 @@ $obTabControl->BeginCustomField('PROFILE[CRON_COMMAND]', Loc::getMessage('ACRIT_
 	</tr>
 <?
 $obTabControl->EndCustomField('PROFILE[CRON_COMMAND]');
-?>
+
+#
+if(is_object($obPlugin) && $obPlugin->getAllowSendToEmail()){
+	$obTabControl->BeginCustomField('PROFILE[SEND_TO_EMAIL]', Loc::getMessage('ACRIT_EXP_SEND_TO_EMAIL'));
+	?>
+		<tr class="heading">
+			<td colspan="2">
+				<?=Helper::showHint(Loc::getMessage('ACRIT_EXP_SEND_TO_EMAIL_HINT'));?>
+				<label for="acrit-core-cron-one-time">
+					<?=$obTabControl->GetCustomLabelHTML()?>
+				</label>
+			</td>
+		</tr>
+		<tr id="tr_CRON_SEND_TO_EMAIL">
+			<td colspan="2" class="adm-detail-content-cell-r">
+				<?require __DIR__.'/_cron_send_to_email.php';?>
+			</td>
+		</tr>
+	<?
+	$obTabControl->EndCustomField('PROFILE[SEND_TO_EMAIL]');
+}

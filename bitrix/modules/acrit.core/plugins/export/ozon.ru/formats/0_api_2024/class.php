@@ -34,6 +34,7 @@ class OzonRu2024 extends UniversalPlugin {
 	const ATTR_ID_YOUTUBE_CODE = 21841; # 4074
 	const ATTR_ID_YOUTUBE_TITLE = 21837; # 4068
 	const ATTR_ID_JSON_RICH_CONTENT = 11254;
+	const ATTR_ID_GROUP_NAME = 9048;
 	
 	const GROUPED_CODE = 'GROUPED';
 
@@ -367,6 +368,11 @@ class OzonRu2024 extends UniversalPlugin {
 			$arField['FIELD_PARAMS'] = ['HTMLSPECIALCHARS' => 'skip'];
 			$arField['PARAMS'] = ['HTMLSPECIALCHARS' => 'skip'];
 		}
+		elseif($arAttribute['ATTRIBUTE_ID'] == static::ATTR_ID_GROUP_NAME){ // Group name
+			$arField['FIELD'] = ['NAME'];
+			$arField['FIELD_PARAMS'] = ['HTMLSPECIALCHARS' => 'skip'];
+			$arField['PARAMS'] = ['HTMLSPECIALCHARS' => 'skip'];
+		}
 		elseif($arAttribute['NAME'] == static::getMessage('GUESS_BRAND')){
 			$arField['FIELD'] = ['PROPERTY_BRAND', 'PROPERTY_BRAND_REF'];
 		}
@@ -388,7 +394,7 @@ class OzonRu2024 extends UniversalPlugin {
 		require_once __DIR__.'/include/classes/history.php';
 		require_once __DIR__.'/include/classes/historystock.php';
 		require_once __DIR__.'/include/db_table_create.php';
-		if($_GET['download'] == 'ozon_reference'){
+		if($_GET['download'] == 'ozon_2024_reference' && defined('ADMIN_SECTION') && $GLOBALS['USER']->isAuthorized()){
 			$this->downloadFieldReference();
 		}
 	}
@@ -731,7 +737,7 @@ class OzonRu2024 extends UniversalPlugin {
 								'LAST_VALUES_ELAPSED_TIME' => microtime(true) - $arAttr['START_TIME'],
 							];
 							$arFilter = [
-								'CATEGORY_ID' => $arAttr['CAT'],
+								'TYPE_ID' => $arAttr['TYPE'],
 								'ATTRIBUTE_ID' => $intAttrId,
 							];
 							$resDbAttribute = Attribute::getList(['filter' => $arFilter, 'select' => ['ID']]);
@@ -744,7 +750,6 @@ class OzonRu2024 extends UniversalPlugin {
 							$arSession['SUB_INDEX'] = 0;
 							unset($arSession['ATTRIBUTES'][$intAttrId]);
 						}
-						break;
 					}
 				} while($this->ajaxHaveTime());
 			}
@@ -883,11 +888,22 @@ class OzonRu2024 extends UniversalPlugin {
 	 */
 	protected function getTypeName($intTypeId){
 		$strResult = '';
-		$resType = Category::getList(['filter' => ['TYPE_ID' => $intTypeId], 'select' => ['NAME']]);
+		$resType = Category::getList(['filter' => ['TYPE_ID' => $intTypeId, '!DISABLED' => 'Y'], 'select' => ['NAME']]);
 		if($arType = $resType->fetch()){
 			$strResult = $arType['NAME'];
 		}
 		return $strResult;
+	}
+
+	/**
+	 * 
+	 */
+	protected function getCategoryByType($intTypeId){
+		$intCategoryId = null;
+		if($arCategory = Category::getList(['filter' => ['TYPE_ID' => intVal($intTypeId)], 'select' => ['CATEGORY_ID']])->fetch()){
+			$intCategoryId = intVal($arCategory['CATEGORY_ID']);
+		}
+		return $intCategoryId;
 	}
 	
 	/**
@@ -941,7 +957,7 @@ class OzonRu2024 extends UniversalPlugin {
 							'TIMESTAMP_X' => new \Bitrix\Main\Type\Datetime(),
 						];
 						$arFilter = [
-							'CATEGORY_ID' => $arFields['CATEGORY_ID'],
+							'TYPE_ID' => $arFields['TYPE_ID'],
 							'ATTRIBUTE_ID' => $arFields['ATTRIBUTE_ID'],
 						];
 						$arSelect = [
@@ -968,7 +984,6 @@ class OzonRu2024 extends UniversalPlugin {
 						}
 					}
 					Attribute::deleteByFilter([
-						'CATEGORY_ID' => $arCategoryId,
 						'TYPE_ID' => $intTypeId,
 						'!SESSION_ID' => $strSessionId,
 					]);
@@ -1031,7 +1046,7 @@ class OzonRu2024 extends UniversalPlugin {
 					'DICTIONARY_ID' => $arFields['DICTIONARY_ID'],
 					'VALUE_ID' => $arFields['VALUE_ID'],
 				];
-				if($this->isAttributeDictionaryisAttributeDictionaryCommon($arAttr['ID'])){
+				if($this->isAttributeDictionaryCommon($arAttr['ID'])){
 					unset($arFields['CATEGORY_ID']);
 					unset($arFilter['CATEGORY_ID']);
 					unset($arFields['TYPE_ID']);
@@ -1111,9 +1126,9 @@ class OzonRu2024 extends UniversalPlugin {
 	 */
 	protected function isAttributeDictionaryCommon($intAttributeId){
 		$arUniqueDictionaries = [
-			8229, // Type
-			9461, // Commercial type
-			85, // Brand
+			// 8229, // Type
+			// 9461, // Commercial type
+			// 85, // Brand
 		];
 		return !in_array($intAttributeId, $arUniqueDictionaries);
 	}
@@ -1427,6 +1442,7 @@ class OzonRu2024 extends UniversalPlugin {
 									return [
 										'ERRORS' => [static::getMessage('ERROR_WRONG_DICTIONARY_VALUE', [
 											'#ELEMENT_ID#' => $arElement['ID'],
+											'#CATEGORY#' => $this->formatTypeName($arAttribute['TYPE_ID']),
 											'#VALUE#' => htmlspecialcharsbx($strValue),
 											'#ATTRIBUTE#' => $strAttributeName,
 										])],
@@ -1634,7 +1650,7 @@ class OzonRu2024 extends UniversalPlugin {
 				$arResult = $this->API->execute($strMethod, $arJsonItemsFull, ['METHOD' => 'POST']);
 				$strLastMethod = $strMethod;
 				if(is_array($arResult) && $arResult['result']['task_id']){
-					$this->addToLog('Exported by /v2/product/import: '.print_r($arResult, true), true);
+					$this->addToLog('Exported by /v3/product/import: '.print_r($arResult, true), true);
 					$intOzonTaskId = $arResult['result']['task_id'];
 					# Send prices
 					if(!empty($arPrices)){
@@ -2306,22 +2322,22 @@ class OzonRu2024 extends UniversalPlugin {
 	}
 
 	public function downloadFieldReference(){
-		if(Helper::strlen($strField = $_GET['field'])){
+		if(Helper::strlen($strField = htmlspecialcharsbx($_GET['field']))){
 			if(preg_match('#^attribute_(\d+|\w+)_(\d+)$#', $strField, $arMatch)){
-				$intCategoryId = intVal($arMatch[1]);
+				$intTypeId = intVal($arMatch[1]);
 				$intAttributeId = intVal($arMatch[2]);
-				Helper::obRestart();
-				header('Content-Type: text/plain');
-				header(sprintf('Content-Disposition: attachment; filename="attribute_%d_values.txt"', $intAttributeId));
-				if(/* $intCategoryId > 0 &&  */$intAttributeId > 0){
+				if($intTypeId && $intAttributeId) {
+					Helper::obRestart();
+					header('Content-Type: text/plain');
+					header(sprintf('Content-Disposition: attachment; filename="attribute_%d_values.txt"', $intAttributeId));
 					$resAttributes = AttributeValue::getList([
 						'order' => ['VALUE' => 'ASC'],
 						'filter' => [
 							'ATTRIBUTE_ID' => $intAttributeId,
 							[
 								'LOGIC' => 'OR',
-								['CATEGORY_ID' => $intCategoryId],
-								['CATEGORY_ID' => '0'],
+								['TYPE_ID' => $intTypeId],
+								['TYPE_ID' => '0'],
 							],
 						],
 						'select' => ['VALUE'],
@@ -2329,8 +2345,8 @@ class OzonRu2024 extends UniversalPlugin {
 					while($arAttribute = $resAttributes->fetch()){
 						print $arAttribute['VALUE'].PHP_EOL;
 					}
+					die();
 				}
-				die();
 			}
 		}
 	}
@@ -2345,15 +2361,24 @@ class OzonRu2024 extends UniversalPlugin {
 		$arJsonResult['LastId'] = null;
 		$intCount = intVal($arPost['count']);
 		#
+		$intTypeId = intVal($arPost['category_id']);
+		$intCategoryId = $this->getCategoryByType($intTypeId);
+		$intAttributeId = intVal($arPost['attribute_id']);
+		if(!$intCategoryId){
+			return;
+		}
+		#
 		$arJsonRequest = [
-			'category_id' => intVal($arPost['category_id']),
-			'attribute_id' => intVal($arPost['attribute_id']),
+			'description_category_id' => $intCategoryId,
+			'type_id' => $intTypeId,
+			'attribute_id' => $intAttributeId,
 			'limit' => 5000,
+			'language' => 'DEFAULT',
 		];
 		if(is_numeric($arPost['last_id']) && $arPost['last_id'] > 0){
 			$arJsonRequest['last_value_id'] = $arPost['last_id'];
 		}
-		$strCommand = '/v2/category/attribute/values'; // ToDo [do not rush] : Replace: /v1/description-category/attribute/values
+		$strCommand = '/v1/description-category/attribute/values';
 		$arJsonResponse = $this->API->execute($strCommand, $arJsonRequest, ['METHOD' => 'POST']);
 		if(is_array($arJsonResponse) && !empty($arJsonResponse) && $arJsonResponse['result']){
 			$arItems = [];

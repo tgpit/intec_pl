@@ -1,3 +1,0 @@
-<?php
-
-$MESS['C_MAIN_SERVICES_TEMPLATE_22_ORDER_BUTTON_DEFAULT'] = 'Заказать услугу';

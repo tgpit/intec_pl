@@ -37,7 +37,7 @@ foreach($arCurrentTasksAll as $key => $arTask){
 			</a>
 			(<?=count($arCurrentTasksMatch);?>)
 		</div>
-		<div data-role="acrit-core-cron-current-tasks" style="display:none;">
+		<div data-role="acrit-core-cron-current-tasks" style="display:none;word-break:break-all;">
 			<?foreach($arCurrentTasksMatch as $arTask):?>
 				<div class="acrit-core-cron-form-command" style="margin-top:4px;">
 					<code><?=$arTask['COMMAND_FULL'];?></code>

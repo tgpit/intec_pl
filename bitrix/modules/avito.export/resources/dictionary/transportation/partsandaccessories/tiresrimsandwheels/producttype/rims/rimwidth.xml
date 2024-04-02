@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RimWidthValues>
+	<RimWidth>2.15</RimWidth>
 	<RimWidth>3.5</RimWidth>
 	<RimWidth>4</RimWidth>
 	<RimWidth>4.5</RimWidth>
@@ -28,6 +29,8 @@
 	<RimWidth>15</RimWidth>
 	<RimWidth>15.7</RimWidth>
 	<RimWidth>18</RimWidth>
+	<RimWidth>19.5</RimWidth>
 	<RimWidth>23</RimWidth>
 	<RimWidth>25</RimWidth>
+	<RimWidth>36</RimWidth>
 </RimWidthValues>

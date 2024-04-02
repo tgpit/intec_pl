@@ -54,6 +54,11 @@ class Fetcher extends Source\FetcherSkeleton
 					'ID' => 'WEIGHT',
 					'NAME' => self::getLocale('FIELD_WEIGHT'),
 				]),
+				new Source\Field\NumberField([
+					'ID' => 'MEASURE_RATIO',
+					'NAME' => self::getLocale('FIELD_MEASURE_RATIO'),
+					'FILTERABLE' => false,
+				]),
 				new Source\Field\EnumField([
 					'ID' => 'TYPE',
 					'NAME' => self::getLocale('FIELD_TYPE'),
@@ -141,17 +146,47 @@ class Fetcher extends Source\FetcherSkeleton
 
 	public function values(array $elements, array $parents, array $siblings, array $select, Context $context) : array
 	{
-		$result = [];
+		$productSelect = array_diff($select, [
+			'MEASURE_RATIO'
+		]);
+		$elementIds = array_keys($elements);
+
+		$result = $this->productValues($elementIds, $productSelect);
+		$result = $this->measureRatioValues($elementIds, $select, $result);
+
+		return $result;
+	}
+
+	public function productValues(array $elementIds, $select) : array
+	{
+		if (empty($select)) { return []; }
+
 		$selectMap = array_flip($select);
 
 		$query = Catalog\ProductTable::getList([
 			'select' => array_merge(['ID'], $select),
-			'filter' => [ '=ID' => array_keys($elements) ],
+			'filter' => [ '=ID' => $elementIds ],
 		]);
+
+		$result = [];
 
 		while ($row = $query->fetch())
 		{
 			$result[$row['ID']] = array_intersect_key($row, $selectMap);
+		}
+
+		return $result;
+	}
+
+	protected function measureRatioValues(array $elementIds, array $select, array $result) : array
+	{
+		if (!in_array('MEASURE_RATIO', $select, true)) { return $result; }
+
+		$ratioList = Catalog\MeasureRatioTable::getCurrentRatio($elementIds);
+
+		foreach ($elementIds as $id)
+		{
+			$result[$id]['MEASURE_RATIO'] = $ratioList[$id];
 		}
 
 		return $result;

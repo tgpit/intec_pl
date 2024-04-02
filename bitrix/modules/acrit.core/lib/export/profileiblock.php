@@ -379,6 +379,12 @@ abstract class ProfileIBlockTable extends Entity\DataManager {
 				'PREFIX' => 'CATALOG_',
 				'TYPE' => static::TYPE_CATALOG,
 			),
+			'min_price' => array(
+				'NAME' => Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__GROUP__MIN_PRICE'),
+				'ITEMS' => static::_getAvailableElementMinPrice($intIBlockID),
+				'SHOW_MORE' => true,
+				'TYPE' => static::TYPE_PRICE,
+			),
 			'prices' => array(
 				'NAME' => Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__GROUP__PRICES'),
 				'ITEMS' => static::_getAvailableElementPrices($intIBlockID),
@@ -429,6 +435,9 @@ abstract class ProfileIBlockTable extends Entity\DataManager {
 	 */
 	protected static function _getAvailableElementProperties_S_directory(&$arProps, $arProp, $intIBlockID, $bUsePropCode){
 		static::_getAvailableElementProperties_default($arProps, $arProp, $intIBlockID, $bUsePropCode);
+		if(!isset($arProp['USER_TYPE_SETTINGS']) || !is_array($arProp['USER_TYPE_SETTINGS']) || !isset($arProp['USER_TYPE_SETTINGS']['TABLE_NAME'])){
+			return;
+		}
 		$strTableName = &$arProp['USER_TYPE_SETTINGS']['TABLE_NAME'];
 		if(strlen($strTableName)){
 			$arFilter = array('TABLE_NAME' => $strTableName);
@@ -884,6 +893,73 @@ abstract class ProfileIBlockTable extends Entity\DataManager {
 	/**
 	 *	Prices
 	 */
+	protected static function _getAvailableElementMinPrice($intIBlockID){
+		$arResult = array();
+		$arPrice['NAME_LANG'] = Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__CATALOG_MIN_PRICE');
+		$arResult['MIN_PRICE__WITH_DISCOUNT'] = array(
+			'NAME' => $arPrice['NAME_LANG'].Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__CATALOG_PRICE_WITH_DISCOUNT'),
+			'CODE' => $arPrice['NAME'],
+			'TYPE' => 'N',
+			'ID' => $arPrice['ID'],
+			'FILTRABLE' => false,
+		);
+		$arResult['MIN_PRICE'] = array(
+			'NAME' => $arPrice['NAME_LANG'].Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__CATALOG_PRICE_NO_DISCOUNT'),
+			'CODE' => $arPrice['NAME'],
+			'TYPE' => 'N',
+			'ID' => $arPrice['ID'],
+			'FILTRABLE' => false,
+		);
+		$arResult['MIN_PRICE__DISCOUNT'] = array(
+			'NAME' => $arPrice['NAME_LANG'].Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__CATALOG_PRICE_DISCOUNT'),
+			'CODE' => $arPrice['NAME'],
+			'TYPE' => 'N',
+			'ID' => $arPrice['ID'],
+			'FILTRABLE' => false,
+		);
+		$arResult['MIN_PRICE__WITH_DISCOUNT__CURR'] = array(
+			'NAME' => $arPrice['NAME_LANG'].Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__CATALOG_PRICE_WITH_DISCOUNT_CURR'),
+			'CODE' => $arPrice['NAME'],
+			'TYPE' => 'S',
+			'ID' => $arPrice['ID'],
+			'FILTRABLE' => false,
+		);
+		$arResult['MIN_PRICE__CURR'] = array(
+			'NAME' => $arPrice['NAME_LANG'].Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__CATALOG_PRICE_NO_DISCOUNT_CURR'),
+			'CODE' => $arPrice['NAME'],
+			'TYPE' => 'S',
+			'ID' => $arPrice['ID'],
+			'FILTRABLE' => false,
+		);
+		$arResult['MIN_PRICE__DISCOUNT__CURR'] = array(
+			'NAME' => $arPrice['NAME_LANG'].Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__CATALOG_PRICE_DISCOUNT_CURR'),
+			'CODE' => $arPrice['NAME'],
+			'TYPE' => 'S',
+			'ID' => $arPrice['ID'],
+			'FILTRABLE' => false,
+		);
+		$arResult['MIN_PRICE__PERCENT'] = array(
+			'NAME' => $arPrice['NAME_LANG'].Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__CATALOG_PRICE_PERCENT'),
+			'CODE' => $arPrice['NAME'],
+			'TYPE' => 'N',
+			'ID' => $arPrice['ID'],
+			'FILTRABLE' => false,
+		);
+		#
+		$arResult['MIN_PRICE__CURRENCY'] = array(
+			'NAME' => $arPrice['NAME_LANG'].Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__CATALOG_PRICE_CURRENCY'),
+			'CODE' => $arPrice['NAME'],
+			'TYPE' => 'S',
+			'ID' => $arPrice['ID'],
+			'USER_TYPE' => '_Currency',
+			'FILTRABLE' => false,
+		);
+		return $arResult;
+	}
+	
+	/**
+	 *	Prices
+	 */
 	protected static function _getAvailableElementPrices($intIBlockID){
 		$arResult = array();
 		if($intIBlockID && \Bitrix\Main\Loader::includeModule('iblock') && \Bitrix\Main\Loader::includeModule('catalog')){
@@ -912,7 +988,6 @@ abstract class ProfileIBlockTable extends Entity\DataManager {
 						'ID' => $arPrice['ID'],
 						'FILTRABLE' => false,
 					);
-					#
 					$arResult[$arPrice['ID'].'__WITH_DISCOUNT__CURR'] = array(
 						'NAME' => $arPrice['NAME_LANG'].Loc::getMessage('ACRIT_EXP_ELEMENT_FIELD__CATALOG_PRICE_WITH_DISCOUNT_CURR'),
 						'CODE' => $arPrice['NAME'],
@@ -948,7 +1023,6 @@ abstract class ProfileIBlockTable extends Entity\DataManager {
 						'TYPE' => 'S',
 						'ID' => $arPrice['ID'],
 						'USER_TYPE' => '_Currency',
-						#'FILTRABLE' => false,
 					);
 				}
 			}

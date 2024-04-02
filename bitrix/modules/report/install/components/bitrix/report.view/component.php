@@ -210,8 +210,8 @@ try
 	$userId = $USER->GetID();
 
 	$rightsManager = new Bitrix\Report\RightsManager($userId);
-//	if(!$rightsManager->canRead($report['ID']))
-//		throw new BXUserException(GetMessage('REPORT_VIEW_PERMISSION_DENIED'));
+	if(!$rightsManager->canRead($report['ID']))
+		throw new BXUserException(GetMessage('REPORT_VIEW_PERMISSION_DENIED'));
 
 	$arResult['AUTHOR'] = true;
 	if($userId != $report['CREATED_BY'])

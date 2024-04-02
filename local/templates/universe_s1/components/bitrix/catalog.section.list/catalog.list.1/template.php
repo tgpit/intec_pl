@@ -134,7 +134,6 @@ $arWords = [
                     <div class="intec-grid-item">
                         <div class="catalog-section-list-item-section intec-grid intec-grid-a-v-start">
                             <div class="intec-grid-item intec-grid-item-shrink-1">
-
                                 <?= Html::beginTag('a', [
                                     'class' => [
                                         'catalog-section-list-item-name',

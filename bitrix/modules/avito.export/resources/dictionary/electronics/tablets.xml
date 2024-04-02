@@ -2402,6 +2402,15 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Eee Slate B121">
+			<MemorySize name="64">
+				<SimSlot name="Нет">
+					<RamSize name="4">
+						<Color name="Серебряный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Eee Slate EP121">
 			<MemorySize name="64">
 				<SimSlot name="Нет">
@@ -4327,11 +4336,46 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Zenpad 3S 10 Z500KL">
+			<MemorySize name="32">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Серебряный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Zenpad 3s 8.0 Z582KL">
+			<MemorySize name="32">
+				<SimSlot name="Есть">
+					<RamSize name="3">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="64">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Zenpad Z10 ZT500KL">
 			<MemorySize name="32">
 				<SimSlot name="Есть">
 					<RamSize name="3">
 						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Zenpad Z8s ZT582KL">
+			<MemorySize name="16">
+				<SimSlot name="Есть">
+					<RamSize name="3">
+						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -5634,6 +5678,15 @@
 				<SimSlot name="Нет">
 					<RamSize name="2">
 						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Switch One 10 SW1-011-171K">
+			<MemorySize name="32">
+				<SimSlot name="Нет">
+					<RamSize name="2">
+						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -7718,6 +7771,38 @@
 					</RamSize>
 				</SimSlot>
 				<SimSlot name="Нет">
+					<RamSize name="4">
+						<Color name="Золотой"></Color>
+						<Color name="Розовый"></Color>
+						<Color name="Серебряный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="iPad Pro 10.5 (2-го поколения) (2017)">
+			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Золотой"></Color>
+						<Color name="Розовый"></Color>
+						<Color name="Серебряный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="512">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Золотой"></Color>
+						<Color name="Розовый"></Color>
+						<Color name="Серебряный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="64">
+				<SimSlot name="Есть">
 					<RamSize name="4">
 						<Color name="Золотой"></Color>
 						<Color name="Розовый"></Color>
@@ -10477,6 +10562,15 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="M-T3">
+			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="8">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="SE Max">
 			<MemorySize name="256">
 				<SimSlot name="Есть">
@@ -10525,6 +10619,13 @@
 			<MemorySize name="256">
 				<SimSlot name="Есть">
 					<RamSize name="6">
+						<Color name="Белый"></Color>
+						<Color name="Зелёный"></Color>
+						<Color name="Золотой"></Color>
+						<Color name="Серый"></Color>
+						<Color name="Синий"></Color>
+					</RamSize>
+					<RamSize name="8">
 						<Color name="Белый"></Color>
 						<Color name="Зелёный"></Color>
 						<Color name="Золотой"></Color>
@@ -10637,6 +10738,15 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="819">
+			<MemorySize name="64">
+				<SimSlot name="Нет">
+					<RamSize name="4">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="K107">
 			<MemorySize name="64">
 				<SimSlot name="Есть">
@@ -10670,6 +10780,13 @@
 			<MemorySize name="32">
 				<SimSlot name="Есть">
 					<RamSize name="2">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="64">
+				<SimSlot name="Есть">
+					<RamSize name="4">
 						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
@@ -10943,6 +11060,15 @@
 		</Model>
 		<Model name="1077L Armor PRO (2018)">
 			<MemorySize name="8">
+				<SimSlot name="Есть">
+					<RamSize name="1">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="1081G">
+			<MemorySize name="16">
 				<SimSlot name="Есть">
 					<RamSize name="1">
 						<Color name="Чёрный"></Color>
@@ -11477,6 +11603,11 @@
 		</Model>
 		<Model name="8088L Exion Surf">
 			<MemorySize name="64">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
 				<SimSlot name="Нет">
 					<RamSize name="4">
 						<Color name="Голубой"></Color>
@@ -11992,6 +12123,28 @@
 					<RamSize name="8">
 						<Color name="Зелёный"></Color>
 						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Oscal Pad 16">
+			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="8">
+						<Color name="Голубой"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Oscal Pad 18">
+			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="12">
+						<Color name="Голубой"></Color>
+					</RamSize>
+					<RamSize name="8">
+						<Color name="Голубой"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -14391,8 +14544,26 @@
 		</Model>
 	</Brand>
 	<Brand name="Cubot">
+		<Model name="Tab 10">
+			<MemorySize name="64">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Tab 20">
 			<MemorySize name="64">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Tab 30">
+			<MemorySize name="128">
 				<SimSlot name="Есть">
 					<RamSize name="4">
 						<Color name="Серый"></Color>
@@ -14403,6 +14574,24 @@
 		<Model name="Tab 40">
 			<MemorySize name="128">
 				<SimSlot name="Есть">
+					<RamSize name="8">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Tab 50">
+			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="8">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Tab 60">
+			<MemorySize name="128">
+				<SimSlot name="Нет">
 					<RamSize name="8">
 						<Color name="Серый"></Color>
 					</RamSize>
@@ -14431,6 +14620,15 @@
 		</Model>
 	</Brand>
 	<Brand name="DELL">
+		<Model name="Dell Venue 8 Pro 5855">
+			<MemorySize name="64">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Latitude 10">
 			<MemorySize name="128">
 				<SimSlot name="Нет">
@@ -14612,6 +14810,13 @@
 			<MemorySize name="256">
 				<SimSlot name="Нет">
 					<RamSize name="8">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="512">
+				<SimSlot name="Нет">
+					<RamSize name="16">
 						<Color name="Серый"></Color>
 					</RamSize>
 				</SimSlot>
@@ -15186,6 +15391,17 @@
 			</MemorySize>
 			<MemorySize name="64">
 				<SimSlot name="Нет">
+					<RamSize name="2">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+	</Brand>
+	<Brand name="DEPO">
+		<Model name="Myst R80">
+			<MemorySize name="64">
+				<SimSlot name="Есть">
 					<RamSize name="2">
 						<Color name="Чёрный"></Color>
 					</RamSize>
@@ -18074,6 +18290,15 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Kids 1210B">
+			<MemorySize name="16">
+				<SimSlot name="Нет">
+					<RamSize name="2">
+						<Color name="Синий"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Optima 10 A500S">
 			<MemorySize name="16">
 				<SimSlot name="Есть">
@@ -18830,6 +19055,15 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Optima 7258C">
+			<MemorySize name="32">
+				<SimSlot name="Есть">
+					<RamSize name="2">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Optima 7300">
 			<MemorySize name="8">
 				<SimSlot name="Нет">
@@ -19206,6 +19440,15 @@
 				<SimSlot name="Есть">
 					<RamSize name="1">
 						<Color name="Синий"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="PRO PRIME 18">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
+					<RamSize name="6">
+						<Color name="Серый"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -20437,6 +20680,15 @@
 		</Model>
 		<Model name="Pro 1800F">
 			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="8">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Pro HIT 108E">
+			<MemorySize name="128">
 				<SimSlot name="Есть">
 					<RamSize name="8">
 						<Color name="Серый"></Color>
@@ -21791,6 +22043,7 @@
 				<SimSlot name="Есть">
 					<RamSize name="8">
 						<Color name="Зелёный"></Color>
+						<Color name="Розовый"></Color>
 						<Color name="Серый"></Color>
 						<Color name="Синий"></Color>
 					</RamSize>
@@ -21963,6 +22216,17 @@
 				<SimSlot name="Есть">
 					<RamSize name="8">
 						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="ES10">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Белый"></Color>
+						<Color name="Голубой"></Color>
+						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -26940,6 +27204,47 @@
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
+			<MemorySize name="256">
+				<SimSlot name="Нет">
+					<RamSize name="8">
+						<Color name="Синий"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Pad 9">
+			<MemorySize name="128">
+				<SimSlot name="Нет">
+					<RamSize name="8">
+						<Color name="Белый"></Color>
+						<Color name="Голубой"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="256">
+				<SimSlot name="Нет">
+					<RamSize name="12">
+						<Color name="Белый"></Color>
+						<Color name="Голубой"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+					<RamSize name="8">
+						<Color name="Белый"></Color>
+						<Color name="Голубой"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="512">
+				<SimSlot name="Нет">
+					<RamSize name="12">
+						<Color name="Белый"></Color>
+						<Color name="Голубой"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
 		</Model>
 		<Model name="Pad V6(2020)">
 			<MemorySize name="128">
@@ -27015,6 +27320,13 @@
 					<RamSize name="6">
 						<Color name="Голубой"></Color>
 						<Color name="Синий"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="32">
+				<SimSlot name="Нет">
+					<RamSize name="3">
+						<Color name="Голубой"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -27676,6 +27988,15 @@
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
+			<MemorySize name="64">
+				<SimSlot name="Нет">
+					<RamSize name="2">
+						<Color name="Серебряный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Pavilion x2 10-n107ur">
 			<MemorySize name="64">
 				<SimSlot name="Нет">
 					<RamSize name="2">
@@ -28537,6 +28858,9 @@
 					</RamSize>
 				</SimSlot>
 				<SimSlot name="Нет">
+					<RamSize name="12">
+						<Color name="Белый"></Color>
+					</RamSize>
 					<RamSize name="8">
 						<Color name="Чёрный"></Color>
 					</RamSize>
@@ -28668,6 +28992,16 @@
 			</MemorySize>
 		</Model>
 		<Model name="MatePad Pro 11 (2024)">
+			<MemorySize name="256">
+				<SimSlot name="Нет">
+					<RamSize name="12">
+						<Color name="Белый"></Color>
+						<Color name="Серый"></Color>
+						<Color name="Синий"></Color>
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
 			<MemorySize name="512">
 				<SimSlot name="Нет">
 					<RamSize name="12">
@@ -29556,6 +29890,22 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="MediaPad M5 Lite">
+			<MemorySize name="32">
+				<SimSlot name="Есть">
+					<RamSize name="3">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="64">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="MediaPad M5 Lite 10">
 			<MemorySize name="64">
 				<SimSlot name="Есть">
@@ -30093,6 +30443,15 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Hit G700">
+			<MemorySize name="4">
+				<SimSlot name="Есть">
+					<RamSize name="0.5">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 	</Brand>
 	<Brand name="HeadWolf">
 		<Model name="FPad 2">
@@ -30333,6 +30692,15 @@
 			<MemorySize name="8">
 				<SimSlot name="Нет">
 					<RamSize name="1">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Koral Pro">
+			<MemorySize name="64">
+				<SimSlot name="Нет">
+					<RamSize name="4">
 						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
@@ -30659,6 +31027,17 @@
 				<SimSlot name="Нет">
 					<RamSize name="1">
 						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+	</Brand>
+	<Brand name="IPMAG">
+		<Model name="S5 Pro">
+			<MemorySize name="512">
+				<SimSlot name="Есть">
+					<RamSize name="10.0">
+						<Color name="Серый"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -31724,6 +32103,15 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="TS90">
+			<MemorySize name="8">
+				<SimSlot name="Нет">
+					<RamSize name="1">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="TW10">
 			<MemorySize name="32">
 				<SimSlot name="Нет">
@@ -31842,6 +32230,15 @@
 			</MemorySize>
 		</Model>
 		<Model name="TW38">
+			<MemorySize name="16">
+				<SimSlot name="Есть">
+					<RamSize name="1">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="TW39">
 			<MemorySize name="16">
 				<SimSlot name="Есть">
 					<RamSize name="1">
@@ -33853,6 +34250,7 @@
 				<SimSlot name="Есть">
 					<RamSize name="1">
 						<Color name="Коричневый"></Color>
+						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -34986,6 +35384,21 @@
 			</MemorySize>
 		</Model>
 	</Brand>
+	<Brand name="KENSHI">
+		<Model name="E38">
+			<MemorySize name="32">
+				<SimSlot name="Есть">
+					<RamSize name="2">
+						<Color name="Голубой"></Color>
+						<Color name="Зелёный"></Color>
+						<Color name="Розовый"></Color>
+						<Color name="Фиолетовый"></Color>
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+	</Brand>
 	<Brand name="KREZ">
 		<Model name="TL801W4">
 			<MemorySize name="4">
@@ -35170,6 +35583,18 @@
 				<SimSlot name="Нет">
 					<RamSize name="1">
 						<Color name="Серебряный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+	</Brand>
+	<Brand name="KVADRA">
+		<Model name="KVADRA T">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
+					<RamSize name="6">
+						<Color name="Серебряный"></Color>
+						<Color name="Фиолетовый"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -36149,6 +36574,15 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="IdeaPad MiiX 320">
+			<MemorySize name="32">
+				<SimSlot name="Нет">
+					<RamSize name="2">
+						<Color name="Серебряный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="IdeaTab A1000">
 			<MemorySize name="16">
 				<SimSlot name="Нет">
@@ -36546,6 +36980,13 @@
 			</MemorySize>
 		</Model>
 		<Model name="MiiX 320-10ICR">
+			<MemorySize name="32">
+				<SimSlot name="Есть">
+					<RamSize name="2048.0">
+						<Color name="Серебряный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
 			<MemorySize name="64">
 				<SimSlot name="Есть">
 					<RamSize name="2048.0">
@@ -37435,6 +37876,15 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="TB3-710F">
+			<MemorySize name="16">
+				<SimSlot name="Нет">
+					<RamSize name="1">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="TB3-710i">
 			<MemorySize name="8">
 				<SimSlot name="Есть">
@@ -37528,6 +37978,16 @@
 				<SimSlot name="Есть">
 					<RamSize name="1">
 						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Tab 2 TB2-X30F">
+			<MemorySize name="16">
+				<SimSlot name="Нет">
+					<RamSize name="2">
+						<Color name="Белый"></Color>
+						<Color name="Синий"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -37968,6 +38428,11 @@
 		</Model>
 		<Model name="Tab A8-50">
 			<MemorySize name="16">
+				<SimSlot name="Есть">
+					<RamSize name="1">
+						<Color name="Синий"></Color>
+					</RamSize>
+				</SimSlot>
 				<SimSlot name="Нет">
 					<RamSize name="1">
 						<Color name="Синий"></Color>
@@ -38372,6 +38837,28 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Tab M11">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Зелёный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+					<RamSize name="8">
+						<Color name="Зелёный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="64">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Зелёный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Tab M7 TB-7306X">
 			<MemorySize name="32">
 				<SimSlot name="Есть">
@@ -38581,6 +39068,26 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Tab P11 5G">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
+					<RamSize name="6">
+						<Color name="Белый"></Color>
+						<Color name="Зелёный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="8">
+						<Color name="Белый"></Color>
+						<Color name="Зелёный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Tab P11 Plus (2021)">
 			<MemorySize name="128">
 				<SimSlot name="Есть">
@@ -38632,6 +39139,11 @@
 		<Model name="Tab P11 Plus TB-J616X (2021)">
 			<MemorySize name="128">
 				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Зелёный"></Color>
+						<Color name="Серебряный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
 					<RamSize name="6">
 						<Color name="Зелёный"></Color>
 						<Color name="Серебряный"></Color>
@@ -39193,7 +39705,10 @@
 		</Model>
 		<Model name="Xiaoxin Pad 2024">
 			<MemorySize name="128">
-				<SimSlot name="Есть">
+				<SimSlot name="Нет">
+					<RamSize name="6">
+						<Color name="Серый"></Color>
+					</RamSize>
 					<RamSize name="8">
 						<Color name="Серый"></Color>
 						<Color name="Фиолетовый"></Color>
@@ -40364,6 +40879,15 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Primo 81">
+			<MemorySize name="16">
+				<SimSlot name="Есть">
+					<RamSize name="1">
+						<Color name="Серебряный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Primo 90">
 			<MemorySize name="16">
 				<SimSlot name="Есть">
@@ -41361,6 +41885,22 @@
 		</Model>
 	</Brand>
 	<Brand name="Microsoft">
+		<Model name="Surface 2">
+			<MemorySize name="32">
+				<SimSlot name="Нет">
+					<RamSize name="2">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="64">
+				<SimSlot name="Нет">
+					<RamSize name="2">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Surface 3">
 			<MemorySize name="128">
 				<SimSlot name="Нет">
@@ -43226,6 +43766,15 @@
 		</Model>
 	</Brand>
 	<Brand name="Nextbook">
+		<Model name="NXW10QC32G">
+			<MemorySize name="32">
+				<SimSlot name="Нет">
+					<RamSize name="1">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Next 7Q12">
 			<MemorySize name="4">
 				<SimSlot name="Есть">
@@ -44230,6 +44779,40 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Pad Air2">
+			<MemorySize name="128">
+				<SimSlot name="Нет">
+					<RamSize name="6">
+						<Color name="Серебряный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+					<RamSize name="8">
+						<Color name="Серебряный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="256">
+				<SimSlot name="Нет">
+					<RamSize name="8">
+						<Color name="Серебряный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Pad Neo">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
+					<RamSize name="6">
+						<Color name="Серый"></Color>
+					</RamSize>
+					<RamSize name="8">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 	</Brand>
 	<Brand name="OPRIX">
 		<Model name="T701">
@@ -44318,6 +44901,28 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="OT5">
+			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="12">
+						<Color name="Голубой"></Color>
+						<Color name="Зелёный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="OT8">
+			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="6">
+						<Color name="Зелёный"></Color>
+						<Color name="Серый"></Color>
+						<Color name="Фиолетовый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="RT1 (2021)">
 			<MemorySize name="64">
 				<SimSlot name="Есть">
@@ -44374,6 +44979,9 @@
 				<SimSlot name="Есть">
 					<RamSize name="12">
 						<Color name="Синий"></Color>
+						<Color name="Чёрный"></Color>
+					</RamSize>
+					<RamSize name="8">
 						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
@@ -45082,6 +45690,22 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Pad Go">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
+					<RamSize name="8">
+						<Color name="Зелёный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="8">
+						<Color name="Зелёный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 	</Brand>
 	<Brand name="Open Star">
 		<Model name="MyPad D7G1">
@@ -45676,6 +46300,7 @@
 				<SimSlot name="Есть">
 					<RamSize name="1">
 						<Color name="Серый"></Color>
+						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -52947,6 +53572,17 @@
 			</MemorySize>
 		</Model>
 	</Brand>
+	<Brand name="S-COLOR">
+		<Model name="GT40 Ultra">
+			<MemorySize name="512">
+				<SimSlot name="Есть">
+					<RamSize name="16">
+						<Color name="Голубой"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+	</Brand>
 	<Brand name="SENKATEL">
 		<Model name="Maximus S1">
 			<MemorySize name="16">
@@ -53972,6 +54608,15 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="ATIV Smart PC XE500T1C-H01RU">
+			<MemorySize name="64">
+				<SimSlot name="Есть">
+					<RamSize name="2">
+						<Color name="Голубой"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="ATIV Smart PC XE500T1C-K01 dock">
 			<MemorySize name="64">
 				<SimSlot name="Есть">
@@ -54752,6 +55397,7 @@
 			<MemorySize name="16">
 				<SimSlot name="Нет">
 					<RamSize name="1.5">
+						<Color name="Белый"></Color>
 						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
@@ -55507,9 +56153,23 @@
 						<Color name="Синий"></Color>
 					</RamSize>
 				</SimSlot>
+				<SimSlot name="Нет">
+					<RamSize name="8">
+						<Color name="Серебряный"></Color>
+						<Color name="Серый"></Color>
+						<Color name="Синий"></Color>
+					</RamSize>
+				</SimSlot>
 			</MemorySize>
 			<MemorySize name="64">
 				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Серебряный"></Color>
+						<Color name="Серый"></Color>
+						<Color name="Синий"></Color>
+					</RamSize>
+				</SimSlot>
+				<SimSlot name="Нет">
 					<RamSize name="4">
 						<Color name="Серебряный"></Color>
 						<Color name="Серый"></Color>
@@ -55541,6 +56201,22 @@
 				<SimSlot name="Есть">
 					<RamSize name="4">
 						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Galaxy Tab Active 5">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
+					<RamSize name="6">
+						<Color name="Зелёный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="8">
+						<Color name="Зелёный"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -57254,6 +57930,7 @@
 				</SimSlot>
 				<SimSlot name="Нет">
 					<RamSize name="2">
+						<Color name="Белый"></Color>
 						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
@@ -57261,11 +57938,13 @@
 			<MemorySize name="32">
 				<SimSlot name="Есть">
 					<RamSize name="2">
+						<Color name="Белый"></Color>
 						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
 				<SimSlot name="Нет">
 					<RamSize name="2">
+						<Color name="Белый"></Color>
 						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
@@ -57793,11 +58472,23 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="NXTPAPER 10s">
+			<MemorySize name="64">
+				<SimSlot name="Нет">
+					<RamSize name="4">
+						<Color name="Зелёный"></Color>
+						<Color name="Серый"></Color>
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="NXTPAPER 10s LTE">
 			<MemorySize name="64">
 				<SimSlot name="Есть">
 					<RamSize name="4">
 						<Color name="Зелёный"></Color>
+						<Color name="Серый"></Color>
 						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
@@ -58498,6 +59189,10 @@
 						<Color name="Голубой"></Color>
 						<Color name="Серебряный"></Color>
 					</RamSize>
+					<RamSize name="4">
+						<Color name="Голубой"></Color>
+						<Color name="Серебряный"></Color>
+					</RamSize>
 				</SimSlot>
 			</MemorySize>
 		</Model>
@@ -58783,6 +59478,15 @@
 					</RamSize>
 				</SimSlot>
 				<SimSlot name="Нет">
+					<RamSize name="8">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="T45HD">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
 					<RamSize name="8">
 						<Color name="Серый"></Color>
 					</RamSize>
@@ -61258,6 +61962,17 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="P73">
+			<MemorySize name="64">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Золотой"></Color>
+						<Color name="Серый"></Color>
+						<Color name="Синий"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="P80 Pad">
 			<MemorySize name="128">
 				<SimSlot name="Есть">
@@ -61298,7 +62013,9 @@
 			<MemorySize name="128">
 				<SimSlot name="Есть">
 					<RamSize name="6">
+						<Color name="Золотой"></Color>
 						<Color name="Серый"></Color>
+						<Color name="Синий"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -61897,6 +62614,62 @@
 			</MemorySize>
 		</Model>
 	</Brand>
+	<Brand name="Vodafone">
+		<Model name="Smart Tab 4G">
+			<MemorySize name="8">
+				<SimSlot name="Есть">
+					<RamSize name="1">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Smart Tab II 10">
+			<MemorySize name="16">
+				<SimSlot name="Есть">
+					<RamSize name="1">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Smart Tab II 7">
+			<MemorySize name="4">
+				<SimSlot name="Есть">
+					<RamSize name="1">
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Smart Tab N8">
+			<MemorySize name="16">
+				<SimSlot name="Есть">
+					<RamSize name="2">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Tab Prime 6">
+			<MemorySize name="16">
+				<SimSlot name="Есть">
+					<RamSize name="1">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="Tab Prime 7">
+			<MemorySize name="16">
+				<SimSlot name="Есть">
+					<RamSize name="2">
+						<Color name="Серебряный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+	</Brand>
 	<Brand name="WEXLER">
 		<Model name=".MOBI 7">
 			<MemorySize name="16">
@@ -62006,6 +62779,7 @@
 				<SimSlot name="Нет">
 					<RamSize name="0.5">
 						<Color name="Белый"></Color>
+						<Color name="Чёрный"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -62560,12 +63334,33 @@
 			</MemorySize>
 		</Model>
 	</Brand>
+	<Brand name="X-Prime">
+		<Model name="A15 Max">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
+					<RamSize name="6">
+						<Color name="Золотой"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="64">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Золотой"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+	</Brand>
 	<Brand name="Xiaomi">
 		<Model name="MiPad">
 			<MemorySize name="16">
 				<SimSlot name="Нет">
 					<RamSize name="2">
 						<Color name="Белый"></Color>
+						<Color name="Голубой"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -62870,6 +63665,40 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Pad 6S Pro">
+			<MemorySize name="1024">
+				<SimSlot name="Нет">
+					<RamSize name="16">
+						<Color name="Зелёный"></Color>
+						<Color name="Синий"></Color>
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="256">
+				<SimSlot name="Нет">
+					<RamSize name="12">
+						<Color name="Зелёный"></Color>
+						<Color name="Синий"></Color>
+						<Color name="Чёрный"></Color>
+					</RamSize>
+					<RamSize name="8">
+						<Color name="Зелёный"></Color>
+						<Color name="Синий"></Color>
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="512">
+				<SimSlot name="Нет">
+					<RamSize name="12">
+						<Color name="Зелёный"></Color>
+						<Color name="Синий"></Color>
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Redmi Pad">
 			<MemorySize name="128">
 				<SimSlot name="Нет">
@@ -62913,6 +63742,7 @@
 						<Color name="Зелёный"></Color>
 						<Color name="Розовый"></Color>
 						<Color name="Серый"></Color>
+						<Color name="Фиолетовый"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>
@@ -63290,6 +64120,24 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="S8Q">
+			<MemorySize name="8">
+				<SimSlot name="Нет">
+					<RamSize name="1">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="T98">
+			<MemorySize name="16">
+				<SimSlot name="Есть">
+					<RamSize name="1">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Trek 2 HD">
 			<MemorySize name="16">
 				<SimSlot name="Нет">
@@ -63328,6 +64176,15 @@
 		</Model>
 		<Model name="V72A Light Tab">
 			<MemorySize name="4">
+				<SimSlot name="Есть">
+					<RamSize name="1">
+						<Color name="Чёрный"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+		<Model name="V96">
+			<MemorySize name="16">
 				<SimSlot name="Есть">
 					<RamSize name="1">
 						<Color name="Чёрный"></Color>
@@ -65979,6 +66836,18 @@
 			</MemorySize>
 		</Model>
 	</Brand>
+	<Brand name="itel">
+		<Model name="Pad One">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
+					<RamSize name="4">
+						<Color name="Голубой"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
+	</Brand>
 	<Brand name="joinTech">
 		<Model name="JR70">
 			<MemorySize name="4">
@@ -66094,6 +66963,24 @@
 				</SimSlot>
 			</MemorySize>
 		</Model>
+		<Model name="Pad 2">
+			<MemorySize name="128">
+				<SimSlot name="Есть">
+					<RamSize name="6">
+						<Color name="Зелёный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+			<MemorySize name="256">
+				<SimSlot name="Есть">
+					<RamSize name="8">
+						<Color name="Зелёный"></Color>
+						<Color name="Серый"></Color>
+					</RamSize>
+				</SimSlot>
+			</MemorySize>
+		</Model>
 		<Model name="Pad Mini">
 			<MemorySize name="32">
 				<SimSlot name="Есть">
@@ -66168,6 +67055,7 @@
 				<SimSlot name="Есть">
 					<RamSize name="4">
 						<Color name="Серый"></Color>
+						<Color name="Синий"></Color>
 					</RamSize>
 				</SimSlot>
 			</MemorySize>

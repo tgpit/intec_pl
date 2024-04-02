@@ -361,18 +361,19 @@ if (!window.ozon2024ApiInitialized) {
 			}
 		}, function (jqXHR) {
 			console.log(jqXHR);
+			window.acritExpOzonNewApiAjaxCheckAttrValues = null;
 		}, true);
 	}
 	$(document).delegate('a[data-role="ozon_check_remote_attribute_values"]', 'click', function(e){
 		e.preventDefault();
 		if(!window.acritExpOzonNewApiAjaxCheckAttrValues){
 			let
-				categoryId = prompt(BX.message('ACRIT_OZON_ATTRIBUTE_VALUES_CHECK_CATEGORY_ID'), '');
+				categoryId = prompt(BX.message('ACRIT_OZON_ATTRIBUTE_VALUES_CHECK_CATEGORY_ID'), '91477');
 			if(categoryId !== null){
 				categoryId = parseInt(categoryId);
 				if(!isNaN(categoryId)){
 					let
-						attributeId = prompt(BX.message('ACRIT_OZON_ATTRIBUTE_VALUES_CHECK_ATTRIBUTE_ID'), '');
+						attributeId = prompt(BX.message('ACRIT_OZON_ATTRIBUTE_VALUES_CHECK_ATTRIBUTE_ID'), '85');
 					if(attributeId !== null){
 						categoryId = parseInt(categoryId);
 						if(!isNaN(categoryId)){

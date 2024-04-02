@@ -45,7 +45,7 @@ abstract class Cbrf extends Base {
 	public static function convert($fPrice, $strFrom, $strTo){
 		$fFactor = static::getFactor($strFrom, $strTo);
 		if(is_float($fFactor)) {
-			return $fPrice * $fFactor;
+			return static::roundDecimalsCount($fPrice * $fFactor, $strTo);
 		}
 		return false;
 	}

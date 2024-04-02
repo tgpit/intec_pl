@@ -24,6 +24,8 @@ class Transportation implements Category
         return $this->once('children', static function() {
             return [
 	            new Transportation\PartsAndAccessories(),
+	            new Transportation\WaterTransport(),
+	            new Transportation\MotorbikesAndMotorbikes(),
             ];
         });
     }

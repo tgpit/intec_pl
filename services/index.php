@@ -450,5 +450,4 @@ $APPLICATION->SetTitle("Услуги");
 		"USE_MAIN_ELEMENT_SECTION" => "Y",
 		"VARIABLE_ALIASES" => array("compare"=>array("ACTION_CODE"=>"action",),)
 	)
-);?> <br>
- <br><?php require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php") ?>
+);?><?php require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php") ?>

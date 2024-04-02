@@ -36,6 +36,7 @@
 		</Make>
 		<Make name="Cifa">
 			<Model name="3C-307D"></Model>
+			<Model name="Invetta 36 X"></Model>
 			<Model name="K3-XL 36M"></Model>
 			<Model name="K36 XZ"></Model>
 			<Model name="K38L PA1506/969"></Model>
@@ -64,8 +65,10 @@
 		</Make>
 		<Make name="Everdigm">
 			<Model name="38 ZX"></Model>
+			<Model name="40CX-5"></Model>
 			<Model name="43CX-5"></Model>
 			<Model name="50CX-5"></Model>
+			<Model name="55CS-5"></Model>
 			<Model name="65 CX-6"></Model>
 			<Model name="ECP36RX"></Model>
 		</Make>
@@ -93,6 +96,13 @@
 			<Model name="Giga"></Model>
 			<Model name="U-CVR 70K"></Model>
 			<Model name="V340"></Model>
+		</Make>
+		<Make name="JACON">
+			<Model name="ROBOSHOT TRANSMIX 3000"></Model>
+		</Make>
+		<Make name="Jiuhe">
+			<Model name="JHZ5200THBJF-30"></Model>
+			<Model name="JHZ5290THB-38"></Model>
 		</Make>
 		<Make name="Junjin">
 			<Model name="JJ-H5217"></Model>
@@ -159,6 +169,7 @@
 		</Make>
 		<Make name="REICH">
 			<Model name="RCP 16/90"></Model>
+			<Model name="VMR4-44/40-125"></Model>
 		</Make>
 		<Make name="Royal Makine">
 			<Model name="12.3"></Model>
@@ -179,9 +190,7 @@
 			<Model name="C8 SY43 RZ5-200"></Model>
 			<Model name="HBT12020C-5W"></Model>
 			<Model name="HBT40C-1410 diii"></Model>
-			<Model name="HBT60C"></Model>
 			<Model name="HBT80"></Model>
-			<Model name="HBT80C"></Model>
 			<Model name="LP9018"></Model>
 			<Model name="SY43 RZ5-200"></Model>
 			<Model name="SY5296THB 37D"></Model>
@@ -192,9 +201,11 @@
 			<Model name="SYG5370THB 490C-10"></Model>
 			<Model name="SYG5445THBES 560C-10"></Model>
 			<Model name="SYG5450THB 560C-10"></Model>
+			<Model name="SYM5449THBF 560C-10"></Model>
 			<Model name="SYM5538THB"></Model>
 			<Model name="SYM5538THB 670C-10C10"></Model>
 			<Model name="SYM5540THBF"></Model>
+			<Model name="SYM5552THB"></Model>
 			<Model name="С8 SY49 RZ5-200 FMX 420 HP8*4"></Model>
 		</Make>
 		<Make name="Scania">
@@ -208,6 +219,7 @@
 			<Model name="S20"></Model>
 			<Model name="S34X"></Model>
 			<Model name="S36X"></Model>
+			<Model name="S42SX"></Model>
 			<Model name="S43SX"></Model>
 			<Model name="S47SX"></Model>
 			<Model name="S47SX III"></Model>
@@ -251,6 +263,7 @@
 			<Model name="47X-5RZ"></Model>
 			<Model name="49X-5RZ"></Model>
 			<Model name="49X-6RZ"></Model>
+			<Model name="50X-6RZ"></Model>
 			<Model name="52X-6RZ"></Model>
 			<Model name="56X-6RZ"></Model>
 			<Model name="57X-6RZ"></Model>
@@ -263,13 +276,13 @@
 			<Model name="HBT 40.10.60RS"></Model>
 			<Model name="HBT100.18.186RSU"></Model>
 			<Model name="HBT110.26.372RS"></Model>
-			<Model name="HBT50.10.60RS"></Model>
 			<Model name="HBT60.13.1"></Model>
-			<Model name="HBT60.13.118RSD"></Model>
 			<Model name="HBT80.16.174RSU"></Model>
 			<Model name="HOLD HBT 80-13-132S"></Model>
 			<Model name="ZLJ5230THBKF"></Model>
 			<Model name="ZLJ5440THBSF"></Model>
+			<Model name="ZLJ5441THB"></Model>
+			<Model name="ZLJ5540THBB"></Model>
 			<Model name="ZLJ5540THBSF 67X-6RZ"></Model>
 		</Make>
 		<Make name="Zugspitze">
@@ -477,6 +490,11 @@
 		<Make name="GITECH">
 			<Model name="Mix 3.5"></Model>
 		</Make>
+		<Make name="Goruko">
+			<Model name="BR1500"></Model>
+			<Model name="BR3200"></Model>
+			<Model name="BR5500"></Model>
+		</Make>
 		<Make name="GuteWolf">
 			<Model name="6 куб.м на шасси Ford"></Model>
 		</Make>
@@ -537,6 +555,9 @@
 			<Model name="ZZ5407GJBS3267E12"></Model>
 			<Model name="ZZ5407GJBS3667E14"></Model>
 		</Make>
+		<Make name="Huaya">
+			<Model name="CMT3500"></Model>
+		</Make>
 		<Make name="Hyundai">
 			<Model name="AM-10 на шасси Hyundai HD 370"></Model>
 			<Model name="AM-7 на шасси Hyundai HD 270"></Model>
@@ -583,6 +604,7 @@
 			<Model name="2574"></Model>
 		</Make>
 		<Make name="Isuzu">
+			<Model name="Elf"></Model>
 			<Model name="Forward (F-Series)"></Model>
 			<Model name="Giga"></Model>
 			<Model name="V295"></Model>
@@ -647,6 +669,9 @@
 			<Model name="HTM 904 ZA"></Model>
 			<Model name="HTM 905"></Model>
 		</Make>
+		<Make name="LiuGong">
+			<Model name="CLGC326F"></Model>
+		</Make>
 		<Make name="Lorenzana">
 			<Model name="Premier 1"></Model>
 			<Model name="Premier 2"></Model>
@@ -661,6 +686,7 @@
 			<Model name="12"></Model>
 			<Model name="24.262"></Model>
 			<Model name="25.272"></Model>
+			<Model name="32.302"></Model>
 			<Model name="32.322"></Model>
 			<Model name="32.342"></Model>
 			<Model name="35.343"></Model>
@@ -700,6 +726,7 @@
 		<Make name="Mercedes-Benz">
 			<Model name="2224B"></Model>
 			<Model name="2527"></Model>
+			<Model name="3229В"></Model>
 			<Model name="3234В"></Model>
 			<Model name="Actros 3235"></Model>
 			<Model name="Actros 3332"></Model>
@@ -934,10 +961,12 @@
 			<Model name="SDM3500"></Model>
 			<Model name="SDM4000"></Model>
 			<Model name="SDM5500"></Model>
+			<Model name="SDM800"></Model>
 		</Make>
 		<Make name="Zoomlion">
 			<Model name="10JBH"></Model>
 			<Model name="10JBSX"></Model>
+			<Model name="12JBH"></Model>
 			<Model name="K6JB-R"></Model>
 			<Model name="K8JB-R"></Model>
 			<Model name="K9JB-R"></Model>
@@ -1221,6 +1250,12 @@
 			<Model name="BG 240 TA-4"></Model>
 			<Model name="SHM-5NT-1"></Model>
 		</Make>
+		<Make name="Hanma">
+			<Model name="TITAN-2500"></Model>
+			<Model name="TITAN-3000"></Model>
+			<Model name="TITAN-3500"></Model>
+			<Model name="СД-105"></Model>
+		</Make>
 		<Make name="Hidromek">
 			<Model name="HMK MG330"></Model>
 			<Model name="HMK MG460"></Model>
@@ -1277,8 +1312,12 @@
 			<Model name="CLG425"></Model>
 			<Model name="CLG425Е"></Model>
 		</Make>
+		<Make name="LongGong">
+			<Model name="CDM1185"></Model>
+		</Make>
 		<Make name="Lonking">
 			<Model name="CDM1185"></Model>
+			<Model name="CDM7220"></Model>
 		</Make>
 		<Make name="Lovol">
 			<Model name="FPY714"></Model>
@@ -1289,6 +1328,7 @@
 		</Make>
 		<Make name="MBU">
 			<Model name="G3"></Model>
+			<Model name="G6"></Model>
 		</Make>
 		<Make name="Mista">
 			<Model name="RD-165C"></Model>
@@ -1367,6 +1407,7 @@
 			<Model name="SG16-3"></Model>
 			<Model name="SG18"></Model>
 			<Model name="SG18-3"></Model>
+			<Model name="SG19-B6"></Model>
 			<Model name="SG21-3"></Model>
 			<Model name="SG21A-3"></Model>
 		</Make>
@@ -1491,6 +1532,9 @@
 		</Make>
 		<Make name="Амкодор">
 			<Model name="G160"></Model>
+		</Make>
+		<Make name="Апшеронский Агромаш">
+			<Model name="ГП 4.5"></Model>
 		</Make>
 		<Make name="АртХим">
 			<Model name="ДЗ-98 В9М2"></Model>
@@ -1620,6 +1664,7 @@
 			<Model name="ДЗ-98"></Model>
 			<Model name="ДЗ-98В"></Model>
 			<Model name="ДЗ-98В.00010"></Model>
+			<Model name="ДЗ-98В.00100-010"></Model>
 			<Model name="ДЗ-98В.00100-110"></Model>
 			<Model name="ДЗ-98В.00110"></Model>
 			<Model name="ДЗ-98В3-2"></Model>
@@ -1671,6 +1716,9 @@
 			<Model name="AFT350E"></Model>
 			<Model name="AFW 150-2"></Model>
 		</Make>
+		<Make name="BULL">
+			<Model name="AP800"></Model>
+		</Make>
 		<Make name="Baukema">
 			<Model name="S750"></Model>
 		</Make>
@@ -1692,6 +1740,7 @@
 			<Model name="BF 300 P"></Model>
 			<Model name="BF 600 C"></Model>
 			<Model name="BF 600 C-2"></Model>
+			<Model name="BF 600 C-3"></Model>
 			<Model name="BF 600 P-2"></Model>
 			<Model name="BF 691 C HSG"></Model>
 			<Model name="BF 700 C-2"></Model>
@@ -1750,6 +1799,7 @@
 			<Model name="GT-3600"></Model>
 			<Model name="PS-2600"></Model>
 			<Model name="TC-600"></Model>
+			<Model name="СР-2500"></Model>
 		</Make>
 		<Make name="Hanta">
 			<Model name="AF WHS-300"></Model>
@@ -1823,8 +1873,15 @@
 			<Model name="PT250"></Model>
 			<Model name="PT310"></Model>
 		</Make>
+		<Make name="SCMC">
+			<Model name="SUM7200C"></Model>
+		</Make>
 		<Make name="Salsco">
 			<Model name="TP411"></Model>
+		</Make>
+		<Make name="Santu">
+			<Model name="AP-835"></Model>
+			<Model name="AP-935"></Model>
 		</Make>
 		<Make name="Sany">
 			<Model name="SAP130C-10"></Model>
@@ -1833,6 +1890,7 @@
 			<Model name="SAP60C-8CEV"></Model>
 			<Model name="SAP90C-8SEV"></Model>
 			<Model name="SAP90EC"></Model>
+			<Model name="SSP100C-8"></Model>
 			<Model name="SSP130C-10"></Model>
 			<Model name="SSP80C-8SE1"></Model>
 			<Model name="SSP80C-8SE2"></Model>
@@ -1948,6 +2006,7 @@
 			<Model name="RP802"></Model>
 			<Model name="RP803"></Model>
 			<Model name="RP803(C)"></Model>
+			<Model name="RP803Pro"></Model>
 			<Model name="RP902"></Model>
 			<Model name="RP903"></Model>
 			<Model name="RP903(D)"></Model>
@@ -1964,6 +2023,7 @@
 			<Model name="АСФ-К-4-02-01"></Model>
 			<Model name="Асф-Г-08"></Model>
 			<Model name="Асф-К-3-02"></Model>
+			<Model name="ДС-173"></Model>
 			<Model name="ДС-181"></Model>
 		</Make>
 		<Make name="ИРМАШ">
@@ -1980,6 +2040,9 @@
 		</Make>
 		<Make name="ОПЫТНО-ЭКСПЕРИМЕНТАЛЬНЫЙ ЗАВОД">
 			<Model name="СД-404Б"></Model>
+		</Make>
+		<Make name="Псковский тракторный завод">
+			<Model name="ПТЗ-АК"></Model>
 		</Make>
 		<Make name="РАМЗ">
 			<Model name="АСФ-К-03-04"></Model>
@@ -2121,6 +2184,7 @@
 			<Model name="QTZ125 (6015)"></Model>
 			<Model name="QTZ125(H6015A)"></Model>
 			<Model name="QTZ160 (PT7015)"></Model>
+			<Model name="QTZ250 (H7020A)"></Model>
 			<Model name="QTZ63"></Model>
 			<Model name="QTZ80-6010"></Model>
 		</Make>
@@ -2295,6 +2359,7 @@
 			<Model name="QTZ160"></Model>
 			<Model name="QTZ200"></Model>
 			<Model name="QTZ315"></Model>
+			<Model name="QTZ40"></Model>
 			<Model name="QTZ500"></Model>
 			<Model name="QTZ63"></Model>
 			<Model name="QTZ80А"></Model>
@@ -2307,6 +2372,11 @@
 		</Make>
 		<Make name="Indo Farm">
 			<Model name="FTC-4050"></Model>
+		</Make>
+		<Make name="JINNTA">
+			<Model name="C6017PA-8"></Model>
+			<Model name="C6518P-10"></Model>
+			<Model name="C7528P-16"></Model>
 		</Make>
 		<Make name="Jaso">
 			<Model name="J100N"></Model>
@@ -2611,13 +2681,16 @@
 			<Model name="MCT 185 J8"></Model>
 			<Model name="MCT 205"></Model>
 			<Model name="MCT 275 K12"></Model>
+			<Model name="MCT 278 K12"></Model>
 			<Model name="MCT 325 L12"></Model>
 			<Model name="MCT 385"></Model>
 			<Model name="MCT 565 M32"></Model>
 			<Model name="MCT 565M20"></Model>
 			<Model name="MCT 565M25"></Model>
+			<Model name="MD 185B"></Model>
 			<Model name="MD 90 A"></Model>
 			<Model name="MDT 178"></Model>
+			<Model name="MDT 219 J10"></Model>
 			<Model name="MR 160 C"></Model>
 			<Model name="MR 225 A"></Model>
 			<Model name="MR 295 H16"></Model>
@@ -2650,6 +2723,7 @@
 			<Model name="125"></Model>
 			<Model name="160"></Model>
 			<Model name="180"></Model>
+			<Model name="250"></Model>
 			<Model name="40A"></Model>
 			<Model name="63"></Model>
 			<Model name="80(6011)"></Model>
@@ -2682,6 +2756,9 @@
 			<Model name="Raimondi"></Model>
 			<Model name="SRT 80"></Model>
 			<Model name="SRT 85"></Model>
+		</Make>
+		<Make name="Rokra">
+			<Model name="РК 220"></Model>
 		</Make>
 		<Make name="SCM">
 			<Model name="C5013"></Model>
@@ -2983,6 +3060,14 @@
 			<Model name="QTZ80-6010Y-8"></Model>
 			<Model name="WTT-190.10"></Model>
 			<Model name="XGT6013-8S1"></Model>
+			<Model name="XGT6018B-8S1"></Model>
+			<Model name="XGT6515-10"></Model>
+			<Model name="XGT6515-10S"></Model>
+			<Model name="XGT6515L-10"></Model>
+			<Model name="XGT7020-10"></Model>
+			<Model name="XGT7020-10S1"></Model>
+			<Model name="XGT7020-12"></Model>
+			<Model name="XGT7026-12S1"></Model>
 			<Model name="XGT7527A-18S"></Model>
 			<Model name="XGTT200(6022-10)"></Model>
 		</Make>
@@ -3171,6 +3256,9 @@
 			<Model name="WA6017-10E"></Model>
 			<Model name="WA6017-8"></Model>
 			<Model name="WA6515-10"></Model>
+			<Model name="WA7015-10"></Model>
+			<Model name="WA7015-10E"></Model>
+			<Model name="WA7025-12"></Model>
 			<Model name="WA7025-12E"></Model>
 			<Model name="WA7527-16"></Model>
 			<Model name="ZT320-12"></Model>
@@ -3463,6 +3551,11 @@
 		<Make name="Terex">
 			<Model name="CIFALI E100P"></Model>
 		</Make>
+		<Make name="Zoomlion">
+			<Model name="HZC120R"></Model>
+			<Model name="HZS60P"></Model>
+			<Model name="HZS90R"></Model>
+		</Make>
 		<Make name="Лудэ-Каз">
 			<Model name="RD-175X"></Model>
 		</Make>
@@ -3521,6 +3614,9 @@
 		<Make name="Hold">
 			<Model name="HBT60-13-132S"></Model>
 		</Make>
+		<Make name="Kraft">
+			<Model name="719920P"></Model>
+		</Make>
 		<Make name="LiuGong">
 			<Model name="HBT40"></Model>
 			<Model name="HBT60"></Model>
@@ -3557,7 +3653,9 @@
 			<Model name="HBT50C-1413 III"></Model>
 			<Model name="HBT6013C-5S"></Model>
 			<Model name="HBT6016C-5S"></Model>
+			<Model name="HBT60C"></Model>
 			<Model name="HBT8018C-5S"></Model>
+			<Model name="HBT80C"></Model>
 		</Make>
 		<Make name="Schwing">
 			<Model name="BP 3000 HDR-18"></Model>
@@ -3580,6 +3678,7 @@
 		</Make>
 		<Make name="Waitzinger">
 			<Model name="THP60D"></Model>
+			<Model name="THP85D"></Model>
 		</Make>
 		<Make name="Welld">
 			<Model name="ABT80C-16-129R"></Model>
@@ -3589,6 +3688,10 @@
 		</Make>
 		<Make name="Zoomlion">
 			<Model name="HBT 60.13.75ES"></Model>
+			<Model name="HBT 60.13.90SU"></Model>
+			<Model name="HBT 80.16.199RSU"></Model>
+			<Model name="HBT50.10.60RS"></Model>
+			<Model name="HBT60.13.118RSD"></Model>
 			<Model name="HBT60.13.90SB"></Model>
 			<Model name="HBT60.13.90SC"></Model>
 			<Model name="HBT60.16.110SU"></Model>
@@ -3659,8 +3762,13 @@
 			<Model name="KVM 23/20-125"></Model>
 		</Make>
 		<Make name="Zoomlion">
+			<Model name="HGC29A-3R"></Model>
 			<Model name="HGC29D-3R"></Model>
 			<Model name="HGC33D-3R"></Model>
+			<Model name="HGC33А-4Z"></Model>
+			<Model name="HGC36A-4Z"></Model>
+			<Model name="HGM19A-3R"></Model>
+			<Model name="HGM22A-3R"></Model>
 		</Make>
 	</TypeOfVehicle>
 	<TypeOfVehicle name="Битумощебнераспределитель">
@@ -3864,6 +3972,10 @@
 		<Make name="Сморгонский агрегатный завод (САЗ)">
 			<Model name="БК-205Д"></Model>
 		</Make>
+		<Make name="СпецМаш">
+			<Model name="SM19-00"></Model>
+			<Model name="SM19-01"></Model>
+		</Make>
 		<Make name="Строймашкомлпект">
 			<Model name="VECTOR V1210"></Model>
 			<Model name="VECTOR V1211"></Model>
@@ -4047,6 +4159,12 @@
 			<Model name="JK830"></Model>
 			<Model name="JK860"></Model>
 		</Make>
+		<Make name="JSDRILL">
+			<Model name="FYX200 (JS-200)"></Model>
+		</Make>
+		<Make name="Jove">
+			<Model name="JVR285HT"></Model>
+		</Make>
 		<Make name="Junjin">
 			<Model name="CSM SD-1300E"></Model>
 			<Model name="JD-1300E"></Model>
@@ -4109,6 +4227,15 @@
 		<Make name="Klemm">
 			<Model name="KR 806 3D"></Model>
 		</Make>
+		<Make name="Komatsu">
+			<Model name="BA100"></Model>
+		</Make>
+		<Make name="LECHNER">
+			<Model name="CFA 15"></Model>
+		</Make>
+		<Make name="LGMRT">
+			<Model name="SDC130"></Model>
+		</Make>
 		<Make name="Levent">
 			<Model name="RX-4"></Model>
 		</Make>
@@ -4121,6 +4248,7 @@
 		<Make name="LiuGong">
 			<Model name="DH45A-H"></Model>
 			<Model name="DH47A-H"></Model>
+			<Model name="SD15A"></Model>
 		</Make>
 		<Make name="Lutz Kurth">
 			<Model name="KB 30/150"></Model>
@@ -4204,6 +4332,7 @@
 			<Model name="SR280R2"></Model>
 			<Model name="SR285R"></Model>
 			<Model name="SR305R"></Model>
+			<Model name="SR65-C10"></Model>
 		</Make>
 		<Make name="ShinMaywa">
 			<Model name="CH5-13EE"></Model>
@@ -4268,6 +4397,9 @@
 		<Make name="TEI Rock Drills">
 			<Model name="ТD75"></Model>
 		</Make>
+		<Make name="TYSIM">
+			<Model name="KR150C"></Model>
+		</Make>
 		<Make name="Tamrock">
 			<Model name="Commando 300"></Model>
 		</Make>
@@ -4297,11 +4429,13 @@
 			<Model name="SW 190B"></Model>
 		</Make>
 		<Make name="XCMG">
+			<Model name="XQZ178"></Model>
 			<Model name="XR130E"></Model>
 			<Model name="XR130E CFA"></Model>
 			<Model name="XR150D"></Model>
 			<Model name="XR160E"></Model>
 			<Model name="XR160E CFA"></Model>
+			<Model name="XR168E"></Model>
 			<Model name="XR180DII"></Model>
 			<Model name="XR200E"></Model>
 			<Model name="XR220D"></Model>
@@ -4315,6 +4449,9 @@
 		</Make>
 		<Make name="Yuchai">
 			<Model name="YCR160D"></Model>
+		</Make>
+		<Make name="ZEGA">
+			<Model name="D450A"></Model>
 		</Make>
 		<Make name="ZHIGAO">
 			<Model name="ZGYX-520"></Model>
@@ -4472,6 +4609,9 @@
 			<Model name="УРБ-2,5"></Model>
 			<Model name="УРБ-2А2"></Model>
 		</Make>
+		<Make name="Завод Буровой Техники">
+			<Model name="2588"></Model>
+		</Make>
 		<Make name="Завод Буровых Технологий">
 			<Model name="МБУ-250.ZBT"></Model>
 			<Model name="УРБ-12.ZBT"></Model>
@@ -4486,6 +4626,9 @@
 			<Model name="ЛБУ-50-10"></Model>
 			<Model name="УРБ 2А2"></Model>
 		</Make>
+		<Make name="КЗНО">
+			<Model name="БМП-045.12.04.09"></Model>
+		</Make>
 		<Make name="КроссГео">
 			<Model name="Вектор ВР-3.200"></Model>
 		</Make>
@@ -4496,6 +4639,7 @@
 			<Model name="Идель-80"></Model>
 			<Model name="МБУ-125"></Model>
 			<Model name="УРБ-ЗАЗ.02"></Model>
+			<Model name="УРБ-ЗАЗ.13"></Model>
 		</Make>
 		<Make name="Курганавторемонт">
 			<Model name="УБГМ-1М"></Model>
@@ -4513,7 +4657,9 @@
 		</Make>
 		<Make name="МОЗБТ">
 			<Model name="М4"></Model>
+			<Model name="УБШМ 1-13М"></Model>
 			<Model name="УРБ"></Model>
+			<Model name="УРБ 4Т"></Model>
 		</Make>
 		<Make name="МРМЗ">
 			<Model name="БКМА-1,0/3,5-01"></Model>
@@ -4870,6 +5016,7 @@
 			<Model name="ДС-138Б-01"></Model>
 			<Model name="ДС-142Б (шасси КАМАЗ-65115 6х4)"></Model>
 			<Model name="ДС-39Г2"></Model>
+			<Model name="ДС-39К"></Model>
 			<Model name="ДС-43253"></Model>
 		</Make>
 		<Make name="Кургандормаш">
@@ -4920,6 +5067,29 @@
 			<Model name="АГ-9К"></Model>
 			<Model name="АГ-9Ш"></Model>
 		</Make>
+		<Make name="ООО «КОРМЗ»">
+			<Model name="ТМ-1,0Г"></Model>
+			<Model name="ТМ-1,0ГП"></Model>
+			<Model name="ТМ-1,0ГПС"></Model>
+			<Model name="ТМ-1,5Г"></Model>
+			<Model name="ТМ-1,5ГП"></Model>
+			<Model name="ТМ-10,0Г"></Model>
+			<Model name="ТМ-2,5Г"></Model>
+			<Model name="ТМ-2,5ГП"></Model>
+			<Model name="ТМ-3,0Г"></Model>
+			<Model name="ТМ-3,0ГП"></Model>
+			<Model name="ТМ-3,5Г"></Model>
+			<Model name="ТМ-3,5ГП"></Model>
+			<Model name="ТМ-3,5ГПС"></Model>
+			<Model name="ТМ-4,0Г"></Model>
+			<Model name="ТМ-4,0ГП"></Model>
+			<Model name="ТМ-5,0Г"></Model>
+			<Model name="ТМ-5,0ГП"></Model>
+			<Model name="ТМ-6,0Г"></Model>
+			<Model name="ТМ-7,0Г"></Model>
+			<Model name="ТМ-8,0Г"></Model>
+			<Model name="ТМ-9,0Г"></Model>
+		</Make>
 		<Make name="ПКФ СпецДорМаш">
 			<Model name="СДМ.АГ-6"></Model>
 		</Make>
@@ -4927,6 +5097,7 @@
 			<Model name="АБ 10.0 (65115)"></Model>
 			<Model name="АБ 10.0 (6520)"></Model>
 			<Model name="АБ 5"></Model>
+			<Model name="АБ 5.0 (4308)"></Model>
 			<Model name="АБ 6.0 (43253)"></Model>
 			<Model name="АБ 6.0 (5325)"></Model>
 			<Model name="АБ 6.0 (53605)"></Model>
@@ -4938,6 +5109,7 @@
 			<Model name="СТ 3.0 ГС"></Model>
 			<Model name="СТ 3.5"></Model>
 			<Model name="СТ 4.0 Г (ГАЗ NEXT)"></Model>
+			<Model name="СТ 5.0 Г"></Model>
 			<Model name="СТ 6.0 ГС"></Model>
 			<Model name="СТ 8.0 ГС"></Model>
 		</Make>
@@ -5049,6 +5221,9 @@
 			<Model name="QUY750"></Model>
 			<Model name="QUY80A"></Model>
 		</Make>
+		<Make name="HengWang">
+			<Model name="HW-300"></Model>
+		</Make>
 		<Make name="Hitachi">
 			<Model name="CX700"></Model>
 			<Model name="EX60LCT-3"></Model>
@@ -5122,6 +5297,7 @@
 			<Model name="BM800HD-2F"></Model>
 			<Model name="BM900HD-2F"></Model>
 			<Model name="BME800HD"></Model>
+			<Model name="CK90UR"></Model>
 			<Model name="CKE1100"></Model>
 			<Model name="CKE1350-1F"></Model>
 			<Model name="CKE1800-1F"></Model>
@@ -5214,6 +5390,9 @@
 			<Model name="LC1385M-8B(F)"></Model>
 			<Model name="LC383M-5(F)"></Model>
 			<Model name="LC785M-6B(F)"></Model>
+			<Model name="MC-235C"></Model>
+			<Model name="MC-264HC"></Model>
+			<Model name="MC-355"></Model>
 			<Model name="MC205C"></Model>
 			<Model name="MC283CFRMS"></Model>
 			<Model name="MC285"></Model>
@@ -5464,6 +5643,7 @@
 			<Model name="ZCC550H"></Model>
 			<Model name="ZCC750H-127Y"></Model>
 			<Model name="ZCT550"></Model>
+			<Model name="ZCT900V"></Model>
 		</Make>
 		<Make name="Алтайлесмаш">
 			<Model name="МТЧ-4"></Model>
@@ -5585,6 +5765,9 @@
 		</Make>
 	</TypeOfVehicle>
 	<TypeOfVehicle name="Дорожная фреза">
+		<Make name="BULL">
+			<Model name="AMC-2000"></Model>
+		</Make>
 		<Make name="Bitelli">
 			<Model name="SF102CR"></Model>
 			<Model name="SF200"></Model>
@@ -5635,6 +5818,9 @@
 		<Make name="Runmax">
 			<Model name="RM 2000"></Model>
 		</Make>
+		<Make name="Santu">
+			<Model name="AMC2000"></Model>
+		</Make>
 		<Make name="Sany">
 			<Model name="SCM1000C-8"></Model>
 			<Model name="SCM2000C-8"></Model>
@@ -5666,6 +5852,7 @@
 			<Model name="W 135 F"></Model>
 			<Model name="W 150 F"></Model>
 			<Model name="W 1500 DC"></Model>
+			<Model name="W 1900"></Model>
 			<Model name="W 200"></Model>
 			<Model name="W 200 F"></Model>
 			<Model name="W 200 Fi"></Model>
@@ -5797,6 +5984,7 @@
 		</Make>
 		<Make name="Atlas Copco">
 			<Model name="LP 6200"></Model>
+			<Model name="LP 8504"></Model>
 		</Make>
 		<Make name="BELLE">
 			<Model name="TDX 650"></Model>
@@ -5807,7 +5995,18 @@
 			<Model name="ST3.0"></Model>
 			<Model name="ST3.5"></Model>
 		</Make>
+		<Make name="BULL">
+			<Model name="KD130"></Model>
+			<Model name="KP160"></Model>
+			<Model name="KP200"></Model>
+			<Model name="KS140"></Model>
+			<Model name="KS175"></Model>
+			<Model name="KS200"></Model>
+			<Model name="KS220"></Model>
+			<Model name="KS260"></Model>
+		</Make>
 		<Make name="Baukema">
+			<Model name="K-12"></Model>
 			<Model name="Т-12"></Model>
 		</Make>
 		<Make name="Beezone">
@@ -5948,6 +6147,7 @@
 			<Model name="BW 27 RH"></Model>
 			<Model name="BW 28 RH"></Model>
 			<Model name="BW 55 E"></Model>
+			<Model name="BW 80 AD-2"></Model>
 			<Model name="BW 80 AD-5"></Model>
 			<Model name="BW 90 AC-5"></Model>
 			<Model name="BW 90 AD-5"></Model>
@@ -5984,6 +6184,7 @@
 			<Model name="CS74"></Model>
 			<Model name="CS74B"></Model>
 			<Model name="CS76 XT"></Model>
+			<Model name="CW34"></Model>
 			<Model name="PS150C"></Model>
 			<Model name="PS300C"></Model>
 		</Make>
@@ -6000,6 +6201,7 @@
 			<Model name="CA280D"></Model>
 			<Model name="CA302D"></Model>
 			<Model name="CA302PD"></Model>
+			<Model name="CA3500D"></Model>
 			<Model name="CA5000D"></Model>
 			<Model name="CA512D"></Model>
 			<Model name="CC102"></Model>
@@ -6145,12 +6347,27 @@
 			<Model name="Vibromax VM 116D"></Model>
 			<Model name="Vibromax VM 132D"></Model>
 			<Model name="Vibromax VM 146D"></Model>
+			<Model name="Vibromax VM 146D-T3"></Model>
 			<Model name="Vibromax VM 200D"></Model>
 			<Model name="Vibromax VM166D"></Model>
 			<Model name="Vibromax VMT 280"></Model>
 			<Model name="Vibromax VMT 850"></Model>
 			<Model name="Vibromax VMT 860"></Model>
 			<Model name="Vibromax W 465"></Model>
+		</Make>
+		<Make name="JUNMA">
+			<Model name="FN203H3"></Model>
+			<Model name="FN208H8"></Model>
+			<Model name="FN210H10"></Model>
+			<Model name="FN614H14"></Model>
+			<Model name="FN614HP14"></Model>
+			<Model name="FN616H16"></Model>
+			<Model name="FN616HP16"></Model>
+			<Model name="FN803H3"></Model>
+			<Model name="FN808H8"></Model>
+			<Model name="FN810H10"></Model>
+			<Model name="FN812H12"></Model>
+			<Model name="FN814H14"></Model>
 		</Make>
 		<Make name="Kauf">
 			<Model name="К854-2"></Model>
@@ -6395,6 +6612,7 @@
 			<Model name="RV 65E"></Model>
 		</Make>
 		<Make name="RAMMAX">
+			<Model name="1515"></Model>
 			<Model name="RW 1504 HF"></Model>
 		</Make>
 		<Make name="Ramer">
@@ -6430,6 +6648,7 @@
 			<Model name="SW230"></Model>
 			<Model name="SW250"></Model>
 			<Model name="SW330"></Model>
+			<Model name="SW352"></Model>
 			<Model name="SW502"></Model>
 			<Model name="SW850"></Model>
 			<Model name="SW900"></Model>
@@ -6476,6 +6695,7 @@
 			<Model name="GRW 101"></Model>
 			<Model name="VP 200"></Model>
 			<Model name="VV 1500 D"></Model>
+			<Model name="VV700D"></Model>
 			<Model name="VV900D"></Model>
 		</Make>
 		<Make name="Sany">
@@ -6491,6 +6711,7 @@
 			<Model name="SSR150C-8"></Model>
 			<Model name="SSR160C-8"></Model>
 			<Model name="SSR180C-8"></Model>
+			<Model name="SSR200"></Model>
 			<Model name="SSR200C-10W3"></Model>
 			<Model name="SSR200C-8H"></Model>
 			<Model name="SSR220C-8H"></Model>
@@ -6520,6 +6741,7 @@
 			<Model name="SR20MP"></Model>
 			<Model name="SR20MPA"></Model>
 			<Model name="SR20P"></Model>
+			<Model name="SR22-C5"></Model>
 			<Model name="SRD016W"></Model>
 			<Model name="SRD017"></Model>
 			<Model name="SRD03"></Model>
@@ -6595,7 +6817,28 @@
 			<Model name="VRDR-1000"></Model>
 			<Model name="VRDR-2000"></Model>
 			<Model name="VRDR-3000"></Model>
+			<Model name="VRDR-3000C"></Model>
 			<Model name="VRDR-3000D"></Model>
+			<Model name="VRDR-4000"></Model>
+			<Model name="VRDR-4000C"></Model>
+			<Model name="VRDR-5000"></Model>
+			<Model name="VRDR-5000C"></Model>
+			<Model name="VRDR-6000"></Model>
+			<Model name="VRDR-6000C"></Model>
+			<Model name="VRDR-800"></Model>
+			<Model name="VRDT-10H"></Model>
+			<Model name="VRDT-10М"></Model>
+			<Model name="VRDT-12H"></Model>
+			<Model name="VRDT-12М"></Model>
+			<Model name="VRDT-14М"></Model>
+			<Model name="VRDT-16М"></Model>
+			<Model name="VRDT-18М"></Model>
+			<Model name="VRDT-20М"></Model>
+			<Model name="VRDT-3,5М"></Model>
+			<Model name="VRDT-4М"></Model>
+			<Model name="VRDT-6М"></Model>
+			<Model name="VRDT-8H"></Model>
+			<Model name="VRDT-8М"></Model>
 		</Make>
 		<Make name="Vibromax">
 			<Model name="W-1402D"></Model>
@@ -6750,6 +6993,7 @@
 			<Model name="XG626MH"></Model>
 			<Model name="XG6303P"></Model>
 			<Model name="XG66011D"></Model>
+			<Model name="XS143J"></Model>
 		</Make>
 		<Make name="YTO">
 			<Model name="LDD208H"></Model>
@@ -6783,6 +7027,9 @@
 			<Model name="КДВР-300"></Model>
 			<Model name="КДВР-500"></Model>
 		</Make>
+		<Make name="ЗАО КАТОК">
+			<Model name="ДУ-12КТ"></Model>
+		</Make>
 		<Make name="ЗСДТ">
 			<Model name="ТВ-25"></Model>
 		</Make>
@@ -6812,6 +7059,7 @@
 			<Model name="DM-7.7-VC"></Model>
 			<Model name="DM-7.7-VD"></Model>
 			<Model name="ZDM-10-VD"></Model>
+			<Model name="ZDM-7.7-VD"></Model>
 			<Model name="ДУ-108-1"></Model>
 			<Model name="ДУ-63.ДМ"></Model>
 			<Model name="ДУ-85ДМ"></Model>
@@ -6830,6 +7078,9 @@
 		</Make>
 		<Make name="Орелстроймаш">
 			<Model name="СД-802"></Model>
+		</Make>
+		<Make name="Псковский тракторный завод">
+			<Model name="ПТЗ-КТ"></Model>
 		</Make>
 		<Make name="РАМЗ">
 			<Model name="ДУ-95-2"></Model>
@@ -6857,6 +7108,7 @@
 			<Model name="RV-9,0 DD"></Model>
 			<Model name="RV-9,0 DS"></Model>
 			<Model name="ДУ-100"></Model>
+			<Model name="ДУ-101"></Model>
 			<Model name="ДУ-107"></Model>
 			<Model name="ДУ-111"></Model>
 			<Model name="ДУ-37В"></Model>
@@ -6869,6 +7121,7 @@
 			<Model name="ДУ-54А"></Model>
 			<Model name="ДУ-54В"></Model>
 			<Model name="ДУ-55ДМ"></Model>
+			<Model name="ДУ-57"></Model>
 			<Model name="ДУ-58А"></Model>
 			<Model name="ДУ-62"></Model>
 			<Model name="ДУ-62ДМ"></Model>
@@ -7188,6 +7441,7 @@
 			<Model name="MS 952 EVO"></Model>
 		</Make>
 		<Make name="Komatsu">
+			<Model name="BR100JG"></Model>
 			<Model name="BR200-1"></Model>
 			<Model name="BR200J"></Model>
 			<Model name="BR380JG-1"></Model>
@@ -7373,6 +7627,7 @@
 		<Make name="Resta">
 			<Model name="CH 3 1100x750"></Model>
 			<Model name="OH3 1050x1000"></Model>
+			<Model name="VH1 2100"></Model>
 		</Make>
 		<Make name="Rockster">
 			<Model name="Delta RSS 515"></Model>
@@ -7479,6 +7734,7 @@
 			<Model name="800i"></Model>
 			<Model name="MK10570"></Model>
 			<Model name="TS1550"></Model>
+			<Model name="TS2360"></Model>
 			<Model name="TS3600"></Model>
 		</Make>
 		<Make name="Trackstack">
@@ -7887,6 +8143,9 @@
 		</Make>
 		<Make name="HYSOON">
 			<Model name="H-350"></Model>
+		</Make>
+		<Make name="Hightop">
+			<Model name="HT500Y-4"></Model>
 		</Make>
 		<Make name="Hitachi">
 			<Model name="CG 45 C"></Model>
@@ -8324,6 +8583,16 @@
 			<Model name="ЗШ1ПМ"></Model>
 			<Model name="ЗШ1ПМА"></Model>
 		</Make>
+		<Make name="ООО «КОРМЗ»">
+			<Model name="ТМ-0,5БЗ"></Model>
+			<Model name="ТМ-0,5БЗП"></Model>
+			<Model name="ТМ-1,0БЗ"></Model>
+			<Model name="ТМ-1,0БЗП"></Model>
+			<Model name="ТМ-1,5БЗ"></Model>
+			<Model name="ТМ-1,5БЗП"></Model>
+			<Model name="ТМ-2,0БЗ"></Model>
+			<Model name="ТМ-2,0БЗП"></Model>
+		</Make>
 		<Make name="ПО СпецТехника">
 			<Model name="Автономный заливщик швов"></Model>
 		</Make>
@@ -8651,6 +8920,7 @@
 		</Make>
 		<Make name="СКЗ">
 			<Model name="Козловой кран"></Model>
+			<Model name="ЛТ62-М"></Model>
 		</Make>
 		<Make name="СТРОЙМАШ">
 			<Model name="КК-К-20"></Model>
@@ -8753,6 +9023,9 @@
 		</Make>
 		<Make name="ЗИЛ">
 			<Model name="ЭД-105.1А"></Model>
+		</Make>
+		<Make name="Коминвест-АКМТ">
+			<Model name="ЭД-205П"></Model>
 		</Make>
 		<Make name="МашКомДорсервис">
 			<Model name="Тайфун"></Model>
@@ -9338,6 +9611,9 @@
 			<Model name="E2850"></Model>
 			<Model name="Weiler E2850B"></Model>
 		</Make>
+		<Make name="Псковский тракторный завод">
+			<Model name="ПАС"></Model>
+		</Make>
 	</TypeOfVehicle>
 	<TypeOfVehicle name="Поливооросительная">
 		<Make name="Sany">
@@ -9416,6 +9692,9 @@
 		<Make name="МЕТЕМ">
 			<Model name="ПСГ-500"></Model>
 		</Make>
+		<Make name="Псковский тракторный завод">
+			<Model name="ПНП"></Model>
+		</Make>
 		<Make name="Строймаш-центр">
 			<Model name="БН-40"></Model>
 		</Make>
@@ -9453,6 +9732,9 @@
 		</Make>
 		<Make name="RoLLex">
 			<Model name="RCA-1200"></Model>
+		</Make>
+		<Make name="Santu">
+			<Model name="R2400"></Model>
 		</Make>
 		<Make name="Stehr">
 			<Model name="SBS 3000"></Model>
@@ -9495,6 +9777,12 @@
 		</Make>
 		<Make name="ДТС">
 			<Model name="ОРС 44"></Model>
+		</Make>
+		<Make name="ООО «КОРМЗ»">
+			<Model name="ТМ-2,5РЦА"></Model>
+			<Model name="ТМ-2,5РЦАП"></Model>
+			<Model name="ТМ-3,5РЦА"></Model>
+			<Model name="ТМ-3,5РЦАП"></Model>
 		</Make>
 	</TypeOfVehicle>
 	<TypeOfVehicle name="Сваебойная установка">
@@ -9559,6 +9847,9 @@
 			<Model name="Joy 05"></Model>
 			<Model name="Joy 1"></Model>
 		</Make>
+		<Make name="HengWang">
+			<Model name="HWL500R"></Model>
+		</Make>
 		<Make name="Hitachi">
 			<Model name="PD 100"></Model>
 			<Model name="TH 55"></Model>
@@ -9582,6 +9873,7 @@
 		</Make>
 		<Make name="IHI">
 			<Model name="IPD-20T-U4"></Model>
+			<Model name="IPD-30T-U3"></Model>
 		</Make>
 		<Make name="IMT">
 			<Model name="AF300"></Model>
@@ -9597,6 +9889,7 @@
 			<Model name="ZJB90"></Model>
 		</Make>
 		<Make name="Jove">
+			<Model name="JVUR50"></Model>
 			<Model name="JVY120ZJ"></Model>
 			<Model name="JVY128A"></Model>
 			<Model name="JVY208A"></Model>
@@ -9781,6 +10074,9 @@
 			<Model name="40 PR"></Model>
 			<Model name="50 PR"></Model>
 			<Model name="90 PR"></Model>
+		</Make>
+		<Make name="Yeni Balkan Makina">
+			<Model name="YBM 1000"></Model>
 		</Make>
 		<Make name="Yongan">
 			<Model name="YC-21"></Model>
@@ -9977,6 +10273,7 @@
 		<Make name="Vermeer">
 			<Model name="7550"></Model>
 			<Model name="RT 200"></Model>
+			<Model name="RTX 250"></Model>
 			<Model name="T-955A"></Model>
 		</Make>
 		<Make name="МТЗ">
@@ -10252,6 +10549,7 @@
 			<Model name="H77 Comfort"></Model>
 		</Make>
 		<Make name="Probst">
+			<Model name="JUMBO-BV-VARIO"></Model>
 			<Model name="VM 301-K-Pawermax"></Model>
 		</Make>
 	</TypeOfVehicle>
@@ -10262,6 +10560,12 @@
 			<Model name="DD-6"></Model>
 			<Model name="DD-65"></Model>
 			<Model name="DD-9014"></Model>
+		</Make>
+		<Make name="DDR">
+			<Model name="360/550-L"></Model>
+		</Make>
+		<Make name="DDW">
+			<Model name="360/130"></Model>
 		</Make>
 		<Make name="DW/TXS">
 			<Model name="DDW-06/03"></Model>
@@ -10350,6 +10654,8 @@
 			<Model name="GD600-L"></Model>
 			<Model name="GD800-L"></Model>
 			<Model name="GD900-L"></Model>
+			<Model name="GS150B-LS"></Model>
+			<Model name="GS2200-LS"></Model>
 			<Model name="GS420-LS"></Model>
 			<Model name="GS700-LS"></Model>
 		</Make>
@@ -10398,11 +10704,14 @@
 		</Make>
 		<Make name="MDRILLING">
 			<Model name="MT13x3"></Model>
+			<Model name="MT140x40"></Model>
+			<Model name="MT180x50"></Model>
 			<Model name="MT23x7"></Model>
 			<Model name="MT36x14"></Model>
 			<Model name="MT43X19"></Model>
 			<Model name="MT72x14"></Model>
 			<Model name="MT96x27"></Model>
+			<Model name="MT97x35"></Model>
 		</Make>
 		<Make name="PRIDE">
 			<Model name="P20 PIT"></Model>
@@ -10414,6 +10723,9 @@
 		</Make>
 		<Make name="Robbins">
 			<Model name="4510 TMSC"></Model>
+		</Make>
+		<Make name="Runline">
+			<Model name="RLD360AJ"></Model>
 		</Make>
 		<Make name="Sany">
 			<Model name="SD800"></Model>
@@ -10470,6 +10782,7 @@
 		<Make name="XCMG">
 			<Model name="XZ1000"></Model>
 			<Model name="XZ120E"></Model>
+			<Model name="XZ130F"></Model>
 			<Model name="XZ1350"></Model>
 			<Model name="XZ1500"></Model>
 			<Model name="XZ160A"></Model>
@@ -10488,6 +10801,7 @@
 			<Model name="XZ450 Plus"></Model>
 			<Model name="XZ500"></Model>
 			<Model name="XZ680"></Model>
+			<Model name="XZ720E"></Model>
 			<Model name="XZ960E"></Model>
 		</Make>
 		<Make name="ZLCONN">

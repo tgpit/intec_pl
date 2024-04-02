@@ -44,11 +44,9 @@ class EquipmentForBusiness implements Category, CategoryLevel
 				self::getLocale('LOGISTICS_WAREHOUSE') => [
                     'dictionary' => new Dictionary\XmlTree('forbusiness/equipmentforbusiness/logistics.xml'),
                 ],
-				self::getLocale('FOR_THE_STORE') => [
-					'dictionary' => new Dictionary\XmlTree('forbusiness/equipmentforbusiness/for_the_store.xml'),
-				],
-				self::getLocale('FOR_RESTAURANT') => [
-					'dictionary' => new Dictionary\XmlTree('forbusiness/equipmentforbusiness/for_restaurant.xml'),
+				self::getLocale('FOOD') => [
+					'dictionary' => new Dictionary\XmlTree('forbusiness/equipmentforbusiness/food.xml'),
+					'oldNames' => self::getLocale('FOR_RESTAURANT'),
 				],
 				self::getLocale('FOR_BEAUTY_SALON') => [
 					'dictionary' => new Dictionary\XmlTree('forbusiness/equipmentforbusiness/for_beauty_salon.xml'),
@@ -56,14 +54,8 @@ class EquipmentForBusiness implements Category, CategoryLevel
 				self::getLocale('FOR_CAR_BUSINESS') => [
                     'dictionary' => new Dictionary\XmlTree('forbusiness/equipmentforbusiness/for_car_business.xml'),
                 ],
-				self::getLocale('CASH_MANAGEMENT'),
-				self::getLocale('ADVERTISING'),
-				self::getLocale('ENTERTAINMENT'),
-				self::getLocale('RECEPTIONS_AND_OFFICE_FURNITURE') => [
-					'oldNames' => self::getLocale('RECEPTIONS_AND_OFFICE_FURNITURE_OLD_NAMES')
-				],
+
 				self::getLocale('MINING'),
-				self::getLocale('KIOSKS_AND_MOBILE_FACILITIES'),
 				self::getLocale('LABORATORY') => [
 					'dictionary' => new Dictionary\XmlTree('forbusiness/equipmentforbusiness/laboratory.xml'),
 				],
@@ -71,6 +63,9 @@ class EquipmentForBusiness implements Category, CategoryLevel
 					'dictionary' => new Dictionary\XmlTree('forbusiness/equipmentforbusiness/medical.xml'),
 				],
 				self::getLocale('TELECOMMUNICATION'),
+				'Trade' => [
+					'dictionary' => new Dictionary\XmlTree('forbusiness/equipmentforbusiness/trade.xml'),
+				],
 				self::getLocale('OTHER'),
 			]);
 		});

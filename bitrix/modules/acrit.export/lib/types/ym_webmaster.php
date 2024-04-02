@@ -329,12 +329,9 @@ $profileTypes["ym_webmaster"]["ITEMS_FORMAT"] = "
     <barcode>#BARCODE#</barcode>
     <cpa>#CPA#</cpa>
     <rec>#REC#</rec>
-    <sets>4</sets>
-    <set-ids>1</set-ids>
-    <setids>2</setids>
     <expiry>#EXPIRY#</expiry>
     <weight>#WEIGHT#</weight>
     <dimensions>#DIMENSIONS#</dimensions>
-    <set-ids>#PARAM#</set-ids>
+    <param name=\"\">#PARAM#</param>
 </offer>
 ";

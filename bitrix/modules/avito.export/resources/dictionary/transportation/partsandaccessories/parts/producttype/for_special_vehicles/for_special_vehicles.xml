@@ -21,59 +21,59 @@
 		<TechnicSparePartType name="Навесное оборудование"></TechnicSparePartType>
 		<TechnicSparePartType name="Топливная система"></TechnicSparePartType>
 		<TechnicSparePartType name="Система смазки"></TechnicSparePartType>
-		<TechnicSparePartType name="Система охлаждения"></TechnicSparePartType>
-		<TechnicSparePartType name="Системы впуска и выпуска"></TechnicSparePartType>
+		<TechnicSparePartType name="Система охлаждения ДВС"></TechnicSparePartType>
+		<TechnicSparePartType name="Система впуска"></TechnicSparePartType>
 	</SparePartType>
 	<SparePartType name="Трансмиссия">
 		<TechnicSparePartType name="КПП в сборе"></TechnicSparePartType>
-		<TechnicSparePartType name="КПП в разборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Детали КПП"></TechnicSparePartType>
 		<TechnicSparePartType name="Сцепление"></TechnicSparePartType>
 		<TechnicSparePartType name="Механизмы отбора мощности"></TechnicSparePartType>
-		<TechnicSparePartType name="Карданные валы"></TechnicSparePartType>
-		<TechnicSparePartType name="Редукторы и комплектующие"></TechnicSparePartType>
+		<TechnicSparePartType name="Карданный вал, привод и полуось"></TechnicSparePartType>
+		<TechnicSparePartType name="Редуктор, муфта и дифференциалы"></TechnicSparePartType>
 	</SparePartType>
-	<SparePartType name="Подвеска">
-		<TechnicSparePartType name="Рулевое управление"></TechnicSparePartType>
-		<TechnicSparePartType name="Балки в сборе"></TechnicSparePartType>
-		<TechnicSparePartType name="Балки в разборе"></TechnicSparePartType>
-		<TechnicSparePartType name="Мосты в сборе"></TechnicSparePartType>
-		<TechnicSparePartType name="Мосты в разборе"></TechnicSparePartType>
+	<SparePartType name="Подвеска и рулевое управление">
+		<TechnicSparePartType name="Рулевые рейки и усилители"></TechnicSparePartType>
+		<TechnicSparePartType name="Рычаги и шаровые опоры"></TechnicSparePartType>
+		<TechnicSparePartType name="Пальцы и шкворни"></TechnicSparePartType>
 		<TechnicSparePartType name="Амортизаторы и пружины"></TechnicSparePartType>
 		<TechnicSparePartType name="Рессоры и листы"></TechnicSparePartType>
-		<TechnicSparePartType name="Балансиры, буксы"></TechnicSparePartType>
+		<TechnicSparePartType name="Балки, стабилизаторы и балансиры"></TechnicSparePartType>
+		<TechnicSparePartType name="Балки в сборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Балки в разборе"></TechnicSparePartType>
 		<TechnicSparePartType name="Тормозная система"></TechnicSparePartType>
-		<TechnicSparePartType name="Пальцы, втулки, наконечники"></TechnicSparePartType>
-		<TechnicSparePartType name="Рычаги и шаровые опоры"></TechnicSparePartType>
+		<TechnicSparePartType name="Мосты в сборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Мосты в разборе"></TechnicSparePartType>
 	</SparePartType>
 	<SparePartType name="Кабина">
 		<TechnicSparePartType name="Кабины в сборе"></TechnicSparePartType>
+		<TechnicSparePartType name="Окна и стёкла"></TechnicSparePartType>
+		<TechnicSparePartType name="Внешние элементы кабины"></TechnicSparePartType>
 		<TechnicSparePartType name="Кабины в разборе"></TechnicSparePartType>
-		<TechnicSparePartType name="Экстерьер"></TechnicSparePartType>
 		<TechnicSparePartType name="Рамы и детали рам"></TechnicSparePartType>
-		<TechnicSparePartType name="Стекла"></TechnicSparePartType>
 	</SparePartType>
-	<SparePartType name="Будки, платформы, кузова"></SparePartType>
-	<SparePartType name="Автоэлектрика и автосвет">
-		<TechnicSparePartType name="Аккумуляторы"></TechnicSparePartType>
-		<TechnicSparePartType name="Автосвет"></TechnicSparePartType>
-		<TechnicSparePartType name="Контроллеры, реле, датчики"></TechnicSparePartType>
-		<TechnicSparePartType name="Блоки управления"></TechnicSparePartType>
+	<SparePartType name="Рамы, кузова и надстройки"></SparePartType>
+	<SparePartType name="Электроника и свет">
+		<TechnicSparePartType name="Фонари и фары"></TechnicSparePartType>
+		<TechnicSparePartType name="Электронные блоки управления"></TechnicSparePartType>
 		<TechnicSparePartType name="Электропроводка"></TechnicSparePartType>
+		<TechnicSparePartType name="Контроллеры, реле и датчики"></TechnicSparePartType>
+		<TechnicSparePartType name="Аккумуляторы"></TechnicSparePartType>
 	</SparePartType>
 	<SparePartType name="Гидравлические и пневмосистемы">
 		<TechnicSparePartType name="Пневматика тормозной системы"></TechnicSparePartType>
 		<TechnicSparePartType name="Пневматика сцепления"></TechnicSparePartType>
 		<TechnicSparePartType name="Пневмоподвеска"></TechnicSparePartType>
-		<TechnicSparePartType name="Шланги, трубки, патрубки"></TechnicSparePartType>
-		<TechnicSparePartType name="Компрессоры"></TechnicSparePartType>
 		<TechnicSparePartType name="Ресиверы, воздухоподготовка"></TechnicSparePartType>
-		<TechnicSparePartType name="Расширительные бачки"></TechnicSparePartType>
-		<TechnicSparePartType name="Система подъёма кузова"></TechnicSparePartType>
-		<TechnicSparePartType name="Гидромоторы"></TechnicSparePartType>
-		<TechnicSparePartType name="Гидрорули"></TechnicSparePartType>
+		<TechnicSparePartType name="Компрессоры"></TechnicSparePartType>
+		<TechnicSparePartType name="Шланги, трубки, патрубки"></TechnicSparePartType>
 		<TechnicSparePartType name="Гидронасосы"></TechnicSparePartType>
-		<TechnicSparePartType name="Гидрораспределители"></TechnicSparePartType>
+		<TechnicSparePartType name="Гидрорули"></TechnicSparePartType>
+		<TechnicSparePartType name="Гидромоторы"></TechnicSparePartType>
 		<TechnicSparePartType name="Гидроцилиндры"></TechnicSparePartType>
+		<TechnicSparePartType name="Система подъёма кузова"></TechnicSparePartType>
+		<TechnicSparePartType name="Расширительные бачки"></TechnicSparePartType>
+		<TechnicSparePartType name="Гидрораспределители"></TechnicSparePartType>
 	</SparePartType>
 	<SparePartType name="Навесное оборудование в разборе"></SparePartType>
 	<OEM variable="group_symbols"></OEM>
@@ -82,4 +82,6 @@
 		<OriginalOEM variable="group_symbol"></OriginalOEM>
 	</Originality>
 	<Originality name="Не знаю"></Originality>
+	<Availability name="В наличии"></Availability>
+	<Availability name="Под заказ"></Availability>
 </ProductType>

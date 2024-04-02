@@ -51,6 +51,9 @@ class CustomExcelGeneral extends CustomExcel {
 	protected $bEditableColumns = true;
 	protected $bAdditionalSettings = true;
 	protected $bUtm = true;
+
+	protected $bAllowSendToEmail = true;
+	protected $strSendToEmailFileZipKey = 'EXCEL_FILE_URL_ZIP';
 	
 	/**
 	 * Base constructor.

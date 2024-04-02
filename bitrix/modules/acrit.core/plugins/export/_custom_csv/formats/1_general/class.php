@@ -34,6 +34,9 @@ class CustomCsvGeneral extends CustomCsv {
 	
 	protected $arSeparators;
 	protected $arLineTypes;
+
+	protected $bAllowSendToEmail = true;
+	protected $strSendToEmailFileZipKey = 'CSV_FILE_URL_ZIP';
 	
 	/**
 	 * Base constructor.

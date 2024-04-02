@@ -199,6 +199,11 @@ class Order
 		]);
 	}
 
+	public function fillXmlId(string $xmlId) : Main\Result
+	{
+		return $this->saleOrder->setField('XML_ID', OrderRegistry::XML_ID_PREFIX . $xmlId);
+	}
+
 	public function tradingParameter(string $key)
 	{
 		$parameters = $this->tradingParameters();

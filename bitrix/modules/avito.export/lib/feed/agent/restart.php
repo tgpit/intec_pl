@@ -1,6 +1,7 @@
 <?php
 namespace Avito\Export\Feed\Agent;
 
+use Avito\Export\Feed;
 use Avito\Export\Watcher;
 
 class Restart extends Watcher\Agent\Refresh
@@ -9,7 +10,7 @@ class Restart extends Watcher\Agent\Refresh
     {
         $processor = Watcher\Agent\Factory::makeProcessor('restart', $setupType, $setupId);
 
-        return $processor->run(Watcher\Engine\Controller::ACTION_FULL, [
+        return $processor->run(Feed\Engine\Controller::ACTION_RESTART, [
             'USE_TMP' => true,
         ]);
     }

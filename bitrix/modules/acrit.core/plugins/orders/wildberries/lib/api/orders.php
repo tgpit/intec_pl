@@ -51,7 +51,8 @@ class Orders extends Request {
 				$message = Loc::getMessage('ACRIT_CRM_PLUGIN_WB_CHECK_ERROR') . $res['errorText'] . ' [' . $res['error'] . ']';
 			}
 			else {
-				$message = Loc::getMessage('ACRIT_CRM_PLUGIN_WB_CHECK_ERROR') . $res;
+//				$message = Loc::getMessage('ACRIT_CRM_PLUGIN_WB_CHECK_ERROR') . $res;
+                $message = Loc::getMessage('ACRIT_CRM_PLUGIN_WB_CHECK_ERROR') . implode(' - ',$res);
 			}
 		}
 		return $result;
@@ -107,6 +108,63 @@ class Orders extends Request {
         return $list;
     }
 
+    public function newSupply($supply_name) {
+        $res = $this->execute('/api/v3/supplies',
+            null,
+            [
+                'METHOD' => 'POST',
+                'CONTENT' => json_encode( ['name' => $supply_name]),
+            ]
+        );
+        return $res;
+    }
+
+    public function getSupplies(){
+	    $last_list = [];
+	    $next = 0;
+	    do {
+            $res = $this->execute('/api/v3/supplies',
+                [
+                    'limit' => 1000,
+                    'next' => $next
+                ],
+                ['METHOD' => 'GET']
+            );
+            $next =  $res['next'];
+            foreach ($res['supplies'] as $item) {
+                if (!$item['closedAt']) {
+                    $last_list[] = $item;
+                }
+            }
+        } while ($next == 0 );
+        return $last_list;
+    }
+
+    public function operateOrder( $arr ) {
+        try {
+        $res = $this->execute('/api/v3/supplies/'.$arr['supply'].'/orders/'.$arr['id'],null , [
+            'METHOD' => 'PATCH'
+        ]);
+        } catch ( \Throwable  $e ) {
+            $errors = [
+                'error_php' => $e->getMessage(),
+                'line' => $e->getLine(),
+                'stek' => $e->getTraceAsString(),
+                'file' => $e->getFile(),
+            ];
+        }
+        return $res;
+    }
+
+    public function getOrdersListConfirm() {
+        $list = [];
+        $res = $this->execute('/api/v3/orders/new', [], ['METHOD' => 'GET']);
+        if (is_array($res) && $res['orders']) {
+            $list = $res['orders'];
+        }
+        return $list;
+    }
+
     /**
      * Get orders list
      * @param array $filter
@@ -126,7 +184,7 @@ class Orders extends Request {
             $res = $this->execute('/api/v3/orders', $req_filter, [
                 'METHOD' => 'GET'
             ]);
-            if ($res['orders']) {
+            if (is_array($res) && $res['orders']) {
                 foreach ($res['orders'] as $wb_order) {
                     $list[$wb_order['id']] = $wb_order;
                     $list[$wb_order['id']]['products'][$wb_order['skus'][0]]['quantity'] = 1;
@@ -160,43 +218,122 @@ class Orders extends Request {
 		return $count;
 	}
 
-    public function getLabel($order_id, $url, $status, $label_option ) {
-	    $ext = $label_option['type'];
+    public function getLabel($list, $url, $label_option ) {
+//        file_put_contents(__DIR__ . '/list.txt', var_export($list, true));
+
+        $separator = $this->arProfile['OTHER']['sticker']['separator'] ? : '';
+        $label_confirm = [];
+        $ext = $label_option['type'];
         $width = $label_option['width'] ? $label_option['width'] : 58;
         $height = $label_option['height'] ? $label_option['height'] : 40;
-
         $dir_name = $_SERVER["DOCUMENT_ROOT"] . '/upload/acrit.exportproplus/label/wb/';
-        $file_name = $dir_name . $order_id .'-'.$width.'*'.$height.'.'.$ext;
-        $domain = $url;
-        if ( !$url || $url == '' ) {
-            $domain = $_SERVER['HTTP_HOST'];
+
+        $confirm_list = [];
+        foreach ($list as $key=>$item ) {
+            if ($item['supplierStatus'] == 'CONFIRM') {
+                $confirm_list[] = $key;
+            }
         }
-        $pdf_name = $domain . '/upload/acrit.exportproplus/label/wb/' . $order_id . '-'.$width.'*'.$height.'.'.$ext;
+//        file_put_contents(__DIR__ . '/confirm_list.txt', var_export($confirm_list, true));
+        $limit = 90;
+        $confirm_list_for = ceil(count($confirm_list) / $limit);
 
-        if (file_exists($file_name)) {
-            return $pdf_name;
-        }
+        for ($i = 1; $i < $confirm_list_for + 1; $i++ ) {
+            $order_ids = [];
+            for ($j = (($i - 1) * $limit); $j < ($i * $limit) && $j < count($confirm_list); $j++) {
+                $order_ids[] = $confirm_list[$j];
+            }
 
-        if ($status == 'CONFIRM') {
-            $body = ['orders' => [$order_id]];
-
+            $body = ['orders' => $order_ids];
             $ar_fields = [
                 'type' => $ext,
                 'width' => $width,
                 'height' => $height,
             ];
-            $res = $this->execute('/api/v3/orders/stickers', $ar_fields, [
-                'METHOD' => 'POST',
-                'CONTENT' => json_encode($body),
-            ]);
-            if (!file_exists($dir_name)) {
-                mkdir($dir_name, 0700, true);
+
+            if (!empty($order_ids)) {
+//                file_put_contents(__DIR__ . '/order_ids.txt', var_export($order_ids, true));
+                $res = $this->execute('/api/v3/orders/stickers', $ar_fields, [
+                    'METHOD' => 'POST',
+                    'CONTENT' => json_encode($body),
+                ]);
+//                file_put_contents(__DIR__ . '/result.txt', var_export($res, true));
+                if (is_array($res['stickers'])) {
+                    foreach ($res['stickers'] as $item) {
+                        $label_confirm[$item['orderId']] = [
+                            'partA' => $item['partA'],
+                            'partB' => $item['partB'],
+                            'file' => $item['file'],
+                        ];
+                    }
+                }
             }
-            file_put_contents($file_name,  base64_decode( $res['stickers'][0]['file']) );
-            return $pdf_name;
-        } else {
-            return false;
+        }
+//        file_put_contents(__DIR__ . '/arr_label_confirm.txt', var_export($label_confirm, true));
+//        file_put_contents(__DIR__ . '/count_label_confirm.txt', var_export(count($label_confirm), true));
+        $label = [];
+        foreach ( $list as $key=>$item ) {
+            $file = false;
+            $number_sticker = false;
+            $domain = $url;
+
+            if (!$url || $url == '') {
+                $domain = $_SERVER['HTTP_HOST'];
+            }
+            $file_name = $dir_name . $key . '-' . $width . '*' . $height . '.' . $ext;
+            $pdf_name = $domain . '/upload/acrit.exportproplus/label/wb/' . $key . '-' . $width . '*' . $height . '.' . $ext;
+
+            if (file_exists($file_name)) {
+                $file = $pdf_name;
+            } else {
+                if (!file_exists($dir_name)) {
+                    mkdir($dir_name, 0700, true);
+                }
+                try {
+                    if ( is_array($label_confirm[$key]) && $label_confirm[$key]['file'] ) {
+                        file_put_contents($file_name, base64_decode($label_confirm[$key]['file']));
+                    }
+                    if (file_exists($file_name)) {
+                        $file = $pdf_name;
+                    }
+                } catch (\Throwable  $e) {
+                    $errors = [
+                        'error_php' => $e->getMessage(),
+                        'line' => $e->getLine(),
+                        'stek' => $e->getTraceAsString(),
+                        'file' => $e->getFile(),
+                    ];
+                    file_put_contents(__DIR__ . '/errors2.txt', var_export($errors, true));
+                }
+            }
+            if (  is_array($label_confirm[$key]) &&  $label_confirm[$key]['partA'] ) {
+                $number_sticker = $label_confirm[$key]['partA'] . $separator . $label_confirm[$key]['partB'];
+            }
+
+            $label[$key] = [
+                'file' => $file,
+                'number_sticker' =>  $number_sticker
+            ];
         }
 
+//        $file_count = 0;
+//        $sticker_count = 0;
+//        $alone_file_count = 0;
+//        $all = 0;
+//        foreach ($label as $item) {
+//            if ($item['file']) {
+//                $file_count++;
+//            }
+//            if ($item['number_sticker']) {
+//                $sticker_count++;
+//            }
+//            if ($item['file'] && !$item['number_sticker'] ) {
+//                $alone_file_count++;
+//            }
+//            $all++;
+//        }
+//        file_put_contents(__DIR__ . '/label.txt', var_export($label, true));
+//        file_put_contents(__DIR__ . '/count_full_label.txt', var_export(['all'=> $all, 'file'=> $file_count, 'sticker' => $sticker_count, 'alone' => $alone_file_count], true));
+        return $label;
     }
 }

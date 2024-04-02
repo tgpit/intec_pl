@@ -408,9 +408,11 @@ if(!function_exists('curl_init')){
 }
 ?>
 
-<table>
-<?php Tools::placeWarningLabel(GetMessage('IPOLSDEK_transit_content'), GetMessage('IPOLSDEK_transit_header')) ?>
-</table>
+<?php if (!\Ipolh\SDEK\abstractGeneral::isNewApp()): ?>
+    <table>
+        <?php Tools::placeWarningLabel(GetMessage('IPOLSDEK_transit_content'), GetMessage('IPOLSDEK_transit_header')) ?>
+    </table>
+<?php endif; ?>
 
 <?php
 // Checking number of launching syncronisation - if it takes more than 5 hours - we have troubles

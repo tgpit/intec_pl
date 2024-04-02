@@ -26,4 +26,9 @@ $MESS["ACRIT_ORDER_QUANT_PROD"] = "Количество";
 $MESS["ACRIT_ORDER_DATA_BITRIX"] = "Данные битрикс";
 $MESS["ACRIT_ORDER_PRICE_PROD"] = "Цена";
 $MESS["ACRIT_ORDER_DATA_MARKET"] = "Данные площадки";
+$MESS["ACRIT_ORDER_CHOICE_SUPPLY"] = "Выберите поставку";
+$MESS["ACRIT_ORDER_ENTER_SUPPLY"] = "Введите наименование поставки";
+$MESS["ACRIT_ORDER_CREATE_SUPPLY"] = "Создать поставку";
+$MESS["ACRIT_ORDER_NOTHING_CHECK"] = "Ничего не отмечено";
+$MESS["ACRIT_ORDER_OK"] = "Ok";
 ?>

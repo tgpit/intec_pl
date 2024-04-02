@@ -21,6 +21,9 @@
 		<Model name="752900">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="752901">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 	</Make>
 	<Make name="ASTRA">
 		<Model name="HD7 Serie">
@@ -64,6 +67,18 @@
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="6550">
+			<BodyType name="Шасси"></BodyType>
+		</Model>
+	</Make>
+	<Make name="Ambertruck">
+		<Model name="JM55">
+			<BodyType name="Шасси"></BodyType>
+		</Model>
+		<Model name="JM75">
+			<BodyType name="Шасси"></BodyType>
+		</Model>
+		<Model name="JM93">
+			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 	</Make>
@@ -166,6 +181,7 @@
 		<Model name="D120">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Изотермический кузов"></BodyType>
+			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
@@ -270,6 +286,12 @@
 		<Model name="ND3250FD5J7Z21">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="ND3250W282B">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="ND3253B44J">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 		<Model name="ND3310DD5J7Z21">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
@@ -312,6 +334,9 @@
 	</Make>
 	<Make name="Bell">
 		<Model name="B30D">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="B33L">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="B35D">
@@ -1010,6 +1035,7 @@
 		</Model>
 		<Model name="LF210">
 			<BodyType name="Изотермический кузов"></BodyType>
+			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Тент"></BodyType>
 		</Model>
 		<Model name="LF250FA">
@@ -1039,6 +1065,7 @@
 		</Model>
 		<Model name="XF 106">
 			<BodyType name="Контейнеровоз"></BodyType>
+			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Тент"></BodyType>
 		</Model>
 		<Model name="XF 430">
@@ -1091,6 +1118,7 @@
 		</Model>
 		<Model name="Novus CC6CT">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Топливозаправщик"></BodyType>
 		</Model>
 		<Model name="Novus CH2CA">
 			<BodyType name="Шасси"></BodyType>
@@ -1226,6 +1254,9 @@
 		</Model>
 	</Make>
 	<Make name="Dodge">
+		<Model name="Ram 3500">
+			<BodyType name="Эвакуатор"></BodyType>
+		</Model>
 		<Model name="Sprinter 2500">
 			<BodyType name="Фургон"></BodyType>
 		</Model>
@@ -1263,13 +1294,14 @@
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="C120L">
-			<BodyType name="Рефрижератор"></BodyType>
-		</Model>
-		<Model name="C120L">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Для перевозки скота"></BodyType>
 			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Шасси"></BodyType>
+		</Model>
+		<Model name="C120L">
+			<BodyType name="Рефрижератор"></BodyType>
 		</Model>
 		<Model name="C120M">
 			<BodyType name="Бортовой"></BodyType>
@@ -1278,6 +1310,7 @@
 		</Model>
 		<Model name="C120N">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Для перевозки скота"></BodyType>
 			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
@@ -1293,6 +1326,7 @@
 		</Model>
 		<Model name="C80L">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="C80N">
@@ -1371,6 +1405,7 @@
 		</Model>
 		<Model name="DFL 1160 BX">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Рефрижератор"></BodyType>
 		</Model>
 		<Model name="DFL 1160 BX1V">
 			<BodyType name="Бортовой"></BodyType>
@@ -1437,9 +1472,15 @@
 			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="EQ5160GKJ1">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 		<Model name="EV400">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Шасси"></BodyType>
+		</Model>
+		<Model name="GY5123JSQ">
+			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="GYJ5100JSQ">
 			<BodyType name="Бортовой"></BodyType>
@@ -1502,7 +1543,11 @@
 		<Model name="PC5210JSQ">
 			<BodyType name="Бортовой"></BodyType>
 		</Model>
+		<Model name="PC5310JSQ">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 		<Model name="Z55L">
+			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Шасси"></BodyType>
@@ -1565,6 +1610,7 @@
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Ломовоз"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
+			<BodyType name="Топливозаправщик"></BodyType>
 		</Model>
 		<Model name="3250-A CA3250АP64K1T1E4">
 			<BodyType name="Самосвал"></BodyType>
@@ -1619,12 +1665,12 @@
 			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="CA 3250">
-			<BodyType name="Шасси"></BodyType>
-		</Model>
-		<Model name="CA 3250">
 			<BodyType name="Автоцистерна"></BodyType>
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="CA 3250">
+			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="CA 5041">
 			<BodyType name="Фургон"></BodyType>
@@ -1640,6 +1686,7 @@
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="CA3250P66K24T1E5">
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="CA3250P66K2T1E4">
@@ -1665,6 +1712,9 @@
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="CA3310P66K24T4E5">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
 		<Model name="CA3310R66">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
@@ -1687,6 +1737,9 @@
 		<Model name="J5 CA3312">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="J6">
+			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="J6">
 			<BodyType name="Самосвал"></BodyType>
@@ -1733,6 +1786,7 @@
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="J6P-420">
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
@@ -1750,6 +1804,9 @@
 		</Model>
 		<Model name="Алтай 3310">
 			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="СА1081Р40К2L4Е5А85">
+			<BodyType name="Изотермический кузов"></BodyType>
 		</Model>
 	</Make>
 	<Make name="Ford">
@@ -1935,6 +1992,9 @@
 			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 		</Model>
+		<Model name="Auman BJ1317">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 		<Model name="Auman BJ32xx">
 			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
@@ -1979,6 +2039,7 @@
 			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="Aumark BJ 1061">
+			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
@@ -2002,13 +2063,21 @@
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="Aumark BJ1128">
+			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="BJ1043">
 			<BodyType name="Фургон"></BodyType>
+			<BodyType name="Эвакуатор"></BodyType>
+		</Model>
+		<Model name="BJ1045V9JBA-35">
+			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="BJ3075DEJBA-31">
 			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="EST M">
+			<BodyType name="Тент"></BodyType>
 		</Model>
 		<Model name="EST M 120">
 			<BodyType name="Тент"></BodyType>
@@ -2066,6 +2135,7 @@
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="S100">
+			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
@@ -2469,6 +2539,9 @@
 		<Model name="G5X">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="H3">
+			<BodyType name="Фургон"></BodyType>
+		</Model>
 		<Model name="HW76">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
@@ -2480,6 +2553,9 @@
 		</Model>
 		<Model name="LZZ5BXSF67N658873">
 			<BodyType name="Эвакуатор"></BodyType>
+		</Model>
+		<Model name="M3">
+			<BodyType name="Изотермический кузов"></BodyType>
 		</Model>
 		<Model name="T5G">
 			<BodyType name="Бортовой"></BodyType>
@@ -2629,6 +2705,9 @@
 		<Model name="ZZ3407N3267W">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="ZZ3407S3067C">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 		<Model name="ZZ3407S3267C">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
@@ -2641,6 +2720,9 @@
 		<Model name="ZZ5257JSQN584GE1">
 			<BodyType name="Бортовой"></BodyType>
 		</Model>
+		<Model name="ZZ5507VDNВ38400">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 		<Model name="ZZ5707S3840AJ">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
@@ -2651,6 +2733,9 @@
 	<Make name="Hyundai">
 		<Model name="Cargo Truck">
 			<BodyType name="Фургон"></BodyType>
+		</Model>
+		<Model name="FV415">
+			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="Gold">
 			<BodyType name="Бортовой"></BodyType>
@@ -3122,6 +3207,7 @@
 		</Model>
 		<Model name="CQ3266HV35D">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Зерновоз"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
@@ -3154,6 +3240,7 @@
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="CQ3346HV35">
+			<BodyType name="Зерновоз"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="CQ3346HV35D">
@@ -3453,6 +3540,9 @@
 		<Model name="NLR85A">
 			<BodyType name="Фургон"></BodyType>
 		</Model>
+		<Model name="NLR85E">
+			<BodyType name="Изотермический кузов"></BodyType>
+		</Model>
 		<Model name="NMR">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Изотермический кузов"></BodyType>
@@ -3524,6 +3614,7 @@
 		<Model name="NQR71">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Изотермический кузов"></BodyType>
+			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
@@ -3534,6 +3625,9 @@
 		<Model name="NQR71P">
 			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Фургон"></BodyType>
+		</Model>
+		<Model name="NQR71P-7">
+			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="NQR75">
 			<BodyType name="Автоцистерна"></BodyType>
@@ -3673,6 +3767,9 @@
 		</Model>
 	</Make>
 	<Make name="JAC">
+		<Model name="1804ZA">
+			<BodyType name="Эвакуатор"></BodyType>
+		</Model>
 		<Model name="1804ZW">
 			<BodyType name="Автоцистерна"></BodyType>
 		</Model>
@@ -3699,6 +3796,9 @@
 		</Model>
 		<Model name="HFC 1083KR1">
 			<BodyType name="Изотермический кузов"></BodyType>
+		</Model>
+		<Model name="HFC 1084KR1">
+			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="HFC 5045">
 			<BodyType name="Фургон"></BodyType>
@@ -3729,6 +3829,9 @@
 		</Model>
 		<Model name="HFC3252">
 			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="Junling V3">
+			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="N120">
 			<BodyType name="Автоцистерна"></BodyType>
@@ -3768,6 +3871,7 @@
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="N410">
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="N56">
@@ -3779,8 +3883,10 @@
 			<BodyType name="Топливозаправщик"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Шасси"></BodyType>
+			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="N721">
+			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
@@ -3821,6 +3927,9 @@
 			<BodyType name="Шасси"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
+		<Model name="SMA505">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 	</Make>
 	<Make name="JBC">
 		<Model name="SY1060">
@@ -3855,6 +3964,8 @@
 		</Model>
 		<Model name="Conquer">
 			<BodyType name="Изотермический кузов"></BodyType>
+			<BodyType name="Рефрижератор"></BodyType>
+			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 	</Make>
@@ -4113,6 +4224,9 @@
 			<BodyType name="Самосвал"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
+		<Model name="10.223">
+			<BodyType name="Фургон"></BodyType>
+		</Model>
 		<Model name="10.224">
 			<BodyType name="Автовоз"></BodyType>
 			<BodyType name="Фургон"></BodyType>
@@ -4264,6 +4378,9 @@
 			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 		</Model>
+		<Model name="23.232">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 		<Model name="23.364">
 			<BodyType name="Бортовой"></BodyType>
 		</Model>
@@ -4320,6 +4437,9 @@
 		<Model name="26.313">
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
+		<Model name="26.322">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 		<Model name="26.372">
 			<BodyType name="Фургон"></BodyType>
 		</Model>
@@ -4337,6 +4457,9 @@
 		</Model>
 		<Model name="26.463 FNLLC">
 			<BodyType name="Эвакуатор"></BodyType>
+		</Model>
+		<Model name="26.464">
+			<BodyType name="Рефрижератор"></BodyType>
 		</Model>
 		<Model name="27.372">
 			<BodyType name="Самосвал"></BodyType>
@@ -4383,6 +4506,7 @@
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="8.163">
+			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
@@ -4515,6 +4639,9 @@
 		<Model name="M3X MK 40.540.4-6X6">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="M4 MK 41.540.4.P6-8x4">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 		<Model name="ME 220">
 			<BodyType name="Бортовой"></BodyType>
 		</Model>
@@ -4535,6 +4662,7 @@
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="TGA 18.310">
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Тент"></BodyType>
 		</Model>
@@ -4559,6 +4687,7 @@
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="TGA 18.440">
+			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="TGA 18.480">
@@ -4699,6 +4828,7 @@
 			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="TGL 12.250 4х2 BL">
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="TGL 8.180">
@@ -4733,6 +4863,9 @@
 			<BodyType name="Контейнеровоз"></BodyType>
 			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
+		</Model>
+		<Model name="TGM 15.240">
+			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="TGM 15.280 4x2BL">
 			<BodyType name="Изотермический кузов"></BodyType>
@@ -4792,6 +4925,7 @@
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="TGS 26.350 6X2-2 BL-WW">
+			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="TGS 26.360">
@@ -4848,6 +4982,9 @@
 		<Model name="TGS 40.440">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="TGS 40.440 6X6 BB-WW">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 		<Model name="TGS 40.480 6X6 BB-WW">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
@@ -4864,6 +5001,9 @@
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="TGS 41.440 8X6BB">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="TGS 41.440 8x4 BB-WW">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="TGS 41.470">
@@ -5031,6 +5171,7 @@
 		</Model>
 		<Model name="1424">
 			<BodyType name="Для перевозки скота"></BodyType>
+			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
@@ -5121,6 +5262,9 @@
 		</Model>
 		<Model name="210D">
 			<BodyType name="Фургон"></BodyType>
+		</Model>
+		<Model name="2222">
+			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="2224">
 			<BodyType name="Тент"></BodyType>
@@ -5339,6 +5483,7 @@
 		<Model name="Actros 2535">
 			<BodyType name="Автоцистерна"></BodyType>
 			<BodyType name="Контейнеровоз"></BodyType>
+			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="Actros 2540">
 			<BodyType name="Бортовой"></BodyType>
@@ -5525,6 +5670,9 @@
 		<Model name="Atego 1228">
 			<BodyType name="Фургон"></BodyType>
 		</Model>
+		<Model name="Atego 1229">
+			<BodyType name="Тент"></BodyType>
+		</Model>
 		<Model name="Atego 1229L">
 			<BodyType name="Фургон"></BodyType>
 		</Model>
@@ -5585,6 +5733,7 @@
 		<Model name="Atego 812">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Рефрижератор"></BodyType>
+			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="Atego 815">
 			<BodyType name="Рефрижератор"></BodyType>
@@ -5669,6 +5818,9 @@
 		<Model name="SK 1831">
 			<BodyType name="Фургон"></BodyType>
 		</Model>
+		<Model name="SK 2531L">
+			<BodyType name="Рефрижератор"></BodyType>
+		</Model>
 		<Model name="SKT 2528">
 			<BodyType name="Рефрижератор"></BodyType>
 		</Model>
@@ -5718,6 +5870,9 @@
 			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Тент"></BodyType>
+		</Model>
+		<Model name="Sprinter 516">
+			<BodyType name="Автовоз"></BodyType>
 		</Model>
 		<Model name="Sprinter 518 CDI">
 			<BodyType name="Рефрижератор"></BodyType>
@@ -6214,6 +6369,9 @@
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Изотермический кузов"></BodyType>
 		</Model>
+		<Model name="K7.5">
+			<BodyType name="Изотермический кузов"></BodyType>
+		</Model>
 	</Make>
 	<Make name="SHANDONG KAMA">
 		<Model name="KMC1020">
@@ -6250,10 +6408,20 @@
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 		</Model>
 	</Make>
+	<Make name="SHANQI">
+		<Model name="Z1">
+			<BodyType name="Шасси"></BodyType>
+		</Model>
+	</Make>
 	<Make name="SITRAK">
 		<Model name="C7H">
+			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
+			<BodyType name="Фургон"></BodyType>
+			<BodyType name="Шасси"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="C7H 8x4">
@@ -6380,6 +6548,9 @@
 		<Model name="SYZ434C-8S(V)">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="SYZ436C-8S(V)">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 	</Make>
 	<Make name="Saurer">
 		<Model name="2DM">
@@ -6466,6 +6637,9 @@
 		<Model name="G400">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="G410">
+			<BodyType name="Контейнеровоз"></BodyType>
+		</Model>
 		<Model name="G440">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
@@ -6526,6 +6700,7 @@
 		</Model>
 		<Model name="P340LB">
 			<BodyType name="Рефрижератор"></BodyType>
+			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="P360">
@@ -6540,6 +6715,9 @@
 			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 			<BodyType name="Тент"></BodyType>
+		</Model>
+		<Model name="P380CB6X4EHZ">
+			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="P400">
 			<BodyType name="Автоцистерна"></BodyType>
@@ -6604,6 +6782,9 @@
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="R113M">
+			<BodyType name="Изотермический кузов"></BodyType>
+		</Model>
 		<Model name="R114 340">
 			<BodyType name="Изотермический кузов"></BodyType>
 		</Model>
@@ -6634,6 +6815,7 @@
 			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Контейнеровоз"></BodyType>
 			<BodyType name="Тент"></BodyType>
+			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="R500">
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
@@ -6813,6 +6995,7 @@
 		<Model name="SX32586V385">
 			<BodyType name="Автоцистерна"></BodyType>
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Вахтовый автобус"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Ломовоз"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
@@ -6930,6 +7113,7 @@
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="SX331863366">
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
@@ -6947,6 +7131,7 @@
 		</Model>
 		<Model name="SX33186V366">
 			<BodyType name="Самосвал"></BodyType>
+			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="SX33186W366C">
 			<BodyType name="Самосвал"></BodyType>
@@ -6975,9 +7160,13 @@
 		<Model name="SX5504ZPR364">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="SХ3317DТ366">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 		<Model name="X3000">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Зерновоз"></BodyType>
+			<BodyType name="Контейнеровоз"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 			<BodyType name="Трубовоз / Балковоз"></BodyType>
@@ -7025,6 +7214,9 @@
 		<Model name="ZZ3251C">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="ZZ3255C">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 		<Model name="ZZ3315C">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
@@ -7069,6 +7261,9 @@
 		</Model>
 		<Model name="E14">
 			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="E14M">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 		</Model>
 		<Model name="E15">
 			<BodyType name="Шасси"></BodyType>
@@ -7166,6 +7361,8 @@
 	</Make>
 	<Make name="Sollers">
 		<Model name="Atlant">
+			<BodyType name="Рефрижератор"></BodyType>
+			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
@@ -7509,6 +7706,9 @@
 			<BodyType name="Шасси"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
+		<Model name="Transporter">
+			<BodyType name="Эвакуатор"></BodyType>
+		</Model>
 	</Make>
 	<Make name="Volvo">
 		<Model name="A25B">
@@ -7695,6 +7895,13 @@
 		<Model name="FL 210">
 			<BodyType name="Фургон"></BodyType>
 		</Model>
+		<Model name="FL 240">
+			<BodyType name="Фургон"></BodyType>
+		</Model>
+		<Model name="FL 250">
+			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Фургон"></BodyType>
+		</Model>
 		<Model name="FL 280">
 			<BodyType name="Автовоз"></BodyType>
 		</Model>
@@ -7738,11 +7945,13 @@
 		</Model>
 		<Model name="FM Truck 6x2">
 			<BodyType name="Автоцистерна"></BodyType>
+			<BodyType name="Рефрижератор"></BodyType>
 		</Model>
 		<Model name="FM Truck 8X4">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="FM12">
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
@@ -7752,6 +7961,7 @@
 		</Model>
 		<Model name="FM13">
 			<BodyType name="Автоцистерна"></BodyType>
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
@@ -7921,6 +8131,32 @@
 	<Make name="Xingguang">
 		<Model name="CAH5128JSQ">
 			<BodyType name="Бортовой"></BodyType>
+		</Model>
+	</Make>
+	<Make name="YANTAI">
+		<Model name="XYUK-10">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="XYUK-12">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="XYUK-15">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="XYUK-20">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="XYUK-30">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="XYUK-40">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="XYUK-5">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="XYUK-50">
+			<BodyType name="Самосвал"></BodyType>
 		</Model>
 	</Make>
 	<Make name="Youngman">
@@ -8202,6 +8438,47 @@
 			<BodyType name="Вахтовый автобус"></BodyType>
 		</Model>
 	</Make>
+	<Make name="Берилл-К">
+		<Model name="6560B1">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="6560B2">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="6560B3">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="6560B4">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="6560B7">
+			<BodyType name="Контейнеровоз"></BodyType>
+		</Model>
+		<Model name="6560B8">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="6560B9">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="6560С1">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="6560С2">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="6560С3">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="6560С4">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="6560С7">
+			<BodyType name="Контейнеровоз"></BodyType>
+		</Model>
+		<Model name="6560С8">
+			<BodyType name="Контейнеровоз"></BodyType>
+		</Model>
+	</Make>
 	<Make name="Бецема">
 		<Model name="БЦМ-126">
 			<BodyType name="Самосвал"></BodyType>
@@ -8365,6 +8642,7 @@
 		<Model name="28181">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Изотермический кузов"></BodyType>
+			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="2824E3">
 			<BodyType name="Фургон"></BodyType>
@@ -8434,6 +8712,9 @@
 			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
+		</Model>
+		<Model name="3034BB">
+			<BodyType name="Рефрижератор"></BodyType>
 		</Model>
 		<Model name="3034RD">
 			<BodyType name="Бортовой"></BodyType>
@@ -8516,6 +8797,7 @@
 		</Model>
 		<Model name="3307">
 			<BodyType name="Автоцистерна"></BodyType>
+			<BodyType name="Баллоновоз"></BodyType>
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Вахтовый автобус"></BodyType>
 			<BodyType name="Изотермический кузов"></BodyType>
@@ -8548,7 +8830,9 @@
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="33081">
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Вахтовый автобус"></BodyType>
+			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
@@ -8728,6 +9012,9 @@
 		<Model name="66-14">
 			<BodyType name="Шасси"></BodyType>
 		</Model>
+		<Model name="66-16">
+			<BodyType name="Кунг"></BodyType>
+		</Model>
 		<Model name="66-31">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
@@ -8745,6 +9032,7 @@
 			<BodyType name="Самосвал"></BodyType>
 			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
+			<BodyType name="Шасси"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="АА">
@@ -8877,6 +9165,9 @@
 			<BodyType name="Тент"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
+		<Model name="ГАЗон Next 3010 GM">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
 		<Model name="ГАЗон Next 3010 GV">
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
@@ -8950,6 +9241,9 @@
 		</Model>
 		<Model name="Луидор 3009Z7">
 			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="Луидор 30102A">
+			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="Луидор 3010DA">
 			<BodyType name="Фургон"></BodyType>
@@ -9042,6 +9336,9 @@
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="351166">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="35125">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="3918">
@@ -9265,6 +9562,7 @@
 		</Model>
 		<Model name="332400">
 			<BodyType name="Тент"></BodyType>
+			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="332410">
 			<BodyType name="Эвакуатор"></BodyType>
@@ -9316,6 +9614,7 @@
 			<BodyType name="Топливозаправщик"></BodyType>
 		</Model>
 		<Model name="431510">
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="431610">
@@ -9522,9 +9821,6 @@
 			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="5301">
-			<BodyType name="Шасси"></BodyType>
-		</Model>
-		<Model name="5301">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Кунг"></BodyType>
@@ -9533,6 +9829,9 @@
 			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
+		</Model>
+		<Model name="5301">
+			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="5301 с ломаной платформой">
 			<BodyType name="Эвакуатор"></BodyType>
@@ -9550,6 +9849,7 @@
 		</Model>
 		<Model name="5301В2">
 			<BodyType name="Автоцистерна"></BodyType>
+			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="5301ГА">
 			<BodyType name="Бортовой"></BodyType>
@@ -9916,6 +10216,7 @@
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="43114-15">
+			<BodyType name="Автоцистерна"></BodyType>
 			<BodyType name="Вахтовый автобус"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Тент"></BodyType>
@@ -9952,6 +10253,7 @@
 		<Model name="43118-10">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="43118-1017-10">
 			<BodyType name="Бортовой"></BodyType>
@@ -10093,6 +10395,7 @@
 		</Model>
 		<Model name="43118-73094-50">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="43118-RF">
@@ -10263,6 +10566,7 @@
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 		</Model>
 		<Model name="4510">
+			<BodyType name="Автоцистерна"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
@@ -10376,6 +10680,9 @@
 			<BodyType name="Самосвал с 3-х разгрузкой"></BodyType>
 		</Model>
 		<Model name="452830">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="453920">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="45392Д">
@@ -10495,6 +10802,9 @@
 			<BodyType name="Топливозаправщик"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
+		<Model name="53211">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 		<Model name="53212">
 			<BodyType name="Автоцистерна"></BodyType>
 			<BodyType name="Бортовой"></BodyType>
@@ -10506,6 +10816,7 @@
 			<BodyType name="Самосвал"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 			<BodyType name="Шасси"></BodyType>
+			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="532120">
 			<BodyType name="Автоцистерна"></BodyType>
@@ -10867,6 +11178,9 @@
 		<Model name="57503А">
 			<BodyType name="Изотермический кузов"></BodyType>
 		</Model>
+		<Model name="575102">
+			<BodyType name="Зерновоз"></BodyType>
+		</Model>
 		<Model name="57523А">
 			<BodyType name="Рефрижератор"></BodyType>
 		</Model>
@@ -10918,6 +11232,9 @@
 		</Model>
 		<Model name="637301">
 			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="637611">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 		</Model>
 		<Model name="638294">
 			<BodyType name="Бортовой"></BodyType>
@@ -11036,6 +11353,7 @@
 		</Model>
 		<Model name="65115-3094-48">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Зерновоз"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Ломовоз"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
@@ -11170,6 +11488,7 @@
 		<Model name="65115-D3">
 			<BodyType name="Ломовоз"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
+			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="65115-L4">
 			<BodyType name="Самосвал"></BodyType>
@@ -11458,6 +11777,7 @@
 			<BodyType name="Самосвал"></BodyType>
 			<BodyType name="Тент"></BodyType>
 			<BodyType name="Топливозаправщик"></BodyType>
+			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
 		<Model name="65201-001-49">
 			<BodyType name="Самосвал"></BodyType>
@@ -11764,6 +12084,9 @@
 		<Model name="658901Т">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="659000">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 		<Model name="659004">
 			<BodyType name="Ломовоз"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
@@ -11787,6 +12110,7 @@
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="68901-32">
+			<BodyType name="Автоцистерна"></BodyType>
 			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="689011">
@@ -11819,6 +12143,9 @@
 		<Model name="9058В1">
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 		</Model>
+		<Model name="9058В3">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
 		<Model name="T6307F">
 			<BodyType name="Ломовоз"></BodyType>
 		</Model>
@@ -11849,6 +12176,7 @@
 		</Model>
 		<Model name="Компас 5">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Тент"></BodyType>
 			<BodyType name="Фургон"></BodyType>
 		</Model>
@@ -12025,6 +12353,9 @@
 		<Model name="6510">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
+			<BodyType name="Шасси"></BodyType>
+		</Model>
+		<Model name="65101">
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="6510TE">
@@ -14054,6 +14385,9 @@
 			<BodyType name="Шасси"></BodyType>
 			<BodyType name="Эвакуатор"></BodyType>
 		</Model>
+		<Model name="533602-2140">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 		<Model name="533603-2124">
 			<BodyType name="Бортовой"></BodyType>
 		</Model>
@@ -14068,6 +14402,9 @@
 		</Model>
 		<Model name="533605">
 			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="533605-020">
+			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="533605-021">
 			<BodyType name="Тент"></BodyType>
@@ -14131,6 +14468,9 @@
 		<Model name="5336А5-320">
 			<BodyType name="Бортовой"></BodyType>
 		</Model>
+		<Model name="5336А5-321">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 		<Model name="5336Х3-440-000">
 			<BodyType name="Шасси"></BodyType>
 		</Model>
@@ -14158,8 +14498,14 @@
 		<Model name="533702-2140">
 			<BodyType name="Автоцистерна"></BodyType>
 		</Model>
+		<Model name="533702-240">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
 		<Model name="533702-241">
 			<BodyType name="Фургон"></BodyType>
+		</Model>
+		<Model name="533702-249">
+			<BodyType name="Автоцистерна"></BodyType>
 		</Model>
 		<Model name="53371">
 			<BodyType name="Бортовой"></BodyType>
@@ -14202,6 +14548,7 @@
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="533970">
+			<BodyType name="Зерновоз"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="5340">
@@ -14719,6 +15066,7 @@
 		</Model>
 		<Model name="5340В3">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Рефрижератор"></BodyType>
 		</Model>
 		<Model name="5340В3-420-000">
 			<BodyType name="Бортовой"></BodyType>
@@ -14759,6 +15107,7 @@
 		</Model>
 		<Model name="5340В5">
 			<BodyType name="Рефрижератор"></BodyType>
+			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="5340В5-3425-020">
 			<BodyType name="Шасси"></BodyType>
@@ -14969,6 +15318,7 @@
 		</Model>
 		<Model name="5432">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="54329">
 			<BodyType name="Автоцистерна"></BodyType>
@@ -15381,6 +15731,9 @@
 		<Model name="585204">
 			<BodyType name="Рефрижератор"></BodyType>
 		</Model>
+		<Model name="5908LD">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
 		<Model name="6301">
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 		</Model>
@@ -15525,15 +15878,22 @@
 		<Model name="630308-040">
 			<BodyType name="Топливозаправщик"></BodyType>
 		</Model>
+		<Model name="630308-223">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 		<Model name="630308-224">
 			<BodyType name="Фургон"></BodyType>
 		</Model>
 		<Model name="630308-226">
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 		</Model>
+		<Model name="630308-323">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
 		<Model name="6303A5">
 			<BodyType name="Автоцистерна"></BodyType>
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Ломовоз"></BodyType>
 			<BodyType name="Рефрижератор"></BodyType>
 		</Model>
 		<Model name="6303W4-447-000">
@@ -15650,6 +16010,7 @@
 		<Model name="6312">
 			<BodyType name="Автоцистерна"></BodyType>
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Зерновоз"></BodyType>
 			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Контейнеровоз"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
@@ -15735,6 +16096,7 @@
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="631226-585-042">
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="631226-586-040">
@@ -15757,6 +16119,7 @@
 			<BodyType name="Автоцистерна"></BodyType>
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Зерновоз"></BodyType>
+			<BodyType name="Изотермический кузов"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Ломовоз"></BodyType>
 			<BodyType name="Рефрижератор"></BodyType>
@@ -16123,7 +16486,9 @@
 			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="6312C9-8575-012">
+			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Ломовоз"></BodyType>
+			<BodyType name="Тент"></BodyType>
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="6312C9-8577-012">
@@ -16851,14 +17216,14 @@
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="6317F9">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="6317F9">
 			<BodyType name="Автоцистерна"></BodyType>
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Рефрижератор"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 			<BodyType name="Шасси"></BodyType>
-		</Model>
-		<Model name="6317F9">
-			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="6317F9-540-000">
 			<BodyType name="Шасси"></BodyType>
@@ -17546,6 +17911,7 @@
 		<Model name="65012J">
 			<BodyType name="Бортовой"></BodyType>
 			<BodyType name="Зерновоз"></BodyType>
+			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="65012J-570-000">
 			<BodyType name="Самосвал"></BodyType>
@@ -18031,6 +18397,7 @@
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="6501В9-471-031">
+			<BodyType name="Зерновоз"></BodyType>
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
 		<Model name="6501В9-8420-00">
@@ -18494,6 +18861,9 @@
 		<Model name="636559">
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 		</Model>
+		<Model name="651268">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 		<Model name="652558">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
@@ -18689,6 +19059,9 @@
 		<Model name="4589G4">
 			<BodyType name="Бортовой"></BodyType>
 		</Model>
+		<Model name="4590U7">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 	</Make>
 	<Make name="МоАЗ">
 		<Model name="7405-9586">
@@ -18775,6 +19148,9 @@
 		<Model name="4208-030-66">
 			<BodyType name="Вахтовый автобус"></BodyType>
 		</Model>
+		<Model name="4208-10-03">
+			<BodyType name="Вахтовый автобус"></BodyType>
+		</Model>
 		<Model name="4208-10-18">
 			<BodyType name="Вахтовый автобус"></BodyType>
 		</Model>
@@ -18848,6 +19224,9 @@
 		<Model name="5350-42">
 			<BodyType name="Автоцистерна"></BodyType>
 		</Model>
+		<Model name="5633-15">
+			<BodyType name="Топливозаправщик"></BodyType>
+		</Model>
 		<Model name="6385-41">
 			<BodyType name="Автоцистерна"></BodyType>
 		</Model>
@@ -18903,9 +19282,12 @@
 			<BodyType name="Топливозаправщик"></BodyType>
 		</Model>
 		<Model name="66064-А4">
-			<BodyType name="Пищевая цистерна"></BodyType>
+			<BodyType name="Автоцистерна"></BodyType>
 		</Model>
 		<Model name="66065">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="66066-А4">
 			<BodyType name="Автоцистерна"></BodyType>
 		</Model>
 	</Make>
@@ -19071,6 +19453,9 @@
 		</Model>
 		<Model name="467904">
 			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="46793A-50">
+			<BodyType name="Автоцистерна"></BodyType>
 		</Model>
 		<Model name="4679C1-10">
 			<BodyType name="Топливозаправщик"></BodyType>
@@ -19482,6 +19867,539 @@
 		</Model>
 		<Model name="N342 8х4">
 			<BodyType name="Самосвал"></BodyType>
+		</Model>
+	</Make>
+	<Make name="СпецМаш">
+		<Model name="SM02-00">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-01">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-02">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-03">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-04">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-05">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-06">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-07">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-08">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-09">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-10">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-11">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-12">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-13">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-14">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-15">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-16">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-17">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-18">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-19">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-20">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-21">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-22">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM02-25">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-26">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-27">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM02-28">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="SM04-00">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-01">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-02B">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-02K">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-02N">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-03">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-04">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-05">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-06">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-07">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-08">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-09">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-10">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-11">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-12">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-13">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-14">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-15">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-16">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-17">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-18">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-19">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM04-20">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-00B">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-00K">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-00N">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-01">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-02">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-03">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-05">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-06">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-07">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-09">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-10">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-11">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-12">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-13">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-15">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM05-16">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM06-00">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-01">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-02B">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-02K">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-02N">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-03B">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-03K">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-03N">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-04B">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-04K">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-05B">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-05K">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM06-05N">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-00">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-01">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-02B">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-02K">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-02N">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-03B">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-03K">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-03N">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-04B">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-04K">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-04N">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-05B">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-05K">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM07-05N">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-00">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-01">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-02B">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-02K">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-02N">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-03">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-04">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-05">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-06">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-07">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-08">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-09">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-10">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-11">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-12">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-13">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-14">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-15">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-17">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-18">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM08-19">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-00">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-01">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-02B">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-02K">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-02N">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-03">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-04">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-05">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-06">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-07">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-08">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-10">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-11">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-12">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-13">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-14">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-15">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-18">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM09-19">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM10-00">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-01">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-02">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-03">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-04">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-05">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-06">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-07">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-08">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-09">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-10">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-12">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-13">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM10-14">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM11-00">
+			<BodyType name="Зерновоз"></BodyType>
+		</Model>
+		<Model name="SM11-01">
+			<BodyType name="Зерновоз"></BodyType>
+		</Model>
+		<Model name="SM11-03">
+			<BodyType name="Зерновоз"></BodyType>
+		</Model>
+		<Model name="SM13-08">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="SM14-05">
+			<BodyType name="Ломовоз"></BodyType>
+		</Model>
+		<Model name="SM16-00">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM16-01">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM16-02">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM16-03">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM16-04">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM16-05">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM16-06">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM16-07">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM16-08">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+		</Model>
+		<Model name="SM17-00">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="SM17-01">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="SM17-02">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="SM17-04">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="SM17-05">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="SM18-00">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="SM18-02">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="SM18-03">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="SM18-05">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="SM18-06">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
+		<Model name="SM21-09">
+			<BodyType name="Топливозаправщик"></BodyType>
+		</Model>
+		<Model name="SM21-12">
+			<BodyType name="Топливозаправщик"></BodyType>
+		</Model>
+		<Model name="SM21-13">
+			<BodyType name="Топливозаправщик"></BodyType>
+		</Model>
+		<Model name="SM21-14">
+			<BodyType name="Топливозаправщик"></BodyType>
+		</Model>
+		<Model name="SM21-21">
+			<BodyType name="Топливозаправщик"></BodyType>
+		</Model>
+		<Model name="SM22-10">
+			<BodyType name="Автоцистерна"></BodyType>
 		</Model>
 	</Make>
 	<Make name="Тонар">
@@ -19976,10 +20894,10 @@
 			<BodyType name="Кунг"></BodyType>
 		</Model>
 		<Model name="42112">
-			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
+			<BodyType name="Вахтовый автобус"></BodyType>
 		</Model>
 		<Model name="42112">
-			<BodyType name="Вахтовый автобус"></BodyType>
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 		</Model>
 		<Model name="42116">
 			<BodyType name="Вахтовый автобус"></BodyType>
@@ -20001,6 +20919,9 @@
 			<BodyType name="Шасси"></BodyType>
 		</Model>
 		<Model name="4320 (Локомобиль МАРТ-3)">
+			<BodyType name="Бортовой"></BodyType>
+		</Model>
+		<Model name="4320-0111-31">
 			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="4320-03">
@@ -20466,8 +21387,14 @@
 		<Model name="55571-0121-30">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="55571-0121-40">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 		<Model name="55571-0121-72Е5">
 			<BodyType name="Самосвал"></BodyType>
+		</Model>
+		<Model name="55571-10">
+			<BodyType name="Бортовой"></BodyType>
 		</Model>
 		<Model name="55571-1121-60">
 			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
@@ -20713,6 +21640,9 @@
 		<Model name="С33 ЭК-5">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
+		<Model name="С34520">
+			<BodyType name="Самосвал"></BodyType>
+		</Model>
 		<Model name="С35510">
 			<BodyType name="Самосвал"></BodyType>
 		</Model>
@@ -20853,6 +21783,9 @@
 		<Model name="АЦВ-19ТНО УСТ 5453">
 			<BodyType name="Автоцистерна"></BodyType>
 		</Model>
+		<Model name="АЦПТ-10Н УСТ 5453">
+			<BodyType name="Автоцистерна"></BodyType>
+		</Model>
 		<Model name="АЦПТ-10НО УСТ 5453">
 			<BodyType name="Автоцистерна"></BodyType>
 		</Model>
@@ -20900,8 +21833,12 @@
 		</Model>
 		<Model name="УСТ 5453">
 			<BodyType name="Бортовой"></BodyType>
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 			<BodyType name="Топливозаправщик"></BodyType>
 			<BodyType name="Трубовоз / Балковоз"></BodyType>
+		</Model>
+		<Model name="УСТ 5453 4320-1951-60">
+			<BodyType name="Лесовоз (сортиментовоз)"></BodyType>
 		</Model>
 		<Model name="УСТ 5453 4320-60Е5">
 			<BodyType name="Бортовой"></BodyType>
@@ -20917,6 +21854,15 @@
 		<Model name="8051S5 8х8">
 			<BodyType name="Самосвал"></BodyType>
 			<BodyType name="Шасси"></BodyType>
+		</Model>
+		<Model name="8051T0X">
+			<BodyType name="Шасси"></BodyType>
+		</Model>
+		<Model name="8051В0Х">
+			<BodyType name="Шасси"></BodyType>
+		</Model>
+		<Model name="8051Т5Х">
+			<BodyType name="Самосвал"></BodyType>
 		</Model>
 	</Make>
 	<Make name="ЧМЗ">

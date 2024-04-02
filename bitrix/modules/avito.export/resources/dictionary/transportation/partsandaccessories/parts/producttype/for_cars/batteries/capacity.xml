@@ -1,30 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CapacityValues>
+	<Capacity>1.2</Capacity>
+	<Capacity>2</Capacity>
+	<Capacity>2.5</Capacity>
+	<Capacity>3</Capacity>
+	<Capacity>4</Capacity>
 	<Capacity>5</Capacity>
+	<Capacity>6</Capacity>
+	<Capacity>7</Capacity>
+	<Capacity>8</Capacity>
+	<Capacity>9</Capacity>
 	<Capacity>10</Capacity>
+	<Capacity>11</Capacity>
+	<Capacity>12</Capacity>
+	<Capacity>13</Capacity>
+	<Capacity>14</Capacity>
 	<Capacity>15</Capacity>
+	<Capacity>16</Capacity>
+	<Capacity>18</Capacity>
 	<Capacity>20</Capacity>
+	<Capacity>24</Capacity>
 	<Capacity>25</Capacity>
 	<Capacity>30</Capacity>
+	<Capacity>32</Capacity>
 	<Capacity>35</Capacity>
 	<Capacity>40</Capacity>
 	<Capacity>45</Capacity>
 	<Capacity>50</Capacity>
+	<Capacity>52</Capacity>
+	<Capacity>53</Capacity>
+	<Capacity>54</Capacity>
 	<Capacity>55</Capacity>
+	<Capacity>57</Capacity>
+	<Capacity>58</Capacity>
 	<Capacity>60</Capacity>
 	<Capacity>61</Capacity>
+	<Capacity>62</Capacity>
 	<Capacity>63</Capacity>
 	<Capacity>64</Capacity>
 	<Capacity>65</Capacity>
 	<Capacity>66</Capacity>
+	<Capacity>68</Capacity>
 	<Capacity>70</Capacity>
 	<Capacity>72</Capacity>
+	<Capacity>73</Capacity>
 	<Capacity>74</Capacity>
 	<Capacity>75</Capacity>
+	<Capacity>76</Capacity>
 	<Capacity>77</Capacity>
+	<Capacity>78</Capacity>
 	<Capacity>80</Capacity>
+	<Capacity>82</Capacity>
 	<Capacity>85</Capacity>
+	<Capacity>88</Capacity>
 	<Capacity>90</Capacity>
+	<Capacity>92</Capacity>
 	<Capacity>95</Capacity>
 	<Capacity>100</Capacity>
 	<Capacity>105</Capacity>

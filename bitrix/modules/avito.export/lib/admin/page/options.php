@@ -117,7 +117,30 @@ class Options extends TabForm
 				'NAME' => self::getLocale('MASSIVE_EDIT_ELEMENTS_LIMIT'),
 				'DEFAULT' => 20000,
 			],
+			'discounts_user_group' => [
+				'TYPE' => 'enumeration',
+				'TAB' => 'COMMON',
+				'NAME' => self::getLocale('DISCOUNTS_USER_GROUP'),
+				'VALUES' => $this->getUserGroupVariants(),
+				'MULTIPLE' => 'N',
+			],
 		], $disabled));
+	}
+
+	protected function getUserGroupVariants() : array
+	{
+		$query = Main\GroupTable::getList([
+			'select' => [ 'ID', 'NAME' ],
+			'filter' => [ '=ACTIVE' => 'Y' ],
+			'order' => [ 'ID' => 'ASC' ]
+		]);
+
+		return array_map(static function ($row) {
+			return [
+				'ID' => $row['ID'],
+				'VALUE' => sprintf('%s [%s]', $row['NAME'], $row['ID'])
+			];
+		}, $query->fetchAll());
 	}
 
 	public function getFieldValue($fieldCode)

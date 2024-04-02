@@ -8,6 +8,7 @@ use Avito\Export\Utils\Value;
 use Bitrix\Main;
 use Bitrix\Iblock;
 use Bitrix\Catalog;
+use Avito\Export\Feed\Source\Field\Condition;
 
 class Fetcher extends Source\FetcherSkeleton
 	implements Source\FetcherCloneable
@@ -23,9 +24,13 @@ class Fetcher extends Source\FetcherSkeleton
 		self::FIELD_PRICE_DISCOUNT => 'DISCOUNT'
 	];
 
+	public const FIELD_STORE = 'STORE';
+
 	/** @var Source\Fetcher[] */
 	protected $sources;
 	protected $fetchedRegionIds;
+
+	protected $filterConditions;
 
 	public function __construct()
 	{
@@ -57,6 +62,12 @@ class Fetcher extends Source\FetcherSkeleton
 
 	public function extend(array $fields, Source\Data\SourceSelect $sources, Source\Context $context) : void
 	{
+		$this->extendPrices($fields, $sources, $context);
+		$this->extendStores($fields, $sources, $context);
+	}
+
+	public function extendPrices(array $fields, Source\Data\SourceSelect $sources, Source\Context $context) : void
+	{
 		$priceSelect = array_intersect_key(self::PRICE_MAP, array_flip($fields));
 
 		if (empty($priceSelect)) { return; }
@@ -75,6 +86,36 @@ class Fetcher extends Source\FetcherSkeleton
 				$sources->add('PRICE', "{$priceType}_{$subfield}");
 			}
 		}
+	}
+
+	public function extendStores(array $fields, Source\Data\SourceSelect $sources, Source\Context $context) : void
+	{
+		if (!in_array(self::FIELD_STORE, $fields, true)) { return; }
+
+		$childContext = new Source\Context($context->regionIblockId(), $context->siteId());
+		$regionStores = $this->regionsStores($childContext);
+
+		$stores = array_unique(array_merge(...array_values($regionStores)));
+
+		foreach ($stores as $store)
+		{
+			$sources->add('STORE', "STORE_AMOUNT_{$store}");
+		}
+
+		$hasEmptyStores = array_reduce($regionStores, static function ($carry, $item) {
+			return $carry || empty($item);
+		}, false);
+
+		if ($hasEmptyStores)
+		{
+			$sources->add('PRODUCT', 'QUANTITY');
+		}
+	}
+
+	public function filter(array $conditions, Source\Context $context) : array
+	{
+		$this->filterConditions = $conditions;
+		return [];
 	}
 
 	public function fields(Source\Context $context) : array
@@ -98,18 +139,32 @@ class Fetcher extends Source\FetcherSkeleton
 				}
 			}
 
-			if (Main\ModuleManager::isModuleInstalled('catalog') && $this->hasPriceProperty($childContext))
+			if (Main\ModuleManager::isModuleInstalled('catalog'))
 			{
-				$result[] = new Source\Field\NumberField([
-					'ID' => static::FIELD_PRICE,
-					'NAME' => self::getLocale('FIELD_PRICE'),
-					'FILTERABLE' => false,
-				]);
-				$result[] = new Source\Field\NumberField([
-					'ID' => static::FIELD_PRICE_DISCOUNT,
-					'NAME' => self::getLocale('FIELD_PRICE_DISCOUNT'),
-					'FILTERABLE' => false,
-				]);
+				$hasProperties = $this->hasProperties($childContext, [ $this->priceTypeCode(), $this->storeCode() ]);
+
+				if (in_array($this->priceTypeCode(), $hasProperties, true))
+				{
+					$result[] = new Source\Field\NumberField([
+						'ID' => static::FIELD_PRICE,
+						'NAME' => self::getLocale('FIELD_PRICE'),
+						'FILTERABLE' => true,
+					]);
+					$result[] = new Source\Field\NumberField([
+						'ID' => static::FIELD_PRICE_DISCOUNT,
+						'NAME' => self::getLocale('FIELD_PRICE_DISCOUNT'),
+						'FILTERABLE' => true,
+					]);
+				}
+
+				if (in_array($this->storeCode(), $hasProperties, true))
+				{
+					$result[] = new Source\Field\NumberField([
+						'ID' => static::FIELD_STORE,
+						'NAME' => self::getLocale('FIELD_STORE'),
+						'FILTERABLE' => true,
+					]);
+				}
 			}
 
 			return $result;
@@ -120,18 +175,21 @@ class Fetcher extends Source\FetcherSkeleton
 	{
 		if ($context->regionIblockId() === null) { return []; }
 
-		$regionSelect = array_diff($select, array_keys(static::PRICE_MAP));
 		$priceSelect = array_intersect_key(static::PRICE_MAP, array_flip($select));
+		$storeSelect = array_intersect($select, [ static::FIELD_STORE ]);
+		$regionSelect = array_diff($select, array_keys($priceSelect), $storeSelect);
 		$elementIds = array_keys($elements);
 
 		$childContext = new Source\Context($context->regionIblockId(), $context->siteId());
 		$regionValues = $this->regionValues($childContext, $regionSelect);
 		$priceValues = $this->priceValues($elementIds, $siblings, $priceSelect, $childContext);
+		$storeValues = $this->storeValues($elementIds, $siblings, $storeSelect, $childContext);
 
-		return $this->combineValues(
+		return $this->filterValues($this->combineValues(
 			array_fill_keys($elementIds, $regionValues),
-			$priceValues
-		);
+			$priceValues,
+			$storeValues
+		));
 	}
 
 	protected function combineValues(array ...$partials) : array
@@ -186,6 +244,42 @@ class Fetcher extends Source\FetcherSkeleton
 					if (empty($fieldValues)) { continue; }
 
 					$result[$elementId][$regionId][$field] = min($fieldValues);
+				}
+			}
+		}
+
+		return $result;
+	}
+
+	protected function storeValues(array $elementIds, array $siblings, array $storeSelect, Source\Context $context) : array
+	{
+		if (empty($storeSelect)) { return []; }
+
+		$result = [];
+
+		foreach ($this->regionsStores($context) as $regionId => $stores)
+		{
+			foreach ($elementIds as $elementId)
+			{
+				if (empty($stores))
+				{
+					$value = $siblings[$elementId][Source\Registry::CATALOG_FIELD]['QUANTITY'] ?? 0;
+
+					$result[$elementId][$regionId][self::FIELD_STORE] = (float)$value;
+				}
+				else
+				{
+					$storesSum = 0;
+
+					foreach ($stores as $store)
+					{
+						$name = "STORE_AMOUNT_{$store}";
+						$value = $siblings[$elementId][Source\Registry::STORE_FIELD][$name] ?? 0;
+
+						$storesSum += (float)$value;
+					}
+
+					$result[$elementId][$regionId][self::FIELD_STORE] = $storesSum;
 				}
 			}
 		}
@@ -307,19 +401,18 @@ class Fetcher extends Source\FetcherSkeleton
 		return (bool)$iterator->fetch();
 	}
 
-	protected function hasPriceProperty(Source\Context $context) : bool
+	protected function hasProperties(Source\Context $context, array $propertyCodes) : array
 	{
-		$iterator = Iblock\PropertyTable::getList([
-			'select' => ['ID'],
+		$properties = Iblock\PropertyTable::getList([
+			'select' => ['ID', 'CODE'],
 			'filter' => [
 				'=IBLOCK_ID' => $context->iblockId(),
-				'=CODE' => $this->priceTypeCode(),
+				'@CODE' => $propertyCodes,
 				'=ACTIVE' => true
-			],
-			'limit' => 1,
-		]);
+			]
+		])->fetchAll();
 
-		return (bool)$iterator->fetch();
+		return array_column($properties, 'CODE');
 	}
 
 	protected function regionsPriceTypes(Source\Context $context)
@@ -328,18 +421,30 @@ class Fetcher extends Source\FetcherSkeleton
 
 		return $this->once($cacheSign, function() use ($context) {
 			$regionIds = array_keys($this->regions($context));
-			$priceProperties = $this->pricePropertyValues($regionIds, $context);
+			$priceProperties = $this->propertyValues($regionIds, $context, $this->priceTypeCode());
 			$propertyMap = $this->mapPriceProperties($priceProperties);
 
-			return $this->combinePriceTypes($priceProperties, $propertyMap);
+			return $this->combinePropertyValues($priceProperties, $propertyMap, $this->basePriceType());
 		});
 	}
 
-	protected function pricePropertyValues(array $regionIds, Source\Context $context) : array
+	protected function regionsStores(Source\Context $context)
+	{
+		$cacheSign = 'regionsStores:' . $context->iblockId();
+
+		return $this->once($cacheSign, function() use ($context) {
+			$regionIds = array_keys($this->regions($context));
+			$storeProperties = $this->propertyValues($regionIds, $context, $this->storeCode());
+			$propertyMap = $this->mapStoreProperties($storeProperties);
+
+			return $this->combinePropertyValues($storeProperties, $propertyMap);
+		});
+	}
+
+	protected function propertyValues(array $regionIds, Source\Context $context, string $code) : array
 	{
 		if (empty($regionIds)) { return []; }
 
-		$code = $this->priceTypeCode();
 		$properties = [];
 
 		\CIBlockElement::GetPropertyValuesArray($properties, $context->iblockId(), [ 'ID' => $regionIds ], [
@@ -358,28 +463,27 @@ class Fetcher extends Source\FetcherSkeleton
 		return $result;
 	}
 
-	protected function combinePriceTypes(array $regionProperties, array $propertyMap) : array
+	protected function combinePropertyValues(array $regionProperties, array $propertyMap, $defaultValue = null) : array
 	{
 		$result = [];
-		$basePriceType = $this->basePriceType();
 
-		foreach ($regionProperties as $regionId => $priceValues)
+		foreach ($regionProperties as $regionId => $values)
 		{
-			$regionPrices = [];
+			$item = [];
 
-			foreach ($priceValues as $priceValue)
+			foreach ($values as $value)
 			{
-				if (!isset($propertyMap[$priceValue])) { continue; }
+				if (!isset($propertyMap[$value])) { continue; }
 
-				$regionPrices[] = (int)$propertyMap[$priceValue];
+				$item[] = (int)$propertyMap[$value];
 			}
 
-			if (empty($regionPrices) && $basePriceType !== null)
+			if (empty($item) && $defaultValue !== null)
 			{
-				$regionPrices[] = $basePriceType;
+				$item[] = $defaultValue;
 			}
 
-			$result[$regionId] = $regionPrices;
+			$result[$regionId] = $item;
 		}
 
 		return $result;
@@ -397,7 +501,75 @@ class Fetcher extends Source\FetcherSkeleton
 			'select' => [ 'ID', $field ]
 		]);
 
-		return array_column($query->fetchAll(), 'ID', 'NAME');
+		return array_column($query->fetchAll(), 'ID', $field);
+	}
+
+	protected function mapStoreProperties(array $storeProperties) : array
+	{
+		if (empty($storeProperties) || !Main\Loader::includeModule('catalog')) { return []; }
+
+		$values = array_merge(...array_values($storeProperties));
+		$field = $this->storeField();
+
+		$query = Catalog\StoreTable::getList([
+			'filter' => [ "=$field" => array_unique($values) ],
+			'select' => [ 'ID', $field ]
+		]);
+
+		return array_column($query->fetchAll(), 'ID', $field);
+	}
+
+	protected function filterValues(array $values) : array
+	{
+		$conditions = $this->filterConditions;
+
+		if (empty($conditions)) { return $values; }
+
+
+		foreach ($values as $offerId => $regions)
+		{
+			foreach ($regions as $regionId => $regionValues)
+			{
+				foreach ($conditions as $condition)
+				{
+					$value = (float)($regionValues[$condition['FIELD']] ?? 0);
+
+					if (!$this->compareValue($condition['COMPARE'], $value, $condition['VALUE']))
+					{
+						$values[$offerId][$regionId] = [];
+					}
+				}
+			}
+		}
+
+		return $values;
+	}
+
+	protected function compareValue(string $condition, float $value, $compareWith) : bool
+	{
+		if (is_array($compareWith))
+		{
+			$compareWith = array_map(static function($value) {
+				return (float)$value;
+			}, $compareWith);
+		}
+		else
+		{
+			$compareWith = (float)$compareWith;
+		}
+
+		switch ($condition)
+		{
+			case Condition::EQUAL:          return $value === $compareWith;
+			case Condition::NOT_EQUAL:      return $value !== $compareWith;
+			case Condition::MORE_THEN:      return $value > $compareWith;
+			case Condition::LESS_THEN:      return $value < $compareWith;
+			case Condition::LESS_OR_EQUAL:  return $value <= $compareWith;
+			case Condition::MORE_OR_EQUAL:  return $value >= $compareWith;
+			case Condition::AT_LIST:        return in_array($value, $compareWith, true);
+			case Condition::NOT_AT_LIST:    return !in_array($value, $compareWith, true);
+		}
+		return true;
 	}
 
 	protected function basePriceType() : ?int
@@ -418,5 +590,18 @@ class Fetcher extends Source\FetcherSkeleton
 		$field = Config::getOption('region_price_field', 'NAME');
 
 		return in_array($field, $allowedFields, true) ? $field : 'NAME';
+	}
+
+	protected function storeCode() : string
+	{
+		return Config::getOption('region_store_code', 'AVITO_CATALOG_STORE');
+	}
+
+	protected function storeField() : string
+	{
+		$allowedFields = ['ID', 'CODE', 'XML_ID'];
+		$field = Config::getOption('region_store_field', 'CODE');
+
+		return in_array($field, $allowedFields, true) ? $field : 'CODE';
 	}
 }

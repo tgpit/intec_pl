@@ -19,6 +19,18 @@ abstract class Step implements Watcher\Engine\Step
 		$this->logger = new Logger\Logger(Glossary::SERVICE_PUSH, $controller->getSetup()->getId());
 	}
 
+	public function after(string $action) : void
+	{
+		if ($action === Watcher\Engine\Controller::ACTION_CHANGE)
+		{
+			$this->afterChange();
+		}
+		else if ($action === Watcher\Engine\Controller::ACTION_REFRESH)
+		{
+			$this->afterRefresh();
+		}
+	}
+
 	public function afterChange() : void
 	{
 		// nothing by default

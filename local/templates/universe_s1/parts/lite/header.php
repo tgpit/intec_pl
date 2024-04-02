@@ -28,7 +28,7 @@ use intec\template\Properties;
             'show' => !$page['main']
         ],
         'title' => [
-            'show' => !$page['main']
+            'show' => !$page['main'],
         ]
     ];
 

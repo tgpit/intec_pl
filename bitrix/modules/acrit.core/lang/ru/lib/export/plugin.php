@@ -240,5 +240,13 @@ $MESS[$strHint.'THREADS_COUNT'] = 'Количество потоков, испо
 
 $MESS[$strLang.'FILE_URL'] = 'Перейти к файлу выгрузки';
 
+# (Log) Cron: send to email
+$MESS['LOG_CRON_EMAIL_FILE_EMPTY'] = '[email] Не найден файл для отправки (или файл пуст).';
+$MESS['LOG_CRON_EMAIL_FILE_GET'] = '[email] Ошибка получения данных о файле.';
+$MESS['LOG_CRON_EMAIL_FILE_SAVE'] = '[email] Ошибка сохранения временного файла.';
+$MESS['LOG_CRON_EMAIL_SITE'] = '[email] Ошибка определения сайта';
+$MESS['LOG_CRON_EMAIL_WRONG'] = '[email] Некорректный адрес для отправки: #EMAIL#.';
+$MESS['LOG_CRON_EMAIL_SENT'] = '[email] Письмо с файлом отправлено на #EMAIL#.';
+$MESS['LOG_CRON_EMAIL_NOT_SENT'] = '[email] Ошибка отправки письма с файлов на адрес #EMAIL#.';
 
 

@@ -123,11 +123,11 @@ $arSchedule = $arCli['SCHEDULE'];
 									<td><?=Helper::getMessage($strLang.'CRON_SCHEDULE_WEEKDAY');?></td>
 								</tr>
 								<tr>
-									<td><input type="text" maxlength="50" placeholder="*" name="minute" value="<?=$arSchedule[0];?>" /></td>
-									<td><input type="text" maxlength="50" placeholder="*" name="hour" value="<?=$arSchedule[1];?>" /></td>
-									<td><input type="text" maxlength="50" placeholder="*" name="day" value="<?=$arSchedule[2];?>" /></td>
-									<td><input type="text" maxlength="50" placeholder="*" name="month" value="<?=$arSchedule[3];?>" /></td>
-									<td><input type="text" maxlength="50" placeholder="*" name="weekday" value="<?=$arSchedule[4];?>" /></td>
+									<td><input type="text" placeholder="*" name="minute" value="<?=$arSchedule[0];?>" /></td>
+									<td><input type="text" placeholder="*" name="hour" value="<?=$arSchedule[1];?>" /></td>
+									<td><input type="text" placeholder="*" name="day" value="<?=$arSchedule[2];?>" /></td>
+									<td><input type="text" placeholder="*" name="month" value="<?=$arSchedule[3];?>" /></td>
+									<td><input type="text" placeholder="*" name="weekday" value="<?=$arSchedule[4];?>" /></td>
 								</tr>
 							</tbody>
 						</table>

@@ -1,5 +1,0 @@
-<?php
-
-$MESS['C_MAIN_ABOUT_TEMPLATE_1_TEMPLATE_BUTTON_TEXT_DEFAULT'] = 'Подробнее';
-$MESS['C_MAIN_ABOUT_TEMPLATE_1_TEMPLATE_VIDEO_TITLE'] = 'Смотреть видео';
-$MESS[''] = '';

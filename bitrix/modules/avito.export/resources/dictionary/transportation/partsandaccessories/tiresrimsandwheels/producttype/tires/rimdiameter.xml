@@ -5,6 +5,7 @@
 	<RimDiameter>5.5</RimDiameter>
 	<RimDiameter>6</RimDiameter>
 	<RimDiameter>6.5</RimDiameter>
+	<RimDiameter>6.7</RimDiameter>
 	<RimDiameter>7</RimDiameter>
 	<RimDiameter>8</RimDiameter>
 	<RimDiameter>9</RimDiameter>
@@ -59,15 +60,5 @@
 	<RimDiameter>48</RimDiameter>
 	<RimDiameter>50</RimDiameter>
 	<RimDiameter>55</RimDiameter>
-	<RimDiameter>180</RimDiameter>
-	<RimDiameter>400</RimDiameter>
-	<RimDiameter>457</RimDiameter>
-	<RimDiameter>490</RimDiameter>
-	<RimDiameter>500</RimDiameter>
-	<RimDiameter>508</RimDiameter>
-	<RimDiameter>530</RimDiameter>
-	<RimDiameter>533</RimDiameter>
-	<RimDiameter>600</RimDiameter>
-	<RimDiameter>635</RimDiameter>
 	<RimDiameter>Другое</RimDiameter>
 </RimDiameterValues>

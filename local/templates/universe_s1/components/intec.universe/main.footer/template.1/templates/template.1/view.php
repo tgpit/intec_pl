@@ -73,6 +73,11 @@ $bSecondPhoneShow = $arResult['PHONE']['SECOND']['SHOW'];
                                                 <a class="tel widget-part-item-text" href="tel:<?= $arResult['PHONE']['VALUE']['LINK'] ?>">
                                                     <span class="value">
 													<? if (strpos($arResult['PHONE']['VALUE']['DISPLAY'], '/') > 0) {
+															$phones = explode("/", $arResult['PHONE']['VALUE']['DISPLAY']);
+															$n = count($phones);
+															for ($i = 0; $i < $n; $i++) {
+															    echo $phones[$i]."<br>";
+															}
 														}else {
 													   		echo $arResult['PHONE']['VALUE']['DISPLAY'];
 														} ?>
@@ -90,6 +95,10 @@ $bSecondPhoneShow = $arResult['PHONE']['SECOND']['SHOW'];
                                 <?php if ($arResult['FORMS']['CALL']['SHOW']) { ?>
                                     <div class="intec-grid-item-1 intec-grid-item-550-2 intec-grid-item-400-1">
                                         <div class="widget-part-item widget-form">
+                                            <span class="widget-part-item-icon widget-part-item-icon-phone">
+&nbsp;
+                                            </span>
+
                                             <?= Html::tag('div', Loc::getMessage('C_MAIN_FOOTER_TEMPLATE_1_VIEW_1_FORMS_CALL_BUTTON'), [
                                                 'class' => [
                                                     'widget-form-button',
@@ -162,7 +171,6 @@ $bSecondPhoneShow = $arResult['PHONE']['SECOND']['SHOW'];
                                             <div class="widget-social-title">
                                                 <?= Loc::getMessage('C_MAIN_FOOTER_TEMPLATE_1_VIEW_1_SOCIAL_TITLE') ?>
                                             </div>
-
                                         </div>
                                         <div class="widget-social-items-wrap intec-grid-item-1">
                                             <div class="widget-social-items intec-grid intec-grid-a-h-768-center intec-grid-a-v-center intec-grid-wrap intec-grid-i-7">
@@ -175,7 +183,6 @@ $bSecondPhoneShow = $arResult['PHONE']['SECOND']['SHOW'];
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                                 <!--/noindex-->
                             <?php } ?>
@@ -228,6 +235,10 @@ $bSecondPhoneShow = $arResult['PHONE']['SECOND']['SHOW'];
                                         </div>
                                     <?php } ?>
                                 </div>
+								<div align="right">
+									<iframe src="https://yandex.ru/sprav/widget/rating-badge/179404829137" width="150" height="50" frameborder="0">
+									</iframe>
+								</div>
                             </div>
                         <?php } else { ?>
                             <div class="widget-panel-item widget-panel-item-empty intec-grid-item intec-grid-item-700-1"></div>

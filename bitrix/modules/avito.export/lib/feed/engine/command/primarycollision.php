@@ -8,6 +8,7 @@ use Avito\Export\Glossary;
 use Avito\Export\Psr;
 use Avito\Export\Utils\ArrayHelper;
 use Bitrix\Main;
+use Avito\Export\Feed\Engine\Steps\Offer;
 
 class PrimaryCollision
 {
@@ -36,12 +37,16 @@ class PrimaryCollision
 
 		foreach ($fieldsStorage as &$row)
 		{
-			if (!$row['STATUS']) { continue; }
+			if ((int)$row['STATUS'] === Offer\Table::STATUS_FAIL) { continue; }
 
 			if (isset($used[$row['PRIMARY']]))
 			{
-				$this->log($row['STORAGE_PRIMARY']);
-				$row['STATUS'] = false;
+				if (empty($row['MERGED_ID']))
+				{
+					$this->log($row['STORAGE_PRIMARY']);
+				}
+
+				$row['STATUS'] = Offer\Table::STATUS_FAIL;
 			}
 
 			$used[$row['PRIMARY']] = true;
@@ -53,7 +58,9 @@ class PrimaryCollision
 
 	protected function storageCollision(array $fieldsStorage, array $filterExist) : array
 	{
-		$validFields = array_filter($fieldsStorage, static function(array $fields) { return $fields['STATUS']; });
+		$validFields = array_filter($fieldsStorage, static function(array $fields) {
+			return (int)$fields['STATUS'] === Offer\Table::STATUS_OK;
+		});
 		$used = array_column($validFields, 'STORAGE_PRIMARY', 'PRIMARY');
 		$keysMap = ArrayHelper::keysByColumn($validFields, 'PRIMARY');
 
@@ -64,7 +71,7 @@ class PrimaryCollision
 		$query = $dataClass::getList([
 			'filter' => $filterExist + [
 				'=PRIMARY' => array_keys($used),
-				'=STATUS' => true,
+				'=STATUS' => Offer\Table::STATUS_OK,
 			],
 			'select' => array_merge($this->storagePrimaryFields(), [
 				'PRIMARY',
@@ -81,7 +88,7 @@ class PrimaryCollision
 			if ($this->compareStoragePrimary($storagePrimary, $row)) { continue; }
 
 			$this->log($storagePrimary);
-			$fieldsStorage[$key]['STATUS'] = false;
+			$fieldsStorage[$key]['STATUS'] = Offer\Table::STATUS_FAIL;
 		}
 
 		return $fieldsStorage;

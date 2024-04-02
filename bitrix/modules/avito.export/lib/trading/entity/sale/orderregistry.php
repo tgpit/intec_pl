@@ -6,6 +6,8 @@ use Avito\Export\Assert;
 
 class OrderRegistry
 {
+	public const XML_ID_PREFIX = 'AVITO_';
+
 	protected $environment;
 
 	public function __construct(Container $environment)
@@ -43,6 +45,23 @@ class OrderRegistry
 		if ($order = $query->fetch())
 		{
 			return (int)$order['ORDER_ID'];
+		}
+
+		return null;
+	}
+
+	public function searchBroken(string $externalId) : ?int
+	{
+		$query = Sale\Order::getList([
+			'filter' => [
+				'=XML_ID' => static::XML_ID_PREFIX . $externalId
+			],
+			'select' => [ 'ID' ],
+		]);
+
+		if ($order = $query->fetch())
+		{
+			return (int)$order['ID'];
 		}
 
 		return null;

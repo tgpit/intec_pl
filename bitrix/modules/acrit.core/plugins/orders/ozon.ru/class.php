@@ -22,6 +22,7 @@ Loc::loadMessages(__FILE__);
 
 class OzonRu extends Plugin {
 
+
 	// List of available directions
 	protected $arDirections = [self::SYNC_STOC];
 	protected $isCountable = true;
@@ -42,6 +43,14 @@ class OzonRu extends Plugin {
 	public static function getCode() {
 		return 'OZON_RU';
 	}
+
+    public function feedBack(){
+        $list['ACTION'][] = [
+            'id' => 'CONFIRM',
+            'name' => Loc::getMessage('ACRIT_ORDERS_PLUGIN_OZON_CONFIRM_NAMES')
+        ];
+        return $list;
+    }
 
 	/**
 	 * Get plugin short name
@@ -361,6 +370,19 @@ class OzonRu extends Plugin {
 	}
 
     /**
+     *	Show plugin orders comment
+     */
+
+    public function showOrdersComment(){
+        ob_start();
+        ?>
+            <span><?=Loc::getMessage('ACRIT_ORDERS_PLUGIN_OZON_COMMENT');?></span>
+        <?
+        return ob_get_clean();
+    }
+
+
+    /**
      *	Show plugin special settings
      */
     public function showSpecial()
@@ -391,11 +413,11 @@ class OzonRu extends Plugin {
                             <?foreach($this->getStores($this->arProfile) as $intStoreId => $strStoreName):?>
                                 <div data-role="acrit_exp_ozon_store">
                                     <input type="text" name="PROFILE[OTHER][STOCKS][LIST][ID][]" size="14" maxlength="36"
-                                           placeholder="<?=Loc::getMessage('STOCK_ID');?>"
+                                           placeholder="<?=Loc::getMessage('ACRIT_ORDERS_PLUGIN_OZON_STOCK_ID');?>"
                                            value="<?=htmlspecialcharsbx($intStoreId);?>"
                                            data-role="acrit_exp_ozon_store_id" />
                                     <input type="text" name="PROFILE[OTHER][STOCKS][LIST][NAME][]" size="40" maxlength="255"
-                                           placeholder="<?=Loc::getMessage('STOCK_NAME');?>"
+                                           placeholder="<?=Loc::getMessage('ACRIT_ORDERS_PLUGIN_OZON_STOCK_NAME');?>"
                                            value="<?=htmlspecialcharsbx($strStoreName);?>"
                                            data-role="acrit_exp_ozon_store_name" />
                                     <?=Helper::showHint(Loc::getMessage('STOCK_HINT', ['#STORE_URL#' => $strStoreUrl]));?>
@@ -463,12 +485,18 @@ class OzonRu extends Plugin {
                 </div>
             </td>
         </tr>
+        <tr>
+            <td class="adm-list-table-cell">
+                <div class="adm-list-table-cell-inner"><?=Loc::getMessage('ACRIT_ORDERS_PLUGIN_OZON_LABEL_MANUAL');?></div>
+            </td>
+        </tr>
         <?
         return ob_get_clean();
     }
 
     protected function getStores(){
         $arStocks = $this->arProfile['OTHER']['STOCKS']['LIST'];
+//        file_put_contents(__DIR__ . '/stores.txt', var_export($arStocks, true));
         if(!is_array($arStocks)){
             $arStocks = [];
         }
@@ -558,6 +586,120 @@ class OzonRu extends Plugin {
 				break;
 		}
 	}
+    /**
+     * Operate orders
+     */
+    public function operateOrder($conf_arr) {
+//        file_put_contents(__DIR__ . '/conf_arr.txt', var_export($conf_arr, true));
+        $list = [];
+//        return $list;
+        $client_id = $this->arProfile['CONNECT_CRED']['client_id'];
+        $api_key = $this->arProfile['CONNECT_CRED']['api_key'];
+        $api = new Orders($client_id, $api_key, $this->arProfile['ID'], $this->strModuleId);
+        foreach ($conf_arr as $item) {
+//            // file_put_contents(__DIR__ . '/item.txt', var_export($item, true));
+            $items = [];
+            foreach ($item['ITEMS'] as $product) {
+                if ( $product['conf'] === 'true' ) {
+                    $items[] = [
+                        'product_id' => $product['marketId'],
+                        'quantity' => $product['quantity']
+                    ];
+                }
+                else continue 2;
+            }
+            if (!empty($items)) {
+                $arr_confirm = [
+                    'packages' => [['products' => $items]],
+                    'posting_number' => $item[ 'ID_MARKET' ],
+                    'with' => [ 'additional_data' =>  true ],
+                ];
+//                file_put_contents(__DIR__ . '/item.txt', \Bitrix\Main\Web\Json::encode($arr_confirm).PHP_EOL, FILE_APPEND);
+                $list[$item['ID_MARKET']] = $api->operateOrder($arr_confirm);
+            }
+        }
+
+//        $res = [];
+//        foreach ($list as $key=>$item) {
+//            if ( $item['success'] == 1 )  {
+//                $req[$key] = true;
+//            } else {
+//                $req[$key] = false;
+//            }
+//        }
+//        return $res;
+//        file_put_contents(__DIR__ . '/conf_list.txt', var_export($list, true));
+        return $list;
+    }
+
+    /**
+     * Get orders listNew
+     */
+
+    public function getOrdersListNew( $date_from, $date_to ) {
+        $list = [];
+        // Get the list
+        $req_filter = [];
+        if ($date_from || $date_to) {
+            $req_filter = [
+                'dateFrom' => date(Orders::DATE_FORMAT, $date_from),
+                'dateTo' => date(Orders::DATE_FORMAT, $date_to),
+                'statuses' => "awaiting_packaging",
+            ];
+        }
+
+//                file_put_contents(__DIR__.'/req_filter.txt', var_export($req_filter, true));
+
+
+        $client_id = $this->arProfile['CONNECT_CRED']['client_id'];
+        $api_key = $this->arProfile['CONNECT_CRED']['api_key'];
+        $api = new Orders($client_id, $api_key, $this->arProfile['ID'], $this->strModuleId);
+        $list = $api->getOrdersListConfirm($req_filter, 1000);
+//        file_put_contents(__DIR__.'/list_confirm.txt', var_export($list, true));
+        $orders = [];
+
+        foreach ($list as $mp_order ) {
+            if ( $this->arProfile['OTHER']['STOCKS']['USE'] === 'N' ||
+                ( $this->arProfile['OTHER']['STOCKS']['USE'] === 'Y' &&
+                in_array( $mp_order['delivery_method']['warehouse_id'],
+                $this->arProfile['OTHER']['STOCKS']['LIST']['ID']))
+            ) {
+                $sum = 0;
+                $offers = [];
+                $itemIndex = 1;
+                foreach ($mp_order['products'] as $item) {
+                    $sum += $item['quantity'] * $item['price'];
+                    $offers[] = [
+                        'itemIndex' => $itemIndex,
+                        'price' => $item['price'],
+                        'finalPrice' => $item['price'],
+                        'quantity' => $item['quantity'],
+                        'marketId' => $item['sku'],
+                        'name' => $item['name'],
+                        'conf' => false,
+//                    'sku' => $item['sku']
+                    ];
+                    $itemIndex++;
+                }
+
+                $orders[] = [
+                    'ID_MARKET' => $mp_order['posting_number'],
+                    'DATE_INSERT' => date('d.m.Y', strtotime($mp_order['in_process_at'])),
+                    'DATE_CONFIRMED' => $mp_order['shipment_date'],
+                    'WAREHOUSE' => $mp_order['delivery_method']['warehouse_id'],
+//                'DATE_DELIVERY' => date('d.m.Y', strtotime($mp_order['deliveryDateTo'])) ,
+                    'DATE_SHIPPING' => date('d.m.Y', strtotime($mp_order['shipment_date'])),
+                    'STATUS_ID' => $mp_order['status'],
+                    'SUMM_MARKET' => $sum,
+                    'ITEMS' => $offers,
+                ];
+            }
+        }
+        return $orders;
+    }
+
+
+
 
 	/**
 	 * Get orders count

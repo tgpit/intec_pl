@@ -1,5 +1,4 @@
 <?
-
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_before.php");
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/sale/prolog.php");
 
@@ -97,25 +96,11 @@ if (!$fCriticalError)
 </style>
 
 
-<div class="adm-detail-content-wrap">
+<!--<div class="adm-detail-content-wrap">
 	<div class="adm-detail-content">
-		<div class="adm-detail-content-item-block">
+		<div class="adm-detail-content-item-block">-->
 
 			<div>
-<? If ($ID==15) { ?>
-<div>
-<?
-if (isset($_GET["filter"]))
-{
-$ar = $_GET["filter"][0][1];
-$parm = "?c=".count($ar)."&".http_build_query($ar, 'n', '&amp;');
-}else{$parm="";}
-?>
-<a href="/1/print.php<?=$parm?>" target="_blank">Сформировать</a>
-</div>
-<? } ?>
-
-
 				<input type="hidden" name="ID" value="<?=$ID?>" />
 						<?php
 						$APPLICATION->IncludeComponent(
@@ -661,10 +646,10 @@ $parm = "?c=".count($ar)."&".http_build_query($ar, 'n', '&amp;');
 						</table>
 			</div>
 
-		</div>
+<!--		</div>
 	</div>
 	<div class="adm-detail-content-btns adm-detail-content-btns-empty"></div>
-</div>
+</div>-->
 
 
 <?

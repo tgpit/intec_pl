@@ -43,7 +43,6 @@ class Field {
 	protected $mAllowedValuesAssociative;
 	protected $bAllowedValuesList;
 	protected $bAllowedValuesPopup;
-	#protected $bAllowedValuesFilter;
 	#
 	protected $bMultiple;
 	protected $strConditions;
@@ -83,47 +82,46 @@ class Field {
 	 *	Mandatory fields: CODE, NAME, INPUT_NAME, PROFILE_ID, IBLOCK_ID
 	 */
 	public function __construct($arParams){
+		$time = microtime(true);
 		$this->arInitialParams = $arParams;
-		#
-		$this->strCode = $arParams['CODE'];
-		$this->strDisplayCode = $arParams['DISPLAY_CODE'];
-		$this->strName = $arParams['NAME'];
-		$this->strNameSuffix = $arParams['NAME_SUFFIX'];
+		$this->strCode = $arParams['CODE'] ?? null;
+		$this->strDisplayCode = $arParams['DISPLAY_CODE'] ?? null;
+		$this->strName = $arParams['NAME'] ?? null;
+		$this->strNameSuffix = $arParams['NAME_SUFFIX'] ?? null;
 		$this->intSort = isset($arParams['SORT']) && is_numeric($arParams['SORT']) ? IntVal($arParams['SORT']) : 100;
 		$this->strType = isset($arParams['DEFAULT_TYPE']) ? $arParams['DEFAULT_TYPE'] : 'FIELD';
-		$this->strInputName = $arParams['INPUT_NAME'];
-		$this->strDescription = strlen($arParams['DESCRIPTION']) ? $arParams['DESCRIPTION'] : null;
-		$this->bPopupDescription = $arParams['POPUP_DESCRIPTION'] === true ? true : false;
-		$this->bRequired = $arParams['REQUIRED'] === true ? true : false;
-		$this->bCustomRequired = $arParams['CUSTOM_REQUIRED'] === true ? true : false;
+		$this->strInputName = $arParams['INPUT_NAME'] ?? null;
+		$this->strDescription = isset($arParams['DESCRIPTION']) && strlen($arParams['DESCRIPTION']) ? $arParams['DESCRIPTION'] : null;
+		$this->bPopupDescription = isset($arParams['POPUP_DESCRIPTION']) && $arParams['POPUP_DESCRIPTION'] === true ? true : false;
+		$this->bRequired = isset($arParams['REQUIRED']) && $arParams['REQUIRED'] === true ? true : false;
+		$this->bCustomRequired = isset($arParams['CUSTOM_REQUIRED']) && $arParams['CUSTOM_REQUIRED'] === true ? true : false;
 		$this->mDefaultValue = isset($arParams['DEFAULT_VALUE']) ? $arParams['DEFAULT_VALUE'] : null;
 		$this->mDefaultValueOffers = isset($arParams['DEFAULT_VALUE_OFFERS']) ? $arParams['DEFAULT_VALUE_OFFERS'] : null;
 		$this->mAllowedValues = isset($arParams['ALLOWED_VALUES']) ? $arParams['ALLOWED_VALUES'] : null;
-		$this->bAllowedValuesCustom = $arParams['ALLOWED_VALUES_CUSTOM'] === true ? true : false;
-		$this->mAllowedValuesUseSelect = $arParams['ALLOWED_VALUES_USE_SELECT'] === true ? true : false;
-		$this->mAllowedValuesAssociative = $arParams['ALLOWED_VALUES_ASSOCIATIVE'] === true ? true : false;
-		$this->bAllowedValuesList = $arParams['ALLOWED_VALUES_LIST'] === true ? true : false;
-		$this->bAllowedValuesPopup = ($arParams['POPUP_ALLOWED_VALUES'] === true || $arParams['ALLOWED_VALUES_POPUP'] === true) ? true : false;
-		#$this->bAllowedValuesFilter = $arParams['ALLOWED_VALUES_FILTER'] === true ? true : false;
-		$this->bMultiple = $arParams['MULTIPLE'] === true ? true : false;
-		$this->strConditions = strlen($arParams['CONDITIONS']) ? $arParams['CONDITIONS'] : (strlen($arParams['DEFAULT_CONDITIONS']) ? $arParams['DEFAULT_CONDITIONS'] : '');
-		$this->bSupportCData = $arParams['CDATA'] ? true : false;
-		$this->bIsPrice = $arParams['IS_PRICE'] ? true : false;
-		$this->bIsCurrency = $arParams['IS_CURRENCY'] ? true : false;
-		$this->intMaxCount = is_numeric($arParams['MAX_COUNT']) && $arParams['MAX_COUNT']>0 ? $arParams['MAX_COUNT'] : 0;
-		$this->bSimpleEmptyMode = $arParams['SIMPLE_EMPTY_MODE'] ? true : false;
-		$this->bIsAdditional = $arParams['IS_ADDITIONAL'] ? true : false;
-		$this->intID = $arParams['IS_ADDITIONAL'] && is_numeric($arParams['ID']) && $arParams['ID']>0 ? $arParams['ID'] : 0;
-		if(!empty($arParams['PARAMS'])){
+		$this->bAllowedValuesCustom = isset($arParams['ALLOWED_VALUES_CUSTOM']) && $arParams['ALLOWED_VALUES_CUSTOM'] === true ? true : false;
+		$this->mAllowedValuesUseSelect = isset($arParams['ALLOWED_VALUES_USE_SELECT']) && $arParams['ALLOWED_VALUES_USE_SELECT'] === true ? true : false;
+		$this->mAllowedValuesAssociative = isset($arParams['ALLOWED_VALUES_ASSOCIATIVE']) && $arParams['ALLOWED_VALUES_ASSOCIATIVE'] === true ? true : false;
+		$this->bAllowedValuesList = isset($arParams['ALLOWED_VALUES_LIST']) && $arParams['ALLOWED_VALUES_LIST'] === true ? true : false;
+		$this->bAllowedValuesPopup = (isset($arParams['POPUP_ALLOWED_VALUES']) && $arParams['POPUP_ALLOWED_VALUES'] === true || isset($arParams['ALLOWED_VALUES_POPUP']) && $arParams['ALLOWED_VALUES_POPUP'] === true) ? true : false;
+		$this->bMultiple = isset($arParams['MULTIPLE']) && $arParams['MULTIPLE'] === true ? true : false;
+		$this->strConditions = isset($arParams['CONDITIONS']) && strlen($arParams['CONDITIONS']) ? $arParams['CONDITIONS'] : (isset($arParams['DEFAULT_CONDITIONS']) && strlen($arParams['DEFAULT_CONDITIONS']) ? $arParams['DEFAULT_CONDITIONS'] : '');
+		$this->bSupportCData = isset($arParams['CDATA']) && $arParams['CDATA'] ? true : false;
+		$this->bIsPrice = isset($arParams['IS_PRICE']) && $arParams['IS_PRICE'] ? true : false;
+		$this->bIsCurrency = isset($arParams['IS_CURRENCY']) && $arParams['IS_CURRENCY'] ? true : false;
+		$this->intMaxCount = isset($arParams['MAX_COUNT']) && is_numeric($arParams['MAX_COUNT']) && $arParams['MAX_COUNT']>0 ? $arParams['MAX_COUNT'] : 0;
+		$this->bSimpleEmptyMode = isset($arParams['SIMPLE_EMPTY_MODE']) && $arParams['SIMPLE_EMPTY_MODE'] ? true : false;
+		$this->bIsAdditional = isset($arParams['IS_ADDITIONAL']) && $arParams['IS_ADDITIONAL'] ? true : false;
+		$this->intID = isset($arParams['IS_ADDITIONAL']) && is_numeric($arParams['ID']) && $arParams['ID']>0 ? $arParams['ID'] : 0;
+		if(isset($arParams['PARAMS']) && !empty($arParams['PARAMS'])){
 			$this->arParams = is_array($arParams['PARAMS']) ? $arParams['PARAMS'] : array();
 		}
-		$this->bIsHeader = $arParams['IS_HEADER'] === true;
-		if($this->bIsHeader && (!is_string($arParams['CODE']) || !strlen($arParams['CODE']))){
-			$this->strCode = MD5(microtime().uniqid().RandString(8));
+		$this->bIsHeader = isset($arParams['IS_HEADER']) && $arParams['IS_HEADER'] === true;
+		if($this->bIsHeader && (!isset($arParams['CODE']) || !is_string($arParams['CODE']) || !strlen($arParams['CODE']))){
+			$this->strCode = MD5(microtime(true).RandString(8));
 		}
 		$this->strPath = isset($arParams['PATH']) ? $arParams['PATH'] : '';
-		$this->bCategoryCustomName = $arParams['CATEGORY_CUSTOM_NAME'] === true ? true : false;
-		$this->bNormalCase = $arParams['NORMAL_CASE'] === true ? true : false;
+		$this->bCategoryCustomName = isset($arParams['CATEGORY_CUSTOM_NAME']) && $arParams['CATEGORY_CUSTOM_NAME'] === true ? true : false;
+		$this->bNormalCase = isset($arParams['NORMAL_CASE']) && $arParams['NORMAL_CASE'] === true ? true : false;
 	}
 	
 	/**
@@ -722,8 +720,7 @@ class Field {
 									'#FIELD#' => $strName,
 								]);
 								$strAllowedValuesHtml = $this->allowedValuesToHtml($arAllowedValues);
-								print Helper::showHint($strAllowedValuesHtml, true, $this->bAllowedValuesPopup, $strPopupTitle
-									/*,$this->bAllowedValuesFilter*/);
+								print Helper::showHint($strAllowedValuesHtml, true, $this->bAllowedValuesPopup, $strPopupTitle);
 							}
 							elseif($this->bAllowedValuesCustom){
 								$strPopupTitle = Loc::getMessage('ACRIT_EXP_STRUCTURE_IBLOCK_FIELD_ALLOWED_VALUES', [
@@ -798,7 +795,6 @@ class Field {
 		return Helper::getHtmlObject(ACRIT_CORE, null, 'field_hint', 'default', [
 			'GROUPS' => &$arGroups,
 			'POPUP' => $this->bAllowedValuesPopup,
-			#'FILTER' => $this->bAllowedValuesFilter,
 			'LIST' => $this->bAllowedValuesList,
 		]);
 	}

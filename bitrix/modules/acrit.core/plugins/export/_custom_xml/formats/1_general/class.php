@@ -34,6 +34,10 @@ class CustomXmlGeneral extends CustomXml {
 	protected static $bSubclass = true;
 	
 	protected $strFileExt;
+
+	protected $bAllowSendToEmail = true;
+	protected $strSendToEmailFileZipKey = 'XML_FILE_URL_ZIP';
+	
 	
 	/**
 	 * Base constructor.
@@ -764,7 +768,9 @@ class CustomXmlGeneral extends CustomXml {
 		switch($strAction){
 			case 'check_xml_valid':
 				$arJsonResult['Success'] = false;
-				$strXml = sprintf('<acrit_item_wrapper>%s</acrit_item_wrapper>', $strXml);
+				$strXml = $arParams['POST']['xml'];
+				$strXml = str_replace('#ENCODING#', $this->arParams['ENCODING'], $strXml);
+				// $strXml = sprintf('<acrit_item_wrapper>%s</acrit_item_wrapper>', $strXml);
 				if(!strlen($strXml)){
 					$arJsonResult['Message'] = static::getMessage('CHECK_XML_VALID_EMPTY');
 				}
@@ -822,7 +828,7 @@ class CustomXmlGeneral extends CustomXml {
 		$strStructure = $arData['PROFILE']['PARAMS']['CUSTOM_XML_STRUCTURE_GENERAL'];
 		if(empty($strStructure) || Xml::xmlToArray($strStructure) === false){
 			$strErrorMessage = static::getMessage('INVALID_XML_GENERAL');
-			Log::getInstance($this->strModuleId)->add($strErrorMessage, $intProfileID);
+			Log::getInstance($this->strModuleId)->add($strErrorMessage.PHP_EOL.$strStructure, $intProfileID);
 			print Helper::showError($strErrorMessage);
 			return Exporter::RESULT_ERROR;
 		}

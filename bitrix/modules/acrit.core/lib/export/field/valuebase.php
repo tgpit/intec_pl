@@ -505,6 +505,55 @@ abstract class ValueBase {
 					}
 				}
 			}
+			# check type == min_price
+			elseif(preg_match('#^MIN_PRICE(__|)(.*?)$#', $strFieldValue, $arMatch)){
+				$mResult = null;
+				$strSuffix = $arMatch[2]; // WITH_DISCOUNT, WITH_DISCOUNT_CURR, DISCOUNT, DISCOUNT_CURR, PERCENT, PERCENT_CURR, CURRENCY
+				$arOptimalPrice = $this->getProductOptimalPrice($arFields['ID']);
+				$strConvertCurrency = $arProfileParams['CURRENCY']['TARGET_CURRENCY'];
+				$bConvert = !!strlen($strConvertCurrency);
+				$strCurrency = $bConvert ? $arProfileParams['CURRENCY']['TARGET_CURRENCY'] : $arOptimalPrice['CURRENCY'];
+				if($strSuffix == 'CURRENCY'){
+					$mResult = $strCurrency;
+				}
+				elseif(is_null($mResult) && is_array($arOptimalPrice)){
+					switch($strSuffix){
+						case 'WITH_DISCOUNT':
+							$this->convertPriceCurrency($arOptimalPrice, $arProfileParams['CURRENCY'], 'DISCOUNT_PRICE');
+							$mResult = $arOptimalPrice['DISCOUNT_PRICE'];
+							break;
+						case 'WITH_DISCOUNT__CURR':
+							$this->convertPriceCurrency($arOptimalPrice, $arProfileParams['CURRENCY'], 'DISCOUNT_PRICE');
+							$mResult = $this->formatCurrency($arOptimalPrice['DISCOUNT_PRICE'], $strCurrency);
+							break;
+						case 'DISCOUNT':
+							$this->convertPriceCurrency($arOptimalPrice, $arProfileParams['CURRENCY'], 'DISCOUNT');
+							$mResult = $arOptimalPrice['DISCOUNT'];
+							break;
+						case 'DISCOUNT__CURR':
+							$this->convertPriceCurrency($arOptimalPrice, $arProfileParams['CURRENCY'], 'DISCOUNT');
+							$mResult = $this->formatCurrency($arOptimalPrice['DISCOUNT'], $strCurrency);
+							break;
+						case 'PERCENT':
+							$mResult = $arOptimalPrice['PERCENT'];
+							break;
+						case 'PERCENT__CURR':
+							$mResult = $this->formatCurrency($arOptimalPrice['PERCENT'], $strCurrency);
+							break;
+						case 'CURR':
+							$this->convertPriceCurrency($arOptimalPrice, $arProfileParams['CURRENCY'], 'BASE_PRICE');
+							$mResult = $this->formatCurrency($arOptimalPrice['BASE_PRICE'], $strCurrency);
+							break;
+						default:
+							$this->convertPriceCurrency($arOptimalPrice, $arProfileParams['CURRENCY'], 'BASE_PRICE');
+							$mResult = $arOptimalPrice['BASE_PRICE'];
+							break;
+					}
+				}
+				if(is_null($mResult)){
+					$mResult = '';
+				}
+			}
 			# check type == price
 			elseif(preg_match('#^CATALOG_PRICE_(\d+)(__|)(.*?)$#', $strFieldValue, $arMatch)){
 				$intPriceID = $arMatch[1];
@@ -523,7 +572,6 @@ abstract class ValueBase {
 							$this->convertPriceCurrency($arPrice, $arProfileParams['CURRENCY']);
 							$arOptimalPrice = $this->getProductOptimalPrice($arFields['ID'], $arPrice);
 							if(is_array($arOptimalPrice)){
-								#$this->convertOptimalPriceCurrency($arOptimalPrice, $arProfileParams['CURRENCY']);
 								switch($strSuffix){
 									case 'WITH_DISCOUNT':
 										$mResult = $arOptimalPrice['DISCOUNT_PRICE'];
@@ -808,14 +856,17 @@ abstract class ValueBase {
 		return $arResult;
 	}
 	
-	protected function getProductOptimalPrice($intProductID, $arPrice){
+	protected function getProductOptimalPrice($intProductID, $arPrice=array()){
 		$intMaxCacheItems = 10;
-		$strKey = $intProductID.'_'.$arPrice['CATALOG_GROUP_ID'];
+		$strKey = isset($arPrice['CATALOG_GROUP_ID']) ? $intProductID.'_'.$arPrice['CATALOG_GROUP_ID'] : $intProductID;
 		$arResult = &static::$arCacheOptimalPrice[$strKey];
 		if(!isset($arResult)){
-			\CCatalogProduct::setUsedCurrency($arPrice['CURRENCY']);
+			if(isset($arPrice['CURRENCY'])){
+				\CCatalogProduct::setUsedCurrency($arPrice['CURRENCY']);
+			}
 			static::setGlobalFlag(true);
-			$arResult = \CCatalogProduct::getOptimalPrice($intProductID, 1, array(), 'N', array($arPrice), $this->strSiteID);
+			$arPrices = !empty($arPrice) ? array($arPrice) : array();
+			$arResult = \CCatalogProduct::getOptimalPrice($intProductID, 1, array(), 'N', $arPrices, $this->strSiteID);
 			static::setGlobalFlag(false);
 			if(is_array($arResult)){
 				$arResult = $arResult['RESULT_PRICE'];
@@ -852,49 +903,20 @@ abstract class ValueBase {
 	/**
 	 *	Convert price currency before get optimal price
 	 */
-	protected function convertPriceCurrency(&$arPrice, $arCurrencyParams){
-		if(is_array($arPrice) && strlen($arCurrencyParams['TARGET_CURRENCY'])){
+	protected function convertPriceCurrency(&$arPrice, $arCurrencyParams, $strKey='PRICE'){
+		if(is_array($arPrice) && isset($arPrice[$strKey]) && strlen($arCurrencyParams['TARGET_CURRENCY'])){
 			$arConverters = CurrencyConverterBase::getConverterList();
 			if(is_array($arConverters) && is_array($arConverters[$arCurrencyParams['RATES_SOURCE']])) {
 				$strClass = $arConverters[$arCurrencyParams['RATES_SOURCE']]['CLASS'];
 				$strFrom = $arPrice['CURRENCY'];
 				$strTo = $arCurrencyParams['TARGET_CURRENCY'];
 				if($strFrom != $strTo){
-					$arPrice['PRICE'] = $strClass::convert($arPrice['PRICE'], $strFrom, $strTo);
+					$arPrice[$strKey] = $strClass::convert($arPrice[$strKey], $strFrom, $strTo);
 					$arPrice['CURRENCY'] = $strTo;
 				}
 			}
 		}
 	}
-	
-	/**
-	 *	Convert currency
-	 */
-	/*
-	protected function convertOptimalPriceCurrency(&$arPrice, $arCurrencyParams){
-		if(is_array($arPrice) && strlen($arCurrencyParams['TARGET_CURRENCY'])){
-			$arConverters = CurrencyConverterBase::getConverterList();
-			if(is_array($arConverters) && is_array($arConverters[$arCurrencyParams['RATES_SOURCE']])) {
-				$strClass = $arConverters[$arCurrencyParams['RATES_SOURCE']]['CLASS'];
-				$strFrom = $arPrice['CURRENCY'];
-				$strTo = $arCurrencyParams['TARGET_CURRENCY'];
-				if($strFrom == $strTo){
-					return;
-				}
-				$fDiscount = $arPrice['BASE_PRICE'] - $arPrice['DISCOUNT_PRICE'];
-				#
-				$arPrice['CURRENCY'] = $strTo;
-				$arPrice['DISCOUNT_PRICE'] = $strClass::convert($arPrice['DISCOUNT_PRICE'], $strFrom, $strTo);
-				$arPrice['DISCOUNT'] = $strClass::convert($fDiscount, $strFrom, $strTo);
-				$arPrice['BASE_PRICE'] = $strClass::convert($arPrice['BASE_PRICE'], $strFrom, $strTo);
-				#
-				$arPrice['DISCOUNT_PRICE'] = number_format($arPrice['DISCOUNT_PRICE'], 2, '.', '');
-				$arPrice['DISCOUNT'] = number_format($arPrice['DISCOUNT'], 2, '.', '');
-				$arPrice['BASE_PRICE'] = number_format($arPrice['BASE_PRICE'], 2, '.', '');
-			}
-		}
-	}
-	*/
 	
 	/**
 	 *	Format currency

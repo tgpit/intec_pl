@@ -75,4 +75,21 @@ class PhotosTable extends Entity\DataManager {
 		}
 		return $result;
 	}
+
+	public static function deleteByVkId($vk_photo_id) {
+		if ($vk_photo_id) {
+			if ($item = self::getList([
+				'select' => [
+					'ID',
+				],
+				'filter' => [
+					'VK_PHOTO_ID' => $vk_photo_id,
+				],
+			])->fetch()) {
+				if ($item['ID']) {
+					self::delete($item['ID']);
+				}
+			}
+		}
+	}
 }

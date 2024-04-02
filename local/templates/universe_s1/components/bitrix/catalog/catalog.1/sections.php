@@ -106,7 +106,6 @@ if (!empty($arIBlock['PICTURE'])) {
 }
 
 ?>
-
 <?= Html::beginTag('div', [
     'id' => $sTemplateId,
     'class' => [

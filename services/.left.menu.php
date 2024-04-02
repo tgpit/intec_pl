@@ -1,2 +1,10 @@
 <?php
-$aMenuLinks = array();
+$aMenuLinks = array(
+	Array(
+		"Рассрочка и кредит", 
+		"/services/cred/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+);

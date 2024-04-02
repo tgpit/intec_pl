@@ -40,9 +40,7 @@ class RepairAndConstruction implements Category, CategoryLevel
 				new RepairAndConstruction\PrefabricatedStructuresAndLogCabins([
 					'name' => self::getLocale('PREFABRICATED_STRUCTURES_AND_LOG_CABINS'),
 				]),
-				new RepairAndConstruction\BuildingMaterials([
-					'name' => self::getLocale('BUILDING_MATERIALS'),
-				]),
+				new RepairAndConstruction\BuildingMaterials(),
 				new RepairAndConstruction\PlumbingWaterAndSauna([
 					'name' => self::getLocale('PLUMBING_WATER_AND_SAUNA'),
 					'oldNames' => self::getLocale('PLUMBING_WATER_AND_SAUNA_OLD_NAMES')

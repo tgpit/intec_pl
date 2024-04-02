@@ -211,4 +211,23 @@ class SearchComponent {
 		
 		return $newPreview;
 	}
+
+	public static function reOrderFullResults($arResult){
+		usort($arResult["SEARCH"], function($a, $b){
+			if ($a["CUSTOM_RANK"] == $b["CUSTOM_RANK"]) {
+				if ($a["TITLE_RANK"] == $b["TITLE_RANK"]) {
+					return 0;
+				}
+				return ($a["TITLE_RANK"] < $b["TITLE_RANK"]) ? -1 : 1;
+			}
+			return ($a["CUSTOM_RANK"] > $b["CUSTOM_RANK"]) ? -1 : 1;
+		});
+		
+		$arResult["arReturn"] = [];
+		foreach($arResult["SEARCH"] as $v){
+			$arResult["arReturn"][] = $v["ITEM_ID"];
+		}
+
+		return $arResult;
+	}
 }

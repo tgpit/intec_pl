@@ -7,8 +7,8 @@ use
 Helper::loadMessages();
 
 $arModes = [
-	'old' => static::getMessage('ASSORTMENT_MODE_OLD'),
 	'new' => static::getMessage('ASSORTMENT_MODE_NEW'),
+	'old' => static::getMessage('ASSORTMENT_MODE_OLD'),
 ];
 $arModes = [
 	'reference' => array_values($arModes),

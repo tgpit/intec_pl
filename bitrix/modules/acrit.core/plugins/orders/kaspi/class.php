@@ -199,8 +199,25 @@ class Kaspi extends Plugin {
             'name' => Loc::getMessage(self::getLangCode('FIELDS_WAYBILL')),
             'direction' => self::SYNC_STOC,
         ];
+        $list[] = [
+            'id' => 'state',
+            'name' => Loc::getMessage(self::getLangCode('FIELDS_STATE')),
+            'direction' => self::SYNC_STOC,
+        ];
 		return $list;
 	}
+
+    public function getStateNameList() {
+        $list = [
+            'NEW' =>  Loc::getMessage(self::getLangCode('STATE_NEW')),
+            'SIGN_REQUIRED' => Loc::getMessage(self::getLangCode('STATE_SIGN_REQUIRED')),
+            'PICKUP' => Loc::getMessage(self::getLangCode('STATE_PICKUP')),
+            'DELIVERY' => Loc::getMessage(self::getLangCode('STATE_DELIVERY')),
+            'KASPI_DELIVERY' => Loc::getMessage(self::getLangCode('STATE_KASPI_DELIVERY')),
+            'ARCHIVE' => Loc::getMessage(self::getLangCode('STATE_ARCHIVE')),
+        ];
+        return $list;
+    }
 
 	public function getTokenLink() {
 		$link = "https://kaspi.kz/mc/#/settings?activeTab=5";
@@ -360,6 +377,10 @@ class Kaspi extends Plugin {
                 'status' => [
                     'TYPE'  => 'STRING',
                     'VALUE' => [$ext_order['attributes']['status']],
+                ],
+                'state' => [
+                    'TYPE'  => 'STRING',
+                    'VALUE' => [ self::getStateNameList()[$ext_order['attributes']['state']].'('.$ext_order['attributes']['state'].')' ],
                 ],
                 'delivery_address' => [
                     'TYPE'  => 'STRING',

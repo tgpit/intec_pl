@@ -11,6 +11,9 @@ $intSearchLimit = 100;
 
 if($bCategoriesFilter && isset($_POST['search']) && Helper::strlen($_POST['search']) > 0){
 	$strSearchText = htmlspecialcharsbx($_POST['search']);
+	if(!Helper::isUtf()){
+		$strSearchText = $APPLICATION->convertCharset($strSearchText, 'UTF-8', 'CP1251');
+	}
 }
 
 $arCategories = $obPlugin->getCategoriesListFiltered($intProfileID, $strSearchText, $intSearchLimit);

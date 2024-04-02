@@ -60,7 +60,8 @@ class Action extends TradingReference\Action
 
 	protected function find() : bool
 	{
-		return $this->environment->orderRegistry()->search($this->command->order()->id()) !== null;
+		return $this->environment->orderRegistry()->search($this->command->order()->id()) !== null
+			|| $this->environment->orderRegistry()->searchBroken($this->command->order()->id()) !== null;
 	}
 
 	protected function resolveSite() : void
@@ -123,6 +124,8 @@ class Action extends TradingReference\Action
 
 	protected function fillTradingPlatform() : void
 	{
+		$this->order->fillXmlId($this->command->order()->id());
+
 		$this->order->fillTradingPlatform(
 			$this->command->order()->id(),
 			$this->trading->getId(),

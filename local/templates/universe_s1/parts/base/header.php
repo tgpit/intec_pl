@@ -29,6 +29,3 @@ global $data;
     false,
     array('HIDE_ICONS' => 'Y')
 ); ?>
-<?
-//var_dump($template->id);
-?>

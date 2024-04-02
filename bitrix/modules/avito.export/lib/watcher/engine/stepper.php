@@ -39,15 +39,7 @@ class Stepper
 			}
 
 			$step->start($action, $stepOffset);
-
-			if ($action === Controller::ACTION_CHANGE)
-			{
-				$step->afterChange();
-			}
-			else if ($action === Controller::ACTION_REFRESH)
-			{
-				$step->afterRefresh();
-			}
+			$step->after($action);
 		}
 	}
 }

@@ -599,8 +599,14 @@ abstract class Backup {
 	 *
 	 */
 	protected static function getProfilesBackupHash(){
-		#return MD5(serialize(Profile::getProfiles()));
-		return MD5(serialize(Helper::call(static::MODULE_ID, 'Profile', 'getProfiles')));
+		$arProfiles = Helper::call(static::MODULE_ID, 'Profile', 'getProfiles');
+		$arProfiles = array_map(function($arProfile){
+			unset($arProfile['DATE_STARTED']);
+			unset($arProfile['DATE_LOCKED']);
+			unset($arProfile['SESSION']);
+			unset($arProfile['LAST_EXPORTED_ITEM']);
+		}, $arProfiles);
+		return MD5(serialize($arProfiles));
 	}
 
 }

@@ -5,7 +5,7 @@ use Bitrix\Iblock;
 use Avito\Export\Feed;
 
 class Fetcher extends Feed\Source\FetcherSkeleton
-	implements Feed\Source\FetcherCloneable
+	implements Feed\Source\FetcherCloneable, Feed\Source\FetcherDelayed
 {
 	protected $compiled = [];
 

@@ -22,7 +22,7 @@ $arParameters['INPUT_ID'] = $arParameters['INPUT_ID'].'-popup-1';
 ?>
     <!--noindex-->
 <?php $APPLICATION->IncludeComponent(
-    "bitrix:search.title",
+    "arturgolubev:search.title",
     "popup.1",
     $arParameters,
     $this->getComponent()

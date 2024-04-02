@@ -76,6 +76,9 @@
 			<Make name="Pacton">
 				<Model name="3139S"></Model>
 			</Make>
+			<Make name="Polkon">
+				<Model name="Автовоз"></Model>
+			</Make>
 			<Make name="Rolfo">
 				<Model name="ARCTIC V 3.6"></Model>
 				<Model name="Auriga Deluxe"></Model>
@@ -83,6 +86,9 @@
 				<Model name="Blizzard 1"></Model>
 				<Model name="Blizzard 1.1"></Model>
 				<Model name="Blizzard 3.1"></Model>
+			</Make>
+			<Make name="SHANGHAI TRAILER">
+				<Model name="LYZ9220TCL"></Model>
 			</Make>
 			<Make name="Sommer">
 				<Model name="SCAR 24"></Model>
@@ -95,6 +101,12 @@
 			</Make>
 			<Make name="Transporter">
 				<Model name="ST-08 Super"></Model>
+			</Make>
+			<Make name="Vega Trailer">
+				<Model name="Vega-3"></Model>
+			</Make>
+			<Make name="YANGMINDA">
+				<Model name="YMD9390TDP"></Model>
 			</Make>
 			<Make name="Yunxiang">
 				<Model name="YDX9200TCL"></Model>
@@ -244,6 +256,9 @@
 			<Make name="DROMECH">
 				<Model name="CNK32/6-H"></Model>
 			</Make>
+			<Make name="Dogan Yildiz">
+				<Model name="DYF 36.5 м3"></Model>
+			</Make>
 			<Make name="Donat Trailer">
 				<Model name="Бензовоз"></Model>
 			</Make>
@@ -375,6 +390,7 @@
 			</Make>
 			<Make name="OMT">
 				<Model name="3SC01-KD"></Model>
+				<Model name="K430.A-1"></Model>
 			</Make>
 			<Make name="Orum">
 				<Model name="USTA-3"></Model>
@@ -563,6 +579,7 @@
 				<Model name="ППЦ 92389"></Model>
 				<Model name="ППЦ 92396"></Model>
 				<Model name="ППЦ 92399С"></Model>
+				<Model name="ППЦ 94315-0000010"></Model>
 				<Model name="ППЦ 96226"></Model>
 				<Model name="ППЦ-912506-0000010"></Model>
 				<Model name="ППЦ-912506-0000010-01"></Model>
@@ -816,11 +833,14 @@
 				<Model name="ППЦ 21-21-2Н УСТ 9465"></Model>
 				<Model name="ППЦ 26-31-3Н УСТ 9465"></Model>
 				<Model name="ППЦ 26-32-3Н УСТ 9465"></Model>
+				<Model name="ППЦ 26К-32-3НУ УСТ 9465"></Model>
 				<Model name="ППЦ 28-32-3Н УСТ 9465"></Model>
 				<Model name="ППЦ 28К-32Л-4"></Model>
 				<Model name="ППЦ 28К-32Л-4 SAF SEVEREST"></Model>
 				<Model name="ППЦ 30К-32-3 УСТ 9465"></Model>
+				<Model name="ППЦ 30К-32Л-5 SEVEREST"></Model>
 				<Model name="ППЦ 30П-24Д-3 УСТ 9465"></Model>
+				<Model name="ППЦ 32К-32Л-5 SEVEREST"></Model>
 				<Model name="ППЦ 32К-42ЛЛ-4 SAF SEVEREST"></Model>
 				<Model name="ППЦ 32К-42ЛЛ-4НР SAF SEVEREST"></Model>
 				<Model name="ППЦ 35П-24Д-3 УСТ 9465"></Model>
@@ -1016,6 +1036,7 @@
 			</Make>
 			<Make name="Everlast">
 				<Model name="BT-EVL"></Model>
+				<Model name="ППЦ-30-06"></Model>
 			</Make>
 			<Make name="Foxtank">
 				<Model name="877721"></Model>
@@ -1224,12 +1245,15 @@
 				<Model name="96931-07"></Model>
 			</Make>
 			<Make name="ПК УСПТ">
+				<Model name="4679P0-10"></Model>
+				<Model name="4679P0-70"></Model>
 				<Model name="4679W7-10"></Model>
 				<Model name="4679W7-30"></Model>
 				<Model name="4679W7-70"></Model>
 				<Model name="4679Р0-70"></Model>
 			</Make>
 			<Make name="Рускомтранс">
+				<Model name="998810-021000"></Model>
 				<Model name="ППЦ 28 м3"></Model>
 				<Model name="ППЦ 30 м3"></Model>
 				<Model name="ППЦ 32 м3"></Model>
@@ -1353,6 +1377,9 @@
 			<Make name="ASKO">
 				<Model name="S-240CS"></Model>
 			</Make>
+			<Make name="Ackermann-Fruehauf">
+				<Model name="Бортовой"></Model>
+			</Make>
 			<Make name="Atlant">
 				<Model name="SWH1235N"></Model>
 				<Model name="SWT1235"></Model>
@@ -1433,6 +1460,9 @@
 			</Make>
 			<Make name="Faymonville">
 				<Model name="D-1"></Model>
+			</Make>
+			<Make name="Fliegl">
+				<Model name="SDS 350"></Model>
 			</Make>
 			<Make name="Floor">
 				<Model name="FLO-12-20K1"></Model>
@@ -1570,6 +1600,8 @@
 				<Model name="LZC9402GFLZX"></Model>
 			</Make>
 			<Make name="Maral">
+				<Model name="MRL4 TKB4"></Model>
+				<Model name="TSK3"></Model>
 				<Model name="Бортовой"></Model>
 			</Make>
 			<Make name="Max Trailer">
@@ -1707,6 +1739,9 @@
 			<Make name="Sommer">
 				<Model name="SP-240"></Model>
 			</Make>
+			<Make name="Specpricep">
+				<Model name="994283"></Model>
+			</Make>
 			<Make name="Steelbear">
 				<Model name="PF-41B"></Model>
 				<Model name="PT-24B"></Model>
@@ -1753,6 +1788,9 @@
 				<Model name="3B2007"></Model>
 				<Model name="бортовой"></Model>
 			</Make>
+			<Make name="Vibepti">
+				<Model name="Westinghouse 475"></Model>
+			</Make>
 			<Make name="Viberti">
 				<Model name="36S15PE/13.6"></Model>
 				<Model name="36S23P/13.6"></Model>
@@ -1798,6 +1836,9 @@
 			<Make name="АвтоСпецСервис">
 				<Model name="935910"></Model>
 			</Make>
+			<Make name="Альфа Трейлер">
+				<Model name="920402"></Model>
+			</Make>
 			<Make name="Амкар (Автомастер)">
 				<Model name="9406-02"></Model>
 				<Model name="9406-10"></Model>
@@ -1837,6 +1878,9 @@
 			<Make name="ВИНГА">
 				<Model name="9444\-m"></Model>
 			</Make>
+			<Make name="ВКР">
+				<Model name="VKRP323D"></Model>
+			</Make>
 			<Make name="ГРПРК">
 				<Model name="ЗАП9370"></Model>
 			</Make>
@@ -1851,6 +1895,7 @@
 				<Model name="9253"></Model>
 			</Make>
 			<Make name="ИПВ (ИнтерПайп Ван)">
+				<Model name="9487SN"></Model>
 				<Model name="9487ТN"></Model>
 			</Make>
 			<Make name="ИнтерПрицеп">
@@ -1887,6 +1932,7 @@
 				<Model name="93866-041"></Model>
 				<Model name="938660"></Model>
 				<Model name="938660-026"></Model>
+				<Model name="938660-041"></Model>
 				<Model name="938660-043"></Model>
 				<Model name="938660-044"></Model>
 				<Model name="938660-2110-001P"></Model>
@@ -1994,6 +2040,7 @@
 			</Make>
 			<Make name="ПК УСПТ">
 				<Model name="4679P5"></Model>
+				<Model name="4679P8"></Model>
 				<Model name="4679W2"></Model>
 				<Model name="4679Р5"></Model>
 				<Model name="4679Р8"></Model>
@@ -2144,6 +2191,7 @@
 				<Model name="ППБ 20Б-21-12К УСТ 9465"></Model>
 				<Model name="ППБ 20Б-21-12К-03 УСТ 9465"></Model>
 				<Model name="ППБ 20Б-21-14К BPW УСТ 9465"></Model>
+				<Model name="ППБ 27-24-12К УСТ 9465 ССУ 1500"></Model>
 				<Model name="ППБ 30Б-31-12К УСТ 9465"></Model>
 				<Model name="ППБ 30Б-31-14К УСТ 9465"></Model>
 				<Model name="ППБ 30Б-32-12К УСТ 9465"></Model>
@@ -2155,6 +2203,10 @@
 				<Model name="ППБ 40Б-42ЛЛ-14К"></Model>
 				<Model name="ППБ 40Б-42ЛЛ-14К SEVEREST"></Model>
 				<Model name="УСТ 946519"></Model>
+			</Make>
+			<Make name="Феникс">
+				<Model name="780110"></Model>
+				<Model name="780111"></Model>
 			</Make>
 			<Make name="ЦТТМ">
 				<Model name="9322"></Model>
@@ -2197,6 +2249,7 @@
 				<Model name="9906-038-БАК"></Model>
 				<Model name="9906-038Б"></Model>
 				<Model name="99064"></Model>
+				<Model name="99064E-04"></Model>
 				<Model name="99065"></Model>
 				<Model name="99065-020К"></Model>
 				<Model name="99065-031"></Model>
@@ -2221,6 +2274,7 @@
 				<Model name="32 куб.м. газовоз"></Model>
 				<Model name="36 куб.м. газовоз"></Model>
 				<Model name="46,5 куб.м. газовоз"></Model>
+				<Model name="PRIZMA 7838103"></Model>
 			</Make>
 			<Make name="Acerbi">
 				<Model name="20G38P520P"></Model>
@@ -2353,6 +2407,8 @@
 			</Make>
 			<Make name="Prizma">
 				<Model name="783840"></Model>
+				<Model name="7838432"></Model>
+				<Model name="7838901"></Model>
 			</Make>
 			<Make name="Shengrun">
 				<Model name="SKW9401GYQ"></Model>
@@ -2495,6 +2551,9 @@
 			<Make name="Донтрейлер">
 				<Model name="864955-5"></Model>
 			</Make>
+			<Make name="Луга СХТ">
+				<Model name="1ПТПС"></Model>
+			</Make>
 			<Make name="МАЗ">
 				<Model name="МАЗ-931010 ППС-18"></Model>
 			</Make>
@@ -2562,6 +2621,9 @@
 				<Model name="Зерновоз 70 м3"></Model>
 				<Model name="Зерновоз с боковой выгрузкой"></Model>
 			</Make>
+			<Make name="AMUR">
+				<Model name="LYR9600JS"></Model>
+			</Make>
 			<Make name="Auflieger">
 				<Model name="45м3"></Model>
 				<Model name="50м3"></Model>
@@ -2621,6 +2683,9 @@
 			<Make name="Fruehauf">
 				<Model name="60 CUB"></Model>
 			</Make>
+			<Make name="Grunwald">
+				<Model name="Gr.T44-AB"></Model>
+			</Make>
 			<Make name="GuteWolf">
 				<Model name="20-55 куб.м зерновоз"></Model>
 			</Make>
@@ -2650,6 +2715,7 @@
 			</Make>
 			<Make name="Krone">
 				<Model name="SD 24"></Model>
+				<Model name="SD 27"></Model>
 				<Model name="SDP27"></Model>
 			</Make>
 			<Make name="LEVSARS">
@@ -2664,6 +2730,8 @@
 				<Model name="55м3"></Model>
 				<Model name="60м3"></Model>
 				<Model name="65м3"></Model>
+				<Model name="MRL4 TCO4"></Model>
+				<Model name="MRL4 TKB4"></Model>
 				<Model name="TR3"></Model>
 			</Make>
 			<Make name="Metaco">
@@ -2678,6 +2746,9 @@
 			</Make>
 			<Make name="Montull">
 				<Model name="SPA3S136SN"></Model>
+			</Make>
+			<Make name="Narko">
+				<Model name="23PP3"></Model>
 			</Make>
 			<Make name="OMEPS">
 				<Model name="CR 47"></Model>
@@ -2718,6 +2789,12 @@
 				<Model name="55м3"></Model>
 				<Model name="SNT"></Model>
 				<Model name="ST4FGS"></Model>
+			</Make>
+			<Make name="Sinanli Tanker">
+				<Model name="ST3HSB"></Model>
+			</Make>
+			<Make name="Spitzer">
+				<Model name="SK 2464 ZIGGVS"></Model>
 			</Make>
 			<Make name="Stas">
 				<Model name="AgroSTAR"></Model>
@@ -2762,6 +2839,7 @@
 				<Model name="AMKAR-9576-30S"></Model>
 				<Model name="AMKAR-АМ9560-30S"></Model>
 				<Model name="AMKAR-АМ9560-31FS"></Model>
+				<Model name="АМ9454-20S"></Model>
 				<Model name="АМ9564-31FS"></Model>
 			</Make>
 			<Make name="Бецема">
@@ -2775,10 +2853,13 @@
 			</Make>
 			<Make name="Битюг">
 				<Model name="Булон 3"></Model>
+				<Model name="Булон 4"></Model>
 				<Model name="Булон 41-48"></Model>
 				<Model name="Булон 50"></Model>
 				<Model name="Булон BPW 41-48"></Model>
 				<Model name="Булон BPW 50"></Model>
+				<Model name="Суффолк 3"></Model>
+				<Model name="Суффолк 4"></Model>
 				<Model name="Суффолк NW 3 A 44"></Model>
 				<Model name="Суффолк NW 3 A 48"></Model>
 				<Model name="Суффолк NW 3 A 55"></Model>
@@ -2877,6 +2958,7 @@
 				<Model name="9585"></Model>
 				<Model name="95941"></Model>
 				<Model name="9595-42"></Model>
+				<Model name="9598"></Model>
 				<Model name="9599"></Model>
 				<Model name="97461"></Model>
 				<Model name="98883"></Model>
@@ -2889,6 +2971,9 @@
 				<Model name="9989 СПЛ65"></Model>
 				<Model name="99892"></Model>
 				<Model name="SL3-41AG (9594)"></Model>
+			</Make>
+			<Make name="Феникс">
+				<Model name="780111"></Model>
 			</Make>
 			<Make name="ЧМЗАП">
 				<Model name="95201"></Model>
@@ -2987,6 +3072,9 @@
 			<Make name="Reisch">
 				<Model name="RSBS-35/24LK"></Model>
 			</Make>
+			<Make name="SDC Trailers">
+				<Model name="SDC"></Model>
+			</Make>
 			<Make name="Schmitz Cargobull">
 				<Model name="S.KO City 24-LZG"></Model>
 				<Model name="S.KO Express"></Model>
@@ -3032,6 +3120,9 @@
 			</Make>
 			<Make name="Альфа Ван Трейлер">
 				<Model name="940134"></Model>
+			</Make>
+			<Make name="ЗНАК">
+				<Model name="Изотермический"></Model>
 			</Make>
 			<Make name="ИПВ (ИнтерПайп Ван)">
 				<Model name="8590UC"></Model>
@@ -3134,9 +3225,13 @@
 			</Make>
 			<Make name="Auflieger">
 				<Model name="TE08"></Model>
+				<Model name="Контейнеровоз"></Model>
 			</Make>
 			<Make name="Averso">
 				<Model name="Контейнеровоз"></Model>
+			</Make>
+			<Make name="Baete">
+				<Model name="SCT324"></Model>
 			</Make>
 			<Make name="Berger">
 				<Model name="9852"></Model>
@@ -3170,6 +3265,9 @@
 				<Model name="SX03 CSU"></Model>
 				<Model name="SX03 CSUBT"></Model>
 				<Model name="SX03 CSUM"></Model>
+			</Make>
+			<Make name="CTTM Cargoline">
+				<Model name="Полуприцеп контейнеровоз"></Model>
 			</Make>
 			<Make name="Carnehl">
 				<Model name="CCS/MHS"></Model>
@@ -3398,6 +3496,9 @@
 				<Model name="0-3-39 LS"></Model>
 				<Model name="Контейнеровоз 20-30 фут"></Model>
 			</Make>
+			<Make name="LOAN">
+				<Model name="LR9400TJZG"></Model>
+			</Make>
 			<Make name="Lecinena">
 				<Model name="LEC.PCT"></Model>
 			</Make>
@@ -3441,6 +3542,10 @@
 			<Make name="Maxilode">
 				<Model name="ST30 4020 RS"></Model>
 			</Make>
+			<Make name="Maxway">
+				<Model name="JKQ9402TJZ"></Model>
+				<Model name="JKQ9404TJZ"></Model>
+			</Make>
 			<Make name="Mega">
 				<Model name="контейнеровоз"></Model>
 			</Make>
@@ -3452,6 +3557,9 @@
 				<Model name="SW-454"></Model>
 				<Model name="SW-480"></Model>
 				<Model name="SW-570"></Model>
+			</Make>
+			<Make name="Mirai Trailer">
+				<Model name="MCC-40DAT"></Model>
 			</Make>
 			<Make name="Monon">
 				<Model name="CC-238LW"></Model>
@@ -3598,6 +3706,9 @@
 				<Model name="983933K"></Model>
 				<Model name="983940-050K"></Model>
 			</Make>
+			<Make name="TIRKON TREYLER">
+				<Model name="4A"></Model>
+			</Make>
 			<Make name="TONGDA">
 				<Model name="TDZ9402TJZE"></Model>
 			</Make>
@@ -3687,6 +3798,9 @@
 			<Make name="АвтоСпецСервис">
 				<Model name="935911-1"></Model>
 			</Make>
+			<Make name="Альфа Трейлер">
+				<Model name="920401"></Model>
+			</Make>
 			<Make name="Амкар (Автомастер)">
 				<Model name="9406-33S"></Model>
 				<Model name="AMKAR-8564-11"></Model>
@@ -3725,6 +3839,7 @@
 				<Model name="853335"></Model>
 				<Model name="853336"></Model>
 				<Model name="853344"></Model>
+				<Model name="853375"></Model>
 				<Model name="853384"></Model>
 				<Model name="853385"></Model>
 			</Make>
@@ -3798,6 +3913,9 @@
 			<Make name="Политранс">
 				<Model name="ТСП 94164"></Model>
 			</Make>
+			<Make name="Псковский тракторный завод">
+				<Model name="ППСТ"></Model>
+			</Make>
 			<Make name="РИАТ">
 				<Model name="924902"></Model>
 			</Make>
@@ -3822,6 +3940,7 @@
 				<Model name="ППК 40-42ЛЛ-12"></Model>
 				<Model name="ППК 40-42ЛЛ-12 SAF"></Model>
 				<Model name="ППК 40Б-42ЛЛ-12 SAF"></Model>
+				<Model name="ППК 40Б-42ЛЛ-12 SEVEREST"></Model>
 			</Make>
 			<Make name="СЗАП">
 				<Model name="9080"></Model>
@@ -3913,6 +4032,9 @@
 				<Model name="ППК 40-42ЛЛ-12 SEVEREST"></Model>
 				<Model name="ППК 50-24Д-12КБ УСТ 9465"></Model>
 			</Make>
+			<Make name="Феникс">
+				<Model name="780112"></Model>
+			</Make>
 			<Make name="ЧМЗ">
 				<Model name="ППК 15"></Model>
 				<Model name="ППК 16"></Model>
@@ -3968,6 +4090,9 @@
 			<Make name="BERDEX">
 				<Model name="SM3"></Model>
 			</Make>
+			<Make name="Carsan">
+				<Model name="CTS1"></Model>
+			</Make>
 			<Make name="Dogan Yildiz">
 				<Model name="DYF 35 м3"></Model>
 				<Model name="DYF 36 м3"></Model>
@@ -4009,6 +4134,9 @@
 			<Make name="Kassbohrer">
 				<Model name="SSL"></Model>
 				<Model name="Silolegend SSL-45/3"></Model>
+			</Make>
+			<Make name="Leveques">
+				<Model name="SR 3420"></Model>
 			</Make>
 			<Make name="Menci">
 				<Model name="KL"></Model>
@@ -4293,6 +4421,9 @@
 				<Model name="989114-020"></Model>
 				<Model name="989115-020"></Model>
 			</Make>
+			<Make name="Saab">
+				<Model name="9893"></Model>
+			</Make>
 			<Make name="Schmitz Cargobull">
 				<Model name="S01"></Model>
 				<Model name="SCF 24"></Model>
@@ -4491,6 +4622,7 @@
 				<Model name="Щеповоз"></Model>
 			</Make>
 			<Make name="ПК УСПТ">
+				<Model name="4679P9"></Model>
 				<Model name="4679W4"></Model>
 				<Model name="4679Р5"></Model>
 				<Model name="4679Р6-10"></Model>
@@ -4514,10 +4646,14 @@
 				<Model name="Сортиментовоз 8м"></Model>
 			</Make>
 			<Make name="САВ">
+				<Model name="83433RC4"></Model>
 				<Model name="93182"></Model>
 				<Model name="93182R"></Model>
 				<Model name="93182RC7"></Model>
 				<Model name="99402-0000010-03В"></Model>
+			</Make>
+			<Make name="САП">
+				<Model name="946224"></Model>
 			</Make>
 			<Make name="СДМ-КАРАТ">
 				<Model name="7078H4"></Model>
@@ -4603,6 +4739,9 @@
 				<Model name="9180-0000032"></Model>
 				<Model name="9180-0000033"></Model>
 				<Model name="9180-0000034"></Model>
+			</Make>
+			<Make name="Феникс">
+				<Model name="780113"></Model>
 			</Make>
 			<Make name="ЧМЗ">
 				<Model name="ППСВ 15"></Model>
@@ -4693,6 +4832,9 @@
 				<Model name="FerroSTAR"></Model>
 				<Model name="ScrapSTAR"></Model>
 			</Make>
+			<Make name="Trailor">
+				<Model name="Ломовоз"></Model>
+			</Make>
 			<Make name="Turbos Hoet">
 				<Model name="OPL/3AT/38/03BSRM"></Model>
 			</Make>
@@ -4716,7 +4858,6 @@
 				<Model name="938660"></Model>
 			</Make>
 			<Make name="ПЗГТ">
-				<Model name="844000"></Model>
 				<Model name="Несамосвальный"></Model>
 			</Make>
 			<Make name="ПК УСПТ">
@@ -4758,6 +4899,9 @@
 				<Model name="K100 Next"></Model>
 				<Model name="K100 Waste Next"></Model>
 				<Model name="K200 HDX Waste"></Model>
+			</Make>
+			<Make name="Kraker">
+				<Model name="K-Force"></Model>
 			</Make>
 			<Make name="Stas">
 				<Model name="EcoSTAR"></Model>
@@ -5026,6 +5170,7 @@
 			</Make>
 			<Make name="LAG">
 				<Model name="0-3-36T1"></Model>
+				<Model name="GSA-C 20 I"></Model>
 				<Model name="O-3-37.5"></Model>
 			</Make>
 			<Make name="LSU">
@@ -5041,6 +5186,8 @@
 				<Model name="Пищевая цистерна"></Model>
 			</Make>
 			<Make name="Magyar">
+				<Model name="SMFF"></Model>
+				<Model name="SR34ESRA"></Model>
 				<Model name="SR38F2"></Model>
 				<Model name="ST28A"></Model>
 			</Make>
@@ -5104,6 +5251,7 @@
 				<Model name="SF 2440"></Model>
 				<Model name="SK 2253 ZF"></Model>
 				<Model name="SK 2460 CAL"></Model>
+				<Model name="SK 2460 ZIAL"></Model>
 			</Make>
 			<Make name="Steelbear">
 				<Model name="718815"></Model>
@@ -5123,6 +5271,7 @@
 			<Make name="Van Hool">
 				<Model name="30700 л пищевая"></Model>
 				<Model name="31500 л пищевая"></Model>
+				<Model name="Silo Tanker 60m3 3G2001"></Model>
 			</Make>
 			<Make name="Viberti">
 				<Model name="36S7EVP"></Model>
@@ -5172,6 +5321,8 @@
 				<Model name="ОТА 16"></Model>
 			</Make>
 			<Make name="ПК УСПТ">
+				<Model name="4679P0-20"></Model>
+				<Model name="4679P0-21"></Model>
 				<Model name="4679P7-20"></Model>
 				<Model name="4679W7-20"></Model>
 				<Model name="4679Z3"></Model>
@@ -5430,6 +5581,7 @@
 			</Make>
 			<Make name="Grunwald">
 				<Model name="972200"></Model>
+				<Model name="GRW3R1"></Model>
 				<Model name="Gr.RF"></Model>
 			</Make>
 			<Make name="GuteWolf">
@@ -5489,6 +5641,9 @@
 			</Make>
 			<Make name="LAG">
 				<Model name="0-3-38 EZCL"></Model>
+			</Make>
+			<Make name="LONG GUA">
+				<Model name="LGC9400XLCD"></Model>
 			</Make>
 			<Make name="Lamberet">
 				<Model name="CS3PPF"></Model>
@@ -5639,6 +5794,7 @@
 				<Model name="SKO 24 L"></Model>
 				<Model name="SKO 24 L-FP"></Model>
 				<Model name="SKO 24/L - 13.4 FP"></Model>
+				<Model name="SKO 24/L 13.4 FP COOL V7"></Model>
 				<Model name="SKO 27"></Model>
 				<Model name="SKO24 L COOL V7"></Model>
 				<Model name="ZKO"></Model>
@@ -5657,6 +5813,9 @@
 			</Make>
 			<Make name="Sommer">
 				<Model name="SG-240TK"></Model>
+			</Make>
+			<Make name="Sotrans">
+				<Model name="SR3-1"></Model>
 			</Make>
 			<Make name="Steelbear">
 				<Model name="PC-24T"></Model>
@@ -5725,12 +5884,18 @@
 			<Make name="Wilken">
 				<Model name="S24-4-2"></Model>
 			</Make>
+			<Make name="Yildiz Treyler">
+				<Model name="YTRR04"></Model>
+			</Make>
 			<Make name="York">
 				<Model name="YTV36RN"></Model>
 				<Model name="YTV42/3ARN"></Model>
 			</Make>
 			<Make name="Альфа Ван Трейлер">
 				<Model name="940135"></Model>
+			</Make>
+			<Make name="Альфа Трейлер">
+				<Model name="920404"></Model>
 			</Make>
 			<Make name="ИПВ (ИнтерПайп Ван)">
 				<Model name="9487ST"></Model>
@@ -5750,6 +5915,7 @@
 			<Make name="МосДизайнМаш">
 				<Model name="970101"></Model>
 				<Model name="МДМ-9711"></Model>
+				<Model name="МДМ-9721"></Model>
 			</Make>
 			<Make name="Нефаз">
 				<Model name="93341"></Model>
@@ -5840,6 +6006,7 @@
 			</Make>
 			<Make name="Bodex">
 				<Model name="KIS 3B"></Model>
+				<Model name="KIS 3WS1"></Model>
 				<Model name="KIS 3WS2"></Model>
 			</Make>
 			<Make name="Bonum">
@@ -6114,6 +6281,7 @@
 				<Model name="32м3"></Model>
 				<Model name="34м3"></Model>
 				<Model name="45м3"></Model>
+				<Model name="MRL4 TCO4"></Model>
 			</Make>
 			<Make name="MaxStrel">
 				<Model name="18 куб.м"></Model>
@@ -6262,6 +6430,7 @@
 				<Model name="S.KI Solid для объемных грузов"></Model>
 				<Model name="S.KI Solid строительный"></Model>
 				<Model name="SCO503"></Model>
+				<Model name="SGFS3"></Model>
 				<Model name="SKI 24 SL 7.2"></Model>
 				<Model name="SKI 24 SL3AT 8.2"></Model>
 				<Model name="SKI 39 - 8.5"></Model>
@@ -6319,6 +6488,9 @@
 			<Make name="Tecnokar">
 				<Model name="SuperTop F1"></Model>
 				<Model name="Talento"></Model>
+			</Make>
+			<Make name="Tokyu">
+				<Model name="TD152L"></Model>
 			</Make>
 			<Make name="Total Trailers">
 				<Model name="FAT 37"></Model>
@@ -6385,6 +6557,7 @@
 				<Model name="NW 3 S 30 HP"></Model>
 				<Model name="NW 3 S 30 HP М4"></Model>
 				<Model name="NW 3 S 30 HPKC 55"></Model>
+				<Model name="NW 3 S 30 KO"></Model>
 				<Model name="NW 3 S 33 HP"></Model>
 				<Model name="NW 3 S 33 HP M4"></Model>
 				<Model name="NW 3 S 33 KO"></Model>
@@ -6442,6 +6615,9 @@
 			<Make name="АТМ">
 				<Model name="ОКА 15/27"></Model>
 			</Make>
+			<Make name="Альфа Трейлер">
+				<Model name="920403"></Model>
+			</Make>
 			<Make name="Амкар (Автомастер)">
 				<Model name="9576-02Е"></Model>
 				<Model name="AMKAR-9576"></Model>
@@ -6469,8 +6645,6 @@
 			</Make>
 			<Make name="Битюг">
 				<Model name="Комтуа 3"></Model>
-				<Model name="Суффолк 3"></Model>
-				<Model name="Суффолк 4"></Model>
 			</Make>
 			<Make name="Бобруйскагромаш">
 				<Model name="ПСТБ-12"></Model>
@@ -6592,6 +6766,7 @@
 				<Model name="924900-130"></Model>
 				<Model name="924900-133"></Model>
 				<Model name="924900-317"></Model>
+				<Model name="924900-33BD"></Model>
 				<Model name="924900-33H1"></Model>
 				<Model name="924900-33H2"></Model>
 				<Model name="924940"></Model>
@@ -6643,6 +6818,7 @@
 			</Make>
 			<Make name="СпецАвтоТехника">
 				<Model name="САТ-118"></Model>
+				<Model name="САТ-118А"></Model>
 				<Model name="САТ-500"></Model>
 			</Make>
 			<Make name="СтавПрицеп">
@@ -6722,6 +6898,9 @@
 			</Make>
 			<Make name="ФИШТ">
 				<Model name="9544-04"></Model>
+			</Make>
+			<Make name="Феникс">
+				<Model name="780114"></Model>
 			</Make>
 			<Make name="ЦТТМ">
 				<Model name="962200"></Model>
@@ -6885,6 +7064,9 @@
 			<Make name="M&amp;G">
 				<Model name="FFC20Y"></Model>
 			</Make>
+			<Make name="Maral">
+				<Model name="TSK3"></Model>
+			</Make>
 			<Make name="Mega">
 				<Model name="тентованный"></Model>
 			</Make>
@@ -6924,6 +7106,9 @@
 				<Model name="OPTIMA LIGHT"></Model>
 				<Model name="OPTIMUM STANDARTS"></Model>
 				<Model name="ULTIMA TILT"></Model>
+			</Make>
+			<Make name="Riotrailer">
+				<Model name="Тентованный"></Model>
 			</Make>
 			<Make name="Robert">
 				<Model name="SPS3355"></Model>
@@ -7274,6 +7459,8 @@
 				<Model name="ППТС-6"></Model>
 			</Make>
 			<Make name="МордовАгроМаш">
+				<Model name="1ПТС-2"></Model>
+				<Model name="ППТС-4,5"></Model>
 				<Model name="ППТС-5"></Model>
 				<Model name="ПРКТ-10-02"></Model>
 				<Model name="ПРКТ-10-03"></Model>
@@ -7310,6 +7497,9 @@
 			<Make name="РМЗ">
 				<Model name="1ППС-3,5"></Model>
 				<Model name="2ППС-12"></Model>
+			</Make>
+			<Make name="РУФ-2">
+				<Model name="Altai Agro 803"></Model>
 			</Make>
 			<Make name="Ригасельмаш">
 				<Model name="РОУ-4"></Model>
@@ -7377,7 +7567,10 @@
 			</Make>
 			<Make name="ЧКЗ-Агро">
 				<Model name="ПТВ"></Model>
+				<Model name="ПТВ-256"></Model>
+				<Model name="ПТВ-261"></Model>
 				<Model name="ПТВ-271"></Model>
+				<Model name="ПТВ-3101"></Model>
 				<Model name="ПТВ-381"></Model>
 				<Model name="ПТВ-391"></Model>
 				<Model name="ПТВ-4101"></Model>
@@ -7449,6 +7642,8 @@
 				<Model name="LBH1060"></Model>
 				<Model name="LBH1070"></Model>
 				<Model name="LBH1272"></Model>
+				<Model name="LBT 1260"></Model>
+				<Model name="LBT 1270"></Model>
 				<Model name="LBT1240"></Model>
 			</Make>
 			<Make name="Atoka">
@@ -7638,6 +7833,7 @@
 				<Model name="CargoMAX"></Model>
 				<Model name="CombiMAX"></Model>
 				<Model name="EuroMAX"></Model>
+				<Model name="F-S43-1AAF"></Model>
 				<Model name="F-S53-1AAF"></Model>
 				<Model name="FlexMAX"></Model>
 				<Model name="GigaMAX"></Model>
@@ -7661,6 +7857,7 @@
 				<Model name="FLW429"></Model>
 			</Make>
 			<Make name="Fliegl">
+				<Model name="SDS 470 Т"></Model>
 				<Model name="SDS 480"></Model>
 				<Model name="SDS350"></Model>
 			</Make>
@@ -7860,6 +8057,12 @@
 			<Make name="ICE BEAR">
 				<Model name="TDZ9400TDPB"></Model>
 			</Make>
+			<Make name="INTRAL">
+				<Model name="918343"></Model>
+			</Make>
+			<Make name="ISO PAKCS">
+				<Model name="LOWBED"></Model>
+			</Make>
 			<Make name="JAOU">
 				<Model name="14/22"></Model>
 			</Make>
@@ -7919,6 +8122,9 @@
 			</Make>
 			<Make name="Kotschenreuther">
 				<Model name="STL-1716L"></Model>
+			</Make>
+			<Make name="Krone">
+				<Model name="SD 40"></Model>
 			</Make>
 			<Make name="LAG">
 				<Model name="LAG-0-3-42KC"></Model>
@@ -7993,6 +8199,12 @@
 			<Make name="Luyue">
 				<Model name="LHX0403TDP"></Model>
 			</Make>
+			<Make name="MAXYSTRONG">
+				<Model name="3-993541"></Model>
+				<Model name="3L-993552"></Model>
+				<Model name="4-994651"></Model>
+				<Model name="4L-994662"></Model>
+			</Make>
 			<Make name="MOL">
 				<Model name="D712/30TRI/50/62"></Model>
 			</Make>
@@ -8015,6 +8227,7 @@
 				<Model name="CH 240-A"></Model>
 			</Make>
 			<Make name="Max Trailer">
+				<Model name="F-S43-1A1Y"></Model>
 				<Model name="F-S43-1AAF"></Model>
 				<Model name="F-S44-1A1Y"></Model>
 				<Model name="Max100"></Model>
@@ -8313,6 +8526,9 @@
 			<Make name="Tiangong">
 				<Model name="ZC9406TDP"></Model>
 			</Make>
+			<Make name="Tirsan">
+				<Model name="TSN-MT-SLU"></Model>
+			</Make>
 			<Make name="Titan">
 				<Model name="226T3"></Model>
 				<Model name="226T4"></Model>
@@ -8338,6 +8554,7 @@
 			</Make>
 			<Make name="Tongyada">
 				<Model name="CTY9380TDP"></Model>
+				<Model name="CTY9860TDPXZ"></Model>
 				<Model name="ZC9406TDP"></Model>
 			</Make>
 			<Make name="Trailmaster">
@@ -8615,6 +8832,9 @@
 			<Make name="ОДАЗ">
 				<Model name="830030"></Model>
 			</Make>
+			<Make name="ПК УСПТ">
+				<Model name="4679Y7"></Model>
+			</Make>
 			<Make name="Политранс">
 				<Model name="9416-010"></Model>
 				<Model name="ТСП 94163"></Model>
@@ -8659,6 +8879,7 @@
 				<Model name="931824"></Model>
 				<Model name="931825"></Model>
 				<Model name="931826"></Model>
+				<Model name="93182А"></Model>
 				<Model name="93183RE5"></Model>
 			</Make>
 			<Make name="САП">
@@ -8732,6 +8953,7 @@
 				<Model name="994273"></Model>
 				<Model name="994277"></Model>
 				<Model name="994282"></Model>
+				<Model name="994293"></Model>
 				<Model name="9942H4"></Model>
 				<Model name="9942L3"></Model>
 				<Model name="9942L4"></Model>
@@ -8806,6 +9028,9 @@
 				<Model name="SE46"></Model>
 				<Model name="SE54"></Model>
 				<Model name="Trailer"></Model>
+			</Make>
+			<Make name="Технодом">
+				<Model name="983933"></Model>
 			</Make>
 			<Make name="Тонар">
 				<Model name="94422"></Model>
@@ -8963,6 +9188,9 @@
 			<Make name="Schweriner">
 				<Model name="CR"></Model>
 			</Make>
+			<Make name="Van Hool">
+				<Model name="40-20"></Model>
+			</Make>
 			<Make name="МосДизайнМаш">
 				<Model name="970101"></Model>
 			</Make>
@@ -9026,6 +9254,10 @@
 			</Make>
 			<Make name="Cimtasa">
 				<Model name="CMCI-111"></Model>
+			</Make>
+			<Make name="Clayton">
+				<Model name="Commercials"></Model>
+				<Model name="Химическая цистерна"></Model>
 			</Make>
 			<Make name="Cobo">
 				<Model name="SCI"></Model>
@@ -9255,6 +9487,9 @@
 			<Make name="Polar">
 				<Model name="SFJ3"></Model>
 			</Make>
+			<Make name="Prizma">
+				<Model name="7838901"></Model>
+			</Make>
 			<Make name="ROHR">
 				<Model name="TAL-A-MKZA 42.5"></Model>
 			</Make>
@@ -9282,6 +9517,9 @@
 			</Make>
 			<Make name="Sinan Trailer">
 				<Model name="SNT"></Model>
+			</Make>
+			<Make name="Spitzer">
+				<Model name="SK 2460 ZIAL"></Model>
 			</Make>
 			<Make name="Stadler">
 				<Model name="Химическая цистерна"></Model>
@@ -9325,6 +9563,7 @@
 				<Model name="96451"></Model>
 				<Model name="964604"></Model>
 				<Model name="96462"></Model>
+				<Model name="АША-2"></Model>
 				<Model name="МЖА-6"></Model>
 				<Model name="ЦЖУ-10-1,8"></Model>
 				<Model name="ЦЖУ-17,5-2,0"></Model>
@@ -9399,6 +9638,10 @@
 			</Make>
 			<Make name="ПК УСПТ">
 				<Model name="4679P0-10"></Model>
+				<Model name="4679P0-30"></Model>
+				<Model name="4679P0-40"></Model>
+				<Model name="4679P0-50"></Model>
+				<Model name="4679P0-60"></Model>
 				<Model name="4679P7-20"></Model>
 				<Model name="4679P7-40"></Model>
 				<Model name="4679W7-21"></Model>
@@ -9421,6 +9664,7 @@
 			</Make>
 			<Make name="Полуприцеп">
 				<Model name="STB 42/10-24"></Model>
+				<Model name="М-4ВЦП-12"></Model>
 			</Make>
 			<Make name="Рузхиммаш">
 				<Model name="961121"></Model>
@@ -9725,6 +9969,9 @@
 			<Make name="Schweriner">
 				<Model name="SF24/13,6"></Model>
 			</Make>
+			<Make name="Sheng Yun">
+				<Model name="SRD9350XXYE"></Model>
+			</Make>
 			<Make name="Sommer">
 				<Model name="SG-240ST"></Model>
 			</Make>
@@ -9758,9 +10005,15 @@
 				<Model name="9370"></Model>
 				<Model name="9970"></Model>
 			</Make>
+			<Make name="Полуприцеп">
+				<Model name="НВ-137"></Model>
+			</Make>
 			<Make name="ТАНКЕР">
 				<Model name="86731F"></Model>
 				<Model name="86732F"></Model>
+			</Make>
+			<Make name="Техпро">
+				<Model name="971401"></Model>
 			</Make>
 			<Make name="Хун Ци">
 				<Model name="Цельнометаллический фургон"></Model>
@@ -9793,6 +10046,9 @@
 			</Make>
 			<Make name="Atcomex">
 				<Model name="24 TRI/3"></Model>
+			</Make>
+			<Make name="Atlant">
+				<Model name="CTT 3639"></Model>
 			</Make>
 			<Make name="Auflieger">
 				<Model name="28м3"></Model>
@@ -10213,6 +10469,11 @@
 			<Make name="Dapa">
 				<Model name="P20"></Model>
 			</Make>
+			<Make name="Fliegl">
+				<Model name="SDS 350 Maxi"></Model>
+				<Model name="SDS 350 Mega"></Model>
+				<Model name="SDS 350 Standart"></Model>
+			</Make>
 			<Make name="Fruehauf">
 				<Model name="T34CGN"></Model>
 			</Make>
@@ -10273,9 +10534,11 @@
 			</Make>
 			<Make name="Maral">
 				<Model name="MRL4 TSK4"></Model>
+				<Model name="TSK3"></Model>
 			</Make>
 			<Make name="Meusburger Новтрак">
 				<Model name="SP-360PR"></Model>
+				<Model name="TP-345"></Model>
 			</Make>
 			<Make name="Narko">
 				<Model name="S3MP23C11"></Model>
@@ -10327,6 +10590,9 @@
 			<Make name="Van Hool">
 				<Model name="3B0064"></Model>
 				<Model name="3B2007"></Model>
+			</Make>
+			<Make name="WAGNERMAIER">
+				<Model name="CRS3 FOR A LONG TIME"></Model>
 			</Make>
 			<Make name="WIELTON">
 				<Model name="Mega NS 34 KTM"></Model>
@@ -10428,6 +10694,7 @@
 				<Model name="24 LTMn"></Model>
 				<Model name="24 LTn"></Model>
 				<Model name="24 LTnP"></Model>
+				<Model name="SAPL 24LTP"></Model>
 			</Make>
 			<Make name="Boalloy">
 				<Model name="SAT 24"></Model>
@@ -10534,6 +10801,7 @@
 				<Model name="HSA 2006"></Model>
 			</Make>
 			<Make name="ICE BEAR">
+				<Model name="TDZ9400XXY"></Model>
 				<Model name="TDZ9401XXY"></Model>
 			</Make>
 			<Make name="ISO PAKCS">
@@ -10572,6 +10840,7 @@
 				<Model name="SNCS24"></Model>
 			</Make>
 			<Make name="Koluman">
+				<Model name="S"></Model>
 				<Model name="Полная штора"></Model>
 			</Make>
 			<Make name="Kotschenreuther">
@@ -10604,6 +10873,9 @@
 			</Make>
 			<Make name="Liang Shengpai">
 				<Model name="SHS9401XXYC"></Model>
+			</Make>
+			<Make name="Luoxiang">
+				<Model name="LXC9400XXYD"></Model>
 			</Make>
 			<Make name="Luxuda">
 				<Model name="LZC9304QGZX"></Model>
@@ -10640,6 +10912,7 @@
 				<Model name="SP-345 PR"></Model>
 				<Model name="SP-352PR"></Model>
 				<Model name="SP-361PR"></Model>
+				<Model name="SP-451"></Model>
 				<Model name="SP-454PR"></Model>
 				<Model name="TP-345"></Model>
 				<Model name="TP-461"></Model>
@@ -10753,6 +11026,12 @@
 			<Make name="Stena">
 				<Model name="SD CS 20L"></Model>
 			</Make>
+			<Make name="TIANJUN">
+				<Model name="ATLANTIC TJV"></Model>
+			</Make>
+			<Make name="TIRKON TREYLER">
+				<Model name="4A"></Model>
+			</Make>
 			<Make name="Tirsan">
 				<Model name="XS"></Model>
 			</Make>
@@ -10792,8 +11071,12 @@
 			<Make name="Viberti">
 				<Model name="34S20CD"></Model>
 			</Make>
+			<Make name="WAGNERMAIER">
+				<Model name="CRS3 FOR A LONG TIME"></Model>
+			</Make>
 			<Make name="WIELTON">
 				<Model name="NS 3"></Model>
+				<Model name="NS 3 K"></Model>
 				<Model name="NS 3 KB"></Model>
 				<Model name="NS 3 KB M2"></Model>
 				<Model name="NS 3 KB М4"></Model>
@@ -10802,6 +11085,9 @@
 			<Make name="Wackenhut">
 				<Model name="SJ24L"></Model>
 				<Model name="SK22/ M3"></Model>
+			</Make>
+			<Make name="YANG&#39;S">
+				<Model name="WTY9400CLB"></Model>
 			</Make>
 			<Make name="York">
 				<Model name="Fk24"></Model>
@@ -10820,6 +11106,9 @@
 			</Make>
 			<Make name="Zremb">
 				<Model name="263"></Model>
+			</Make>
+			<Make name="АКРО">
+				<Model name="Восток"></Model>
 			</Make>
 			<Make name="Амкар (Автомастер)">
 				<Model name="AMKAR-9408"></Model>
@@ -11034,6 +11323,9 @@
 			<Make name="CUSTOM TRAILER">
 				<Model name="296/U"></Model>
 			</Make>
+			<Make name="FISSO">
+				<Model name="L-Max"></Model>
+			</Make>
 			<Make name="Hupert Weis">
 				<Model name="UT-2000"></Model>
 			</Make>
@@ -11153,6 +11445,7 @@
 				<Model name="8298А6"></Model>
 			</Make>
 			<Make name="ЦТТМ">
+				<Model name="847700"></Model>
 				<Model name="Автовоз до 3900кг"></Model>
 				<Model name="Автовоз до 8000кг"></Model>
 			</Make>
@@ -11217,6 +11510,7 @@
 				<Model name="ПЦ-17"></Model>
 			</Make>
 			<Make name="Нефаз">
+				<Model name="8602-03"></Model>
 				<Model name="8602-10"></Model>
 			</Make>
 			<Make name="ПК УСПТ">
@@ -11510,6 +11804,8 @@
 				<Model name="3392F7"></Model>
 			</Make>
 			<Make name="Вектор">
+				<Model name="462301"></Model>
+				<Model name="462302"></Model>
 				<Model name="ЛАВ-81022"></Model>
 			</Make>
 			<Make name="ГАЗ">
@@ -11586,6 +11882,7 @@
 			<Make name="МЗСА">
 				<Model name="831134.111"></Model>
 				<Model name="832132"></Model>
+				<Model name="832162"></Model>
 				<Model name="832321"></Model>
 			</Make>
 			<Make name="Машино-Деталь">
@@ -11677,6 +11974,9 @@
 			<Make name="СпецАвтоКам (САК)">
 				<Model name="83703G"></Model>
 				<Model name="85300G"></Model>
+			</Make>
+			<Make name="СпецМаш">
+				<Model name="849061"></Model>
 			</Make>
 			<Make name="СпецМашПрицеп">
 				<Model name="849013"></Model>
@@ -12076,6 +12376,7 @@
 				<Model name="856102-4014-000"></Model>
 				<Model name="856103-020"></Model>
 				<Model name="856103-022-000"></Model>
+				<Model name="856103-032-000"></Model>
 				<Model name="МАЗ-856102-020-000"></Model>
 			</Make>
 			<Make name="Машино-Деталь">
@@ -12096,11 +12397,15 @@
 				<Model name="852911А"></Model>
 				<Model name="852911А-1"></Model>
 				<Model name="852911А-2"></Model>
+				<Model name="852911В"></Model>
 			</Make>
 			<Make name="СЗАП">
 				<Model name="83053"></Model>
 				<Model name="8357"></Model>
 				<Model name="8357-02"></Model>
+			</Make>
+			<Make name="СпецАвтоКомплект">
+				<Model name="688709"></Model>
 			</Make>
 			<Make name="СтавПрицеп">
 				<Model name="8499/030СХ"></Model>
@@ -12158,6 +12463,9 @@
 			<Make name="ROHR">
 				<Model name="ADS"></Model>
 			</Make>
+			<Make name="SAXAS">
+				<Model name="AKD 61-5-Z"></Model>
+			</Make>
 			<Make name="Schmitz Cargobull">
 				<Model name="KO18"></Model>
 				<Model name="ZKO"></Model>
@@ -12184,6 +12492,9 @@
 				<Model name="PC 16 FT -19"></Model>
 				<Model name="PC 16 FT -20"></Model>
 			</Make>
+			<Make name="Weber">
+				<Model name="TK8508"></Model>
+			</Make>
 			<Make name="АвтоМаш">
 				<Model name="7857G7-0"></Model>
 			</Make>
@@ -12193,6 +12504,9 @@
 			<Make name="Исток">
 				<Model name="3791M1"></Model>
 				<Model name="3793М1"></Model>
+			</Make>
+			<Make name="МАЗ">
+				<Model name="837810-1012"></Model>
 			</Make>
 			<Make name="МАЗ-КУПАВА">
 				<Model name="изотермический"></Model>
@@ -12364,6 +12678,9 @@
 				<Model name="Контейнеровоз"></Model>
 				<Model name="Прицеп для щебня"></Model>
 			</Make>
+			<Make name="Kassbohrer">
+				<Model name="DC17L"></Model>
+			</Make>
 			<Make name="Kogel">
 				<Model name="AWE18"></Model>
 			</Make>
@@ -12379,6 +12696,7 @@
 				<Model name="PV2P218"></Model>
 			</Make>
 			<Make name="Meppel">
+				<Model name="AC-2000 S"></Model>
 				<Model name="Ai-2800"></Model>
 			</Make>
 			<Make name="Meusburger Новтрак">
@@ -12796,6 +13114,7 @@
 			<Make name="ПЗГТ">
 				<Model name="84400Е"></Model>
 				<Model name="844010"></Model>
+				<Model name="8440DA"></Model>
 				<Model name="8440ЕА"></Model>
 			</Make>
 			<Make name="ПК УСПТ">
@@ -12936,6 +13255,9 @@
 			<Make name="ИнтерПрицеп">
 				<Model name="853351-60"></Model>
 			</Make>
+			<Make name="МАЗ">
+				<Model name="837810-1012"></Model>
+			</Make>
 			<Make name="МегаТрон">
 				<Model name="4589PB"></Model>
 				<Model name="4589PG"></Model>
@@ -12943,6 +13265,9 @@
 			</Make>
 			<Make name="Невские машины">
 				<Model name="833811"></Model>
+			</Make>
+			<Make name="ПЗГТ">
+				<Model name="844000"></Model>
 			</Make>
 			<Make name="САТ">
 				<Model name="135А"></Model>
@@ -13163,6 +13488,9 @@
 			</Make>
 		</TypeOfTrailer>
 		<TypeOfTrailer name="Пчеловоз">
+			<Make name="Барс">
+				<Model name="30209B"></Model>
+			</Make>
 			<Make name="КАМАЗ">
 				<Model name="ГКБ-8350"></Model>
 			</Make>
@@ -13307,6 +13635,8 @@
 			</Make>
 			<Make name="СпецМаш">
 				<Model name="1-P-5-A"></Model>
+				<Model name="PR10-01"></Model>
+				<Model name="PR10-02"></Model>
 			</Make>
 			<Make name="Спецавтомаш">
 				<Model name="6377А4"></Model>
@@ -13629,6 +13959,7 @@
 				<Model name="4589P2"></Model>
 				<Model name="4589PB (6140)"></Model>
 				<Model name="4589PB (7500)"></Model>
+				<Model name="4589PB-U16"></Model>
 			</Make>
 			<Make name="Металлстрой64">
 				<Model name="КЗП-2-1"></Model>
@@ -13684,6 +14015,7 @@
 				<Model name="3D-R651"></Model>
 				<Model name="85830F-0000010"></Model>
 				<Model name="85830F-16H"></Model>
+				<Model name="85830F-18B"></Model>
 				<Model name="85830F-514.115"></Model>
 				<Model name="85830F-R651"></Model>
 				<Model name="8595-300-E"></Model>
@@ -14046,6 +14378,9 @@
 				<Model name="PC 16 ST -19"></Model>
 				<Model name="PC 16 ST -20"></Model>
 				<Model name="PC-2"></Model>
+			</Make>
+			<Make name="Wackenhut">
+				<Model name="AT16LZAA"></Model>
 			</Make>
 			<Make name="Waltrak">
 				<Model name="983920-01"></Model>
@@ -14512,14 +14847,12 @@
 				<Model name="2ПТС-4"></Model>
 			</Make>
 			<Make name="МордовАгроМаш">
-				<Model name="1ПТС-2"></Model>
 				<Model name="2ПТС-10"></Model>
 				<Model name="2ПТС-12"></Model>
 				<Model name="2ПТС-4,5"></Model>
 				<Model name="2ПТС-5"></Model>
 				<Model name="2ПТС-6,5"></Model>
 				<Model name="2ПТС-8"></Model>
-				<Model name="ППТС-4,5"></Model>
 				<Model name="ПРТ-8"></Model>
 			</Make>
 			<Make name="НПО НефтехГазМаш">
@@ -14531,6 +14864,9 @@
 			</Make>
 			<Make name="ООО &#34;Лазер&#34;">
 				<Model name="1ПТС-2"></Model>
+			</Make>
+			<Make name="ООО &#34;Подрядчик&#34;">
+				<Model name="Иркут-80"></Model>
 			</Make>
 			<Make name="Орелстроймаш">
 				<Model name="1 ПТБ-С-3,5"></Model>
@@ -14832,6 +15168,10 @@
 			</Make>
 			<Make name="Meusburger Новтрак">
 				<Model name="ZP-333"></Model>
+			</Make>
+			<Make name="Moslein">
+				<Model name="T 3-8,20"></Model>
+				<Model name="TT 21-7,2"></Model>
 			</Make>
 			<Make name="Muller Mitteltal">
 				<Model name="T4 Compact 40"></Model>
@@ -15138,6 +15478,7 @@
 			</Make>
 			<Make name="СЗАП">
 				<Model name="8357"></Model>
+				<Model name="83571"></Model>
 				<Model name="8652П01"></Model>
 			</Make>
 			<Make name="Сармат">
@@ -15275,6 +15616,11 @@
 				<Model name="Т014"></Model>
 				<Model name="Т924"></Model>
 				<Model name="Т955"></Model>
+			</Make>
+			<Make name="Moslein">
+				<Model name="T 4 VB H1"></Model>
+				<Model name="TT 32"></Model>
+				<Model name="TTT 13"></Model>
 			</Make>
 			<Make name="Tischer">
 				<Model name="Atah 2"></Model>

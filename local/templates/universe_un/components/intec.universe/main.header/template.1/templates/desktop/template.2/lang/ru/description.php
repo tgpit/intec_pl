@@ -1,3 +1,0 @@
-<?php
-
-$MESS['C_HEADER_TEMP1_DESKTOP_TEMP2_NAME'] = 'Шапка 2';

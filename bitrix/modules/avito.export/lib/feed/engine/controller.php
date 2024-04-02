@@ -8,6 +8,8 @@ use Avito\Export\Watcher;
 
 class Controller implements Watcher\Engine\Controller
 {
+	public const ACTION_RESTART = 'restart';
+
 	/** @var Feed\Setup\Model */
 	protected $feed;
 	/** @var Writer\File */
@@ -79,6 +81,14 @@ class Controller implements Watcher\Engine\Controller
 		}
 	}
 
+	private function wait() : void
+	{
+		foreach ($this->steps as $step)
+		{
+			$step->wait();
+		}
+	}
+
 	public function export(string $action = self::ACTION_FULL) : void
 	{
 		try
@@ -88,6 +98,11 @@ class Controller implements Watcher\Engine\Controller
 			if ($action === static::ACTION_FULL && $this->getParameter('STEP') === null)
 			{
 				$this->clear();
+			}
+
+			if ($action === static::ACTION_RESTART && $this->getParameter('STEP') === null)
+			{
+				$this->wait();
 			}
 
 			if (!$this->getWriter()->lock())

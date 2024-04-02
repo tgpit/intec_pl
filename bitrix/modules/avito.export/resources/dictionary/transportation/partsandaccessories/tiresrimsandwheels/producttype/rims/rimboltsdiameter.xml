@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RimBoltsDiameterValues>
+	<RimBoltsDiameter>0</RimBoltsDiameter>
 	<RimBoltsDiameter>98</RimBoltsDiameter>
 	<RimBoltsDiameter>100</RimBoltsDiameter>
 	<RimBoltsDiameter>105</RimBoltsDiameter>
@@ -40,8 +41,13 @@
 	<RimBoltsDiameter>275</RimBoltsDiameter>
 	<RimBoltsDiameter>285.75</RimBoltsDiameter>
 	<RimBoltsDiameter>286</RimBoltsDiameter>
+	<RimBoltsDiameter>288</RimBoltsDiameter>
 	<RimBoltsDiameter>335</RimBoltsDiameter>
 	<RimBoltsDiameter>425</RimBoltsDiameter>
 	<RimBoltsDiameter>450</RimBoltsDiameter>
+	<RimBoltsDiameter>480</RimBoltsDiameter>
 	<RimBoltsDiameter>500</RimBoltsDiameter>
+	<RimBoltsDiameter>510</RimBoltsDiameter>
+	<RimBoltsDiameter>511</RimBoltsDiameter>
+	<RimBoltsDiameter>525</RimBoltsDiameter>
 </RimBoltsDiameterValues>

@@ -93,7 +93,7 @@ if($bSearch){
 				'#COUNT_ALL#' => $intCountAll,
 				'#COUNT_FOUND#' => $intCountFound,
 				'#COUNT_SHOWN#' => $intShowMax,
-				'#DOWNLOAD#' => $GLOBALS['APPLICATION']->getCurPageParam('download=ozon_reference', ['download', 'ajax_action', 'action']),
+				'#DOWNLOAD#' => $GLOBALS['APPLICATION']->getCurPageParam('download=ozon_2024_reference', ['download', 'ajax_action', 'action']),
 			]);?>
 		</div>
 	<?endif?>
@@ -108,7 +108,7 @@ if($bSearch){
 	<?else:?>
 		<?=static::getMessage('FILTER_GREETING', [
 			'#COUNT_ALL#' => $intCountAll,
-			'#DOWNLOAD#' => $GLOBALS['APPLICATION']->getCurPageParam('download=ozon_reference', ['download', 'ajax_action', 'action']),
+			'#DOWNLOAD#' => $GLOBALS['APPLICATION']->getCurPageParam('download=ozon_2024_reference', ['download', 'ajax_action', 'action']),
 		]);?>
 	<?endif?>
 <?else:?>

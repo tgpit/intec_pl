@@ -49,12 +49,12 @@ class Request {
 		return Helper::getMessage($strLang.$strMessage, $arReplace);
 	}
 
-//	/**
-//	 *	Save data to log
-//	 */
-//	public function addToLog($strMessage, $bDebug=false){
-//		return Log::getInstance($this->strModuleId)->add($strMessage, $this->intProfileId, $bDebug);
-//	}
+	/**
+	 *	Save data to log
+	 */
+	public function addToLog($strMessage, $bDebug=false){
+		return $this->obPlugin->addToLog($strMessage, $bDebug);
+	}
 
 //	/**
 //	 *	Is debug mode for log?
@@ -73,18 +73,20 @@ class Request {
 	/**
 	 *	Request wrapper
 	 */
-	public function request($method, $data=[], $user_token=false, $req_method=self::METHOD_POST){
+	public function request($method, $data=[], $user_token=false, $req_method=self::METHOD_POST, $skip_errors=false){
 		$token = $this->strToken;
 		if ($user_token) {
 			$token = $user_token;
 		}
+		$strContent = !empty($data) ? Json::encode($data) : '';
 		$params = [
 			'METHOD' => $req_method,
-			'CONTENT' => !empty($data) ? json_encode($data) : '',
+			'CONTENT' => $strContent,
 			'HEADER_ADDITIONAL' => [
 				'accept' => 'application/json',
 				'x-auth-token' => $token,
 			],
+			'SKIP_ERRORS' => $skip_errors,
 		];
 		$result = $this->execute($method, null, $params);
 //		if (strpos($result['message'], 'Unauthenticated') === 0) {
@@ -119,16 +121,14 @@ class Request {
 		}
 		$arParams['TIMEOUT'] = 30;
 		$arParams['GET_REQUEST_HEADERS'] = true;
-		$strJson = HttpRequest::getHttpContent($this->getUrl() . $strCommand, $arParams);
+		$strUrl = $this->getUrl() . $strCommand;
+		$strJson = HttpRequest::getHttpContent($strUrl, $arParams);
 		if ($strJson === false && static::getHeaders() === []) {
 			$strJson = \Bitrix\Main\Web\Json::encode(['error' => [
 				'message' => 'Timeout on URL '.$this->getUrl() . $strCommand,
 				'code' => 'TIMEOUT',
 			]]);
 		}
-		$arRequestHeaders = HttpRequest::getRequestHeaders();
-		Log::getInstance($this->strModuleId)->add('request: ' . print_r($arRequestHeaders, true), $this->intProfileId, true);
-		Log::getInstance($this->strModuleId)->add('response: ' . $strJson, $this->intProfileId, true);
 		if (strlen($strJson)) {
 			try {
 				$arJson = Json::decode($strJson);
@@ -140,17 +140,32 @@ class Request {
 				$arJson['error']['message'] = $strJson;
 			}
 			if (is_array($arJson['error']) && !empty($arJson['error']) && !$bSkipErrors){
-//				$strMessage = 'ERROR_GENERAL'.($this->isDebugMode() ? '_DEBUG' : '');
-				$strMessage = 'ERROR_GENERAL';
-				$strError = sprintf('%s [%s]', $arJson['error']['message'], $arJson['error']['code']);
-				$strMessage = sprintf(static::getMessage($strMessage,  [
-					'#COMMAND#' => $strCommand,
-					'#JSON#' => $arParams['CONTENT'],
-					'#ERROR#' => $strError,
-				]));
-//				$this->addToLog($strMessage);
+				$this->obPlugin->addToLog([
+					'RESPONSE' => $arJson['error'],
+					'STATUS' => HttpRequest::getCode(),
+					'URL' => $strUrl,
+					'COMMAND' => $strCommand,
+					'CONTENT' => $arParams['CONTENT'],
+				]);
+			}
+			else {
+				$this->obPlugin->addToLog([
+					'RESPONSE' => $arJson['error'],
+					'STATUS' => HttpRequest::getCode(),
+					'URL' => $strUrl,
+					'COMMAND' => $strCommand,
+					'CONTENT' => $arParams['CONTENT'],
+				], true);
 			}
 			return $arJson;
+		}
+		else{
+			$this->addToLog('$strJson is empty: '.[
+				'URL' => $strUrl,
+				'CONTENT' => $arParams['CONTENT'],
+				'STATUS' => HttpRequest::getCode(),
+				'HEADERS' => HttpRequest::getRequestHeaders(),
+			]);
 		}
 //		$strMessage = 'ERROR_REQUEST'.($this->isDebugMode() ? '_DEBUG' : '');
 //		$strMessage = sprintf(static::getMessage($strMessage,  [

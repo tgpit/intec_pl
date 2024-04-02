@@ -38,15 +38,12 @@ class PartsAndAccessories implements Category, CategoryLevel
             self::includeLocale();
 
 	        return (new Factory(self::getLocalePrefix()))->make([
-				new PartsAndAccessories\Parts([
-					'name' => self::getLocale('PARTS'),
-				]),
+				new PartsAndAccessories\Parts(),
 				new PartsAndAccessories\OilsAndChemicals(),
 				'Accessories' => [
 					'dictionary' => new Dictionary\XmlTree('transportation/partsandaccessories/accessories.xml'),
 				],
 				'GPS navigators',
-				'Auto Makeup & Auto Chemicals',
 				'Audio and video equipment' => [
 					'dictionary' => new Dictionary\XmlTree('transportation/partsandaccessories/audio_and_video_equipment.xml'),
 				],

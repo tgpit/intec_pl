@@ -24,6 +24,8 @@ class Registry
 		'notempty' => FunctionNotEmpty::class,
 		'watermark' => FunctionWatermark::class,
 		'date' => FunctionDate::class,
+		'range' => FunctionRange::class,
+		'truncate' => FunctionTruncate::class
 	];
 
 	public static function isExists(string $type) : bool

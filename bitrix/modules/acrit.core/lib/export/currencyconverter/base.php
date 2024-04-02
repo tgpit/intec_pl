@@ -6,7 +6,8 @@
 namespace Acrit\Core\Export\CurrencyConverter;
 
 use
-	\Bitrix\Main\Localization\Loc;
+	\Bitrix\Main\Localization\Loc,
+	\Acrit\Core\Helper;
 
 /**
  * Base interface for settings
@@ -73,6 +74,24 @@ abstract class Base {
 		}
 		#
 		return $arResult;
+	}
+
+	public static function getCurrencyDecimalsCount($strCurrency){
+		$intResult = 2;
+		if(count($arCurrencies = Helper::getCurrencyList()) > 0){
+			if(isset($arCurrencies[$strCurrency]) && is_array($arCurrency = $arCurrencies[$strCurrency])){
+				if(isset($arCurrency['DECIMALS']) && is_numeric($arCurrency['DECIMALS'])){
+					if($arCurrency['DECIMALS'] >= 0){
+						$intResult = intVal($arCurrency['DECIMALS']);
+					}
+				}
+			}
+		}
+		return $intResult;
+	}
+
+	protected static function roundDecimalsCount($fValue, $strCurrency){
+		return round($fValue, static::getCurrencyDecimalsCount($strCurrency));
 	}
 	
 }

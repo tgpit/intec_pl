@@ -15,7 +15,7 @@ class abstractGeneral
     const API_1_5 = '1.5';
 
     protected static $MODULE_LBL = IPOLH_SDEK_LBL;
-    protected static $MODULE_ID  = IPOLH_SDEK;
+    protected static $MODULE_ID = IPOLH_SDEK;
 
     /**
      * @return string
@@ -33,22 +33,27 @@ class abstractGeneral
         return self::$MODULE_ID;
     }
 
-    public static function makeApplication($account,$password)
+    /**
+     * Returns the Application
+     * @param $account
+     * @param $password
+     * @return transitApplication|SdekApplication
+     */
+    public static function makeApplication($account, $password)
     {
-        $encoder = new encoder();
-        $cache   = new cache();
-        $timeout = option::get('dostTimeout');
-
         return (self::isNewApp()) ? new SdekApplication(
             $account,
             $password,
             false,
-            $timeout,
-            $encoder,
-            $cache
-        ) : new transitApplication($account,$password);
+            option::get('dostTimeout'),
+            new encoder(),
+            new cache()
+        ) : new transitApplication($account, $password);
     }
 
+    /**
+     * @return bool
+     */
     public static function isNewApp()
     {
         return (option::get('useOldApi') !== 'Y');

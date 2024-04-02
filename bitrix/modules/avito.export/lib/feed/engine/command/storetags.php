@@ -5,6 +5,7 @@ use Avito\Export\Concerns;
 use Avito\Export\DB\Facade\BatchInsert;
 use Avito\Export\DB\Facade\BatchDelete;
 use Avito\Export\Feed\Engine;
+use Avito\Export\Feed\Engine\Steps\Offer;
 use Avito\Export\Logger;
 use Avito\Export\Glossary;
 use Avito\Export\Utils\ArrayHelper;
@@ -54,7 +55,7 @@ class StoreTags
 
 		foreach ($fieldsStorage as $key => &$row)
 		{
-			if ($row['STATUS'])
+			if ((int)$row['STATUS'] === Offer\Table::STATUS_OK)
 			{
 				$valid[$key] = true;
 			}
@@ -133,7 +134,7 @@ class StoreTags
 
 		$filter = [
 			$elementFilter,
-			'=STATUS' => true,
+			'=STATUS' => Engine\Steps\Offer\Table::STATUS_OK,
 		];
 
 		$query = $storageClass::getList([
@@ -255,7 +256,7 @@ class StoreTags
 
 		foreach ($fieldsStorage as $fields)
 		{
-			if (!$fields['STATUS']) { continue; }
+			if ((int)$fields['STATUS'] === Offer\Table::STATUS_FAIL) { continue; }
 
 			$sign = $this->storagePrimarySign($fields['STORAGE_PRIMARY']);
 
@@ -348,7 +349,7 @@ class StoreTags
 	{
 		foreach ($fieldsStorage as $fields)
 		{
-			if (!$fields['STATUS']) { continue; }
+			if ((int)$fields['STATUS'] === Offer\Table::STATUS_FAIL) { continue; }
 
 			$this->logger->info(self::getLocale('LOG_WRITTEN'), ArrayHelper::renameKeys($fields['STORAGE_PRIMARY'], [
 				'ELEMENT_ID' => 'ENTITY_ID',

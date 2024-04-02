@@ -6,6 +6,10 @@ use Bitrix\Main;
 
 class Table extends Export\DB\Table
 {
+	public const STATUS_FAIL = 0;
+	public const STATUS_OK = 1;
+	public const STATUS_WAIT = 2;
+
 	public static function getTableName() : string
 	{
 		return 'avito_export_feed_offer';
@@ -50,10 +54,15 @@ class Table extends Export\DB\Table
 			]),
 			new Main\ORM\Fields\IntegerField('IBLOCK_ID'),
 			new Main\ORM\Fields\IntegerField('PARENT_ID'),
-			new Main\ORM\Fields\BooleanField('STATUS', [
+			new Main\ORM\Fields\EnumField('STATUS', [
 				'required' => true,
-				'values' => ['0', '1'],
+				'values' => [
+					self::STATUS_FAIL,
+					self::STATUS_OK,
+					self::STATUS_WAIT,
+				],
 			]),
+			new Main\ORM\Fields\IntegerField('MERGED_ID'),
 		];
 	}
 
@@ -131,6 +140,18 @@ class Table extends Export\DB\Table
 				'UPDATE %s SET %s=1',
 				$sqlHelper->quote($tableName),
 				$sqlHelper->quote('STATUS')
+			));
+		}
+
+		if (!isset($tableFields['MERGED_ID']))
+		{
+			$mergedIdField = static::getEntity()->getField('MERGED_ID');
+
+			$connection->queryExecute(sprintf(
+				'ALTER TABLE %s ADD COLUMN %s %s',
+				$sqlHelper->quote($tableName),
+				$sqlHelper->quote('MERGED_ID'),
+				$sqlHelper->getColumnTypeByField($mergedIdField)
 			));
 		}
 	}

@@ -143,6 +143,7 @@ if(
 			// echo '<pre>'; print_r($exFILTER); echo '</pre>';
 						
 			$correctionParams = [
+				'type' => 'title',
 				'filter' => []
 			];
 			

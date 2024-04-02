@@ -24,9 +24,6 @@ if(isset($_SERVER["REQUEST_METHOD"]) && $_SERVER["REQUEST_METHOD"] == "GET")
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 
-COption::SetOptionString("catalog", "DEFAULT_SKIP_SOURCE_CHECK", "Y" ); 
-COption::SetOptionString("sale", "secure_1c_exchange", "N" );
-
 if($type=="sale")
 {
 	$APPLICATION->IncludeComponent("bitrix:sale.export.1c", "", Array(

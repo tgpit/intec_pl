@@ -388,21 +388,28 @@ class Bitrix24Products extends Bitrix24 {
 			        ($arFieldsInfo[$code]['type'] == 'product_property' && $arFieldsInfo[$code]['propertyType'] == 'F')) {
 					// Add new values
 					foreach ($arValue as $path) {
-						$name = pathinfo($path, PATHINFO_BASENAME);
-						$data = file_get_contents($path);
-						$arNewValue[] = array("fileData" => array(
-							$name,
-							base64_encode($data)
-						));
-					}
-					// Delete old values
-					if ($arRemoteFields[$code] && is_array($arRemoteFields[$code])) {
-						foreach ($arRemoteFields[$code] as $arRFValue) {
+						if ($path) {
+							$name = pathinfo($path, PATHINFO_BASENAME);
+							$data = file_get_contents($path);
 							$arNewValue[] = array(
-								"valueId" => $arRFValue['valueId'],
-								"value" => array('remove' => 'Y'),
+								"fileData" => array(
+									$name,
+									base64_encode($data)
+								)
 							);
 						}
+					}
+					// Delete old values
+					if ($arFieldsInfo[$code]['type'] == 'product_property' && $arFieldsInfo[$code]['propertyType'] == 'F' &&
+						isset($arRemoteFields[$code]) && is_array($arRemoteFields[$code])) {
+							foreach ($arRemoteFields[$code] as $arRFValue) {
+								if (isset($arRFValue['valueId'])) {
+									$arNewValue[] = array(
+										"valueId" => $arRFValue['valueId'],
+										"value"   => array('remove' => 'Y'),
+									);
+								}
+							}
 					}
 				}
 				// List

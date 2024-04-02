@@ -98,7 +98,7 @@ class Product
 			'filter' => [
 				'=FEED_ID' => $feed->getId(),
 				'=PRIMARY' => $externalIds,
-				'=STATUS' => true,
+				'!=STATUS' => FeedExportedTable::STATUS_FAIL,
 			],
 			'select' => [
 				'PRIMARY',
@@ -178,7 +178,7 @@ class Product
 		/** @var Source\FetcherInvertible $fetcher */
 		$fetcher = $this->fetcherPool->some($sourceType);
 
-		Assert::typeOf($fetcher, Source\FetcherInvertible::class, 'fetcher');
+		if (!($fetcher instanceof Source\FetcherInvertible)) { return []; }
 
 		$context = new Source\Context($iblockId);
 		$elements = $fetcher->elements($externalIds, $sourceField, $context);

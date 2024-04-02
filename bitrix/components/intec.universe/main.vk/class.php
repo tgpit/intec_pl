@@ -120,6 +120,7 @@ class IntecVKComponent extends CBitrixComponent {
                     'ID' => ArrayHelper::getValue($respItem, 'id'),
                     'URL' => null,
                     'DATE' => ArrayHelper::getValue($respItem, 'date'),
+                    'IS_PINNED' => !empty(ArrayHelper::getValue($respItem, 'is_pinned')),
                     'TEXT' => ArrayHelper::getValue($respItem, 'text'),
                     'PICTURES' => []
                 ];
@@ -164,12 +165,19 @@ class IntecVKComponent extends CBitrixComponent {
                 foreach ($respAttachments as $respAttachment) {
                     $type = ArrayHelper::getValue($respAttachment, 'type');
 
-                    if ($type == 'photo') {
-                        $respSizes = ArrayHelper::getValue($respAttachment, [$type, 'sizes']);
-                    } elseif ($type == 'link') {
-                        $respSizes = ArrayHelper::getValue($respAttachment, [$type, 'photo', 'sizes']);
-                    } else {
-                        $respSizes = null;
+                    switch($type){
+                        case 'photo':
+                            $respSizes = ArrayHelper::getValue($respAttachment, [$type, 'sizes']);
+                            break;
+                        case 'link':
+                            $respSizes = ArrayHelper::getValue($respAttachment, [$type, 'photo', 'sizes']);
+                            break;
+                        case 'video':
+                            $respSizes = ArrayHelper::getValue($respAttachment, [$type, 'image']);
+                            break;
+                        default:
+                            $respSizes = null;
+                            break;
                     }
 
                     if (!Type::isArray($respSizes))
@@ -195,6 +203,8 @@ class IntecVKComponent extends CBitrixComponent {
                                         $thumb = ArrayHelper::getValue($respSize, 'url');
 
                                     break;
+                                }else if ($type === 'video'){
+                                    $original = ArrayHelper::getValue($respSize, 'url');
                                 }
                             }
                         }

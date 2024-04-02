@@ -3,7 +3,7 @@
 /**
  * @global $APPLICATION
  */
-
+@ini_set('upload_max_size' , '256M' );
 $APPLICATION->SetTitle("Universe");
 
 ?>

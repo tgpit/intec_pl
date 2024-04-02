@@ -1,5 +1,0 @@
-<?php
-
-$MESS['C_NEWS_DETAIL_DEFAULT_1_TEMPLATE_BUTTON_BACK_TEXT_DEFAULT'] = 'Назад к списку';
-$MESS['C_NEWS_DETAIL_DEFAULT_1_PREVIOUS_ITEM_TEXT'] = 'Предыдущая запись';
-$MESS['C_NEWS_DETAIL_DEFAULT_1_NEXT_ITEM_TEXT'] = 'Следующая запись';

@@ -18,7 +18,7 @@ use
 Helper::loadMessages(__FILE__);
 
 class Request {
-	
+    const DATE_FORMAT = 'Y-m-d\TH:i:s.000\Z';
 	//const URL = 'http://api-seller.ozon.ru';
 	const URL = 'https://api-seller.ozon.ru';
 //	const URL = 'http://cb-api.ozonru.me';

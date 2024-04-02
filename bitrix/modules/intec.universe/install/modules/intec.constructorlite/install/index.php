@@ -118,14 +118,20 @@ class intec_constructorlite extends CModule
             $rsFilterMasks = CSecurityFilterMask::GetList();
             $arFilterMasks = [];
 
-            while ($arFilterMask = $rsFilterMasks->GetNext())
-                $arFilterMasks[] = [
-                    'SITE_ID' => $arFilterMask['SITE_ID'],
-                    'MASK' => $arFilterMask['FILTER_MASK']
-                ];
+            if ($rsFilterMasks instanceof Bitrix\Main\ORM\Query\Result) {
+                $arFilterMasks = $rsFilterMasks->fetchAll();
 
-            unset($arFilterMask);
-            unset($rsFilterMasks);
+                unset($rsFilterMasks);
+            } else {
+                while ($arFilterMask = $rsFilterMasks->GetNext())
+                    $arFilterMasks[] = [
+                        'SITE_ID' => $arFilterMask['SITE_ID'],
+                        'MASK' => $arFilterMask['FILTER_MASK']
+                    ];
+
+                unset($arFilterMask);
+                unset($rsFilterMasks);
+            }
 
             $arFilterMasks[] = [
                 'SITE_ID' => '',
@@ -176,15 +182,24 @@ class intec_constructorlite extends CModule
             $rsFilterMasks = CSecurityFilterMask::GetList();
             $arFilterMasks = [];
 
-            while ($arFilterMask = $rsFilterMasks->GetNext())
-                if ($arFilterMask['FILTER_MASK'] != '/bitrix/admin/constructorlite_*')
-                    $arFilterMasks[] = [
-                        'SITE_ID' => $arFilterMask['SITE_ID'],
-                        'MASK' => $arFilterMask['FILTER_MASK']
-                    ];
+            if ($rsFilterMasks instanceof Bitrix\Main\ORM\Query\Result) {
+                foreach ($rsFilterMasks->fetchAll() as $arFilterMask) {
+                    if ($arFilterMask['FILTER_MASK'] !== '/bitrix/admin/constructorlite_*')
+                        $arFilterMasks[] = $arFilterMask;
+                }
 
-            unset($arFilterMask);
-            unset($rsFilterMasks);
+                unset($rsFilterMasks);
+            } else {
+                while ($arFilterMask = $rsFilterMasks->GetNext())
+                    if ($arFilterMask['FILTER_MASK'] != '/bitrix/admin/constructorlite_*')
+                        $arFilterMasks[] = [
+                            'SITE_ID' => $arFilterMask['SITE_ID'],
+                            'MASK' => $arFilterMask['FILTER_MASK']
+                        ];
+
+                unset($arFilterMask);
+                unset($rsFilterMasks);
+            }
 
             CSecurityFilterMask::Update($arFilterMasks);
         }

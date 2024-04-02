@@ -4,7 +4,7 @@ namespace Avito\Export\Structure;
 use Avito\Export\Concerns;
 use Avito\Export\Dictionary;
 
-class Electronics implements Category
+class Electronics implements Category, CategoryCompatible
 {
 	use Concerns\HasOnce;
 	use Concerns\HasLocale;
@@ -12,6 +12,13 @@ class Electronics implements Category
 	public function name() : string
 	{
 		return self::getLocale('NAME');
+	}
+
+	public function oldNames() : array
+	{
+		return [
+			self::getLocale('NAME_OLD'),
+		];
 	}
 
 	public function dictionary() : Dictionary\Dictionary

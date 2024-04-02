@@ -64,6 +64,7 @@ class OrdersInfo {
         return $name;
     }
 
+
     public static function getSeparator() {
         $result[''] = [
             'ID' => '',
@@ -80,6 +81,10 @@ class OrdersInfo {
         $result[] = [
             'ID' => '-',
             'NAME' =>  Loc::getMessage('ORDERS_NUMBER_SCHEMA_DASH'),
+        ];
+        $result[] = [
+            'ID' => '_',
+            'NAME' =>  Loc::getMessage('ORDERS_NUMBER_SCHEMA_DOWN_DASH'),
         ];
         return $result;
     }

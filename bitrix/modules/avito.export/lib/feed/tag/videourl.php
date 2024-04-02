@@ -18,6 +18,8 @@ class VideoURL extends Tag
 
 	public function checkValue($value, array $siblings, Format $format) : ?Main\Error
 	{
+		if (is_array($value)) { $value = reset($value); }
+
 		$value = (string)$value;
 		$regexps = [
 			'#^https://www\.youtube\.com/watch\?v=(.*)$#',

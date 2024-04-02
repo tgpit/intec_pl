@@ -15,4 +15,19 @@
 	<Quantity name="за 6 шт."></Quantity>
 	<Quantity name="за 7 шт."></Quantity>
 	<Quantity name="за 8 шт."></Quantity>
+	<TireYear name="2024"></TireYear>
+	<TireYear name="2023"></TireYear>
+	<TireYear name="2022"></TireYear>
+	<TireYear name="2021"></TireYear>
+	<TireYear name="2020"></TireYear>
+	<TireYear name="2019"></TireYear>
+	<TireYear name="2018"></TireYear>
+	<TireYear name="2017"></TireYear>
+	<TireYear name="2016"></TireYear>
+	<TireYear name="2015"></TireYear>
+	<TireYear name="2014"></TireYear>
+	<TireYear name="2013"></TireYear>
+	<TireYear name="2012"></TireYear>
+	<TireYear name="2011"></TireYear>
+	<TireYear name="2010"></TireYear>
 </ProductType>

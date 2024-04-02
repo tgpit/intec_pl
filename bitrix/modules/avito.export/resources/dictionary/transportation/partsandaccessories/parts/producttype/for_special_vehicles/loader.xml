@@ -55,10 +55,16 @@
 		<Model name="1000.01">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="1200">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="2321">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="2500">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="3000">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="750">
@@ -783,6 +789,9 @@
 		<Model name="FD50T">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="FD50T-XNGP2">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="FD50T-XNGP3">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -817,6 +826,9 @@
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
 		<Model name="R2D25-B3">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="R4D35-B3">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="TKA15">
@@ -912,6 +924,9 @@
 		</Model>
 	</Make>
 	<Make name="BIZON">
+		<Model name="735">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="920">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -944,6 +959,14 @@
 		</Model>
 		<Model name="JC65">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="BOYU">
+		<Model name="ZL936">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="ZL940">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="BP">
@@ -1045,6 +1068,9 @@
 		<Model name="RRB7">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
+		<Model name="RRE200">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
 		<Model name="RRM 16">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
@@ -1130,6 +1156,9 @@
 		</Model>
 		<Model name="EB 217">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="EB 418.3">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
 		<Model name="EB 687">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
@@ -1305,6 +1334,11 @@
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="ML-03">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Bautrac">
+		<Model name="Microb 1600">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
@@ -1865,13 +1899,13 @@
 		<Model name="T36.120SL">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
-		<Model name="T40.140">
-			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
-		</Model>
 		<Model name="T40.180">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="T40.180SLP">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="T40140">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="T40170">
@@ -2321,6 +2355,9 @@
 		<Model name="TL40">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="TL40S">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="ZL12L">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -2403,6 +2440,9 @@
 		<Model name="FD 50">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="FD25CE">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="FD30DE">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -2413,6 +2453,9 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="SL1050">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="SL1250">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="SL150">
@@ -2486,6 +2529,12 @@
 		</Model>
 		<Model name="SLC1500">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="TL4512">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="TL7030">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="Bulldog">
@@ -2565,6 +2614,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="CPCD30">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPD15">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="VS35">
@@ -3614,6 +3666,9 @@
 		<Model name="988F">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="988G II">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="988H">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -4177,6 +4232,9 @@
 		<Model name="CPD15SQ-GB2">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="CPD18">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="CPD18-CC1">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -4338,6 +4396,9 @@
 	</Make>
 	<Make name="Cesab">
 		<Model name="Blitz 316">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="DRAGO 150 LPG">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="R316">
@@ -4700,6 +4761,9 @@
 		<Model name="CQ15D">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="CTM 16S">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="EC500Y30">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -4720,6 +4784,11 @@
 		</Model>
 		<Model name="GTX16">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Colmar">
+		<Model name="302">
+			<TypeOfVehicle name="Грейферный погрузчик (перегружатель)"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="Combilift">
@@ -4963,6 +5032,11 @@
 	<Make name="Cukurova">
 		<Model name="940">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="DEYI">
+		<Model name="DY-5">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="DISD">
@@ -5959,6 +6033,9 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="DG966">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="EL7">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="ZL30G">
@@ -7314,6 +7391,9 @@
 		<Model name="ES-12-12ES">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
+		<Model name="ES-12-12WA">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
 		<Model name="ES-15-15CS">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
@@ -7332,7 +7412,25 @@
 		<Model name="ES-20-WA">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
+		<Model name="ES10-10MM">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
+		<Model name="ES10-22DM">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
+		<Model name="ES10-22MM">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
+		<Model name="ES12-12MM">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
 		<Model name="ES12-12WA">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
+		<Model name="ES12-25DM">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
+		<Model name="ES12-25MM">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
 		<Model name="ES14-14WA">
@@ -7381,6 +7479,9 @@
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
 		<Model name="RPL201">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
+		<Model name="RSB141">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
 		<Model name="TDL201">
@@ -8460,6 +8561,9 @@
 		<Model name="CBD20-410">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
+		<Model name="CBS15J-35">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
 		<Model name="CCD20-D">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
@@ -8472,6 +8576,12 @@
 		<Model name="CDDK20">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
+		<Model name="CDDR15-III 45Li-Ion">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
+		<Model name="CQD20-D">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
 		<Model name="CXDDR15-III">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
@@ -8481,7 +8591,19 @@
 		<Model name="FV15-GL">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="FV18-B">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FV18-BM">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FV20-B">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="FV20-D">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FV25-B">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="FV25-D">
@@ -8493,11 +8615,17 @@
 		<Model name="FV30-GL">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="FV35-B">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="FV35-D">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="FV35-GL">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FV4007">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="FV750">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
@@ -9021,6 +9149,12 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="ZL28">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="ZL912">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="ZL915">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="ZL918">
@@ -9767,6 +9901,15 @@
 		<Model name="LX50E">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="TL1000G">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="TL1800G">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="TL2800G">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="TL800E">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
@@ -9829,6 +9972,9 @@
 		<Model name="FD15">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="FD15G-X11">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="FD18">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -9844,10 +9990,16 @@
 		<Model name="FD30B-W2 - FD30C-W2">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="FD30S-S2">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="FD30T1-X12">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="FD35">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FD35S-S2">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="FD40">
@@ -9986,23 +10138,68 @@
 		</Model>
 	</Make>
 	<Make name="Gros">
-		<Model name="FD15">
+		<Model name="CPCD15">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD18">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD30">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD35">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD50">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPD15SQ">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPD16SQ">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPD18">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPD18SQ">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPQD20">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPQD25">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="FD15">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
-		<Model name="FD20">
-			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		<Model name="FD15">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="FD20">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
-		<Model name="FD30">
-			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		<Model name="FD20">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
 		<Model name="FD30">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
+		<Model name="FD30">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LG13BE">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LG16BE">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LG18BE">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LG20BE">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="Grost">
@@ -10232,6 +10429,9 @@
 		<Model name="CPCD25-XW33E-RT">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="CPCD25-XW43C-RT4">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="CPCD25-XW98C-RT4">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -10280,6 +10480,9 @@
 		<Model name="CPCD30-XW33E-RT">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="CPCD30-XW43C-RT4">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="CPCD30-XW98C-RT4">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -10305,6 +10508,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="CPCD30N-RW33">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD30N-RW56">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="CPCD30N-RW6">
@@ -11196,10 +11402,16 @@
 		<Model name="T4512">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="XC12">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="XC1200">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="XC16">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="XC23">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="XC28">
@@ -11489,6 +11701,15 @@
 		<Model name="CPCD120-(06)">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="CPCD135-(06)">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD140-(06)">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD140-(09)">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="CPCD15">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -11499,6 +11720,12 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="CPCD15-XCK">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD150-(06)">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD150-(09)">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="CPCD15NH">
@@ -11514,6 +11741,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="CPCD18-XK">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD180">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="CPCD18NH">
@@ -11535,6 +11765,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="CPCD20-XC5K2C">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD200">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="CPCD20G - CPQD20G">
@@ -11825,6 +12058,9 @@
 		<Model name="CPQYD70G">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="CPСD15G">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="CPСD15NH">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -11870,6 +12106,9 @@
 		<Model name="RSH4528">
 			<TypeOfVehicle name="Контейнерный погрузчик (ричстакер)"></TypeOfVehicle>
 		</Model>
+		<Model name="RSH4532">
+			<TypeOfVehicle name="Контейнерный погрузчик (ричстакер)"></TypeOfVehicle>
+		</Model>
 		<Model name="ZL30G">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -11894,6 +12133,11 @@
 	<Make name="Heman">
 		<Model name="Vectra 175 C">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Hengjin">
+		<Model name="T3507">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="Hengwang">
@@ -11999,6 +12243,9 @@
 	</Make>
 	<Make name="Hightop">
 		<Model name="HT380">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="HTS25">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
@@ -12131,6 +12378,9 @@
 		<Model name="CL15">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
+		<Model name="SR740RU-Y">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
 	</Make>
 	<Make name="Hysoon">
 		<Model name="HY200">
@@ -12234,6 +12484,9 @@
 		<Model name="H40.00-16CH">
 			<TypeOfVehicle name="Контейнерный погрузчик (ричстакер)"></TypeOfVehicle>
 		</Model>
+		<Model name="H40.00XMS-12">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="H5.0FT">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -12298,6 +12551,11 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="S3.0FT">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Hytsu">
+		<Model name="FG15T">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
@@ -12399,6 +12657,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="25D-7E">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="25D-7SA">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="25D-9E">
@@ -13732,6 +13993,9 @@
 		<Model name="ROBOT 1105">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="ROBOT 1110">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="ROBOT 150">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
@@ -13886,6 +14150,11 @@
 		</Model>
 		<Model name="G9-43A">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="JSB">
+		<Model name="CX1100">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="JSM">
@@ -14551,10 +14820,16 @@
 		<Model name="EFG 540">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="EFG 545K">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="EFG DF1">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="EFG Vac 20">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="EFG Vac 25">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="EFG216K">
@@ -14800,6 +15075,12 @@
 		<Model name="WJD-6B">
 			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="ZL20G">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="ZL30">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="ZWY-60/LWL-60">
 			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -15039,6 +15320,12 @@
 		</Model>
 		<Model name="C-15">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="C-20">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL-600">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="Kanga">
@@ -15471,6 +15758,9 @@
 		<Model name="FD25C-17">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="FD25JT-12">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="FD25T-14">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -15520,6 +15810,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="FD50YAT-10">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FD60-10">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="FD60-7">
@@ -15639,6 +15932,9 @@
 		<Model name="FG30T-17">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="FG35AT-17">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="FG35T-10">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -15646,6 +15942,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="FG50AT-10">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FH40-1">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="FH50-1">
@@ -15930,6 +16229,9 @@
 			<TypeOfVehicle name="Контейнерный погрузчик (ричстакер)"></TypeOfVehicle>
 		</Model>
 		<Model name="SMV 4531 TB5">
+			<TypeOfVehicle name="Контейнерный погрузчик (ричстакер)"></TypeOfVehicle>
+		</Model>
+		<Model name="SMV 4535 TB5">
 			<TypeOfVehicle name="Контейнерный погрузчик (ричстакер)"></TypeOfVehicle>
 		</Model>
 		<Model name="SMV SL 10-600 B">
@@ -16241,6 +16543,65 @@
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
+	<Make name="LGMA">
+		<Model name="LG930">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LG938">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LG939">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LG940">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LG942">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LG946">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LM928">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LM930">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LM938">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LM939">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LM946">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="T916">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="T920">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="T928">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="T928L">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="T930">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="T930L">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="T936">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="T938">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
 	<Make name="LGMG">
 		<Model name="H1840">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
@@ -16285,6 +16646,35 @@
 		</Model>
 		<Model name="UL70">
 			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="LIMGARD">
+		<Model name="FD18P">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FD25B">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FD30B">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FD30P">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FD35B">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FD35P">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FG25P">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="FG30P">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="SER16A">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="LITOSTROJ">
@@ -17120,6 +17510,9 @@
 		<Model name="E20P-02">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="E25/02">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="H14-H20 D">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -17214,6 +17607,9 @@
 			<TypeOfVehicle name="Боковой погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="T 20">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
+		<Model name="T 20 SP">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
 		<Model name="V10">
@@ -17568,6 +17964,9 @@
 		<Model name="CLG856H">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="CLG856H Agri">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="CLG856II(Weichai)">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -17638,6 +18037,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="CPCD15 LPG">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPCD18">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="CPCD20">
@@ -18126,6 +18528,9 @@
 		<Model name="LG60DT">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="LG60DTB III">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="LG70DT">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -18190,6 +18595,9 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="LG876N">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="LK843">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="ZL50GC">
@@ -18590,6 +18998,9 @@
 		</Model>
 	</Make>
 	<Make name="MAKSTEM">
+		<Model name="MAX 1000">
+			<TypeOfVehicle name="Мини-думпер"></TypeOfVehicle>
+		</Model>
 		<Model name="MAX 400">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
@@ -18738,6 +19149,9 @@
 		</Model>
 	</Make>
 	<Make name="MGCM">
+		<Model name="MG760RU">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="ML983RU">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -18977,6 +19391,9 @@
 		</Model>
 	</Make>
 	<Make name="MST">
+		<Model name="MH 13.35">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="MH 18.42">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
@@ -18984,6 +19401,9 @@
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="MP 18.42S">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="MP 7.42">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="MP 7.42-125">
@@ -19104,6 +19524,9 @@
 		</Model>
 	</Make>
 	<Make name="Maker">
+		<Model name="600">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="B250">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
@@ -19118,6 +19541,9 @@
 		</Model>
 	</Make>
 	<Make name="Mammut">
+		<Model name="H35">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="T2000">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -19153,6 +19579,11 @@
 		</Model>
 		<Model name="WL20">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Manitech">
+		<Model name="MTECH T135H">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="Manitou">
@@ -19868,6 +20299,9 @@
 		</Model>
 	</Make>
 	<Make name="Maximal">
+		<Model name="CRS4532">
+			<TypeOfVehicle name="Контейнерный погрузчик (ричстакер)"></TypeOfVehicle>
+		</Model>
 		<Model name="FB15-А">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -20269,6 +20703,24 @@
 		</Model>
 		<Model name="YN 895">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="YN 938G-II">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="YN 938GH">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="YN 938H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="YN 938K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="YN 938L">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="YN 938L-A">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="YN 939G">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
@@ -21819,6 +22271,11 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
+	<Make name="Narushima">
+		<Model name="NWL200">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
 	<Make name="New Holland">
 		<Model name="C175">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
@@ -22226,6 +22683,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="DX15">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="EBT-P1F1">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="EH02A20U">
@@ -23148,6 +23608,9 @@
 		<Model name="FD-30T">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="MF15">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
 		<Model name="MPX">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -23418,6 +23881,9 @@
 		</Model>
 		<Model name="SL655">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="SL7.7">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="SL755">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
@@ -23734,6 +24200,9 @@
 		<Model name="WL35">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="WL35E">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="WL35H">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
@@ -23787,6 +24256,9 @@
 		<Model name="BUG RBF-S">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="BUG RBL 04">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="BUG TL300">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
@@ -23805,12 +24277,18 @@
 		<Model name="RBW-10">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="RDB-800">
+			<TypeOfVehicle name="Мини-думпер"></TypeOfVehicle>
+		</Model>
 	</Make>
 	<Make name="RIPPA">
 		<Model name="LP05">
 			<TypeOfVehicle name="Мини-думпер"></TypeOfVehicle>
 		</Model>
 		<Model name="NDI 635">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="NDI 665">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="Skid Steer Loader">
@@ -23825,8 +24303,19 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
+	<Make name="RODEO">
+		<Model name="TL3500L">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL18">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
 	<Make name="ROSSEL">
 		<Model name="R-1600">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="R-2000">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="R-3000">
@@ -23834,6 +24323,20 @@
 		</Model>
 		<Model name="R-800">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="RS">
+		<Model name="JC45">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="JC65B">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="TL3000">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="TL4000">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="RTA">
@@ -23868,6 +24371,9 @@
 		<Model name="979">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="ZL20M">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="ZL30M">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -23890,6 +24396,9 @@
 	<Make name="Redcon">
 		<Model name="HNT 35-4">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="SKID C120">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="SKID W 120">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
@@ -23926,6 +24435,9 @@
 		<Model name="CPCD35T8">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="CPD18-AE">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="CPD18TVL">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -23934,6 +24446,9 @@
 		</Model>
 		<Model name="ES20-20RAS">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
+		<Model name="IE25">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="Redstar">
@@ -24442,6 +24957,15 @@
 		<Model name="930E">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="950Е">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="952Е">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="954Е">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="960Е">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -24469,10 +24993,25 @@
 		<Model name="982E">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="983D">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="983E">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="983R">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="985D">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="985E">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="985R">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="986D">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="986E">
@@ -24607,6 +25146,14 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
+	<Make name="SAAO">
+		<Model name="SYC-30">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="SYC-50">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
 	<Make name="SAI">
 		<Model name="D-2.0">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
@@ -24618,6 +25165,39 @@
 		</Model>
 	</Make>
 	<Make name="SDLG (LGCE)">
+		<Model name="CPC100">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPC15">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPC20">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPC25">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPC30">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPC40">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPC45">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPC50">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPC60">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPC70">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPC80">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="L918H">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -24914,6 +25494,9 @@
 		<Model name="T30D-68 4X4">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="THL 3507 AGRI">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="TL1800">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
@@ -25088,6 +25671,9 @@
 		<Model name="R 70-35T">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="R 70-45">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="R 70-50">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -25164,6 +25750,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="RX 70-35">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="RX 70-50">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="SU 20">
@@ -25632,6 +26221,9 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="956">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="966">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="SAM 836">
@@ -26530,6 +27122,9 @@
 		<Model name="JC45">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="JC60G">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
 	</Make>
 	<Make name="Swinger">
 		<Model name="1K">
@@ -26815,6 +27410,9 @@
 		<Model name="FG15T13">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="FG15T19">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="FG18T13">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -26997,6 +27595,9 @@
 		</Model>
 		<Model name="LLS300">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
+		<Model name="LP1">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="PSP160S">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
@@ -27898,13 +28499,46 @@
 		<Model name="D20-3i">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="D20-4J2WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D20-4J4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D20-4K2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D20-4K2WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D20-4K4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D20-4Q2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="D20-4X">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D20-4X2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D20-4X2WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D20-4X4WD">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D20-4i">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D20-4i 4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D20-4i2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D20-4i2WD">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D25-3M">
@@ -27916,13 +28550,46 @@
 		<Model name="D25-3i">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="D25-4J2WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D25-4J4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D25-4K2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D25-4K2WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D25-4K4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D25-4Q2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D25-4Q2WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="D25-4X">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D25-4X2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D25-4X2WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D25-4X4WD">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D25-4i">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D25-4i 4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D25-4i2SWD">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D280">
@@ -27937,13 +28604,34 @@
 		<Model name="D30-3i">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="D30-4J4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D30-4K2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D30-4K4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D30-4Q2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="D30-4X">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D30-4X2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D30-4X4WD">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D30-4i">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D30-4i 4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D30-4i2SWD">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D30H-4i 2WD">
@@ -27958,16 +28646,37 @@
 		<Model name="D35-3x">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="D35-4J4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D35-4K2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D35-4K4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="D35-4M">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="D35-4Q2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="D35-4X">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D35-4X2SWD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D35-4X4WD">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D35-4i">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D35-4i 4WD">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D35-4i2SWD">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="D350">
@@ -29324,6 +30033,11 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
+	<Make name="Tona">
+		<Model name="TR45">
+			<TypeOfVehicle name="Контейнерный погрузчик (ричстакер)"></TypeOfVehicle>
+		</Model>
+	</Make>
 	<Make name="Toro">
 		<Model name="400D">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
@@ -29457,6 +30171,12 @@
 		<Model name="02-8FD25">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="02-8FDF15">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="02-8FDF18">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="02-8FDJF35">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -29547,6 +30267,18 @@
 		<Model name="40-7Fg25">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="40-8FD40N">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="40-8FD50N">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="40-8FD60N">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="40-8FD70N">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="42-5FG20">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -29560,6 +30292,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="42-8FDL15">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="4FD100">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="4FG20">
@@ -29588,6 +30323,18 @@
 		</Model>
 		<Model name="4SDK8-H">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="52-8FDF20">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="52-8FDF25">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="52-8FDF30">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="52-8FDJF35">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="5FD50">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
@@ -29674,6 +30421,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="6FGL20">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="6FGL25">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="6SDTL10">
@@ -29934,6 +30684,9 @@
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="TLH-4007">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="TLH-4007-12">
 			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="WL30">
@@ -30433,6 +31186,9 @@
 		</Model>
 	</Make>
 	<Make name="Valmet">
+		<Model name="TD 1206A">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="TD-1006A">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -30565,6 +31321,9 @@
 		<Model name="JC45">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="MFZ20-90">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
 	</Make>
 	<Make name="Volvo">
 		<Model name="4200">
@@ -30580,6 +31339,9 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="4500B">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="BM L50">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="DRF450 65S5">
@@ -30954,6 +31716,185 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
+	<Make name="WEHEAVY">
+		<Model name="WF3207">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WF3510">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WF3514">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WF3707">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WF4014">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL8100K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL8106H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL810K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL812K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL816H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL816K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL818K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL8200K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL820H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL820K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL826H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL830H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL835">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL835H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL836H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL836K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL838H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL840H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL840K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL842H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL850H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL855">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL855F-HD">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL855F-II">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL855F-N">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL855H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL855H-HD">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL855K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL856H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL856H-HD">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL856H-V">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL856K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL858EV">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL858H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL858H-HD">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL858K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL860H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL860H-HD">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL860K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL862H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL866H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL866H-AT">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL866H-HD">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL866K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL868H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL868K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL870K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL872H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL876H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL876H-C">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL876H-W">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL878H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL880K">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WL882H">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
 	<Make name="WOLF">
 		<Model name="WL933">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
@@ -31105,6 +32046,9 @@
 		<Model name="WT1100">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="WT1200">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="WT1605A">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
@@ -31129,8 +32073,26 @@
 		<Model name="WT870">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="WT930">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
 	</Make>
 	<Make name="Weichai Heavy">
+		<Model name="WF3207">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WF3510">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WF3514">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WF3707">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="WF4014">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="WL820H">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -31627,6 +32589,11 @@
 		</Model>
 		<Model name="W160">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="XAM">
+		<Model name="T30D-68">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="XCMG">
@@ -32158,6 +33125,17 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
+	<Make name="XGMG">
+		<Model name="ZL30">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="ZL40">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="ZL50">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
 	<Make name="XINGYE">
 		<Model name="XYWJ-0.6">
 			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
@@ -32292,6 +33270,54 @@
 		</Model>
 		<Model name="FG20T">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="YAGONG">
+		<Model name="ZL926">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="YANTAI">
+		<Model name="WJ-6">
+			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="XWJ-1.5H">
+			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="XYWJ-0.6">
+			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="XYWJ-1">
+			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="XYWJ-1H">
+			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="XYWJ-2">
+			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="XYWJ-2.5">
+			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="XYWJ-3">
+			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="XYWJ-4">
+			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="XYWJ-8">
+			<TypeOfVehicle name="Шахтный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="YHMG">
+		<Model name="YH380">
+			<TypeOfVehicle name="Мини-думпер"></TypeOfVehicle>
+		</Model>
+		<Model name="YH430">
+			<TypeOfVehicle name="Мини-думпер"></TypeOfVehicle>
+		</Model>
+		<Model name="YH500">
+			<TypeOfVehicle name="Мини-думпер"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="YIDA">
@@ -32674,6 +33700,9 @@
 		<Model name="MTC10-15">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
+		<Model name="MTC13">
+			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
+		</Model>
 		<Model name="MTC15 LWB">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
@@ -32736,6 +33765,9 @@
 		</Model>
 		<Model name="V100">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="V2-2">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="V3">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
@@ -32847,6 +33879,9 @@
 		<Model name="YGLZ-400">
 			<TypeOfVehicle name="Грейферный погрузчик (перегружатель)"></TypeOfVehicle>
 		</Model>
+		<Model name="YGLZ-500">
+			<TypeOfVehicle name="Грейферный погрузчик (перегружатель)"></TypeOfVehicle>
+		</Model>
 		<Model name="YGZL260">
 			<TypeOfVehicle name="Грейферный погрузчик (перегружатель)"></TypeOfVehicle>
 		</Model>
@@ -32865,6 +33900,17 @@
 	<Make name="Yuan Xing">
 		<Model name="JC45">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Yuli">
+		<Model name="CPD10">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPD15">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="CPD20">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="Yutong">
@@ -33089,6 +34135,7 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="TL3000">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="TL3000 Super">
@@ -33119,6 +34166,12 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="ZL20G">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="ZL22E">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="ZL22G">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="ZL28">
@@ -34053,6 +35106,18 @@
 		<Model name="FN20">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="SD15">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="SD20">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="SD35">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="SD50">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="TB15E">
 			<TypeOfVehicle name="Штабелер (ричтрак)"></TypeOfVehicle>
 		</Model>
@@ -34424,6 +35489,9 @@
 		<Model name="VP D50">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="VP FB 18">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="VP FD-30">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -34693,6 +35761,9 @@
 		<Model name="К-703">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="К-708ПК6">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="К-708ПК7">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
@@ -34765,6 +35836,9 @@
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="40262">
+			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="4081">
 			<TypeOfVehicle name="Вилочный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="40810">
@@ -34890,6 +35964,9 @@
 		<Model name="1200А-1">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="3000">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="800">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
@@ -34992,6 +36069,9 @@
 		</Model>
 	</Make>
 	<Make name="Митракс">
+		<Model name="МП 1100">
+			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="МП 635">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
 		</Model>
@@ -35131,6 +36211,9 @@
 		<Model name="К-708УДМ">
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="ПГК">
+			<TypeOfVehicle name="Грейферный погрузчик (перегружатель)"></TypeOfVehicle>
+		</Model>
 	</Make>
 	<Make name="ПТК">
 		<Model name="К-702 МА ПК-6">
@@ -35177,6 +36260,15 @@
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 		<Model name="ПТК-764">
+			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="Псковский тракторный завод">
+		<Model name="ПГГ">
+			<TypeOfVehicle name="Грейферный погрузчик (перегружатель)"></TypeOfVehicle>
+		</Model>
+		<Model name="ПТЗ-П">
+			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 			<TypeOfVehicle name="Фронтальный погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
@@ -35396,11 +36488,6 @@
 		</Model>
 		<Model name="ПУМ-800">
 			<TypeOfVehicle name="Мини-погрузчик"></TypeOfVehicle>
-		</Model>
-	</Make>
-	<Make name="ХАМ">
-		<Model name="T30D-68">
-			<TypeOfVehicle name="Телескопический погрузчик"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="ХТЗ">

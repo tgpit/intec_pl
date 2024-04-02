@@ -51,6 +51,7 @@ class Format
 				$this->productTags(),
 				$this->categoryTags(),
 				$this->mediaTags(),
+				$this->deliveryTags(),
 				$this->specialTags()
 			);
 
@@ -103,6 +104,16 @@ class Format
 			new Longitude([
 				'required' => ['Address'],
 			]),
+			new Tag([
+				'name' => 'InternetCalls',
+				'listing' => new Listing\InternetCalls(),
+			]),
+			new Tag([
+				'name' => 'CallsDevices',
+				'wrapper' => true,
+				'item' => 'Option',
+				'multiple' => true,
+			]),
 		];
 	}
 
@@ -138,6 +149,19 @@ class Format
 		return [
 			new Images([ 'multiple' => true, 'required' => true ]),
 			new VideoURL(),
+		];
+	}
+
+	protected function deliveryTags() : array
+	{
+		return [
+			new Tag([
+				'name' => 'Delivery',
+				'wrapper' => true,
+				'item' => 'Option',
+				'multiple' => true,
+				'listing' => new Listing\Delivery(),
+			]),
 		];
 	}
 

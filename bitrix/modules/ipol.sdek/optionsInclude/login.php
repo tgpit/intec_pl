@@ -7,7 +7,7 @@
 	}
 
 	.ipol_inst {
-		display:none; 
+		display:none;
 		margin-left:10px;
 		margin-top:10px;
 	}
@@ -18,7 +18,7 @@
 		$("[onclick='IPOLSDEK_auth()']").attr('disabled','disabled');
 		var login    = $('#IPOLSDEK_login').val();
 		var password = $('#IPOLSDEK_pass').val();
-		
+
 		if(!login){
 			alert('<?=GetMessage("IPOLSDEK_ALRT_NOLOGIN")?>');
 			$("[onclick='IPOLSDEK_auth()']").removeAttr('disabled');
@@ -55,7 +55,7 @@
 		if(e.keyCode==13)
 			IPOLSDEK_auth();
 	}
-	
+
 	$(document).ready(function(){
 		$('#IPOLSDEK_login').on('keyup',IPOLSDEK_doSbmt);
 		$('#IPOLSDEK_pass').on('keyup',IPOLSDEK_doSbmt);
@@ -66,6 +66,23 @@
 <tr><td>Secure_password</td><td><input type='password' id='IPOLSDEK_pass'></td></tr>
 <tr><td></td><td><input type='button' value='<?=GetMessage('IPOLSDEK_LBL_AUTHORIZE')?>' onclick='IPOLSDEK_auth()'></td></tr>
 
-<tr><td style="color:#555;" colspan="2">
-	<?php sdekOption::placeFAQ('API') ?>
-</td></tr>
+<tr>
+    <td style="color:#555;" colspan="2">
+        <div style="color: #2E569C; font-size: 16px"><?=GetMessage('IPOLSDEK_FAQ_API_TITLE')?></div>
+        <div class=""><?=GetMessage('IPOLSDEK_FAQ_API_DESCR')?></div>
+    </td>
+</tr>
+<tr>
+    <td style="color:#555;" colspan="2">
+        <div style="color: #2E569C; font-size: 16px"><?=GetMessage('IPOLSDEK_FAQ_AGREEMENT_TITLE')?></div>
+        <div class=""><?=GetMessage('IPOLSDEK_FAQ_AGREEMENT_DESCR')?></div>
+    </td>
+</tr>
+<tr>
+    <td style="color:#555;" colspan="2">
+        <div id='ipol_mistakes' style='display:none'>
+            <div style="color: #2E569C; font-size: 16px"><?=GetMessage('IPOLSDEK_FAQ_AUTH_FAILED_TITLE')?></div>
+            <div class=""><?=GetMessage('IPOLSDEK_FAQ_AUTH_FAILED_DESCR')?></div>
+        </div>
+    </td>
+</tr>

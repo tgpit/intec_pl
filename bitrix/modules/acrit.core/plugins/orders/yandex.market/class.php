@@ -347,7 +347,7 @@ class YandexMarket extends Plugin
                 </tr>
                 <tr>
                     <td width="40%" class="adm-detail-content-cell-l">
-
+        <?= Helper::ShowHint(Loc::getMessage(self::getLangCode('SETTINGS_EXTERNAL_REQUEST_URL_HINT'))); ?>
         <?= Loc::getMessage(self::getLangCode('SETTINGS_EXTERNAL_REQUEST_URL')); ?>
                     </td>
                     <td width="60%" class="adm-detail-content-cell-r">

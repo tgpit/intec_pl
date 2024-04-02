@@ -12,12 +12,12 @@ use Acrit\Core\Log;
 $next_item = $_REQUEST['next_item'] ? : 0;
 $cnt = $_REQUEST['count'] ? : 0;
 //Helper::Log('(sync) next_item '.$next_item);
-$step_time = 40;
+$step_time = 100;
 $start_time = time();
 
 $start_sync_ts = false;
 $sync_period_opt = $arProfile['SYNC']['man']['period'];
-// file_put_contents(__DIR__.'/date1.txt', json_encode($arProfile), true);
+//file_put_contents(__DIR__.'/count.txt', '+'.PHP_EOL, FILE_APPEND);
 if ($sync_period_opt == '1d') {
 	$sync_period = 3600 * 24;
 }
@@ -42,8 +42,10 @@ if ($start_date_ts) {
 // file_put_contents(__DIR__.'/date2.txt', json_encode($start_sync_ts), true);
 // Process
 //Helper::Log('(sync) cnt '.$cnt);
+//file_put_contents(__DIR__.'/count1.txt', $next_item.' + '.$cnt.PHP_EOL, FILE_APPEND);
 if (!$cnt || $next_item < $cnt) {
 	$ext_orders_ids = $obPlugin->getOrdersIDsList($start_sync_ts);
+//    file_put_contents(__DIR__.'/count.txt', $next_item.' + '.$cnt.PHP_EOL, FILE_APPEND);
 	$i = 0;
 	foreach($ext_orders_ids as $ext_order_id) {
 		// Skip processed items

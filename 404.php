@@ -10,19 +10,20 @@ $url = $_SERVER['REQUEST_URI'];
 if ($last == '/') {
 	$url = substr($_SERVER['REQUEST_URI'],0,-1);
 };
-echo $url."<br>";
+//echo $url."<br>";
 $url = explode('?', $url);
-echo $url."<br>";
+//echo $url."<br>";
 $url = $url[0];
-echo $url."<br>";
+//echo $url."<br>";
 $last = substr($url, -1);
 if ($last == '/') {
 	$url = substr($url,0,-1);
 };
-echo $url."<br>";
+//echo $url."<br>";
 $arr = explode( '/', $url );
 $cod = $arr[count($arr)-1];
-echo $cod."<br>";
+//echo $cod."<br>";
+
 if ($arr[1]=='catalog'){
 	if (is_numeric($cod)) {
 		$ur = "";
@@ -37,7 +38,8 @@ if ($arr[1]=='catalog'){
 		$res = CIBlockElement::GetList(Array("SORT"=>"ASC"), $arFilter);
 		while($ar_fields = $res->GetNext())
 		{
-			$addr = $ar_fields["DETAIL_PAGE_URL"];
+			$code = $ar_fields["CODE"];
+			$addr = $ur."/".$code."/";
 			LocalRedirect($addr);
 		}
 	} else {

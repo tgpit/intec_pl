@@ -46,4 +46,19 @@ class DateTime
 	{
 		return ($a->getTimestamp() <=> $b->getTimestamp());
 	}
+
+	public static function max(Main\Type\DateTime $dateA, Main\Type\DateTime ...$compareDates) : Main\Type\DateTime
+	{
+		$result = $dateA;
+
+		foreach ($compareDates as $compareDate)
+		{
+			if (static::compare($result, $compareDate) === -1)
+			{
+				$result = $compareDate;
+			}
+		}
+
+		return $result;
+	}
 }

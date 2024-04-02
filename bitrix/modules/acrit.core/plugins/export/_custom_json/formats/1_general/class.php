@@ -33,6 +33,8 @@ class CustomJsonGeneral extends CustomJson {
 	
 	# Other export settings
 	protected $bZip = true;
+
+	protected $bAllowSendToEmail = true;
 	
 	/**
 	 *	Get supported options for 2nd argument of Json::encode()

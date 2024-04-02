@@ -61,7 +61,8 @@ class YandexMarketplaceYml extends UniversalPlugin {
 		$arResult['name'] = ['FIELD' => 'NAME', 'PARAMS' => ['ENTITY_DECODE' => 'Y'], 'REQUIRED' => true];
 		$arResult['categoryId'] = ['FIELD' => 'IBLOCK_SECTION_ID', 'REQUIRED' => true];
 		if($bNewMode){
-			$arResult['picture'] = ['FIELD' => ['DETAIL_PICTURE', 'PROPERTY_MORE_PHOTO', 'PROPERTY_PHOTOS'], 'MULTIPLE' => true, 'MAX_COUNT' => 10];
+			$arResult['picture'] = ['FIELD' => ['DETAIL_PICTURE', 'PROPERTY_MORE_PHOTO', 'PROPERTY_PHOTOS'], 'MULTIPLE' => true, 'MAX_COUNT' => 20];
+			$arResult['video'] = ['MULTIPLE' => true, 'MAX_COUNT' => 6];
 		}
 		$arResult['vendor'] = ['FIELD' => 'PROPERTY_MANUFACTURER', 'REQUIRED' => true];
 		$arResult['url'] = ['FIELD' => 'DETAIL_PAGE_URL'];

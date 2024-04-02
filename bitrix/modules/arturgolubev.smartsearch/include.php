@@ -340,14 +340,30 @@ Class CArturgolubevSmartsearch
 
 								$itemProp = $arElementProps[$sProp["CODE"]];
 								
-								if(($sProp["PROPERTY_TYPE"] == 'S' || $sProp["PROPERTY_TYPE"] == 'L' || $sProp["PROPERTY_TYPE"] == 'N') && !$sProp["USER_TYPE"]){
+								if(($sProp["PROPERTY_TYPE"] == 'S' || $sProp["PROPERTY_TYPE"] == 'N') && !$sProp["USER_TYPE"]){
 									if(is_array($itemProp["VALUE"])){
 										$info .= ' '.implode(' ', $itemProp["VALUE"]);
 									}elseif($itemProp["VALUE"] != ''){
 										$info .= ' '.$itemProp["VALUE"];
 									}
-								}
-								elseif($sProp["PROPERTY_TYPE"] == 'S' && $sProp["USER_TYPE"] == 'directory'){
+								}elseif($sProp["PROPERTY_TYPE"] == 'L' && !$sProp["USER_TYPE"]){
+									if(!is_array($itemProp["VALUE"]) && $itemProp["VALUE"]){
+										$itemProp["VALUE"] = [$itemProp["VALUE"]];
+									}
+
+									if(is_array($itemProp["VALUE"]) && count($itemProp["VALUE"])){
+										foreach($itemProp['VALUE'] as $enumKey=>$enumValue){
+											if($enumValue){
+												$property_enums = CIBlockPropertyEnum::GetList([], ['ID' => $enumValue]);
+												while($enum_fields = $property_enums->GetNext()){
+													$itemProp['VALUE'][$enumKey] = $enum_fields['VALUE'];
+												}
+											}
+										}
+										
+										$info .= ' '.implode(' ', $itemProp["VALUE"]);
+									}
+								}elseif($sProp["PROPERTY_TYPE"] == 'S' && $sProp["USER_TYPE"] == 'directory'){
 									$arVal = (is_array($itemProp["VALUE"])) ? $itemProp["VALUE"] : array($itemProp["VALUE"]);
 									$arRealVals = Hl::getPropValueField($sProp, $arVal);
 									if(count($arRealVals)){
@@ -403,9 +419,10 @@ Class CArturgolubevSmartsearch
 			}
 			
 			
-			$arFields["TITLE"] = strip_tags(htmlspecialchars_decode($info));
-						
-			$arFields["TITLE"] = self::checkReplaceSymbols($arFields["TITLE"]);
+			$info = str_replace('&nbsp;', ' ', $info);
+			$info = strip_tags(htmlspecialchars_decode($info));
+
+			$arFields["TITLE"] = self::checkReplaceSymbols($info);
 			
 			$arFields["TITLE"] = self::checkReplaceRules($arFields["TITLE"]);
 			$arFields["TITLE"] = self::prepareQuery($arFields["TITLE"]);
@@ -771,22 +788,32 @@ Class CArturgolubevSmartsearch
 		}
 	
 	static function prepareQuery($query){
+		$arQuery = $baseSearch = $baseReplace = [];
+
+		if(Loc::getMessage("ARTURGOLUBEV_SMARTSEARCH_E_REPLACE")){
+			$baseSearch[] = Loc::getMessage("ARTURGOLUBEV_SMARTSEARCH_E_REPLACE");
+			$baseReplace[] = Loc::getMessage("ARTURGOLUBEV_SMARTSEARCH_E_REPLACE_S");
+		}
+
 		if(defined("SMARTSEARCH_REPLACE_REGULAR")){
 			$replace = SMARTSEARCH_REPLACE_REGULAR;
 		}else{
-			$replace = (defined("BX_UTF")) ? '/[^\w\d]/ui' : '/[\'\"?!:^~|@$=+*&.,;()\-_#\[\]\<\>\/]/i';
+			if(defined("BX_UTF")){
+				$replace = '/[^\w\d]/ui';
+				$baseSearch[] = '_';
+				$baseReplace[] = '';
+			}else{
+				$replace = '/[\'\"?!:^~|@$=+*&.,;()\-_#\[\]\<\>\/]/i';
+			}
 		}
 		
 		$query = preg_replace('/(\s+)/i', ' ', ToLower($query));
 		
-		if(Loc::getMessage("ARTURGOLUBEV_SMARTSEARCH_E_REPLACE"))
-			$query = str_replace(Loc::getMessage("ARTURGOLUBEV_SMARTSEARCH_E_REPLACE"), Loc::getMessage("ARTURGOLUBEV_SMARTSEARCH_E_REPLACE_S"), $query);
+		if(count($baseSearch)){
+			$query = str_replace($baseSearch, $baseReplace, $query);
+		}
 		
-		$tmp = explode(' ', $query);
-		$arQuery = [];
-		
-		foreach($tmp as $word)
-		{
+		foreach(explode(' ', $query) as $word){
 			$word = preg_replace($replace, '', $word);
 			if($word && !in_array($word, $arQuery, true)){
 				$arQuery[] = $word;
@@ -1192,6 +1219,34 @@ Class CArturgolubevSmartsearch
 			$times['stripos'] = round((microtime(true) - $times['start']), 5);
 		}
 		
+		if(true){
+			$subresdb = [];
+			foreach ($dbWordsList as $rus => $trans){
+				$subresdb[$rus] = Encoding::exStrlen($rus);
+			}
+			
+			arsort($subresdb);
+			
+			$subres1 = '';
+			$subres2 = $settings['word'];
+			
+			foreach ($subresdb as $rus => $length){
+				if(!$subres2) break;
+				
+				$stpos = Encoding::exStripos($subres2, $rus);
+				if($stpos !== false){
+					$subres1 .= $rus.' ';
+					$subres2 = str_replace($rus, '', $subres2);
+				}
+			}
+			
+			if(!$subres2 && $subres1){
+				$results[] = $subres1;
+			}
+			
+			$times['explode'] = round((microtime(true) - $times['start']), 5);
+		}
+		
 		if($settings["metaphone_mode"] && !$settings["is_num"] && $settings['word_len'] > 2){
 			$tmpResults = [];
 			
@@ -1222,34 +1277,6 @@ Class CArturgolubevSmartsearch
 			}
 			
 			$times['metaphone'] = round((microtime(true) - $times['start']), 5);
-		}
-		
-		if(!count($results)){
-			$subresdb = [];
-			foreach ($dbWordsList as $rus => $trans){
-				$subresdb[$rus] = Encoding::exStrlen($rus);
-			}
-			
-			arsort($subresdb);
-			
-			$subres1 = '';
-			$subres2 = $settings['word'];
-			
-			foreach ($subresdb as $rus => $length){
-				if(!$subres2) break;
-				
-				$stpos = Encoding::exStripos($subres2, $rus);
-				if($stpos !== false){
-					$subres1 .= $rus.' ';
-					$subres2 = str_replace($rus, '', $subres2);
-				}
-			}
-			
-			if(!$subres2 && $subres1){
-				$results[] = $subres1;
-			}
-			
-			$times['explode'] = round((microtime(true) - $times['start']), 5);
 		}
 	
 		// echo 'dbWordsList <pre>'; print_r($dbWordsList); echo '</pre>';
@@ -1318,7 +1345,7 @@ Class CArturgolubevSmartsearch
 			$wTrans = Tools::ex_translit($word.$eWord, "ru", $replace);
 			
 			$cachePath = '/arturgolubev.smartsearch/'.self::CACHE_VERSION.'_'.SITE_ID.'/guess_word/'.$wTrans;	
-			if($obCache->InitCache(self::CACHE_TIME, $wTrans, $cachePath))
+			if($obCache->InitCache(self::CACHE_TIME, md5($params['type'].'_'.$wTrans), $cachePath))
 			{
 				$vars = $obCache->GetVars();
 				$find = $vars['find'];

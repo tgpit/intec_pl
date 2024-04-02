@@ -329,10 +329,14 @@ class WildberriesV4 extends UniversalPlugin {
 			'HTML' => $this->includeHtml(__DIR__.'/include/settings/export_prices_by_1.php'),
 			'SORT' => 190,
 		];
-		$arSettings['SKIP_APPEND_SIZES'] = [
-			'HTML' => $this->includeHtml(__DIR__.'/include/settings/skip_append_sizes.php'),
-			'SORT' => 200,
+		$arSettings['EXPORT_STOCKS_BY_1'] = [
+			'HTML' => $this->includeHtml(__DIR__.'/include/settings/export_stocks_by_1.php'),
+			'SORT' => 191,
 		];
+		// $arSettings['SKIP_APPEND_SIZES'] = [
+		// 	'HTML' => $this->includeHtml(__DIR__.'/include/settings/skip_append_sizes.php'),
+		// 	'SORT' => 200,
+		// ];
 		$arSettings['SKIP_UPDATE_CARDS'] = [
 			'HTML' => $this->includeHtml(__DIR__.'/include/settings/skip_update_cards.php'),
 			'SORT' => 210,
@@ -899,11 +903,45 @@ class WildberriesV4 extends UniversalPlugin {
 	/**
 	 * Collect data from WB by vendorCode
 	 */
-	protected function getPreviewDataFromWb(array $arItem, &$arDataMore){
+	protected function getPreviewDataFromWb(array &$arItem, &$arDataMore){
 		$arDataMore['VENDOR_CODES'] = array_column($arItem, 'vendorCode');
 		$arDataMore['REMOTE_CARDS'] = $this->getRemoteCardsByVendorCodes($arDataMore['VENDOR_CODES']);
 		$arDataMore['REMOTE_PRICES'] = !empty($arDataMore['REMOTE_CARDS']) 
 			? $this->getRemotePricesByCards($arDataMore['REMOTE_CARDS']) : [];
+		if(isset($arItem[0]) && is_array($arItem[0]) && isset($arDataMore['REMOTE_CARDS']) && is_array($arDataMore['REMOTE_CARDS'])){
+			$this->importBarcodesFromExistProduct($arItem[0], $arDataMore['REMOTE_CARDS']);
+		}
+	}
+
+	/**
+	 * 
+	 */
+	protected function importBarcodesFromExistProduct(array &$arLocalCard, array $arRemoteCards){
+		$strVendorCode = $arLocalCard['vendorCode'];
+		if(!Helper::strlen($strVendorCode)){
+			return;
+		}
+		if(!is_array($arLocalCard['sizes']) || empty($arLocalCard['sizes'])){
+			return;
+		}
+		if(isset($arRemoteCards[$strVendorCode]['CARD'])){
+			$arRemoteCard = $arRemoteCards[$strVendorCode]['CARD'];
+			foreach($arLocalCard['sizes'] as $keyLocal => $arSizeLocal){
+				$strSizeLocal = sprintf('%s|%s', $arSizeLocal['techSize'] ?? '', $arSizeLocal['wbSize'] ?? '');
+				foreach($arRemoteCard['sizes'] as $keyRemote => $arSizeRemote){
+					$strSizeRemote = sprintf('%s|%s', $arSizeRemote['techSize'] ?? '', $arSizeRemote['wbSize'] ?? '');
+					if($strSizeLocal == $strSizeRemote){
+						if(!isset($arLocalCard['sizes'][$keyLocal]['skus']) || empty($arLocalCard['sizes'][$keyLocal]['skus'])){
+							$arLocalCard['sizes'][$keyLocal]['skus'] = $arSizeRemote['skus'];
+						}
+						if(!isset($arLocalCard['sizes'][$keyLocal]['chrtID']) || empty($arLocalCard['sizes'][$keyLocal]['chrtID'])){
+							$arLocalCard['sizes'][$keyLocal]['chrtID'] = $arSizeRemote['chrtID'];
+						}
+						break 2;
+					}
+				}
+			}
+		}
 	}
 
 	/**
@@ -1216,7 +1254,7 @@ class WildberriesV4 extends UniversalPlugin {
 			if(!empty($arVendorCodes = $this->collectExportItemVendorCodes($arJsonItems, $intElementId))){
 				# Get remote cards for all found nomenclatures
 				$arRemoteCards = $this->getRemoteCardsByVendorCodes($arVendorCodes);
-				# Get arrays of items for create, and array of items for update
+				# Get array of items for create, and array of items for update
 				$arQueue = $this->separateNmList($arJsonItems, $arRemoteCards);
 				# Firstly, create items from queue
 				if(!empty($arCreate = $arQueue['CREATE'])){
@@ -1257,6 +1295,7 @@ class WildberriesV4 extends UniversalPlugin {
 					foreach($arDataMore['PHOTOS'] as $arPhoto){
 						if(Helper::strlen($arPhoto['vendorCode'])){
 							if(is_array($arPhoto['data']) && !empty($arPhoto['data'])){
+								usleep(600000); // 100 requests per minute for content api
 								$obResponse = $this->API->execute('/content/v1/media/save', $arPhoto);
 								if($obResponse->getStatus() === 200){
 									$this->addToLog(static::getMessage('LOG_PHOTOS_EXPORTED', [
@@ -1310,9 +1349,7 @@ class WildberriesV4 extends UniversalPlugin {
 		];
 		foreach($arJsonItems as $key => $arJsonItem){
 			if(is_array($arRemoteCard = $arRemoteCards[$arJsonItem['vendorCode']])){
-				if($this->arParams['SKIP_APPEND_SIZES'] != 'Y'){
-					$this->copyChrtIdFromRemoteCard($arJsonItem, $arRemoteCard['CARD']);
-				}
+				$this->importBarcodesFromExistProduct($arJsonItem, $arRemoteCards);
 				$arResult['UPDATE'][$arJsonItem['vendorCode']] = [
 					'DATA' => $arJsonItem,
 					'IMT_ID' => $arRemoteCard['IMT_ID'],
@@ -1385,6 +1422,7 @@ class WildberriesV4 extends UniversalPlugin {
 				$arJsonChunk,
 			];
 		}
+		usleep(600000); // 100 requests per minute for content api
 		$obResponse = $this->API->execute($strMethod, $arJson);
 		$bSuccess = $obResponse->getStatus() == 200;
 		$this->writeHistory($intElementId, $strMethod, $arJson, $arJsonChunk, $obResponse);
@@ -1402,6 +1440,7 @@ class WildberriesV4 extends UniversalPlugin {
 		unset($arJsonItem);
 		#
 		$strMethod = '/content/v1/cards/update';
+		usleep(600000); // 100 requests per minute for content api
 		$obResponse = $this->API->execute($strMethod, $arJsonItems);
 		$bSuccess = $obResponse->getStatus() == 200;
 		$this->writeHistory($intElementId, $strMethod, $arJsonItems, $arJsonItems, $obResponse);
@@ -1720,6 +1759,8 @@ class WildberriesV4 extends UniversalPlugin {
 				$this->addToLog(static::getMessage('LOG_PRICES_VENDOR_CODES', [
 					'#VENDOR_CODES#' => Json::prettyPrint($arVendorCodes, true),
 				]), true);
+				# ToDo: divide to packets of 100 items
+				usleep(600000); // 100 requests per minute for content api
 				$obResult = $this->API->execute('/content/v1/cards/filter', ['vendorCodes' => $arVendorCodes]);
 				if($obResult->getStatus() == 200){
 					if(is_array($arCards = $obResult->getJsonResult()['data'])){
@@ -1770,6 +1811,7 @@ class WildberriesV4 extends UniversalPlugin {
 				}
 				# If found prices for update
 				if(!empty($arUpdatePrices)){
+					usleep(200000); // 300 requests per minute for marketplace api (5/sec)
 					$obResponse = $this->API->execute('/public/api/v1/prices', $arUpdatePrices);
 					if($obResponse->getStatus() == 200){
 						$this->addToLog(static::getMessage('LOG_PRICES_EXPORTED', [
@@ -1801,7 +1843,8 @@ class WildberriesV4 extends UniversalPlugin {
 	public function stepExportStocks($intProfileID, $arData){
 		# Prepare
 		// $arStocks = []; // Moved below
-		$this->intExportPerStep = 100;
+		// $this->intExportPerStep = 100;
+		$this->intExportPerStep = $this->arParams['EXPORT_STOCKS_BY_1'] == 'Y' ? 1 : 100;
 		# Set all profiles product as non-exported: 
 		Helper::call($this->strModuleId, 'ExportData', 'setAllDataItemsNotExported', [$intProfileID]);
 		$this->addToLog(static::getMessage('LOG_STOCKS_PREPARE'), true);
@@ -1837,11 +1880,12 @@ class WildberriesV4 extends UniversalPlugin {
 					]), true);
 					$arStocks = ['stocks' => $arStocks];
 					$arStocksSend = ['warehouse' => $strWarehouseId, 'data' => $arStocks];
+					usleep(200000); // 300 requests per minute for marketplace api (5/sec)
 					$obResponse = $this->API->execute('/api/v3/stocks/{warehouse}', $arStocksSend);
 					if($obResponse->getStatus() == 204){
 						$this->addToLog(static::getMessage('LOG_STOCKS_EXPORTED', [
 							'#ELEMENT_ID#' => $arItem['ELEMENT_ID'],
-							'#COUNT#' => count($arStocks),
+							'#COUNT#' => count($arStocks['stocks']),
 							'#STOCKS#' => Json::prettyPrint($arStocks),
 						]), true);
 					}

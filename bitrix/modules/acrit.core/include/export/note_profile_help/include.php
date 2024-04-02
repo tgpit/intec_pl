@@ -36,11 +36,13 @@ ob_start();
 		<?=Helper::getMessage($strHelpLang.'MAIN_MESSAGE');?>
 	</span>
 	&nbsp;
+	<?/*
 	<a href="https://wa.me/+79270525930" target="_blank">
 		<img src="data:image/png;base64,<?=base64_encode(file_get_contents(__DIR__.'/whatsapp.png'));?>" alt="" style="vertical-align:middle;" />
 		<span>WhatsApp</span>
 	</a>
 	&nbsp;  &nbsp;
+	*/?>
 	<a href="https://t.me/+79270525930" target="_blank">
 		<img src="data:image/png;base64,<?=base64_encode(file_get_contents(__DIR__.'/telegram.png'));?>" alt="" style="vertical-align:middle;" />
 		<span>Telegram</span>

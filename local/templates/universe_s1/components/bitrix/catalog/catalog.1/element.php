@@ -103,9 +103,9 @@ if ($arColumns['SHOW']) {
             ?>
             <?php if (!empty($arArticlesExtending['TITLE']) || Type::isNumeric($arArticlesExtending['TITLE'])) { ?>
                 <div class="intec-content">
-                    <div class="catalog-element-extending-title catalog-title">
+<!--                    <div class="catalog-element-extending-title catalog-title">
                         <?= $arArticlesExtending['TITLE'] ?>
-                    </div>
+                    </div>-->
                 </div>
             <?php } ?>
             <?php $APPLICATION->IncludeComponent(
@@ -120,7 +120,6 @@ if ($arColumns['SHOW']) {
     <?php if ($arColumns['SHOW']) { ?>
                         </div>
                     </div>
-
                     <div class="clearfix"></div>
                 </div>
             </div>

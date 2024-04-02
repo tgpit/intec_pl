@@ -6,6 +6,7 @@
 			<Model name="Camp 680 A Eco"></Model>
 			<Model name="Canada AE"></Model>
 			<Model name="Canada AS"></Model>
+			<Model name="Canada TF Plus"></Model>
 		</Make>
 		<Make name="Adria">
 			<Model name="Coral"></Model>
@@ -112,6 +113,9 @@
 		</Make>
 		<Make name="Hobby">
 			<Model name="Optima Ontour Alkoven"></Model>
+			<Model name="Siesta A65 GM"></Model>
+			<Model name="Siesta A70 GM"></Model>
+			<Model name="Siesta De Luxe A65 GM"></Model>
 		</Make>
 		<Make name="Hymer">
 			<Model name="C-Class"></Model>
@@ -184,6 +188,7 @@
 		</Make>
 		<Make name="Rimor">
 			<Model name="Dynamic XGO 95G"></Model>
+			<Model name="Junior"></Model>
 			<Model name="Kayak"></Model>
 			<Model name="Super Brig"></Model>
 		</Make>
@@ -267,6 +272,9 @@
 			<Model name="Башкирия-9ДМ"></Model>
 			<Model name="Башкирия-9ПК"></Model>
 		</Make>
+		<Make name="Буденовский машзавод">
+			<Model name="МК 1-3-01-Ж/9"></Model>
+		</Make>
 		<Make name="Ермак">
 			<Model name="ВД"></Model>
 		</Make>
@@ -290,6 +298,9 @@
 		</Make>
 		<Make name="Машино-Деталь">
 			<Model name="878536"></Model>
+		</Make>
+		<Make name="ООО &#34;Техмастер&#34;">
+			<Model name="ВагонДом"></Model>
 		</Make>
 		<Make name="ООО СМК &#34;Люкс&#34;">
 			<Model name="Север"></Model>
@@ -329,6 +340,7 @@
 		</Make>
 		<Make name="Сибмаш">
 			<Model name="Полярис 01.8"></Model>
+			<Model name="Полярис 04.9"></Model>
 		</Make>
 		<Make name="Сибстрой 2007">
 			<Model name="Сибирь 2"></Model>
@@ -410,6 +422,12 @@
 	<TypeOfVehicle name="Жилой модуль">
 		<Make name="All Win">
 			<Model name="Truck Camper RV"></Model>
+		</Make>
+		<Make name="Coachmen">
+			<Model name="Entourage 330DS"></Model>
+		</Make>
+		<Make name="Crawler">
+			<Model name="CMP 190"></Model>
 		</Make>
 		<Make name="Eagle Cap">
 			<Model name="850"></Model>
@@ -802,6 +820,7 @@
 			<Model name="CaraBus"></Model>
 			<Model name="Individual"></Model>
 			<Model name="Saint &amp; Sinner"></Model>
+			<Model name="VANTourer 600D"></Model>
 		</Make>
 		<Make name="Laika">
 			<Model name="Ecovip 409"></Model>
@@ -822,6 +841,7 @@
 		<Make name="Peugeot">
 			<Model name="Boxer"></Model>
 			<Model name="Boxer Fourgon"></Model>
+			<Model name="Expert"></Model>
 		</Make>
 		<Make name="Renault">
 			<Model name="Trafic"></Model>
@@ -852,6 +872,7 @@
 			<Model name="California"></Model>
 			<Model name="Crafter"></Model>
 			<Model name="Grand California"></Model>
+			<Model name="LT 31"></Model>
 			<Model name="LT 35"></Model>
 			<Model name="LT 40"></Model>
 			<Model name="Transporter"></Model>
@@ -1033,6 +1054,7 @@
 			<Model name="Sun ТI"></Model>
 			<Model name="Van TI"></Model>
 			<Model name="Van TI Plus"></Model>
+			<Model name="Van TI Plus 650 MEG"></Model>
 		</Make>
 		<Make name="LMC">
 			<Model name="Cruiser Comfort T 732 G"></Model>
@@ -1169,6 +1191,7 @@
 			<Model name="Cabaret"></Model>
 			<Model name="Chorus"></Model>
 			<Model name="County Oxford"></Model>
+			<Model name="County Stafford"></Model>
 			<Model name="Domino"></Model>
 			<Model name="Expression 470"></Model>
 			<Model name="Expression 520L"></Model>
@@ -1464,6 +1487,7 @@
 			<Model name="Belcanto"></Model>
 			<Model name="City 4505"></Model>
 			<Model name="D-77694"></Model>
+			<Model name="Flipper 400 TS"></Model>
 			<Model name="Fun Sportiv"></Model>
 			<Model name="LUX"></Model>
 			<Model name="LUX 500"></Model>
@@ -1534,6 +1558,10 @@
 			<Model name="Spirit of America 248TBG"></Model>
 			<Model name="VIP"></Model>
 			<Model name="Vision"></Model>
+			<Model name="Wanderer"></Model>
+		</Make>
+		<Make name="Coachmen">
+			<Model name="Apex Nano 208BHS"></Model>
 		</Make>
 		<Make name="Coleman">
 			<Model name="Caravan"></Model>
@@ -1632,6 +1660,7 @@
 			<Model name="Hurricane XL"></Model>
 			<Model name="Jetstream"></Model>
 			<Model name="Mistral GTX"></Model>
+			<Model name="Odyssey 482"></Model>
 			<Model name="Odyssey 524L"></Model>
 			<Model name="Osprey"></Model>
 			<Model name="Shadow-line 430"></Model>
@@ -1647,6 +1676,9 @@
 		</Make>
 		<Make name="Elnagh">
 			<Model name="Super Symbol 430S"></Model>
+		</Make>
+		<Make name="Er Karavan">
+			<Model name="YK 410 Premium"></Model>
 		</Make>
 		<Make name="Esterel">
 			<Model name="CAC39E"></Model>
@@ -1691,6 +1723,7 @@
 			<Model name="Bianco Activ 465 SFH"></Model>
 			<Model name="Bianco Activ 465 SGE"></Model>
 			<Model name="Bianco Activ 515 SD"></Model>
+			<Model name="Bianco Activ 515 SGD"></Model>
 			<Model name="Bianco Activ 515 SGE"></Model>
 			<Model name="Bianco Activ 550 KMG"></Model>
 			<Model name="Bianco Activ 550 SD"></Model>
@@ -1726,6 +1759,7 @@
 			<Model name="Tendenza 650"></Model>
 			<Model name="Tendenza 650 SFDW"></Model>
 			<Model name="Tiffany S590"></Model>
+			<Model name="Topas 590"></Model>
 		</Make>
 		<Make name="Fleetwood">
 			<Model name="Colchester"></Model>
@@ -1774,6 +1808,7 @@
 		</Make>
 		<Make name="Grasshopper">
 			<Model name="330Т"></Model>
+			<Model name="390Т"></Model>
 			<Model name="390ТM"></Model>
 			<Model name="390ТMГ"></Model>
 			<Model name="Offroad 230"></Model>
@@ -1937,10 +1972,16 @@
 			<Model name="Ametist 560 XL"></Model>
 			<Model name="Ametist GLE"></Model>
 			<Model name="Briljant XL"></Model>
+			<Model name="Imperial 740 TDL"></Model>
+			<Model name="Kabe Briljant 470 XL"></Model>
 			<Model name="Onyx"></Model>
+			<Model name="ROYAL 600 DXL KS"></Model>
 			<Model name="ROYAL 780 TDL KS"></Model>
+			<Model name="Royal 560 XL"></Model>
 			<Model name="Royal 560 XL KS"></Model>
 			<Model name="Royal 610 DXL"></Model>
+			<Model name="Royal 720 TDL"></Model>
+			<Model name="SAFIR TDL"></Model>
 			<Model name="Smaragd"></Model>
 		</Make>
 		<Make name="Kafi">
@@ -2053,6 +2094,7 @@
 			<Model name="Komfort 500"></Model>
 			<Model name="LifeStyle"></Model>
 			<Model name="Monsun"></Model>
+			<Model name="Royale 680 UFK"></Model>
 			<Model name="Sport"></Model>
 			<Model name="Sport&amp;Fun"></Model>
 			<Model name="Sudwind"></Model>
@@ -2290,6 +2332,8 @@
 			<Model name="Evolution"></Model>
 			<Model name="Fjord 420D"></Model>
 			<Model name="Newstar 470T"></Model>
+			<Model name="Starlett 390 CP"></Model>
+			<Model name="Starlett 420 CP"></Model>
 			<Model name="Starlett Comfort"></Model>
 			<Model name="Starlett Graphite"></Model>
 			<Model name="Sunstar"></Model>
@@ -2334,6 +2378,7 @@
 			<Model name="Fairway"></Model>
 			<Model name="Freestyle"></Model>
 			<Model name="Kingsmere"></Model>
+			<Model name="Kudos 580"></Model>
 			<Model name="Lifestyle"></Model>
 			<Model name="Mayflower"></Model>
 			<Model name="Rapide"></Model>

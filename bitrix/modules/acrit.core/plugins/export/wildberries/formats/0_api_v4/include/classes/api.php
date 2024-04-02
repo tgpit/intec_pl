@@ -172,6 +172,13 @@ class Api {
 			'/api/v2/warehouses' => [
 				'METHOD' => 'GET',
 			],
+			# Stores
+			'/api/v3/offices' => [
+				'METHOD' => 'GET',
+			],
+			'/api/v3/warehouses' => [
+				'METHOD' => 'GET',
+			],
 		];
 	}
 

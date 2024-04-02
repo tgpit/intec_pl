@@ -76,7 +76,7 @@ $obTabControl->AddSection('HEADING_STAGES_TABLE_CANCEL', Loc::getMessage('ACRIT_
 
 // Block for tags management
 $obTabControl->BeginCustomField('PROFILE[STAGES][table_cancel]', Loc::getMessage('ACRIT_CRM_TAB_STAGES_TABLE'));
-file_put_contents(__DIR__.'/stages_unuse.txt', var_export($arProfile['STAGES']['table_unuse'], true));
+// file_put_contents(__DIR__.'/stages_unuse.txt', var_export($arProfile['STAGES']['table_unuse'], true));
 Asset::getInstance()->addString('<style>
 .tr_stages_table_cancel { width: 100%; display: flex; flex-direction: column; align-items: center; background: #fff; padding: 15px; }
 .tr_stages_row_cancel { display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%}

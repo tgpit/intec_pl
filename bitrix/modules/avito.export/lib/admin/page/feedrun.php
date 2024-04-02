@@ -218,7 +218,7 @@ class FeedRun extends Page
 		$query = Export\Feed\Engine\Steps\Offer\Table::getList([
 			'filter' => [
 				'=FEED_ID' => $feed->getId(),
-				'=STATUS' => true,
+				'=STATUS' => Export\Feed\Engine\Steps\Offer\Table::STATUS_OK,
 			],
 			'limit' => 1,
 		]);
@@ -231,7 +231,7 @@ class FeedRun extends Page
 		$query = Export\Feed\Engine\Steps\Offer\Table::getList([
 			'filter' => [
 				'=FEED_ID' => $feed->getId(),
-				'=STATUS' => false,
+				'=STATUS' => Export\Feed\Engine\Steps\Offer\Table::STATUS_FAIL,
 			],
 			'limit' => 1,
 		]);
@@ -326,8 +326,8 @@ class FeedRun extends Page
 	{
 		$partials = [];
 		$statusMap = [
-			'DONE' => true,
-			'FAIL' => false,
+			'DONE' => Export\Feed\Engine\Steps\Offer\Table::STATUS_OK,
+			'FAIL' => Export\Feed\Engine\Steps\Offer\Table::STATUS_FAIL,
 		];
 
 		foreach ($statusMap as $status => $value)

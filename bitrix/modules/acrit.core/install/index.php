@@ -106,11 +106,13 @@ class acrit_core extends CModule{
 
 	function InstallEvents(){
 		require __DIR__.'/_events.php';
+		require __DIR__.'/_messages.php';
 		return true;
 	}
 
 	function UnInstallEvents(){
 		require __DIR__.'/_unevents.php';
+		require __DIR__.'/_unmessages.php';
 		return true;
 	}
 	

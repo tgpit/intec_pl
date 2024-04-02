@@ -1,7 +1,6 @@
 <?
 //\Acrit\Core\Export\Exporter::getLangPrefix(__FILE__, $strLang, $strHead, $strName, $strHint);
 \Acrit\Core\Orders\Exporter::getLangPrefix(__FILE__, $strLang, $strHead, $strName, $strHint);
-
 $MESS['ACRIT_ORDERS_PLUGIN_OZON_METHOD_API'] = 'Выбор метода получения данных заказов';
 $MESS['ACRIT_ORDERS_PLUGIN_OZON_METHOD_API_CHECKBOX'] = 'Получать данные по каждому заказу отдельно';
 $MESS['ACRIT_ORDERS_PLUGIN_OZON_URL_HINT'] = 'Домен сайта для формирования адреса ссылки на этикетку. Например https://example.com';
@@ -20,6 +19,9 @@ $MESS['EXPORT_STOCKS_CHECKBOX'] = 'Отбирать заказы по склад
 $MESS['EXPORT_STOCKS_HINT'] = 'При выборе этой опции профиль будет отбирать заказы по указанным складам';
 $MESS['EXPORT_STOCKS_ADD'] = 'Добавить склад';
 $MESS['EXPORT_STOCKS_DELETE'] = 'Удалить склад';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STOCK_ID'] = 'ID склада';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_STOCK_NAME'] = 'Наименование склада';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_CONFIRM_NAMES'] = 'Подтверждение заказов';
 $MESS['ACRIT_ORDERS_PLUGIN_OZON_PRODUCTS_ID_FIELD_NAME'] = 'Артикул товара';
 $MESS['ACRIT_ORDERS_PLUGIN_OZON_CONTACT_TITLE'] = 'Данные покупателя';
 $MESS['ACRIT_ORDERS_PLUGIN_OZON_CONTACT_NAME'] = 'Имя';
@@ -88,9 +90,25 @@ $MESS['ACRIT_ORDERS_PLUGIN_OZON_SETTINGS_CHECK_CONN'] = 'Проверить по
 $MESS['ACRIT_ORDERS_PLUGIN_OZON_CHECK_ERROR'] = 'Ошибка: ';
 $MESS['ACRIT_ORDERS_PLUGIN_OZON_CHECK_SUCCESS'] = 'Успешно';
 $MESS['ACRIT_ORDERS_PLUGIN_OZON_CONTACT_FIELDS_GROUP_1'] = 'Основные данные';
-
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_COMMENT'] = '<b>Внимание.</b> На данный момент для OZON реализован механизм только полного поддтверждения заказа.<br>
+Если вы отметите только часть позиций заказа для подтверждения, такие заказы будут проигнорированы для передачи на площадку.';
+$MESS['ACRIT_ORDERS_PLUGIN_OZON_LABEL_MANUAL'] =
+    'Для настройки данной опции важно понимать, что площадка отдает данные о стикере только короткое время, когда отправление находится в статусе "awaiting_deliver" - Ожидает отгрузки.<br>
+После того, как отправление поменяет статус, площадка будет возвращать ошибку на запрос о стикере.<br>
+Поэтому для корректной настройки получения этих данных нужно выполнить следующие настройки.<br><br>
+1. Отметить чекбокс "Включить импорт этикеток".<br><br>
+2. В поле "Домен сайта" вписать доменное имя вашего сайта. Например "https://dns-shop.ru". Вы можете взять его из адресной строки браузера.
+Модуль будет сохранять файлы этикеток в каталоге "upload/acrit.exportplus/label/ozon". А в выбранном свойстве заказа хранить ссылку на этот файл.<br><br>
+3. На вкладке "Свойства" нужно выбрать для соответствующего свойства заказа значение "Этикетка (label)".<br><br>
+4. Для выбранного свойства заказа активировать чекбокс "Запрет изменения после заполнения".<br><br>
+5. Сохранить изменения.<br>
+Поскольку площадка отдает стикеры только тогда, кода они находятся в статусе - "ожидает отгрузки", нужно тщательно настроить время и период синхронизации, чтобы модуль успевал запустить 
+синхронизацию в то время когда отправления находятся в этом статусе.
+Либо запускать ручную синхронизацию после перевода отправлений в этот статус.  
+';
 $strSName = $strLang.'SETTINGS_NAME_';
 $strSHint = $strLang.'SETTINGS_HINT_';
+
 
 //$MESS[$strSName.'USE_V2_API'] = 'Использовать старый API';
 //$MESS[$strSHint.'USE_V2_API'] = 'Использовать для обмена API версии 2 (по-умолчанию используется API версии 3)';

@@ -817,6 +817,11 @@
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
 	</Make>
+	<Make name="JIEBANG">
+		<Model name="JB32">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+	</Make>
 	<Make name="JITUI">
 		<Model name="JT22">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
@@ -1017,6 +1022,9 @@
 		<Model name="D475-5E0">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
+		<Model name="D475A-5E0">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
 		<Model name="D475A-8">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
@@ -1081,6 +1089,9 @@
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
 		<Model name="D85PX-15">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="DRD155-1">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
 		<Model name="WD420">
@@ -1524,6 +1535,9 @@
 		<Model name="826D">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
+		<Model name="832F">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
 	</Make>
 	<Make name="SHEHWA (HBXG)">
 		<Model name="SD5K">
@@ -1815,6 +1829,9 @@
 		</Model>
 	</Make>
 	<Make name="Sunward">
+		<Model name="SD165Y-2">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
 		<Model name="SD260Y-1">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
@@ -1823,6 +1840,15 @@
 		</Model>
 	</Make>
 	<Make name="TES">
+		<Model name="RD180">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="RD180S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="RD260S">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
 		<Model name="RD320">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
@@ -1907,6 +1933,18 @@
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
 		<Model name="D170 LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D170LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D260">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D260LGP">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="D360">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
 		<Model name="DL210KN">
@@ -2032,6 +2070,9 @@
 		<Model name="B7X">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
+		<Model name="B7XW">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
 		<Model name="B8">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
@@ -2097,6 +2138,12 @@
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
 		<Model name="ZD170">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD170-3">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ZD170-7H">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
 		<Model name="ZD220-3">
@@ -2511,6 +2558,14 @@
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
 	</Make>
+	<Make name="Псковский тракторный завод">
+		<Model name="ПТЗ-БЛГ">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="ПТЗ-БЛК">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+	</Make>
 	<Make name="Резонанс">
 		<Model name="Б421">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
@@ -2615,6 +2670,9 @@
 			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
 		</Model>
 		<Model name="БКУ">
+			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
+		</Model>
+		<Model name="ДМ-15">
 			<TypeOfVehicle name="Колёсный"></TypeOfVehicle>
 		</Model>
 	</Make>

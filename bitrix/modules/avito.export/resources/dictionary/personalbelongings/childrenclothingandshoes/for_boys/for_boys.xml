@@ -1,21 +1,6 @@
 <?xml version="1.0" ?>
 <Dictionary>
-    <Apparel name="Брюки"></Apparel>
     <Apparel name="Верхняя одежда">
-	    <ApparelType name="Ветровка"></ApparelType>
-	    <ApparelType name="Дождевик"></ApparelType>
-	    <ApparelType name="Дублёнка"></ApparelType>
-	    <ApparelType name="Жилет"></ApparelType>
-	    <ApparelType name="Комбинезон"></ApparelType>
-	    <ApparelType name="Комплект"></ApparelType>
-	    <ApparelType name="Куртка"></ApparelType>
-	    <ApparelType name="Пальто"></ApparelType>
-	    <ApparelType name="Парка"></ApparelType>
-	    <ApparelType name="Пиджак"></ApparelType>
-	    <ApparelType name="Плащ"></ApparelType>
-	    <ApparelType name="Пуховик"></ApparelType>
-	    <ApparelType name="Шуба"></ApparelType>
-	    <ApparelType name="Другое"></ApparelType>
 	    <Material name="Мех"></Material>
 	    <Material name="Флис"></Material>
 	    <Material name="Хлопок"></Material>
@@ -35,11 +20,16 @@
 	    <Functions name="Капюшон"></Functions>
 	    <Functions name="Воротник"></Functions>
     </Apparel>
-    <Apparel name="Комбинезоны и боди"></Apparel>
-    <Apparel name="Обувь"></Apparel>
-    <Apparel name="Пижамы"></Apparel>
-    <Apparel name="Трикотаж"></Apparel>
-    <Apparel name="Шапки, варежки, шарфы"></Apparel>
+	<Apparel name="Обувь"></Apparel>
+	<Apparel name="Брюки"></Apparel>
+    <Apparel name="Комбинезоны"></Apparel>
+	<Apparel name="Свитеры и толстовки"></Apparel>
+	<Apparel name="Футболки и майки"></Apparel>
+	<Apparel name="Рубашки"></Apparel>
+	<Apparel name="Пиджаки и костюмы"></Apparel>
+	<Apparel name="Бельё и домашняя одежда"></Apparel>
+	<Apparel name="Пляжная одежда"></Apparel>
+	<Apparel name="Аксессуары"></Apparel>
     <Apparel name="Другое"></Apparel>
 </Dictionary>
 

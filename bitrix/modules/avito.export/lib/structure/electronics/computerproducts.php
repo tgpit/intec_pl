@@ -35,6 +35,8 @@ class ComputerProducts implements Category, CategoryLevel
 			self::includeLocale();
 
 			$customFactory = new Factory(self::getLocalePrefix());
+			$componentsFactory = new Factory(self::getLocalePrefix());
+			$componentsFactory->categoryLevel(CategoryLevel::PRODUCTS_TYPE);
 
 			return $customFactory->make([
 				'Acoustics',
@@ -47,19 +49,37 @@ class ComputerProducts implements Category, CategoryLevel
 				'Network Equipment',
 				'Flash drives and memory cards',
 				'Accessories',
-				'CD,DVD and Blu-ray drives',
-				'Power Supplies',
-				'Video cards' => [
-					'dictionary' => new Dictionary\XmlCascade('electronics/gpus.xml'),
+				'Components' => [
+					'categoryLevel' => CategoryLevel::GOODS_TYPE,
+					'children' => $componentsFactory->make([
+						'CD,DVD and Blu-ray drives',
+						'Power Supplies',
+						'Video cards' => [
+							'dictionary' => new Dictionary\XmlCascade('electronics/gpus.xml'),
+						],
+						'Cooling systems',
+						'Controllers',
+						'Processors' => [
+							'dictionary' => new Dictionary\XmlCascade('electronics/processors.xml'),
+						],
+						'Main memory' => [
+							'dictionary' => new Dictionary\Compound([
+								new Dictionary\XmlCascade('electronics/operativnaya_pamyat.xml'),
+								new Dictionary\Fixed([
+									'Quantity' => [],
+								]),
+							]),
+						],
+						'Motherboards' => [
+							'dictionary' => new Dictionary\XmlCascade('electronics/materinskie_platy.xml'),
+						],
+						'Hulls',
+						'Sound cards',
+						'Hard drives' => [
+							'dictionary' => new Dictionary\XmlCascade('electronics/hard_drives.xml'),
+						],
+					]),
 				],
-				'Hard drives',
-				'Sound cards',
-				'Controllers',
-				'Hulls',
-				'Motherboards',
-				'Main memory',
-				'Processors',
-				'Cooling systems'
 			]);
 		});
 	}

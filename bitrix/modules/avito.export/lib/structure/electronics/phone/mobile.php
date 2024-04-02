@@ -46,6 +46,11 @@ class Mobile implements Structure\Category, Structure\CategoryCompatible, Struct
 				'Condition' => new Mobile\Condition(),
 				'IMEI' => [],
 			]),
+			new Dictionary\Decorator(new Dictionary\Fixed([
+				'Akb' => [],
+			]), [
+				'wait' => [ 'Vendor' => 'Apple' ],
+			]),
 		]);
 	}
 

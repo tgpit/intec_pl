@@ -23,6 +23,7 @@
 	<TireAspectRatio>30</TireAspectRatio>
 	<TireAspectRatio>32</TireAspectRatio>
 	<TireAspectRatio>35</TireAspectRatio>
+	<TireAspectRatio>37</TireAspectRatio>
 	<TireAspectRatio>40</TireAspectRatio>
 	<TireAspectRatio>45</TireAspectRatio>
 	<TireAspectRatio>50</TireAspectRatio>
@@ -43,6 +44,9 @@
 	<TireAspectRatio>500</TireAspectRatio>
 	<TireAspectRatio>530</TireAspectRatio>
 	<TireAspectRatio>600</TireAspectRatio>
+	<TireAspectRatio>700</TireAspectRatio>
 	<TireAspectRatio>710</TireAspectRatio>
+	<TireAspectRatio>720</TireAspectRatio>
+	<TireAspectRatio>740</TireAspectRatio>
 	<TireAspectRatio>Другое</TireAspectRatio>
 </TireAspectRatioValues>

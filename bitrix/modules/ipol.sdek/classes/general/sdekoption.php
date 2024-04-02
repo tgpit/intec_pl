@@ -1532,5 +1532,37 @@
 			else
 				return $exportClass->result;
 		}
+
+        static function getAccountsWithDisabledOldApi($forced = false)
+        {
+            $lastCheck = \Ipolh\SDEK\option::get('lastOldApiCheck');
+
+            if ($lastCheck && time() - $lastCheck < 7200 && !$forced) {
+                return json_decode(\Ipolh\SDEK\option::get('accountsWithDisabledOldApi'), true);
+            }
+
+            $accounts = sqlSdekLogs::getAccountsList();
+
+            $founded = [];
+            foreach ($accounts as $id => $account) {
+                 $accountData = self::defineAuth($id);
+                 $secure = $accountData['SECURE'];
+
+                $result = \Ipolh\SDEK\Legacy\transitApplication::getInvoicesByDispatchNumbers($account, $secure, ['not_valid_dispatch_number']);
+                if ($result['code'] !== 400) {
+                    continue;
+                }
+
+                $result = simplexml_load_string($result['result']);
+                if ((string)$result->Order['ErrorCode'] === 'ERR_AUTH') {
+                    $founded[] = $accountData;
+                }
+            }
+
+            \Ipolh\SDEK\option::set('accountsWithDisabledOldApi', json_encode($founded));
+            \Ipolh\SDEK\option::set('lastOldApiCheck', time());
+
+            return $founded;
+        }
 	}
 ?>

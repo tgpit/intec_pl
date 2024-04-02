@@ -665,4 +665,21 @@ class transitApplication
             'result' => $result
         );
     }
+
+    public static function getInvoicesByDispatchNumbers($account, $secure, array $dispatchNumbers, $copiesCount = null)
+    {
+        $method = 'orders_print';
+        $date = date("Y-m-d");
+        $orderCount = count($dispatchNumbers);
+        $copyCount = $copiesCount ? "CopyCount=\"$copiesCount\"" : '';
+
+        $xml = '<?xml version="1.0" encoding="UTF-8" ?>';
+        $xml .= "<OrdersPrint Date=\"$date\" Account=\"$account\" Secure=\"$secure\" OrderCount=\"$orderCount\" $copyCount>";
+        foreach ($dispatchNumbers as $dispatchNumber) {
+            $xml .= "<Order DispatchNumber=\"$dispatchNumber\" />";
+        }
+        $xml .= '</OrdersPrint>';
+
+        return self::sendToSDEK($xml, $method);
+    }
 }

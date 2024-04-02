@@ -387,7 +387,7 @@ class OzonRuV2 extends UniversalPlugin {
 		require_once __DIR__.'/include/classes/history.php';
 		require_once __DIR__.'/include/classes/historystock.php';
 		require_once __DIR__.'/include/db_table_create.php';
-		if($_GET['download'] == 'ozon_reference'){
+		if($_GET['download'] == 'ozon_reference' && defined('ADMIN_SECTION') && $GLOBALS['USER']->isAuthorized()){
 			$this->downloadFieldReference();
 		}
 	}
@@ -1470,6 +1470,7 @@ class OzonRuV2 extends UniversalPlugin {
 									return [
 										'ERRORS' => [static::getMessage('ERROR_WRONG_DICTIONARY_VALUE', [
 											'#ELEMENT_ID#' => $arElement['ID'],
+											'#CATEGORY#' => $this->formatCategoryName($arAttribute['CATEGORY_ID']),
 											'#VALUE#' => htmlspecialcharsbx($strValue),
 											'#ATTRIBUTE#' => $strAttributeName,
 										])],

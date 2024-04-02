@@ -20,6 +20,7 @@ class Request {
 	const URL = 'https://suppliers-api.wildberries.ru';
 	const DATE_FORMAT = 'Y-m-d\TH:i:s.00\Z';
 
+	protected $arProfile;
 	protected $obPlugin;
 	protected $strAccessToken;
 	protected $intProfileId;
@@ -29,11 +30,11 @@ class Request {
 	 *	Constructor
 	 */
 	public function __construct($obPlugin) {
-		$arProfile = $obPlugin->getProfileArray();
+		$this->arProfile = $obPlugin->getProfileArray();
 		$this->obPlugin = $obPlugin;
-		$this->intProfileId = $arProfile['ID'];
+		$this->intProfileId = $this->arProfile['ID'];
 		$this->strModuleId = $obPlugin->getModuleId();
-		$this->strAccessToken = $arProfile['CONNECT_CRED']['token'];
+		$this->strAccessToken = $this->arProfile['CONNECT_CRED']['token'];
 	}
 
 	/**
@@ -99,7 +100,7 @@ class Request {
 			if (!is_array($arJson)) {
 				$arJson = $strJson;
 			}
-			if (is_array($arJson['error']) && !empty($arJson['error']) && !$bSkipErrors){
+			if (is_array($arJson) && is_array($arJson['error']) && !empty($arJson['error']) && !$bSkipErrors){
 //				$strMessage = 'ERROR_GENERAL'.($this->isDebugMode() ? '_DEBUG' : '');
 				$strMessage = 'ERROR_GENERAL';
 				$strError = sprintf('%s [%s]', $arJson['error']['message'], $arJson['error']['code']);
@@ -112,7 +113,7 @@ class Request {
 			}
 			return $arJson;
 		}
-		$strMessage = 'ERROR_REQUEST'.($this->isDebugMode() ? '_DEBUG' : '');
+//		$strMessage = 'ERROR_REQUEST'.($this->isDebugMode() ? '_DEBUG' : '');
 		$strMessage = sprintf(static::getMessage($strMessage,  [
 			'#COMMAND#' => $strCommand,
 			'#JSON#' => $arParams['CONTENT'],

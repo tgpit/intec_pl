@@ -22,8 +22,9 @@ class PropertyElement
 		)
 		{
 			$id = $request->get('ID');
+			$id = is_numeric($id) ? (int)$id : 0;
 
-			return is_numeric($id) ? (int)$id : null;
+			return $id > 0 ? $id : null;
 		}
 
 		return null;

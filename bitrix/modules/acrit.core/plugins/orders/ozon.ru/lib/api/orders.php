@@ -97,8 +97,53 @@ class Orders extends Request {
 		}
 		return $list;
 	}
-	
-	/**
+
+    public function operateOrder($req) {
+//        file_put_contents(__DIR__ . '/req.txt', var_export($req, true));
+        $res = $this->execute('/v4/posting/fbs/ship',$req , [
+            'METHOD' => 'POST'
+        ]);
+//        file_put_contents(__DIR__ . '/res_conf.txt', var_export($res, true));
+        return $res;
+    }
+
+    public function getOrdersListConfirm(array $filter, int $limit) {
+        $list = [];
+        $req_filter = [
+            "since" => $filter['dateFrom'],
+            "to" => $filter['dateTo'],
+            "status" => "awaiting_packaging",
+        ];
+        $offset = 0;
+        $next = true;
+        do {
+//            $res = $this->execute('/v3/posting/fbs/unfulfilled/list', [
+                $res = $this->execute('/v3/posting/fbs/list', [
+                'dir' => 'desc',
+                'filter' => $req_filter,
+                'limit' => $limit,
+                'offset' => $offset,
+                'translit' => true,
+//                'with' => [
+//                    'analytics_data' => true,
+//                    'financial_data' => true
+//                ],
+            ],
+                [
+                    'METHOD' => 'POST'
+                ]
+            );
+//            file_put_contents(__DIR__.'/res.txt', var_export($res, true));
+            if ($res['result']) {
+                $list = array_merge($res['result']['postings'], $list);
+            }
+            $offset += $limit;
+            $next = $res['result']['has_next'];
+        } while ( $next && $offset < 100000);
+        return $list;
+    }
+
+    /**
 	 * Get postings list version 3 ozon api
 	*/
 	public function getPostingsList_v3(array $filter, int $limit) {
@@ -121,7 +166,9 @@ class Orders extends Request {
 			"status" => "",
 			"to" => $to,
 		];
-		$req_filter = array_merge($req_filter, $filter);
+//		$req_filter = array_merge($req_filter, $filter);
+//        file_put_contents(__DIR__.'/filter.txt', var_export($req_filter, true));
+//        return [];
         $offset = 0;
         $next = true;
 		do {

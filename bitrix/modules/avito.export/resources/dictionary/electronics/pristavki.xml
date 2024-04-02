@@ -1,1 +1,2235 @@
-<Pristavki><GoodsSubType name="аксессуар для приставки"><Model name="Другая"></Model></GoodsSubType><GoodsSubType name="портативная"><Model name="4"><MemorySize name="128"><Color name="Белый"></Color></MemorySize></Model><Model name="ANBERNIC RG351M"><MemorySize name="64"><Color name="Серый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="ANBERNIC RG351P"><MemorySize name="64"><Color name="Белый"></Color><Color name="Фиолетовый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="ANBERNIC RG351V"><MemorySize name="64"><Color name="Серый"></Color></MemorySize></Model><Model name="ANBERNIC RG353M"><MemorySize name="16"><Color name="Синий"></Color><Color name="Фиолетовый"></Color></MemorySize></Model><Model name="ANBERNIC RG353V"><MemorySize name="16"><Color name="Чёрный"></Color></MemorySize></Model><Model name="ANBERNIC RG35XX"><MemorySize name="64"><Color name="Белый"></Color><Color name="Серый"></Color><Color name="Фиолетовый"></Color></MemorySize></Model><Model name="ANBERNIC RG405M"><MemorySize name="128"><Color name="Серый"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="256"><Color name="Серый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="ANBERNIC RG503"><MemorySize name="16"><Color name="Серый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="ANBERNIC WIN600 3020e"><MemorySize name="1024"><Color name="Синий"></Color></MemorySize><MemorySize name="128"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="256"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="ANBERNIC WIN600 3050e"><MemorySize name="256"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="ASUS ROG Ally (2023)"><MemorySize name="256"><Color name="Белый"></Color></MemorySize><MemorySize name="512"><Color name="Белый"></Color></MemorySize></Model><Model name="AYANEO 2"><MemorySize name="1024"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="2048"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="512"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="AYANEO 2 B.Duck"><MemorySize name="1024"><Color name="Голубой"></Color></MemorySize><MemorySize name="2048"><Color name="Голубой"></Color></MemorySize></Model><Model name="AYANEO 2 Retro Power"><MemorySize name="2048"><Color name="Жёлтый"></Color></MemorySize></Model><Model name="AYANEO GEEK"><MemorySize name="1024"><Color name="Чёрный"></Color></MemorySize><MemorySize name="2048"><Color name="Чёрный"></Color></MemorySize><MemorySize name="512"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Air"><MemorySize name="512"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Baziator X12 Plus"><MemorySize name="16"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Blaze Entertainment Evercade EXP"><MemorySize name="4"><Color name="Белый"></Color></MemorySize></Model><Model name="Data Frog SF2000"></Model><Model name="Data Frog X12"><MemorySize name="8"><Color name="Голубой"></Color><Color name="Красный"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Data Frog X12 Plus"><MemorySize name="16"><Color name="Чёрный"></Color></MemorySize></Model><Model name="EXEQ Alpha"><MemorySize name="4"><Color name="Чёрный"></Color></MemorySize></Model><Model name="EXEQ Get 2"><MemorySize name="8"><Color name="Чёрный"></Color></MemorySize></Model><Model name="EXEQ NET 2"><MemorySize name="4"><Color name="Белый"></Color></MemorySize></Model><Model name="EXEQ NET MP-1020 FX"><MemorySize name="4"><Color name="Чёрный"></Color></MemorySize></Model><Model name="EXEQ SET"><MemorySize name="8"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Emote Else"><MemorySize name="8"><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="FunKey S"><MemorySize name="32"><Color name="Серый"></Color></MemorySize></Model><Model name="GPD Win 3"><MemorySize name="1024"><Color name="Белый"></Color><Color name="Серый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="GPD XP Plus"><MemorySize name="128"><Color name="Чёрный"></Color></MemorySize><MemorySize name="256"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Game &amp; Watch Oil Panic (OP-51)"><MemorySize name="Другой"></MemorySize></Model><Model name="Game Box X7M"><MemorySize name="Другой"></MemorySize></Model><Model name="Game PRC-001"><Color name="Голубой"></Color></Model><Model name="Game Stick Lite"><MemorySize name="64"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Genesis Gopher 2"><MemorySize name="Другой"><Color name="Синий"></Color></MemorySize></Model><Model name="Genesis Gopher Wireless"><MemorySize name="2"><Color name="Чёрный"></Color></MemorySize></Model><Model name="JXD S7800B"><MemorySize name="16"><Color name="Чёрный"></Color></MemorySize><MemorySize name="8"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Jetson Game Stick 4K"><MemorySize name="64"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Logitech G Cloud"><MemorySize name="64"><Color name="Белый"></Color></MemorySize></Model><Model name="Luminous VG-1639"><Color name="Белый"></Color></Model><Model name="Mini Pro"><MemorySize name="1024"><Color name="Чёрный"></Color></MemorySize><MemorySize name="2048"><Color name="Чёрный"></Color></MemorySize><MemorySize name="512"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Miyoo Mini +"><MemorySize name="128"><Color name="Белый"></Color><Color name="Серый"></Color><Color name="Фиолетовый"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="32"><Color name="Белый"></Color><Color name="Серый"></Color><Color name="Фиолетовый"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="64"><Color name="Белый"></Color><Color name="Серый"></Color><Color name="Фиолетовый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Miyoo mini v2"><MemorySize name="128"><Color name="Чёрный"></Color></MemorySize><MemorySize name="32"><Color name="Чёрный"></Color></MemorySize><MemorySize name="64"><Color name="Чёрный"></Color></MemorySize></Model><Model name="NVIDIA SHIELD"><MemorySize name="16"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Nimbus Smart"><MemorySize name="16"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Nintendo 2DS"><MemorySize name="1"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Nintendo 3DS"><MemorySize name="1"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Nintendo 3DS XL"><MemorySize name="1"><Color name="Другой"></Color></MemorySize><MemorySize name="2"><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Серебряный"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Серебряный"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Nintendo DS"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Розовый"></Color><Color name="Серебряный"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></Model><Model name="Nintendo DS Lite"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></Model><Model name="Nintendo DSi"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></Model><Model name="Nintendo DSi XL"></Model><Model name="Nintendo Game &amp; Watch Super Mario Bros"><MemorySize name="0.004"><Color name="Красный"></Color></MemorySize></Model><Model name="Nintendo Game &amp; Watch: The Legend of Zelda"><MemorySize name="Другой"></MemorySize></Model><Model name="Nintendo Game Boy"><MemorySize name="0.007"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Nintendo Game Boy Advance"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Жёлтый"></Color><Color name="Золотой"></Color><Color name="Красный"></Color><Color name="Розовый"></Color><Color name="Серебряный"></Color><Color name="Фиолетовый"></Color><Color name="Чёрный"></Color></Model><Model name="Nintendo Game Boy Advance SP"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Зелёный"></Color><Color name="Золотой"></Color><Color name="Красный"></Color><Color name="Розовый"></Color><Color name="Серебряный"></Color><Color name="Серый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></Model><Model name="Nintendo Game Boy Color"><Color name="Бирюзовый"></Color><Color name="Голубой"></Color><Color name="Жёлтый"></Color><Color name="Зелёный"></Color><Color name="Розовый"></Color><Color name="Синий"></Color></Model><Model name="Nintendo Game Boy Micro"><Color name="Другой"></Color><Color name="Зелёный"></Color><Color name="Розовый"></Color><Color name="Серебряный"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></Model><Model name="Nintendo New 2DS XL"></Model><Model name="Nintendo New 3DS"><MemorySize name="1"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Nintendo New 3DS XL"><Color name="Чёрный"></Color></Model><Model name="Nintendo SNES Classic Mini"><MemorySize name="0.512"><Color name="Серый"></Color></MemorySize></Model><Model name="Nintendo Switch"><MemorySize name="32"><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Серый"></Color><Color name="Синий"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Серый"></Color><Color name="Синий"></Color></MemorySize></Model><Model name="Nintendo Switch Lite"><MemorySize name="32"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Жёлтый"></Color><Color name="Красный"></Color><Color name="Розовый"></Color><Color name="Серый"></Color><Color name="Синий"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Жёлтый"></Color><Color name="Красный"></Color><Color name="Розовый"></Color><Color name="Серый"></Color><Color name="Синий"></Color></MemorySize></Model><Model name="Nintendo Switch OLED"><MemorySize name="64"><Color name="Белый"></Color><Color name="Красный"></Color><Color name="Синий"></Color></MemorySize></Model><Model name="Nintendo Switch OLED Pokemon Scarlet &amp; Violet Edition"><MemorySize name="64"><Color name="Фиолетовый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Nintendo Switch OLED The Legend of Zelda: Tears of the Kingdom"><MemorySize name="64"><Color name="Золотой"></Color></MemorySize></Model><Model name="Nintendo Switch Sweet"><MemorySize name="32"><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Жёлтый"></Color><Color name="Розовый"></Color></MemorySize><MemorySize name="Другой"><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Жёлтый"></Color><Color name="Розовый"></Color></MemorySize></Model><Model name="Nintendo Switch rev.2"><MemorySize name="32"><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Синий"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Синий"></Color></MemorySize></Model><Model name="Oculus Quest 2"><MemorySize name="128"><Color name="Белый"></Color></MemorySize><MemorySize name="256"><Color name="Белый"></Color></MemorySize><MemorySize name="64"><Color name="Белый"></Color></MemorySize></Model><Model name="OneXplayer MINI"><MemorySize name="1024"><Color name="Чёрный"></Color></MemorySize><MemorySize name="2048"><Color name="Чёрный"></Color></MemorySize><MemorySize name="512"><Color name="Чёрный"></Color></MemorySize></Model><Model name="PGP AIO Union C35"><MemorySize name="8"><Color name="Жёлтый"></Color><Color name="Серый"></Color><Color name="Синий"></Color></MemorySize></Model><Model name="Pilgrim"><Color name="Чёрный"></Color></Model><Model name="PlayStation Portable 2000 System"><MemorySize name="64"><Color name="Чёрный"></Color></MemorySize></Model><Model name="PlayStation Portable PSP E1008"><MemorySize name="0.004"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Playdate"><MemorySize name="4"><Color name="Жёлтый"></Color></MemorySize></Model><Model name="PocketGo S30"><MemorySize name="32"><Color name="Серый"></Color></MemorySize></Model><Model name="PowKiddy Q90"><MemorySize name="16"><Color name="Белый"></Color><Color name="Голубой"></Color></MemorySize></Model><Model name="PowKiddy RGB20S"><MemorySize name="128"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Жёлтый"></Color></MemorySize><MemorySize name="256"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Жёлтый"></Color></MemorySize><MemorySize name="64"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Жёлтый"></Color></MemorySize></Model><Model name="PowKiddy X51"><MemorySize name="32"><Color name="Жёлтый"></Color></MemorySize><MemorySize name="64"><Color name="Жёлтый"></Color></MemorySize></Model><Model name="Powkiddy X20"><MemorySize name="8"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Powkiddy X39"><MemorySize name="32"><Color name="Чёрный"></Color></MemorySize></Model><Model name="RAY 2"><MemorySize name="8"><Color name="Белый"></Color></MemorySize></Model><Model name="RG351MP"><MemorySize name="16"><Color name="Белый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="80"><Color name="Белый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="RG505"><MemorySize name="128"><Color name="Жёлтый"></Color></MemorySize></Model><Model name="RZX-40"><MemorySize name="2"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Retroid Pocket 2"><MemorySize name="8"><Color name="Белый"></Color></MemorySize></Model><Model name="Retroid Pocket 3"><MemorySize name="32"><Color name="Жёлтый"></Color><Color name="Серый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Retroid Pocket 3 Plus"><MemorySize name="128"><Color name="Белый"></Color><Color name="Жёлтый"></Color><Color name="Серый"></Color><Color name="Синий"></Color><Color name="Фиолетовый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="SUP SUP 400в1"></Model><Model name="SUP SUP Gamebox Plus"></Model><Model name="Sega Game Gear"><MemorySize name="Другой"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Smaggi AIO Smarti"><MemorySize name="8"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation Portable 1000"><MemorySize name="0.031"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation Portable 3004"><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Portable 3006"><Color name="Красный"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Portable 3008"><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Portable Base Pack"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Розовый"></Color><Color name="Серый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Portable E1000"><Color name="Другой"></Color><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Portable Entertainment Pack"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Розовый"></Color><Color name="Серый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Portable Giga Pack"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Розовый"></Color><Color name="Серый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Portable Slim &amp; Lite"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Розовый"></Color><Color name="Серебряный"></Color><Color name="Серый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Portable Slim &amp; Lite 3001"><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Portable Slim &amp; Lite PSP-3000"><Color name="Бирюзовый"></Color><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Portable Street PSP E1004"><Color name="Белый"></Color></Model><Model name="Sony PlayStation Portable Value Pack"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Розовый"></Color><Color name="Серый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Portable go"><MemorySize name="16"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation Vita 2000"><MemorySize name="1"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Зелёный"></Color><Color name="Красный"></Color><Color name="Розовый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Зелёный"></Color><Color name="Красный"></Color><Color name="Розовый"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation Vita 3G/Wi-Fi"><Color name="Другой"></Color><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation Vita Wi-Fi"><Color name="Другой"></Color><Color name="Чёрный"></Color></Model><Model name="TWS Wireless 2.4 G"><MemorySize name="0.031"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Valve Steam Deck"><MemorySize name="256"><Color name="Чёрный"></Color></MemorySize><MemorySize name="512"><Color name="Чёрный"></Color></MemorySize><MemorySize name="64"><Color name="Чёрный"></Color></MemorySize></Model><Model name="WonderSwan Color"><MemorySize name="Другой"><Color name="Белый"></Color></MemorySize></Model><Model name="X39pro"><MemorySize name="32"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Y2HD PLUS"><Color name="Чёрный"></Color></Model><Model name="Другая"></Model></GoodsSubType><GoodsSubType name="стационарная"><Model name=" Classic"><MemorySize name="Другой"><Color name="Чёрный"></Color></MemorySize></Model><Model name="16 bit Modern Wireless"></Model><Model name="DEXP RetroGAME 6"><MemorySize name="Другой"><Color name="Чёрный"></Color></MemorySize></Model><Model name="DEXP RetroGAME Flash 2"><Color name="Чёрный"></Color></Model><Model name="Data Frog Y3 Lite"><MemorySize name="64"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Dendy"></Model><Model name="Dreamcast"><Color name="Белый"></Color></Model><Model name="General Satellite GS Gamekit"><MemorySize name="32"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Genesis Mini"><Color name="Чёрный"></Color></Model><Model name="Magistr Smart 414"><MemorySize name="4"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Microsoft Xbox"><MemorySize name="8"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Microsoft Xbox 360"><MemorySize name="120"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="20"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize><MemorySize name="250"><Color name="Другой"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="4"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="500"><Color name="Чёрный"></Color></MemorySize><MemorySize name="60"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Microsoft Xbox 360 2009"><MemorySize name="250"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Microsoft Xbox 360 Arcade"><Color name="Белый"></Color><Color name="Другой"></Color></Model><Model name="Microsoft Xbox 360 Core"><Color name="Белый"></Color><Color name="Другой"></Color></Model><Model name="Microsoft Xbox 360 E"><MemorySize name="250"><Color name="Другой"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="4"><Color name="Другой"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="500"><Color name="Другой"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Microsoft Xbox 360 Elite"><MemorySize name="120"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Microsoft Xbox 360 Limited Edition Halo 4"><MemorySize name="320"><Color name="Синий"></Color></MemorySize></Model><Model name="Microsoft Xbox 360 Pro"><MemorySize name="60"><Color name="Белый"></Color></MemorySize></Model><Model name="Microsoft Xbox 360 S"><MemorySize name="250"><Color name="Чёрный"></Color></MemorySize><MemorySize name="320"><Color name="Чёрный"></Color></MemorySize><MemorySize name="4"><Color name="Чёрный"></Color></MemorySize><MemorySize name="500"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Microsoft Xbox One"><MemorySize name="1000"><Color name="Другой"></Color></MemorySize><MemorySize name="500"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Microsoft Xbox One Elite"><MemorySize name="1000"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Microsoft Xbox One S"><MemorySize name="1000"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize><MemorySize name="500"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize><MemorySize name="Другой"></MemorySize></Model><Model name="Microsoft Xbox One S All Digital"><MemorySize name="1024"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize></Model><Model name="Microsoft Xbox One X"><MemorySize name="1024"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Microsoft Xbox Series S"><MemorySize name="512"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Microsoft Xbox Series X"><MemorySize name="1024"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="NewGame Titan 500"><Color name="Чёрный"></Color></Model><Model name="Nintendo 64"><MemorySize name="0.004"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Nintendo Classic Mini NES"><Color name="Другой"></Color><Color name="Серый"></Color></Model><Model name="Nintendo Classic Mini: Super Nintendo Entertainment System"><MemorySize name="0.512"><Color name="Белый"></Color></MemorySize></Model><Model name="Nintendo Entertainment System"><MemorySize name="Другой"><Color name="Белый"></Color></MemorySize></Model><Model name="Nintendo Family Computer"><Color name="Белый"></Color></Model><Model name="Nintendo GameCube"><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Серебряный"></Color><Color name="Синий"></Color><Color name="Фиолетовый"></Color><Color name="Чёрный"></Color></Model><Model name="Nintendo Wii"><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></Model><Model name="Nintendo Wii 2009"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></Model><Model name="Nintendo Wii Mini"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Синий"></Color><Color name="Чёрный"></Color></Model><Model name="Nintendo Wii U Basic Pack"><MemorySize name="8"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize></Model><Model name="Nintendo Wii U Premium Pack"><MemorySize name="32"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Nintendo: Super Nintendo Entertainment System"><Color name="Белый"></Color></Model><Model name="Panasonic 3DO"><Color name="Чёрный"></Color></Model><Model name="Retro Genesis 8 Bit Classic"><Color name="Белый"></Color></Model><Model name="Retro Genesis 8 Bit HD"><Color name="Белый"></Color></Model><Model name="Retro Genesis 8 Bit Junior"><Color name="Чёрный"></Color></Model><Model name="Retro Genesis HD Ultra"><Color name="Чёрный"></Color></Model><Model name="Retro Genesis MixSD"><MemorySize name="Другой"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Retro Genesis Modern Wireless"></Model><Model name="Retro Genesis Remix"><Color name="Чёрный"></Color></Model><Model name="RetroGAME 1"><Color name="Серый"></Color></Model><Model name="SEGA Magistr Titan 2"><MemorySize name="4"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sega"></Model><Model name="Sega Dreamcast"><Color name="Белый"></Color><Color name="Чёрный"></Color></Model><Model name="Sega Genesis"><Color name="Чёрный"></Color></Model><Model name="Sega Magistr Drive 2"><Color name="Чёрный"></Color></Model><Model name="Sega Magistr Titan 3"><Color name="Чёрный"></Color></Model><Model name="Sega Magistr X"><MemorySize name="2"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sega Mega Drive 2"><Color name="Чёрный"></Color></Model><Model name="Sega Mega Drive 4"><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation"><MemorySize name="Другой"><Color name="Серый"></Color></MemorySize></Model><Model name="Sony PlayStation 2"><Color name="Другой"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation 2 Slim"><Color name="Другой"></Color><Color name="Розовый"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></Model><Model name="Sony PlayStation 3"><MemorySize name="160"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="20"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="40"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="500"><Color name="Чёрный"></Color></MemorySize><MemorySize name="60"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="80"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation 3 Slim"><MemorySize name="120"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="160"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="250"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="320"><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Серебряный"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation 3 Starter Pack"><MemorySize name="60"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation 3 Super Slim"><MemorySize name="12"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="250"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="500"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Голубой"></Color><Color name="Другой"></Color><Color name="Красный"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation 4"><MemorySize name="1000"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="500"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation 4 FAT"><MemorySize name="1000"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="500"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation 4 Slim"><MemorySize name="1000"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="500"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation 5"><MemorySize name="825"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize></Model><Model name="Sony PlayStation 5 Digital Edition"><MemorySize name="825"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color></MemorySize></Model><Model name="Sony PlayStation Classic"><Color name="Другой"></Color><Color name="Серый"></Color></Model><Model name="Sony PlayStation One"><Color name="Белый"></Color><Color name="Другой"></Color></Model><Model name="Sony PlayStation Portable PSP-2008PB"><MemorySize name="0.004"><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony PlayStation TV"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></Model><Model name="Sony Playstation 4 Pro"><MemorySize name="1000"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="500"><Color name="Белый"></Color><Color name="Чёрный"></Color></MemorySize><MemorySize name="Другой"><Color name="Белый"></Color><Color name="Другой"></Color><Color name="Чёрный"></Color></MemorySize></Model><Model name="Sony Playstation 4 Pro VR set"><MemorySize name="1024"><Color name="Другой"></Color></MemorySize><MemorySize name="Другой"></MemorySize></Model><Model name="Другая"></Model></GoodsSubType></Pristavki>
+<Pristavki>
+	<GoodsSubType name="аксессуар для приставки">
+		<Model name="Другая"></Model>
+	</GoodsSubType>
+	<GoodsSubType name="портативная">
+		<Model name="4">
+			<MemorySize name="128">
+				<Color name="Белый"></Color>
+			</MemorySize>
+			<MemorySize name="256">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="A1">
+			<MemorySize name="2048">
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="A1 Pro">
+			<MemorySize name="1000">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="AIM Pro">
+			<MemorySize name="32">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="AIR PRO">
+			<MemorySize name="512">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG351M">
+			<MemorySize name="64">
+				<Color name="Серый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG351MP">
+			<MemorySize name="16">
+				<Color name="Зелёный"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG351P">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+				<Color name="Фиолетовый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG351V">
+			<MemorySize name="64">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG353M">
+			<MemorySize name="16">
+				<Color name="Синий"></Color>
+				<Color name="Фиолетовый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG353P">
+			<MemorySize name="16">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG353PS">
+			<MemorySize name="16 Гб">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG353V">
+			<MemorySize name="16">
+				<Color name="Серый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG353VS">
+			<MemorySize name="16">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG35XX">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Фиолетовый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG35XX H">
+			<MemorySize name="64">
+				<Color name="Другой"></Color>
+				<Color name="Фиолетовый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG35XX Plus">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG405M">
+			<MemorySize name="128">
+				<Color name="Серый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="256">
+				<Color name="Серый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG405V">
+			<MemorySize name="128">
+				<Color name="Жёлтый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Фиолетовый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG503">
+			<MemorySize name="16">
+				<Color name="Серый"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG505">
+			<MemorySize name="128">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC RG552">
+			<MemorySize name="16">
+				<Color name="Серый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC V6">
+			<MemorySize name="0.256">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC WIN600 3020e">
+			<MemorySize name="1024">
+				<Color name="Синий"></Color>
+			</MemorySize>
+			<MemorySize name="128">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="256">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ANBERNIC WIN600 3050e">
+			<MemorySize name="256">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="AOKZOE A1">
+			<MemorySize name="1024">
+				<Color name="Белый"></Color>
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ASUS ROG Ally (2023)">
+			<MemorySize name="1024">
+				<Color name="Белый"></Color>
+			</MemorySize>
+			<MemorySize name="256">
+				<Color name="Белый"></Color>
+			</MemorySize>
+			<MemorySize name="512">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="AYANEO 2">
+			<MemorySize name="1024">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="2048">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="512">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="AYANEO 2 B.Duck">
+			<MemorySize name="1024">
+				<Color name="Голубой"></Color>
+			</MemorySize>
+			<MemorySize name="2048">
+				<Color name="Голубой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="AYANEO 2 Retro Power">
+			<MemorySize name="2048">
+				<Color name="Жёлтый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="AYANEO AIR">
+			<MemorySize name="512">
+				<Color name="Белый"></Color>
+				<Color name="Розовый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="AYANEO GEEK">
+			<MemorySize name="1024">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="2048">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="512">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="AYANEO KUN">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="AYN Odin 2 Max">
+			<MemorySize name="512">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="AYN Odin 2 Pro">
+			<MemorySize name="256">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Air">
+			<MemorySize name="512">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Air Plus">
+			<MemorySize name="512">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Baziator X12 Plus">
+			<MemorySize name="16">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Blaze Entertainment Evercade EXP">
+			<MemorySize name="4">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Clockworkpi GameShell">
+			<MemorySize name="16">
+				<Color name="Жёлтый"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Compact cyber arcade">
+			<MemorySize name="250">
+				<Color name="Другой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="DPE801W">
+			<MemorySize name="4">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="DVTech Joker">
+			<MemorySize name="8">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="DVTech Nimbus">
+			<MemorySize name="Другой">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Data Frog SF2000"></Model>
+		<Model name="Data Frog X12">
+			<MemorySize name="8">
+				<Color name="Голубой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Data Frog X12 Plus">
+			<MemorySize name="16">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Data Frog Y2 HD">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Data Frog Y2 SG">
+			<MemorySize name="1 Гб">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Defender MultiMix Magic">
+			<MemorySize name="2">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Dingoo A-320">
+			<MemorySize name="4">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="EXEQ Alpha">
+			<MemorySize name="4">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="EXEQ Get 2">
+			<MemorySize name="8">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="EXEQ Mega Drive Arcada">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="EXEQ NET 2">
+			<MemorySize name="4">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="EXEQ NET MP-1020 FX">
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="EXEQ SET">
+			<MemorySize name="8">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="EXEQ SMP NEXT">
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Emote Else">
+			<MemorySize name="8">
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Emote Wave">
+			<MemorySize name="8">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Exeq Ray MP-1021">
+			<MemorySize name="8">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Extreme Mini GameBox">
+			<MemorySize name="Другой">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="FELFRI G6">
+			<MemorySize name="Другой">
+				<Color name="Голубой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Family Pocket FC3000 V2">
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="FunKey S">
+			<MemorySize name="32">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="GPD Win 3">
+			<MemorySize name="1024">
+				<Color name="Белый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="GPD Win 4">
+			<MemorySize name="1024">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="2048">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="512">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="GPD Win Mini">
+			<MemorySize name="512">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="GPD XP Plus">
+			<MemorySize name="128">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="256">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Game &amp; Watch Oil Panic (OP-51)">
+			<MemorySize name="Другой"></MemorySize>
+		</Model>
+		<Model name="Game Box K5">
+			<MemorySize name="64">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Game Box K8">
+			<MemorySize name="Другой">
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Game Box X7M">
+			<MemorySize name="Другой"></MemorySize>
+		</Model>
+		<Model name="Game Kiddy GKD 350H">
+			<MemorySize name="16">
+				<Color name="Жёлтый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Game PRC-001">
+			<Color name="Голубой"></Color>
+		</Model>
+		<Model name="Game Stick Lite">
+			<MemorySize name="64">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="GameBird">
+			<Color name="Зелёный"></Color>
+		</Model>
+		<Model name="Genesis Gopher 2">
+			<MemorySize name="Другой">
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Genesis Gopher Wireless">
+			<MemorySize name="2">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="JXD S7800B">
+			<MemorySize name="16">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="8">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Jetson Game Stick 4K">
+			<MemorySize name="64">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Lenovo Legion Go">
+			<MemorySize name="1024">
+				<Color name="Серый"></Color>
+			</MemorySize>
+			<MemorySize name="512">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Lite">
+			<MemorySize name="128">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Logitech G Cloud">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Luminous VG-1639">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="MSI Claw - A1M">
+			<MemorySize name="1024">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Meta Quest Pro">
+			<MemorySize name="256">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Mini Pro">
+			<MemorySize name="1024">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="2048">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="512">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Miyoo Mini +">
+			<MemorySize name="128">
+				<Color name="Белый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Фиолетовый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="32">
+				<Color name="Белый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Фиолетовый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Фиолетовый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Miyoo Mini V4">
+			<MemorySize name="0.128">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+				<Color name="Жёлтый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Miyoo mini v2">
+			<MemorySize name="128">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="32">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="64">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="NVIDIA SHIELD">
+			<MemorySize name="16">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Neo 3">
+			<MemorySize name="256">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nimbus Smart">
+			<MemorySize name="16">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo 2DS">
+			<MemorySize name="1">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo 3DS">
+			<MemorySize name="1">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo 3DS XL">
+			<MemorySize name="1">
+				<Color name="Другой"></Color>
+			</MemorySize>
+			<MemorySize name="2">
+				<Color name="Другой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo DS">
+			<Color name="Белый"></Color>
+			<Color name="Голубой"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Красный"></Color>
+			<Color name="Розовый"></Color>
+			<Color name="Серебряный"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo DS Lite">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo DSi">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo DSi XL"></Model>
+		<Model name="Nintendo Game &amp; Watch Super Mario Bros">
+			<MemorySize name="0.004">
+				<Color name="Красный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Game &amp; Watch: The Legend of Zelda">
+			<MemorySize name="Другой"></MemorySize>
+		</Model>
+		<Model name="Nintendo Game Boy">
+			<MemorySize name="0.007">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Game Boy Advance">
+			<Color name="Белый"></Color>
+			<Color name="Голубой"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Жёлтый"></Color>
+			<Color name="Золотой"></Color>
+			<Color name="Красный"></Color>
+			<Color name="Розовый"></Color>
+			<Color name="Серебряный"></Color>
+			<Color name="Фиолетовый"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo Game Boy Advance SP">
+			<Color name="Белый"></Color>
+			<Color name="Голубой"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Зелёный"></Color>
+			<Color name="Золотой"></Color>
+			<Color name="Красный"></Color>
+			<Color name="Розовый"></Color>
+			<Color name="Серебряный"></Color>
+			<Color name="Серый"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo Game Boy Color">
+			<Color name="Бирюзовый"></Color>
+			<Color name="Голубой"></Color>
+			<Color name="Жёлтый"></Color>
+			<Color name="Зелёный"></Color>
+			<Color name="Розовый"></Color>
+			<Color name="Синий"></Color>
+		</Model>
+		<Model name="Nintendo Game Boy Micro">
+			<Color name="Другой"></Color>
+			<Color name="Зелёный"></Color>
+			<Color name="Розовый"></Color>
+			<Color name="Серебряный"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo New 2DS XL"></Model>
+		<Model name="Nintendo New 3DS">
+			<MemorySize name="1">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo New 3DS XL">
+			<Color name="Белый"></Color>
+			<Color name="Жёлтый"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo SNES Classic Mini">
+			<MemorySize name="0.512">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Switch">
+			<MemorySize name="32">
+				<Color name="Другой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Синий"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Switch Fortnite Edition">
+			<MemorySize name="32">
+				<Color name="Другой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Switch Lite">
+			<MemorySize name="32">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Жёлтый"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Розовый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Синий"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Жёлтый"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Розовый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Switch OLED">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Switch OLED Pokemon Scarlet &amp; Violet Edition">
+			<MemorySize name="64">
+				<Color name="Фиолетовый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Switch OLED Splatoon 3 Edition">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Switch OLED The Legend of Zelda: Tears of the Kingdom">
+			<MemorySize name="64">
+				<Color name="Золотой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Switch Sweet">
+			<MemorySize name="32">
+				<Color name="Голубой"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Жёлтый"></Color>
+				<Color name="Розовый"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Голубой"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Жёлтый"></Color>
+				<Color name="Розовый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Switch V2">
+			<MemorySize name="128">
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Switch rev.2">
+			<MemorySize name="32">
+				<Color name="Другой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Синий"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Oculus Qest 1">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Oculus Quest 2">
+			<MemorySize name="128">
+				<Color name="Белый"></Color>
+			</MemorySize>
+			<MemorySize name="256">
+				<Color name="Белый"></Color>
+			</MemorySize>
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Oculus Quest 3">
+			<MemorySize name="128">
+				<Color name="Белый"></Color>
+			</MemorySize>
+			<MemorySize name="512">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Odin Pro">
+			<MemorySize name="128">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="OneXPlayer 2Pro">
+			<MemorySize name="1024">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="OneXplayer 2">
+			<MemorySize name="1024">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="OneXplayer MINI">
+			<MemorySize name="1024">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="2048">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="512">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PGP AIO 4300">
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PGP AIO Junior FC25a">
+			<MemorySize name="Другой">
+				<Color name="Зелёный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PGP AIO Junior FC32b Slim">
+			<MemorySize name="Другой">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PGP AIO Neon">
+			<MemorySize name="128">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PGP AIO Union C35">
+			<MemorySize name="8">
+				<Color name="Жёлтый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PGP AIO Union NV40">
+			<MemorySize name="8">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PS VITA - PCH-1001">
+			<MemorySize name="128">
+				<Color name="Другой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PSP E-1003 Slim">
+			<MemorySize name="2048">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PSP N-1008 GO">
+			<MemorySize name="16 Гб">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PiBoy XRS">
+			<MemorySize name="Другой">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Pilgrim">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="PlayStation Portable 2000 System">
+			<MemorySize name="64">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PlayStation Portable PSP E1008">
+			<MemorySize name="0.004">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PlayStation Portal">
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PlayStation Portal Remote Player">
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PlayStation Vita PCH-1004">
+			<MemorySize name="Другой">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PlayStation Vita PCH-1104">
+			<MemorySize name="8">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PlayStation Vita PCH-1108">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Playdate">
+			<MemorySize name="4">
+				<Color name="Жёлтый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Pocket 2S">
+			<MemorySize name="128">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PocketGo S30">
+			<MemorySize name="32">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PowKiddy Q90">
+			<MemorySize name="16">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PowKiddy RGB10MAX">
+			<MemorySize name="128">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="64">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PowKiddy RGB10S">
+			<MemorySize name="128">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="32">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PowKiddy RGB20S">
+			<MemorySize name="128">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+				<Color name="Жёлтый"></Color>
+			</MemorySize>
+			<MemorySize name="256">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+				<Color name="Жёлтый"></Color>
+			</MemorySize>
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+				<Color name="Жёлтый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PowKiddy RGB30">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="PowKiddy RK2023">
+			<Color name="Белый"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="PowKiddy X18S">
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PowKiddy X51">
+			<MemorySize name="32">
+				<Color name="Жёлтый"></Color>
+			</MemorySize>
+			<MemorySize name="64">
+				<Color name="Жёлтый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="PowKiddy v90">
+			<MemorySize name="16">
+				<Color name="Красный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="16 Гб">
+				<Color name="Жёлтый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Powkiddy X20">
+			<MemorySize name="16">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="8">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Powkiddy X39">
+			<MemorySize name="32">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Powkiddy X39Pro">
+			<MemorySize name="64">
+				<Color name="Фиолетовый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Powkiddy X55">
+			<MemorySize name="256">
+				<Color name="Голубой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Q80">
+			<MemorySize name="16">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="R36S">
+			<MemorySize name="64">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="RAY 2">
+			<MemorySize name="8">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="RG 350M">
+			<MemorySize name="16 Гб">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="RG351MP">
+			<MemorySize name="16">
+				<Color name="Белый"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="80">
+				<Color name="Белый"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="RG505">
+			<MemorySize name="128">
+				<Color name="Жёлтый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="RGB30">
+			<MemorySize name="16">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="RZX-40">
+			<MemorySize name="2">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Retro Genesis Port 2000">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Retro Genesis Port 3000">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Retroid Pocket 2">
+			<MemorySize name="8">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Retroid Pocket 2 Plus">
+			<MemorySize name="32">
+				<Color name="Серый"></Color>
+			</MemorySize>
+			<MemorySize name="64">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Retroid Pocket 3">
+			<MemorySize name="32">
+				<Color name="Жёлтый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Retroid Pocket 3 Plus">
+			<MemorySize name="128">
+				<Color name="Белый"></Color>
+				<Color name="Жёлтый"></Color>
+				<Color name="Серый"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Фиолетовый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Retroid Pocket 4 Pro">
+			<MemorySize name="128">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Ritmix RZX-50">
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Ritmix RZX-60">
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Ritmix RZX-70">
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="S10">
+			<MemorySize name="512">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="S5110">
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="8">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="SNK Neo Geo X Gold">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="SUP SUP 400в1"></Model>
+		<Model name="SUP SUP Gamebox Plus"></Model>
+		<Model name="Sega Game Gear">
+			<MemorySize name="Другой">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Smaggi AIO Smarti">
+			<MemorySize name="8">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Smart Pro">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sonic">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation Portable 1000">
+			<MemorySize name="0.031">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation Portable 1004">
+			<Color name="Белый"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable 1006">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable 2006 Slim">
+			<MemorySize name="32">
+				<Color name="Серебряный"></Color>
+			</MemorySize>
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation Portable 3004">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable 3006">
+			<Color name="Красный"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable 3008">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable Base Pack">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Розовый"></Color>
+			<Color name="Серый"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable E1000">
+			<Color name="Другой"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable Entertainment Pack">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Розовый"></Color>
+			<Color name="Серый"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable Giga Pack">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Розовый"></Color>
+			<Color name="Серый"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable PSP-2008PB">
+			<MemorySize name="0.004">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation Portable PSP-E3004">
+			<MemorySize name="0,064">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation Portable Slim &amp; Lite">
+			<Color name="Белый"></Color>
+			<Color name="Голубой"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Розовый"></Color>
+			<Color name="Серебряный"></Color>
+			<Color name="Серый"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable Slim &amp; Lite 3001">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable Slim &amp; Lite PSP-3000">
+			<Color name="Бирюзовый"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Красный"></Color>
+			<Color name="Серебряный"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable Street PSP E1004">
+			<Color name="Белый"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable Value Pack">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Розовый"></Color>
+			<Color name="Серый"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable go">
+			<MemorySize name="16">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation Vita 2000">
+			<MemorySize name="1">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Зелёный"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Розовый"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Зелёный"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Розовый"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation Vita 3G/Wi-Fi">
+			<Color name="Другой"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Vita Fat PCH-1008">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation Vita Slim">
+			<MemorySize name="1">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+				<Color name="Зелёный"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation Vita Slim PCH-2016">
+			<MemorySize name="1">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation Vita Wi-Fi">
+			<Color name="Другой"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Spark">
+			<MemorySize name="4">
+				<Color name="Другой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Switch Oled Zelda Edition">
+			<MemorySize name="64">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="TWS Wireless 2.4 G">
+			<MemorySize name="0.031">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Turbo Smart">
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Valve Steam Deck">
+			<MemorySize name="1000">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="2048">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="256">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="512">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="64">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Valve Steam Deck OLED">
+			<MemorySize name="1000">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="512">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Valve Steam Deck OLED Limited">
+			<MemorySize name="1000">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="WonderSwan">
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="WonderSwan Color">
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="X39pro">
+			<MemorySize name="32">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="X7">
+			<MemorySize name="8">
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Y2HD PLUS">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Другая"></Model>
+	</GoodsSubType>
+	<GoodsSubType name="стационарная">
+		<Model name=" Classic">
+			<MemorySize name="Другой">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="16 bit Modern Wireless"></Model>
+		<Model name="4">
+			<MemorySize name="1024">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Amiga CD32">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Amlogic S905X"></Model>
+		<Model name="Ampown U9">
+			<MemorySize name="64">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Arcade Box">
+			<MemorySize name="256">
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Atari 2600">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="D 025">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="DEXP RetroGAME 1 rev.2">
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="DEXP RetroGAME 3"></Model>
+		<Model name="DEXP RetroGAME 5 rev.2">
+			<MemorySize name="Другой">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="DEXP RetroGAME 6">
+			<MemorySize name="Другой">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="DEXP RetroGAME Flash 2">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Data Frog Y2 Pro">
+			<MemorySize name="Другой">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Data Frog Y3 Lite">
+			<MemorySize name="64">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Dendy"></Model>
+		<Model name="Dendy Junior">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="Dreamcast">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="FinePower Retrogame 8 bit">
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Game Box G10">
+			<MemorySize name="128">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Game Box G11 Pro">
+			<MemorySize name="16">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Game Stick Lite">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Game box H6">
+			<MemorySize name="128">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="General Satellite GS Gamekit">
+			<MemorySize name="32">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Genesis Mini">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="HAMY 4">
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="HAMY 5">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Lite X3 Pro"></Model>
+		<Model name="M8 Mini">
+			<MemorySize name="64">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Magistr Smart 414">
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Magistr Titan">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Mark III">
+			<MemorySize name="0.24">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Mega Drive">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Micro Drive">
+			<Color name="Белый"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Microsoft Xbox">
+			<MemorySize name="8">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox 360">
+			<MemorySize name="120">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="20">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+			<MemorySize name="250">
+				<Color name="Другой"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="4">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="500">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="60">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox 360 2009">
+			<MemorySize name="250">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox 360 Arcade">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+		</Model>
+		<Model name="Microsoft Xbox 360 Core">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+		</Model>
+		<Model name="Microsoft Xbox 360 E">
+			<MemorySize name="250">
+				<Color name="Другой"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="4">
+				<Color name="Другой"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="500">
+				<Color name="Другой"></Color>
+				<Color name="Синий"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox 360 Elite">
+			<MemorySize name="120">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox 360 Limited Edition Halo 4">
+			<MemorySize name="320">
+				<Color name="Синий"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox 360 Pro">
+			<MemorySize name="60">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox 360 S">
+			<MemorySize name="250">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="320">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="500">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox One">
+			<MemorySize name="1000">
+				<Color name="Другой"></Color>
+			</MemorySize>
+			<MemorySize name="500">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox One Elite">
+			<MemorySize name="1000">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox One S">
+			<MemorySize name="1000">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+			<MemorySize name="500">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+			<MemorySize name="Другой"></MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox One S All Digital">
+			<MemorySize name="1024">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox One X">
+			<MemorySize name="1024">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox One X Project Scorpio Edition">
+			<MemorySize name="1024">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox Series S">
+			<MemorySize name="512">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Microsoft Xbox Series X">
+			<MemorySize name="1024">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Mix Wireless">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="NEC PC Engine">
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="NewGame Titan 500">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo 64">
+			<MemorySize name="0.004">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Classic Mini NES">
+			<Color name="Другой"></Color>
+			<Color name="Серый"></Color>
+		</Model>
+		<Model name="Nintendo Classic Mini: Super Nintendo Entertainment System">
+			<MemorySize name="0.512">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Entertainment System">
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Family Computer">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="Nintendo GameCube">
+			<Color name="Голубой"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Красный"></Color>
+			<Color name="Серебряный"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Фиолетовый"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo Wii">
+			<Color name="Голубой"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo Wii 2009">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo Wii Mini">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Красный"></Color>
+			<Color name="Синий"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Nintendo Wii Sports Pack">
+			<MemorySize name="0.512">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Wii U Basic Pack">
+			<MemorySize name="8">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo Wii U Premium Pack">
+			<MemorySize name="32">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Nintendo: Super Nintendo Entertainment System">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="P1">
+			<MemorySize name="16">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Panasonic 3DO">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Retro Genesis 8 Bit Classic">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="Retro Genesis 8 Bit HD">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="Retro Genesis 8 Bit Junior">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Retro Genesis 8 bit Wireless">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="Retro Genesis HD Ultra">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Retro Genesis HD Wireless">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="Retro Genesis MixSD">
+			<MemorySize name="Другой">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Retro Genesis Modern 16Bit">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Retro Genesis Modern Wireless"></Model>
+		<Model name="Retro Genesis Remix">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="RetroGAME 1">
+			<Color name="Серый"></Color>
+		</Model>
+		<Model name="SEGA Magistr Titan 2">
+			<MemorySize name="4">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="SNK Neo Geo CD">
+			<MemorySize name="Другой">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sega"></Model>
+		<Model name="Sega Dreamcast">
+			<Color name="Белый"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sega Genesis">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sega Magistr Drive 2">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sega Magistr Titan 3">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sega Magistr X">
+			<MemorySize name="2">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sega Mega Drive">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sega Mega Drive 2">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sega Mega Drive 4">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sega Saturn">
+			<Color name="Белый"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Simba&#39;s Junior">
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Simba&#39;s MegaDrive X">
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation">
+			<MemorySize name="Другой">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 2">
+			<Color name="Другой"></Color>
+			<Color name="Серебряный"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation 2 Slim">
+			<Color name="Другой"></Color>
+			<Color name="Розовый"></Color>
+			<Color name="Серебряный"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony PlayStation 3">
+			<MemorySize name="160">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="20">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="40">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="500">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="60">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="80">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 3 Slim">
+			<MemorySize name="120">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="160">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="250">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="320">
+				<Color name="Другой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Серебряный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 3 Starter Pack">
+			<MemorySize name="60">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 3 Super Slim">
+			<MemorySize name="12">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="250">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="320">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="500">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Голубой"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Красный"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 4">
+			<MemorySize name="1000">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="500">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 4 FAT">
+			<MemorySize name="1000">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="500">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 4 Pro Limited Edition Death Stranding">
+			<MemorySize name="1000">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 4 Pro Limited Edition God of War CUH-7108B">
+			<MemorySize name="1000">
+				<Color name="Серый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 4 Pro The Last of Us part II Limited Edition">
+			<MemorySize name="1000">
+				<Color name="Серебряный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 4 Slim">
+			<MemorySize name="1000">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="500">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 5">
+			<MemorySize name="825">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 5 Blu-Ray Edition">
+			<MemorySize name="825">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 5 Digital Edition">
+			<MemorySize name="825">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 5 Slim">
+			<MemorySize name="1000">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 5 Slim Blu-Ray Edition">
+			<MemorySize name="1000">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation 5 Slim Digital Edition">
+			<MemorySize name="1000">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation Classic">
+			<Color name="Другой"></Color>
+			<Color name="Серый"></Color>
+		</Model>
+		<Model name="Sony PlayStation One">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+		</Model>
+		<Model name="Sony PlayStation Portable PSP-2008PB">
+			<MemorySize name="0.004">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony PlayStation TV">
+			<Color name="Белый"></Color>
+			<Color name="Другой"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Sony Playstation 4 Pro">
+			<MemorySize name="1000">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="500">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="Другой">
+				<Color name="Белый"></Color>
+				<Color name="Другой"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Sony Playstation 4 Pro VR set">
+			<MemorySize name="1024">
+				<Color name="Другой"></Color>
+			</MemorySize>
+			<MemorySize name="Другой"></MemorySize>
+		</Model>
+		<Model name="Super Mini SFC">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="ZD-10">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Веста ИК-31">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="Другая"></Model>
+		<Model name="Электроника Видеоспорт-3">
+			<Color name="Чёрный"></Color>
+		</Model>
+	</GoodsSubType>
+</Pristavki>

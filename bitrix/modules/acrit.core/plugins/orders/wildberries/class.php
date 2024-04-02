@@ -12,6 +12,7 @@ require_once __DIR__.'/lib/api/orders.php';
 use \Bitrix\Main\Localization\Loc,
 	\Acrit\Core\Helper,
 	\Acrit\Core\Orders\Plugin,
+	\Acrit\Core\Orders\OrdersInfo,
 	\Acrit\Core\Orders\Settings,
 	\Acrit\Core\Orders\Controller,
 	\Acrit\Core\Orders\Plugins\WildberriesHelpers\Orders,
@@ -27,6 +28,8 @@ class Wildberries extends Plugin {
 	protected $arDirections = [self::SYNC_STOC];
 	protected $arOrders = [];
 	protected $arStatus = [];
+//	protected $listConfirm = [];
+	protected $arLabel = [];
     const LIMIT_REQ = 1000;
 	public $use_v3_api = true;
 
@@ -45,6 +48,14 @@ class Wildberries extends Plugin {
 	public static function getCode() {
 		return 'WILDBERRIES';
 	}
+
+    public function feedBack(){
+        $list['ACTION'][] = [
+            'id' => 'CONFIRM_WB',
+            'name' => Loc::getMessage('ACRIT_ORDERS_PLUGIN_WILDBERRIES_CONFIRM_NAMES'),
+        ];
+        return $list;
+    }
 
 	/**
 	 * Get plugin short name
@@ -95,6 +106,14 @@ class Wildberries extends Plugin {
 			'name' => Loc::getMessage('ACRIT_ORDERS_PLUGIN_WILDBERRIES_PRODUCTS_ID_FIELD_NAME'),
 		];
 	}
+
+    public function showOrdersComment(){
+        ob_start();
+        ?>
+        <span><?=Loc::getMessage('ACRIT_ORDERS_PLUGIN_WILDBERRIES_COMMENT');?></span>
+        <?
+        return ob_get_clean();
+    }
 
 	/**
 	 * Variants for deal statuses
@@ -252,7 +271,11 @@ class Wildberries extends Plugin {
             'name' => Loc::getMessage(self::getLangCode('FIELDS_LABEL')),
             'direction' => self::SYNC_STOC,
         ];
-
+        $list[] = [
+            'id' => 'number_sticker',
+            'name' => Loc::getMessage(self::getLangCode('FIELDS_NUMBER_STICKER')),
+            'direction' => self::SYNC_STOC,
+        ];
 		return $list;
 	}
 
@@ -280,10 +303,38 @@ class Wildberries extends Plugin {
     }
     public function showSpecial()
     {
-        ob_start(); ?>
+        ob_start();
+        ?>
         <tr class="heading">
             <td>
                 <span><?=Loc::getMessage(self::getLangCode('EXPORT_LABEL'));?></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="hidden" name="PROFILE[OTHER][NUMBER_STICKER]" value="N" />
+                    <label>
+                        <input type="checkbox" name="PROFILE[OTHER][NUMBER_STICKER]" value="Y"
+                            <?if($this->arProfile['OTHER']['NUMBER_STICKER'] == 'Y'):?> checked="Y"<?endif?>  />
+                        <span><?=Loc::getMessage(self::getLangCode('NUMBER_STICKER_CHECKBOX'));?></span>
+                    </label>
+                    <?=Helper::showHint(Loc::getMessage(self::getLangCode('NUMBER_STICKER_HINT')));?>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                <label for="field_sticker_separator"><?=Loc::getMessage(self::getLangCode('STICKER_SEPARATOR'))?><label>
+                <select name="PROFILE[OTHER][sticker][separator]">
+                    <?$listStickerSeparator = OrdersInfo::getSeparator();?>
+                    <?foreach ($listStickerSeparator as $item):?>
+                        <option value="<?=$item['ID'];?>"<?=$this->arProfile['OTHER']['sticker']['separator']==$item['ID']?' selected':'';?>><?=$item['NAME'];?><?=$item['ID']?(' [' . $item['ID'] . ']'):'';?></option>
+                    <?endforeach;?>
+                </select>
+                 <?=Helper::showHint(Loc::getMessage(self::getLangCode('SEPARATOR_STICKER_HINT')));?>
+                </div>
             </td>
         </tr>
         <tr>
@@ -334,6 +385,11 @@ class Wildberries extends Plugin {
                         <?=Helper::showHint(Loc::getMessage(self::getLangCode('LABEL_SIZE_HINT')));?>
             </div>
         </td>
+        </tr>
+        <tr>
+            <td class="adm-list-table-cell">
+                <div class="adm-list-table-cell-inner"><?=Loc::getMessage('ACRIT_ORDERS_PLUGIN_WILDBERRIES_LABEL_MANUAL');?></div>
+            </td>
         </tr>
         <?
         return ob_get_clean();
@@ -393,21 +449,110 @@ class Wildberries extends Plugin {
         return $api;
     }
 
+
+    public function newSupply($supply_name){
+        $api = $this->getApi();
+        $res = $api->newSupply($supply_name);
+        return $res;
+    }
+
+    /**
+     * Get supplies
+     */
+    public function getSupplies() {
+        $list = [];
+        $api = $this->getApi();
+        $res = $api->getSupplies();
+        foreach ($res as $item) {
+            $list[] = [
+                    'id' => $item['id'],
+                    'name' => $item['name'],
+                    'date' => date('d.m.Y', strtotime($item['createdAt'])),
+            ];
+        }
+        return $list;
+    }
+
+    /**
+     * Operate orders
+     */
+    public function operateOrder($conf_arr) {
+        $list = [];
+        $api = $this->getApi();
+        foreach ($conf_arr as $item) {
+            $list[] = $api->operateOrder([
+                'supply'=>$item['SUPPLY'],
+                'id'=>$item['ID_MARKET']
+                ]);
+        }
+        return $list;
+    }
+
+    /**
+     * Get orders listNew
+     */
+
+    public function getOrdersListNew( $date_from, $date_to ) {
+        $list = [];
+        // Get the list
+        $api =  $this->getApi();
+
+        $list = $api->getOrdersListConfirm();
+        $orders = [];
+
+        foreach ($list as $mp_order ) {
+            $offers = [];
+            if (
+                    strtotime($mp_order['createdAt']) <= $date_to
+                && strtotime($mp_order['createdAt']) >= $date_from
+            ) {
+                $offers[] = [
+                        'itemIndex' => 1,
+                        'price' => $mp_order['convertedPrice'] / 100,
+                        'finalPrice' => $mp_order['convertedPrice'] / 100,
+                        'quantity' => 1,
+                        'marketId' => $mp_order['article'],
+//                        'name' => $mp_order['article'],
+                        'name' => '',
+                        'conf' => false,
+//                    'sku' => $item['sku']
+                    ];
+                $orders[] = [
+                    'ID_MARKET' => $mp_order['id'],
+                    'DATE_INSERT' => date('d.m.Y', strtotime($mp_order['createdAt'])),
+                    'DATE_CONFIRMED' => strtotime($mp_order['createdAt']),
+                    'WAREHOUSE' => $mp_order['warehouseId'],
+//                'DATE_DELIVERY' => date('d.m.Y', strtotime($mp_order['deliveryDateTo'])) ,
+//                    'DATE_SHIPPING' => strtotime($mp_order['createdAt']),
+                    'STATUS_ID' => 'NEW',
+                    'SUMM_MARKET' => $mp_order['convertedPrice'] / 100,
+                    'ITEMS' => $offers,
+                ];
+            }
+        }
+        return $orders;
+    }
+
+
+
     /**
      * Get orders count
      */
 
-    public function getOrdersCount($create_from_ts) {
+    public function getOrdersCount($create_from_ts, $change_from_ts=false) {
+//        return 20;
         $count = false;
-        if ($create_from_ts) {
-//		    $api = $this->getApi();
-//		    $filter = [
-//			    'date_start' => date(Orders::DATE_FORMAT, $create_from_ts),
-//		    ];
-//		    $count = $api->getOrdersCount($filter);
-            $list = $this->getOrdersIDsList($create_from_ts);
-            $count = count($list);
+        if ( !$create_from_ts && !$change_from_ts ) {
+            $filter_date = time() - 86400 * 150;
+        } else {
+            $filter_date = $create_from_ts ? $create_from_ts : $change_from_ts;
         }
+        $req_filter = [
+            'dateFrom' => $filter_date,
+        ];
+        $api = $this->getApi();
+        $orders_list = $api->getOrdersList($req_filter, self::LIMIT_REQ );
+        $count = count($orders_list);
         return $count;
     }
 
@@ -417,8 +562,6 @@ class Wildberries extends Plugin {
 
     public function getOrdersIDsList($create_from_ts=false, $change_from_ts=false) {
         // Get the list
-//        file_put_contents(__DIR__.'/date.txt', $create_from_ts);
-
         if ( !$create_from_ts && !$change_from_ts ) {
             $filter_date = time() - 86400 * 150;
         } else {
@@ -443,6 +586,19 @@ class Wildberries extends Plugin {
             }
             unset($orders_list);
 
+//            $list = [
+//                1399164456,
+//                1399164458,
+//                1398122234,
+//                1398117025,
+//                1398112993,
+//                1398112990,
+//                1398112989,
+//                1398112982,
+//                1398139729,
+//                1398096714
+//            ];
+
             $limit = self::LIMIT_REQ;
             $count_list_for = ceil(count($list) / $limit );
 
@@ -456,12 +612,24 @@ class Wildberries extends Plugin {
                     $this->arStatus[ $key ] = $item;
                 }
             }
+            if ( $this->arProfile['OTHER']['LABEL'] == 'Y' ||  $this->arProfile['OTHER']['NUMBER_STICKER'] == 'Y' ) {
+
+                $label_option = [
+                    'type' =>  $this->arProfile['OTHER']['LABELOPTION']['TYPE'],
+                    'width' =>  $this->getLabelParametrs()['size'][$this->arProfile['OTHER']['LABELOPTION']['SIZE']]['width'],
+                    'height' =>  $this->getLabelParametrs()['size'][$this->arProfile['OTHER']['LABELOPTION']['SIZE']]['height'],
+                ];
+
+                $this->arLabel = $api->getLabel($this->arStatus, $this->arProfile['OTHER']['URL'], $label_option);
+            }
         } catch ( \Throwable  $e ) {
             $errors = [
                 'error_php' => $e->getMessage(),
                 'line' => $e->getLine(),
+                'stek' => $e->getTraceAsString(),
+                'file' => $e->getFile(),
             ];
-            // file_put_contents(__DIR__.'/errors.txt', var_export($errors, true));
+             file_put_contents(__DIR__.'/errors.txt', var_export($errors, true));
         }
         return $list;
     }
@@ -473,26 +641,6 @@ class Wildberries extends Plugin {
 		$order = false;
 		// Order data
 		$mp_order = $this->arOrders[$order_id];
-//        file_put_contents(__DIR__ . '/order.txt', var_export($mp_order, true));
-		$label = false;
-		$label_option = [
-		        'type' =>  $this->arProfile['OTHER']['LABELOPTION']['TYPE'],
-		        'width' =>  $this->getLabelParametrs()['size'][$this->arProfile['OTHER']['LABELOPTION']['SIZE']]['width'],
-		        'height' =>  $this->getLabelParametrs()['size'][$this->arProfile['OTHER']['LABELOPTION']['SIZE']]['height'],
-        ];
-        if ( $this->arProfile['OTHER']['LABEL'] == 'Y' ) {
-            $status = $this->arStatus[$order_id]['supplierStatus'];
-            try {
-                $api = $this->getApi();
-                $label = $api->getLabel($order_id, $this->arProfile['OTHER']['URL'], $status, $label_option);
-            } catch (\Throwable  $e) {
-                $errors = [
-                    'error_php' => $e->getMessage(),
-                    'line' => $e->getLine(),
-                ];
-                file_put_contents(__DIR__ . '/errors.txt', var_export($errors, true));
-            }
-        }
 
 		if ($mp_order) {
 			// Main fields
@@ -584,7 +732,11 @@ class Wildberries extends Plugin {
 				],
                 'label' => [
                     'TYPE'  => 'STRING',
-                    'VALUE' => [$label],
+                    'VALUE' => [$this->arLabel[$order_id]['file']],
+                ],
+                'number_sticker' => [
+                    'TYPE'  => 'STRING',
+                    'VALUE' => [$this->arLabel[$order_id]['number_sticker']],
                 ],
 			];
 			// Products
@@ -607,7 +759,7 @@ class Wildberries extends Plugin {
 			}
 			$order = self::formatOrder($order);
 		}
-//        file_put_contents(__DIR__ . '/order.txt', var_export($order, true));
+//        file_put_contents(__DIR__ . '/order.txt', var_export($order, true), FILE_APPEND);
 		return $order;
 	}
 }

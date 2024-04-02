@@ -38,7 +38,6 @@ $sTemplateId = Html::getUniqueId(null, Component::getUniqueId($this));
         <div class="catalog-item-body">
             <?php include(__DIR__.'/parts/image.php') ?>
             <div class="catalog-item-name-container">
-
                 <?= Html::tag('a', $sName, [
                     'class' => [
                         'catalog-item-name',
@@ -46,9 +45,7 @@ $sTemplateId = Html::getUniqueId(null, Component::getUniqueId($this));
                     ],
                     'href' => $item['DETAIL_PAGE_URL']
                 ]) ?>
-
             </div>
-
             <?php include(__DIR__.'/parts/price.php') ?>
             <?php include(__DIR__.'/parts/buttons.php') ?>
         </div>

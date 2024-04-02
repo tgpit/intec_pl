@@ -71,6 +71,8 @@ $MESS['ACRIT_EXP_POPUP_ADDITIONAL_FIELDS_TITLE'] = 'Добавление доп�
 $MESS['ACRIT_EXP_POPUP_CATEGORY_REDEFINITION_TITLE'] = 'Переопределение названий разделов';
 $MESS['ACRIT_EXP_POPUP_CATEGORY_REDEFINITION_CLEAR_ALL'] = 'Удалить все';
 $MESS['ACRIT_EXP_POPUP_CATEGORY_REDEFINITION_CLEAR_CONFIRM'] = 'Удалить все сохраненные данные для названий категорий?';
+$MESS['ACRIT_EXP_POPUP_CATEGORY_REDEFINITION_MASS_EDIT'] = 'Заполнить одним значением';
+$MESS['ACRIT_EXP_POPUP_CATEGORY_REDEFINITION_MASS_EDIT_TITLE'] = 'Укажите название категории';
 
 // Popup: CategoriesRedefinitionSelect
 $MESS['ACRIT_EXP_POPUP_CATEGORY_REDEFINITION_SELECT_TITLE'] = 'Выбор категории';

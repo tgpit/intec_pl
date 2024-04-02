@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DCLValues>
+	<DCL>0</DCL>
+	<DCL>12</DCL>
+	<DCL>40</DCL>
+	<DCL>45</DCL>
+	<DCL>50</DCL>
+	<DCL>60</DCL>
+	<DCL>65</DCL>
+	<DCL>80</DCL>
+	<DCL>90</DCL>
+	<DCL>95</DCL>
 	<DCL>100</DCL>
+	<DCL>105</DCL>
 	<DCL>110</DCL>
+	<DCL>115</DCL>
 	<DCL>120</DCL>
+	<DCL>125</DCL>
 	<DCL>130</DCL>
+	<DCL>135</DCL>
 	<DCL>140</DCL>
+	<DCL>145</DCL>
 	<DCL>150</DCL>
+	<DCL>155</DCL>
 	<DCL>160</DCL>
+	<DCL>162</DCL>
+	<DCL>165</DCL>
 	<DCL>170</DCL>
 	<DCL>180</DCL>
 	<DCL>190</DCL>
@@ -146,4 +164,5 @@
 	<DCL>1530</DCL>
 	<DCL>1540</DCL>
 	<DCL>1550</DCL>
+	<DCL>1650</DCL>
 </DCLValues>

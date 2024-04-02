@@ -3,6 +3,9 @@ namespace Avito\Export\Feed\Source\Section;
 
 use Avito\Export\Concerns;
 use Avito\Export\Feed\Source;
+use Avito\Export\Feed\Source\Context;
+use Avito\Export\Feed\Source\Data;
+use Avito\Export\Utils;
 
 class Fetcher extends Source\FetcherSkeleton
 {
@@ -80,17 +83,15 @@ class Fetcher extends Source\FetcherSkeleton
 		});
 	}
 
-	public function select(array $fields) : array
+	public function extend(array $fields, Data\SourceSelect $sources, Context $context) : void
 	{
-		return [
-			'ELEMENT' => [ 'IBLOCK_SECTION_ID' ],
-		];
+		$sources->add(Source\Registry::IBLOCK_FIELD, 'IBLOCK_SECTION_ID');
 	}
 
 	public function values(array $elements, array $parents, array $siblings, array $select, Source\Context $context) : array
 	{
 		$catalog = Source\Routine\Values::catalogElements($elements, $parents);
-		$primarySections = array_column($catalog, 'IBLOCK_SECTION_ID', 'IBLOCK_SECTION_ID');
+		$primarySections = $this->primarySections($siblings);
 		$linkedSections = $this->linkedSections(array_values(array_column($catalog, 'ID', 'ID')));
 		$sectionIds = $this->usedSections($primarySections, $linkedSections);
 		$sectionValues = $this->sectionValues($context->iblockId(), $sectionIds, $select);
@@ -100,7 +101,7 @@ class Fetcher extends Source\FetcherSkeleton
 		{
 			$result[$targetId] = $this->mergeValues(
 				$sectionValues,
-				(int)$element['IBLOCK_SECTION_ID'],
+				(int)($primarySections[$targetId] ?? 0),
 				$linkedSections[$element['ID']] ?? []
 			);
 		}
@@ -303,5 +304,12 @@ class Fetcher extends Source\FetcherSkeleton
 		unset($values);
 
 		return $sectionValues;
+	}
+
+	protected function primarySections(array $siblings) : array
+	{
+		$elementValues = Utils\ArrayHelper::column($siblings, Source\Registry::IBLOCK_FIELD);
+
+		return Utils\ArrayHelper::column($elementValues, 'IBLOCK_SECTION_ID');
 	}
 }

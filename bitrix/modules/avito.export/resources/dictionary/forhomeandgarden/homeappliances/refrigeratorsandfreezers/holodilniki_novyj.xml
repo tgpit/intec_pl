@@ -1956,6 +1956,9 @@
 		<Model name="HD 430 RWENS">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="HD455RWENE">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="HS 117 RN">
 			<Color name="Белый"></Color>
 		</Model>
@@ -1978,6 +1981,11 @@
 			<Color name="Белый"></Color>
 		</Model>
 	</Brand>
+	<Brand name="Asko">
+		<Model name="R31831I">
+			<Color name="Белый"></Color>
+		</Model>
+	</Brand>
 	<Brand name="Atlant">
 		<Model name="MXM-1701-03">
 			<Color name="Белый"></Color>
@@ -1990,6 +1998,9 @@
 		</Model>
 		<Model name="XM 4624-149-ND">
 			<Color name="Серый"></Color>
+		</Model>
+		<Model name="XM-4210-000">
+			<Color name="Белый"></Color>
 		</Model>
 		<Model name="XM-6021-031">
 			<Color name="Белый"></Color>
@@ -2481,6 +2492,9 @@
 			<Color name="Серый"></Color>
 		</Model>
 		<Model name="МХМ 1809-32">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="МХМ 1809-34">
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="МХМ 1816-00">
@@ -3098,6 +3112,9 @@
 		<Model name="МХМ 2898-90">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="МХМ-1709-02">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="МХМ-1800-32">
 			<Color name="Белый"></Color>
 		</Model>
@@ -3108,6 +3125,9 @@
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="МХТЭ 30-02">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="Минск-16">
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="Х 1401-100">
@@ -3755,6 +3775,9 @@
 		<Model name="ХМ 4624-141">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="ХМ 4624-141 NL">
+			<Color name="Серебряный"></Color>
+		</Model>
 		<Model name="ХМ 4624-161">
 			<Color name="Серебряный"></Color>
 		</Model>
@@ -4254,7 +4277,7 @@
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="ХМ 6025-001">
-			<Color name="Серый"></Color>
+			<Color name="Белый"></Color>
 		</Model>
 		<Model name="ХМ 6025-012">
 			<Color name="Белый"></Color>
@@ -4522,6 +4545,9 @@
 		</Model>
 		<Model name="ХМ-4623-140">
 			<Color name="Серебряный"></Color>
+		</Model>
+		<Model name="ХМ-4625-101-NL">
+			<Color name="Белый"></Color>
 		</Model>
 		<Model name="ХМ-4625-161">
 			<Color name="Серый"></Color>
@@ -5892,6 +5918,9 @@
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="CSMM 8335 MC0W">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="CSMM 835022">
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="CSMV 5270MC0 S">
@@ -7454,6 +7483,9 @@
 		<Model name="KAI90VI20">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="KAI93VIFP">
+			<Color name="Серебряный"></Color>
+		</Model>
 		<Model name="KAI93VL30R">
 			<Color name="Серебряный"></Color>
 		</Model>
@@ -8534,6 +8566,9 @@
 		</Model>
 		<Model name="KGN39LB3AR">
 			<Color name="Серебряный"></Color>
+		</Model>
+		<Model name="KGN39LBCF">
+			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="KGN39LM31R">
 			<Color name="Серебряный"></Color>
@@ -9757,6 +9792,9 @@
 		<Model name="KGV34X05">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="KGV3603">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="KGV3604">
 			<Color name="Белый"></Color>
 		</Model>
@@ -10724,6 +10762,9 @@
 		<Model name="CCRN 6200 W">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="CCRN 6200 С">
+			<Color name="Бежевый"></Color>
+		</Model>
 		<Model name="CCTLS 542 WH">
 			<Color name="Белый"></Color>
 		</Model>
@@ -11253,7 +11294,11 @@
 		<Model name="B4-0340AHE">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="B4-0340AKA">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="B4-0340BKA">
+			<Color name="Белый"></Color>
 			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="B4-24AMG">
@@ -11612,6 +11657,9 @@
 		<Model name="SBB510M">
 			<Color name="Чёрный"></Color>
 		</Model>
+		<Model name="SBS4-53AMG">
+			<Color name="Серебряный"></Color>
+		</Model>
 		<Model name="SBS440AMA">
 			<Color name="Серебряный"></Color>
 		</Model>
@@ -11644,6 +11692,9 @@
 			<Color name="Серый"></Color>
 		</Model>
 		<Model name="T4-0200AMG">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="T4-0250AMG">
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="TF050D">
@@ -14476,6 +14527,9 @@
 		</Model>
 	</Brand>
 	<Brand name="Evelux">
+		<Model name="FS 2201 DXN">
+			<Color name="Чёрный"></Color>
+		</Model>
 		<Model name="FS 2220 X">
 			<Color name="Серый"></Color>
 		</Model>
@@ -15483,6 +15537,9 @@
 		</Model>
 		<Model name="BC-42B">
 			<Color name="Белый"></Color>
+		</Model>
+		<Model name="BC98-MS">
+			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="RT-98W">
 			<Color name="Белый"></Color>
@@ -18509,6 +18566,9 @@
 		<Model name="GKPN66930FXD">
 			<Color name="Чёрный"></Color>
 		</Model>
+		<Model name="GSN30110FXBR">
+			<Color name="Серый"></Color>
+		</Model>
 	</Brand>
 	<Brand name="HIBERG">
 		<Model name="RF-23DR">
@@ -19089,6 +19149,12 @@
 		<Model name="RS560N4AD1">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="RS711N4ACE">
+			<Color name="Серебряный"></Color>
+		</Model>
+		<Model name="RS711N4AFE">
+			<Color name="Чёрный"></Color>
+		</Model>
 		<Model name="RT-156D4AG1">
 			<Color name="Серебряный"></Color>
 		</Model>
@@ -19380,6 +19446,9 @@
 		<Model name="C3FE744CMJ">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="C4F640CCGU1">
+			<Color name="Бежевый"></Color>
+		</Model>
 		<Model name="C4F640CWU1">
 			<Color name="Белый"></Color>
 		</Model>
@@ -19403,6 +19472,9 @@
 		</Model>
 		<Model name="CEF535ACG">
 			<Color name="Бежевый"></Color>
+		</Model>
+		<Model name="CEF535AGG">
+			<Color name="Золотой"></Color>
 		</Model>
 		<Model name="CEF535ASD">
 			<Color name="Серебряный"></Color>
@@ -19484,6 +19556,7 @@
 		</Model>
 		<Model name="HB18FGWAAARU">
 			<Color name="Белый"></Color>
+			<Color name="Серый"></Color>
 		</Model>
 		<Model name="HB22FWRSSAA">
 			<Color name="Серебряный"></Color>
@@ -19623,6 +19696,9 @@
 		<Model name="HRF-541DY7RU">
 			<Color name="Коричневый"></Color>
 		</Model>
+		<Model name="HRF-600DM7RU">
+			<Color name="Серебряный"></Color>
+		</Model>
 		<Model name="HRF-659">
 			<Color name="Серебряный"></Color>
 		</Model>
@@ -19656,10 +19732,16 @@
 		<Model name="HTF-456DM6RU">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="HTF-508DGS7RU">
+			<Color name="Серебряный"></Color>
+		</Model>
 		<Model name="HTF-610DM7RU">
 			<Color name="Серебряный"></Color>
 		</Model>
 		<Model name="MSR115">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="MSR115L">
 			<Color name="Белый"></Color>
 		</Model>
 	</Brand>
@@ -23512,6 +23594,9 @@
 		<Model name="B 35 FNF P">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="B15.025">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="B18.025">
 			<Color name="Белый"></Color>
 		</Model>
@@ -23913,6 +23998,9 @@
 		</Model>
 		<Model name="C 240 S">
 			<Color name="Серебряный"></Color>
+		</Model>
+		<Model name="C132G.016">
+			<Color name="Белый"></Color>
 		</Model>
 		<Model name="C138G">
 			<Color name="Белый"></Color>
@@ -25555,6 +25643,9 @@
 		<Model name="KNF 1857 X">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="KNFC 61869 GW">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="KNFC 61887 B">
 			<Color name="Бежевый"></Color>
 		</Model>
@@ -26166,6 +26257,11 @@
 		<Model name="DoorCooling+ GA-B509CEWL">
 			<Color name="Бежевый"></Color>
 		</Model>
+		<Model name="DoorCooling+ GA-B509CLSL">
+			<Color name="Бежевый"></Color>
+			<Color name="Белый"></Color>
+			<Color name="Чёрный"></Color>
+		</Model>
 		<Model name="DoorCooling+ GA-B509CLWL">
 			<Color name="Серебряный"></Color>
 		</Model>
@@ -26174,6 +26270,11 @@
 		</Model>
 		<Model name="DoorCooling+ GA-B509CMUM">
 			<Color name="Серебряный"></Color>
+		</Model>
+		<Model name="DoorCooling+ GA-B509CQSL">
+			<Color name="Бежевый"></Color>
+			<Color name="Белый"></Color>
+			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="DoorCooling+ GA-B509CQWL">
 			<Color name="Белый"></Color>
@@ -27618,6 +27719,9 @@
 		<Model name="GA-B509CCIL">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="GA-B509CESL">
+			<Color name="Бежевый"></Color>
+		</Model>
 		<Model name="GA-B509CEUM">
 			<Color name="Бежевый"></Color>
 		</Model>
@@ -27626,6 +27730,9 @@
 		</Model>
 		<Model name="GA-B509MAWL">
 			<Color name="Серебряный"></Color>
+		</Model>
+		<Model name="GA-B509SAUM">
+			<Color name="Серый"></Color>
 		</Model>
 		<Model name="GA-E379 UCA">
 			<Color name="Белый"></Color>
@@ -28248,6 +28355,9 @@
 		<Model name="GC-B499 TGTS">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="GC-B509SQCL">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="GC-B519 PMCZ">
 			<Color name="Серебряный"></Color>
 		</Model>
@@ -28262,6 +28372,9 @@
 		</Model>
 		<Model name="GC-B569 PBCZ">
 			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="GC-B569PECM">
+			<Color name="Бежевый"></Color>
 		</Model>
 		<Model name="GC-C207 GEQV">
 			<Color name="Бежевый"></Color>
@@ -28280,6 +28393,9 @@
 		</Model>
 		<Model name="GC-H502 HMHZ">
 			<Color name="Серебряный"></Color>
+		</Model>
+		<Model name="GC-H502HEHZ">
+			<Color name="Бежевый"></Color>
 		</Model>
 		<Model name="GC-J237 JAXV">
 			<Color name="Серебряный"></Color>
@@ -31267,6 +31383,9 @@
 		<Model name="CNsdd 5253-20">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="CNsfd 5223-20">
+			<Color name="Серебряный"></Color>
+		</Model>
 		<Model name="CNsfd 5734">
 			<Color name="Серый"></Color>
 		</Model>
@@ -31882,6 +32001,9 @@
 		</Model>
 		<Model name="GKv 4360">
 			<Color name="Серебряный"></Color>
+		</Model>
+		<Model name="ICBND 5153">
+			<Color name="Белый"></Color>
 		</Model>
 		<Model name="IRd 3950-60 001">
 			<Color name="Белый"></Color>
@@ -32745,6 +32867,9 @@
 		<Model name="KF-20DS">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="MH-T143W">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="NN-20W">
 			<Color name="Белый"></Color>
 		</Model>
@@ -32776,6 +32901,9 @@
 		<Model name="MFF150W">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="MFF170W">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="MFF176SFSB">
 			<Color name="Чёрный"></Color>
 		</Model>
@@ -32786,6 +32914,9 @@
 			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="MFF177NFSB">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="MFF177NFSE">
 			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="MFF177NFW">
@@ -32810,6 +32941,9 @@
 			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="MFF182NFW">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="MFF182NFWE">
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="MFF1857NFBG">
@@ -32847,6 +32981,12 @@
 		</Model>
 		<Model name="MFF187NFS10">
 			<Color name="Серый"></Color>
+		</Model>
+		<Model name="MFF195NFBG10">
+			<Color name="Бежевый"></Color>
+		</Model>
+		<Model name="MFF195NFW10">
+			<Color name="Белый"></Color>
 		</Model>
 		<Model name="MFF200NFB">
 			<Color name="Чёрный"></Color>
@@ -33354,6 +33494,9 @@
 		<Model name="MDRB424FGF02I">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="MDRB470MGF01OM">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="MDRB470MGF33OM">
 			<Color name="Белый"></Color>
 		</Model>
@@ -33362,6 +33505,9 @@
 		</Model>
 		<Model name="MDRB499FGF01IM">
 			<Color name="Белый"></Color>
+		</Model>
+		<Model name="MDRB499FGF02IM">
+			<Color name="Серый"></Color>
 		</Model>
 		<Model name="MDRB521MIE01OD">
 			<Color name="Белый"></Color>
@@ -33387,6 +33533,9 @@
 		</Model>
 		<Model name="MDRF632FGF28">
 			<Color name="Серый"></Color>
+		</Model>
+		<Model name="MDRS791MIE28">
+			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="MR1049S">
 			<Color name="Серебряный"></Color>
@@ -33507,6 +33656,9 @@
 		</Model>
 		<Model name="MRS518SNGBL">
 			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="MRS518SNW1">
+			<Color name="Белый"></Color>
 		</Model>
 		<Model name="MRS518SNX">
 			<Color name="Серебряный"></Color>
@@ -35736,6 +35888,9 @@
 		<Model name="NRB 162NF 032">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="NRB 164NF X">
+			<Color name="Серый"></Color>
+		</Model>
 		<Model name="NRG 119-042">
 			<Color name="Белый"></Color>
 		</Model>
@@ -36149,6 +36304,9 @@
 	<Brand name="Oursson">
 		<Model name="RF0480/DC">
 			<Color name="Красный"></Color>
+		</Model>
+		<Model name="RF0710/WH">
+			<Color name="Белый"></Color>
 		</Model>
 		<Model name="RF1000/RD">
 			<Color name="Красный"></Color>
@@ -37371,6 +37529,12 @@
 		<Model name=" SR-44 RMB">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="DA99-01537E">
+			<Color name="Серый"></Color>
+		</Model>
+		<Model name="RB 34T600FWW">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="RB-28 FEJMDS">
 			<Color name="Серебряный"></Color>
 		</Model>
@@ -38118,6 +38282,9 @@
 		<Model name="RB41R7899SR">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="RB5000">
+			<Color name="Серебряный"></Color>
+		</Model>
 		<Model name="RF-24 FSEDBSR">
 			<Color name="Серебряный"></Color>
 		</Model>
@@ -38147,6 +38314,9 @@
 		</Model>
 		<Model name="RF44A5002B1/WT">
 			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="RF48A4000B4/WT">
+			<Color name="Серебряный"></Color>
 		</Model>
 		<Model name="RF50K5920S8">
 			<Color name="Серебряный"></Color>
@@ -38287,6 +38457,9 @@
 		<Model name="RL-28 FBSW">
 			<Color name="Белый"></Color>
 			<Color name="Серебряный"></Color>
+		</Model>
+		<Model name="RL-28 FBW1">
+			<Color name="Белый"></Color>
 		</Model>
 		<Model name="RL-29 THCMG">
 			<Color name="Серебряный"></Color>
@@ -39155,6 +39328,9 @@
 		<Model name="RL-63 GIBSW">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="RL55TTE2A">
+			<Color name="Чёрный"></Color>
+		</Model>
 		<Model name="RM-25 KGRS">
 			<Color name="Серебряный"></Color>
 		</Model>
@@ -39414,6 +39590,9 @@
 			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="RS-844 CRPC5H">
+			<Color name="Серебряный"></Color>
+		</Model>
+		<Model name="RS20CR">
 			<Color name="Серебряный"></Color>
 		</Model>
 		<Model name="RS5000">
@@ -40913,6 +41092,9 @@
 			<Color name="Серебряный"></Color>
 		</Model>
 		<Model name="SJ-48NWH">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="SJ-55H-BE">
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="SJ-58CBE">
@@ -42509,6 +42691,7 @@
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="SHRF-50CHP">
+			<Color name="Серый"></Color>
 			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="SHRF-50TC2">
@@ -44312,7 +44495,13 @@
 		<Model name="FAB28RDBB3">
 			<Color name="Чёрный"></Color>
 		</Model>
+		<Model name="FAB28RDBB5">
+			<Color name="Чёрный"></Color>
+		</Model>
 		<Model name="FAB28RDBLV3">
+			<Color name="Чёрный"></Color>
+		</Model>
+		<Model name="FAB28RDBLV5">
 			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="FAB28RDEG3">
@@ -44320,6 +44509,9 @@
 		</Model>
 		<Model name="FAB28RDG">
 			<Color name="Золотой"></Color>
+		</Model>
+		<Model name="FAB28RDIT5">
+			<Color name="Белый"></Color>
 		</Model>
 		<Model name="FAB28RDMC5">
 			<Color name="Белый"></Color>
@@ -44361,6 +44553,9 @@
 			<Color name="Голубой"></Color>
 		</Model>
 		<Model name="FAB28RPG3">
+			<Color name="Зелёный"></Color>
+		</Model>
+		<Model name="FAB28RPG5">
 			<Color name="Зелёный"></Color>
 		</Model>
 		<Model name="FAB28RPK3">
@@ -45017,6 +45212,9 @@
 		<Model name="FAB38RCR">
 			<Color name="Бежевый"></Color>
 		</Model>
+		<Model name="FAB38RCR5">
+			<Color name="Жёлтый"></Color>
+		</Model>
 		<Model name="FAB38RPG">
 			<Color name="Зелёный"></Color>
 		</Model>
@@ -45090,6 +45288,9 @@
 			<Color name="Зелёный"></Color>
 		</Model>
 		<Model name="FAB50RRD">
+			<Color name="Красный"></Color>
+		</Model>
+		<Model name="FAB50RRD5">
 			<Color name="Красный"></Color>
 		</Model>
 		<Model name="FAB50RSV">
@@ -46853,6 +47054,11 @@
 			<Color name="Серебряный"></Color>
 		</Model>
 	</Brand>
+	<Brand name="Techno">
+		<Model name="TS-214-1">
+			<Color name="Белый"></Color>
+		</Model>
+	</Brand>
 	<Brand name="Tesler">
 		<Model name="RC-55">
 			<Color name="Белый"></Color>
@@ -46888,6 +47094,9 @@
 		</Model>
 		<Model name="RC-95 DEEP BLUE">
 			<Color name="Синий"></Color>
+		</Model>
+		<Model name="RC-95 Graphite">
+			<Color name="Серый"></Color>
 		</Model>
 		<Model name="RC-95 Red">
 			<Color name="Красный"></Color>
@@ -47446,6 +47655,9 @@
 			<Color name="Серебряный"></Color>
 		</Model>
 		<Model name="GR-RB440WE-DMJ(06)">
+			<Color name="Серый"></Color>
+		</Model>
+		<Model name="GR-RB449WE-PMJ(06)">
 			<Color name="Серый"></Color>
 		</Model>
 		<Model name="GR-RB500WE-PMJ(06)">
@@ -49926,6 +50138,9 @@
 		<Model name="WCD 586 NFX">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="WCD 590 Rock Glass">
+			<Color name="Серый"></Color>
+		</Model>
 		<Model name="WFD 486 NFB">
 			<Color name="Чёрный"></Color>
 		</Model>
@@ -51604,6 +51819,9 @@
 		<Model name="MDF-433NFX">
 			<Color name="Серебряный"></Color>
 		</Model>
+		<Model name="MDF-637ID">
+			<Color name="Серый"></Color>
+		</Model>
 		<Model name="RF-121 W">
 			<Color name="Белый"></Color>
 		</Model>
@@ -51696,6 +51914,9 @@
 		</Model>
 	</Brand>
 	<Brand name="Winia">
+		<Model name="FGK-51WFGW">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="FR-081ARW">
 			<Color name="Белый"></Color>
 		</Model>
@@ -52617,6 +52838,9 @@
 		<Model name="M6033">
 			<Color name="Серый"></Color>
 		</Model>
+		<Model name="M6041">
+			<Color name="Серый"></Color>
+		</Model>
 		<Model name="T6027">
 			<Color name="Оранжевый"></Color>
 		</Model>
@@ -53420,6 +53644,9 @@
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="6М">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="КШ-200">
 			<Color name="Белый"></Color>
 		</Model>
 	</Brand>

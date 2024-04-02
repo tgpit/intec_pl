@@ -47,7 +47,7 @@ $arData = [
                 <span class="value-title" title="<?= $sSiteUrl ?>"></span>
             </span>
             <span class="fn org">
-               <?= $arResult['COMPANY_NAME'] ?>
+                <?= $arResult['COMPANY_NAME'] ?>
             </span>
             <img class="photo" src="<?= $sSiteUrl.'include/logotype.png' ?>" alt="<?= $arResult['COMPANY_NAME'] ?>" />
         </div>
@@ -57,7 +57,6 @@ $arData = [
             </div>
         <?php } ?>
         <div class="widget-view">
-
             <?php if (!empty($oTemplate)) { ?>
                 <?= $oTemplate->render(
                     $arParams,

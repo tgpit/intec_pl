@@ -95,7 +95,6 @@ if (!function_exists("__get_export_profiles"))
 						);
 					}
 				}
-
 			}
 		}
 		return $arProfileList;

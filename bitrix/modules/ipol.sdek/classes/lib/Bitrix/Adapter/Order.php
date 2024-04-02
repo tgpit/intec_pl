@@ -385,6 +385,7 @@ class Order
                         switch ($orderParams['NDSDelivery']){
                             case 'VAT10' : $priceDeliveryVAT = 10; break;
                             case 'VAT12' : $priceDeliveryVAT = 12; break;
+                            case 'VAT18' : $priceDeliveryVAT = 18; break;
                             case 'VAT20' : $priceDeliveryVAT = 20; break;
                             case 'VATX'  : $priceDeliveryVAT = null; break;
                             case 'VAT0'  :
@@ -476,9 +477,12 @@ class Order
                             case 7  : $service = 'DANGER_CARGO';              break;
                             case 16 : $service = 'TAKE_SENDER';               break;
                             case 17 : $service = 'DELIV_RECEIVER';            break;
+                            case 27 : $service = 'SMS';                       break;
                             case 30 : $service = 'TRYING_ON';                 break;
                             case 36 : $service = 'PART_DELIV';                break;
                             case 48 : $service = 'REVERSE';                   break;
+                            case 59 : $service = 'NOTIFY_ORDER_CREATED';      break;
+                            case 60 : $service = 'NOTIFY_ORDER_DELIVERY';     break;
                             case 81 : $service = 'BAN_ATTACHMENT_INSPECTION'; break;
                             case 96 : $service = 'ADULT_GOODS';               break;
                         }
@@ -508,6 +512,7 @@ class Order
                             switch ($arGood["VATRate"]){
                                 case 'VAT10' : $goodVR = 10; break;
                                 case 'VAT12' : $goodVR = 12; break;
+                                case 'VAT18' : $goodVR = 18; break;
                                 case 'VAT20' : $goodVR = 20; break;
                                 case 'VATX'  : $goodVR = null; break;
                                 case 'VAT0'  :
@@ -543,6 +548,7 @@ class Order
                         switch ($arGood["VATRate"]){
                             case 'VAT10' : $goodVR = 10; break;
                             case 'VAT12' : $goodVR = 12; break;
+                            case 'VAT18' : $goodVR = 18; break;
                             case 'VAT20' : $goodVR = 20; break;
                             case 'VATX'  : $goodVR = null; break;
                             case 'VAT0'  :

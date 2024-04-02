@@ -566,7 +566,26 @@ if($deadServerCheck && (time() - $deadServerCheck) < (\Ipolh\SDEK\option::get('t
 		  </div>
 		</div>
 	</td></tr>
-<?php }
+<?php } ?>
+
+<?php $accountsWithDisabledApi = sdekOption::getAccountsWithDisabledOldApi(); ?>
+<?php if (count($accountsWithDisabledApi)): ?>
+    <tr>
+        <td colspan='2'>
+            <div class="adm-info-message-wrap adm-info-message-red">
+                <div class="adm-info-message">
+                    <div class="adm-info-message-title"><?= GetMessage('IPOLSDEK_DISABLED_API_1_5_HEADER') ?></div>
+                    <?= GetMessage('IPOLSDEK_DISABLED_API_1_5_TITLE') ?>
+                    <?php foreach ($accountsWithDisabledApi as $account): ?>
+                    <div><?= $account['ACCOUNT'] . (strlen($account['LABEL']) ? ' (' . $account['LABEL'] . ')' : '') ?></div>
+                    <?php endforeach; ?>
+                    <div class="adm-info-message-icon"></div>
+                </div>
+            </div>
+        </td>
+    </tr>
+<?php endif; ?>
+<?php
 
 if(!file_exists(\Ipolh\SDEK\Bitrix\Controller\pvzController::getFilePath())){
 	Ipolh\SDEK\Bitrix\Tools::placeErrorLabel(GetMessage('IPOLSDEK_NOLIST_ERR_TITLE'),GetMessage('IPOLSDEK_NOLIST_ERR_HEADER'));
@@ -731,12 +750,12 @@ foreach(sdekExport::getAllProfiles() as $profile)
         </tr>
 	    <?php foreach ($arAddService as $asId => $adOption) {?>
 		    <tr>
-                <td><a href='#' class='PropHint' onclick='return IPOLSDEK_setups.popup("pop-AS<?=$asId;?>",this);'></a></td>
+                <td><a href='#' class='PropHint' onclick='return IPOLSDEK_setups.popup("pop-AS-<?=$asId;?>",this);'></a></td>
                 <td><?=$adOption['NAME'];?></td>
                 <td align='center'><input type='checkbox' name='addingService[<?=$asId?>][SHOW]' value='Y' <?=($adOption['SHOW']=='Y')?"checked":""?> /></td>
                 <td align='center'><input type='checkbox' name='addingService[<?=$asId?>][DEF]' value='Y' <?=($adOption['DEF']=='Y')?"checked":""?> /></td>
                 <td>
-                    <div id="pop-AS<?=$asId;?>" class="b-popup" style="display: none; ">
+                    <div id="pop-AS-<?=$asId;?>" class="b-popup" style="display: none; ">
                         <div class="pop-text"><?=$adOption['DESC'];?></div>
                         <div class="close" onclick="$(this).closest('.b-popup').hide();"></div>
                     </div>

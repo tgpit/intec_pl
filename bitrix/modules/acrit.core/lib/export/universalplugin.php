@@ -1643,6 +1643,7 @@ abstract class UniversalPlugin extends Plugin{
 			}
 			else{
 				$this->processElement_BuildXml_MultiplyTags($arXmlTags);
+				$this->replaceMultipleAttributes($arXmlTags);
 				$arXml = array(
 					$strXmlItem => array(
 						'@' => $arXmlAttr,
@@ -1743,6 +1744,31 @@ abstract class UniversalPlugin extends Plugin{
 		$strEval = "return isset({$strEval});";
 		$bExists = @eval($strEval) === true;
 		return $bExists;
+	}
+
+	/**
+	 * Prevent <tag attr="Array">
+	 */
+	protected function replaceMultipleAttributes(&$arXml){
+		foreach($arXml as $strTag => &$arTag){
+			if(!is_array($arTag)){
+				continue;
+			}
+			foreach($arTag as $index => &$arTagItem){
+				if(!is_array($arTagItem['@'])){
+					continue;
+				}
+				foreach($arTagItem['@'] as $strAttr => &$mValue){
+					if(!is_array($mValue)){
+						continue;
+					}
+					$mValue = reset($mValue); // Get just first value
+				}
+				unset($mValue);
+			}
+			unset($arTagItem);
+		}
+		unset($arTag);
 	}
 
 	/**
@@ -1895,6 +1921,7 @@ abstract class UniversalPlugin extends Plugin{
 		}
 		if(preg_match('/^(\s*)#EXPORT_CATEGORIES#$/mi', $this->arData['SESSION']['EXPORT']['XML'], $arMatch)){
 			$arCategories = $this->getUsedCategories();
+			$this->handler('onUpXmlExportCategories', array(&$arCategories));
 			foreach($arCategories as $intCategoryID => $arCategory){
 				$this->handler('onUpGetXmlCategoryTag', array(&$strCategoryXml, $intCategoryID, $arCategory, $arCategories));
 				if(strlen($strCategoryXml)){
@@ -1903,6 +1930,13 @@ abstract class UniversalPlugin extends Plugin{
 			}
 		}
 		return Exporter::RESULT_SUCCESS;
+	}
+
+	/**
+	 *	onUpXmlExportCategories
+	 */
+	protected function onUpXmlExportCategories(&$arCategories){
+		// Nothing by default
 	}
 	
 	/**

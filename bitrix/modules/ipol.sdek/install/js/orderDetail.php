@@ -68,6 +68,8 @@ if(self::$requestVals){
     $naturalGabs = $ordrVals['GABS'];
 }
 
+$autosendStatus = !empty(self::$orderDescr['properties']['IPOLSDEK_AUTOSEND']) ? self::$orderDescr['properties']['IPOLSDEK_AUTOSEND'] : '';
+
 $orderCity = sqlSdekCity::getBySId($ordrVals['location']);
 
 if($orderCity) {
@@ -1511,6 +1513,11 @@ CJSCore::Init(array("jquery"));
             <?php if($message['troubles']) { ?>
                 <tr class='heading'><td colspan='2'><?=GetMessage('IPOLSDEK_JS_SOD_HD_ERRORS')?></td></tr>
                 <tr><td colspan='2'><?=$message['troubles']?></td></tr>
+            <?php } ?>
+            <?php // Autosend messages
+            if ($autosendStatus) { ?>
+                <tr class='heading'><td colspan='2'><?=GetMessage('IPOLSDEK_JS_SOD_HD_AUTOSEND')?></td></tr>
+                <tr><td colspan='2'><?=$autosendStatus?></td></tr>
             <?php } ?>
             <?php
             // Store (From.Location address, Sender and Seller)

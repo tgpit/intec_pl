@@ -4,6 +4,7 @@ namespace Avito\Export\Feed\Source\Element;
 use Avito\Export\Concerns;
 use Avito\Export\Feed\Source;
 use Avito\Export\Feed\Source\Context;
+use Avito\Export\Data;
 use Bitrix\Iblock;
 
 class Fetcher extends Source\FetcherSkeleton
@@ -25,6 +26,11 @@ class Fetcher extends Source\FetcherSkeleton
 	public function modules() : array
 	{
 		return [ 'iblock' ];
+	}
+
+	public function order() : int
+	{
+		return 400;
 	}
 
 	public function fields(Source\Context $context) : array
@@ -118,10 +124,22 @@ class Fetcher extends Source\FetcherSkeleton
 
 	public function values(array $elements, array $parents, array $siblings, array $select, Source\Context $context) : array
 	{
+		$catalog = Source\Routine\Values::catalogElements($elements, $parents);
+
+		return $this->mergeValues(
+			$this->commonValues($catalog, array_diff($select, [
+				'IBLOCK_SECTION_ID',
+			])),
+			$this->iblockSectionIdValues($catalog, $select, $context)
+		);
+	}
+
+	protected function commonValues(array $elements, array $select) : array
+	{
 		$parentCache = [];
 		$result = [];
 
-		foreach (Source\Routine\Values::catalogElements($elements, $parents) as $elementId => $element)
+		foreach ($elements as $elementId => $element)
 		{
 			$isParent = ($elementId !== (int)$element['ID']);
 
@@ -161,6 +179,49 @@ class Fetcher extends Source\FetcherSkeleton
 			else
 			{
 				$result[$name] = $element[$name];
+			}
+		}
+
+		return $result;
+	}
+
+	protected function iblockSectionIdValues(array $elements, array $select, Source\Context $context) : array
+	{
+		if (!in_array('IBLOCK_SECTION_ID', $select, true)) { return []; }
+
+		$primarySections = array_column($elements, 'IBLOCK_SECTION_ID', 'ID');
+		$primarySections = Data\Iblock\PrimarySection::forElements($primarySections, $context->iblockId());
+		$result = [];
+
+		foreach ($elements as $targetId => $element)
+		{
+			$elementId = $element['ID'];
+
+			if (empty($primarySections[$elementId])) { continue; }
+
+			$result[$targetId]['IBLOCK_SECTION_ID'] = $primarySections[$elementId];
+		}
+
+		return $result;
+	}
+
+	protected function mergeValues(array ...$partials) : array
+	{
+		$partials = array_reverse($partials);
+		$result = array_shift($partials);
+
+		foreach ($partials as $partial)
+		{
+			foreach ($partial as $elementId => $values)
+			{
+				if (!isset($result[$elementId]))
+				{
+					$result[$elementId] = $values;
+				}
+				else
+				{
+					$result[$elementId] += $values;
+				}
 			}
 		}
 

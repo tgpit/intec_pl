@@ -3,6 +3,7 @@ global $APPLICATION;
 ?>
 
 <div class="bx-ag-search-page search-page <?=$arResult["VISUAL_PARAMS"]["THEME_CLASS"]?>">
+
 	<form action="" method="get">
 		<input placeholder="<?=$arParams["INPUT_PLACEHOLDER"]?>" type="text" name="q" value="<?=$arResult["REQUEST"]["QUERY"]?>" size="50" />
 		
@@ -78,6 +79,7 @@ global $APPLICATION;
 	<?if(is_array($arResult["CLARIFY_SECTION"]) && count($arResult["CLARIFY_SECTION"]) > 1):?>
 		<div class="ag-spage-clarify-list">
 			<div class="ag-spage-clarify-title"><?=GetMessage("AG_SPAGE_CLARIFY_SECTION");?></div>
+
 			
 			<a class="ag-spage-clarify-item <?if($arResult["SELECTED_SECTION"] == "") echo 'selected';?>" href="<?=$APPLICATION->GetCurPageParam("", array("section"))?>"><?=GetMessage("AG_SPAGE_CLARIFY_SECTION_ALL");?></a>
 			

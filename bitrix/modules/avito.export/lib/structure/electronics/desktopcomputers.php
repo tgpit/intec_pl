@@ -25,16 +25,14 @@ class DesktopComputers implements Category, CategoryLevel
 	{
 		return new Dictionary\Fixed([
 			'Condition' => new Dictionary\Listing\Condition(),
-			'GoodsSubType' => [
-				self::getLocale('GOODS_SUB_TYPE_SYSTEM_UNITS'),
-				self::getLocale('GOODS_SUB_TYPE_MONOBLOCKS'),
-				self::getLocale('GOODS_SUB_TYPE_OTHER'),
-			],
 		]);
 	}
 
 	public function children() : array
 	{
-		return [];
+		return [
+			new DesktopComputers\SystemUnits(),
+			new DesktopComputers\MonoBlocks(),
+		];
 	}
 }

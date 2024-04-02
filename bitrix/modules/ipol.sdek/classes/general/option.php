@@ -337,6 +337,12 @@ class option extends abstractGeneral
                 'default' => 'N',
                 'type'    => 'checkbox'
             ),
+            'statusOK' => array(
+                'group'   => 'status',
+                'hasHint' => 'N',
+                'default' => false,
+                'type'    => "selectbox"
+            ),
             'statusSTORE' => array(
                 'group'   => 'status',
                 'hasHint' => 'Y',
@@ -712,6 +718,19 @@ class option extends abstractGeneral
                 'default' => 'N',
                 'type'    => 'checkbox'
             ),
+            /* Check API 1.5 is enabled */
+            'lastOldApiCheck' => array(
+                'group'   => 'other',
+                'hasHint' => 'N',
+                'default' => null,
+                'type'    => "text"
+            ),
+            'accountsWithDisabledOldApi' => array(
+                'group'   => 'other',
+                'hasHint' => 'N',
+                'default' => 'a:0:{}',
+                'type'    => "json"
+            ),
         );
 
         if(\sdekdriver::isConverted()){
@@ -722,6 +741,12 @@ class option extends abstractGeneral
                         'hasHint' => 'Y',
                         'default' => 'N',
                         'type'    => "checkbox"
+                    ),
+                    'stShipmentOK' => array(
+                        'group'   => 'status',
+                        'hasHint' => 'N',
+                        'default' => false,
+                        'type'    => "selectbox"
                     ),
                     'stShipmentSTORE' => array(
                         'group'   => 'status',
@@ -799,6 +824,7 @@ class option extends abstractGeneral
                     'VAT20' => Tools::getMessage('NDS_VAT20'),
                 );
                 break;
+            case 'statusOK'        :
             case 'statusSTORE'     :
             case 'statusTRANZT'    :
             case 'statusCORIER'    :
@@ -808,6 +834,7 @@ class option extends abstractGeneral
             case 'autoloadsStatus' :
                 $arVals = self::getOrderStates();
                 break;
+            case 'stShipmentOK'  :
             case 'stShipmentSTORE'  :
             case 'stShipmentTRANZT' :
             case 'stShipmentCORIER' :

@@ -551,7 +551,7 @@ class sdekdriver extends sdekHelper{
 		$adapter = new \Ipolh\SDEK\Bitrix\Adapter\Order($options);
 		$adapter->uploadedOrder($oId,$mode,!\Ipolh\SDEK\abstractGeneral::isNewApp());
 		$auth    = \sqlSdekLogs::getByAcc($adapter->getBaseOrder()->getField('account'));
-        $application = \Ipolh\SDEK\abstractGeneral::makeApplication($auth['ACCOUNT'],$auth['SECURE']);
+        $application = \Ipolh\SDEK\abstractGeneral::makeApplication($auth['ACCOUNT'], $auth['SECURE']);
         $controller  = new \Ipolh\SDEK\Bitrix\Controller\Order($application,$adapter->getBaseOrder());
         $obReturn    = $controller->sendOrder();
 
@@ -701,8 +701,8 @@ class sdekdriver extends sdekHelper{
 
 		foreach($params as $prop => $val){
 			if(in_array($prop,$arNeedFields) && !$val){
-				echo GetMessage('IPOLSDEK_JS_SOD_'.$prop)." ".GetMessage('IPOLSDEK_SOD_NOTGET');
-				return false;
+                self::errorLog(GetMessage('IPOLSDEK_JS_SOD_' . $prop) . " " . GetMessage('IPOLSDEK_SOD_NOTGET'));
+                return false;
 			}
 			if (!is_array($val)) {
 				$params[$prop] = str_replace(array('"','<','>'),"'",$val);
@@ -731,8 +731,8 @@ class sdekdriver extends sdekHelper{
 			(!$params['orderId'] && $params['mode'] == 'order') ||
 			(!$params['shipment'] && $params['mode'] == 'shipment')
 		){
-			echo GetMessage('IPOLSDEK_SOD_ORDERID')." ".GetMessage('IPOLSDEK_SOD_NOTGET');
-			return false;
+            self::errorLog(GetMessage('IPOLSDEK_SOD_ORDERID') . " " . GetMessage('IPOLSDEK_SOD_NOTGET'));
+            return false;
 		}
 		if(!$params['status'])
 			$status = 'NEW';
@@ -882,7 +882,7 @@ class sdekdriver extends sdekHelper{
      */
 	public static function getExtraOptions()
     {
-		$arAddService = array(3,7,16,17,30,36,48,81,96);
+		$arAddService = array(3,7,16,17,27,30,36,48,59,60,81,96);
 		$src = \Ipolh\SDEK\option::get('addingService');
 
 		$arReturn = array();
@@ -943,8 +943,9 @@ class sdekdriver extends sdekHelper{
 	static function saveProp($arPropFields){
 		if(!CSaleOrderPropsValue::Add($arPropFields)){
 			$prop = CSaleOrderPropsValue::GetList(array(),array("ORDER_ID" => $arPropFields['ORDER_ID'],"ORDER_PROPS_ID" => $arPropFields['ORDER_PROPS_ID']))->Fetch();
-			if($prop && !$prop['VALUE'])
-				CSaleOrderPropsValue::Update($prop['ID'],$arPropFields);
+			if($prop) {
+                CSaleOrderPropsValue::Update($prop['ID'],$arPropFields);
+            }
 		}
 	}
 
@@ -1142,13 +1143,21 @@ class sdekdriver extends sdekHelper{
 		self::$skipAdminCheck = true;
 
 		self::saveAndSend(self::zajsonit($fields));
+        if (self::getErrors()) {
+            return 'LOCAL_ERROR';
+        }
+
+        $order = self::GetByOI($orderId, sdekExport::$workMode);
+        if ($order['STATUS'] === 'ERROR') {
+            return 'CDEK_ERROR';
+        }
 
 		return 1;
 	}
 
-	static function statusAutoLoad($oId,$orderStatus)
-	{
-		if(
+    static function statusAutoLoad($oId, $orderStatus)
+    {
+        if (
             \Ipolh\SDEK\option::get('autoloads') === 'Y' &&
             \Ipolh\SDEK\option::get('autoloadsMode') === 'S' &&
             \Ipolh\SDEK\option::get('autoloadsStatus') === $orderStatus
@@ -1157,15 +1166,20 @@ class sdekdriver extends sdekHelper{
 			if(!$checkSQL || !$checkSQL['OK']){
 				$arFields = CSaleOrder::GetById($oId);
 				if($respond = self::autoLoad($oId,$arFields,'S')){
-					$op = CSaleOrderProps::GetList(array(),array("PERSON_TYPE_ID" =>$arFields['PERSON_TYPE_ID'],"CODE"=>"IPOLSDEK_AUTOSEND"))->Fetch();
-					if($op)
-						self::saveProp(array(
-							"ORDER_ID"       => $oId,
-							"ORDER_PROPS_ID" => $op['ID'],
-							"NAME"           => GetMessage('IPOLSDEK_propAuto_name'),
-							"CODE"           => "IPOLSDEK_AUTOSEND",
-							"VALUE"          => GetMessage('IPOLSDEK_AUTOLOAD_RESPOND_'.$respond)
-						));
+                    $op = CSaleOrderProps::GetList(array(), array("PERSON_TYPE_ID" => $arFields['PERSON_TYPE_ID'], "CODE" => "IPOLSDEK_AUTOSEND"))->Fetch();
+                    if ($op) {
+                        $value = GetMessage('IPOLSDEK_AUTOLOAD_RESPOND_' . $respond);
+                        if ($respond === 'LOCAL_ERROR') {
+                            $value = GetMessage('IPOLSDEK_AUTOLOAD_RESPOND_LOCAL_ERROR', ['#ERROR#' => self::getErrors()]);
+                        }
+                        self::saveProp(array(
+                            "ORDER_ID"       => $oId,
+                            "ORDER_PROPS_ID" => $op['ID'],
+                            "NAME"           => GetMessage('IPOLSDEK_propAuto_name'),
+                            "CODE"           => "IPOLSDEK_AUTOSEND",
+                            "VALUE"          => $value
+                        ));
+                    }
 				}
 			}
 		}

@@ -1100,12 +1100,10 @@ class YandexWebmaster extends Plugin {
 		#
 		$strEncoding = $arData['PROFILE']['PARAMS']['ENCODING'];
 		#
-		$date = new DateTime();
-		$strDate = $date->format("Y-m-d H:i");
-//		$strDate = (new \Bitrix\Main\Type\DateTime())->format('c');
+		$strDate = (new \Bitrix\Main\Type\DateTime())->format('c');
 		$strXml = '';
 		$strXml .= '<?xml version="1.0" encoding="'.$strEncoding.'"?>'."\n";
-		$strXml .= '<yml_catalog date="'.$strDate.'" standalone="yes">'."\n";
+		$strXml .= '<yml_catalog date="'.$strDate.'">'."\n";
 		$strXml .= "\t".'<shop>'."\n";
 		file_put_contents($strFile, $strXml, FILE_APPEND);
 	}

@@ -29,7 +29,7 @@ abstract class OrderAgent extends AgentReference\Base
 		]);
 	}
 
-	public static function process(int $exchangeId, int $page = 1, int $orderOffset = null, int $stopOrder = null, int $errorCount = 0)
+	public static function process(int $exchangeId, int $page = 1, int $orderOffset = null, $stopOrder = null, int $errorCount = 0)
 	{
 		global $pPERIOD;
 
@@ -114,7 +114,7 @@ abstract class OrderAgent extends AgentReference\Base
 	}
 
 	/** @noinspection ReturnTypeCanBeDeclaredInspection */
-	protected static function processOrders(Trading\Setup\Model $trading, Api\OrderManagement\Model\Orders $orders, int $orderOffset = null, int $stopOrder = null)
+	protected static function processOrders(Trading\Setup\Model $trading, Api\OrderManagement\Model\Orders $orders, int $orderOffset = null, $stopOrder = null)
 	{
 		throw new Main\NotImplementedException();
 	}

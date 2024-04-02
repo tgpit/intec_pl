@@ -330,9 +330,6 @@ $profileTypes["ym_vendormodel"]["ITEMS_FORMAT"] = "
     <barcode>#BARCODE#</barcode>
     <cpa>#CPA#</cpa>
     <rec>#REC#</rec>
-    <sets>#ID#</sets>
-    <set-ids>#ID#</set-ids>
-    <setids>#ID#</setids>
     <expiry>#EXPIRY#</expiry>
     <weight>#WEIGHT#</weight>
     <dimensions>#DIMENSIONS#</dimensions>

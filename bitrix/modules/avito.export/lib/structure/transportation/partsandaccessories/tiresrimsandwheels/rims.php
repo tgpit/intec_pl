@@ -37,6 +37,8 @@ class Rims implements Structure\Category, Structure\CategoryLevel
 				    'RimBoltsDiameter' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/rims/rimboltsdiameter.xml',
 				    'RimOffset' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/rims/rimoffset.xml',
 				    'RimDIA' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/rims/rimdia.xml',
+				    'RimBrand' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/rims/rimbrand.xml',
+				    'RimModel' => 'transportation/partsandaccessories/tiresrimsandwheels/producttype/rims/rimmodel.xml',
 			    ]
 		    ])
 	    );

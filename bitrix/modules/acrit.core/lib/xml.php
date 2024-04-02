@@ -44,23 +44,6 @@ class Xml {
 						$strResult .= $strIndent.'<'.$strTagName.$strAttributes.'>'.PHP_EOL;
 						$strResult .= static::arrayToXml($arContent, $intDepthLevel+1);
 						$strResult .= $strIndent.'</'.$strTagName.'>'.PHP_EOL;
-
-						if($strTagName=='categories'){
-	                        $strResult .= '<sets>'.PHP_EOL;
-							$strResult .= '    <set id="s1">'.PHP_EOL;
-							$strResult .= '    <name>Премиальная сборка</name>'.PHP_EOL;
-							$strResult .= '    <url>https://pitland.ru/services/premialnaya-sborka/</url>'.PHP_EOL;
-							$strResult .= '    </set>'.PHP_EOL;
-							$strResult .= '    <set id="s2">'.PHP_EOL;
-							$strResult .= '    <name>Сервис</name>'.PHP_EOL;
-							$strResult .= '    <url>https://pitland.ru/services/servis/</url>'.PHP_EOL;
-							$strResult .= '    </set>'.PHP_EOL;
-							$strResult .= '    <set id="s3">'.PHP_EOL;
-							$strResult .= '    <name>Trade-IN</name>'.PHP_EOL;
-							$strResult .= '    <url>https://pitland.ru/services/trade-in/</url>'.PHP_EOL;
-							$strResult .= '    </set>'.PHP_EOL;
-	                        $strResult .= '</sets>'.PHP_EOL;
-						}
 					}
 					# Empty data: <x />
 					elseif(Helper::isEmpty($arContent)){
@@ -68,20 +51,6 @@ class Xml {
 					}
 					# If tag contains text
 					else{
-						if ($strTagName=='param'){
-							$cc = $strAttributes;
-							$aa = substr($cc,7,-1);
-//							if ($aa=='sets'){
-//								$strResult .= $strIndent."<$aa>$arContent</$aa>\n";
-//							}
-							if ($aa=='set-ids'){
-								$strResult .= $strIndent."<$aa>s1,s2,s3</$aa>\n";
-							}
-							if ($aa=='setids'){
-//								$strResult .= $strIndent."<$aa>$arContent</$aa>\n";
-								$strResult .= $strIndent."<$aa>s1,s2,s3</$aa>\n";
-							}
-						};
 						$strResult .= $strIndent.'<'.$strTagName.$strAttributes.'>'.$arContent.'</'.$strTagName.'>'.PHP_EOL;
 					}
 				}
@@ -127,11 +96,11 @@ class Xml {
 
 	/**
 	 * Check XML is correct
+	 * \Acrit\Core\Xml::xmlToArray works incorrectly, because it pass some errors (so invalid XML shown as valid)
 	 */
 	public static function checkXml($strXml){
 		$bResult = false;
 		if(function_exists('simplexml_load_string')){
-			$strXml = preg_replace('#^<\?xml.*?\?>\s*#i', '', $strXml);
 			try{
 				ob_start();
 				$obXml = simplexml_load_string($strXml);

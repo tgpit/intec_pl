@@ -17,6 +17,7 @@
 	<Brand>Akuret</Brand>
 	<Brand>Alliance</Brand>
 	<Brand>Altenzo</Brand>
+	<Brand>AlwaysRun</Brand>
 	<Brand>Amberstone</Brand>
 	<Brand>America</Brand>
 	<Brand>American Tourer</Brand>
@@ -26,12 +27,15 @@
 	<Brand>Anjie</Brand>
 	<Brand>Annaite</Brand>
 	<Brand>Antares</Brand>
+	<Brand>Antirock</Brand>
 	<Brand>Antyre</Brand>
 	<Brand>Aosen</Brand>
+	<Brand>Aosowing</Brand>
 	<Brand>Aoteli</Brand>
 	<Brand>Aplus</Brand>
 	<Brand>Apollo</Brand>
 	<Brand>Aptany</Brand>
+	<Brand>AquaField</Brand>
 	<Brand>Arctic Claw</Brand>
 	<Brand>Arestone</Brand>
 	<Brand>Arietis</Brand>
@@ -49,6 +53,7 @@
 	<Brand>ATC</Brand>
 	<Brand>ATF</Brand>
 	<Brand>Athos</Brand>
+	<Brand>Atire</Brand>
 	<Brand>Atlander</Brand>
 	<Brand>Atlapex</Brand>
 	<Brand>Atlas</Brand>
@@ -73,12 +78,16 @@
 	<Brand>BCT</Brand>
 	<Brand>Beautrak</Brand>
 	<Brand>Benchmark</Brand>
+	<Brand>BENSLER</Brand>
+	<Brand>BENSLER Pro</Brand>
 	<Brand>Berlin</Brand>
+	<Brand>Bestang</Brand>
 	<Brand>Bestrich</Brand>
 	<Brand>Bfgoodrich</Brand>
 	<Brand>Big-O</Brand>
 	<Brand>Birla</Brand>
 	<Brand>BKT</Brand>
+	<Brand>BlackHawk</Brand>
 	<Brand>Blacklion</Brand>
 	<Brand>Black Rocket</Brand>
 	<Brand>Blackstar</Brand>
@@ -101,6 +110,7 @@
 	<Brand>Camso</Brand>
 	<Brand>Cantop</Brand>
 	<Brand>Carbon Series</Brand>
+	<Brand>Carleo</Brand>
 	<Brand>Carlisle</Brand>
 	<Brand>Carps</Brand>
 	<Brand>Casumina</Brand>
@@ -135,8 +145,10 @@
 	<Brand>Cratos</Brand>
 	<Brand>Crosswind</Brand>
 	<Brand>CST</Brand>
+	<Brand>CTM</Brand>
 	<Brand>Cultor</Brand>
 	<Brand>Cyclone</Brand>
+	<Brand>CZYR</Brand>
 	<Brand>Daewoo</Brand>
 	<Brand>Davanti</Brand>
 	<Brand>Dayco</Brand>
@@ -158,10 +170,12 @@
 	<Brand>DiamondBack</Brand>
 	<Brand>Dick Cepek</Brand>
 	<Brand>Diplomat</Brand>
+	<Brand>DISTANCE</Brand>
 	<Brand>Dmack</Brand>
 	<Brand>Doral</Brand>
 	<Brand>Double Camel</Brand>
 	<Brand>Double Coin</Brand>
+	<Brand>Double King</Brand>
 	<Brand>Double Road</Brand>
 	<Brand>DoubleStar</Brand>
 	<Brand>Douglas</Brand>
@@ -179,6 +193,7 @@
 	<Brand>Dynamic</Brand>
 	<Brand>Dynamo</Brand>
 	<Brand>Eced</Brand>
+	<Brand>Ecostar</Brand>
 	<Brand>Ecovision</Brand>
 	<Brand>Effiplus</Brand>
 	<Brand>EKKA</Brand>
@@ -187,6 +202,7 @@
 	<Brand>Eracle</Brand>
 	<Brand>Esa-Tecar</Brand>
 	<Brand>Esporte</Brand>
+	<Brand>Eudemon</Brand>
 	<Brand>Euromina</Brand>
 	<Brand>Eurotec</Brand>
 	<Brand>Euzkadi</Brand>
@@ -196,6 +212,7 @@
 	<Brand>Evergreat</Brand>
 	<Brand>Evergreen</Brand>
 	<Brand>Excel</Brand>
+	<Brand>Exmile</Brand>
 	<Brand>Extreme</Brand>
 	<Brand>Falken</Brand>
 	<Brand>Faralong</Brand>
@@ -203,6 +220,7 @@
 	<Brand>Fate</Brand>
 	<Brand>Federal</Brand>
 	<Brand>Fedima</Brand>
+	<Brand>FELEDE</Brand>
 	<Brand>Fenglun</Brand>
 	<Brand>Fenix</Brand>
 	<Brand>Fesite</Brand>
@@ -218,14 +236,17 @@
 	<Brand>Foman</Brand>
 	<Brand>Force</Brand>
 	<Brand>Forerunner</Brand>
+	<Brand>Forester</Brand>
 	<Brand>Forever</Brand>
 	<Brand>Forgiato</Brand>
+	<Brand>Forlander</Brand>
 	<Brand>Formula</Brand>
 	<Brand>Fortuna</Brand>
 	<Brand>Fortune</Brand>
 	<Brand>Forward</Brand>
 	<Brand>Forza</Brand>
 	<Brand>Frideric</Brand>
+	<Brand>Friendway</Brand>
 	<Brand>Fronway</Brand>
 	<Brand>FUEL</Brand>
 	<Brand>Fulda</Brand>
@@ -236,6 +257,8 @@
 	<Brand>Fuzion</Brand>
 	<Brand>Gajah Tunggal</Brand>
 	<Brand>Galaxy</Brand>
+	<Brand>GBC</Brand>
+	<Brand>GencoTire</Brand>
 	<Brand>General Tire</Brand>
 	<Brand>Geostar</Brand>
 	<Brand>Gianroi</Brand>
@@ -243,13 +266,16 @@
 	<Brand>Ginell</Brand>
 	<Brand>Gislaved</Brand>
 	<Brand>Giti</Brand>
+	<Brand>GlobeMaster</Brand>
 	<Brand>Globe Star</Brand>
 	<Brand>Goalstar</Brand>
 	<Brand>Goform</Brand>
 	<Brand>Gold Dove</Brand>
 	<Brand>Golden Bridge</Brand>
+	<Brand>Golden Crown</Brand>
 	<Brand>Goldline</Brand>
 	<Brand>Gold Partner</Brand>
+	<Brand>Goldshield</Brand>
 	<Brand>Goldstone</Brand>
 	<Brand>Goldway</Brand>
 	<Brand>Good Friend</Brand>
@@ -260,6 +286,7 @@
 	<Brand>Goodyear</Brand>
 	<Brand>Grandcrown</Brand>
 	<Brand>GrandStone</Brand>
+	<Brand>Greamark</Brand>
 	<Brand>Greckster (Emrald)</Brand>
 	<Brand>Green Diamond</Brand>
 	<Brand>Green Dragon</Brand>
@@ -287,6 +314,7 @@
 	<Brand>Henan</Brand>
 	<Brand>HENGRUIDA</Brand>
 	<Brand>Hengtar</Brand>
+	<Brand>HERADE</Brand>
 	<Brand>Hercules</Brand>
 	<Brand>Hero</Brand>
 	<Brand>Herse</Brand>
@@ -301,6 +329,7 @@
 	<Brand>Iceforest</Brand>
 	<Brand>iLink</Brand>
 	<Brand>Imperial</Brand>
+	<Brand>Infimax</Brand>
 	<Brand>Infinity Tyres</Brand>
 	<Brand>Innova</Brand>
 	<Brand>Interco</Brand>
@@ -310,6 +339,7 @@
 	<Brand>ITP</Brand>
 	<Brand>JCB</Brand>
 	<Brand>Jetzon</Brand>
+	<Brand>Jilutong</Brand>
 	<Brand>Jinglun</Brand>
 	<Brand>Jintongda</Brand>
 	<Brand>Jinyu</Brand>
@@ -325,6 +355,8 @@
 	<Brand>Kenda</Brand>
 	<Brand>Kenex</Brand>
 	<Brand>Kinforest</Brand>
+	<Brand>King Boss</Brand>
+	<Brand>King Crown</Brand>
 	<Brand>King Meiler</Brand>
 	<Brand>Kingnate</Brand>
 	<Brand>Kingrun</Brand>
@@ -338,6 +370,7 @@
 	<Brand>Krone</Brand>
 	<Brand>Kumho</Brand>
 	<Brand>KunLun</Brand>
+	<Brand>L-Guard</Brand>
 	<Brand>Lakesea</Brand>
 	<Brand>LANDE</Brand>
 	<Brand>Lander Sea</Brand>
@@ -352,10 +385,13 @@
 	<Brand>Leadway</Brand>
 	<Brand>Leao</Brand>
 	<Brand>Leao Tyre</Brand>
+	<Brand>LEELAND</Brand>
+	<Brand>LIAO LUN</Brand>
 	<Brand>LingLong</Brand>
 	<Brand>Lizetti</Brand>
 	<Brand>Load Star</Brand>
 	<Brand>LongMarch</Brand>
+	<Brand>LongStar</Brand>
 	<Brand>Longtraxx</Brand>
 	<Brand>Luckyland</Brand>
 	<Brand>LuHe</Brand>
@@ -364,12 +400,14 @@
 	<Brand>Mabor</Brand>
 	<Brand>Magna</Brand>
 	<Brand>Magnum</Brand>
+	<Brand>Mainsail</Brand>
 	<Brand>Malatesta</Brand>
 	<Brand>Maloya</Brand>
 	<Brand>Marangoni</Brand>
 	<Brand>Marcher</Brand>
 	<Brand>Marix</Brand>
 	<Brand>MarkMa</Brand>
+	<Brand>Marris</Brand>
 	<Brand>Marshal</Brand>
 	<Brand>Marsway</Brand>
 	<Brand>Marvemax</Brand>
@@ -380,6 +418,7 @@
 	<Brand>Mastertrack</Brand>
 	<Brand>Matador</Brand>
 	<Brand>Maxam</Brand>
+	<Brand>Maxceed</Brand>
 	<Brand>Maxgrade</Brand>
 	<Brand>Maximple</Brand>
 	<Brand>Maxrun</Brand>
@@ -387,13 +426,16 @@
 	<Brand>Maxtrack</Brand>
 	<Brand>Maxtrek</Brand>
 	<Brand>Maxxis</Brand>
+	<Brand>Maxzez</Brand>
 	<Brand>Mazzini</Brand>
+	<Brand>MCLAREN</Brand>
 	<Brand>Medeo</Brand>
 	<Brand>Medved</Brand>
 	<Brand>Megarun</Brand>
 	<Brand>Metzeler</Brand>
 	<Brand>Michelin</Brand>
 	<Brand>Mickey Thompson</Brand>
+	<Brand>Midas</Brand>
 	<Brand>Mileking</Brand>
 	<Brand>Milestone</Brand>
 	<Brand>Millennium</Brand>
@@ -406,6 +448,7 @@
 	<Brand>Montana</Brand>
 	<Brand>Motomaster</Brand>
 	<Brand>MRL</Brand>
+	<Brand>MT Rock</Brand>
 	<Brand>Mud Claw</Brand>
 	<Brand>Naaats</Brand>
 	<Brand>Nankang</Brand>
@@ -456,12 +499,14 @@
 	<Brand>Premada</Brand>
 	<Brand>Premiorri</Brand>
 	<Brand>Presa</Brand>
+	<Brand>Primetrac</Brand>
 	<Brand>Primewell</Brand>
 	<Brand>Primex</Brand>
 	<Brand>Profil</Brand>
 	<Brand>Prometer</Brand>
 	<Brand>Prostor</Brand>
 	<Brand>Qima</Brand>
+	<Brand>Qingdao</Brand>
 	<Brand>Radar Tyres</Brand>
 	<Brand>Rapid</Brand>
 	<Brand>Razi</Brand>
@@ -484,6 +529,7 @@
 	<Brand>Roadmile</Brand>
 	<Brand>RoadOne</Brand>
 	<Brand>Roadshine</Brand>
+	<Brand>Roadstar</Brand>
 	<Brand>Roadstone</Brand>
 	<Brand>RoadX</Brand>
 	<Brand>RockBuster</Brand>
@@ -497,9 +543,12 @@
 	<Brand>RT-PRO</Brand>
 	<Brand>RUBBER WHEELS</Brand>
 	<Brand>Ruisen</Brand>
+	<Brand>Runderneuert</Brand>
+	<Brand>Runever</Brand>
 	<Brand>Runway</Brand>
 	<Brand>Saetta</Brand>
 	<Brand>Safecess</Brand>
+	<Brand>Safever</Brand>
 	<Brand>Sailun</Brand>
 	<Brand>Samson</Brand>
 	<Brand>Satoya</Brand>
@@ -527,6 +576,7 @@
 	<Brand>SRC</Brand>
 	<Brand>STA</Brand>
 	<Brand>STANDARD</Brand>
+	<Brand>StandMax</Brand>
 	<Brand>Starco</Brand>
 	<Brand>Starfire</Brand>
 	<Brand>Starmaxx</Brand>
@@ -545,6 +595,7 @@
 	<Brand>Sunote</Brand>
 	<Brand>Sunstyer</Brand>
 	<Brand>Suntek</Brand>
+	<Brand>Sunwide</Brand>
 	<Brand>Supercargo</Brand>
 	<Brand>SUPERGUIDER</Brand>
 	<Brand>Superhawk</Brand>
@@ -579,11 +630,14 @@
 	<Brand>Tokai</Brand>
 	<Brand>Toledo</Brand>
 	<Brand>Tomket</Brand>
+	<Brand>Tongpai</Brand>
 	<Brand>Topower</Brand>
 	<Brand>Toptrust</Brand>
 	<Brand>Torque</Brand>
 	<Brand>Tosso</Brand>
 	<Brand>Total Source</Brand>
+	<Brand>Tough</Brand>
+	<Brand>Tourador</Brand>
 	<Brand>Toyo</Brand>
 	<Brand>Tracmax</Brand>
 	<Brand>TrailCutter</Brand>
@@ -604,7 +658,9 @@
 	<Brand>Tyfoon</Brand>
 	<Brand>Tyrex</Brand>
 	<Brand>Tyrun</Brand>
+	<Brand>U.Conquall</Brand>
 	<Brand>Ultramile</Brand>
+	<Brand>Unicoin</Brand>
 	<Brand>Uniglory</Brand>
 	<Brand>Unigom</Brand>
 	<Brand>Unigrip</Brand>
@@ -621,6 +677,7 @@
 	<Brand>Vglory</Brand>
 	<Brand>Viatti</Brand>
 	<Brand>Victorun</Brand>
+	<Brand>Victory</Brand>
 	<Brand>Vida</Brand>
 	<Brand>Viking</Brand>
 	<Brand>Virtus</Brand>
@@ -651,12 +708,14 @@
 	<Brand>Wolfsburg</Brand>
 	<Brand>Wolftyres</Brand>
 	<Brand>WonRay</Brand>
+	<Brand>Worcraft</Brand>
 	<Brand>Wosen</Brand>
 	<Brand>Wuyi</Brand>
 	<Brand>Xtyre</Brand>
 	<Brand>Yatai</Brand>
 	<Brand>Yatone</Brand>
 	<Brand>Yeada</Brand>
+	<Brand>Yinghao</Brand>
 	<Brand>Yokohama</Brand>
 	<Brand>Yongbao</Brand>
 	<Brand>Yonking</Brand>

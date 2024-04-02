@@ -489,8 +489,10 @@ class Sbermegamarket extends Plugin {
             $orders[] = [
                 'ID_MARKET'   => $mp_order['shipmentId'],
                 'DATE_INSERT' => date('d.m.Y', strtotime($mp_order['creationDate'])) ,
-                'DATE_CONFIRMED' => date('d.m.Y', strtotime($mp_order['creationDate'])) ,
+//                'DATE_CONFIRMED' => date('d.m.Y', strtotime($mp_order['creationDate'])) ,
+                'DATE_CONFIRMED' => $mp_order['confirmedTimeLimit'],
                 'DATE_DELIVERY' => date('d.m.Y', strtotime($mp_order['deliveryDateTo'])) ,
+                'DATE_SHIPPING' => date('d.m.Y', strtotime($mp_order['shippingTimeLimit'])) ,
                 'STATUS_ID'   => $mp_order['status'],
                 'SUMM_MARKET' => $sum,
                 'ITEMS' => $offers,

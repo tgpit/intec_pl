@@ -1008,17 +1008,16 @@ class Helper {
 	 */
 	public static function formatElapsedTime($intSeconds){
 		$strResult = '';
-		if(($intSeconds = intVal($intSeconds)) > 0){
-			$intHours = floor($intSeconds / (60*60));
-			$intSeconds -= $intHours * 60 * 60;
-			$intMinutes = floor($intSeconds / 60);
-			$intMinutes = sprintf('%02d', $intMinutes);
-			if($intMinutes > 0) {
-				$intSeconds = $intSeconds - $intMinutes * 60;
-			}
-			$intSeconds = sprintf('%02d', $intSeconds);
-			$strResult = ($intHours ? $intHours.':' : '').$intMinutes.':'.$intSeconds;
+		$intSeconds = intVal($intSeconds);
+		$intHours = floor($intSeconds / (60*60));
+		$intSeconds -= $intHours * 60 * 60;
+		$intMinutes = floor($intSeconds / 60);
+		$intMinutes = sprintf('%02d', $intMinutes);
+		if($intMinutes > 0) {
+			$intSeconds = $intSeconds - $intMinutes * 60;
 		}
+		$intSeconds = sprintf('%02d', $intSeconds);
+		$strResult = ($intHours ? $intHours.':' : '').$intMinutes.':'.$intSeconds;
 		return $strResult;
 	}
 	

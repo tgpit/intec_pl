@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Условия оплаты");
 ?><p>
-	 Вы можете выбрать один из вариантов оплаты:
+	 Вы можете выбрать один из трёх вариантов оплаты:
 </p>
 <h3>Оплата наличными</h3>
 <p>
@@ -171,4 +171,58 @@ $APPLICATION->SetTitle("Условия оплаты");
 	</tr>
 	</tbody>
 	</table>
-</div><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</div>
+ <br>
+ <br>
+ <br>
+<div class="tables-responsive swipeignore">
+	<table class="colored_table" style="text-align:center;">
+	<tbody>
+	<tr>
+		<td style="width:50%">
+			 Наименование организации
+		</td>
+		<td style="width:50%">
+			 ИП Шишкин Алексей Владимирович
+		</td>
+	</tr>
+	<tr>
+		<td>
+			 ОКПО
+		</td>
+		<td>
+			 2026189560
+		</td>
+	</tr>
+	<tr>
+		<td>
+			 ИНН
+		</td>
+		<td>
+			 503225901620
+		</td>
+	</tr>
+	<tr>
+		<td>
+			 Расчетный счет
+		</td>
+		<td>
+			 40802810038000345663<br>
+			 ПАО СБЕРБАНК БИК 044525225, к/с 30101810400000000225
+		</td>
+	</tr>
+	<tr>
+		<td colspan="1">
+			 &nbsp;Юридический адрес
+		</td>
+		<td colspan="1">
+			 143074, Московская обл, г.о. Одинцовский, п Новый Городок, д. 31, кв. 19&nbsp;
+		</td>
+	</tr>
+	</tbody>
+	</table>
+</div>
+ <br>
+ <br>
+ <br>
+ <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -153,7 +153,7 @@ $APPLICATION->SetTitle("Trade In");
 		"SEF_MODE" => "N",
 		"SUCCESS_URL" => "",
 		"USE_EXTENDED_ERRORS" => "Y",
-		"WEB_FORM_ID" => "25",
+		"WEB_FORM_ID" => "24",
 		"COMPONENT_TEMPLATE" => "tradein",
 		"AJAX_MODE" => "Y",
 		"AJAX_OPTION_SHADOW" => "N",

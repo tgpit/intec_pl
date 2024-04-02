@@ -42,9 +42,9 @@ class QueryBuilder
 		return $command->compile($filterMap, $context, $changesFilter);
 	}
 
-	public function fetch(Source\Data\SourceSelect $tagSources, array $elements, array $parents, Source\Context $context) : array
+	public function fetch(Source\Data\SourceSelect $tagSources, array $elements, array $parents, Source\Context $context, array $fetched = []) : array
 	{
-		$result = [];
+		$result = $fetched;
 		$types = $tagSources->sources();
 		$sources = array_combine($types, array_map(
 			function(string $type) { return $this->fetcherPool->some($type); },

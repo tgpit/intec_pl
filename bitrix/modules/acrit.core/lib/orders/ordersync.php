@@ -311,9 +311,15 @@ class OrderSync {
 		}
 		// Formation of a data for saving
 		$property_collection = $order->getPropertyCollection();
+//        file_put_contents(__DIR__ . '/props.txt', var_export($order_data['PROPERTIES'], true));
         foreach ($comp_table as $e_field_code => $o_prop_id) {
 			$prop = (array) $order_data['PROPERTIES'][$o_prop_id];
-			$prop_value = $property_collection->getItemByOrderPropertyId($o_prop_id);
+            if ( is_array($profile['OTHER']['CHANGE_DISABLE']) && in_array($o_prop_id, $profile['OTHER']['CHANGE_DISABLE']) ) {
+                if (is_array($prop['VALUE']) && $prop['VALUE'][0]) {
+                    continue;
+                }
+            }
+                $prop_value = $property_collection->getItemByOrderPropertyId($o_prop_id);
 			if ($prop_value) {
 				$new_value = [];
 				$ext_field = $ext_order[$e_field_code];

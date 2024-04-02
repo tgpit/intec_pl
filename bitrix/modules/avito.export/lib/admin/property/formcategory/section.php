@@ -7,6 +7,7 @@ use Bitrix\Main;
 use Bitrix\Iblock;
 use Avito\Export\Concerns;
 use Avito\Export\Admin\Property\CategoryField;
+use Avito\Export\Data;
 
 class Section implements Behavior
 {
@@ -169,12 +170,21 @@ class Section implements Behavior
 
 	protected function formSections(array $form) : array
 	{
-		$sections = array_merge(
-			[ $form['iblockSectionId'] ?? null ],
-			$form['iblockSection'] ?? []
-		);
+		$sections = (array)($form['iblockSection'] ?? []);
+		$primarySection = (int)($form['iblockSectionId'] ?? 0);
 
 		Main\Type\Collection::normalizeArrayValuesByInt($sections, false);
+
+		if ($primarySection <= 0 && !empty($sections))
+		{
+			$primarySection = (int)min($sections);
+			$primarySection = Data\Iblock\PrimarySection::forLinkedSections($sections, $primarySection, $this->iblockId);
+		}
+
+		if ($primarySection > 0)
+		{
+			$sections = array_unique(array_merge([ $primarySection ], $sections));
+		}
 
 		if (empty($sections))
 		{
@@ -251,7 +261,10 @@ class Section implements Behavior
 
 	protected function primarySections(array $elements) : array
 	{
-		return array_column($elements, 'IBLOCK_SECTION_ID', 'ID');
+		$result = array_column($elements, 'IBLOCK_SECTION_ID', 'ID');
+		$iblockId = $this->elementsIblockId($elements);
+
+		return Data\Iblock\PrimarySection::forElements($result, $iblockId);
 	}
 
 	protected function additionalSections(array $elementIds) : array

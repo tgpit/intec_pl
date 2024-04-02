@@ -153,7 +153,6 @@ if ($bBase && $arVisual['PRICE']['RECALCULATION'])
 						$razmeru_section_id = $arrResult['UF_RAZMERU'];
 					}
 					//--------=================----------------------------------------
-
 					/*выборка из раздела элемента с нужным брендом*/
 					if(!empty($razmeru_section_id)) {
 						$res = CIBlock::GetList(
@@ -172,7 +171,7 @@ if ($bBase && $arVisual['PRICE']['RECALCULATION'])
 					//--------=================----------------------------------------
 						$brr = $arResult["PROPERTIES"]["BRAND"]["VALUE"];
 						$dTable = "";
-						if ($brr != ""){
+						if ($brr != "") {
 							$arSelect = Array("ID", "IBLOCK_ID", "NAME", "DETAIL_PICTURE");
 							$arFilter = Array("IBLOCK_ID"=>$razmeru_iblock_id, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y","SECTION_ID"=>$razmeru_section_id,"=PROPERTY_BRAND_TR" => $arResult["PROPERTIES"]["BRAND"]["VALUE"]);
 							$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>1), $arSelect);

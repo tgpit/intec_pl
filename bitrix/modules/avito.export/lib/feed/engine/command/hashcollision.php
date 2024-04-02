@@ -3,6 +3,7 @@ namespace Avito\Export\Feed\Engine\Command;
 
 use Avito\Export\Concerns;
 use Avito\Export\Feed;
+use Avito\Export\Feed\Engine\Steps\Offer;
 use Avito\Export\Logger;
 use Avito\Export\Glossary;
 use Avito\Export\Psr;
@@ -36,10 +37,10 @@ class HashCollision
 
 		foreach ($fieldsStorage as $key => &$fields)
 		{
-			if ($fields['STATUS'] && $hashMap[$fields['HASH']] !== $key)
+			if ((int)$fields['STATUS'] === Offer\Table::STATUS_OK && $hashMap[$fields['HASH']] !== $key)
 			{
 				$this->log($fields['STORAGE_PRIMARY']);
-				$fields['STATUS'] = false;
+				$fields['STATUS'] = Offer\Table::STATUS_FAIL;
 			}
 		}
 		unset($fields);
@@ -58,7 +59,7 @@ class HashCollision
 		$query = $dataClass::getList([
 			'filter' => $filterExist + [
 				'=HASH' => array_keys($hashMap),
-				'=STATUS' => true,
+				'=STATUS' => Offer\Table::STATUS_OK,
 			],
 			'select' => array_merge($this->storagePrimaryFields(), [
 				'HASH',
@@ -76,7 +77,7 @@ class HashCollision
 			if (!$this->compareStoragePrimary($fields['STORAGE_PRIMARY'], $existRow))
 			{
 				$this->log($fields['STORAGE_PRIMARY']);
-				$fields['STATUS'] = false;
+				$fields['STATUS'] = Offer\Table::STATUS_FAIL;
 			}
 		}
 		unset($fields);
@@ -119,7 +120,7 @@ class HashCollision
 	protected function onlyValid(array $fieldsStorage) : array
 	{
 		return array_filter($fieldsStorage, static function(array $row) {
-			return $row['STATUS'];
+			return (int)$row['STATUS'] === Offer\Table::STATUS_OK;
 		});
 	}
 }

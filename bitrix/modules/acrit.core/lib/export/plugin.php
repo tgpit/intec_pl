@@ -63,6 +63,9 @@ abstract class Plugin {
 	protected $bPreviewMode = false;
 	protected $bRedefinitionPicturesVisible = false;
 	
+	protected $bAllowSendToEmail = false;
+	protected $strSendToEmailFileZipKey = null; // This is used just for non-universal plugins
+	
 	
 	/**
 	 * Base constructor.
@@ -1036,6 +1039,13 @@ abstract class Plugin {
 	 */
 	public function getRedefinitionPicturesVisible(){
 		return $this->bRedefinitionPicturesVisible;
+	}
+
+	/**
+	 *	Get allow snd to email
+	 */
+	public function getAllowSendToEmail(){
+		return $this->bAllowSendToEmail;
 	}
 	
 	/**
@@ -2487,10 +2497,133 @@ abstract class Plugin {
 	}
 
 	/**
-	 * Executes when all donw
+	 * Executes when all done
 	 */
 	public function finish($intProfileId, $arSession, $arData){
-		//
+		$this->cronSendEmails($intProfileId, $arSession, $arData);
+	}
+
+	public function getCronSendEmailTo(){
+		$arResult = [];
+		$arEmails = $this->arParams['CRON_EMAIL'] ?? [];
+		if(is_array($arEmails)){
+			foreach($arEmails as $key => $arValues){
+				foreach($arValues as $index => $value){
+					if($index > 0){
+						$arResult[$index][$key] = $value;
+					}
+				}
+			}
+		}
+		return $arResult;
+	}
+
+	protected function cronSendEmails($intProfileId, $arSession, $arData){
+		if(count($arEmails = $this->getCronSendEmailTo()) == 0){
+			return;
+		}
+		if(!Helper::strlen($strFilename = $this->getExportFileName())){
+			return;
+		}
+		$bUniversal = is_subclass_of(get_called_class(), '\Acrit\Core\Export\UniversalPlugin');
+		if($bUniversal && Helper::strlen($this->arParams['ARCHIVE'])){
+			$strFilename = $this->getExportFileNameArchive($this->arParams['ARCHIVE']);
+		}
+		elseif(!$bUniversal && $this->arParams['COMPRESS_TO_ZIP'] == 'Y') {
+			$strFilename = $arData['SESSION']['EXPORT'][$this->strSendToEmailFileZipKey];
+		}
+		if(is_null($strFilename) || !is_file($strFile = Helper::root().$strFilename) || !filesize($strFile)){
+			$this->addToLog(static::getMessage('LOG_CRON_EMAIL_FILE_EMPTY'));
+			return;
+		}
+		if(!($arFile = \CFile::makeFileArray($strFile))){
+			$this->addToLog(static::getMessage('LOG_CRON_EMAIL_FILE_GET'));
+			return;
+		}
+		$arFile = array_merge($arFile, ['MODULE_ID' => $this->strModuleId]);
+		if(!($intFileId = \CFile::saveFile($arFile, 'acrit_export_email'))){
+			$this->addToLog(static::getMessage('LOG_CRON_EMAIL_FILE_SAVE'));
+			return;
+		}
+		if(!($arSite = \CSite::getList($by = 'SORT', $order =' ASC', ['ID' => $this->arProfile['SITE_ID']])->fetch())){
+			$this->addToLog(static::getMessage('LOG_CRON_EMAIL_SITE'));
+			return;
+		}
+		$strDefaultEmail = Helper::strlen($arSite['EMAIL']) ? $arSite['EMAIL']
+			: \Bitrix\Main\Config\Option::get('main', 'email_from');
+		foreach($arEmails as $arEmail){
+			if(!Helper::strlen($arEmail['TO']) || !check_email($arEmail['TO'])){
+				$this->addToLog(static::getMessage('LOG_CRON_EMAIL_WRONG', ['#EMAIL#' => $arEmail['TO']]));
+				continue;
+			}
+			$arEmail['FROM'] = trim($arEmail['FROM']);
+			if(!Helper::strlen($arEmail['FROM'])){
+				$arEmail['FROM'] = $strDefaultEmail;
+			}
+			$arEvent = [
+				'EVENT_NAME' => 'ACRIT_EXPORT_FILE',
+				'C_FIELDS' =>[
+					'FROM' => $arEmail['FROM'],
+					'TO' => $arEmail['TO'],
+					'SUBJECT' => $arEmail['SUBJECT'],
+					#
+					'PROFILE_ID' => $this->arProfile['ID'],
+					'PROFILE_NAME' => $this->arProfile['NAME'],
+					'PROFILE_URL' => $this->getProfileUrl(true),
+					#
+					'MODULE_ID' => $this->strModuleId,
+					'MODULE_NAME' => Helper::getModuleName($this->strModuleId),
+					#
+					'FILE_SIZE' => Helper::formatSize(filesize($strFile)),
+				],
+				'LID' => $this->arProfile['SITE_ID'],
+				'DUPLICATE' => 'N',
+				'FILE' => [$intFileId],
+			];
+			foreach($this->getExportStat($arData['SESSION']) as $key => $value){
+				$arEvent['C_FIELDS'][$key] = $value;
+			}
+			$strSendResult = \Bitrix\Main\Mail\Event::sendImmediate($arEvent);
+			if($strSendResult == 'Y'){
+				$this->addToLog(static::getMessage('LOG_CRON_EMAIL_SENT', ['#EMAIL#' => $arEmail['TO']]), true);
+			}
+			else{
+				$this->addToLog(static::getMessage('LOG_CRON_EMAIL_NOT_SENT', ['#EMAIL#' => $arEmail['TO']]));
+			}
+		}
+		\CFile::delete($intFileId);
+	}
+	
+	/**
+	 * Get URL for current profile
+	 */
+	protected function getProfileUrl($bFull=false){
+		$strModule = str_replace('.', '_', $this->strModuleId);
+		$arGet = [
+			'ID' => $this->arProfile['ID'],
+			'lang' => LANGUAGE_ID,
+		];
+		if($this->arProfile['GROUP_ID'] > 0){
+			$arGet['group_id'] = $this->arProfile['GROUP_ID'] ;
+		}
+		$strUrl = sprintf('/bitrix/admin/%s_new_edit.php?', $strModule).http_build_query($arGet);
+		if($bFull){
+			$strUrl = Helper::siteUrl($this->arProfile['DOMAIN'], $this->arProfile['IS_HTTPS']=='Y', $strUrl);
+		}
+		return $strUrl;
+	}
+
+	protected function getExportStat($arSession){
+		$arCounter = &$arSession['COUNTER'];
+		return [
+			'DATE_END' => (new \Bitrix\Main\Type\DateTime())->toString(),
+			'ELEMENTS_COUNT' => $arCounter['ELEMENTS_N'] + $arCounter['ELEMENTS_Y'] + $arCounter['OFFERS_Y'] + $arCounter['OFFERS_N'],
+			'ELEMENTS_N' => $arCounter['ELEMENTS_N'],
+			'ELEMENTS_Y' => $arCounter['ELEMENTS_Y'],
+			'OFFERS_Y' => $arCounter['OFFERS_Y'],
+			'OFFERS_N' => $arCounter['OFFERS_N'],
+			'TIME_TOTAL' => Helper::formatElapsedTime($arSession['TIME_FINISHED'] - $arSession['TIME_START']),
+		];
 	}
 
 }

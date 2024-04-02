@@ -11,6 +11,11 @@ ErrorDocument 404 /404.php
 </IfModule>
 
 <IfModule mod_rewrite.c>
+
+   RewriteRule ^sitemap_seo.xml$ sitemap_seo.php
+   RewriteRule ^sitemap.xml$ sitemap.php
+   RewriteRule ^robots.txt$ robots.php
+
 	Options +FollowSymLinks
 	RewriteEngine On
 	RewriteCond %{REQUEST_FILENAME} !-f
@@ -19,6 +24,9 @@ ErrorDocument 404 /404.php
 	RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
 	RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
 	RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+
+  RewriteRule ^sitemap.xml$ sitemap.php [L,QSA]
+  RewriteRule ^robots.txt$ robots.php [L,QSA]
 </IfModule>
 
 <IfModule mod_dir.c>

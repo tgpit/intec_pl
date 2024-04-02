@@ -16,6 +16,7 @@ $MESS['ACRIT_EXP_ELEMENT_FIELD__GROUP__PROPERTIES'] = 'Свойства това
 $MESS['ACRIT_EXP_ELEMENT_FIELD__GROUP__IBLOCK'] = 'Данные родительского инфоблока';
 $MESS['ACRIT_EXP_ELEMENT_FIELD__GROUP__SECTION'] = 'Данные родительского раздела';
 $MESS['ACRIT_EXP_ELEMENT_FIELD__GROUP__CATALOG'] = 'Поля торгового каталога';
+$MESS['ACRIT_EXP_ELEMENT_FIELD__GROUP__MIN_PRICE'] = 'Минимальная цена';
 $MESS['ACRIT_EXP_ELEMENT_FIELD__GROUP__PRICES'] = 'Цены торгового каталога';
 
 // Fields
@@ -109,6 +110,9 @@ $MESS['ACRIT_EXP_ELEMENT_FIELD__CATALOG_MEASURE_RATIO'] = 'Коэффициен�
 $MESS['ACRIT_EXP_ELEMENT_FIELD__CATALOG_BARCODE'] = 'Штрихкод';
 $MESS['ACRIT_EXP_ELEMENT_FIELD__CATALOG_OFFERS'] = 'Наличие торговых предложений';
 $MESS['ACRIT_EXP_ELEMENT_FIELD__CATALOG_STORE_AMOUNT'] = 'Количество товара на складе "#NAME#": #ADDRESS#';
+
+// Min prices
+$MESS['ACRIT_EXP_ELEMENT_FIELD__CATALOG_MIN_PRICE'] = '[Минимальная цена]';
 
 // Prices
 $MESS['ACRIT_EXP_ELEMENT_FIELD__CATALOG_PRICE_NO_DISCOUNT'] = ' (цена без скидки)';

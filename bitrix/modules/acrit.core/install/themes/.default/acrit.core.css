@@ -1307,6 +1307,9 @@ table.acrit-exp-table-category-redefinition-select-value tr:last-child td select
 select[data-role="categories-redefinition-source-uf"] option[value=""]{
 	color:gray;
 }
+#AcritExpPopupCategoriesRedefinition_btnMassEdit {
+	float:right;
+}
 
 /* [Profile] Log */
 .acrit-exp-profile-log {
@@ -2018,3 +2021,60 @@ table.acrit_core_export_results td.acrit_core_export_results_hint {
 #AcritExpProfile_form div[data-role="download-fields"] a:hover span {
 	border-bottom:none;
 }
+
+/* Export profile: Cron: send to email */
+.acrit-exp-cron-send-to-email table {
+	border-collapse:collapse;
+	table-layout:fixed;
+	min-width:1024px;
+}
+.acrit-exp-cron-send-to-email table td {
+	padding-left:12px!important;
+	padding-right:12px!important;
+}
+.acrit-exp-cron-send-to-email table td:nth-child(1) {
+	width:26%;
+}
+.acrit-exp-cron-send-to-email table td:nth-child(2) {
+	width:26%;
+}
+.acrit-exp-cron-send-to-email table td:nth-child(4) {
+	width:30px;
+}
+.acrit-exp-cron-send-to-email table tfoot td {
+	padding-left:0!important;
+	padding-top:5px!important;
+}
+.acrit-exp-cron-send-to-email table td input[type="text"]{
+	width:100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.adm-workarea .acrit-exp-cron-send-to-email input[type=button][data-role="cron-send-to-email-delete"]{
+	background:url('/bitrix/panel/main/images/popup_menu_sprite_2.png') no-repeat -4px -782px!important;
+	font-size:0;
+	height:25px!important;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.adm-workarea .acrit-exp-cron-send-to-email input[type=button][data-role="cron-send-to-email-delete"]:hover{
+	background-color:#f3f6f8!important;
+}
+.acrit-exp-cron-send-to-email table tr[data-role="cron-send-to-email-empty"] {
+	display:none;
+}
+.acrit-exp-cron-send-to-email table tr:first-child + tr[data-role="cron-send-to-email-empty"] {
+	display:table-row;
+}
+.acrit-exp-cron-send-to-email table tr[data-role="cron-send-to-email-empty"] > td {
+	background:#fff;
+	color:#333;
+	font-style:italic;
+	padding:10px;
+	text-align:left;
+}
+
+

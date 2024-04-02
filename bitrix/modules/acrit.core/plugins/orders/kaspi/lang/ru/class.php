@@ -14,8 +14,12 @@ $MESS['ACRIT_ORDERS_PLUGIN_KASPI_STATUSES_CANCELLING'] = 'Ожидает отм�
 $MESS['ACRIT_ORDERS_PLUGIN_KASPI_STATUSES_KASPI_DELIVERY_RETURN_REQUESTED'] = 'Ожидает возврата';
 $MESS['ACRIT_ORDERS_PLUGIN_KASPI_STATUSES_RETURN_ACCEPTED_BY_MERCHANT'] = 'Ожидает решения по возврату';
 $MESS['ACRIT_ORDERS_PLUGIN_KASPI_STATUSES_RETURNED'] = 'Возвращён';
-
-
+$MESS['ACRIT_ORDERS_PLUGIN_KASPI_STATE_NEW'] = 'новый заказ';
+$MESS['ACRIT_ORDERS_PLUGIN_KASPI_STATE_SIGN_REQUIRED'] = 'заказ на подписании';
+$MESS['ACRIT_ORDERS_PLUGIN_KASPI_STATE_PICKUP'] = 'самовывоз';
+$MESS['ACRIT_ORDERS_PLUGIN_KASPI_STATE_DELIVERY'] = 'доставка';
+$MESS['ACRIT_ORDERS_PLUGIN_KASPI_STATE_KASPI_DELIVERY'] = 'Kaspi Доставка, Kaspi Postomat';
+$MESS['ACRIT_ORDERS_PLUGIN_KASPI_STATE_ARCHIVE'] = 'архивный заказ';
 
 $MESS['ACRIT_ORDERS_PLUGIN_KASPI_FIELDS_BUYER_NAME'] = 'Ф.И.О. покупателя';
 $MESS['ACRIT_ORDERS_PLUGIN_KASPI_FIELDS_BUYER_FIRST_NAME'] = 'Имя покупателя';
@@ -26,6 +30,7 @@ $MESS['ACRIT_ORDERS_PLUGIN_KASPI_FIELDS_ORDER_ID'] = 'Идентификатор
 $MESS['ACRIT_ORDERS_PLUGIN_KASPI_FIELDS_CREATED_AT'] = 'Дата создания заказа';
 $MESS['ACRIT_ORDERS_PLUGIN_KASPI_FIELDS_PAID_AT'] = 'Дата оплаты заказа';
 $MESS['ACRIT_ORDERS_PLUGIN_KASPI_FIELDS_STATUS'] = 'Статус заказа';
+$MESS['ACRIT_ORDERS_PLUGIN_KASPI_FIELDS_STATE'] = 'Состояние заказа';
 $MESS['ACRIT_ORDERS_PLUGIN_KASPI_FIELDS_PAYMENT_STATUS'] = 'Статус оплаты заказа';
 $MESS['ACRIT_ORDERS_PLUGIN_KASPI_FIELDS_DELIVERY_STATUS'] = 'Сатус доставки заказа';
 $MESS['ACRIT_ORDERS_PLUGIN_KASPI_FIELDS_DELIVERY_ADDRESS'] = 'Адрес доставки заказа';

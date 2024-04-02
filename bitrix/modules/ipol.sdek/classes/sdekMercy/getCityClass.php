@@ -59,6 +59,18 @@ class sdekCityGetter{
 			return false;
 		}
 
+        // KLADR
+        if (IsModuleInstalled('ipol.kladr') && \sdekHelper::isConverted()) {
+            $locationCode = CSaleLocation::getLocationCODEbyID($this->arBXCity['BITRIX_ID']);
+            $kladrResult = self::addCityByKladr($locationCode, $this->arBXCity['BITRIX_ID']);
+            if ($kladrResult) {
+                $this->arSCity = $kladrResult;
+                $this->added = true;
+                return true;
+            }
+        }
+        // KLADR
+
 		if($this->ready){
 			$country = self::guessCountry($this->arBXCity['COUNTRY']);
 			
@@ -664,4 +676,54 @@ class sdekCityGetter{
 		
 		return $arReturn;
 	}
+
+    /**
+     * Synchronizes the city using the Kladr module
+     * @param $bxLocationCode
+     * @return false | array
+     */
+    public static function addCityByKladr($bxLocationCode, $bxLocationId = null)
+    {
+        $currentUrl = CMain::IsHTTPS() ? 'https' : 'http' . '://' . $_SERVER['HTTP_HOST'];
+        $filePath = '/bitrix/js/ipol.kladr/getLoc.php';
+        $query = "$filePath?code=$bxLocationCode";
+
+        if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $filePath)) {
+            return false;
+        }
+
+        $kladrRequestResult = file_get_contents($currentUrl . $query);
+        if (!$kladrRequestResult) {
+            return false;
+        }
+
+        $kladrLocationData = json_decode(\Ipolh\SDEK\Bitrix\Tools::encodeFromUTF8($kladrRequestResult), true);
+        if (is_null($kladrLocationData)) {
+            return false;
+        }
+
+        $accountId = \Ipolh\SDEK\option::get('logged');
+        $account = \sqlSdekLogs::getById($accountId);
+        $application = \Ipolh\SDEK\abstractGeneral::makeApplication($account['ACCOUNT'], $account['SECURE']);
+        $result = $application->locationCities('RU', null, null, null, null, null, null, null, null, $kladrLocationData['guid']);
+
+        if ($result->getResponse()->getSuccess() && $result->getResponse()->getCitiesList()->getQuantity()) {
+            $locationData = $result->getResponse()->getCitiesList()->getFirst();
+            $locationId = $bxLocationId ?: CSaleLocation::getLocationIDbyCODE($bxLocationCode);
+            $countryCode = self::guessCountry($locationData->getCountry());
+            $paymentLimit = $locationData->getPaymentLimit() ? 'no limit' : 0;
+            $location = array(
+                'BITRIX_ID' => $locationId,
+                'SDEK_ID'   => $locationData->getCode(),
+                'NAME'      => $locationData->getCity(),
+                'REGION'    => $locationData->getRegion(),
+                'PAYNAL'    => $paymentLimit,
+                'COUNTRY'	=> $countryCode
+            );
+            sqlSdekCity::Add($location);
+            return $location;
+        }
+
+        return false;
+    }
 }

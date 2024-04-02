@@ -10,6 +10,7 @@ use Avito\Export\Assert;
 use Avito\Export\Glossary;
 use Avito\Export\DB;
 use Avito\Export\Config;
+use Avito\Export\Utils;
 
 class Offer extends Step
 {
@@ -128,7 +129,7 @@ class Offer extends Step
 						$this->logger->delayFlush();
 						$this->logger->used(Glossary::ENTITY_OFFER, array_keys($elements));
 
-						$sourceValues = $queryBuilder->fetch($tagSources, $elements, $parents, $context);
+						[$sourceValues, $elements] = $this->fetchValues($queryBuilder, $tagMap, $tagSources, $elements, $parents, $context);
 						[$sourceValues, $elements] = $this->cloneValues($tagMap, $sourceValues, $elements);
 						$tagValues = $this->collectValues($tagMap, $sourceValues);
 						$tagValues = $this->extendValues($tagValues, $elements, $context);
@@ -551,7 +552,7 @@ class Offer extends Step
 				{
 					$newValue[] = $one;
 				}
-				else
+				else if (!isset($newValue[$key]) || !Utils\Value::isEmpty($one))
 				{
 					$newValue[$key] = $one;
 				}
@@ -559,7 +560,7 @@ class Offer extends Step
 
 			$result->setRaw($tagName, $newValue);
 		}
-		else
+		else if ($result->getRaw($tagName) === null || !Utils\Value::isEmpty($value))
 		{
 			$result->setRaw($tagName, $value);
 		}
@@ -589,6 +590,20 @@ class Offer extends Step
 		foreach ($groupValues as $elementId => $tagValues)
 		{
 			$element = $elements[$elementId];
+
+			if (!$tagValues->isSuccess())
+			{
+				$message = implode(', ', $tagValues->getErrorMessages()) ?: self::getLocale('TAG_VALUE_ERROR_UNKNOWN');
+
+				$this->logger->error($message, [
+					'ENTITY_TYPE' => Glossary::ENTITY_OFFER,
+					'ENTITY_ID' => $element['ID'],
+					'REGION_ID' => $element['REGION_ID'] ?? 0,
+				]);
+
+				continue;
+			}
+
 			$arrayValues = $tagValues->asArray();
 			$isValid = true;
 
@@ -602,25 +617,33 @@ class Offer extends Step
 					$error = $tag->checkRequired($value, $arrayValues, $this->format);
 
 					if ($error === null) { continue; }
+
+					$isValid = false;
 				}
 				else
 				{
 					$error = $tag->checkValue($value, $arrayValues, $this->format);
+
+					if ($error === null) { continue; }
+
+					$isValid = !$tag->required();
 				}
 
-				if ($error !== null)
+				$message = self::getLocale('CHECK_ERROR', ['#TAG#' => $code, '#MESSAGE#' => $error->getMessage()]);
+				$context = [
+					'ENTITY_TYPE' => Glossary::ENTITY_OFFER,
+					'ENTITY_ID' => $element['ID'],
+					'REGION_ID' => $element['REGION_ID'] ?? 0,
+				];
+
+				if ($isValid)
 				{
-					$isValid = false;
-
-					$this->logger->error(self::getLocale('CHECK_ERROR', [
-						'#TAG#' => $tag->name(),
-						'#MESSAGE#' => $error->getMessage(),
-					]), [
-						'ENTITY_TYPE' => Glossary::ENTITY_OFFER,
-						'ENTITY_ID' => $element['ID'],
-						'REGION_ID' => $element['REGION_ID'] ?? 0,
-					]);
-
+					$this->logger->warning($message, $context);
+					$tagValues->remove($code);
+				}
+				else
+				{
+					$this->logger->error($message, $context);
 					break;
 				}
 			}
@@ -673,6 +696,7 @@ class Offer extends Step
 		return [
 			'PARENT_ID' => $element['PARENT_ID'] ?? '',
 			'IBLOCK_ID' => $context->iblockId(),
+			'MERGED_ID' => $element['MERGED_ID'] ?? '',
 		];
 	}
 
@@ -760,6 +784,7 @@ class Offer extends Step
 		$filter = [
 			'=FEED_ID' => $this->controller->getFeed()->getId(),
 			'=ELEMENT_ID' => array_keys($elements),
+			'!=STATUS' => Offer\Table::STATUS_WAIT,
 		];
 
 		if (!$full)
@@ -776,5 +801,129 @@ class Offer extends Step
 		$found = array_column($iterator->fetchAll(), 'ELEMENT_ID', 'ELEMENT_ID');
 
 		return array_diff_key($elements, $found);
+	}
+
+	protected function fetchValues(Feed\Source\Routine\QueryBuilder $queryBuilder, Feed\Setup\TagMap $tagMap, Feed\Source\Data\SourceSelect $tagSources, array $elements, array $parents, Feed\Source\Context $context) : array
+	{
+		[$commonSelect, $delayedSelect] = $this->splitTagSources($tagSources, $tagMap);
+		$sourceValues = $queryBuilder->fetch($commonSelect, $elements, $parents, $context);
+		[$sourceValues, $elements] = $this->mergeValues($tagMap, $sourceValues, $elements);
+
+		if (!$delayedSelect->isEmpty())
+		{
+			$delayedElements = array_intersect_key($elements, $sourceValues);
+			$sourceValues = $queryBuilder->fetch($delayedSelect, $delayedElements, $parents, $context, $sourceValues);
+		}
+
+		return [$sourceValues, $elements];
+	}
+
+	protected function splitTagSources(Feed\Source\Data\SourceSelect $sourceSelect, Feed\Setup\TagMap $tagMap) : array
+	{
+		$commonSelect = new Feed\Source\Data\SourceSelect();
+		$delayedSelect = new Feed\Source\Data\SourceSelect();
+		$idSource = $tagMap->one('Id');
+
+		foreach ($sourceSelect->sources() as $type)
+		{
+			$fetcher = $this->fetcherPool->some($type);
+
+			foreach ($sourceSelect->fields($type) as $field)
+			{
+				if (
+					($idSource['TYPE'] === $type && $idSource['FIELD'] === $field)
+					|| !($fetcher instanceof Feed\Source\FetcherDelayed)
+				)
+				{
+					$commonSelect->add($type, $field);
+				}
+				else
+				{
+					$delayedSelect->add($type, $field);
+				}
+			}
+		}
+
+		return [$commonSelect, $delayedSelect];
+	}
+
+	protected function mergeValues(Feed\Setup\TagMap $tagMap, array $sourceValues, array $elements) : array
+	{
+		$idSource = $tagMap->one('Id');
+		$mergeValues = [];
+		$mergeTarget = [];
+		$result = [];
+
+		foreach ($sourceValues as $elementId => $elementValues)
+		{
+			$tagId = $elementValues[$idSource['TYPE']][$idSource['FIELD']] ?? null;
+
+			if (empty($tagId) || empty($elements[$elementId]['PARENT_ID']))
+			{
+				$result[$elementId] = $elementValues;
+				continue;
+			}
+
+			$targetElementId = $mergeTarget[$tagId] ?? null;
+
+			if ($targetElementId === null)
+			{
+				$result[$elementId] = $elementValues;
+				$mergeTarget[$tagId] = $elementId;
+			}
+			else if ($elements[$targetElementId]['PARENT_ID'] === $elements[$elementId]['PARENT_ID'])
+			{
+				$elements[$elementId]['MERGED_ID'] = $targetElementId;
+
+				foreach ($elementValues as $type => $typeValues)
+				{
+					foreach ($typeValues as $key => $fieldValue)
+					{
+						if (Utils\Value::isEmpty($fieldValue)) { continue; }
+
+						$mergeValues[$tagId][$type][$key][] = $fieldValue;
+					}
+				}
+			}
+			else
+			{
+				$result[$elementId] = $elementValues;
+			}
+		}
+
+		foreach ($mergeValues as $tagId => $mergeTagValues)
+		{
+			$elementId = $mergeTarget[$tagId];
+
+			foreach ($mergeTagValues as $type => $typeValues)
+			{
+				foreach ($typeValues as $key => $valuesGroup)
+				{
+					if (isset($result[$elementId][$type][$key]) && !Utils\Value::isEmpty($result[$elementId][$type][$key]))
+					{
+						array_unshift($valuesGroup, $result[$elementId][$type][$key]);
+					}
+
+					$isArray = array_reduce($valuesGroup, static function (bool $isArray, $value) {
+						return $isArray && is_array($value);
+					}, true);
+
+					if ($isArray)
+					{
+						$result[$elementId][$type][$key] = array_merge(...$valuesGroup);
+					}
+					else
+					{
+						$uniqueValues = array_unique($valuesGroup);
+						if (count($uniqueValues) > 1)
+						{
+							$result[$elementId][$type][$key] = $valuesGroup;
+						}
+					}
+				}
+			}
+		}
+
+		return [ $result, $elements ];
 	}
 }

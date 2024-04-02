@@ -8,6 +8,7 @@
 		<Voltage name="12"></Voltage>
 		<Voltage name="18"></Voltage>
 		<Voltage name="24"></Voltage>
+		<Voltage name="48"></Voltage>
 		<Polarity name="Обратная"></Polarity>
 		<Polarity name="Прямая"></Polarity>
 		<Polarity name="Двойная"></Polarity>
@@ -15,6 +16,7 @@
 	<SparePartType name="Двигатель">
 		<EngineSparePartType name="Блок цилиндров, головка, картер"></EngineSparePartType>
 		<EngineSparePartType name="Вакуумная система"></EngineSparePartType>
+		<EngineSparePartType name="Впускная система"></EngineSparePartType>
 		<EngineSparePartType name="Генераторы, стартеры"></EngineSparePartType>
 		<EngineSparePartType name="Двигатель в сборе"></EngineSparePartType>
 		<EngineSparePartType name="Катушка зажигания, свечи, электрика"></EngineSparePartType>
@@ -31,7 +33,6 @@
 		<EngineSparePartType name="Турбины, компрессоры"></EngineSparePartType>
 		<EngineSparePartType name="Электродвигатели и компоненты"></EngineSparePartType>
 	</SparePartType>
-	<SparePartType name="Запчасти для ТО"></SparePartType>
 	<SparePartType name="Кузов"></SparePartType>
 	<SparePartType name="Подвеска"></SparePartType>
 	<SparePartType name="Рулевое управление"></SparePartType>
@@ -48,4 +49,6 @@
 		<OriginalOEM variable="group_symbol"></OriginalOEM>
 	</Originality>
 	<Originality name="Не знаю"></Originality>
+	<Availability name="В наличии"></Availability>
+	<Availability name="Под заказ"></Availability>
 </ProductType>

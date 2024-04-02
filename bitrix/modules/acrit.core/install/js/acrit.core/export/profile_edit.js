@@ -1542,6 +1542,15 @@ $(document).ready(function(){
 				'action': function(){
 					this.parentWindow.Close();
 				}
+			}, {
+				'name': BX.message('ACRIT_EXP_POPUP_CATEGORY_REDEFINITION_MASS_EDIT'),
+				'id': this.PARAMS.ID + '_btnMassEdit',
+				'action': function(){
+					let value = prompt(BX.message('ACRIT_EXP_POPUP_CATEGORY_REDEFINITION_MASS_EDIT_TITLE'));
+					if(value != null){
+						$('input[data-role="categories-redefinition-text"]').val(value);
+					}
+				}
 			}]
 		)
 	}
@@ -2395,3 +2404,20 @@ $(document).ready(function(){
 		}
 	}
 });
+
+// Cron: send to email
+$(document).delegate('input[type=button][data-role="cron-send-to-email-add"]', 'click', function(e){
+	let
+		table = $('table[data-role="acrit-exp-cron-send-to-email-table"]'),
+		tbody = $('tbody', table),
+		newRow = $('tr:first-child', tbody).clone(),
+		lastRow = $('tr[data-role="cron-send-to-email-empty"]', tbody);
+	newRow.show().find('input[type=text]').val('');
+	newRow.insertBefore(lastRow);
+});
+$(document).delegate('input[type=button][data-role="cron-send-to-email-delete"]', 'click', function(e){
+	$(this).attr('disabled', 'disabled').closest('tr').fadeOut(150, function(){
+		$(this).remove();
+	},);
+});
+

@@ -5,6 +5,11 @@ class SourceSelect
 {
 	protected $map = [];
 
+	public function isEmpty() : bool
+	{
+		return empty($this->map);
+	}
+
 	public function sources() : array
 	{
 		return array_keys($this->map);

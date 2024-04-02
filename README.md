@@ -1,1 +1,0 @@
-# intec_pl

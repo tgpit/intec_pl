@@ -37,25 +37,7 @@ class MensWear implements Structure\Category, Structure\CategoryLevel
 	    return new Dictionary\Compound([
 		    new Dictionary\XmlTree('personalbelongings/clothingshoesaccessories/mens_wear/mens_wear.xml'),
 		    new Dictionary\XmlTree('personalbelongings/clothingshoesaccessories/materials_odezhda.xml'),
-		    new Dictionary\Decorator(
-			    new Dictionary\XmlTree('personalbelongings/clothingshoesaccessories/mens_wear/size.xml'),
-				[
-					'wait' => [
-						'Apparel' => [
-							self::getLocale('PANTS'),
-							self::getLocale('OUTERWEAR'),
-							self::getLocale('JACKETS_AND_SUITS'),
-							self::getLocale('KNITWEAR_TSHIRTS'),
-							self::getLocale('SHIRTS'),
-							self::getLocale('TRACKSUITS'),
-							self::getLocale('SHORTS'),
-							self::getLocale('UNDERWEAR'),
-							self::getLocale('SWEATSHIRTS_AND_TSHIRTS'),
-							self::getLocale('OTHER'),
-						]
-					],
-				]
-		    ),
+		    new Dictionary\XmlTree('personalbelongings/clothingshoesaccessories/mens_wear/size.xml'),
 	    ]);
     }
 

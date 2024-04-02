@@ -65,7 +65,7 @@ abstract class Processor
 			$needRepeat = $this->processException($exception);
 
 			$this->environment->rollback();
-			$this->logException($exception);
+			$this->logException($exception, $needRepeat);
 			$this->releaseState($state);
 		}
 
@@ -188,12 +188,22 @@ abstract class Processor
 		return false;
 	}
 
-	protected function logException(\Throwable $exception) : void
+	protected function logException(\Throwable $exception, bool $warning = false) : void
 	{
 		$logger = new Logger\Logger($this->setupType, $this->setupId);
 		$logger->allowTouch();
-		$logger->critical($exception, [
-			'ENTITY_TYPE' => Export\Glossary::ENTITY_AGENT,
-		]);
+
+		if ($warning)
+		{
+			$logger->warning($exception, [
+				'ENTITY_TYPE' => Export\Glossary::ENTITY_AGENT,
+			]);
+		}
+		else
+		{
+			$logger->critical($exception, [
+				'ENTITY_TYPE' => Export\Glossary::ENTITY_AGENT,
+			]);
+		}
 	}
 }

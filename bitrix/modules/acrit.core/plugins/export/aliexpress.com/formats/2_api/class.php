@@ -6,8 +6,6 @@
 
 namespace Acrit\Core\Export\Plugins;
 
-require_once __DIR__.'/include/sdk/TopSdk.php';
-
 use \Bitrix\Main\Localization\Loc,
 	\Acrit\Core\Export\Exporter,
 	\Acrit\Core\Log,
@@ -38,6 +36,9 @@ class AliexpressComApi extends AliexpressCom {
 	protected $bAdditionalFields = true;
 	protected $bCategoriesExport = true;
 
+	public function includeClasses(){
+		require_once __DIR__.'/include/sdk/TopSdk.php';
+	}
 
 	/**
 	 *	Settings

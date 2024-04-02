@@ -602,15 +602,21 @@ class CDeliverySDEK extends sdekHelper{
 		return $result;
 	}
 
-	// обертка класса расчета доставки
-	static function calculateDost($tarif,$mode = false){
-        $app = \Ipolh\SDEK\abstractGeneral::makeApplication(self::$auth['account'],self::$auth['password']);
-	    $controller = new \Ipolh\SDEK\Bitrix\Controller\Calculator($app);
-        $controller->makeShipments(self::$sdekSender,self::$sdekCity,self::$goods,$tarif,$mode);
+    /**
+     * Shipping calculation class wrapper
+     * @param $tarif
+     * @param $mode
+     * @return array|string[]
+     */
+    static function calculateDost($tarif, $mode = false)
+    {
+        $app = \Ipolh\SDEK\abstractGeneral::makeApplication(self::$auth['account'], self::$auth['password']);
+        $controller = new \Ipolh\SDEK\Bitrix\Controller\Calculator($app);
+        $controller->makeShipments(self::$sdekSender, self::$sdekCity, self::$goods, $tarif, $mode);
         $result = $controller->calculate();
 
         return $result;
-	}
+    }
 
 	static function getActiveCountries(){
 		$svdCountries = self::getCountryOptions();
@@ -1097,7 +1103,10 @@ class CDeliverySDEK extends sdekHelper{
 								$arUserResult['PAY_SYSTEM_ID'] = false;
 							unset($arResult['PAY_SYSTEM'][$id]);
 						}
-					sort($arResult['PAY_SYSTEM']);
+
+                    if (is_array($arResult['PAY_SYSTEM'])) {
+                        sort($arResult['PAY_SYSTEM']);
+                    }
 				}
 			}
 		}

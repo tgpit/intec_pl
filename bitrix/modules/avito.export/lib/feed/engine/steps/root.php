@@ -44,7 +44,10 @@ class Root extends Step
 
 	public function start($action, $offset = null): void
 	{
-		if ($action === Watcher\Engine\Controller::ACTION_FULL)
+		if (
+			$action === Watcher\Engine\Controller::ACTION_FULL
+			|| $action === Feed\Engine\Controller::ACTION_RESTART
+		)
 		{
 			$contents = $this->getContents();
 			$this->getWriter()->write($contents);

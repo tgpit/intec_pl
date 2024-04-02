@@ -1,3 +1,0 @@
-<?php
-
-$MESS['C_MAIN_RATES_TEMPLATE_4_TEMPLATE_PRICE_LIST_BUTTON_DEFAULT'] = 'Скачать прайс-лист';

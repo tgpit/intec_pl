@@ -57,7 +57,6 @@ include(__DIR__.'/parts/image.php');
         <?php if ($arVisual['QUANTITY']['SHOW'] || $arItem['ARTICLE']['SHOW']) { ?>
             <div class="catalog-item-block-container">
                 <div class="catalog-item-quantity-wrap">
-
                     <?php if ($arVisual['QUANTITY']['SHOW']) {
                         include(__DIR__ . '/parts/quantity.php');
                     } ?>
@@ -69,7 +68,6 @@ include(__DIR__.'/parts/image.php');
                 </div>
             </div>
         <?php } ?>
-
         <div class="catalog-item-block-container catalog-item-price-container">
             <?php include(__DIR__.'/parts/price.php') ?>
         </div>

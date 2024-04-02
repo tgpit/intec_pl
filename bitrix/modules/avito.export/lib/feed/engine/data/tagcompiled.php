@@ -3,8 +3,9 @@
 namespace Avito\Export\Feed\Engine\Data;
 
 use Avito\Export\Utils\EscapeValue;
+use Bitrix\Main;
 
-class TagCompiled
+class TagCompiled extends Main\Result
 {
 	private $name;
 	private $value;
@@ -20,6 +21,7 @@ class TagCompiled
 
 	public function __construct(string $name, string $value = null, array $attributes = [], bool $isRoot = false)
 	{
+		parent::__construct();
 		$this->name = $name;
 		$this->value = $value;
 		$this->attributes = $attributes;

@@ -7,6 +7,7 @@ use Avito\Export\DB;
 use Avito\Export\Feed;
 use Avito\Export\Push;
 use Avito\Export\Watcher;
+use Avito\Export\Glossary;
 
 class Collector extends Step
 {
@@ -55,9 +56,12 @@ class Collector extends Step
 
 				$queryBuilder->bootSources($tagSources, $context);
 
-				[$elements, $parents] = $this->emulateElements($iblockOffers, $context);
+				$mergedOffers = $this->mergedOffers($iblockOffers);
 
+				[$elements, $parents] = $this->emulateElements(array_merge($iblockOffers, $mergedOffers), $context);
 				$sourceValues = $queryBuilder->fetch($tagSources, $elements, $parents, $context);
+				$sourceValues = $this->mergeValues($fieldMap, $sourceValues, $mergedOffers);
+
 				$targetValues = $this->collectValues($fieldMap, $sourceValues);
                 $targetValues = $this->extendValues($targetValues, $context);
 
@@ -120,7 +124,7 @@ class Collector extends Step
 			$filter = array_merge($filter, $changesFilter);
 		}
 
-		$filter['=STATUS'] = true;
+		$filter['!=STATUS'] = Feed\Engine\Steps\Offer\Table::STATUS_FAIL;
 
 		$query = Feed\Engine\Steps\Offer\Table::getList([
 			'select' => [ 'ELEMENT_ID', 'PARENT_ID', 'REGION_ID', 'PRIMARY', 'IBLOCK_ID' ],
@@ -207,6 +211,24 @@ class Collector extends Step
 		];
 	}
 
+	protected function mergedOffers(array $iblockOffers) : array
+	{
+		$offerIds = array_column($iblockOffers, 'ELEMENT_ID');
+
+		if (empty($offerIds)) { return []; }
+
+		$query = Feed\Engine\Steps\Offer\Table::getList([
+			'select' => [ 'ELEMENT_ID', 'PARENT_ID', 'REGION_ID', 'PRIMARY', 'IBLOCK_ID', 'MERGED_ID' ],
+			'filter' => [
+				'=FEED_ID' => $this->getFeed()->getId(),
+				'=MERGED_ID' => $offerIds,
+			],
+			'order' => [ 'ELEMENT_ID' => 'ASC' ],
+		]);
+
+		return $query->fetchAll();
+	}
+
 	protected function groupByIblock(array $elements) : array
 	{
 		$result = [];
@@ -255,6 +277,36 @@ class Collector extends Step
 		}
 
 		return [$elements, $parents];
+	}
+
+	protected function mergeValues(Push\Setup\FieldMap $fieldMap, array $sourceValues, array $mergedOffers) : array
+	{
+		$mergedMap = array_column($mergedOffers, 'MERGED_ID', 'ELEMENT_ID');
+
+		$result = array_diff_key($sourceValues, $mergedMap);
+
+		foreach ($mergedMap as $mergedId => $targetId)
+		{
+			if (empty($result[$targetId])) { continue; }
+
+			foreach ($fieldMap->all() as $tagLink)
+			{
+				if (!isset($tagLink['TYPE'], $tagLink['FIELD'])) { continue; }
+
+				if ($tagLink['TARGET'] === Glossary::ENTITY_STOCKS)
+				{
+					$targetStocks = $result[$targetId][$tagLink['TYPE']][$tagLink['FIELD']] ?? 0;
+					$mergedStocks = $sourceValues[$mergedId][$tagLink['TYPE']][$tagLink['FIELD']] ?? null;
+
+					if ($mergedStocks !== null)
+					{
+						$result[$targetId][$tagLink['TYPE']][$tagLink['FIELD']] = $targetStocks + $mergedStocks;
+					}
+				}
+			}
+		}
+
+		return $result;
 	}
 
 	protected function collectValues(Push\Setup\FieldMap $fieldMap, array $sourceValues) : array

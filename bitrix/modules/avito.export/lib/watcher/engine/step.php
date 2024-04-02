@@ -7,7 +7,5 @@ interface Step
 
 	public function start(string $action, $offset = null) : void;
 
-	public function afterChange() : void;
-
-	public function afterRefresh() : void;
+	public function after(string $action) : void;
 }

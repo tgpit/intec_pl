@@ -45,6 +45,8 @@ class Price extends Tag
 
 	public function checkValue($value, array $siblings, Format $format) : ?Main\Error
 	{
+		if (is_array($value)) { $value = reset($value); }
+
 		if (!is_numeric($value))
 		{
 			return new Main\Error(self::getLocale('CHECK_ERROR_NUMERIC'));

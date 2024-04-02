@@ -26,6 +26,20 @@ $arr_request = [];
 $order_id = $_POST['order_id'];
 
 switch ($action) {
+    case 'new_supply':
+        $obPlugin = get_plugin($plugin);
+        $new_supply =  $obPlugin->newSupply($_POST['supply_name']);
+        $arr_request = [
+           $new_supply
+        ];
+        break;
+    case 'get_supplies':
+        $obPlugin = get_plugin($plugin);
+        $supplies =  $obPlugin->getSupplies();
+        $arr_request = [
+            'supplies' => $supplies
+        ];
+        break;
     case 'get_props':
         $obPlugin = get_plugin($plugin);
         $props = $obPlugin->feedBack();
@@ -175,4 +189,5 @@ function get_profile($data) {
     return Helper::call($data['ModuleId'], 'OrdersProfiles', 'getProfiles', [$data['ID']]);
 }
 
-echo json_encode($arr_request,JSON_UNESCAPED_UNICODE);
+// echo json_encode($arr_request,JSON_UNESCAPED_UNICODE);
+echo \Bitrix\Main\Web\Json::encode($arr_request);

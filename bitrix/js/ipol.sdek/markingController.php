@@ -80,6 +80,11 @@
                 }
             }
 
+            let mcItems = document.getElementsByClassName('IPOLSDEK_MC_item');
+            for (let mcItem of mcItems) {
+                mcItem.addEventListener('keypress', IPOLSDEK_marks.qrs.keypress);
+            }
+
             IPOLSDEK_marks.qrs.check();
         },
 
@@ -153,6 +158,12 @@
                         $(this).hide();
                     }
                 })
+            },
+
+            keypress : function (e) {
+                if (e.charCode === 29) {
+                    this.value += String.fromCharCode(e.which);
+                }
             }
         },
 

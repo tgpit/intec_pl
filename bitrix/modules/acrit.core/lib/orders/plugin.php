@@ -518,6 +518,13 @@ abstract class Plugin {
         return '';
     }
     /**
+     *	Show plugin orders comment
+     */
+    public function showOrdersComment(){
+        return '';
+    }
+
+    /**
      *	Show plugin feedback
      */
 
@@ -565,7 +572,12 @@ abstract class Plugin {
 	        'priceProd' => Loc::getMessage('ACRIT_ORDER_PRICE_PROD'),
 	        'dataBitrix' => Loc::getMessage('ACRIT_ORDER_DATA_BITRIX'),
 	        'dataMarket' => Loc::getMessage('ACRIT_ORDER_DATA_MARKET'),
-        ];
+	        'choiceSupply' => Loc::getMessage('ACRIT_ORDER_CHOICE_SUPPLY'),
+	        'enterSupply' => Loc::getMessage('ACRIT_ORDER_ENTER_SUPPLY'),
+	        'createSupply' => Loc::getMessage('ACRIT_ORDER_CREATE_SUPPLY'),
+	        'nothingCheck' => Loc::getMessage('ACRIT_ORDER_NOTHING_CHECK'),
+	        'enterOk' => Loc::getMessage('ACRIT_ORDER_OK'),
+            ];
 	    return $list;
     }
 

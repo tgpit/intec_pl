@@ -314,7 +314,7 @@ include(__DIR__.'/parts/sku.php');
                                             </div>
                                         <?php } ?>
                                         <?php if ($arItem['DATA']['PRICE']['SHOW'])
-                                            $vPrice($arItem); 
+                                            $vPrice($arItem);
                                         ?>
                                         <?php if ($arItem['DATA']['TIMER']['SHOW'] && $sTimerPosition === 'bottom') { ?>
                                             <div class="catalog-section-item-timer" data-position="<?= $sTimerPosition ?>">

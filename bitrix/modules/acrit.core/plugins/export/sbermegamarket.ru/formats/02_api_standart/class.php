@@ -313,6 +313,14 @@ class SberMegaMarketRuStandart extends SberMegaMarketRu {
 		]), true);
 	}
 
+	/**
+	 *	Handler for format file open link
+	 */
+	protected function onGetFileOpenLink(&$strFile, &$strTitle, $bSingle=false){
+		return $this->getExtFileOpenLink('https://partner.sbermegamarket.ru/auth', 
+			Helper::getMessage('ACRIT_EXP_FILE_OPEN_EXTERNAL'));
+	}
+
 }
 
 ?>

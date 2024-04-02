@@ -21,7 +21,7 @@ $MESS[$strLang.'CHECK_REMOTE_ATTRIBUTE_VALUES'] = 'Проверить значе
 	Не рекомендуем проверять значения атрибута «Серии», т.к. в этом атрибуте сотни тысяч значений, браузер при работе с таким объёмом будет "тормозить".<br/><br/>
 	Значения атрибутов загружается методом <code>/v2/category/attribute/values</code>.';
 	$MESS[$strLang.'CHECK_REMOTE_ATTRIBUTE_VALUES_LINK'] = 'Проверить';
-	$MESS[$strLang.'CHECK_REMOTE_ATTRIBUTE_VALUES_CATEGORY_ID'] = 'Укажите ID категории, например 93365893';
+	$MESS[$strLang.'CHECK_REMOTE_ATTRIBUTE_VALUES_CATEGORY_ID'] = 'Укажите ID типа товара, например для категории «Ноутбук» - 91477';
 	$MESS[$strLang.'CHECK_REMOTE_ATTRIBUTE_VALUES_ATTRIBUTE_ID'] = 'Укажите ID атрибута, например 85';
 
 $MESS[$strLang.'HEADING_ATTRIBUTES'] = 'Атрибуты для категорий';

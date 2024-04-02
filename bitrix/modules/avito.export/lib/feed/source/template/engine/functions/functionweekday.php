@@ -1,9 +1,12 @@
 <?php
 namespace Avito\Export\Feed\Source\Template\Engine\Functions;
 
+use Bitrix\Main;
 use Bitrix\Iblock;
 use Bitrix\Main\Type\DateTime;
 use Avito\Export\Concerns;
+
+if (!Main\Loader::includeModule('iblock')) { return; }
 
 class FunctionWeekday extends Iblock\Template\Functions\FunctionBase
 {

@@ -262,13 +262,12 @@ class VkGoods extends Vk {
 	public function updateCategories($intProfileID){
 		$strCategories = '';
 		$strFileName = $this->getCategoriesCacheFile();
-		$arRes = $this->request('market.getCategories', [
-			'count' => 1000,
-			'offset' => 0,
-		], $intProfileID);
-		if ($arRes['response']['count']) {
-			foreach ($arRes['response']['items'] as $arItem) {
-				$strCategories .= $arItem['id'].': '.$arItem['name']."\n";
+		$arRes = $this->request('market.getCategories', [], $intProfileID);
+		$arCategList = [];
+        $this->getCategoriesFlatList($arRes['response']['items'], $arCategList);
+		if (!empty($arCategList)) {
+			foreach ($arCategList as $strKey => $strValue) {
+				$strCategories .= $strKey.': ' . $strValue . "\n";
 			}
 		}
 		if (strlen($strCategories)) {
@@ -281,6 +280,17 @@ class VkGoods extends Vk {
 		}
 		#
 		return (is_file($strFileName) && filesize($strFileName));
+	}
+
+	protected function getCategoriesFlatList($arCategIerarchy, &$arCategList) {
+        foreach ($arCategIerarchy as $arItem) {
+            $strPath = isset($arItem['view']['root_path']) ? (implode(' / ', array_reverse($arItem['view']['root_path'])) . ' / ') : '';
+            $arCategList[$arItem['id']] = $strPath . $arItem['name'];
+            if (isset($arItem['children'])) {
+                $this->getCategoriesFlatList($arItem['children'], $arCategList);
+            }
+        }
+        return $arCategList;
 	}
 
 	/**
@@ -828,7 +838,7 @@ class VkGoods extends Vk {
 		$intProcessLimit = intval($arData['PROFILE']['PARAMS']['PROCESS_LIMIT']);
 		$intProcessNextPos = intval($arData['PROFILE']['PARAMS']['PROCESS_NEXT_POS']);
 		$arVkVarGroupsById = [];
-		$arVkVarGroupsByBParent = [];
+		$arVkVarGroupsByIBParent = [];
 		$arVkVarGroupsForExport = [];
 		// VK Params
 		$strVkGroupId = $this->getGroupId();
@@ -906,7 +916,8 @@ class VkGoods extends Vk {
 				else {
 					$bIBOffersMode = $this->arProfile['IBLOCKS'][$intIBlockID]['PARAMS']['OFFERS_MODE'];
 				}
-				// Phased import
+				Log::getInstance($this->strModuleId)->add('bIBOffersMode: ' . $bIBOffersMode, $intProfileID, true);
+                // Phased import
 				if ($intProcessLimit) {
 					if ($intIndex < $intProcessNextPos || $intIndex >= $intProcessNextPos + $intProcessLimit) {
 						$intIndex++;
@@ -915,50 +926,18 @@ class VkGoods extends Vk {
 				}
 				// Item data
 				$arItemData = Json::decode($arItem['DATA']);
-				Log::getInstance($this->strModuleId)->add('(stepExport_sendApiOffers) arItemData: '.print_r($arItemData, true), $intProfileID);
+				Log::getInstance($this->strModuleId)->add('(stepExport_sendApiOffers) arItemData: ' . print_r($arItemData, true), $intProfileID, true);
 				$arItemData['owner_id'] = $strVkOwnerId;
-				$photo_url = $arItemData['main_photo_id'];
-				if (strlen($photo_url)) {
+				if (strlen($arItemData['main_photo_id'])) {
                     // Check if item is already exist
                     $search_string = $arItemData['sku'] ? : $arItemData['name'];
 					$strVKItemId = $this->stepExport_findItem($search_string, $arVKItemsIDs);
                     // Get main photo
-					$photo_key = $arItemData['iblock_item_id'] . '_main_' . $photo_url;
-                    $vk_photo_id = Photos::find($photo_key);
-                    if (!$vk_photo_id) {
-	                    // Upload photo and get photo id
-	                    $photo_url_unic = $photo_url;
-	                    $vk_photo_id = $this->uploadMarketPhoto($photo_url_unic, 1, $strVkGroupId, $intProfileID);
-                        Photos::addPhoto($photo_key, $vk_photo_id);
-                    }
-                    $arItemData['main_photo_id'] = $vk_photo_id;
+                    $photo_main_url = $arItemData['main_photo_id'];
+                    $arItemData['main_photo_id'] = $this->uploadMarketPhotoMain($photo_main_url, $arItemData['iblock_item_id'], $strVkGroupId);
                     // Get gallery
-                    $arVKPhotoIDs = [];
-                    if ($arItemData['photo_ids']) {
-                        $arPhotoIDs = explode(',', $arItemData['photo_ids']);
-                        $arPhotoIDs = array_map('trim', $arPhotoIDs);
-                        $i = 0;
-                        foreach ($arPhotoIDs as $photo_id) {
-                            if ($i >= 4) {
-                                continue;
-                            }
-                            if (intval($photo_id)) {
-                                $arFile = \CFile::GetFileArray($photo_id);
-                                $photo_url = $arFile['SRC'];
-                            } else {
-                                $photo_url = $photo_id;
-                            }
-                            $photo_key = $arItemData['iblock_item_id'] . '_photos_' . $photo_url;
-                            $vk_photo_id = Photos::find($photo_key);
-                            if (!$vk_photo_id) {
-	                            $photo_url_unic = $photo_url;
-	                            $vk_photo_id = $this->uploadMarketPhoto($photo_url_unic, 0, $strVkGroupId, $intProfileID);
-                                Photos::addPhoto($photo_key, $vk_photo_id);
-                            }
-                            $arVKPhotoIDs[] = $vk_photo_id;
-                            $i ++;
-                        }
-                    }
+					$photo_gallery_urls = $arItemData['photo_ids'];
+					$arVKPhotoIDs = $this->uploadMarketPhotoGallery($photo_gallery_urls, $arItemData['iblock_item_id'], $strVkGroupId);
                     $arItemData['photo_ids'] = implode(',', $arVKPhotoIDs);
 					// Properties
                     $arItemData['variant_ids'] = '';
@@ -972,31 +951,47 @@ class VkGoods extends Vk {
 					if ($strVKItemId) {
 						Log::getInstance($this->strModuleId)->add('Editing product ' . print_r($arVKItems[$strVKItemId], true), $intProfileID, true);
 						$arItemData['item_id'] = $strVKItemId;
-						$arRes = $this->request('market.edit', $arItemData, $intProfileID);
-						if (isset($arRes['response'])) {
-							#
-							$intExportedCount++;
-						}
+                        $strVkGoodAction = 'market.edit';
 					}
 					else {
 						Log::getInstance($this->strModuleId)->add('Adding product', $intProfileID, true);
-						$arRes = $this->request('market.add', $arItemData, $intProfileID);
-						if (isset($arRes['response'])) {
-							$strVKItemId = $arRes['response']['market_item_id'];
-							#
-							$intExportedCount++;
+						$strVkGoodAction = 'market.add';
+					}
+					$arRes = $this->request($strVkGoodAction, $arItemData, $intProfileID);
+					Log::getInstance($this->strModuleId)->add('response ' . print_r($arRes, true), $intProfileID, true);
+                    // Check errors
+					if (isset($arRes['error']) && is_array($arRes['error'])) {
+						$strErrorMessage = $arRes['error']['error_msg'].' ['.$arRes['error']['error_code'].']';
+						Log::getInstance($this->strModuleId)->add('Error adding item '.$arItemData['iblock_item_id'].': '.$strErrorMessage, $intProfileID);
+						// If error 100 than delete photos of item from Photos table
+						if ($arRes['error']['error_code'] == 100) {
+							$arVKPhotoIDs = explode(',', $arItemData['photo_ids']);
+							if ($arItemData['main_photo_id']) {
+								$arVKPhotoIDs[] = $arItemData['main_photo_id'];
+							}
+							Log::getInstance($this->strModuleId)->add('clear photos cache ' . print_r($arVKPhotoIDs, true), $intProfileID, true);
+							foreach ($arVKPhotoIDs as $photo_id) {
+								Photos::deleteByVkId($photo_id);
+							}
+							// Get main photo
+							$arItemData['main_photo_id'] = $this->uploadMarketPhotoMain($photo_main_url, $arItemData['iblock_item_id'], $strVkGroupId);
+							// Get gallery
+							$arVKPhotoIDs = $this->uploadMarketPhotoGallery($photo_gallery_urls, $arItemData['iblock_item_id'], $strVkGroupId);
+							$arItemData['photo_ids'] = implode(',', $arVKPhotoIDs);
+							// Repeat export
+							$arRes = $this->request($strVkGoodAction, $arItemData, $intProfileID);
+							Log::getInstance($this->strModuleId)->add('response ' . print_r($arRes, true), $intProfileID, true);
+							if (isset($arRes['error']) && is_array($arRes['error'])) {
+								$strErrorMessage = $arRes['error']['error_msg'] . ' [' . $arRes['error']['error_code'] . ']';
+								Log::getInstance($this->strModuleId)->add('Error repeat adding item ' . $arItemData['iblock_item_id'] . ': ' . $strErrorMessage, $intProfileID);
+							}
 						}
-						elseif(is_array($arRes['error'])) {
-							$strErrorMessage = $arRes['error']['error_msg'].' ['.$arRes['error']['error_code'].']';
-							Log::getInstance($this->strModuleId)->add('Error adding item '.$arItemData['iblock_item_id'].': '.$strErrorMessage, $intProfileID);
-//                            // If error 100 than delete photos of item from Photos table
-//                            if ($arRes['error']['error_code'] == 100) {
-//                                $arVKPhotoIDs = explode(',', $arItemData['photo_ids']);
-//                                foreach ($arVKPhotoIDs as $photo_id) {
-//                                    Photos::delete($photo_id);
-//                                }
-//                            }
-						}
+					}
+					if (isset($arRes['response'])) {
+                        if ($strVkGoodAction == 'market.add') {
+	                        $strVKItemId = $arRes['response']['market_item_id'];
+                        }
+						$intExportedCount++;
 					}
 					if ($strVKItemId) {
                         $arChangedIDs[] = $strVKItemId;
@@ -1021,12 +1016,12 @@ class VkGoods extends Vk {
 										$arRedef = self::findAlbumsRedef($intProfileID, $arItemData['iblock_id'], $arItemData['iblock_section_id'], $arVKAlbumsRedefs);
 										Log::getInstance($this->strModuleId)->add('$arRedef: '.print_r($arRedef, true), $intProfileID);
 										if ($arRedef) {
-											// If has album ID
+											// Has album ID
 											if ($arRedef['album_id']) {
 												// Use this album ID
 												$intAlbumId = $arRedef['album_id'];
 											}
-											// If has album redefinition name
+											// Has album redefinition name
 											if ($arRedef['album_name']) {
 												// Use this name for search
 												$album_name = $arRedef['album_name'];
@@ -1085,11 +1080,13 @@ class VkGoods extends Vk {
                             }
                         }
                         // Add item to groups export array
-                        if ($bIBOffersMode == 'all' && $arItemData['parent_id']) {
-	                        if (!isset($arVkVarGroupsByBParent[$arItemData['parent_id']]) && isset($arVkVarGroupsById[$strVKItemId])) {
-		                        $arVkVarGroupsByBParent[$arItemData['parent_id']] = $arVkVarGroupsById[$strVKItemId];
+                        if ($arItemData['parent_id']) {
+	                        if (!isset($arVkVarGroupsByIBParent[$arItemData['parent_id']]) && isset($arVkVarGroupsById[$strVKItemId])) {
+		                        $arVkVarGroupsByIBParent[$arItemData['parent_id']] = $arVkVarGroupsById[$strVKItemId];
 	                        }
-	                        $arVkVarGroupsForExport[$arItemData['parent_id']][] = $strVKItemId;
+                            if (!isset($arVkVarGroupsForExport[$arItemData['parent_id']]) || !in_array($strVKItemId, $arVkVarGroupsForExport[$arItemData['parent_id']])) {
+	                            $arVkVarGroupsForExport[$arItemData['parent_id']][] = $strVKItemId;
+                            }
                         }
                     }
 				}
@@ -1101,23 +1098,25 @@ class VkGoods extends Vk {
 			$intOffset++;
 		}
         // Groups export
-		Log::getInstance($this->strModuleId)->add('arVkVarGroupsByBParent ' . print_r($arVkVarGroupsByBParent, true), $intProfileID, true);
+		Log::getInstance($this->strModuleId)->add('arVkVarGroupsByIBParent ' . print_r($arVkVarGroupsByIBParent, true), $intProfileID, true);
 		Log::getInstance($this->strModuleId)->add('arVkVarGroupsForExport ' . print_r($arVkVarGroupsForExport, true), $intProfileID, true);
 		foreach ($arVkVarGroupsForExport as $parent_id => $arVkVarGroups) {
-	        $arGIParams = [
-		        'group_id' => $strVkGroupId,
-		        'item_ids' => $arVkVarGroups,
-	        ];
-	        if (isset($arVkVarGroupsByBParent[$parent_id])) {
-		        $arGIParams['item_group_id'] = $arVkVarGroupsByBParent[$parent_id];
-	        }
-	        Log::getInstance($this->strModuleId)->add('market.groupItems params ' . print_r($arGIParams, true), $intProfileID, true);
-	        $arRes = $this->request('market.groupItems', $arGIParams, $intProfileID);
-	        Log::getInstance($this->strModuleId)->add('market.groupItems result ' . print_r($arRes, true), $intProfileID, true);
-	        if (is_array($arRes['error'])) {
-		        $strErrorMessage = $arRes['error']['error_msg'] . ' [' . $arRes['error']['error_code'] . ']';
-		        Log::getInstance($this->strModuleId)->add('Error adding to group: ' . $strErrorMessage, $intProfileID);
-	        }
+            if (count($arVkVarGroups) > 1) {
+	            $arGIParams = [
+		            'group_id' => $strVkGroupId,
+		            'item_ids' => $arVkVarGroups,
+	            ];
+	            if (isset($arVkVarGroupsByIBParent[$parent_id])) {
+		            $arGIParams['item_group_id'] = $arVkVarGroupsByIBParent[$parent_id];
+	            }
+	            Log::getInstance($this->strModuleId)->add('market.groupItems params ' . print_r($arGIParams, true), $intProfileID, true);
+	            $arRes = $this->request('market.groupItems', $arGIParams, $intProfileID);
+	            Log::getInstance($this->strModuleId)->add('market.groupItems result ' . print_r($arRes, true), $intProfileID, true);
+	            if (is_array($arRes['error'])) {
+		            $strErrorMessage = $arRes['error']['error_msg'] . ' [' . $arRes['error']['error_code'] . ']';
+		            Log::getInstance($this->strModuleId)->add('Error adding to group: ' . $strErrorMessage, $intProfileID);
+	            }
+            }
         }
         // Phased import: reset start position
         if ($intProcessLimit) {
@@ -1401,6 +1400,50 @@ class VkGoods extends Vk {
         return $arList;
     }
 
+    // Upload main photo and get photo id
+    protected function uploadMarketPhotoMain($photo_url, $iblock_item_id, $strVkGroupId) {
+	    $photo_key = $iblock_item_id . '_main_' . $photo_url;
+	    $vk_photo_id = Photos::find($photo_key);
+	    if (!$vk_photo_id) {
+		    // Upload photo and get photo id
+		    $photo_url_unic = $photo_url;
+		    $vk_photo_id = $this->uploadMarketPhoto($photo_url_unic, 1, $strVkGroupId, $this->intProfileId);
+		    Photos::addPhoto($photo_key, $vk_photo_id);
+	    }
+        return $vk_photo_id;
+    }
+
+    // Upload gallery photo and get photos ids
+    protected function uploadMarketPhotoGallery($photo_urls, $iblock_item_id, $strVkGroupId) {
+	    $arVKPhotoIDs = [];
+	    if ($photo_urls) {
+		    $arPhotoIDs = explode(',', $photo_urls);
+		    $arPhotoIDs = array_map('trim', $arPhotoIDs);
+		    $i = 0;
+		    foreach ($arPhotoIDs as $photo_id) {
+			    if ($i >= 4) {
+				    continue;
+			    }
+			    if (intval($photo_id)) {
+				    $arFile = \CFile::GetFileArray($photo_id);
+				    $photo_url = $arFile['SRC'];
+			    } else {
+				    $photo_url = $photo_id;
+			    }
+			    $photo_key = $iblock_item_id . '_photos_' . $photo_url;
+			    $vk_photo_id = Photos::find($photo_key);
+			    if (!$vk_photo_id) {
+				    $photo_url_unic = $photo_url;
+				    $vk_photo_id = $this->uploadMarketPhoto($photo_url_unic, 0, $strVkGroupId, $this->intProfileId);
+				    Photos::addPhoto($photo_key, $vk_photo_id);
+			    }
+			    $arVKPhotoIDs[] = $vk_photo_id;
+			    $i ++;
+		    }
+	    }
+        return $arVKPhotoIDs;
+    }
+
     // Upload photo and get photo id
     protected function uploadMarketPhoto($photo_url, $main_photo, $strVkGroupId, $intProfileID) {
 	    $photo_id = false;
@@ -1413,10 +1456,10 @@ class VkGoods extends Vk {
             if ($arRes['response']['upload_url']) {
                 $strUrlPath = Helper::getPathFromUrl($photo_url);
                 // Resize
-                $strUrlPath = $this->resizePicture($strUrlPath, 400, 400, $intProfileID);
+                $strUrlPathResized = $this->resizePicture($strUrlPath, 400, 400, $intProfileID, $bResized);
                 // Send to the VK server
-	            Log::getInstance($this->strModuleId)->add('Uploading photo "' . $strUrlPath . '" from "' . $photo_url . '"', $intProfileID, true);
-                $arRes = $this->sendFileRemote($strUrlPath, $arRes['response']['upload_url'], $intProfileID);
+	            Log::getInstance($this->strModuleId)->add('Uploading photo "' . $strUrlPathResized . '" from "' . $photo_url . '"', $intProfileID, true);
+                $arRes = $this->sendFileRemote($strUrlPathResized, $arRes['response']['upload_url'], $intProfileID);
                 if (strlen($arRes['photo'])) {
                     $arParams = [
                         'group_id' => $strVkGroupId,
@@ -1432,12 +1475,14 @@ class VkGoods extends Vk {
                     }
                 } elseif (is_array($arRes['error'])) {
                     $strErrorMessage = $arRes['error']['error_msg'] . ' [' . $arRes['error']['error_code'] . ']';
-                    Log::getInstance($this->strModuleId)->add('Error loading photo [' . $strUrlPath . ']: ' . $strErrorMessage, $intProfileID);
+                    Log::getInstance($this->strModuleId)->add('Error loading photo [' . $strUrlPathResized . ']: ' . $strErrorMessage, $intProfileID);
                 } elseif (strlen($arRes['error'])) {
-                    Log::getInstance($this->strModuleId)->add('Error loading photo [' . $strUrlPath . ']: ' . $arRes['error'], $intProfileID);
+                    Log::getInstance($this->strModuleId)->add('Error loading photo [' . $strUrlPathResized . ']: ' . $arRes['error'], $intProfileID);
                 }
                 // Clear sent file
-                unlink($strUrlPath);
+	            if ($bResized) {
+		            unlink($strUrlPathResized);
+	            }
             } else {
                 $strErrorMessage = $arRes['error']['error_msg'] . ' [' . $arRes['error']['error_code'] . ']';
                 Log::getInstance($this->strModuleId)->add('Error getting upload server: ' . $strErrorMessage, $intProfileID);
@@ -1447,7 +1492,7 @@ class VkGoods extends Vk {
     }
 
     // Resize picture
-    protected function resizePicture($strFileRelPath, $width, $height, $intProfileID) {
+    protected function resizePicture($strFileRelPath, $width, $height, $intProfileID, &$bResized = false) {
 		#$strTmpDir = Profile::getTmpDir($intProfileID);
 		$strTmpDir = Helper::call($this->strModuleId, 'Profile', 'getTmpDir', [$intProfileID]);
 		$strTmpResizeDir = $strTmpDir . '/resize';
@@ -1458,9 +1503,9 @@ class VkGoods extends Vk {
         $arPath = explode('/', $strFileRelPath);
         $rand = substr(md5(rand(10000000, 99999999)), 0, 6);
         $strFileNameTarget = $arPath[count($arPath)-4].'_'.$arPath[count($arPath)-3].'_'.$arPath[count($arPath)-2].'_'.$rand.'_'.$arPath[count($arPath)-1];
-        $strFilePathTarget = $strTmpResizeDir . '/' . $strFileNameTarget;
-        if (file_exists($strFilePathTarget) && (time() - filemtime($strFilePathTarget)) < self::IMAGE_RESIZE_CACHE_TIME) {
-            $strFilePath = $strFilePathTarget;
+        $strFilePathResized = $strTmpResizeDir . '/' . $strFileNameTarget;
+        if (file_exists($strFilePathResized) && (time() - filemtime($strFilePathResized)) < self::IMAGE_RESIZE_CACHE_TIME) {
+            $strFilePath = $strFilePathResized;
         }
         else {
 			#$arProfile = Profile::getProfiles($intProfileID);
@@ -1470,14 +1515,15 @@ class VkGoods extends Vk {
             	if ($type == self::IMAGE_RESIZE_RESIZE) {
 					Image::open($strFilePath)
 						->scaleResize($width, $height)
-						->save($strFilePathTarget);
+						->save($strFilePathResized);
 				}
             	else {
 					Image::open($strFilePath)
 						->resize($width, $height)
-						->save($strFilePathTarget);
+						->save($strFilePathResized);
 				}
-                $strFilePath = $strFilePathTarget;
+                $strFilePath = $strFilePathResized;
+                $bResized = true;
             }
         }
         return $strFilePath;
@@ -1495,9 +1541,9 @@ class VkGoods extends Vk {
                     if (isset($arRes['response'])) {
                         $strUrlPath = Helper::getPathFromUrl($arAlbum['photo']);
                         // Resize
-                        $strUrlPath = $this->resizePicture($strUrlPath, 1280, 720, $intProfileID);
+	                    $strUrlPathResized = $this->resizePicture($strUrlPath, 1280, 720, $intProfileID, $bResized);
                         // Send to the VK server
-                        $arRes = $this->sendFileRemote($strUrlPath, $arRes['response']['upload_url']);
+                        $arRes = $this->sendFileRemote($strUrlPathResized, $arRes['response']['upload_url']);
                         if (!isset($arRes['error'])) {
                             $arParams = [
                                 'group_id' => $strVkGroupId,
@@ -1521,11 +1567,14 @@ class VkGoods extends Vk {
                             }
                             elseif(is_array($arRes['error'])) {
                                 $strErrorMessage = $arRes['error']['error_msg'].' ['.$arRes['error']['error_code'].']';
-                                Log::getInstance($this->strModuleId)->add('Error saving album photo ['.$strUrlPath.']: '.$strErrorMessage, $intProfileID);
+                                Log::getInstance($this->strModuleId)->add('Error saving album photo ['.$strUrlPathResized.']: '.$strErrorMessage, $intProfileID);
                             }
                         } else {
                             $strErrorMessage = $arRes['error']['error_msg'].' ['.$arRes['error']['error_code'].']';
                             Log::getInstance($this->strModuleId)->add('Error sending file '.$strErrorMessage, $intProfileID);
+                        }
+                        if ($bResized) {
+	                        unlink($strUrlPathResized);
                         }
                     }
                     elseif(is_array($arRes['error'])) {
@@ -1978,5 +2027,3 @@ class VkGoods extends Vk {
 	}
 
 }
-
-?>

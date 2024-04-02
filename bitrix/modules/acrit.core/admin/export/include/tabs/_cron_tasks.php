@@ -31,7 +31,7 @@ foreach($arCurrentTasksAll as $key => $arTask){
 			<?=Loc::getMessage('ACRIT_EXP_CRON_TASKS_TOGGLE');?>
 		</a>
 		(<?=count($arCurrentTasksMatch);?>)
-		<div data-role="cron-current-tasks" style="display:none;">
+		<div data-role="cron-current-tasks" style="display:none;word-break:break-all;">
 			<?foreach($arCurrentTasksMatch as $arTask):?>
 				<div class="acrit-exp-cron-form-command" style="margin-top:4px;">
 					<code><?=$arTask['COMMAND_FULL'];?></code>

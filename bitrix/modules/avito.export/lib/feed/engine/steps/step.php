@@ -7,10 +7,14 @@ use Avito\Export\Feed;
 use Avito\Export\Logger;
 use Avito\Export\Glossary;
 use Avito\Export\Watcher;
+use Avito\Export\DB\Facade\BatchUpdate;
 use Avito\Export\DB\Facade\BatchDelete;
+use Avito\Export\Concerns;
 
 abstract class Step implements Watcher\Engine\Step
 {
+	use Concerns\HasLocale;
+
 	/** @var Feed\Engine\Controller */
 	protected $controller;
 	protected $logger;
@@ -57,10 +61,31 @@ abstract class Step implements Watcher\Engine\Step
 		]);
 	}
 
+	public function wait(): void
+	{
+		$entity = $this->getStorageDataEntity();
+
+		if ($entity === null) { return; }
+
+		/** @var class-string<Main\ORM\Data\DataManager> $dataManager */
+		$dataManager = $entity->getDataClass();
+		$batch = new BatchUpdate($dataManager);
+
+		$batch->run([
+			'filter' => [
+				'=FEED_ID' => $this->getFeed()->getId(),
+				'=STATUS' => Offer\Table::STATUS_OK,
+			],
+		], [
+			'STATUS' => Offer\Table::STATUS_WAIT,
+		]);
+	}
+
 	protected function writeDataStep(array $tagValuesList, array $elementList, Feed\Source\Context $context): void
 	{
 		$tags = $this->buildTags($tagValuesList, $context);
 		$tags = $this->extendTags($tagValuesList, $tags, $elementList, $context);
+		$tags = $this->filterTags($tags, $elementList);
 
 		$fieldsStorage = $this->makeFieldsForStorage($tagValuesList, $tags, $elementList, $context);
 
@@ -69,6 +94,21 @@ abstract class Step implements Watcher\Engine\Step
 
 		$this->writeFileNew($storage->getAdd());
 		$this->writeFileUpdate($storage->getUpdate());
+	}
+
+	public function after(string $action) : void
+	{
+		if ($action === Watcher\Engine\Controller::ACTION_CHANGE)
+		{
+			$this->afterChange();
+		}
+		else if (
+			$action === Watcher\Engine\Controller::ACTION_REFRESH
+			|| $action === Feed\Engine\Controller::ACTION_RESTART
+		)
+		{
+			$this->afterRefresh();
+		}
 	}
 
 	public function afterChange(): void
@@ -114,7 +154,7 @@ abstract class Step implements Watcher\Engine\Step
 			$storage->remove($existsStorage, [ '=FEED_ID' => $feedId ]);
 
 			$written = array_filter($existsStorage, static function(array $row) {
-				return (bool)$row['STATUS'];
+				return (int)$row['STATUS'] === Offer\Table::STATUS_OK;
 			});
 
 			$this->writeFileUpdate(array_fill_keys(
@@ -170,13 +210,13 @@ abstract class Step implements Watcher\Engine\Step
 				$fields += [
 					'PRIMARY' => $tagValue->getRaw('Id'),
 					'HASH' => $tag->hash(),
-					'STATUS' => true,
+					'STATUS' => Offer\Table::STATUS_OK,
 				];
 			}
 			else
 			{
 				$fields += [
-					'STATUS' => false,
+					'STATUS' => Offer\Table::STATUS_FAIL,
 				];
 			}
 
@@ -295,6 +335,34 @@ abstract class Step implements Watcher\Engine\Step
 		$event->send();
 
 		return $tags;
+	}
+
+	protected function filterTags(array $tags, array $elementList) : array
+	{
+		$result = [];
+
+		/** @var Feed\Engine\Data\TagCompiled $tag */
+		foreach ($tags as $elementId => $tag)
+		{
+			$element = $elementList[$elementId];
+
+			if (!$tag->isSuccess())
+			{
+				$message = implode(', ', $tag->getErrorMessages()) ?: self::getLocale('TAG_ERROR_UNKNOWN');
+
+				$this->logger->error($message, [
+					'ENTITY_TYPE' => Glossary::ENTITY_OFFER,
+					'ENTITY_ID' => $element['ID'],
+					'REGION_ID' => $element['REGION_ID'] ?? 0,
+				]);
+
+				continue;
+			}
+
+			$result[$elementId] = $tag;
+		}
+
+		return $result;
 	}
 
 	protected function buildTag(Feed\Engine\Data\TagValues $tagValues, Feed\Source\Context $context): Feed\Engine\Data\TagCompiled

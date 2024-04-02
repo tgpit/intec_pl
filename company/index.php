@@ -1,5 +1,5 @@
 <?php 
-//define('NINJA_PAGE_LANDING', true);
+define('NINJA_PAGE_LANDING', true);
 
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
 $APPLICATION->SetTitle("Приглашаем тебя в Мир Питбайков - PitLand!");
@@ -57,7 +57,10 @@ $APPLICATION->SetPageProperty('codePage', 'page-about');
 		<div class="page-about__row">
 			<div class="row">
 				<div class="col-sm-5">
- <img src="/local/build/img/pages/about/004.jpg" class="img-rounded img-responsive">
+ <img src="/local/build/img/pages/about/004.jpg" class="img-rounded img-responsive"><br>
+					<div style="margin:auto;width:236px;align:center;text-align:center;">
+						<a class="btn widget-form-button intec-ui intec-ui-control-button intec-ui-scheme-current intec-ui-size-4 intec-ui-mod-round-2" data-toggle="modal" data-target="#modal" >Запись на мотосервис</a>
+					</div>
 				</div>
 				<div class="col-md-7">
 					<div class="page-about__block-title">
@@ -77,31 +80,7 @@ $APPLICATION->SetPageProperty('codePage', 'page-about');
 		</div>
 		<div class="page-about__row">
 			<div class="page-about__block-title">
-				 <?$APPLICATION->IncludeComponent(
-	"intec.universe:main.widget", 
-	"zapis", 
-	array(
-		"CACHE_TIME" => "0",
-		"CACHE_TYPE" => "A",
-		"COMPONENT_TEMPLATE" => "zapis",
-		"WEB_FORM_ID" => "23",
-		"SETTINGS_USE" => "N",
-		"LAZYLOAD_USE" => "N",
-		"CONSENT_SHOW" => "N",
-		"WEB_FORM_TITLE_SHOW" => "Y",
-		"WEB_FORM_DESCRIPTION_SHOW" => "Y",
-		"WEB_FORM_BACKGROUND" => "theme",
-		"WEB_FORM_BACKGROUND_OPACITY" => "80",
-		"WEB_FORM_TEXT_COLOR" => "light",
-		"WEB_FORM_POSITION" => "left",
-		"WEB_FORM_ADDITIONAL_PICTURE_SHOW" => "N",
-		"BLOCK_BACKGROUND" => "/local/build/img/feed-back/bg.jpg",
-		"BLOCK_BACKGROUND_PARALLAX_USE" => "N",
-		"BLOCK_BACKGROUND_PARALLAX_RATIO" => "10"
-	),
-	false
-);?><br>
-				 &nbsp; &nbsp; &nbsp; 8 причин приехать в наши салоны на Юге и Севере Москвы:
+				 8 причин приехать в наши салоны на Юге и Севере Москвы: <br>
 			</div>
 			<div class="page-about__list">
 				<div class="page-about__list-item">
@@ -125,8 +104,7 @@ $APPLICATION->SetPageProperty('codePage', 'page-about');
  <img src="/local/build/img/pages/about/icons/003.jpg" alt="">
 					</div>
 					<div class="page-about__list-text">
-						 Мы доставим вам технику по Москве и области, и в любой регион России, и это будет бесплатно<br>
- <sup>*</sup>(<a href="/help/delivery/">есть регионы-исключения</a>)
+						 Мы доставим вам технику по Москве и области, и в любой регион России
 					</div>
 				</div>
 				<div class="page-about__list-item">

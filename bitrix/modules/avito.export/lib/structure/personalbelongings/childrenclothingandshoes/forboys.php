@@ -43,9 +43,13 @@ class ForBoys implements Structure\Category, Structure\CategoryLevel
 						'Apparel' => [
 							self::getLocale('PANTS'),
 							self::getLocale('OUTERWEAR'),
-							self::getLocale('JUMPSUITS_AND_BODYSUITS'),
-							self::getLocale('PAJAMAS'),
-							self::getLocale('KNITWEAR'),
+							self::getLocale('JUMPSUITS'),
+							self::getLocale('UNDERWEAR_AND_HOME_CLOTHES'),
+							self::getLocale('SWEATERS_AND_HOODIES'),
+							self::getLocale('TSHIRTS'),
+							self::getLocale('SHIRTS'),
+							self::getLocale('JACKETS_AND_SUITS'),
+							self::getLocale('BEACH_WEAR'),
 							self::getLocale('OTHER'),
 						]
 					],

@@ -6,8 +6,9 @@
 
 namespace Acrit\Core\Export\Plugins\AliHelpers;
 
-use Acrit\Core\Export\Plugins\AliexpressComApiLocal;
-use Acrit\Core\Json;
+use \Acrit\Core\Export\Plugins\AliexpressComApiLocal,
+	\Acrit\Core\Helper,
+	\Acrit\Core\Json;
 use \Bitrix\Main\Localization\Loc;
 
 require_once __DIR__ . '/request.php';
@@ -105,6 +106,9 @@ class Products extends Request {
 	 * Add products
 	 */
 	public function addProducts($products) {
+		if (!Helper::isUtf()){
+			$products = Helper::convertEncoding($products, 'CP1251', 'UTF-8');
+		}
 		$resp = $this->request('product/create', ['products' => $products]);
 		$result = $resp ?? false;
 		return $result;
@@ -122,6 +126,9 @@ class Products extends Request {
 	 * Add products
 	 */
 	public function updateProducts($products) {
+		if (!Helper::isUtf()){
+			$products = Helper::convertEncoding($products, 'CP1251', 'UTF-8');
+		}
 		$resp = $this->request('product/edit', ['products' => $products]);
 		$result = $resp ?? false;
 		return $result;
@@ -180,7 +187,8 @@ class Products extends Request {
 		if ($locale) {
 			$filter['locale'] = $locale;
 		}
-		$resp = $this->request('product/edit', $filter);
+		$resp = $this->request('getSizeChartTemplates', $filter, false, self::METHOD_POST, true);
+//		$resp = $this->request('getSizeChartTemplates', $filter);
 		$result = $resp['data'] ?? [];
 		return $result;
 	}

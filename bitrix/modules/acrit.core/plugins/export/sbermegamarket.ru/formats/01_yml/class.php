@@ -75,7 +75,6 @@ class SberMegaMarketRuYml extends SberMegaMarketRu {
 		$arResult['categoryId'] = ['FIELD' => 'IBLOCK_SECTION_ID', 'REQUIRED' => true];
 		$arResult['picture'] = ['FIELD' => ['DETAIL_PICTURE', 'PROPERTY_MORE_PHOTO', 'PROPERTY_PHOTOS'], 'MULTIPLE' => true];
 		$arResult['vat'] = ['FIELD' => 'CATALOG_VAT_VALUE_YANDEX'];
-		$arResult['vat'] = ['FIELD' => 'CATALOG_VAT_VALUE_YANDEX'];
 		$arResult['shipment-options.option@days'] = ['CONST' => '1', 'MULTIPLE' => true];
 		$arResult['shipment-options.option@order-before'] = ['CONST' => '15', 'MULTIPLE' => true];
 		$arResult['vendor'] = ['FIELD' => ['PROPERTY_BRAND', 'PROPERTY_BRAND_REF', 'PROPERTY_MANUFACTURER']];

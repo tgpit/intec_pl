@@ -1,4 +1,0 @@
-<?php
-
-$MESS['PRESETS_STAGES_TEMPLATE_1_PRESET_TILES_1'] = 'Плитки 1';
-$MESS['PRESETS_STAGES_TEMPLATE_1_HEADER'] = 'Этапы работ';

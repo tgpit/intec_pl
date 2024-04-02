@@ -13,3 +13,4 @@ $MESS['AVITO_EXPORT_ADMIN_PAGE_OPTIONS_LEVEL_LOG_TYPE_ERROR'] = 'Ошибки';
 $MESS['AVITO_EXPORT_ADMIN_PAGE_OPTIONS_LEVEL_LOG_TYPE_CRITICAL'] = 'Только агенты';
 $MESS['AVITO_EXPORT_ADMIN_PAGE_OPTIONS_WRITER_TEMP_MEMORY'] = 'Использовать оперативную память при вставке изменений';
 $MESS['AVITO_EXPORT_ADMIN_PAGE_OPTIONS_MASSIVE_EDIT_ELEMENTS_LIMIT'] = 'Максимальное количество элементов в массовом редактировании Характеристик';
+$MESS['AVITO_EXPORT_ADMIN_PAGE_OPTIONS_DISCOUNTS_USER_GROUP'] = 'Группа пользователей для расчета скидок';

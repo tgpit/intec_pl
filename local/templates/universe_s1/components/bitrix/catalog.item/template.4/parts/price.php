@@ -16,7 +16,7 @@ $arPrice = ArrayHelper::getFirstValue($arItem['ITEM_PRICES']);
         <div class="intec-grid intec-grid-wrap intec-grid-i-h-5">
             <div class="intec-grid-item-auto">
                 <div class="catalog-item-price-current">
-                   <?= $arPrice['PRINT_RATIO_PRICE'] ?>
+                    <?= $arPrice['PRINT_RATIO_PRICE'] ?>
                 </div>
             </div>
             <?php if ($arParams['SHOW_OLD_PRICE'] === 'Y' && $arPrice['DISCOUNT'] > 0) { ?>

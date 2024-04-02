@@ -662,6 +662,12 @@ $lAdmin->AddHeaders(array(
 		'default' => $bCrontabCanAutoSet,
 	),
 	array(
+		'id' => 'AUTO_CRON_TIME',
+		'content' => getMessage('ACRIT_EXP_HEADER_AUTO_CRON_TIME'),
+		'align' => 'left',
+		'default' => $bCrontabCanAutoSet,
+	),
+	array(
 		'id' => 'DATE_CREATED',
 		'content' => getMessage('ACRIT_EXP_HEADER_DATE_CREATED'),
 		'sort' => 'DATE_CREATED',
@@ -733,6 +739,9 @@ $lAdmin->AddHeaders(array(
 	),
 ));
 
+// Get cron jobs
+$arCronJobs = Cli::getCronTasks($strModuleId);
+
 // Build items list
 while ($arRow = $resData->NavNext(true, 'f_')) {
 	$bGroup = $arRow['IS_GROUP'];
@@ -766,7 +775,16 @@ while ($arRow = $resData->NavNext(true, 'f_')) {
 	//
 	$obRow = &$lAdmin->AddRow(($bGroup ? 'G' : '').$f_ID, $arRow);
 	//
-	$bIsOnCron = Cli::isProfileOnCron($strModuleId, $f_ID, 'export.php', null, true);
+	$bIsOnCron = false;
+	$strSchedule = null;
+	$strCommand = Cli::getProfilePhpCommand($strModuleId, $f_ID, 'export.php', null, true);
+	foreach($arCronJobs as $arJob){
+		if(strpos($arJob['COMMAND'], $strCommand) !== false){
+			$strSchedule = $arJob['SCHEDULE'];
+			$bIsOnCron = true;
+			break;
+		}
+	}
 	// ID
 	$obRow->AddViewField('ID', '<a href="'.($strGroupEditUrl ?? $strUrl).'">'.$f_ID.'</a>');
 	// LOCKED
@@ -827,10 +845,13 @@ while ($arRow = $resData->NavNext(true, 'f_')) {
 	// AUTO_GENERATE
 	$obRow->AddCheckField('AUTO_GENERATE', $f_AUTO_GENERATE);
 	// AUTO_CRON
-	$strMessage = Loc::getMessage('MAIN_'.($bIsOnCron?'YES':'NO'));
-	$strColor = $bIsOnCron ? 'green' : 'initial';
-	$strFontWeight = $bIsOnCron ? 'bold' : 'normal';
-	$obRow->AddViewField('AUTO_CRON', '<span style="color:'.$strColor.';font-weight:'.$strFontWeight.'">'.$strMessage.'</span>');
+	if(!$bGroup){
+		$strMessage = Loc::getMessage('MAIN_'.($bIsOnCron?'YES':'NO'));
+		$strColor = $bIsOnCron ? 'green' : 'initial';
+		$strFontWeight = $bIsOnCron ? 'bold' : 'normal';
+		$obRow->AddViewField('AUTO_CRON', '<span style="color:'.$strColor.';font-weight:'.$strFontWeight.'">'.$strMessage.'</span>');
+		$obRow->AddViewField('AUTO_CRON_TIME', '<span style="font-family:monospace;padding-right:10px;white-space:nowrap;">'.$strSchedule.'</span>');
+	}
 	// DATE_CREATED
 	$obRow->AddViewField('DATE_CREATED', $f_DATE_CREATED);
 	// DATE_MODIFIED

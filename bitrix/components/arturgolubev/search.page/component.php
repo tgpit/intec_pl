@@ -318,6 +318,7 @@ if($this->InitComponentTemplate($templatePage))
 			$arFilter["<=DATE_CHANGE"] = $to;
 		
 		$correctionParams = [
+			'type' => 'full',
 			'filter' => []
 		];
 		
@@ -493,20 +494,7 @@ if($this->InitComponentTemplate($templatePage))
 		}
 
 		if(!empty($arResult["arReturn"]) && $how != "d"){
-			usort($arResult["SEARCH"], function($a, $b){
-				if ($a["CUSTOM_RANK"] == $b["CUSTOM_RANK"]) {
-					if ($a["TITLE_RANK"] == $b["TITLE_RANK"]) {
-						return 0;
-					}
-					return ($a["TITLE_RANK"] < $b["TITLE_RANK"]) ? -1 : 1;
-				}
-				return ($a["CUSTOM_RANK"] > $b["CUSTOM_RANK"]) ? -1 : 1;
-			});
-			
-			$arResult["arReturn"] = [];
-			foreach($arResult["SEARCH"] as $v){
-				$arResult["arReturn"][] = $v["ITEM_ID"];
-			}
+			$arResult = SearchComponent::reOrderFullResults($arResult);
 		}
 		
 		if ($smartcomponent->getOption('use_fixes') && $q && (empty($arResult["arReturn"]) || $arParams["ALWAYS_USE_SMART"] == 'Y'))
@@ -567,6 +555,10 @@ if($this->InitComponentTemplate($templatePage))
 					if (!empty($arResult["arReturn"])) {
 						break;
 					}
+				}
+
+				if($smartcomponent->getOption('engine') == 'sphinx' && !empty($arResult["arReturn"]) && $how != "d"){
+					$arResult = SearchComponent::reOrderFullResults($arResult);
 				}
 			}
 		}

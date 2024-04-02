@@ -1,3 +1,0 @@
-<?php
-
-$MESS['PRESETS_VIDEO_TEMPLATE_1_PRESET_WIDE_1'] = 'Широкий 1';

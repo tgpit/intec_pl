@@ -2,6 +2,10 @@
 
 namespace Ipolh\SDEK;
 
+use Ipolh\SDEK\Bitrix\Entity\cache;
+use Ipolh\SDEK\Bitrix\Entity\encoder;
+use Ipolh\SDEK\SDEK\SdekApplication;
+
 class AuthHandler extends AbstractGeneral
 {
     public static function auth($params)
@@ -12,14 +16,16 @@ class AuthHandler extends AbstractGeneral
         if(!class_exists('CDeliverySDEK'))
             die('No main class founded');
 
-        \sdekdriver::$MODULE_ID;
         if(!function_exists('curl_init'))
             die(GetMessage("IPOLSDEK_AUTH_NOCURL"));
 
-        $resAuth = self::checkAuth($params['login'],$params['password']);
+        $login = trim($params['login']);
+        $password = trim($params['password']);
+
+        $resAuth = self::checkAuth($login, $password);
         if($resAuth['success']){
-            \sqlSdekLogs::Add(array('ACCOUNT' => $params['login'],'SECURE' => $params['password']));
-            $lastCheck = \sqlSdekLogs::Check($params['login']);
+            \sqlSdekLogs::Add(array('ACCOUNT' => $login, 'SECURE' => $password));
+            $lastCheck = \sqlSdekLogs::Check($login);
             \Ipolh\SDEK\option::set('logged',$lastCheck);
             if($lastCheck){
                self::login();
@@ -77,18 +83,21 @@ class AuthHandler extends AbstractGeneral
         echo json_encode(\sdekdriver::zajsonit($acList));
     }
 
-    public static function newAccount($params){
+    public static function newAccount($params)
+    {
         $resAuth = self::checkAuth($params['ACCOUNT'],$params['PASSWORD']);
         if($resAuth['success']){
             $arRequest = array('ACCOUNT' => $params['ACCOUNT'],'SECURE' => $params['PASSWORD'],'ACTIVE'=>'Y','LABEL'=>\sdekdriver::zaDEjsonit($params['LABEL']));
             $arReturn = array('result' => 'ok');
             $id = \sqlSdekLogs::Check($params['ACCOUNT']);
-            if($id){
-                \sqlSdekLogs::Update($id,$arRequest);
+            if ($id) {
+                \sqlSdekLogs::Update($id, $arRequest);
                 $arReturn['text'] = GetMessage('IPOLSDEK_AUTH_UPDATE');
-            }else
+            } else {
                 \sqlSdekLogs::Add($arRequest);
-        }else{
+            }
+            \Ipolh\SDEK\option::set('lastOldApiCheck', null);
+        } else {
             $retStr = GetMessage('IPOLSDEK_AUTH_NO');
             foreach($resAuth as $erCode => $erText)
                 $retStr.=\sdekdriver::zaDEjsonit($erText." (".$erCode."). ");
@@ -101,17 +110,24 @@ class AuthHandler extends AbstractGeneral
         echo json_encode(\sdekdriver::zajsonit($arReturn));
     }
 
-    static function checkAuth($account,$password){
-        $sdekApp = self::makeApplication($account,$password);
+    /**
+     * @param $account
+     * @param $password
+     * @return array{0?: string, success?: true, error?: string}
+     * @throws \Exception
+     */
+    static function checkAuth($account, $password)
+    {
+        $app = self::makeApplication($account, $password);
 
         try {
-            $result = $sdekApp->getToken(true);
-            if($result){
-                $resAuth = array('success'=>true);
+            $result = $app->getToken(true);
+            if ($result) {
+                $resAuth = array('success' => true);
             } else {
                 $resAuth = array('error' => 'Failed to get token');
             }
-        } catch (\Exception $e){
+        } catch (\Exception $e) {
             $resAuth = array($e->getMessage());
         }
 
@@ -136,6 +152,7 @@ class AuthHandler extends AbstractGeneral
                 \Ipolh\SDEK\option::set('logged',false);
                 $arReturn['result'] = 'collapse';
             }
+            \Ipolh\SDEK\option::set('lastOldApiCheck', null);
         }
         return $arReturn;
     }
@@ -156,5 +173,23 @@ class AuthHandler extends AbstractGeneral
         /*$options = new Options();
 
         return (bool) $options->fetchClientId();*/
+    }
+
+    /**
+     * Da 2.0 only
+     * @param string $account
+     * @param string $secure
+     * @return SdekApplication
+     */
+    public static function makeApplication($account, $secure)
+    {
+        return new SdekApplication(
+            $account,
+            $secure,
+            false,
+            10,
+            new encoder(),
+            new cache()
+        );
     }
 }

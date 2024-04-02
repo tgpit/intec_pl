@@ -45,6 +45,7 @@ $MESS['ACRIT_EXP_HEADER_DOMAIN'] = 'Домен';
 $MESS['ACRIT_EXP_HEADER_IS_HTTPS'] = 'SSL';
 $MESS['ACRIT_EXP_HEADER_AUTO_GENERATE'] = 'Автообработка';
 $MESS['ACRIT_EXP_HEADER_AUTO_CRON'] = 'Автозапуск по Cron';
+$MESS['ACRIT_EXP_HEADER_AUTO_CRON_TIME'] = 'Время запуска Cron';
 $MESS['ACRIT_EXP_HEADER_FORMAT'] = 'Формат выгрузки';
 $MESS['ACRIT_EXP_HEADER_EXPORT_FILE_NAME'] = 'Файл экспорта';
 	$MESS['ACRIT_EXP_HEADER_EXPORT_FILE_NAME_TITLE'] = 'Нажмите, чтобы открыть файл в новой вкладке';

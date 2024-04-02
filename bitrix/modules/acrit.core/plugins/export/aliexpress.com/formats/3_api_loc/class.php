@@ -223,8 +223,10 @@ class AliexpressComApiLocal extends AliexpressCom {
 			];
 			$arResult['package_type']['ALLOWED_VALUES_USE_SELECT'] = true;
 			$arResult['package_type']['ALLOWED_VALUES_ASSOCIATIVE'] = true;
-			$arResult['lot_num'] = [];
-			$arResult['product_unit'] = ['CONST' => '100000013', 'REQUIRED' => true];
+			$arResult['lot_num'] = [
+				'CONST' => '1',
+			]; 
+			$arResult['product_unit'] = ['CONST' => '100000015', 'REQUIRED' => true];
 			$arResult['product_unit']['ALLOWED_VALUES'] = [
 				'100000013' => static::getMessage('SETTINGS_VALUES_product_unit_values_13'),
 				'100000014' => static::getMessage('SETTINGS_VALUES_product_unit_values_14'),
@@ -235,7 +237,9 @@ class AliexpressComApiLocal extends AliexpressCom {
 			$arResult['product_unit']['ALLOWED_VALUES_USE_SELECT'] = true;
 			$arResult['product_unit']['ALLOWED_VALUES_ASSOCIATIVE'] = true;
 			$arResult['shipping_lead_time'] = ['CONST' => '30', 'REQUIRED' => true];
-			$arResult['size_chart_id'] = [];
+			$arResult['size_chart_id'] = [
+				'CONST' => '0',
+			];
 			$arResult['size_chart_id']['ALLOWED_VALUES'] = $this->getAliSizeChartTemplates($category_id);
 			$arResult['size_chart_id']['ALLOWED_VALUES_USE_SELECT'] = true;
 			$arResult['size_chart_id']['ALLOWED_VALUES_ASSOCIATIVE'] = true;
@@ -387,7 +391,8 @@ class AliexpressComApiLocal extends AliexpressCom {
 			$this->addToLog(static::getMessage('ERROR_NOT_SET_CATEG_ID'));
 			return Exporter::RESULT_ERROR;
 		}
-		$arCategInfo = self::getAliCategAttribs($category_id, false);
+		$arCategInfo = self::getAliCategAttribs($category_id);
+		//$this->addToLog('arCategInfo ' . print_r($arCategInfo, true), true);
 		if (!$arCategInfo) {
 			$this->addToLog(static::getMessage('ERROR_NOT_LOADED_CATEG_ATTRIBS'));
 			return Exporter::RESULT_ERROR;
@@ -400,7 +405,7 @@ class AliexpressComApiLocal extends AliexpressCom {
 			foreach ($arItems as $arItem) {
 				// Get export data
 				$arEncodedItem = Json::decode($arItem['DATA']);
-				$this->addToLog('arEncodedItem ' . print_r($arEncodedItem, true), true);
+				// $this->addToLog('arEncodedItem ' . print_r($arEncodedItem, true), true);
 				// Export mode
 				$intIBlockID = $arItem['IBLOCK_ID'];
 				$bOffer = Helper::isOffersIBlock($intIBlockID);
@@ -432,10 +437,9 @@ class AliexpressComApiLocal extends AliexpressCom {
 					}
 				}
 				// Save items
-				$this->addToLog('arProductsFields ' . print_r($arProductsFields, true), true);
+				// $this->addToLog('arProductsFields ' . print_r($arProductsFields, true), true);
 				foreach ($arProductsFields as $arProductFields) {
 					$sku_code = $this->getExportItemSkuCode($arProductFields);
-					$this->addToLog('arProductFields json ' . Json::encode($arProductFields), true);
 					$this->addToLog('sku_code ' . print_r($sku_code, true), true);
 					// Fill data
 					$product_id = self::getAliProductIdBySku($sku_code);
@@ -470,6 +474,7 @@ class AliexpressComApiLocal extends AliexpressCom {
 //					return Exporter::RESULT_ERROR;
 				}
 			}
+			$arSession['COUNTER']['OFFERS_N'] = 2;
 			// Send existed products data
 			$this->addToLog('arUpdateProducts cnt ' . count($arUpdateProducts), true);
 			if (!empty($arUpdateProducts)) {
@@ -514,9 +519,9 @@ class AliexpressComApiLocal extends AliexpressCom {
 			'web'      => $arEncodedItem['description'],
 			'mobile'   => $arEncodedItem['description'],
 		]];
-		$arProductFields['package_length'] = $arEncodedItem['package_length'];
-		$arProductFields['package_height'] = $arEncodedItem['package_height'];
-		$arProductFields['package_width'] = $arEncodedItem['package_width'];
+		$arProductFields['package_length'] = round($arEncodedItem['package_length']);
+		$arProductFields['package_height'] = round($arEncodedItem['package_height']);
+		$arProductFields['package_width'] = round($arEncodedItem['package_width']);
 		$arProductFields['package_type'] = (boolean)$arEncodedItem['package_type'];
 		$arProductFields['weight'] = $arEncodedItem['weight'];
 		$arProductFields['product_unit'] = $arEncodedItem['product_unit'];
@@ -535,7 +540,29 @@ class AliexpressComApiLocal extends AliexpressCom {
 						'attribute_name_id' => $strId
 					];
 					if ($arPropInfo['is_enum_prop']) {
-						$arAttr['attribute_value_id'] = $value;
+						if (is_numeric($value)) {
+							$arAttr['attribute_value_id'] = $value;
+						}
+						else {
+							// Find value
+							$value_id = false;
+							if (is_array($arPropInfo['values'])) {
+								foreach ($arPropInfo['values'] as $arValue) {
+									if ($arValue['name'] == $value) {
+										$value_id = $arValue['id'];
+										break;
+									}
+								}
+							}
+							if ($value_id) {
+								$arAttr['attribute_value_id'] = $value_id;
+							}
+							else {
+								// Add new value
+								$arAttr['attribute_value_id'] = -1;
+								$arAttr['attribute_value'] = $value;
+							}
+						}
 					}
 					else {
 						$arAttr['attribute_value'] = $value;
@@ -559,18 +586,18 @@ class AliexpressComApiLocal extends AliexpressCom {
 					$this->addToLog('arOfferEncodedItem ' . print_r($arOfferEncodedItem, true), true);
 					// Basic fields
 					$arSkuItem = [
-						'sku_code'       => $arOfferEncodedItem['sku_code'],
-						'inventory'      => $arOfferEncodedItem['inventory'],
-						'price'          => $arOfferEncodedItem['price'],
-						'discount_price' => $arOfferEncodedItem['discount_price'],
+						'sku_code'       => strval($arOfferEncodedItem['sku_code']),
+						'inventory'      => strval(intval($arOfferEncodedItem['inventory'])),
+						'price'          => strval($arOfferEncodedItem['price']),
+						'discount_price' => strval($arOfferEncodedItem['discount_price']),
 					];
 					// Additional attributes
 					$arSkuItem['sku_attributes_list'] = [];
 					foreach ($arOfferEncodedItem as $key => $value) {
 						if (strpos($key, 'categ_sku_prop_') === 0 && $value) {
 							$strId = str_replace('categ_sku_prop_', '', $key);
-							if (isset($arCategInfo['properties'][$strId])) {
-								$arPropInfo = $arCategInfo['properties'][$strId];
+							if (isset($arCategInfo['sku_properties'][$strId])) {
+								$arPropInfo = $arCategInfo['sku_properties'][$strId];
 								$arAttr = [
 									'sku_attribute_name_id' => $strId
 								];
@@ -590,18 +617,18 @@ class AliexpressComApiLocal extends AliexpressCom {
 		} else {
 			// Basic fields
 			$arSkuItem = [
-				'sku_code'       => $arEncodedItem['sku_code'],
-				'inventory'      => $arEncodedItem['inventory'],
-				'price'          => $arEncodedItem['price'],
-				'discount_price' => $arEncodedItem['discount_price'],
+				'sku_code'       => strval($arEncodedItem['sku_code']),
+				'inventory'      => strval($arEncodedItem['inventory']),
+				'price'          => strval($arEncodedItem['price']),
+				'discount_price' => strval($arEncodedItem['discount_price']),
 			];
 			// Additional attributes
 			$arSkuItem['sku_attributes_list'] = [];
 			foreach ($arEncodedItem as $key => $value) {
 				if (strpos($key, 'categ_sku_prop_') === 0 && $value) {
 					$strId = str_replace('categ_sku_prop_', '', $key);
-					if (isset($arCategInfo['properties'][$strId])) {
-						$arPropInfo = $arCategInfo['properties'][$strId];
+					if (isset($arCategInfo['sku_properties'][$strId])) {
+						$arPropInfo = $arCategInfo['sku_properties'][$strId];
 						$arAttr = [
 							'sku_attribute_name_id' => $strId
 						];
@@ -870,6 +897,7 @@ class AliexpressComApiLocal extends AliexpressCom {
 	public function addAliProducts($products, &$errors, &$tasks) {
 		$api = $this->getApi();
 		$send_res = $api->addProducts(array_values($products));
+		$this->addToLog('addAliProducts result ' . print_r($send_res, true), true);
 		$group_id = $send_res['group_id'];
 		if (isset($send_res['results'])) {
 			$i = 0;
@@ -931,21 +959,22 @@ class AliexpressComApiLocal extends AliexpressCom {
 	 * Get attributes for the products of category
 	 */
 	public function getAliCategAttribs($category_id, $load_dict=true) {
+		$arCategInfo = [];
 		$api = $this->getApi();
-		$arCategInfo = $api->getCateg($category_id);
-		if ($load_dict) {
-			if (isset($arCategInfo['properties'])) {
-				foreach ($arCategInfo['properties'] as $k => $arProp) {
-					if ($arProp['is_enum_prop']) {
-						$arCategInfo['properties'][$k]['values'] = $api->getCategPropDictionaryValues($category_id, $arProp['id']);
-					}
+		$arCategInfoRes = $api->getCateg($category_id);
+		if (isset($arCategInfoRes['properties'])) {
+			foreach ($arCategInfoRes['properties'] as $arProp) {
+				$arCategInfo['properties'][$arProp['id']] = $arProp;
+				if ($arProp['is_enum_prop'] && $load_dict) {
+					$arCategInfo['properties'][$arProp['id']]['values'] = $api->getCategPropDictionaryValues($category_id, $arProp['id']);
 				}
 			}
-			if (isset($arCategInfo['sku_properties'])) {
-				foreach ($arCategInfo['sku_properties'] as $k => $arProp) {
-					if ($arProp['is_enum_prop']) {
-						$arCategInfo['sku_properties'][$k]['values'] = $api->getCategPropDictionaryValues($category_id, $arProp['id'], true);
-					}
+		}
+		if (isset($arCategInfoRes['sku_properties'])) {
+			foreach ($arCategInfoRes['sku_properties'] as $arProp) {
+				$arCategInfo['sku_properties'][$arProp['id']] = $arProp;
+				if ($arProp['is_enum_prop'] && $load_dict) {
+					$arCategInfo['sku_properties'][$arProp['id']]['values'] = $api->getCategPropDictionaryValues($category_id, $arProp['id'], true);
 				}
 			}
 		}

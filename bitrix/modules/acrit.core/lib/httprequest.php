@@ -20,7 +20,7 @@ class HttpRequest {
 		if(substr($strURL, 0, 2)=='//') {
 			$strURL = 'http:'.$strURL;
 		}
-		if (!in_array(toUpper($arParams['METHOD']), array('GET', 'POST', 'HEAD', 'PUT', 'DELETE'))) {
+		if (!in_array(toUpper($arParams['METHOD']), array('GET', 'POST', 'HEAD', 'PUT', 'DELETE', 'PATCH'))) {
 			$arParams['METHOD'] = 'GET';
 		}
 		if (!is_numeric($arParams['TIMEOUT']) || $arParams['TIMEOUT']<=0) {

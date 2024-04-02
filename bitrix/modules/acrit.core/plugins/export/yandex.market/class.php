@@ -2057,6 +2057,9 @@ class YandexMarket extends Plugin {
 						while($arSectionsChain = $resSectionsChain->getNext()){
 							$intCategoryID = $arSectionsChain['ID'];
 							$strCategoryName = $arSectionsChain['NAME'];
+							if(isset($arCategoryRedefinitionsAll[$intCategoryID])){
+								$strCategoryName = $arCategoryRedefinitionsAll[$intCategoryID];
+							}
 							$intParentID = $arSectionsChain['IBLOCK_SECTION_ID'];
 							$arCategoryXml = array(
 								'@' => array('id' => $intCategoryID),

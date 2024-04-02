@@ -127,7 +127,7 @@ class CSearchTitleExt extends CAllSearchTitle
 						(locate('".$word." ', sc.TITLE) = 1 OR locate(' ".$word." ', sc.TITLE) > 0),
 						(if(locate('".$word." ', sc.TITLE) = 1, 1, locate(' ".$word." ', sc.TITLE))),
 						(if(
-							(locate(' ".$word."', sc.TITLE) > 0),
+							(locate(' ".$word."', sc.TITLE) > 0 OR locate('".$word."', sc.TITLE) = 1),
 							(locate(' ".$word."', sc.TITLE) + 1000),
 							(if(
 								(locate('".$word."', sc.TITLE) > 0),

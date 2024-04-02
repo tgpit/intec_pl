@@ -4,6 +4,7 @@ namespace Avito\Export\Feed\Engine\Command;
 use Avito\Export\Concerns;
 use Avito\Export\DB;
 use Avito\Export\Feed;
+use Avito\Export\Feed\Engine\Steps\Offer;
 use Avito\Export\Logger;
 use Avito\Export\Glossary;
 use Avito\Export\Psr;
@@ -63,7 +64,7 @@ class CategoryLimit
 		/** @var \Avito\Export\Feed\Engine\Data\TagCompiled $tag */
 		foreach ($tags as $key => $tag)
 		{
-			if (empty($fieldsStorage[$key]['STATUS'])) { continue; }
+			if ((int)$fieldsStorage[$key]['STATUS'] === Offer\Table::STATUS_FAIL) { continue; }
 
 			$category = $this->tagValue($tag, 'Category');
 			$goodsType = $this->tagValue($tag,'GoodsType');
@@ -95,7 +96,7 @@ class CategoryLimit
 
 		foreach ($fieldsStorage as $key => $fields)
 		{
-			if (!isset($restrictions[$key]) || !$fields['STATUS']) { continue; }
+			if (!isset($restrictions[$key]) || (int)$fields['STATUS'] === Offer\Table::STATUS_FAIL) { continue; }
 
 			$primary = $fields['PRIMARY'];
 			$priority = (int)$elementList[$key]['SORT'] ?: 5000;
@@ -139,7 +140,7 @@ class CategoryLimit
 	{
 		foreach ($fieldsStorage as $key => $fields)
 		{
-			if (!isset($restrictions[$key]) || !$fields['STATUS']) { continue; }
+			if (!isset($restrictions[$key]) || (int)$fields['STATUS'] === Offer\Table::STATUS_FAIL) { continue; }
 
 			$primary = (string)$fields['PRIMARY'];
 			$valid = true;
@@ -209,7 +210,7 @@ class CategoryLimit
 	{
 		foreach ($fieldsStorage as $key => &$fields)
 		{
-			if (!isset($restrictions[$key]) || !$fields['STATUS']) { continue; }
+			if (!isset($restrictions[$key]) || (int)$fields['STATUS'] === Offer\Table::STATUS_FAIL) { continue; }
 
 			$primary = $fields['PRIMARY'];
 			$valid = true;
@@ -225,7 +226,7 @@ class CategoryLimit
 
 			if ($valid) { continue; }
 
-			$fields['STATUS'] = false;
+			$fields['STATUS'] = Offer\Table::STATUS_FAIL;
 			$this->logExceed($fields['STORAGE_PRIMARY']);
 		}
 		unset($fields);
@@ -243,7 +244,7 @@ class CategoryLimit
 
 		$result = [];
 		$timestamp = new Main\Type\DateTime();
-		$tableEntity = Feed\Engine\Steps\Offer\Table::getEntity();
+		$tableEntity = Offer\Table::getEntity();
 		$primaryFields = array_diff_key(array_flip($tableEntity->getPrimaryArray()), [
 			'FEED_ID' => true,
 		]);
@@ -254,11 +255,11 @@ class CategoryLimit
 			'HASH' => true,
 		]);
 
-		$query = Feed\Engine\Steps\Offer\Table::getList([
+		$query = Offer\Table::getList([
 			'filter' => [
 				'=FEED_ID' => $this->feedId,
 				'=PRIMARY' => array_keys($missingPrimaries),
-				'=STATUS' => true,
+				'=STATUS' => Offer\Table::STATUS_OK,
 			],
 			'select' => array_keys($primaryFields + $additionFields),
 		]);
@@ -299,7 +300,7 @@ class CategoryLimit
 				'FEED_ID' => $this->feedId,
 				'STORAGE_PRIMARY' => $storagePrimary,
 				'TIMESTAMP_X' => $timestamp,
-				'STATUS' => false,
+				'STATUS' => Offer\Table::STATUS_FAIL,
 			];
 			$result[$key] += $additionValues;
 
@@ -371,7 +372,7 @@ class CategoryLimit
 
 		foreach ($fieldsStorage as $key => $fields)
 		{
-			if (!$fields['STATUS'] || !isset($restrictions[$key])) { continue; }
+			if ((int)$fields['STATUS'] === Offer\Table::STATUS_FAIL || !isset($restrictions[$key])) { continue; }
 
 			foreach ($restrictions[$key] as $index => $limit)
 			{

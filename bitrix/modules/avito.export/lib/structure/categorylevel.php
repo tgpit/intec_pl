@@ -8,6 +8,7 @@ interface CategoryLevel
 	public const PRODUCT_TYPE = 'ProductType';
 	public const PRODUCTS_TYPE = 'ProductsType';
 	public const GOODS_SUB_TYPE = 'GoodsSubType';
+	public const VEHICLE_TYPE = 'VehicleType';
 
 	public function categoryLevel() : ?string;
 }

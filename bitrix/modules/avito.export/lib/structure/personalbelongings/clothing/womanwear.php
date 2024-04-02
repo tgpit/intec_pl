@@ -37,28 +37,7 @@ class WomanWear implements Structure\Category, Structure\CategoryLevel
 	    return new Dictionary\Compound([
 		    new Dictionary\XmlTree('personalbelongings/clothingshoesaccessories/women_wear/women_wear.xml'),
 		    new Dictionary\XmlTree('personalbelongings/clothingshoesaccessories/materials_odezhda.xml'),
-		    new Dictionary\Decorator(
-			    new Dictionary\XmlTree('personalbelongings/clothingshoesaccessories/women_wear/size.xml'),
-			    [
-					'wait' => [
-						'Apparel' => [
-							self::getLocale('PANTS'),
-							self::getLocale('SWIMSUITS'),
-							self::getLocale('JACKETS_AND_SUITS'),
-							self::getLocale('SHIRTS_AND_BLOUSES'),
-							self::getLocale('WEDDING_DRESSES'),
-							self::getLocale('TOPS_AND_T_SHIRTS'),
-							self::getLocale('JUMPERS_SWEATERS_CARDIGANS'),
-							self::getLocale('UNDERWEAR'),
-							self::getLocale('OUTERWEAR'),
-							self::getLocale('DRESSES'),
-							self::getLocale('SKIRTS'),
-							self::getLocale('HOODIES_AND_SWEATERS'),
-							self::getLocale('OTHER'),
-						]
-					]
-			    ]
-		    ),
+		    new Dictionary\XmlTree('personalbelongings/clothingshoesaccessories/women_wear/size.xml'),
 	    ]);
     }
 

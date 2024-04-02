@@ -36,7 +36,7 @@ class Agent extends Trading\Action\Reference\OrderAgent
 		]);
 	}
 
-	protected static function processOrders(Trading\Setup\Model $trading, Api\OrderManagement\Model\Orders $orders, int $orderOffset = null, int $stopOrder = null)
+	protected static function processOrders(Trading\Setup\Model $trading, Api\OrderManagement\Model\Orders $orders, int $orderOffset = null, $stopOrder = null)
 	{
 		$limitResource = new Watcher\Engine\LimitResource();
 		$offsetFound = ($orderOffset === null);

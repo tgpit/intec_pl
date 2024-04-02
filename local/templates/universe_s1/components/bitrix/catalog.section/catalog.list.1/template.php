@@ -187,7 +187,7 @@ include(__DIR__.'/parts/measure.php');
 									$b_p = $arItem["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"];
 									if (!empty($v_p)) {
 									if ( $v_p < $b_p ) {
-										echo "<s>".$b_p."</s>&nbsp;&#8381;";
+										echo "<s>".number_format($b_p, 0, '.', ' ')."</s>&nbsp;&#8381;";
 										}
 									}
                                     $vPrice($arItem);
