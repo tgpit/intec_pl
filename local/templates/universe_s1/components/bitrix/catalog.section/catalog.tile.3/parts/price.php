@@ -21,21 +21,23 @@ use intec\core\helpers\Html;
         <div class="catalog-section-item-price-discount">
             <?php if (!$arVisual['OFFERS']['USE'] && !empty($arItem['OFFERS'])) { ?>
                 <span>
-                    <?= Loc::getMessage('C_CATALOG_SECTION_CATALOG_TILE_3_PRICE_FROM') ?>
+                  <?= Loc::getMessage('C_CATALOG_SECTION_CATALOG_TILE_3_PRICE_FROM') ?>
                 </span>
             <?php } ?>
-            <span data-role="item.price.discount">
-                <?= !empty($arPrice) ? $arPrice['PRINT_PRICE'] : null ?>
+            <span data-role="item.price.discoun">
+                <?= !empty($arPrice) ? number_format($arPrice['PRICE'], 0, '.', ' ')."&nbsp;руб." : null //$arPrice['PRINT_PRICE'] ?> 
+				<?//	var_dump($arPrice); ?>
             </span>
             <?php if (!empty($arPrice) && $arVisual['MEASURE']['SHOW'] && !empty($arItem['CATALOG_MEASURE_NAME'])) { ?>
-                /
+                /     
                 <span data-role="item.price.measure">
                     <?= $arItem['CATALOG_MEASURE_NAME'] ?>
                 </span>
             <?php } ?>
         </div>
         <div class="catalog-section-item-price-base" data-role="item.price.base">
-            <?= !empty($arPrice) ? $arPrice['PRINT_BASE_PRICE'] : null ?>
+            <?= !empty($arPrice) ? number_format($arPrice['PRICE'], 0, '.', ' ')."&nbsp;руб." : null //$arPrice['PRINT_PRICE'] ?> 
+            <?//= !empty($arPrice) ? $arPrice['PRINT_BASE_PRICE'] : null ?>
         </div>
         <?php if ($arVisual['PRICE']['PERCENT']) { ?>
             <div class="catalog-section-item-price-percent-container">

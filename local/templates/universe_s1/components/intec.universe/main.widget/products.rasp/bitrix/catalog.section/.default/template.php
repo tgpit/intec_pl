@@ -100,7 +100,6 @@ $vSku = include(__DIR__.'/parts/sku.php');
                             <div class="intec-grid-item-1">
                                 <div class="widget-description align-<?= $arBlocks['DESCRIPTION']['ALIGN'] ?>">
                                     <?= Html::encode($arBlocks['DESCRIPTION']['TEXT']) ?>
--=-=-=-
                                 </div>
                             </div>
                         <?php } ?>

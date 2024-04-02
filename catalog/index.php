@@ -391,6 +391,7 @@ $APPLICATION->SetTitle("Каталог товаров");
 			4 => "",
 		),
 		"FILTER_PRICE_CODE" => array(
+			0 => "Акция",
 		),
 		"FILTER_OFFERS_FIELD_CODE" => array(
 			0 => "",
@@ -469,6 +470,7 @@ $APPLICATION->SetTitle("Каталог товаров");
 		"COMPOSITE_FRAME_TYPE" => "AUTO",
 		"FILTER_AJAX" => "N",
 		"FILTER_PRICES_EXPANDED" => array(
+			0 => "Акция",
 		),
 		"SECTIONS_ROOT_CANONICAL_URL_USE" => "N",
 		"SECTIONS_ROOT_LAZYLOAD_USE" => "Y",

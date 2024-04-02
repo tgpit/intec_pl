@@ -103,6 +103,14 @@ $vSku = include(__DIR__.'/parts/sku.php');
                                 </div>
                             </div>
                         <?php } ?>
+                            <div class="intec-grid-item-1">
+
+                              <? 	$arParams["CUSTOM_FILTER"]["PROPERTY_g_new"] = 'Y';
+									$arParams["~CUSTOM_FILTER"]["PROPERTY_g_new"] = 'Y';
+//								var_dump($arParams);//["CUSTOM_FILTER"]);
+								?>
+
+                           </div> 
                     </div>
                 </div>
             <?php } ?>
@@ -160,6 +168,9 @@ $vSku = include(__DIR__.'/parts/sku.php');
                                 ]
                             ]) ?>
                                 <?php $arItems = &$arCategory['ITEMS'] ?>
+								<?
+//								var_dump($arItems[$iCounter]["PROPERTIES"]['g_new']["VALUE"]);//["CUSTOM_FILTER"]);["PROPERTY"]["g_new"]
+								?>
                                 <?php include(__DIR__.'/parts/items.php') ?>
                             <?= Html::endTag('div') ?>
                             <?php $iCounter++ ?>

@@ -320,7 +320,7 @@ $arUrlRewrite=array (
     'PATH' => '/imagery/index.php',
     'SORT' => 100,
   ),
-  69 => 
+  72 => 
   array (
     'CONDITION' => '#^/catalog/#',
     'RULE' => '',

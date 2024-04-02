@@ -98,8 +98,8 @@ if (!empty($arResult['ITEM_PRICES']))
                                                 'discount' => !empty($arPrice) && $arPrice['PERCENT'] > 0 ? 'true' : 'false'
                                             ]
                                         ]) ?>
-                                        <div class="catalog-element-price-base" data-role="price.discount">
-                                            <?= !empty($arPrice) ? $arPrice['PRINT_PRICE'] : null ?>
+                                        <div class="catalog-element-price-base" data-role="price.discoun">
+                                            <?= !empty($arPrice) ? number_format($arPrice['PRICE'], 0, '.', ' ')."&nbsp;руб." : null ?>
                                         </div>
 <div  class="catalog-element-price-base">
 <?
@@ -107,14 +107,14 @@ if (!empty($arResult['ITEM_PRICES']))
 									$b_p = $arResult["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"];
 									if (!empty($v_p)) {
 									if ( $v_p < $b_p ) {
-										echo "<s>".number_format($b_p, 0, '.', ' ')."</s>&nbsp;&#8381;";
+										echo "<s>".number_format($b_p, 0, '.', ' ')."</s>&nbsp;руб.";
 										}
 									}
 ?>
 </div>
 
                                         <div class="catalog-element-price-discount" data-role="price.base">
-                                            <?= !empty($arPrice) ? $arPrice['PRINT_PRICE'] : null ?>
+                                            <?= !empty($arPrice) ? number_format($arPrice['PRICE'], 0, '.', ' ')."&nbsp;руб." : null   ?>
                                         </div>
                                         <div class="catalog-element-price-percent" data-role="price.percent"></div>
                                         <?= Html::endTag('div') ?>

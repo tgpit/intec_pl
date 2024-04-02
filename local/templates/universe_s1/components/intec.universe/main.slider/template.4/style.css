@@ -819,15 +819,15 @@
 @media all and (max-width: 768px) {
   .c-slider.c-slider-template-4 .widget-item-content-mobile .widget-item-content-body {
     height: auto !important;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   .c-slider.c-slider-template-4 .widget-item-content[data-banner-product=true] {
     height: 300px !important;
   }
   .c-slider.c-slider-template-4 .widget-item-content {
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .c-slider.c-slider-template-4 .intec-content-wrapper {
     margin: 0;

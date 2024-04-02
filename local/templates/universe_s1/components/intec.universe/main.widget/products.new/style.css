@@ -69,7 +69,7 @@
 .widget.c-widget.c-widget-products-1 .widget-item-name {
   font-size: 16px;
   line-height: 1.25;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   word-break: break-word;
   height: 40px;
   overflow: hidden;
@@ -88,7 +88,7 @@
 .widget.c-widget.c-widget-products-1 .widget-item-section {
   font-size: 13px;
   line-height: 1.39;
-  height: 20px;
+
   margin-bottom: 12px;
   word-break: break-all;
   display: -webkit-box;
@@ -102,18 +102,18 @@
   color: #888b92;
 }
 .widget.c-widget.c-widget-products-1 .widget-item-vote {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .widget.c-widget.c-widget-products-1 .widget-item-vote .ns-bitrix.c-iblock-vote.c-iblock-vote-template-1 .iblock-vote-rating-item {
   font-size: 13px;
   padding: 0 3px;
 }
 .widget.c-widget.c-widget-products-1 .widget-item-quantity-wrap {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .widget.c-widget.c-widget-products-1 .widget-item-quantity {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   font-size: 12px;
   font-style: normal;
   font-weight: normal;

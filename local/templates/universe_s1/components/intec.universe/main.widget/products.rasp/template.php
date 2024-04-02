@@ -130,7 +130,6 @@ $arPropertiesValues = Arrays::fromDBResult(CIBlockPropertyEnum::GetList([], [
     ];
 });
 
-
 if ($arParameters['MODE'] === 'all') {
     $arFilter['!PROPERTY_'.$arProperty['CODE']] = false;
 } else if ($arParameters['MODE'] === 'categories') {
@@ -160,7 +159,7 @@ if ($arParameters['MODE'] === 'all') {
 
     $arFilter['PROPERTY_'.$arProperty['CODE']] = $arCategory['ID'];
 }
-    $arFilter['ACTIVE'] = 'N';
+
 $GLOBALS[$arParameters['FILTER_NAME']] = $arFilter;
 
 $APPLICATION->IncludeComponent(

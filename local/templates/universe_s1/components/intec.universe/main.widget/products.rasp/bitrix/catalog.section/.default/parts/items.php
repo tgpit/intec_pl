@@ -41,7 +41,7 @@ if ($arVisual['LINES'] !== null)
         if ($iItemsCount !== null)
             if ($iItemsCurrent >= $iItemsCount)
               break;
-
+		if ($arItem["PROPERTIES"]["g_raspr"]["VALUE"] == 'Y') {
         $sId = $sTemplateId.'_'.$arItem['ID'];
         $sAreaId = $this->GetEditAreaId($sId);
         $this->AddEditAction($sId, $arItem['EDIT_LINK']);
@@ -193,7 +193,16 @@ if ($arVisual['LINES'] !== null)
                     <?php } ?>
                     <?php if ($arItem['VISUAL']['PRICE']['SHOW'])
                         $vPrice($arPrice);
-                    ?>
+						$v_p = $arPrice["PRICE"];
+						$b_p = $arItem["PRICES"]["Основной тип цен продажи"]["VALUE"];
+						if ($b_p == 0) {
+						 $b_p = $arItem["PROPERTIES"]["MAXIMUM_PRICE"]["VALUE"];
+						}
+						if ($v_p < $b_p) {
+							echo "<s>".number_format($b_p, 0, '.', ' ')."</s>&nbsp;руб.";
+						}
+			        ?>
+
                     <?php if ($arItem['VISUAL']['TIMER']['SHOW']) { ?>
                         <div class="widget-item-section-timer">
                             <?php include(__DIR__ . '/timer.php'); ?>
@@ -228,7 +237,7 @@ if ($arVisual['LINES'] !== null)
                 <?php } ?>
             </div>
         <?= Html::endTag('div') ?>
-        <?php $iItemsCurrent++; ?>
+        <?php } $iItemsCurrent++; ?>
     <?php } ?>
 <?= Html::endTag('div') ?>
 <?php if ($arVisual['SLIDER']['USE']) { ?>

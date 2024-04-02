@@ -24,6 +24,17 @@ if (empty($template))
         modal.find('.modal-img').html("<img src='"+img+"' class='img-fluid'/>");
     })
 </script>
+<style>
+.container-903 {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.bld {
+  font-style: bold;
+}
+
+</style>
     </body>
 </html>
 <?php if (FileHelper::isFile($directory.'/parts/custom/end.php')) include($directory.'/parts/custom/end.php') ?>

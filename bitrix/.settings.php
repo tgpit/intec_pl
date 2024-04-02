@@ -46,13 +46,12 @@ return array (
       array (
         'className' => '\\Bitrix\\Main\\DB\\MysqliConnection',
         'host' => 'localhost',
-        'database' => 'btxpbltest',
-        'login' => 'larfor',
-        'password' => '1092',
-
-//        'database' => 'pitland_int',
-//        'login' => 'pitland_int',
-//        'password' => '10923874_Sw',
+//        'database' => 'pitland_bx1',
+//        'login' => 'pitland_bx1',
+//        'password' => '8k4W^XNf%',
+        'database' => 'pitland_int',
+        'login' => 'pitland_int',
+        'password' => '10923874_Sw',
 
         'options' => 2.0,
       ),
