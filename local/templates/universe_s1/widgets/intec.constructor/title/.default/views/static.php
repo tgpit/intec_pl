@@ -19,13 +19,12 @@ global $APPLICATION;
 $url = $_SERVER['REQUEST_URI'];
 $url = explode('?', $url);
 $url = $url[0];
-//echo $url;
 ?>
 <?php if (!($url == "/company/")) :?>
 <div class="intec-content">
     <div class="intec-content-wrapper">
         <h1 id="pagetitle">
-            <? $APPLICATION->ShowTitle("header") ?>
+          <b><? $APPLICATION->ShowTitle("header") ?></b>
         </h1>
     </div>
 </div>

@@ -121,12 +121,41 @@ use intec\core\helpers\Html;
                                 </div>
                             <?php } ?>
                         </div>
+                        <? $APPLICATION->IncludeComponent(
+                            "intec.universe:main.form",
+                            "template.7",
+                            Array(
+                                "BACKGROUND_COLOR" => "#000000",
+                                "BACKGROUND_IMAGE_USE" => "N",
+                                "BUTTON_TEXT" => "Рассчитать рассрочку и кредит",
+                                "CACHE_TIME" => "0",
+                                "CACHE_TYPE" => "A",
+                                "COMPONENT_TEMPLATE" => "template.7",
+                                "CONSENT" => "",
+                                "DESCRIPTION_SHOW" => "N",
+                                "ID" => "25",
+                                "LAZYLOAD_USE" => "N",
+                                "NAME" => "Рассчитать рассрочку и кредит",
+                                "SETTINGS_USE" => "Y",
+                                "TEMPLATE" => "template.1",
+                                "THEME" => "light",
+                                "TITLE" => "",
+                                "VIEW" => "right"
+                            )
+                        );?>
+
                     </div>
                 <?php } ?>
+
                 <?php if ($arResult['DELIVERY_CALCULATION']['USE']) { ?>
-                    <div class="catalog-element-purchase-block catalog-element-purchase-calculation">
-                        <?php include(__DIR__ . '/../purchase/delivery.calculation.php') ?>
-                    </div>
+                    <?  $cc = $arResult["DETAIL_PAGE_URL"];
+                    $pp = 'tekhnika';
+                    $pos1 = stripos($cc, $pp);
+                    if ($pos1 <= 0) { ?>
+                        <div class="catalog-element-purchase-block catalog-element-purchase-calculation">
+                            <?php include(__DIR__ . '/../purchase/delivery.calculation.php') ?>
+                        </div>
+                        <? } ?>
                 <?php } ?>
             <?php } else { ?>
                 <?php if ($arVisual['PRICE']['SHOW'] && !empty($arResult['ITEM_PRICES']))
@@ -167,7 +196,11 @@ use intec\core\helpers\Html;
             $arVisual['PRICE_INFO']['TEXT'] = Loc::getMessage('C_CATALOG_ELEMENT_DEFAULT_5_TEMPLATE_PRICE_INFO_TEXT_DEFAULT');
         ?>
         <div class="catalog-element-purchase-information">
-            <?= $arVisual['PRICE_INFO']['TEXT'] ?>
+            <?  $cc = $arResult["DETAIL_PAGE_URL"];
+                $pp = 'tekhnika';
+                $pos1 = stripos($cc, $pp);
+                if ($pos1 <= 0) { echo $arVisual['PRICE_INFO']['TEXT']; }
+            ?>
         </div>
     <?php } ?>
 </div>

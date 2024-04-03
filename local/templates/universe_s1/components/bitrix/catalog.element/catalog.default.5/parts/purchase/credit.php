@@ -2,6 +2,7 @@
 
 use Bitrix\Main\Localization\Loc;
 use intec\core\helpers\Html;
+use intec\core\helpers\ArrayHelper;
 
 /**
  * @var array $arResult
@@ -32,15 +33,10 @@ use intec\core\helpers\Html;
             </svg>
         </div>
         <div class="catalog-element-credit-value">
-            <?= Loc::getMessage('C_CATALOG_ELEMENT_DEFAULT_5_TEMPLATE_CREDIT_BUY_BY_CREDIT') ?>
-            <?= Html::beginTag($arVisual['CREDIT']['LINK']['USE'] ? 'a' : 'span', [
-                'href' => $arVisual['CREDIT']['LINK']['USE'] ? $arVisual['CREDIT']['LINK']['VALUE'] : null,
-                'class' => $arVisual['CREDIT']['LINK']['USE'] ? null : 'intec-cl-text'
-            ]) ?>
-                <?= Loc::getMessage('C_CATALOG_ELEMENT_DEFAULT_5_TEMPLATE_CREDIT_PER') ?>
-                <span data-role="price.credit"></span>
-                <?= Loc::getMessage('C_CATALOG_ELEMENT_DEFAULT_5_TEMPLATE_CREDIT_TIME') ?>
-            <?=  Html::endTag($arVisual['CREDIT']['LINK']['USE'] ? 'a' : 'span')?>
+            <?  $arPrice = ArrayHelper::getFirstValue($arResult['ITEM_PRICES']);
+                $credPrice = ceil($arPrice['PRICE'] * 0.0356539898232301);
+            ?>
+            Купить от <a href="/services/cred/" target="_blank" class="intec-cl-text"><?=$credPrice ?></a> руб.
         </div>
     </div>
     <?= Html::endTag('div') ?>

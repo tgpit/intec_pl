@@ -51,6 +51,7 @@ use Bitrix\Main\Localization\Loc;
         ];
     }
 ?>
+    <?//  var_dump($arResult["PROPERTIES"]["VIDEO_YOUTUBE"]["VALUE"][0]) ?>
     <?= Html::beginTag('div', [
         'class' => 'catalog-element-gallery',
         'data' => [
@@ -202,7 +203,15 @@ use Bitrix\Main\Localization\Loc;
                     </div>
                 <?php } ?>
             <?= Html::endTag('div') ?>
-        <?= Html::endTag('div') ?>
+    <?= Html::endTag('div') ?>
+    <div style="width: 100%;position: relative;">
+        <?  if (!empty($arResult["PROPERTIES"]["VIDEO_YOUTUBE"]["VALUE"][0])){ ?>
+        <div style="position: absolute; z-index: 100; top: 0; left: 0;">
+            <a href="<?=$arResult["PROPERTIES"]["VIDEO_YOUTUBE"]["VALUE"][0]?>" target="_blank">
+                <img src="/images/play.png" width="50" height="50" alt="Видео на Youtube">
+            </a>
+        </div>
+        <? } ?>
         <?php if ($arVisual['GALLERY']['PREVIEW'] && $iCountPictures > 1) { ?>
             <div class="catalog-element-gallery-preview" data-role="gallery.preview">
                 <div class="catalog-element-gallery-preview-slider owl-carousel" data-role="gallery.preview.slider">
@@ -283,6 +292,7 @@ use Bitrix\Main\Localization\Loc;
                 <div class="catalog-element-gallery-preview-navigation" data-role="gallery.preview.navigation"></div>
             </div>
         <?php } ?>
+    </div>
     <?= Html::endTag('div') ?>
 <?php } ?>
 <div class="catalog-element-gallery-container catalog-element-main-block">

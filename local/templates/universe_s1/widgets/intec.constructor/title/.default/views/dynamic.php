@@ -16,7 +16,7 @@ use intec\constructor\structure\widget\Template as WidgetTemplate;
 <div class="intec-content">
     <div class="intec-content-wrapper">
         <h1 id="pagetitle">
-            <?= $this->getLanguage()->getMessage('view.message') ?>
+          <b><?= $this->getLanguage()->getMessage('view.message') ?></b>
         </h1>
     </div>
 </div>

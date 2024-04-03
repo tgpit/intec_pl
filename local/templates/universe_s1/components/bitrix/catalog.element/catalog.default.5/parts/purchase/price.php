@@ -33,10 +33,10 @@ if (!empty($arResult['ITEM_PRICES']))
             <span class="catalog-element-price-current-value" data-role="price.discount">
                <?= !empty($arPrice) ? $arPrice['PRINT_PRICE'] : null ?>
             </span>
-            <span class="catalog-element-price-current-separator">/</span>
+<!--            <span class="catalog-element-price-current-separator">/</span>
             <span class="catalog-element-price-current-measure" data-role="price.measure">
-                <?= !empty($arResult['CATALOG_MEASURE_NAME']) ? $arResult['CATALOG_MEASURE_NAME'] : null ?>
-            </span>
+                <?//= !empty($arResult['CATALOG_MEASURE_NAME']) ? $arResult['CATALOG_MEASURE_NAME'] : null ?>
+            </span>-->
         </div>
         <?php if ($arVisual['PRICE']['DISCOUNT']['OLD']) { ?>
             <div class="catalog-element-price-discount catalog-element-price-part" data-role="price.base">
@@ -45,10 +45,12 @@ if (!empty($arResult['ITEM_PRICES']))
        <?php } ?>
     </div>
 
-    <? if ($arPrice['BASE_PRICE'] != $arResult["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"]) { ?>
+    <? if (($arPrice['BASE_PRICE'] != $arResult["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"])&&
+            ($arResult["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"]>0))
+            { ?>
     	<div class='catalog-element'>
-        	<span class='catalog-element-price-current-value'>
-				<s> <?=number_format($arResult["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"], 0, '.', ' ') ?> </s> &nbsp; руб/шт
+        	<span class='catalog-element-price-current-value' style="color: red;">
+				<s> <?=number_format($arResult["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"], 0, '.', ' ') ?></s>&nbsp;руб
 			</span>
         </div>
     <?	} 
