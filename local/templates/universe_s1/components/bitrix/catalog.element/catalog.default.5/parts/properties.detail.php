@@ -15,7 +15,9 @@ if (empty($arVisual['PROPERTIES']['DETAIL']['NAME']))
 <div class="catalog-element-properties-detail-container catalog-element-additional-block" data-role="properties.detail">
     <div class="catalog-element-additional-block-name">
         <?= $arVisual['PROPERTIES']['DETAIL']['NAME'] ?>
+
     </div>
+
     <div class="catalog-element-additional-block-content-text">
         <div class="catalog-element-properties-detail">
             <?php foreach ($arResult['DISPLAY_PROPERTIES'] as $arProperty) { ?>

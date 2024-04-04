@@ -111,6 +111,7 @@ include(__DIR__.'/parts/sku.php');
         ]
     ]) ?>
         <?php foreach ($arResult['ITEMS'] as $arItem) {
+			if (empty($arItem["PREVIEW_PICTURE"])) continue;
 
             $sId = $sTemplateId.'_'.$arItem['ID'];
             $sAreaId = $this->GetEditAreaId($sId);

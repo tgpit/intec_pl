@@ -39,6 +39,9 @@ use intec\core\helpers\Html;
             <?= !empty($arPrice) ? number_format($arPrice['PRICE'], 0, '.', ' ')."&nbsp;руб." : null //$arPrice['PRINT_PRICE'] ?> 
             <?//= !empty($arPrice) ? $arPrice['PRINT_BASE_PRICE'] : null ?>
         </div>
+		<div>
+			<?// var_dump($arItem["PREVIEW_PICTURE"]["SRC"])?>
+		</div>
         <?php if ($arVisual['PRICE']['PERCENT']) { ?>
             <div class="catalog-section-item-price-percent-container">
                 <div class="catalog-section-item-price-percent">

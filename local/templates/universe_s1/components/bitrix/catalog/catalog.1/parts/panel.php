@@ -237,7 +237,6 @@ use intec\core\helpers\StringHelper;
                     <?php
                         if (!$arView['ACTIVE'])
                             continue;
-
                         $sIcon = FileHelper::getFileData(__DIR__.'/../images/views.'.$arView['VALUE'].'.svg');
                     ?>
                         <?= $sIcon ?>

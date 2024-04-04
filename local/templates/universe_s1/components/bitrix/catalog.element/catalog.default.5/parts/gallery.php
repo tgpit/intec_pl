@@ -51,7 +51,24 @@ use Bitrix\Main\Localization\Loc;
         ];
     }
 ?>
-    <?//  var_dump($arResult["PROPERTIES"]["VIDEO_YOUTUBE"]["VALUE"][0]) ?>
+    <?  $minpr = $arResult["PRICE_MATRIX"]["MATRIX"][2]["ZERO-INF"]["PRICE"];
+        $maxpr = $arResult["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"];
+        $delta = $maxpr - $minpr;
+        if (($delta > 0)&&($minpr > 0)) {
+            echo "<div style='border-radius: 10px;
+                              background-color: red;
+                              padding: 4px;
+                              top: 42px;
+                              left: 8px;
+                              color: white;
+                              position: absolute;
+                              z-index: 100;
+                              font-size: medium;
+                              text-align: center;'>&nbsp;&nbsp;<b>Экономия: ".number_format($delta, 0, '.', ' ')." руб.</b>&nbsp;&nbsp;</div>";
+
+        }
+     ?>
+
     <?= Html::beginTag('div', [
         'class' => 'catalog-element-gallery',
         'data' => [
@@ -206,9 +223,9 @@ use Bitrix\Main\Localization\Loc;
     <?= Html::endTag('div') ?>
     <div style="width: 100%;position: relative;">
         <?  if (!empty($arResult["PROPERTIES"]["VIDEO_YOUTUBE"]["VALUE"][0])){ ?>
-        <div style="position: absolute; z-index: 100; top: 0; left: 0;">
+        <div style="position: absolute; z-index: 100; top: 8px; left: 8px;">
             <a href="<?=$arResult["PROPERTIES"]["VIDEO_YOUTUBE"]["VALUE"][0]?>" target="_blank">
-                <img src="/images/play.png" width="50" height="50" alt="Видео на Youtube">
+                <img src="/images/play.png" width="48" height="48" alt="Видео на Youtube">
             </a>
         </div>
         <? } ?>

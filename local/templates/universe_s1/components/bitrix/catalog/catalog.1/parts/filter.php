@@ -76,5 +76,7 @@ if ($arFilter['SHOW']) {
         'PAGER_PARAMS_NAME' => $arParams['PAGER_PARAMS_NAME'],
         'POPUP_USE' => $arFilter['AJAX'] ? 'N' : 'Y',
         'INSTANT_RELOAD' => $arFilter['AJAX'] ? 'Y' : 'N',
+
     ]);
+
 }

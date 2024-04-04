@@ -60,7 +60,7 @@ if (!empty($arParams['IBLOCK_ID'])) {
     $oCache = Cache::createInstance();
     $arFilter = [
         'ID' => $arParams['IBLOCK_ID'],
-        'ACTIVE' => 'Y'
+        'ACTIVE' => 'Y',
     ];
 
     if ($oCache->initCache(36000, 'IBLOCK'.serialize($arFilter), '/iblock/catalog')) {
@@ -80,7 +80,7 @@ if (
     $arFilter = [
         'IBLOCK_ID' => $arParams['IBLOCK_ID'],
         'ACTIVE' => 'Y',
-        'GLOBAL_ACTIVE' => 'Y'
+        'GLOBAL_ACTIVE' => 'Y',
     ];
 
     if (!empty($arResult['VARIABLES']['SECTION_ID'])) {
@@ -363,7 +363,7 @@ $arResult['BLOCK_ON_EMPTY_SEARCH_RESULTS'] = [
 if (!empty($arParams['BLOCK_ON_EMPTY_SEARCH_RESULTS_IBLOCK_ID'])) {
     $arFilter = [
         'ACTIVE' => 'Y',
-        'IBLOCK_ID' => $arParams['BLOCK_ON_EMPTY_SEARCH_RESULTS_IBLOCK_ID']
+        'IBLOCK_ID' => $arParams['BLOCK_ON_EMPTY_SEARCH_RESULTS_IBLOCK_ID'],
     ];
 
     if ($arParams['BLOCK_ON_EMPTY_SEARCH_RESULTS_PROPERTY_USE'] === 'Y' && !empty($arParams['BLOCK_ON_EMPTY_SEARCH_RESULTS_PROPERTY_FILTER'])) {

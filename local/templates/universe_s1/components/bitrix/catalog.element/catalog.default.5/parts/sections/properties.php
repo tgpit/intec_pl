@@ -9,6 +9,7 @@ use intec\core\helpers\Type;
 $iPropertyIndex = 0;
 
 ?>
+
 <div class="catalog-element-properties-detail">
     <?php foreach ($arResult['DISPLAY_PROPERTIES'] as $arProperty) {
         $iPropertyIndex++;
@@ -62,5 +63,55 @@ $iPropertyIndex = 0;
             </div>
         <?php } ?>
     <?php } ?>
+    <?
+    $id = $arResult["ID"];
+    $ar_res = CCatalogProduct::GetByID($id);
+    //var_dump($ar_res);
+    ?>
+    <div class="catalog-element-properties-detail-offer-container">
+        <div class="catalog-element-properties-detail-item" data-code="even">
+            <div class="intec-grid intec-grid-a-v-center intec-grid-i-4 intec-grid-500-wrap">
+                <div class="intec-grid-item-2 intec-grid-item-500-1">
+                    <div class="catalog-element-properties-detail-item-name">
+                        Длина:
+                    </div>
+                </div>
+                <div class="intec-grid-item-2 intec-grid-item-500-1">
+                    <div class="catalog-element-properties-detail-item-value">
+                        <?=$ar_res["LENGTH"]?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-element-properties-detail-item" data-code="odd">
+            <div class="intec-grid intec-grid-a-v-center intec-grid-i-4 intec-grid-500-wrap">
+                <div class="intec-grid-item-2 intec-grid-item-500-1">
+                    <div class="catalog-element-properties-detail-item-name">
+                        Ширина:
+                    </div>
+                </div>
+                <div class="intec-grid-item-2 intec-grid-item-500-1">
+                    <div class="catalog-element-properties-detail-item-value">
+                        <?=$ar_res["WIDTH"]?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-element-properties-detail-item" data-code="even">
+            <div class="intec-grid intec-grid-a-v-center intec-grid-i-4 intec-grid-500-wrap">
+                <div class="intec-grid-item-2 intec-grid-item-500-1">
+                    <div class="catalog-element-properties-detail-item-name">
+                        Высота:
+                    </div>
+                </div>
+                <div class="intec-grid-item-2 intec-grid-item-500-1">
+                    <div class="catalog-element-properties-detail-item-value">
+                        <?=$ar_res["HEIGHT"]?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>
 <?php unset($arProperty, $sKey, $arOffer) ?>

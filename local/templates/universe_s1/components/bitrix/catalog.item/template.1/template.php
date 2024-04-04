@@ -25,7 +25,6 @@ $sTemplateId = Html::getUniqueId(null, Component::getUniqueId($this));
         $sName = $item['IPROPERTY_VALUES']['ELEMENT_PAGE_TITLE'];
     else
         $sName = $item['NAME'];
-
 ?>
     <?= Html::beginTag('div', [
         'id' => $sTemplateId,
@@ -36,6 +35,7 @@ $sTemplateId = Html::getUniqueId(null, Component::getUniqueId($this));
         ], true)
     ]) ?>
         <div class="catalog-item-body">
+
             <?php include(__DIR__.'/parts/image.php') ?>
             <div class="catalog-item-name-container">
                 <?= Html::tag('a', $sName, [
@@ -47,7 +47,7 @@ $sTemplateId = Html::getUniqueId(null, Component::getUniqueId($this));
                 ]) ?>
             </div>
             <?php include(__DIR__.'/parts/price.php') ?>
-            <?php include(__DIR__.'/parts/buttons.php') ?>
+            <? include(__DIR__.'/parts/buttons.php') ?>
         </div>
         <?php include(__DIR__.'/parts/script.php') ?>
 	<?= Html::endTag('div') ?>

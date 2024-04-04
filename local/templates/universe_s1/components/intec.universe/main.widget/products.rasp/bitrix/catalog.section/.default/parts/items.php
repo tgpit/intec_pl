@@ -37,7 +37,7 @@ if ($arVisual['LINES'] !== null)
     'data-role' => 'items'
 ]) ?>
     <?php foreach ($arItems as $arItem) {
-
+		if (empty($arItem["PREVIEW_PICTURE"])) continue;
         if ($iItemsCount !== null)
             if ($iItemsCurrent >= $iItemsCount)
               break;
