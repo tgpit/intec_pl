@@ -199,10 +199,24 @@ if ($arVisual['LINES'] !== null)
 						if ($v_p < $b_p) {
 							echo "<span style=\"color:red;\"><s>".number_format($b_p, 0, '.', ' ')."</s>&nbsp;руб.</span>";
 						}
-
-//						echo "<br>".$arItem["PROPERTIES"]['g_new']["VALUE"]."<br>";
-
                     ?>
+<!-- -------------===============================---------------- -->
+		<? $minpr = $v_p;
+        $maxpr = $b_p;
+        $delta = $maxpr - $minpr;
+        if (($delta > 0)&&($minpr > 0)) {
+            echo "<div style='border-radius: 10px;
+                              background-color: red;
+                              padding: 4px;
+                              top: 42px;
+                              left: 8px;
+                              color: white;
+                              position: absolute;
+                              z-index: 100;
+                              text-align: center;'>&nbsp;&nbsp;<b>Экономия: ".number_format($delta, 0, '.', ' ')." руб.</b>&nbsp;&nbsp;</div>";
+        }?>
+<!-- ----------------======================--------------------------------->
+
                     <?php if ($arItem['VISUAL']['TIMER']['SHOW']) { ?>
                         <div class="widget-item-section-timer">
                             <?php include(__DIR__ . '/timer.php'); ?>
