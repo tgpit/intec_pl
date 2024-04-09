@@ -1,0 +1,2 @@
+<?
+$mDoman = 'pitland.swit.su';

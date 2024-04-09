@@ -1,0 +1,10 @@
+[ftp:pitland_volkovtp@pitland.beget.tech]
+Directory=
+Host=pitland.beget.tech
+LoginMode=2
+Options_ftp="TS:658ad687 "
+PasswordPlain=1092-S_w
+Port=21
+Protocol=ftp
+Username=pitland_volkovtp
+

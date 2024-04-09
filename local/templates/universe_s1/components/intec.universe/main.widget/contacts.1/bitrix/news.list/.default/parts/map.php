@@ -8,6 +8,7 @@
  */
 
 ?>
+
 <div class="widget-map-container" id="<?= $sTemplateId ?>_map">
     <?php
 

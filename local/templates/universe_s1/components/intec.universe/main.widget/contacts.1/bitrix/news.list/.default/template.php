@@ -24,30 +24,40 @@ $sTemplateId = Html::getUniqueId(null, Component::getUniqueId($this));
                         <div class="intec-grid intec-grid-768-wrap">
                             <?php if ($arResult['DATA']['FEEDBACK']['SHOW']) { ?>
                                 <div class="widget-feedback-section intec-grid-item-auto intec-grid-item-a-center intec-grid-item-768-1">
-                                    <?php include(__DIR__.'/parts/feedback.php') ?>
+                                    <?php include(__DIR__.'/parts/feedback.php'); ?>
                                 </div>
                             <?php } ?>
-                            <div class="widget-items-section intec-grid-item intec-grid-item-a-stretch intec-grid-item-768-1">
-                                <?php include(__DIR__.'/parts/items.php') ?>
+            
+                         <? include 'gl.php';
+							if ($mDoman == $_SERVER['HTTP_HOST']){
+								echo '<div class="widget-items-section intec-grid-item intec-grid-item-a-stretch intec-grid-item-768-1">';
+							 	include(__DIR__.'/parts/items.php');
+							}else {
+								echo "<div>";
+							}
+						  ?>
                             </div>
                         </div>
-                        <div class="widget-navigation" data-role="contacts.slider.navigation"></div>
-                        <div class="widget-dots">
-                            <div class="widget-dots-content" data-role="contacts.slider.dots"></div>
-                        </div>
+						<? 	if ($mDoman == $_SERVER['HTTP_HOST']){
+							echo '<div class="widget-navigation" data-role="contacts.slider.navigation"></div>
+			                        <div class="widget-dots">
+		                            <div class="widget-dots-content" data-role="contacts.slider.dots"></div>
+			                      </div>';}?>
                     </div>
                 </div>
             </div>
         </div>
-        <?= Html::beginTag('div', [
-            'class' => 'widget-map',
-            'data' => [
-                'role' => 'maps',
-                'gray' => $arVisual['MAP']['GRAY'] ? 'true' : 'false'
-            ]
-        ]) ?>
+        <? if ($mDoman == $_SERVER['HTTP_HOST']){
+			echo Html::beginTag('div', [
+	            'class' => 'widget-map',
+	            'data' => [
+	                'role' => 'maps',
+	                'gray' => $arVisual['MAP']['GRAY'] ? 'true' : 'false'
+	            ]
+	        ]) ?>
             <?php include(__DIR__.'/parts/map.php') ?>
         <?= Html::endTag('div') ?>
+		<? } ?>
     </div>
     <?php include(__DIR__.'/parts/script.php') ?>
 </div>
