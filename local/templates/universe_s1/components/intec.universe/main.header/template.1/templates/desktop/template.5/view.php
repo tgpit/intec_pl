@@ -185,7 +185,7 @@ $bBasketShow =
                                     <div class="widget-button intec-cl-text-hover intec-cl-border-hover" data-action="forms.call.open">
                                         <?= Loc::getMessage('C_HEADER_TEMP1_DESKTOP_TEMP5_BUTTON') ?>
                                     </div>
-                                    <?php include(__DIR__.'/../../../parts/forms/call.php') ?>
+                                    <? include(__DIR__.'/../../../parts/forms/call.php') ?>
                                 </div>
                             <?php } ?>
                         <?= Html::endTag('div') ?>

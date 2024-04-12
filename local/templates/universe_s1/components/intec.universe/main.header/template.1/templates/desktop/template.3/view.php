@@ -156,7 +156,8 @@ foreach ([
                                                         <?php } ?>
                                                     <?php } else { ?>
                                                         <?php foreach ($arContact as $arContactItem) { ?>
-                                                            <a href="tel:<?= $arContactItem['VALUE'] ?>" class="tel widget-phone-content-text-value intec-cl-text-hover">
+															<?  $val = substr($arContactItem['VALUE'],0,12); ?>	
+                                                            <a href="tel:<?= $val ?>" class="tel widget-phone-content-text-value intec-cl-text-hover">
                                                                <span class="value"><?= $arContactItem['DISPLAY'] ?></span>
                                                             </a>
                                                         <?php } ?>

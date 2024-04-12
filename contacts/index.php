@@ -6,27 +6,31 @@ $APPLICATION->SetTitle("Контакты");
 ?>
 <?php $APPLICATION->IncludeComponent(
 	"bitrix:news.list", 
-	"contacts", 
+	"contact", 
 	array(
 		"IBLOCK_TYPE" => "content",
 		"IBLOCK_ID" => "86",
-		"NEWS_COUNT" => "20",
+		"NEWS_COUNT" => "60",
 		"SETTINGS_USE" => "Y",
-		"REGIONALITY_USE" => "N",
+		"REGIONALITY_USE" => "Y",
 		"REGIONALITY_PROPERTY" => "REGIONS",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_ORDER1" => "DESC",
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER2" => "ASC",
 		"FILTER_NAME" => "",
-		"FIELD_CODE" => array(),
+		"FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
 		"PROPERTY_CODE" => array(
-			"MAP",
-			"CITY",
-			"ADDRESS",
-			"PHONE",
-			"EMAIL",
-			"WORK_TIME"
+			0 => "MAP",
+			1 => "CITY",
+			2 => "ADDRESS",
+			3 => "PHONE",
+			4 => "EMAIL",
+			5 => "WORK_TIME",
+			6 => "",
 		),
 		"CHECK_DATES" => "N",
 		"MAP_VENDOR" => "google",
@@ -44,7 +48,7 @@ $APPLICATION->SetTitle("Контакты");
 		"WEB_FORM_CONSENT_URL" => "/company/consent/",
 		"SHOW_MAP" => "Y",
 		"SHOW_FORM" => "Y",
-		"SHOW_LIST" => "NONE",
+		"SHOW_LIST" => "ALL",
 		"TITLE_SHOW" => "Y",
 		"TITLE_TEXT" => "",
 		"DESCRIPTION_SHOW" => "Y",
@@ -84,7 +88,9 @@ $APPLICATION->SetTitle("Контакты");
 		"PAGER_BASE_LINK_ENABLE" => "N",
 		"SET_STATUS_404" => "Y",
 		"SHOW_404" => "Y",
-		"FILE_404" => "/404.php"
+		"FILE_404" => "/404.php",
+		"COMPONENT_TEMPLATE" => "contacts",
+		"TAB_SCROLL" => "Y"
 	),
 	false
 ); ?>

@@ -70,24 +70,32 @@ $bSecondPhoneShow = $arResult['PHONE']['SECOND']['SHOW'];
                                                <?=FileHelper::getFileData(__DIR__."/../../svg/icon-phone.svg");?>
                                             </span>
                                             <div class="widget-part-item-phone-wrapper">
-                                                <a class="tel widget-part-item-text" href="tel:<?= $arResult['PHONE']['VALUE']['LINK'] ?>">
-                                                    <span class="value">
 													<? if (strpos($arResult['PHONE']['VALUE']['DISPLAY'], '/') > 0) {
 															$phones = explode("/", $arResult['PHONE']['VALUE']['DISPLAY']);
+															$phonev = explode("/", $arResult['PHONE']['VALUE']['LINK']);
 															$n = count($phones);
 															for ($i = 0; $i < $n; $i++) {
-															    echo $phones[$i]."<br>";
+																$val = substr($phonev[$i],0,12);
+				                                                echo '<a class="tel widget-part-item-text" href="tel:'.$val.'">';
+                			                                    echo '<span class="value">';
+															    echo $phones[$i];
+																echo '</span>';
+				                                                echo '</a>';
 															}
 														}else {
+															$val = substr(['PHONE']['VALUE']['DISPLAY'],0,12);
+			                                                echo '<a class="tel widget-part-item-text" href="tel:'.$val.'">';
+               			                                    echo '<span class="value">';
 													   		echo $arResult['PHONE']['VALUE']['DISPLAY'];
+															echo '</span>';
+			                                                echo '</a>';
 														} ?>
-													</span>
-                                                </a>
                                                 <?php if ($bSecondPhoneShow) { ?>
+													<? if ($arResult['PHONE']['SECOND']['VALUE']['LINK'] != '') {?>
                                                     <a class="tel widget-part-item-text" href="tel:<?= $arResult['PHONE']['SECOND']['VALUE']['LINK'] ?>">
                                                         <span class="value"><?= $arResult['PHONE']['SECOND']['VALUE']['DISPLAY'] ?></span>
                                                     </a>
-                                                <?php } ?>
+                                                <?php }} ?>
                                             </div>
                                         </div>
                                     </div>

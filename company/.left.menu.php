@@ -49,6 +49,14 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
+	Array(
+		"Контакты", 
+		"/contacts/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+
 /*	Array(
 		"Сертификаты", 
 		"/company/certificates/",

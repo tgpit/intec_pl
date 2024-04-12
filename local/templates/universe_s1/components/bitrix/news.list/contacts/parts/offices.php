@@ -28,7 +28,8 @@ use intec\core\helpers\Html;
             <?php if (count($arSection['ITEMS']) <= 0) continue; ?>
             <div class="contacts-section">
                 <div class="contacts-section-title">
-                    <?= $arSection['NAME'] ?>
+                   <?= $arSection['NAME'] ?>
+					<?= $arSection["CODE"] ?>
                 </div>
                 <div class="contacts-offices-list">
                     <div class="contacts-offices-list-wrapper">
