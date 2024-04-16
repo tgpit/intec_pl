@@ -201,7 +201,6 @@
 }
 .widget.c-widget.c-widget-products-2 .widget-item-image-container {
   position: relative;
-  margin-bottom: 20px;
 }
 .widget.c-widget.c-widget-products-2 .widget-item-marks {
   position: absolute;
@@ -1188,7 +1187,7 @@
 }
 @media all and (max-width: 500px) {
   .widget.c-widget.c-widget-products-2 .widget-header + .widget-content {
-    margin-top: 16px;
+    margin-top: 5px;
   }
   .widget.c-widget.c-widget-products-2[data-columns-mobile="2"] .widget-item {
     margin: 1px 0 1px;

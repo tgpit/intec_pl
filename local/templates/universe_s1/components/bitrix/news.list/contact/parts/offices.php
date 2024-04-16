@@ -30,7 +30,7 @@ use intec\core\helpers\Html;
 				return $str;
 			}
 			$host = trim(getSubDomain($_SERVER['HTTP_HOST']));
-			echo $host;
+//			echo $host;
 			?>
         </div>
     <?php } ?>

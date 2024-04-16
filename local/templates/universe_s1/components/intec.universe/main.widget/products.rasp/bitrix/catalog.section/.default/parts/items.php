@@ -203,7 +203,7 @@ if ($arVisual['LINES'] !== null)
 						}
 			        ?>
 <!-- -------------===============================---------------- -->
-		<? $minpr = $v_p;
+		<?/* $minpr = $v_p;
         $maxpr = $b_p;
         $delta = $maxpr - $minpr;
         if (($delta > 0)&&($minpr > 0)) {
@@ -217,7 +217,7 @@ if ($arVisual['LINES'] !== null)
                               z-index: 100;
                               text-align: center;'>&nbsp;&nbsp;<b>Экономия: ".number_format($delta, 0, '.', ' ')." руб.</b>&nbsp;&nbsp;</div>";
 
-        }?>
+        }*/?>
 <!-- ----------------======================--------------------------------->
                     <?php if ($arItem['VISUAL']['TIMER']['SHOW']) { ?>
                         <div class="widget-item-section-timer">

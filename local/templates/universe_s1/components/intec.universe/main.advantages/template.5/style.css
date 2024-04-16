@@ -73,7 +73,7 @@
 }
 @media all and (max-width: 1000px) {
   .widget.c-advantages.c-advantages-template-5 .widget-header-custom + .widget-content {
-    margin-top: 70px;
+    margin-top: 5px;
   }
   .widget.c-advantages.c-advantages-template-5 .widget-header-custom {
     padding-right: 0;

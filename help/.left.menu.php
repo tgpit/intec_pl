@@ -8,6 +8,20 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
+		"Брэнды", 
+		"/help/brands/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вопрос - ответ", 
+		"/help/faq/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
 		"Таблица размеров", 
 		"/info/tablica_razmerov/", 
 		Array(), 

@@ -1,3 +1,0 @@
-<?php
-
-$MESS['C_NEWS_LIST_COLLECTIONS_LIST_1_TEMPLATE_SHOW_MORE'] = 'Подробнее';

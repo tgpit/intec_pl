@@ -16,8 +16,8 @@ use intec\core\io\Path;
 
 ?>
 <?= Html::beginTag('div', ['style' => array (
-  'margin-top' => '50px',
-  'margin-bottom' => '50px',
+  'margin-top' => '5px',
+  'margin-bottom' => '5px',
 )]) ?>
 <?php $APPLICATION->IncludeComponent('intec.universe:main.vk', 'template.2', array (
   'ACCESS_TOKEN' => '',

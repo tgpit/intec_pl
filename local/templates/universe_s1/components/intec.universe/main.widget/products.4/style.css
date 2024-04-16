@@ -275,7 +275,6 @@
 }
 .widget.c-widget.c-widget-products-4 .widget-item-image-container {
   position: relative;
-  margin-bottom: 22px;
 }
 .widget.c-widget.c-widget-products-4 .widget-item-image-container:first-child {
   margin-top: 21px;
@@ -1215,7 +1214,7 @@
 }
 @media all and (max-width: 500px) {
   .widget.c-widget.c-widget-products-4 .widget-header + .widget-content {
-    margin-top: 16px;
+    margin-top: 5px;
   }
   .widget.c-widget.c-widget-products-4[data-columns-mobile="2"] .widget-item {
     margin: 1px 0 1px;
@@ -1249,7 +1248,7 @@
     height: auto;
   }
   .widget.c-widget.c-widget-products-4[data-columns-mobile="2"] .widget-item-image-container {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
   }
   .widget.c-widget.c-widget-products-4[data-columns-mobile="2"] .widget-item-image {
     margin-bottom: 0;

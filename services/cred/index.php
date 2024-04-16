@@ -35,7 +35,7 @@ $APPLICATION->SetTitle("Рассрочка и кредит");
 <p>
 	 <?$APPLICATION->IncludeComponent(
 	"intec.universe:main.form",
-	"template.1",
+	"template.8",
 	Array(
 		"BACKGROUND_COLOR" => "#f4f4f4",
 		"BACKGROUND_IMAGE_USE" => "N",
@@ -49,7 +49,7 @@ $APPLICATION->SetTitle("Рассрочка и кредит");
 		"LAZYLOAD_USE" => "N",
 		"NAME" => "Рассчитать рассрочку и кредит",
 		"SETTINGS_USE" => "N",
-		"TEMPLATE" => "template.1",
+		"TEMPLATE" => "template.8",
 		"THEME" => "dark",
 		"TITLE" => "",
 		"VIEW" => "left"

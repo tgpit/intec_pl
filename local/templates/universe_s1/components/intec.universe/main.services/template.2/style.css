@@ -88,7 +88,7 @@
   padding: 14px 24px;
 }
 .widget.c-services.c-services-template-2 .widget-item-button-wrapper {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .widget.c-services.c-services-template-2 .widget-item-button-content {
   font-size: 10px;
@@ -159,7 +159,7 @@
   }
   .widget.c-services.c-services-template-2 .widget-item-text {
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
   }
   .widget.c-services.c-services-template-2 .widget-item-name {
     font-size: 20px;

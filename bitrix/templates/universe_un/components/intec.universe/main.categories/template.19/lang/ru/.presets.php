@@ -1,3 +1,0 @@
-<?php
-
-$MESS['PRESETS_CATEGORIES_TEMPLATE_19_PRESET_LIST_2'] = 'Список 2';

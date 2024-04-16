@@ -1,3 +1,0 @@
-<?php
-
-$MESS['C_MAIN_VK_TEMPLATE_1_TEMPLATE_URL_LIST_TEXT_DEFAULT'] = 'Все записи';

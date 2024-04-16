@@ -7,8 +7,8 @@ return [
             'name' => 'Тип 1',
             'properties' => [
                 'margin' => [
-                    'top' => ['value' => 50, 'measure' => 'px'],
-                    'bottom' => ['value' => 50, 'measure' => 'px']
+                    'top' => ['value' => 5, 'measure' => 'px'],
+                    'bottom' => ['value' => 5, 'measure' => 'px']
                 ]
             ],
             'component' => [
@@ -46,8 +46,8 @@ return [
             'name' => 'Тип 2',
             'properties' => [
                 'margin' => [
-                    'top' => ['value' => 50, 'measure' => 'px'],
-                    'bottom' => ['value' => 50, 'measure' => 'px']
+                    'top' => ['value' => 5, 'measure' => 'px'],
+                    'bottom' => ['value' => 5, 'measure' => 'px']
                 ]
             ],
             'component' => [
@@ -85,8 +85,8 @@ return [
             'name' => 'Тип 3',
             'properties' => [
                 'margin' => [
-                    'top' => ['value' => 50, 'measure' => 'px'],
-                    'bottom' => ['value' => 50, 'measure' => 'px']
+                    'top' => ['value' => 5, 'measure' => 'px'],
+                    'bottom' => ['value' => 5, 'measure' => 'px']
                 ]
             ],
             'component' => [

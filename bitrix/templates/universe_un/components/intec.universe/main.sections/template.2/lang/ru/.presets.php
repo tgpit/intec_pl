@@ -1,4 +1,0 @@
-<?php
-
-$MESS['PRESETS_SECTIONS_TEMPLATE_2_PRESET_LIST_1'] = 'Список 1';
-$MESS['PRESETS_SECTIONS_TEMPLATE_2_HEADER_TEXT'] = 'Популярные категории';

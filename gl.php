@@ -1,2 +1,2 @@
 <?
-$mDoman = 'pitland.swit.su';
+$mDoman = 'tgpit.ru';

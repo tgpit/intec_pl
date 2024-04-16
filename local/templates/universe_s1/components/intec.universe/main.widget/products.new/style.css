@@ -137,7 +137,6 @@
 }
 .widget.c-widget.c-widget-products-1 .widget-item-image-container {
   position: relative;
-  margin-bottom: 20px;
 }
 .widget.c-widget.c-widget-products-1 .widget-item-marks {
   position: absolute;
@@ -661,7 +660,7 @@
 .widget.c-widget.c-widget-products-1 .widget-item {
   position: relative;
   z-index: 1;
-  margin: 20px 0 30px;
+  margin: 5px 0 5px;
   padding: 0 6px;
 }
 .widget.c-widget.c-widget-products-1 .widget-item-wrapper {
@@ -1032,7 +1031,7 @@
     display: block;
   }
   .widget.c-widget.c-widget-products-1 .widget-header + .widget-content {
-    margin-top: 16px;
+    margin-top: 5px;
   }
   .widget.c-widget.c-widget-products-1[data-columns-mobile="2"] .owl-carousel .widget-item {
     margin-bottom: 24px;

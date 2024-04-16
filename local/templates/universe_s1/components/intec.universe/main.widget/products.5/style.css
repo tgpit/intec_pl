@@ -1042,7 +1042,7 @@
 }
 @media all and (max-width: 500px) {
   .widget.c-widget.c-widget-products-5 .widget-header + .widget-content {
-    margin-top: 16px;
+    margin-top: 5px;
   }
 }
 

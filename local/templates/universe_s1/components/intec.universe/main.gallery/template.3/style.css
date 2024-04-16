@@ -1,14 +1,14 @@
 .widget.c-gallery.c-gallery-template-3 .widget-tabs + .widget-tabs-content {
-  margin-top: 30px;
+  margin-top: 5px;
 }
 .widget.c-gallery.c-gallery-template-3 [data-indent=small] .widget-item {
   padding: 2px;
 }
 .widget.c-gallery.c-gallery-template-3 [data-indent=default] .widget-item {
-  padding: 6px;
+  padding: 2px;
 }
 .widget.c-gallery.c-gallery-template-3 [data-indent=big] .widget-item {
-  padding: 10px;
+  padding: 2px;
 }
 .widget.c-gallery.c-gallery-template-3 .widget-item-wrapper {
   cursor: pointer;

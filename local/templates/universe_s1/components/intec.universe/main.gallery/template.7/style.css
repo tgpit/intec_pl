@@ -1,14 +1,14 @@
 .widget.c-gallery.c-gallery-template-3 .widget-tabs + .widget-tabs-content {
-  margin-top: 30px;
+  margin-top: 5px;
 }
 .widget.c-gallery.c-gallery-template-3 [data-indent=small] .widget-item {
   padding: 2px;
 }
 .widget.c-gallery.c-gallery-template-3 [data-indent=default] .widget-item {
-  padding: 6px;
+  padding: 2px;
 }
 .widget.c-gallery.c-gallery-template-3 [data-indent=big] .widget-item {
-  padding: 10px;
+  padding: 2px;
 }
 .widget.c-gallery.c-gallery-template-3 .widget-item-wrapper {
   cursor: pointer;
@@ -196,7 +196,7 @@
   padding-top: 5px;
 }
 .widget.c-gallery.c-gallery-template-3 .widget-use-slider.widget-no-header .widget-content {
-  margin-top: 80px;
+  margin-top: 5px;
 }
 .widget.c-gallery.c-gallery-template-3 .widget-use-slider .widget-title.align-left, .widget.c-gallery.c-gallery-template-3 .widget-use-slider .widget-title.align-right,
 .widget.c-gallery.c-gallery-template-3 .widget-use-slider .widget-description.align-left,

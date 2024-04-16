@@ -1,4 +1,0 @@
-<?php
-
-$MESS['C_PHOTO_GALLERY_1_TOP_TEMPLATE'] = 'Шаблон';
-$MESS['C_PHOTO_GALLERY_1_TOP_CAPTION'] = 'Топ.';

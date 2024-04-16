@@ -1,3 +1,0 @@
-<?php
-
-$MESS['PRESETS_PRODUCTS_TEMPLATE_2_PRESET_TILES_2'] = 'Плитка 2';

@@ -4,8 +4,8 @@
 }
 .widget.c-about-ref.c-about-ref-template-1 .widget-content {
   position: relative;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #FFF;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,8 +93,8 @@
   max-height: 100%;
 }
 .widget.c-about-ref.c-about-ref-template-1[data-background=true] .widget-content {
-  padding-top: 155px;
-  padding-bottom: 155px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .widget.c-about-ref.c-about-ref-template-1[data-background=true] .widget-content[data-lazyload-use=true] {
   background-size: auto;
@@ -102,8 +102,8 @@
 }
 @media all and (max-width: 768px) {
   .widget.c-about-ref.c-about-ref-template-1 .widget-content {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .widget.c-about-ref.c-about-ref-template-1 .widget-content-text {
     width: auto;
@@ -112,8 +112,8 @@
     display: none;
   }
   .widget.c-about-ref.c-about-ref-template-1[data-background=true] .widget-content {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 @media all and (max-width: 500px) {

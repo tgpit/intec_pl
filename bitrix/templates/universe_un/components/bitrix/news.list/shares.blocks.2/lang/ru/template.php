@@ -1,3 +1,0 @@
-<?php
-
-$MESS['C_NEWS_LIST_SHARES_BLOCKS_2_DISCOUNT_PREFIX'] = 'Скидка';

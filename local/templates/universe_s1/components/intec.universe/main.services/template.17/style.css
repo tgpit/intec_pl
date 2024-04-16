@@ -67,8 +67,8 @@
   transform: translate(-50%, -50%);
 }
 .widget.c-services.c-services-template-17 .widget-item-text {
-  padding-top: 26px;
-  padding-right: 16px;
+  padding-top: 5px;
+  padding-right: 5px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -321,7 +321,7 @@
     height: 100px;
   }
   .widget.c-services.c-services-template-17 .widget-item-text {
-    padding-top: 16px;
+    padding-top: 5px;
   }
   .widget.c-services.c-services-template-17 .widget-item-name {
     font-size: 14px;

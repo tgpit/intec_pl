@@ -53,7 +53,7 @@ return [
             'vk',
             'instagram',
             'news',
-            'contacts'
+            'contacts',
         ])),
         'zone' => 'default'
     ], [

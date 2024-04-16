@@ -57,7 +57,7 @@
 }
 .widget.c-widget.c-widget-products-1 .widget-item-wrapper {
   position: relative;
-  padding: 25px;
+  padding: 5px;
 }
 .widget.c-widget.c-widget-products-1 .widget-item-wrapper:hover .widget-item-action-container-wrap {
   display: block;
@@ -137,7 +137,6 @@
 }
 .widget.c-widget.c-widget-products-1 .widget-item-image-container {
   position: relative;
-  margin-bottom: 20px;
 }
 .widget.c-widget.c-widget-products-1 .widget-item-marks {
   position: absolute;
@@ -661,7 +660,7 @@
 .widget.c-widget.c-widget-products-1 .widget-item {
   position: relative;
   z-index: 1;
-  margin: 20px 0 30px;
+  margin: 5px 0 5px;
   padding: 0 6px;
 }
 .widget.c-widget.c-widget-products-1 .widget-item-wrapper {
@@ -938,7 +937,7 @@
 }
 @media all and (max-width: 768px) {
   .widget.c-widget.c-widget-products-1 .widget-item {
-    margin-bottom: 24px;
+    margin-bottom: 5px;
   }
   .widget.c-widget.c-widget-products-1 .widget-footer[data-type=tabs] {
     display: none;
@@ -1032,24 +1031,24 @@
     display: block;
   }
   .widget.c-widget.c-widget-products-1 .widget-header + .widget-content {
-    margin-top: 16px;
+    margin-top: 5px;
   }
   .widget.c-widget.c-widget-products-1[data-columns-mobile="2"] .owl-carousel .widget-item {
-    margin-bottom: 24px;
+    margin-bottom: 5px;
   }
   .widget.c-widget.c-widget-products-1[data-columns-mobile="2"] .widget-item {
     margin: 1px 0 1px;
     padding: 0 1px;
   }
   .widget.c-widget.c-widget-products-1[data-columns-mobile="2"] .widget-item[data-expanded=true] .widget-item-wrapper {
-    padding: 25px;
+    padding: 5px;
   }
   .widget.c-widget.c-widget-products-1[data-columns-mobile="2"] .widget-item-price {
     overflow: hidden;
   }
   .widget.c-widget.c-widget-products-1[data-columns-mobile="2"] .widget-item-image {
     padding-top: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .widget.c-widget.c-widget-products-1[data-columns-mobile="2"] .widget-item-substrate,
 .widget.c-widget.c-widget-products-1[data-columns-mobile="2"] .widget-item-vote,

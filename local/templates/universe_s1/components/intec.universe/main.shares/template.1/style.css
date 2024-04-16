@@ -86,10 +86,10 @@
   background-color: #F2F2F2;
 }
 .widget.c-shares.c-shares-template-1 .widget-item-text {
-  padding: 24px;
+  padding: 5px;
 }
 .widget.c-shares.c-shares-template-1 .widget-item-timer {
-  margin-bottom: 16px;
+  margin-bottom: 5px;
 }
 .widget.c-shares.c-shares-template-1 .widget-item-period {
   font-size: 12px;
@@ -194,9 +194,9 @@
     border-radius: 2px;
   }
   .widget.c-shares.c-shares-template-1 .widget-item-text {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 32px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 5px;
   }
 }
 

@@ -1,5 +1,0 @@
-<?php
-
-$MESS['C_MAIN_FAQ_TEMPLATE_2_THEME'] = 'Тема';
-$MESS['C_MAIN_FAQ_TEMPLATE_2_THEME_LIGHT'] = 'Светлая';
-$MESS['C_MAIN_FAQ_TEMPLATE_2_THEME_DARK'] = 'Темная';
