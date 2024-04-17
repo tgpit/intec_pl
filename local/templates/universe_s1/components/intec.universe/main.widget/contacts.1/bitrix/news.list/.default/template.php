@@ -11,6 +11,7 @@ use intec\core\helpers\Html;
 $this->setFrameMode(true);
 
 $arVisual = $arResult['VISUAL'];
+//$arVisual["REGIONALITY"]['USE'] = true;
 
 $sTemplateId = Html::getUniqueId(null, Component::getUniqueId($this));
 
@@ -32,11 +33,11 @@ $sTemplateId = Html::getUniqueId(null, Component::getUniqueId($this));
 							if ($mDoman == $_SERVER['HTTP_HOST']){
 								echo '<div class="widget-items-section intec-grid-item intec-grid-item-a-stretch intec-grid-item-768-1">';
 							 	include(__DIR__.'/parts/items.php');
-							}else {
-								echo "<div>";
+								echo "</div>";
 							}
+//var_dump($arVisual["REGIONALITY"]);
 						  ?>
-                            </div>
+
                         </div>
 						<? 	if ($mDoman == $_SERVER['HTTP_HOST']){
 							echo '<div class="widget-navigation" data-role="contacts.slider.navigation"></div>

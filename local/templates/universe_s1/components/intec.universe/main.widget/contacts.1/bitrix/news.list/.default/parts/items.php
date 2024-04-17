@@ -9,6 +9,10 @@ use intec\core\helpers\Html;
  */
 
 ?>
+<?/*<div>
+var_dump($arResult['ITEMS']);
+</div>
+*/?>
 <div class="widget-items-list" data-role="contacts">
     <?= Html::beginTag('div', [
         'class' => Html::cssClassFromArray([
@@ -54,6 +58,7 @@ use intec\core\helpers\Html;
                         <div class="widget-item-information">
                             <?php if ($arItem['DATA']['PHONE']['SHOW']) { ?>
                                 <div class="widget-item-information-item">
+									<?// var_dump($arItem);?>
                                     <?= $arItem['DATA']['PHONE']['VALUE'] ?>
                                 </div>
                             <?php } ?>

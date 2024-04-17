@@ -5,7 +5,7 @@
  */
 @ini_set('upload_max_size' , '256M' );
 
-$APPLICATION->SetTitle("Universe");
+$APPLICATION->SetTitle("PITLAND");
 
 ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php") ?>

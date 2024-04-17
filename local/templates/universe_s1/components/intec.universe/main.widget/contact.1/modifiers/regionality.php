@@ -12,7 +12,7 @@ use intec\core\helpers\ArrayHelper;
  */
 
 $arParams = ArrayHelper::merge([
-    'REGIONALITY_USE' => 'N'
+    'REGIONALITY_USE' => 'Y'
 ], $arParams);
 
 $arResult['REGIONALITY'] = [

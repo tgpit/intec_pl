@@ -30,7 +30,6 @@ use intec\core\helpers\Html;
 				return $str;
 			}
 			$host = trim(getSubDomain($_SERVER['HTTP_HOST']));
-//			echo $host;
 			?>
         </div>
     <?php } ?>
@@ -38,14 +37,10 @@ use intec\core\helpers\Html;
         <?php foreach($arResult['SECTIONS'] as $arSection) { ?>
             <? if (count($arSection['ITEMS']) <= 0) continue; ?>
 			<? if (!(trim($arSection["CODE"]) == $host)) continue; ?>
-		<? if (trim($arSection["CODE"])=='ekaterenburg'){
-			//		var_dump($arResult);
-				}
-         ?>
             <div class="contacts-section">
                 <div class="contacts-section-title">
                    <?= $arSection['NAME'] ?>
-					<?= $arSection["CODE"] ?>
+					<?//= $arSection["CODE"] ?>
                 </div>
                 <div class="contacts-offices-list">
                     <div class="contacts-offices-list-wrapper">
@@ -107,7 +102,7 @@ use intec\core\helpers\Html;
                                                                         <path d="M6.66669 6.63666C6.66669 7.37332 7.26335 7.96999 8.00002 7.96999V7.96999C8.73669 7.96999 9.33335 7.37332 9.33335 6.63666V6.61199C9.33335 5.87532 8.73669 5.27866 8.00002 5.27866V5.27866C7.26335 5.27866 6.66669 5.87532 6.66669 6.61199" stroke="#0065FF" stroke-width="1.4468" stroke-linecap="round" stroke-linejoin="round"/>
                                                                     </svg>
                                                                     <div class="contacts-information-text">
-                                                                        <?//= Loc::getMessage('C_NEWS_LIST_CONTACTS_LIST_OFFICES_ADDRESS') ?>:
+                                                                        <?= Loc::getMessage('C_NEWS_LIST_CONTACTS_LIST_OFFICES_ADDRESS') ?>:
                                                                     </div>
                                                                 </div>
                                                                 <div class="contacts-information-content">
@@ -175,15 +170,6 @@ use intec\core\helpers\Html;
 															echo '</span>';
 			                                                echo '</a>';
 														} ?>
-
-
-
-
-																				<!--
-                                                                            <a class="intec-cl-text-hover" href="tel:<?= $arItem['DATA']['PHONE']['VALUE'] ?>">
-                                                                                <?= $arItem['DATA']['PHONE']['DISPLAY'] ?>
-                                                                            </a>    -->
-
                                                                         </div>
                                                                     <?php } ?>
                                                                     <?php if (!empty($arItem['DATA']['EMAIL'])) { ?>
