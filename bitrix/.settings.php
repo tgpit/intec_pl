@@ -49,7 +49,7 @@ return array (
 //        'database' => 'pitland_bx1',
 //        'login' => 'pitland_bx1',
 //        'password' => '8k4W^XNf%',
-        'database' => 'btxtgpit1',
+        'database' => 'btxtgpit',
 //        'database' => 'pitland_int',
         'login' => 'pitland_int',
         'password' => '10923874_Sw',

@@ -120,7 +120,7 @@ use intec\core\helpers\Html;
                                     </div>
                                 </div>
                             <?php } ?>
-                        </div>
+                        </div><br>
                         <? $APPLICATION->IncludeComponent(
                             "intec.universe:main.form",
                             "template.7",

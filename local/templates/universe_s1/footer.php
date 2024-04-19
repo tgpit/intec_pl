@@ -41,7 +41,11 @@ if (empty($template))
   margin-bottom: 0px !important;
   margin-top: 0px !important;
 }
-
+.catalog-element-gallery-pictures-slider-item {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  height: 320px !important;
+}
 
 .bld {
   font-style: bold;
