@@ -20,6 +20,7 @@ use \Bitrix\Main\Localization\Loc,
 	\Acrit\Core\Log,
 	\Acrit\Core\Export\ExportDataTable as ExportData,
 	\Acrit\Core\Export\Plugins\VkHelpers\PhotosTable as Photos,
+	\Acrit\Core\Export\Plugins\VkHelpers\Cache,
 	\Gregwar\Image\Image;
 
 Loc::loadMessages(__FILE__);
@@ -35,6 +36,7 @@ class VkGoods extends Vk {
 	 */
 	public function includeClasses(){
 		require_once __DIR__.'/lib/photos.php';
+		require_once __DIR__.'/lib/cache.php';
 		require_once __DIR__.'/include/db_table_create.php';
 	}
 
@@ -962,9 +964,9 @@ class VkGoods extends Vk {
                     // Check errors
 					if (isset($arRes['error']) && is_array($arRes['error'])) {
 						$strErrorMessage = $arRes['error']['error_msg'].' ['.$arRes['error']['error_code'].']';
-						Log::getInstance($this->strModuleId)->add('Error adding item '.$arItemData['iblock_item_id'].': '.$strErrorMessage, $intProfileID);
 						// If error 100 than delete photos of item from Photos table
 						if ($arRes['error']['error_code'] == 100) {
+							Log::getInstance($this->strModuleId)->add('Error adding item '.$arItemData['iblock_item_id'].': '.$strErrorMessage, $intProfileID, true);
 							$arVKPhotoIDs = explode(',', $arItemData['photo_ids']);
 							if ($arItemData['main_photo_id']) {
 								$arVKPhotoIDs[] = $arItemData['main_photo_id'];
@@ -986,6 +988,9 @@ class VkGoods extends Vk {
 								Log::getInstance($this->strModuleId)->add('Error repeat adding item ' . $arItemData['iblock_item_id'] . ': ' . $strErrorMessage, $intProfileID);
 							}
 						}
+                        else {
+	                        Log::getInstance($this->strModuleId)->add('Error adding item '.$arItemData['iblock_item_id'].': '.$strErrorMessage, $intProfileID);
+                        }
 					}
 					if (isset($arRes['response'])) {
                         if ($strVkGoodAction == 'market.add') {
@@ -1169,6 +1174,7 @@ class VkGoods extends Vk {
     protected function stepExport_delItemsDuplicates($arChangedIDs, $strVkOwnerId, $intProfileID) {
 	    $arDelIDs = [];
         $arVKAllIDs = $this->getGroupItemsIDs(true, true, $strVkOwnerId, $intProfileID);
+	    Log::getInstance($this->strModuleId)->add('(stepExport_delItemsDuplicates) arVKAllIDs: ' . print_r($arVKAllIDs, true), $intProfileID, true);
         foreach ($arVKAllIDs as $arItemsIds) {
             if (count($arItemsIds) > 1) {
                 $has_changed = false;
@@ -1186,7 +1192,8 @@ class VkGoods extends Vk {
                 }
             }
         }
-        foreach ($arDelIDs as $item_id) {
+	    Log::getInstance($this->strModuleId)->add('(stepExport_delItemsDuplicates) arDelIDs: ' . print_r($arDelIDs, true), $intProfileID, true);
+	    foreach ($arDelIDs as $item_id) {
             $arRes = $this->request('market.delete', [
                 'owner_id' => $strVkOwnerId,
                 'item_id' => $item_id,
@@ -1261,7 +1268,7 @@ class VkGoods extends Vk {
 		return $arItems;
 	}*/
 
-	protected function vkGetItems($strVkOwnerId, $intProfileID, $arAddParams = false, $intCountPerTime = 200, $bParamsStatus=0, $bParamsExtended=false) {
+	public function vkGetItems($strVkOwnerId, $intProfileID, $arAddParams = false, $intCountPerTime = 200, $bParamsStatus=0, $bParamsExtended=false) {
 		$list = [];
 		$arReqParams = [
 			'owner_id'      => $strVkOwnerId,
@@ -1278,11 +1285,11 @@ class VkGoods extends Vk {
 		if ($arAddParams) {
 			$arReqParams = array_merge($arAddParams, $arReqParams);
 		}
-		$arRes = $this->request('market.search', $arReqParams, $intProfileID);
+		$arRes = $this->request('market.get', $arReqParams, $intProfileID);
 		$count = $arRes['response']['count'];
 		for ($i = 0; $i < $count; $i += $intCountPerTime) {
 			$arReqParams['offset'] = $i;
-			$arRes = $this->request('market.search', $arReqParams, $intProfileID);
+			$arRes = $this->request('market.get', $arReqParams, $intProfileID);
             $arItems = isset($arRes['response']['variants']) ? $arRes['response']['variants'] : $arRes['response']['items'];
 			if (!empty($arItems)) {
 				foreach ($arItems as $arItem) {
@@ -1302,39 +1309,42 @@ class VkGoods extends Vk {
 
 	public function getGroupItemsIDs($assoc, $all_variants, $strVkOwnerId, $intProfileID, $arAddParams = false, &$arVkVarGroupsById = []) {
 		$ids = [];
-        // Get items
-		$items = array_merge(
-			$this->vkGetItems($strVkOwnerId, $intProfileID, $arAddParams),
-			$this->vkGetItems($strVkOwnerId, $intProfileID, $arAddParams, 200, 2)
-		);
-        // Process items
-		foreach ($items as $item) {
-			// Add ID
-			if ($assoc) {
-				$search_string = $item['sku'] ?: trim($item['title']);
-				if ($all_variants) {
-					$ids[$search_string][] = $item['id'];
-				} else {
-					$ids[$search_string] = $item['id'];
-				}
-			} else {
-				$ids[] = $item['id'];
-			}
-			// Add variants_grouping_id
-			if (isset($arVkVarGroupsById) && isset($item['variant_id'])) {
-				$arVkVarGroupsById[$item['id']] = $item['variant_id'];
-			}
+		// Get from cache
+		if (Cache::hasValue('group_items_ids', $arAddParams) && Cache::hasValue('var_groups_by_id', $arAddParams)) {
+			$ids = Cache::get('group_items_ids', $arAddParams);
+			$arVkVarGroupsById = Cache::get('var_groups_by_id', $arAddParams);
 		}
+        else {
+	        // Get items
+	        $items = $this->vkGetItems($strVkOwnerId, $intProfileID, $arAddParams);
+	        // Process items
+	        foreach ($items as $item) {
+		        // Add ID
+		        if ($assoc) {
+			        $search_string = $item['sku'] ?: trim($item['title']);
+			        if ($all_variants) {
+				        $ids[$search_string][] = $item['id'];
+			        } else {
+				        $ids[$search_string] = $item['id'];
+			        }
+		        } else {
+			        $ids[] = $item['id'];
+		        }
+		        // Add variants_grouping_id
+		        if (isset($arVkVarGroupsById) && isset($item['variant_id'])) {
+			        $arVkVarGroupsById[$item['id']] = $item['variant_id'];
+		        }
+	        }
+	        Cache::add('group_items_ids', $ids, $arAddParams);
+            Cache::add('var_groups_by_id', $arVkVarGroupsById, $arAddParams);
+        }
 		return $ids;
 	}
 
 	public function getGroupItems($assoc, $all_variants, $extended, $strVkOwnerId, $intProfileID) {
         $list = [];
 		// Get items
-		$items = array_merge(
-			$this->vkGetItems($strVkOwnerId, $intProfileID, false, 200, 0, $extended),
-			$this->vkGetItems($strVkOwnerId, $intProfileID, false, 200, 2, $extended)
-		);
+		$items = $this->vkGetItems($strVkOwnerId, $intProfileID, false, 200, 0, $extended);
 		// Process items
 		foreach ($items as $item) {
 			// Add ID
@@ -1531,7 +1541,8 @@ class VkGoods extends Vk {
 
     // Update albums photos
     protected function stepExport_updateAlbumsPhoto($arAlbums, $strVkGroupId, $strVkOwnerId, $intProfileID) {
-        if (!empty($arAlbums)) {
+	    Log::getInstance($this->strModuleId)->add('(stepExport_updateAlbumsPhoto) arAlbums: ' . print_r($arAlbums, true), $intProfileID, true);
+	    if (!empty($arAlbums)) {
             foreach ($arAlbums as $album_id => $arAlbum) {
                 if ($arAlbum['photo']) {
                     $arParams = [
@@ -1686,11 +1697,11 @@ class VkGoods extends Vk {
 	 * Utilities
 	 */
 
-    protected function getGroupId() {
+	public function getGroupId() {
 	    return $this->arParams['GROUP_ID'];
     }
 
-    protected function getOwnerId() {
+	public function getOwnerId() {
         $result = false;
 	    $strVkGroupId = $this->getGroupId();
         if ($strVkGroupId) {

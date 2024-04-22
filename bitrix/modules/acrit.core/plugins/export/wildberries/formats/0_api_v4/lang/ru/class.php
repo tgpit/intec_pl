@@ -27,6 +27,9 @@ $MESS[$strLang.'EXPORT_STOCKS_CHECKBOX'] = 'Выгружать остатки';
 	Название склада - произвольное название для удобства управления в списке полей.';
 	$MESS[$strLang.'FIELD_STOCK'] = 'Остаток «#STORE_NAME#» [#STORE_ID#]';
 	$MESS[$strLang.'FIELD_STOCK_DESCRIPTION'] = 'Укажите здесь значение остатка для выбранного склада.';
+	$MESS[$strLang.'EXPORT_STOCKS_ADD'] = 'Добавить';
+	$MESS[$strLang.'EXPORT_STOCKS_DELETE'] = 'Удалить';
+	$MESS[$strLang.'EXPORT_STOCKS_DELETE_CONFIRM'] = 'Действительно удалить выбранный склад?';
 
 # Settings: export prices by 1
 $MESS[$strLang.'EXPORT_PRICES_BY_1_CHECKBOX'] = 'Выгружать цены по одной (вместо 100)';

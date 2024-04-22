@@ -42,45 +42,87 @@ class Fetcher extends Source\FetcherSkeleton
 	public function fields(Source\Context $context) : array
 	{
 		return $this->once('fields', function() use ($context) {
-			global $USER_FIELD_MANAGER;
+			return array_merge(
+				$this->commonFields(),
+				$this->userFields($context)
+			);
+		});
+	}
 
-			$result = [];
-			$factory = new Source\Field\Factory();
-			$userFields = $USER_FIELD_MANAGER->GetUserFields('IBLOCK_' . $context->iblockId() . '_SECTION', 0, LANGUAGE_ID);
+	protected function commonFields() : array
+	{
+		return [
+			new Source\Field\NumberField([
+				'ID' => 'ID',
+				'NAME' => 'ID',
+				'FILTERABLE' => false,
+			]),
+			new Source\Field\StringField([
+				'ID' => 'XML_ID',
+				'NAME' => 'XML_ID',
+				'FILTERABLE' => false,
+			]),
+			new Source\Field\StringField([
+				'ID' => 'NAME',
+				'NAME' => self::getLocale('FIELD_NAME'),
+				'FILTERABLE' => false,
+			]),
+			new Source\Field\StringField([
+				'ID' => 'DESCRIPTION',
+				'NAME' => self::getLocale('FIELD_DESCRIPTION'),
+				'FILTERABLE' => false,
+			]),
+			new Source\Field\FileField([
+				'ID' => 'PICTURE',
+				'NAME' => self::getLocale('FIELD_PICTURE'),
+				'FILTERABLE' => false,
+			]),
+			new Source\Field\FileField([
+				'ID' => 'DETAIL_PICTURE',
+				'NAME' => self::getLocale('FIELD_DETAIL_PICTURE'),
+				'FILTERABLE' => false,
+			]),
+		];
+	}
 
-			foreach ($userFields as $userField)
+	protected function userFields(Source\Context $context) : array
+	{
+		$result = [];
+		$factory = new Source\Field\Factory();
+		$userFields = $this->iblockUserFields($context->iblockId());
+
+		foreach ($userFields as $userField)
+		{
+			$userClassName = $userField['USER_TYPE']['CLASS_NAME'] ?? null;
+			$commonField = [
+				'ID' => $userField['FIELD_NAME'],
+				'NAME' => sprintf('[%s] %s', $userField['FIELD_NAME'], $userField['EDIT_FORM_LABEL']),
+				'TYPE' => $this->typeMap[$userField['USER_TYPE_ID']] ?? 'S',
+				'FILTERABLE' => false,
+			];
+
+			if ($userClassName !== null && class_exists($userClassName) && method_exists($userClassName, 'avitoExportFeedFields'))
 			{
-				$userClassName = $userField['USER_TYPE']['CLASS_NAME'] ?? null;
-				$commonField = [
-					'ID' => $userField['FIELD_NAME'],
-					'NAME' => sprintf('[%s] %s', $userField['FIELD_NAME'], $userField['EDIT_FORM_LABEL']),
-					'TYPE' => $this->typeMap[$userField['USER_TYPE_ID']] ?? 'S',
-					'FILTERABLE' => false,
-				];
+				$embeddedFields = $userClassName::avitoExportFeedFields($userField);
 
-				if ($userClassName !== null && class_exists($userClassName) && method_exists($userClassName, 'avitoExportFeedFields'))
+				if (!is_array($embeddedFields)) { continue; }
+
+				foreach ($embeddedFields as $embeddedField)
 				{
-					$embeddedFields = $userClassName::avitoExportFeedFields($userField);
+					$field = $embeddedField + $commonField;
+					$field['ID'] = $commonField['ID'] . '.' . $embeddedField['ID'];
+					$field['NAME'] = $commonField['NAME'] . sprintf(' (%s)', $embeddedField['TITLE']);
 
-					if (!is_array($embeddedFields)) { continue; }
-
-					foreach ($embeddedFields as $embeddedField)
-					{
-						$field = $embeddedField + $commonField;
-						$field['ID'] = $commonField['ID'] . '.' . $embeddedField['ID'];
-						$field['NAME'] = $commonField['NAME'] . sprintf(' (%s)', $embeddedField['TITLE']);
-
-						$result[] = $factory->make($field);
-					}
-				}
-				else
-				{
-					$result[] = $factory->make($commonField);
+					$result[] = $factory->make($field);
 				}
 			}
+			else
+			{
+				$result[] = $factory->make($commonField);
+			}
+		}
 
-			return $result;
-		});
+		return $result;
 	}
 
 	public function extend(array $fields, Data\SourceSelect $sources, Context $context) : void
@@ -133,7 +175,7 @@ class Fetcher extends Source\FetcherSkeleton
 
 	protected function usedSections(array $primarySections, array $linkedSections) : array
 	{
-		$map = $primarySections;
+		$map = array_flip($primarySections);
 
 		foreach ($linkedSections as $linked)
 		{
@@ -243,7 +285,7 @@ class Fetcher extends Source\FetcherSkeleton
 								continue;
 							}
 
-							$result[$targetId][$name] = $value;
+							$result[$targetId][$name] = $this->fieldDisplayValue($name, $value, $iblockId);
 						}
 
 						if ($parentId > 0 && !$isAllFilled && !isset($fetched[$parentId]))
@@ -271,10 +313,7 @@ class Fetcher extends Source\FetcherSkeleton
 
 	protected function extendEmbeddedValues(array $sectionValues, int $iblockId, array $embeddedMap) : array
 	{
-		global $USER_FIELD_MANAGER;
-
-		$entityType = 'IBLOCK_' . $iblockId . '_SECTION';
-		$userFields = $USER_FIELD_MANAGER->GetUserFields($entityType, 0, LANGUAGE_ID);
+		$userFields = $this->iblockUserFields($iblockId);
 
 		foreach ($sectionValues as &$values)
 		{
@@ -311,5 +350,52 @@ class Fetcher extends Source\FetcherSkeleton
 		$elementValues = Utils\ArrayHelper::column($siblings, Source\Registry::IBLOCK_FIELD);
 
 		return Utils\ArrayHelper::column($elementValues, 'IBLOCK_SECTION_ID');
+	}
+
+	protected function fieldDisplayValue(string $name, $value, int $iblockId)
+	{
+		if (empty($value)) { return $value; }
+
+		if ($name === 'PICTURE' || $name === 'DETAIL_PICTURE')
+		{
+			return \CFile::GetPath($value);
+		}
+
+		if (mb_strpos($name, 'UF_') === 0)
+		{
+			$userField = $this->iblockUserFields($iblockId)[$name] ?? null;
+
+			if ($userField === null) { return $value; }
+
+			if ($userField['USER_TYPE_ID'] === 'file')
+			{
+				if ($userField['MULTIPLE'] === 'Y')
+				{
+					$query = \CFile::GetList([], ['@ID' => $value]);
+
+					$result = [];
+					while ($row = $query->Fetch())
+					{
+						$result[] = \CFile::GetFileSRC($row);
+					}
+				}
+				else
+				{
+					$result = \CFile::GetPath($value);
+				}
+
+				return $result;
+			}
+		}
+
+		return $value;
+	}
+
+	protected function iblockUserFields(int $iblockId) : array
+	{
+		return $this->once('userFields', function ($iblockId) {
+			global $USER_FIELD_MANAGER;
+			return $USER_FIELD_MANAGER->GetUserFields('IBLOCK_' . $iblockId . '_SECTION', 0, LANGUAGE_ID);
+		}, $iblockId);
 	}
 }

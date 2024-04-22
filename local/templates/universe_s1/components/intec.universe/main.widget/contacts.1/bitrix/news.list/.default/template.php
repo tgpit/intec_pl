@@ -35,7 +35,6 @@ $sTemplateId = Html::getUniqueId(null, Component::getUniqueId($this));
 							 	include(__DIR__.'/parts/items.php');
 								echo "</div>";
 							}
-//var_dump($arVisual["REGIONALITY"]);
 						  ?>
 
                         </div>

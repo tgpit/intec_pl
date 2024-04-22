@@ -202,6 +202,7 @@
 			<Model name="SYG5445THBES 560C-10"></Model>
 			<Model name="SYG5450THB 560C-10"></Model>
 			<Model name="SYM5449THBF 560C-10"></Model>
+			<Model name="SYM5463THBFB 620C-10A"></Model>
 			<Model name="SYM5538THB"></Model>
 			<Model name="SYM5538THB 670C-10C10"></Model>
 			<Model name="SYM5540THBF"></Model>
@@ -226,6 +227,7 @@
 			<Model name="SP 1800"></Model>
 		</Make>
 		<Make name="Sermac">
+			<Model name="5RZ5"></Model>
 			<Model name="5Z"></Model>
 		</Make>
 		<Make name="Volvo">
@@ -248,6 +250,7 @@
 			<Model name="XZJ5413THB"></Model>
 		</Make>
 		<Make name="Xanjer">
+			<Model name="38-5RZ"></Model>
 			<Model name="63-6RZ"></Model>
 		</Make>
 		<Make name="Yugong">
@@ -823,6 +826,7 @@
 			<Model name="F3000"></Model>
 			<Model name="SX5234GJBBS384"></Model>
 			<Model name="SX5255 GR 3804B"></Model>
+			<Model name="SX5255GJBJR404"></Model>
 			<Model name="SX5256GJBDR384"></Model>
 			<Model name="SX5258GJB6R384"></Model>
 			<Model name="SX5258GJBDR384"></Model>
@@ -1563,6 +1567,7 @@
 		</Make>
 		<Make name="Виннеръ">
 			<Model name="SDV-5"></Model>
+			<Model name="Сколот 3.5"></Model>
 		</Make>
 		<Make name="ДОРМАШ">
 			<Model name="А122Б"></Model>
@@ -1750,6 +1755,7 @@
 			<Model name="BM 331 HD"></Model>
 		</Make>
 		<Make name="CAT">
+			<Model name="AF555E"></Model>
 			<Model name="AP255E"></Model>
 			<Model name="AP355F"></Model>
 			<Model name="AP600"></Model>
@@ -1757,6 +1763,12 @@
 			<Model name="AP655D"></Model>
 			<Model name="AP655F"></Model>
 			<Model name="AP755"></Model>
+		</Make>
+		<Make name="CM">
+			<Model name="F 180T"></Model>
+		</Make>
+		<Make name="Curb Fox">
+			<Model name="5000"></Model>
 		</Make>
 		<Make name="Demag">
 			<Model name="DF 115 P"></Model>
@@ -1892,6 +1904,7 @@
 			<Model name="SAP90EC"></Model>
 			<Model name="SSP100C-8"></Model>
 			<Model name="SSP130C-10"></Model>
+			<Model name="SSP80C-8HE2"></Model>
 			<Model name="SSP80C-8SE1"></Model>
 			<Model name="SSP80C-8SE2"></Model>
 			<Model name="SSP90C-8"></Model>
@@ -2560,6 +2573,7 @@
 			<Model name="Luffing 710 HC-L 32/64 Litronic"></Model>
 		</Make>
 		<Make name="LiuGong">
+			<Model name="JHT6518H-10"></Model>
 			<Model name="PT7025A-12"></Model>
 		</Make>
 		<Make name="MTC">
@@ -2723,6 +2737,7 @@
 			<Model name="125"></Model>
 			<Model name="160"></Model>
 			<Model name="180"></Model>
+			<Model name="200"></Model>
 			<Model name="250"></Model>
 			<Model name="40A"></Model>
 			<Model name="63"></Model>
@@ -3651,6 +3666,7 @@
 		<Make name="Sany">
 			<Model name="HBT5008C-6Y"></Model>
 			<Model name="HBT50C-1413 III"></Model>
+			<Model name="HBT6013C-5"></Model>
 			<Model name="HBT6013C-5S"></Model>
 			<Model name="HBT6016C-5S"></Model>
 			<Model name="HBT60C"></Model>
@@ -3864,6 +3880,7 @@
 		</Make>
 		<Make name="Mitsubishi Fuso">
 			<Model name="Canter"></Model>
+			<Model name="Fighter"></Model>
 		</Make>
 		<Make name="Rusman">
 			<Model name="SA050"></Model>
@@ -4043,6 +4060,10 @@
 		</Make>
 		<Make name="Better Drilling Machinery">
 			<Model name="FYX-180"></Model>
+		</Make>
+		<Make name="Bohwa">
+			<Model name="CDH-1300"></Model>
+			<Model name="UDS-600"></Model>
 		</Make>
 		<Make name="Boramtech">
 			<Model name="BRT 20 CFA"></Model>
@@ -4482,6 +4503,7 @@
 		</Make>
 		<Make name="Алтайгеомаш">
 			<Model name="УКБ-5С"></Model>
+			<Model name="УКБ-5СТ-Э"></Model>
 		</Make>
 		<Make name="Амурский металлист">
 			<Model name="БС-3"></Model>
@@ -4726,6 +4748,7 @@
 		<Make name="СТРОЙДОРМАШ Алапаевск">
 			<Model name="БГМ-1"></Model>
 			<Model name="УРБ-2М"></Model>
+			<Model name="УРБ-41"></Model>
 		</Make>
 		<Make name="Сибирь-Техника">
 			<Model name="ПБУ-4Т"></Model>
@@ -5220,6 +5243,10 @@
 			<Model name="QUY650"></Model>
 			<Model name="QUY750"></Model>
 			<Model name="QUY80A"></Model>
+		</Make>
+		<Make name="HENAN">
+			<Model name="SPT 299"></Model>
+			<Model name="SPT 499"></Model>
 		</Make>
 		<Make name="HengWang">
 			<Model name="HW-300"></Model>
@@ -5827,6 +5854,9 @@
 			<Model name="SCM2000C-8S"></Model>
 			<Model name="SCM500C-8"></Model>
 		</Make>
+		<Make name="Stavostroj">
+			<Model name="SFS 100"></Model>
+		</Make>
 		<Make name="Terex">
 			<Model name="PR600"></Model>
 		</Make>
@@ -5867,6 +5897,7 @@
 			<Model name="W 35 RI"></Model>
 			<Model name="W 50"></Model>
 			<Model name="W 50 DC"></Model>
+			<Model name="W 50 R"></Model>
 			<Model name="W 500"></Model>
 		</Make>
 		<Make name="XCMG">
@@ -5908,6 +5939,7 @@
 			<Model name="KVV 13D"></Model>
 		</Make>
 		<Make name="ABG">
+			<Model name="DD 74"></Model>
 			<Model name="Puma"></Model>
 		</Make>
 		<Make name="Ammann">
@@ -6155,6 +6187,7 @@
 			<Model name="BW 900-50"></Model>
 		</Make>
 		<Make name="CASE">
+			<Model name="1107FXD"></Model>
 			<Model name="1110-EX-D"></Model>
 			<Model name="450DX"></Model>
 		</Make>
@@ -6216,6 +6249,7 @@
 			<Model name="CC150C-2"></Model>
 			<Model name="CC150CW"></Model>
 			<Model name="CC2200"></Model>
+			<Model name="CC222HF"></Model>
 			<Model name="CC224HF"></Model>
 			<Model name="CC232HF"></Model>
 			<Model name="CC334HF"></Model>
@@ -6325,6 +6359,7 @@
 		</Make>
 		<Make name="Hitachi">
 			<Model name="CC135C-3A"></Model>
+			<Model name="ZC50C"></Model>
 		</Make>
 		<Make name="Hyundai">
 			<Model name="HR120C-9"></Model>
@@ -7064,6 +7099,9 @@
 			<Model name="ДУ-63.ДМ"></Model>
 			<Model name="ДУ-85ДМ"></Model>
 		</Make>
+		<Make name="ИРМАШ">
+			<Model name="КВД-1-1,5-01"></Model>
+		</Make>
 		<Make name="МАГИСТРАЛЬ, Рыбинск">
 			<Model name="МС-84"></Model>
 			<Model name="МС-85"></Model>
@@ -7410,6 +7448,7 @@
 			<Model name="Powercrusher PC 1270 I (линейка продана Atlas Copco)"></Model>
 			<Model name="Powercrusher PC 1310 I (линейка продана Atlas Copco)"></Model>
 			<Model name="Powercrusher PC 1380 J (линейка продана Atlas Copco)"></Model>
+			<Model name="Powercrusher PC1"></Model>
 		</Make>
 		<Make name="Haver &amp; Boecker">
 			<Model name="Niagara"></Model>
@@ -9675,6 +9714,7 @@
 			<Model name="Mixokret M 3241"></Model>
 			<Model name="Mixokret M 500 E"></Model>
 			<Model name="Mixokret M 700 E"></Model>
+			<Model name="Mixokret M 730 DHB"></Model>
 			<Model name="Mixokret M 760"></Model>
 			<Model name="Mixokret M740"></Model>
 			<Model name="Mixokret M740D"></Model>
@@ -10443,6 +10483,9 @@
 			<Model name="SP70"></Model>
 			<Model name="SP70S"></Model>
 			<Model name="SP70Y"></Model>
+		</Make>
+		<Make name="Sunward">
+			<Model name="SWPG70"></Model>
 		</Make>
 		<Make name="Volvo">
 			<Model name="PL3005D"></Model>

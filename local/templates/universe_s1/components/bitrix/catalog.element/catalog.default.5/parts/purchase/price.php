@@ -50,7 +50,7 @@ if (!empty($arResult['ITEM_PRICES']))
             { ?>
     	<div class='catalog-element'>
         	<span class='catalog-element-price-current-value' style="color: red;">
-				<s> <?=number_format($arResult["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"], 0, '.', ' ') ?></s>&nbsp;руб
+				<span style="color:red;"><s> <?=number_format($arResult["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"], 0, '.', ' ') ?></s>&nbsp;руб</span>
 			</span>
         </div>
     <?	} 

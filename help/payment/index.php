@@ -52,111 +52,82 @@ $APPLICATION->SetTitle("Условия оплаты");
 	 Вас перенаправит на страницу платежного сервиса, следуя инструкциям, заполните правильную форму.
 </p>
 <div class="tables-responsive swipeignore">
-<table class="colored_table" style="text-align: center;">
-<thead style="font-weight: bold;"><tr>
-<td colspan="2">Реквизиты</td>
-</tr>
-</thead><tbody>
-<tr>
-<td style="text-align: left; font-weight: bold;">Наименование
-организации</td>
-<td style="font-weight: bold;">ООО Питбайкленд</td>
-</tr>
-<tr>
-<td style="text-align: left;">ОГРН</td>
-<td>1175027009486</td>
-</tr>
-<tr>
-<td style="text-align: left;">ИНН</td>
-<td>5003123070</td>
-</tr>
-<tr>
-<td style="text-align: left;">Юридический адрес</td>
-<td>142715, Московская область, Ленинский район, сельское
-поселение совхоз имени Ленина, деревня Ближние Прудищи, владение 1,
-строение 1.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Фактический адрес</td>
-<td>142715, Московская область, Ленинский район, сельское
-поселение совхоз имени Ленина, деревня Ближние Прудищи, владение 1,
-строение 1.. ТЦ «Формула-X».</td>
-</tr>
-<tr>
-<td style="text-align: left;">Расчетный счет</td>
-<td>40702810538000048201<br>
-Московский ПАО Сбербанк России БИК 044525225, к/с 30101810400000000225
-ИНН 7707083893 КПП 775003035</td>
-</tr>
-<tr>
-<td style="text-align: left;">Генеральный директор<br>
-(руководитель)</td>
-<td>Казанов Артём Валерьевич</td>
-</tr>
-<tr>
-<td style="text-align: left;">Код ОКВЭД</td>
-<td>45.40</td>
-</tr>
-<tr>
-<td style="text-align: left;"><br>
-</td>
-<td><br>
-</td>
-</tr>
-<tr>
-<td style="text-align: left; font-weight: bold;">Наименование
-организации</td>
-<td style="font-weight: bold;">ИП Наумова Надежда Сергеевна</td>
-</tr>
-<tr>
-<td style="text-align: left;">ОКПО</td>
-<td>2010399145</td>
-</tr>
-<tr>
-<td style="text-align: left;">ИНН</td>
-<td>773273388536</td>
-</tr>
-<tr>
-<td style="text-align: left;">Расчетный счет</td>
-<td>40802810138000280534<br>
-ПАО СБЕРБАНК БИК 044525225, к/с 30101810400000000225</td>
-</tr>
-<tr>
-<td style="text-align: left;"><br>
-</td>
-<td><br>
-</td>
-</tr>
-<tr>
-<td style="text-align: left; font-weight: bold;" text-align:=""
-left;="" font-weight:="" bold;="">Наименование организации</td>
-<td style="font-weight: bold;" font-weight:="" bold;="">ИП
-Шишкин Алексей
-Владимирович</td>
-</tr>
-<tr>
-<td style="text-align: left;">ОКПО</td>
-<td>2026189560</td>
-</tr>
-<tr>
-<td style="text-align: left;">ИНН</td>
-<td>503225901620</td>
-</tr>
-<tr>
-<td style="text-align: left;">Расчетный счет</td>
-<td>40802810038000345663<br>
-ПАО СБЕРБАНК БИК 044525225, к/с 30101810400000000225</td>
-</tr>
-<tr>
-<td style="text-align: left;" colspan="1">Юридический
-адрес</td>
-<td colspan="1">143074, Московская обл, г.о. Одинцовский, п
-Новый Городок, д. 31, кв. 19</td>
-</tr>
-</tbody>
-</table>
+	<table border="1" class="colored_table" style="text-align: center;">
+	<thead style="font-weight: bold;">
+	<tr>
+		<td colspan="2">
+			 Реквизиты
+		</td>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: left; font-weight: bold;">
+			 Наименование организации
+		</td>
+		<td style="font-weight: bold; text-align: left;">
+			 ООО Питбайкленд
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: left;">
+			 ОГРН
+		</td>
+		<td style="text-align: left;">
+			 1175027009486
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: left;">
+			 ИНН
+		</td>
+		<td style="text-align: left;">
+			 5003123070
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: left;">
+			 Юридический адрес
+		</td>
+		<td style="text-align: left;">
+			 142715, Московская область, Ленинский район, сельское поселение совхоз имени Ленина, деревня Ближние Прудищи, владение 1, строение 1.
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: left;">
+			 Фактический адрес
+		</td>
+		<td style="text-align: left;">
+			 142715, Московская область, Ленинский район, сельское поселение совхоз имени Ленина, деревня Ближние Прудищи, владение 1, строение 1.. ТЦ «Формула-X».
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: left;">
+			 Расчетный счет
+		</td>
+		<td style="text-align: left;">
+			 40702810538000048201<br>
+			 Московский ПАО Сбербанк России БИК 044525225, к/с 30101810400000000225 ИНН 7707083893 КПП 775003035
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: left;">
+			 Генеральный директор<br>
+			 (руководитель)
+		</td>
+		<td style="text-align: left;">
+			 Казанов Артём Валерьевич
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: left;">
+			 Код ОКВЭД
+		</td>
+		<td style="text-align: left;">
+			 45.40
+		</td>
+	</tr>
+	</tbody>
+	</table>
 </div>
-<br>
-<br>
-<br>
-<br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+ <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

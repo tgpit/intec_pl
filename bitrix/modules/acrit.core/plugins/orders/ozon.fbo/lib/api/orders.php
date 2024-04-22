@@ -48,7 +48,7 @@ class Orders extends Request {
 		$res = $this->execute('/v3/posting/fbs/list', [
 			'dir' => 'desc',
 			'filter' => [
-				"since" => "2022-11-03T00:00:00.944Z",
+				"since" => gmdate("Y-m-d\TH:i:s.000\Z", time() - 24*7*60*60),
 				"status" => "",
 				"to" => $to
 			],

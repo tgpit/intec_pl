@@ -238,6 +238,8 @@
 		</Model>
 		<Model name="K33-561">
 			<TypeOfVehicle name="Городской"></TypeOfVehicle>
+			<TypeOfVehicle name="Ритуальный"></TypeOfVehicle>
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="Drogmoller">
@@ -386,6 +388,9 @@
 		<Model name="62411-09">
 			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
 		</Model>
+		<Model name="62412-01">
+			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
+		</Model>
 		<Model name="Daily">
 			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
 		</Model>
@@ -423,6 +428,9 @@
 			<TypeOfVehicle name="Междугородний / Пригородный"></TypeOfVehicle>
 		</Model>
 		<Model name="XML6129">
+			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
+		</Model>
+		<Model name="XML6129JR">
 			<TypeOfVehicle name="Туристический"></TypeOfVehicle>
 		</Model>
 		<Model name="XML6139 JR">

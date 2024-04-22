@@ -21,17 +21,30 @@ use
 
 	<div data-role="acrit_exp_wildberries_stores">
 		<?$strStoreUrl = 'https://suppliers-portal.wildberries.ru/marketplace-pass/warehouses';?>
-		<?foreach($this->getStores(true) as $intStoreId => $strStoreName):?>
-			<div>
-				<input type="text" name="PROFILE[PARAMS][STOCKS][ID][]" size="8" maxlength="10"
-					placeholder="<?=static::getMessage('STOCK_ID');?>"
-					value="<?=htmlspecialcharsbx($intStoreId);?>" />
-				<input type="text" name="PROFILE[PARAMS][STOCKS][NAME][]" size="40" maxlength="255"
-					placeholder="<?=static::getMessage('STOCK_NAME');?>"
-					value="<?=htmlspecialcharsbx($strStoreName);?>" />
-				<?=Helper::showHint(static::getMessage('STOCK_HINT', ['#STORE_URL#' => $strStoreUrl]));?>
-			</div>
-		<?endforeach?>
+		<div data-role="acrit_exp_wildberries_stores_list">
+			<?foreach($this->getStores(true) as $intStoreId => $strStoreName):?>
+				<div class="acrit_exp_wildberries_store" data-role="acrit_exp_wildberries_store">
+					<input type="text" name="PROFILE[PARAMS][STOCKS][ID][]" size="8" maxlength="10"
+						placeholder="<?=static::getMessage('STOCK_ID');?>"
+						value="<?=htmlspecialcharsbx($intStoreId);?>" />
+					<input type="text" name="PROFILE[PARAMS][STOCKS][NAME][]" size="40" maxlength="255"
+						placeholder="<?=static::getMessage('STOCK_NAME');?>"
+						value="<?=htmlspecialcharsbx($strStoreName);?>" />
+					<?=Helper::showHint(static::getMessage('STOCK_HINT', ['#STORE_URL#' => $strStoreUrl]));?>
+					<input type="button" data-role="acrit_exp_wildberries_store_delete" 
+						value="<?=static::getMessage('EXPORT_STOCKS_DELETE');?>"
+						data-confirm="<?=static::getMessage('EXPORT_STOCKS_DELETE_CONFIRM');?>">
+				</div>
+			<?endforeach?>
+		</div>
+		<div data-role="acrit_exp_wildberries_stores_add_wrapper">
+			<input type="button" data-role="acrit_exp_wildberries_store_add"
+				value="<?=static::getMessage('EXPORT_STOCKS_ADD');?>">
+			<?/*
+			<input type="button" data-role="acrit_exp_wildberries_store_add_auto"
+				value="<?=static::getMessage('EXPORT_STOCKS_ADD_AUTO');?>">
+			*/?>
+		</div>
 	</div>
 
 </div>

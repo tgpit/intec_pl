@@ -16,10 +16,11 @@ use intec\core\io\Path;
 
 ?>
 <?= Html::beginTag('div', ['style' => array (
-  'margin-top' => '50px',
-  'margin-bottom' => '50px',
+  'margin-top' => '10px',
+  'margin-bottom' => '10px',
 )]) ?>
-<?php $APPLICATION->IncludeComponent('intec.universe:main.news', 'template.5', array (
+<?php
+ $APPLICATION->IncludeComponent('intec.universe:main.news', 'template.5', array (
   'IBLOCK_TYPE' => 'content',
   'IBLOCK_ID' => '70',
   'ELEMENTS_COUNT' => '',

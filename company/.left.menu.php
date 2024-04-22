@@ -8,6 +8,13 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
+		"Контакты", 
+		"/contacts/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
 		"Новости", 
 		"/company/news/",
 		Array(), 
@@ -45,13 +52,6 @@ $aMenuLinks = Array(
 	Array(
 		"Политика конфиденциальности",
 		"/company/consent/",
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Контакты", 
-		"/contacts/",
 		Array(), 
 		Array(), 
 		"" 

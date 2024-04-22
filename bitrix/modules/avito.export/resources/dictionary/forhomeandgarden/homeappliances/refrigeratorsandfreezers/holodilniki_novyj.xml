@@ -11281,6 +11281,7 @@
 	</Brand>
 	<Brand name="DEXP">
 		<Model name="B2-0160AMG">
+			<Color name="Белый"></Color>
 			<Color name="Серебряный"></Color>
 		</Model>
 		<Model name="B2-21AMG">
@@ -11541,6 +11542,9 @@
 		<Model name="RF-MN620DSY/WI">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="RF-SD045MG/W">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="RF-SD050RMA/B">
 			<Color name="Чёрный"></Color>
 		</Model>
@@ -11552,6 +11556,7 @@
 		</Model>
 		<Model name="RF-SD070MA/W">
 			<Color name="Белый"></Color>
+			<Color name="Серебряный"></Color>
 		</Model>
 		<Model name="RF-SD090HE/W">
 			<Color name="Белый"></Color>
@@ -16798,6 +16803,9 @@
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="GR-392FDC">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="GR-462FDC">
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="RFG-100">
@@ -25946,6 +25954,9 @@
 		</Model>
 	</Brand>
 	<Brand name="LEX">
+		<Model name="LCD450GBGID">
+			<Color name="Серый"></Color>
+		</Model>
 		<Model name="LSB520BlID">
 			<Color name="Чёрный"></Color>
 		</Model>
@@ -28634,6 +28645,9 @@
 		</Model>
 		<Model name="GN-H702 HMHZ">
 			<Color name="Серебряный"></Color>
+		</Model>
+		<Model name="GN-H702HMHZ">
+			<Color name="Серый"></Color>
 		</Model>
 		<Model name="GN-M392 CLCA">
 			<Color name="Серебряный"></Color>
@@ -35572,6 +35586,9 @@
 		<Model name="CX 319-032">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="CX 322-032">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="CX 341-032">
 			<Color name="Белый"></Color>
 		</Model>
@@ -35792,6 +35809,9 @@
 		<Model name="NRB 121">
 			<Color name="Белый"></Color>
 		</Model>
+		<Model name="NRB 121 B">
+			<Color name="Чёрный"></Color>
+		</Model>
 		<Model name="NRB 121 Or">
 			<Color name="Оранжевый"></Color>
 		</Model>
@@ -35970,6 +35990,9 @@
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="RF-50 W">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="RFC 210 LFW">
 			<Color name="Белый"></Color>
 		</Model>
 		<Model name="RFC 390D NFS">
@@ -37416,6 +37439,9 @@
 		</Model>
 	</Brand>
 	<Brand name="SNOWCAP">
+		<Model name="RT-70">
+			<Color name="Белый"></Color>
+		</Model>
 		<Model name="RT-80">
 			<Color name="Белый"></Color>
 			<Color name="Серебряный"></Color>
@@ -43828,6 +43854,9 @@
 	</Brand>
 	<Brand name="Siltal">
 		<Model name="F944 LUX">
+			<Color name="Белый"></Color>
+		</Model>
+		<Model name="KB 940/2 VIP">
 			<Color name="Белый"></Color>
 		</Model>
 	</Brand>

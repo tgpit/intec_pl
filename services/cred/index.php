@@ -39,7 +39,7 @@ $APPLICATION->SetTitle("Рассрочка и кредит");
 	Array(
 		"BACKGROUND_COLOR" => "#f4f4f4",
 		"BACKGROUND_IMAGE_USE" => "N",
-		"BUTTON_TEXT" => "Рассчитать рассрочку и кредит",
+		"BUTTON_TEXT" => "РАССЧИТАТЬ РАССРОЧКУ И КРЕДИТ",
 		"CACHE_TIME" => "0",
 		"CACHE_TYPE" => "A",
 		"COMPONENT_TEMPLATE" => "template.8",
@@ -47,7 +47,7 @@ $APPLICATION->SetTitle("Рассрочка и кредит");
 		"DESCRIPTION_SHOW" => "N",
 		"ID" => "25",
 		"LAZYLOAD_USE" => "N",
-		"NAME" => "Рассчитать рассрочку и кредит",
+		"NAME" => "РАССЧИТАТЬ РАССРОЧКУ И КРЕДИТ",
 		"SETTINGS_USE" => "N",
 		"TEMPLATE" => "template.1",
 		"THEME" => "dark",

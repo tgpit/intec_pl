@@ -10,6 +10,9 @@
 		<model name="Terrain Master M/T"></model>
 		<model name="Terrain Pro A/T P"></model>
 	</make>
+	<make name="ARROYO">
+		<model name="GRAND SPORT A/S"></model>
+	</make>
 	<make name="ATF">
 		<model name="Farm King 4222"></model>
 	</make>
@@ -418,6 +421,7 @@
 		<model name="AN616"></model>
 		<model name="AN658"></model>
 		<model name="AN668"></model>
+		<model name="Arctic I-9"></model>
 		<model name="Brawn XC1"></model>
 		<model name="ST Trailer XT2"></model>
 		<model name="X-Terrain XT1"></model>
@@ -707,6 +711,7 @@
 		<model name="Winter AX38"></model>
 	</make>
 	<make name="Atlas">
+		<model name="A50 SUV"></model>
 		<model name="AS330"></model>
 		<model name="AS380"></model>
 		<model name="All Position Rib 1"></model>
@@ -1160,6 +1165,7 @@
 		<model name="AA340"></model>
 		<model name="BR220"></model>
 		<model name="BR610"></model>
+		<model name="BR900"></model>
 		<model name="BR910"></model>
 		<model name="MM700"></model>
 		<model name="MZ777"></model>
@@ -2293,9 +2299,11 @@
 		<model name="Dueler 684"></model>
 		<model name="Dueler A/T"></model>
 		<model name="Dueler A/T 001"></model>
+		<model name="Dueler A/T 002"></model>
 		<model name="Dueler A/T 604V"></model>
 		<model name="Dueler A/T 661"></model>
 		<model name="Dueler A/T 683"></model>
+		<model name="Dueler A/T 692"></model>
 		<model name="Dueler A/T 693"></model>
 		<model name="Dueler A/T 693 III"></model>
 		<model name="Dueler A/T 693 IV"></model>
@@ -2446,6 +2454,7 @@
 		<model name="M890"></model>
 		<model name="MY-02 Sporty Style"></model>
 		<model name="Milex TA-31"></model>
+		<model name="Newno"></model>
 		<model name="Nextry Ecopia"></model>
 		<model name="Noranza"></model>
 		<model name="Noranza 001"></model>
@@ -2990,6 +2999,7 @@
 		<model name="CR960A"></model>
 		<model name="H188"></model>
 		<model name="H550A"></model>
+		<model name="Landgolden LGS87"></model>
 		<model name="RP 19"></model>
 		<model name="RP08"></model>
 		<model name="RP09"></model>
@@ -3273,6 +3283,7 @@
 		<model name="ContiPremiumContact 2"></model>
 		<model name="ContiPremiumContact 2E"></model>
 		<model name="ContiPremiumContact 5"></model>
+		<model name="ContiPremiumContact 5 ContiSeal"></model>
 		<model name="ContiPremiumContact 5 SUV"></model>
 		<model name="ContiPremiumContact 6"></model>
 		<model name="ContiPremiumContact 7"></model>
@@ -4284,6 +4295,7 @@
 		<model name="D8+"></model>
 		<model name="DH2"></model>
 		<model name="DH3"></model>
+		<model name="DH3-RFT"></model>
 		<model name="DH6"></model>
 		<model name="DH7"></model>
 		<model name="DH7SUV"></model>
@@ -5101,6 +5113,7 @@
 	<make name="Duraturn">
 		<model name="Mozzo 4S"></model>
 		<model name="Mozzo 4S+"></model>
+		<model name="Mozzo S360"></model>
 		<model name="Mozzo STX"></model>
 		<model name="Mozzo Sport"></model>
 		<model name="Mozzo Touring"></model>
@@ -7081,6 +7094,7 @@
 		<model name="Speed 606"></model>
 		<model name="Speed 616"></model>
 		<model name="Speed C"></model>
+		<model name="Terra Control ATR"></model>
 		<model name="TerraControl"></model>
 		<model name="Ultra Speed"></model>
 		<model name="Ultra Speed SUV"></model>
@@ -7089,6 +7103,7 @@
 		<model name="Urban Speed"></model>
 	</make>
 	<make name="Giti">
+		<model name="Control P10"></model>
 		<model name="GAL811"></model>
 		<model name="GDR655"></model>
 		<model name="GSR225"></model>
@@ -7870,6 +7885,7 @@
 		<model name="Journey-X"></model>
 		<model name="Prodrag-S"></model>
 		<model name="Quest-X"></model>
+		<model name="Quest-X SUV"></model>
 		<model name="Rough Master-RT"></model>
 		<model name="RoughMaster XT"></model>
 		<model name="Season Master"></model>
@@ -8128,6 +8144,7 @@
 		<model name="Kinergy Eco RV"></model>
 		<model name="Kinergy GT H436"></model>
 		<model name="Kinergy PT"></model>
+		<model name="Kinergy ST AS"></model>
 		<model name="Kinergy ST H735"></model>
 		<model name="Mavis Traction Control"></model>
 		<model name="Mileage Plus"></model>
@@ -8213,6 +8230,7 @@
 		<model name="Ventus Prime 3 K125"></model>
 		<model name="Ventus Prime 4 K135"></model>
 		<model name="Ventus Prime 4 K135A"></model>
+		<model name="Ventus Prime 4 K135A SUV"></model>
 		<model name="Ventus Prime K105"></model>
 		<model name="Ventus Prime3 SUV K125A"></model>
 		<model name="Ventus R-S2 Z212"></model>
@@ -8233,6 +8251,7 @@
 		<model name="Ventus S1 Evo3 SUV K127A"></model>
 		<model name="Ventus S1 Noble 2 H452"></model>
 		<model name="Ventus S1 Noble H432"></model>
+		<model name="Ventus S1 evo Z AS X"></model>
 		<model name="Ventus S2"></model>
 		<model name="Ventus S2 AS H462"></model>
 		<model name="Ventus S2 AS X RH17"></model>
@@ -9754,6 +9773,7 @@
 		<model name="Road Venture 787"></model>
 		<model name="Road Venture 798"></model>
 		<model name="Road Venture APT KL51"></model>
+		<model name="Road Venture AT"></model>
 		<model name="Road Venture AT 825"></model>
 		<model name="Road Venture AT KL41"></model>
 		<model name="Road Venture AT KL78"></model>
@@ -9911,6 +9931,7 @@
 	</make>
 	<make name="Landspider">
 		<model name="Arctictraxx"></model>
+		<model name="Citytraxx G/P"></model>
 		<model name="Citytraxx H/P"></model>
 		<model name="Citytraxx H/T"></model>
 		<model name="Wildtraxx A/T II"></model>
@@ -10018,6 +10039,7 @@
 		<model name="G Fit EQ"></model>
 		<model name="G Fit EQ LK41"></model>
 		<model name="G-Fit AS LH41"></model>
+		<model name="I Fit +"></model>
 		<model name="I Fit IZ"></model>
 		<model name="I Fit IZ LW 51"></model>
 		<model name="I Fit Ice LW 71"></model>
@@ -11115,6 +11137,7 @@
 		<model name="MA-Z3 Victra"></model>
 		<model name="MA-Z4S Victra"></model>
 		<model name="MP-15 Pragmatra"></model>
+		<model name="MP-15 Pragmatra SUV"></model>
 		<model name="MP10 Mecotra"></model>
 		<model name="MS300 Waltz"></model>
 		<model name="MT-753 Bravo"></model>
@@ -11397,6 +11420,7 @@
 		<model name="Energy Radial XSE"></model>
 		<model name="Energy Saver"></model>
 		<model name="Energy Saver +"></model>
+		<model name="Energy Saver 4"></model>
 		<model name="Energy Saver A/S"></model>
 		<model name="Energy Saver LTX"></model>
 		<model name="Energy Saver Plus"></model>
@@ -12241,6 +12265,7 @@
 		<model name="Tenor 2"></model>
 	</make>
 	<make name="Mileking">
+		<model name="EX-COMFORT"></model>
 		<model name="MK617"></model>
 		<model name="MK627"></model>
 		<model name="MK637"></model>
@@ -12272,6 +12297,7 @@
 		<model name="Patagonia A/T"></model>
 		<model name="Patagonia A/T R"></model>
 		<model name="Patagonia A/T W"></model>
+		<model name="Patagonia H/T"></model>
 		<model name="Patagonia M/T"></model>
 		<model name="Patagonia X/T"></model>
 		<model name="Steelpro AST"></model>
@@ -12356,7 +12382,9 @@
 	<make name="Mirage">
 		<model name="HT172"></model>
 		<model name="MG660"></model>
+		<model name="MR-166"></model>
 		<model name="MR-199"></model>
+		<model name="MR-700 AS"></model>
 		<model name="MR-AT172"></model>
 		<model name="MR-HP172"></model>
 		<model name="MR-HT172"></model>
@@ -12837,6 +12865,7 @@
 		<model name="N&#39;Priz 4S"></model>
 		<model name="N&#39;Priz AH5"></model>
 		<model name="N&#39;Priz AH8"></model>
+		<model name="N&#39;Priz CX"></model>
 		<model name="N&#39;Priz RH1"></model>
 		<model name="N&#39;Priz RH7"></model>
 		<model name="N1000"></model>
@@ -14201,6 +14230,7 @@
 		<model name="EcoTech PH03"></model>
 		<model name="GripTech PU01"></model>
 		<model name="GripTech PU02"></model>
+		<model name="HTTECH PS01"></model>
 		<model name="Ice Prince PW01"></model>
 		<model name="Ice Prince PW08"></model>
 		<model name="LtTech PL01"></model>
@@ -14332,6 +14362,7 @@
 		<model name="Snow Master W601"></model>
 		<model name="Snow Master W651"></model>
 		<model name="Snowdrop"></model>
+		<model name="Snowmaster 2 Sport"></model>
 		<model name="SuvMaster A/S"></model>
 		<model name="Velox Sport PT711"></model>
 		<model name="Velox Sport PT721"></model>
@@ -14797,6 +14828,7 @@
 		<model name="HiCountry A/T HA2"></model>
 		<model name="HiCountry HT2"></model>
 		<model name="HiRace HU1"></model>
+		<model name="HiRace HZ1"></model>
 		<model name="HiRace HZ2"></model>
 		<model name="HiRace HZ2 A/S"></model>
 		<model name="Hifree HA1"></model>
@@ -15994,11 +16026,16 @@
 		<model name="R23 TW180"></model>
 		<model name="R23 TW200"></model>
 		<model name="R23 TW240"></model>
+		<model name="R23 TW260"></model>
 		<model name="R23 TW280"></model>
 		<model name="R23 TW300"></model>
 		<model name="R23 TW380"></model>
 		<model name="R23 TW40"></model>
 		<model name="R23 TW80"></model>
+		<model name="R31 TW200"></model>
+		<model name="R31 TW280"></model>
+		<model name="R31 TW300"></model>
+		<model name="R60"></model>
 	</make>
 	<make name="Sigma">
 		<model name="Arctic Claw Winter TXI"></model>
@@ -16205,6 +16242,7 @@
 		<model name="Prime UHP 08"></model>
 		<model name="Primemax A/T II"></model>
 		<model name="Primestar 66"></model>
+		<model name="Primevan 28"></model>
 	</make>
 	<make name="Sonny">
 		<model name="Fortis T5"></model>
@@ -18008,7 +18046,7 @@
 		<model name="PL02"></model>
 		<model name="PS01"></model>
 		<model name="Protract TEM11"></model>
-		<model name="Reliax TouringTE307"></model>
+		<model name="Reliax Touring TE307"></model>
 		<model name="SeasonX TA01"></model>
 		<model name="Snow-LL01"></model>
 		<model name="Snowlink TWT02"></model>
@@ -18661,6 +18699,7 @@
 		<model name="T-Trac SI"></model>
 		<model name="Transport Snow"></model>
 		<model name="Transport Steel"></model>
+		<model name="ULTRAC PRO"></model>
 		<model name="Ultrac"></model>
 		<model name="Ultrac Cento"></model>
 		<model name="Ultrac SUV Sessanta"></model>
@@ -18722,6 +18761,7 @@
 		<model name="C069"></model>
 		<model name="Eco Tour plus SE201"></model>
 		<model name="H220"></model>
+		<model name="Harmonic Plus SP022"></model>
 		<model name="M105"></model>
 		<model name="S-1010"></model>
 		<model name="S-1011"></model>
@@ -18823,7 +18863,9 @@
 		<model name="Wasl-Plus"></model>
 	</make>
 	<make name="Waterfall">
+		<model name="Cargo Pro"></model>
 		<model name="Eco Dynamic"></model>
+		<model name="LT-200"></model>
 		<model name="Snow Hill 2"></model>
 	</make>
 	<make name="Weeksai">
@@ -18950,6 +18992,7 @@
 		<model name="WH18"></model>
 		<model name="WH20"></model>
 		<model name="WP16"></model>
+		<model name="WR01"></model>
 		<model name="WV11"></model>
 	</make>
 	<make name="Windforce">
@@ -20700,6 +20743,7 @@
 		<model name="Кама-Евро-517"></model>
 		<model name="Кама-Евро-518"></model>
 		<model name="Кама-Евро-519"></model>
+		<model name="Кама-Ринг"></model>
 		<model name="Л-163"></model>
 		<model name="Л-5"></model>
 		<model name="М-100"></model>
@@ -20875,6 +20919,7 @@
 		<model name="N3"></model>
 		<model name="N3 L+R"></model>
 		<model name="TD"></model>
+		<model name="W"></model>
 		<model name="Zet"></model>
 		<model name="И-292 МС-18"></model>
 		<model name="И-344"></model>
@@ -20916,6 +20961,7 @@
 		<model name="И-515"></model>
 		<model name="И-516"></model>
 		<model name="И-535"></model>
+		<model name="И-546"></model>
 		<model name="И-555"></model>
 		<model name="Ралли III"></model>
 		<model name="Ралли-1"></model>

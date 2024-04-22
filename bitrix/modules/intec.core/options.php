@@ -32,6 +32,10 @@ if ($request->getIsPost() && check_bitrix_sessid()) {
     $reset = $request->post('reset');
     $reset = !empty($reset);
     $sitesData = $request->post('sites');
+    $notifyData = $request->post('notify');
+
+    if ($parameters->canSetProperty('notificationUse', false, false))
+        $parameters->{'setNotificationUse'}($notifyData['notify']['notificationUse']);
 
     foreach ($sites as $site) {
         $siteData = ArrayHelper::getValue($sitesData, $site['ID']);
@@ -42,17 +46,26 @@ if ($request->getIsPost() && check_bitrix_sessid()) {
                 'minimizationSpaces' => false,
                 'minimizationTags' => false,
                 'minimizationCommentaries' => false,
-                'minimizationContent' => false
+                'minimizationContent' => false,
+                'notificationUse' => true
             ];
 
         if (Type::isArray($siteData))
-            foreach ($siteData as $key => $value)
+            foreach ($siteData as $key => $value) {
                 if ($parameters->canSetProperty($key, false, false))
-                    $parameters->{'set'.$key}($value, $site['ID']);
+                    $parameters->{'set' . $key}($value, $site['ID']);
+            }
     }
 }
 
 $tabs = [];
+
+$tabs[] = [
+    'DIV' => 'notify',
+    'TAB' => Loc::getMessage('intec.core.options.tabs.tab.notify.title'),
+    'ICON' => 'settings',
+    'TITLE' => Loc::getMessage('intec.core.options.tabs.tab.notify.title')
+];
 
 foreach ($sites as $site) {
     $tabs[] = [
@@ -75,6 +88,18 @@ $control = new CAdminTabControl('tabs', $tabs);
 <form method="POST">
     <?= bitrix_sessid_post() ?>
     <?php $control->Begin() ?>
+    <?php $control->BeginNextTab() ?>
+    <tr>
+        <td class="adm-detail-content-cell-l" width="40%">
+            <?= Loc::getMessage('intec.core.options.parameters.notificationUse') ?>:
+        </td>
+        <td class="adm-detail-content-cell-r" width="60%">
+            <?= Html::hiddenInput('notify[notify][notificationUse]', 0) ?>
+            <?= Html::checkbox('notify[notify][notificationUse]', $parameters->getNotificationUse(), [
+                'value' => 1
+            ]) ?>
+        </td>
+    </tr>
     <?php foreach ($sites as $site) { ?>
         <?php $control->BeginNextTab() ?>
         <tr>

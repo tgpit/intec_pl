@@ -80,7 +80,7 @@ $tagsRender = include(__DIR__.'/parts/tags.php');
                                 'intec-grid-item-1'
                             ],
                             'data-delimiter' => $arVisual['DELIMITER']['SHOW'] ? 'true' : null
-                        ]) ?>
+                        ]) ?>              
                             <div class="news-list-item-wrapper" id="<?= $sAreaId ?>">
                                 <div class="intec-grid intec-grid-600-wrap">
                                     <?php if ($arVisual['IMAGE']['SHOW']) { ?>

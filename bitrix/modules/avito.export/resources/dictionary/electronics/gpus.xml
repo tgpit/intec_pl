@@ -54,6 +54,9 @@
 		<Model name="GeForce GTX 1080 8GB">
 			<ProducerCode name="Не указан"></ProducerCode>
 		</Model>
+		<Model name="GeForce GTX 1660 SUPER 6GB">
+			<ProducerCode name="GTX1660S"></ProducerCode>
+		</Model>
 		<Model name="GeForce GTX 1660 Ti 6GB">
 			<ProducerCode name="Не указан"></ProducerCode>
 		</Model>
@@ -190,6 +193,7 @@
 		</Model>
 		<Model name="GeForce GTX 1050 Ti 4GB">
 			<ProducerCode name="AF1050TI-4096D5H5-V2"></ProducerCode>
+			<ProducerCode name="AF1050TI-4096D5H5-V4"></ProducerCode>
 			<ProducerCode name="AF1050Ti-4096D5H1"></ProducerCode>
 			<ProducerCode name="AF1050Ti-4096D5H7"></ProducerCode>
 		</Model>
@@ -389,6 +393,9 @@
 		<Model name="AMD Radeon HD 4650 1GB">
 			<ProducerCode name="VG.M9606.009"></ProducerCode>
 		</Model>
+		<Model name="AMD Radeon HD 6870 1GB">
+			<ProducerCode name="109-C22237-00"></ProducerCode>
+		</Model>
 		<Model name="AMD Radeon HD 7670 4GB">
 			<ProducerCode name="AMD HD7670 4G"></ProducerCode>
 		</Model>
@@ -524,6 +531,9 @@
 		<Model name="Radeon HD 7670M 1GB">
 			<ProducerCode name="Не указан"></ProducerCode>
 		</Model>
+		<Model name="Radeon HD 7970M MXM 2GB">
+			<ProducerCode name="6-71-P15EL-D11"></ProducerCode>
+		</Model>
 		<Model name="Radeon HD 8970M 2GB">
 			<ProducerCode name="Не указан"></ProducerCode>
 		</Model>
@@ -583,6 +593,9 @@
 		</Model>
 		<Model name="Radeon RX 6900 XT 16GB">
 			<ProducerCode name="100-438386"></ProducerCode>
+		</Model>
+		<Model name="Radeon RX 6950 XT">
+			<ProducerCode name="100-438411"></ProducerCode>
 		</Model>
 		<Model name="Radeon RX VEGA 56 8G">
 			<ProducerCode name="100-438237"></ProducerCode>
@@ -948,6 +961,9 @@
 		</Model>
 		<Model name="AMD Radeon RX 7700 XT TUF Gaming OC Edition 12GB">
 			<ProducerCode name="TUF-RX7700XT-O12G GAMING"></ProducerCode>
+		</Model>
+		<Model name="AMD Radeon RX 7800 XT Dual OC Edition">
+			<ProducerCode name="DUAL-RX7800XT-O16G"></ProducerCode>
 		</Model>
 		<Model name="AMD Radeon RX 7800XT 16Gb">
 			<ProducerCode name="TUF-RX7800XT-O16G-GAMING"></ProducerCode>
@@ -1390,6 +1406,7 @@
 		</Model>
 		<Model name="GeForce 8800 GT 512MB">
 			<ProducerCode name="EN8800GT/G/HTDP/512M"></ProducerCode>
+			<ProducerCode name="EN8800GT/HTDP/512M"></ProducerCode>
 		</Model>
 		<Model name="GeForce 8800 GTS">
 			<ProducerCode name="EN8800GTS/HTDP/320M/A"></ProducerCode>
@@ -1415,6 +1432,9 @@
 		</Model>
 		<Model name="GeForce 9500 GT 512MB">
 			<ProducerCode name="EN9500GT Magic/DI/512MD2/V2"></ProducerCode>
+		</Model>
+		<Model name="GeForce 9600 GSO 384MB">
+			<ProducerCode name="90-C1CL00-Q0UAY00Z"></ProducerCode>
 		</Model>
 		<Model name="GeForce 9600 GT 1GB">
 			<ProducerCode name="EN9600GT/HTDI/1G"></ProducerCode>
@@ -1565,6 +1585,9 @@
 		<Model name="GeForce GT 740 2GB">
 			<ProducerCode name="GT740-2GD3"></ProducerCode>
 			<ProducerCode name="GT740-OC-2GD5"></ProducerCode>
+		</Model>
+		<Model name="GeForce GT 740 4GB">
+			<ProducerCode name="90PA06I0-M0XBN0"></ProducerCode>
 		</Model>
 		<Model name="GeForce GT 740 OC 1GB">
 			<ProducerCode name="GT740-OC-1GD5"></ProducerCode>
@@ -1886,6 +1909,9 @@
 		<Model name="GeForce GTX 750 OC 1GB">
 			<ProducerCode name="GTX750-PHOC-1GD5"></ProducerCode>
 		</Model>
+		<Model name="GeForce GTX 750 OC 4GB">
+			<ProducerCode name="GTX750-OC-4GD5"></ProducerCode>
+		</Model>
 		<Model name="GeForce GTX 750 Ti 2GB">
 			<ProducerCode name="GTX750TI-2GD5"></ProducerCode>
 			<ProducerCode name="GTX750TI-OC-2GD5"></ProducerCode>
@@ -2146,6 +2172,9 @@
 		<Model name="GeForce RTX 4060 Ti Dual White OC Edition 8GB">
 			<ProducerCode name="DUAL-RTX4060TI-O8G-WHITE"></ProducerCode>
 		</Model>
+		<Model name="GeForce RTX 4060 Ti GAMING MEGALODON 8GB">
+			<ProducerCode name="ATS-RTX4060TI-8G-GAMING"></ProducerCode>
+		</Model>
 		<Model name="GeForce RTX 4060 Ti ProArt OC edition 16GB">
 			<ProducerCode name="PROART-RTX4060TI-O16G"></ProducerCode>
 		</Model>
@@ -2282,6 +2311,9 @@
 		</Model>
 		<Model name="NVIDIA GeForce RTX 4070 Proart 12GB">
 			<ProducerCode name="PROART-RTX4070-O12G"></ProducerCode>
+		</Model>
+		<Model name="NVIDIA GeForce RTX 4070 Super 12GB">
+			<ProducerCode name="DUAL-RTX4070S-O12G-WHITE"></ProducerCode>
 		</Model>
 		<Model name="NVIDIA GeForce RTX 4090 ROG Strix Gaming OC 24GB">
 			<ProducerCode name="90YV0ID1-M0NA00"></ProducerCode>
@@ -3200,6 +3232,7 @@
 		</Model>
 		<Model name="TUF Gaming GeForce RTX 4090 OC Edition 24GB">
 			<ProducerCode name="TUF-RTX4090-O24G-GAMING"></ProducerCode>
+			<ProducerCode name="TUF-RTX4090-O24G-OG-GAMING"></ProducerCode>
 		</Model>
 		<Model name="TUF Gaming RTX 3060 Ti OC Edition 8GB">
 			<ProducerCode name="TUF-RTX3060TI-O8GD6X-GAMING"></ProducerCode>
@@ -3327,6 +3360,9 @@
 		</Model>
 	</Brand>
 	<Brand name="ATI Technologies">
+		<Model name=" ATI 3D Rage II 2GB">
+			<ProducerCode name="Не указан"></ProducerCode>
+		</Model>
 		<Model name="3D Rage IIC AGP 4MB">
 			<ProducerCode name="109-52800-01/4MB"></ProducerCode>
 		</Model>
@@ -3362,6 +3398,9 @@
 		</Model>
 		<Model name="Radeon HD 3730 512MB">
 			<ProducerCode name="AX3730 512MD2"></ProducerCode>
+		</Model>
+		<Model name="Radeon HD 5570 1GB">
+			<ProducerCode name="Не указан"></ProducerCode>
 		</Model>
 		<Model name="Radeon HD 5870 1GB">
 			<ProducerCode name="09-B96031-00C"></ProducerCode>
@@ -3835,6 +3874,9 @@
 		<Model name="GeForce RTX 2060 V2-V 6G">
 			<ProducerCode name="RTX 2060 6G V2-V"></ProducerCode>
 		</Model>
+		<Model name="GeForce RTX 2070 Gaming GT 8GB">
+			<ProducerCode name="Colorful GeForce RTX 2070 Gaming GT"></ProducerCode>
+		</Model>
 		<Model name="GeForce RTX 2070 SUPER 8G-V">
 			<ProducerCode name="RTX 2070 SUPER 8G-V"></ProducerCode>
 		</Model>
@@ -3893,6 +3935,9 @@
 		<Model name="GeForce RTX 4060 Ti 8GB">
 			<ProducerCode name="iGame GeForce RTX 4060 Ti Ultra W DUO OC 8GB"></ProducerCode>
 			<ProducerCode name="iGame GeForce RTX 4060 Ti Ultra W OC-V"></ProducerCode>
+		</Model>
+		<Model name="GeForce RTX 4060 Ti NB DUO 16GB">
+			<ProducerCode name="RTX 4060 Ti NB DUO 16GB-V"></ProducerCode>
 		</Model>
 		<Model name="GeForce RTX 4070 Ti IGAME ADVANCED OC-V 12G">
 			<ProducerCode name="RTX 4070 Ti Advanced OC-V"></ProducerCode>
@@ -4147,6 +4192,9 @@
 		<Model name="NVIDIA P383 Quadro NVS 285 128MB">
 			<ProducerCode name="CN-0DH261-69861"></ProducerCode>
 		</Model>
+		<Model name="NVIDIA Quadro 4000 2GB">
+			<ProducerCode name="490-13730"></ProducerCode>
+		</Model>
 		<Model name="NVIDIA Quadro P4000 8GB">
 			<ProducerCode name="490-BDTC"></ProducerCode>
 		</Model>
@@ -4315,6 +4363,9 @@
 		</Model>
 		<Model name="GeForce GT 220 1 GB">
 			<ProducerCode name="GeForce GT220 PCI-E GEN2"></ProducerCode>
+		</Model>
+		<Model name="GeForce GT 240 512MB">
+			<ProducerCode name="NGT240-512QI-F"></ProducerCode>
 		</Model>
 		<Model name="GeForce GTS 250 512MB">
 			<ProducerCode name="NGTS250-512MX-F"></ProducerCode>
@@ -4555,6 +4606,9 @@
 		</Model>
 		<Model name="GeForce GTX 1070 SC2 GAMING 8GB">
 			<ProducerCode name="08G-P4-6573-KR"></ProducerCode>
+		</Model>
+		<Model name="GeForce GTX 1070 Ti FTW ULTRA SILENT GAMING 8GB">
+			<ProducerCode name="08G-P4-6678-KR"></ProducerCode>
 		</Model>
 		<Model name="GeForce GTX 1070 Ti FTW2 GAMING 8GB">
 			<ProducerCode name="08G-P4-6775"></ProducerCode>
@@ -5416,6 +5470,9 @@
 		<Model name="GeForce 9600 GT 1GB">
 			<ProducerCode name="Не указан"></ProducerCode>
 		</Model>
+		<Model name="GeForce GT 430 1GB">
+			<ProducerCode name="43GGS8HX3SPZ"></ProducerCode>
+		</Model>
 		<Model name="GeForce GTX 295 1792MB">
 			<ProducerCode name="Не указан"></ProducerCode>
 		</Model>
@@ -5522,6 +5579,9 @@
 		</Model>
 		<Model name="AMD Radeon R9 380 4GB">
 			<ProducerCode name="GV-R938WF2-4GD"></ProducerCode>
+		</Model>
+		<Model name="AMD Radeon RX 550 D5 2GB">
+			<ProducerCode name="GV-RX550-D5-2GD"></ProducerCode>
 		</Model>
 		<Model name="AMD Radeon RX 5500XT OC 4GB">
 			<ProducerCode name="GV-R55XTOC-4GD Rev2.0"></ProducerCode>
@@ -5778,6 +5838,9 @@
 		<Model name="ATI Radeon 9200 64MB">
 			<ProducerCode name="GV-R9264DH"></ProducerCode>
 		</Model>
+		<Model name="ATI Radeon 9200 SE 128MB">
+			<ProducerCode name="GV-R92S128T"></ProducerCode>
+		</Model>
 		<Model name="ATI Radeon 9600 128MB">
 			<ProducerCode name="GV-R96128D"></ProducerCode>
 		</Model>
@@ -5944,6 +6007,7 @@
 			<ProducerCode name="GV-NX96G384H"></ProducerCode>
 		</Model>
 		<Model name="GeForce 9600 GT 1GB">
+			<ProducerCode name="GV-N96TZL-1GI"></ProducerCode>
 			<ProducerCode name="GV-NX96T1GHP (rev. 3.0)"></ProducerCode>
 		</Model>
 		<Model name="GeForce 9600 GT 512MB">
@@ -6024,6 +6088,7 @@
 		</Model>
 		<Model name="GeForce GT 630 1GB">
 			<ProducerCode name="GV-N630-1GI"></ProducerCode>
+			<ProducerCode name="GV-N630D3-1GI"></ProducerCode>
 		</Model>
 		<Model name="GeForce GT 630 2GB">
 			<ProducerCode name="GV-N630-2GI"></ProducerCode>
@@ -6069,6 +6134,7 @@
 			<ProducerCode name="GV-N730-2GI (rev. 1.0)"></ProducerCode>
 			<ProducerCode name="GV-N730D3-2GI"></ProducerCode>
 			<ProducerCode name="GV-N730D3-2GI (rev. 2.0)"></ProducerCode>
+			<ProducerCode name="GV-N730D3-2GI 3.0"></ProducerCode>
 			<ProducerCode name="GV-N730D3-2GI rev.3.0"></ProducerCode>
 			<ProducerCode name="GV-N730D5-2GI (rev. 2.0)"></ProducerCode>
 			<ProducerCode name="GV-N730D5-2GI rev.1.0"></ProducerCode>
@@ -6438,6 +6504,7 @@
 		</Model>
 		<Model name="GeForce GTX 1660 SUPER OC 6G">
 			<ProducerCode name="GV-N166SOC-6GD"></ProducerCode>
+			<ProducerCode name="GV-N166SOC-6GD 1.0"></ProducerCode>
 		</Model>
 		<Model name="GeForce GTX 1660 TI D6 6GB">
 			<ProducerCode name="GV-N166TD6-6GD"></ProducerCode>
@@ -7060,6 +7127,7 @@
 		</Model>
 		<Model name="GeForce RTX 3070 Gaming OC 8G">
 			<ProducerCode name="GV-N3070GAMING OC-8GD"></ProducerCode>
+			<ProducerCode name="GV-N3070GAMING OC-8GD 2.0"></ProducerCode>
 		</Model>
 		<Model name="GeForce RTX 3070 Ti AORUS MASTER">
 			<ProducerCode name="GV-N307TAORUS M-8GD"></ProducerCode>
@@ -8014,11 +8082,20 @@
 		</Model>
 	</Brand>
 	<Brand name="GUNNIR">
+		<Model name="Arc A750 8GB">
+			<ProducerCode name="ARC A750 Photon 8G OC W"></ProducerCode>
+		</Model>
 		<Model name="Intel Arc A380 6GB">
 			<ProducerCode name="Не указан"></ProducerCode>
 		</Model>
+		<Model name="Intel Arc A770 16GB">
+			<ProducerCode name="Intel Arc A770 16G W"></ProducerCode>
+		</Model>
 	</Brand>
 	<Brand name="Gainward">
+		<Model name=" GeForce GTS 250 Deep Green 1GB">
+			<ProducerCode name="Не указан"></ProducerCode>
+		</Model>
 		<Model name="8600GT PCI-E 512MB">
 			<ProducerCode name="XNE/860GTXT351-PM8984"></ProducerCode>
 		</Model>
@@ -8251,6 +8328,9 @@
 		<Model name="GeForce GTX 1080 Ti Golden Sample 11GB">
 			<ProducerCode name="426018336-3903"></ProducerCode>
 		</Model>
+		<Model name="GeForce GTX 1650 D6 Ghost 4GB">
+			<ProducerCode name="NE6165001BG1-1175D"></ProducerCode>
+		</Model>
 		<Model name="GeForce GTX 1660 SUPER 6GB Pegasus">
 			<ProducerCode name="471056224-1365"></ProducerCode>
 		</Model>
@@ -8457,6 +8537,9 @@
 		<Model name="GeForce RTX 2060 SUPER M 8GB GHOST">
 			<ProducerCode name="NE6206S018P2-1160X-1"></ProducerCode>
 		</Model>
+		<Model name="GeForce RTX 2070 8GB">
+			<ProducerCode name="426018336-4269"></ProducerCode>
+		</Model>
 		<Model name="GeForce RTX 2080 Phantom">
 			<ProducerCode name="426018336-4191"></ProducerCode>
 		</Model>
@@ -8465,6 +8548,9 @@
 		</Model>
 		<Model name="GeForce RTX 3050 Ghost OC 8GB">
 			<ProducerCode name="471056224-3246"></ProducerCode>
+		</Model>
+		<Model name="GeForce RTX 3050 Pegasus 8GB">
+			<ProducerCode name="NE63050018P1-1070E"></ProducerCode>
 		</Model>
 		<Model name="GeForce RTX 3060 Pegasus 12GB">
 			<ProducerCode name="NE63060019K9-190AE"></ProducerCode>
@@ -8517,11 +8603,17 @@
 		<Model name="GeForce RTX 4070 Ghost OC 12GB">
 			<ProducerCode name="NED4070S19K9-1047B"></ProducerCode>
 		</Model>
+		<Model name="GeForce RTX 4070 SUPER Ghost 12GB">
+			<ProducerCode name="NED407S019K9-1043B"></ProducerCode>
+		</Model>
 		<Model name="GeForce RTX 4070 SUPER Ghost OC 12GB">
 			<ProducerCode name="NED407SS19K9-1043B"></ProducerCode>
 		</Model>
 		<Model name="GeForce RTX 4070 SUPER Panther OC 12Gb">
 			<ProducerCode name="NED407ST19K9-1043Z"></ProducerCode>
+		</Model>
+		<Model name="GeForce RTX 4070 Ti SUPER Panther OC 16GB">
+			<ProducerCode name="NED47TSS19T2-1043Z"></ProducerCode>
 		</Model>
 		<Model name="GeForce RTX 4070Ti Phantom Reunion 12GB">
 			<ProducerCode name="NED407T019K9-1046P"></ProducerCode>
@@ -8803,6 +8895,9 @@
 		<Model name="Radeon HD 7870 2GB">
 			<ProducerCode name="H787F2G2M"></ProducerCode>
 		</Model>
+		<Model name="Radeon HD 7970 3GB">
+			<ProducerCode name="H797QM3G2M"></ProducerCode>
+		</Model>
 		<Model name="Radeon HD7850 IPower IceQ X² Turbo 2GB">
 			<ProducerCode name="H785QMT2G2M"></ProducerCode>
 		</Model>
@@ -8982,6 +9077,9 @@
 		<Model name="AMD Radeon HD 8490 1GB">
 			<ProducerCode name="E1C64AA"></ProducerCode>
 		</Model>
+		<Model name="AMD Radeon HD6570">
+			<ProducerCode name="Не указан"></ProducerCode>
+		</Model>
 		<Model name="AMD Radeon Pro W5700 8GB">
 			<ProducerCode name="9GC15AA"></ProducerCode>
 		</Model>
@@ -9117,6 +9215,9 @@
 		</Model>
 		<Model name="Nvidia GeForce GTX 970 4GB">
 			<ProducerCode name="803185-001"></ProducerCode>
+		</Model>
+		<Model name="Nvidia Geforce 315 1GB">
+			<ProducerCode name="616594-001"></ProducerCode>
 		</Model>
 		<Model name="Nvidia Quadro4 100NVS 64MB">
 			<ProducerCode name="319957-003"></ProducerCode>
@@ -9511,6 +9612,7 @@
 		</Model>
 		<Model name="GeForce GTX 1080 8GB">
 			<ProducerCode name="C108V3-2SDN-P6DNX"></ProducerCode>
+			<ProducerCode name="N1080-1DDN-P6DN"></ProducerCode>
 		</Model>
 		<Model name="GeForce GTX 1080 Black 8GB">
 			<ProducerCode name="C108B-3SDN-P6DNX"></ProducerCode>
@@ -9863,6 +9965,9 @@
 		<Model name="GeForce RTX 3050 TWIN X2 8GB">
 			<ProducerCode name="N30502-08D6-1190VA42"></ProducerCode>
 		</Model>
+		<Model name="GeForce RTX 3050 TWIN X2 OC 8GB">
+			<ProducerCode name="N30502-08D6X-11902130"></ProducerCode>
+		</Model>
 		<Model name="GeForce RTX 3060 TWIN X2 OC 8Gb">
 			<ProducerCode name="N30602-08D6X-11902130"></ProducerCode>
 		</Model>
@@ -10209,6 +10314,9 @@
 		</Model>
 		<Model name="GeForce GTX 1070 Ti EX 8GB">
 			<ProducerCode name="70ISH6DHM9XK"></ProducerCode>
+		</Model>
+		<Model name="GeForce GTX 1070 Ti Hall Of Fame 8GB">
+			<ProducerCode name="70ISH6DHL2SK"></ProducerCode>
 		</Model>
 		<Model name="GeForce GTX 1080 8GB">
 			<ProducerCode name="80NSJ6DHK5VK"></ProducerCode>
@@ -10599,6 +10707,9 @@
 		</Model>
 		<Model name="GeForce RTX 3060 12GB">
 			<ProducerCode name="Не указан"></ProducerCode>
+		</Model>
+		<Model name="Radeon RX 550 4GB">
+			<ProducerCode name="RX550 4G GDDR5 D5 128BIT+896SP"></ProducerCode>
 		</Model>
 		<Model name="Radeon RX 560 4GB">
 			<ProducerCode name="RX560 4G GDDR5 D5 128BIT+896SP"></ProducerCode>
@@ -11076,6 +11187,7 @@
 			<ProducerCode name="RX 6600 XT GAMING X 8G"></ProducerCode>
 		</Model>
 		<Model name="AMD Radeon RX 6750 XT GAMING X TRIO 12GB">
+			<ProducerCode name="912-V399-001"></ProducerCode>
 			<ProducerCode name="RX 6750 XT GAMING X TRIO 12G"></ProducerCode>
 		</Model>
 		<Model name="AMD Radeon RX 6750 XT MECH 2X OC 12GB">
@@ -11421,6 +11533,9 @@
 		<Model name="GeForce GTX 1060 AERO ITX OC 6GB">
 			<ProducerCode name="GTX 1060 AERO ITX 6G OC"></ProducerCode>
 		</Model>
+		<Model name="GeForce GTX 1060 ARMOR 3G OCV1">
+			<ProducerCode name="GEFORCE GTX 1060 ARMOR 3G OCV1"></ProducerCode>
+		</Model>
 		<Model name="GeForce GTX 1060 ARMOR OC 6GB">
 			<ProducerCode name="GTX 1060 ARMOR 6G OCV1"></ProducerCode>
 		</Model>
@@ -11475,6 +11590,9 @@
 		</Model>
 		<Model name="GeForce GTX 1070 Ti GAMING 8GB">
 			<ProducerCode name="GTX 1070 Ti GAMING 8G"></ProducerCode>
+		</Model>
+		<Model name="GeForce GTX 1070 Ti TITANIUM 8GB">
+			<ProducerCode name="GTX 1070 Ti TITANIUM 8G"></ProducerCode>
 		</Model>
 		<Model name="GeForce GTX 1080 AERO OC 8GB">
 			<ProducerCode name="GTX 1080 AERO 8G OC"></ProducerCode>
@@ -11573,6 +11691,7 @@
 			<ProducerCode name="GTX 1650 D6 VENTUS XS OC"></ProducerCode>
 		</Model>
 		<Model name="GeForce GTX 1650 D6 VENTUS XS OCV1 4GB">
+			<ProducerCode name="912-V809-3616"></ProducerCode>
 			<ProducerCode name="GTX 1650 D6 VENTUS XS OCV1"></ProducerCode>
 		</Model>
 		<Model name="GeForce GTX 1650 D6 VENTUS XS OCV3 4GB">
@@ -12117,6 +12236,7 @@
 			<ProducerCode name="RTX 3060 Ti GAMING X"></ProducerCode>
 		</Model>
 		<Model name="GeForce RTX 3060 Ti GAMING X 8GB">
+			<ProducerCode name="912-V397-234"></ProducerCode>
 			<ProducerCode name="RTX 3060 TI GAMING X 8G LHR"></ProducerCode>
 		</Model>
 		<Model name="GeForce RTX 3060 Ti GAMING Z TRIO (LHR)">
@@ -12315,6 +12435,9 @@
 		<Model name="GeForce RTX 4060 8GB">
 			<ProducerCode name="RTX 4060 GAMING 8G"></ProducerCode>
 		</Model>
+		<Model name="GeForce RTX 4060 GAMING X MLG 8GB">
+			<ProducerCode name="GeForce RTX 4060 GAMING X MLG 8G"></ProducerCode>
+		</Model>
 		<Model name="GeForce RTX 4060 Ti 16GB">
 			<ProducerCode name="RTX 4060 Ti VENTUS 2X BLACK 16G"></ProducerCode>
 		</Model>
@@ -12390,6 +12513,7 @@
 		</Model>
 		<Model name="GeForce RTX 4070 SUPER VENTUS 2X OC 12GB">
 			<ProducerCode name="602-V513-168S"></ProducerCode>
+			<ProducerCode name="GeForce RTX 4070 SUPER 12G VENTUS 2X OC"></ProducerCode>
 		</Model>
 		<Model name="GeForce RTX 4070 SUPER VENTUS 3X OC 12GB">
 			<ProducerCode name="602-V513-166S"></ProducerCode>
@@ -12474,6 +12598,7 @@
 		<Model name="GeForce RTX 4080 SUPER GAMING X SLIM 16GB">
 			<ProducerCode name="602-V511-70S"></ProducerCode>
 			<ProducerCode name="912-V511-231"></ProducerCode>
+			<ProducerCode name="RTX 4080 SUPER 16G GAMING X SLIM"></ProducerCode>
 		</Model>
 		<Model name="GeForce RTX 4080 SUPER GAMING X SLIM WHITE">
 			<ProducerCode name="912-V511-232"></ProducerCode>
@@ -12489,6 +12614,9 @@
 		</Model>
 		<Model name="GeForce RTX 4090 GAMING TRIO 24GB">
 			<ProducerCode name="RTX 4090 GAMING TRIO 24G"></ProducerCode>
+		</Model>
+		<Model name="GeForce RTX 4090 GAMING X SLIM 24GB">
+			<ProducerCode name="912-V510-265"></ProducerCode>
 		</Model>
 		<Model name="GeForce RTX 4090 GAMING X TRIO 24GB">
 			<ProducerCode name="912-V510-006"></ProducerCode>
@@ -12515,6 +12643,9 @@
 		<Model name="GeForce2 MX200 32MB">
 			<ProducerCode name="GeForce2 MX 200"></ProducerCode>
 		</Model>
+		<Model name="Geforce RTX 3050 VENTUS 2X OCV1">
+			<ProducerCode name="RTX 3050 VENTUS 2X 8G OCV1"></ProducerCode>
+		</Model>
 		<Model name="Intel Arc A310 4GB">
 			<ProducerCode name="Intel Arc A310 LP 2X 4G"></ProducerCode>
 		</Model>
@@ -12526,6 +12657,9 @@
 		</Model>
 		<Model name="MS-V013">
 			<ProducerCode name="NX6200AX-TD128LF"></ProducerCode>
+		</Model>
+		<Model name="N275GTX Lightning 1792">
+			<ProducerCode name="Не указан"></ProducerCode>
 		</Model>
 		<Model name="NVIDIA CMP 30HX MINER XS">
 			<ProducerCode name="Не указан"></ProducerCode>
@@ -12641,6 +12775,7 @@
 		</Model>
 		<Model name="RTX 4080 SUPER 16G VENTUS 3X OC">
 			<ProducerCode name="602-v511-75s"></ProducerCode>
+			<ProducerCode name="RTX 4080 SUPER 16G VENTUS 3X OC"></ProducerCode>
 		</Model>
 		<Model name="RTX 4090 GAMING X TRIO 24GB">
 			<ProducerCode name="RTX 4090 GAMING X TRIO 24G"></ProducerCode>
@@ -12653,6 +12788,9 @@
 		</Model>
 		<Model name="RTX4060 VENTUS 2X BLACK 8GB">
 			<ProducerCode name="GeForce RTX 4060 VENTUS 2X"></ProducerCode>
+		</Model>
+		<Model name="Radeon 9250 AGP 128MB">
+			<ProducerCode name="RX9250-TD128"></ProducerCode>
 		</Model>
 		<Model name="Radeon HD 2600 PRO 256MB">
 			<ProducerCode name="RX2600PRO-T2D256E/D2"></ProducerCode>
@@ -13150,6 +13288,9 @@
 		<Model name="M9128 Low Profile 1GB">
 			<ProducerCode name="M9128-E1024LAF"></ProducerCode>
 		</Model>
+		<Model name="M9140 LP 512MB">
+			<ProducerCode name="M9140-E512LAF"></ProducerCode>
+		</Model>
 		<Model name="M9148 LP 1GB">
 			<ProducerCode name="M9148-E1024LAF"></ProducerCode>
 		</Model>
@@ -13178,6 +13319,11 @@
 		</Model>
 		<Model name="AMD Radeon RX 580 8GB">
 			<ProducerCode name="RX580-8GD5 2048SP"></ProducerCode>
+		</Model>
+	</Brand>
+	<Brand name="Moore Threads">
+		<Model name="MTT S80 16GB">
+			<ProducerCode name="MTT S80/256bit/16GB"></ProducerCode>
 		</Model>
 	</Brand>
 	<Brand name="NURMA">
@@ -13495,6 +13641,7 @@
 		</Model>
 		<Model name="Quadro T1000 8GB">
 			<ProducerCode name="900-5G172-2570-000"></ProducerCode>
+			<ProducerCode name="Quadro T1000 8GB"></ProducerCode>
 		</Model>
 		<Model name="RIVA TNT2 Vanta LT 16mb">
 			<ProducerCode name="Не указан"></ProducerCode>
@@ -13904,6 +14051,9 @@
 		</Model>
 		<Model name="GeForce Titan V 12GB">
 			<ProducerCode name="MSIP-REM-NVA-PG500"></ProducerCode>
+		</Model>
+		<Model name="NVIDIA Quadro 410 512MB">
+			<ProducerCode name="VCQ410-T"></ProducerCode>
 		</Model>
 		<Model name="NVIDIA Quadro 600 1GB">
 			<ProducerCode name="VCQ600ATXV2U-T"></ProducerCode>
@@ -14437,6 +14587,9 @@
 		<Model name="GeForce FX 5700Very+ 128MB">
 			<ProducerCode name="NA-5700V+TD11"></ProducerCode>
 		</Model>
+		<Model name="GeForce GF210 1GB">
+			<ProducerCode name="NE221000F0801-N216B"></ProducerCode>
+		</Model>
 		<Model name="GeForce GT 1030 2GB">
 			<ProducerCode name="NE5103000646-1080F"></ProducerCode>
 			<ProducerCode name="NE5103000646-1081F"></ProducerCode>
@@ -14485,6 +14638,7 @@
 			<ProducerCode name="GT 440"></ProducerCode>
 			<ProducerCode name="NE5T4400HD01-1083F"></ProducerCode>
 			<ProducerCode name="NEAT4400HD01-1081F"></ProducerCode>
+			<ProducerCode name="NEAT440NHD01-1085F"></ProducerCode>
 		</Model>
 		<Model name="GeForce GT 440 2GB">
 			<ProducerCode name="4400HD01-1081F"></ProducerCode>
@@ -15806,6 +15960,9 @@
 		<Model name="AMD Radeon RX 550 LP 2GB">
 			<ProducerCode name="AXRX 550 2GBD5-HLE"></ProducerCode>
 		</Model>
+		<Model name="AMD Radeon RX 550 Red Dragon">
+			<ProducerCode name="Не указан"></ProducerCode>
+		</Model>
 		<Model name="AMD Radeon RX 550 Red Dragon LP">
 			<ProducerCode name="AXRX 550 4GBD5-HLE"></ProducerCode>
 		</Model>
@@ -15892,6 +16049,7 @@
 		</Model>
 		<Model name="Radeon HD 3850 512MB">
 			<ProducerCode name="AX3850 512MD3"></ProducerCode>
+			<ProducerCode name="ag3850 512md3"></ProducerCode>
 		</Model>
 		<Model name="Radeon HD 3870 512MB">
 			<ProducerCode name="AX3870 512MD4-PH"></ProducerCode>
@@ -15970,6 +16128,7 @@
 		<Model name="Radeon HD 5670 1GB">
 			<ProducerCode name="AX5670 1GBD5-HV2"></ProducerCode>
 			<ProducerCode name="AX5670 1GBD5-NS3H"></ProducerCode>
+			<ProducerCode name="AX5670-1GBK3-H"></ProducerCode>
 		</Model>
 		<Model name="Radeon HD 5670 512MB">
 			<ProducerCode name="AX5670 512MD5-HV2"></ProducerCode>
@@ -16060,6 +16219,9 @@
 		</Model>
 		<Model name="Radeon HD 7790 1GB">
 			<ProducerCode name="ax7790 1gbd5-dhv2/oc"></ProducerCode>
+		</Model>
+		<Model name="Radeon HD 7850 SCS3 1GB">
+			<ProducerCode name="AX7850 1GBD5-S3DH"></ProducerCode>
 		</Model>
 		<Model name="Radeon HD 7870 2GB">
 			<ProducerCode name="AX7870 2GBD5-2DH"></ProducerCode>
@@ -16788,6 +16950,9 @@
 		<Model name="AMD Radeon RX 580 NITRO+ OC 8GB">
 			<ProducerCode name="11265-01-20G"></ProducerCode>
 		</Model>
+		<Model name="AMD Radeon RX 580 NITRO+ OC Limited Edition 8GB">
+			<ProducerCode name="11265-00-20G"></ProducerCode>
+		</Model>
 		<Model name="AMD Radeon RX 580 Nitro+ OC 4GB">
 			<ProducerCode name="299-1E366-101SA"></ProducerCode>
 		</Model>
@@ -17211,6 +17376,9 @@
 		<Model name="RADEON HD 3850 1GB">
 			<ProducerCode name="RADEON HD3850"></ProducerCode>
 		</Model>
+		<Model name="RADEON HD 6450 1Go 1 GB">
+			<ProducerCode name="299-5E164-140SA"></ProducerCode>
+		</Model>
 		<Model name="RADEON HD 7870 XT 2GB">
 			<ProducerCode name="299-1E246-001SA"></ProducerCode>
 		</Model>
@@ -17219,6 +17387,9 @@
 		</Model>
 		<Model name="RADEON X1950 GT 256MB">
 			<ProducerCode name="188-04E25-0035A"></ProducerCode>
+		</Model>
+		<Model name="RADEON X1950 Pro RADEON X1950 Pro">
+			<ProducerCode name="RADEON X1950Pro"></ProducerCode>
 		</Model>
 		<Model name="RADEON X1950 XT 256Mb">
 			<ProducerCode name="102a5206850"></ProducerCode>
@@ -17533,6 +17704,9 @@
 		<Model name="Radeon R7 240 2GB">
 			<ProducerCode name="11216-07-10G"></ProducerCode>
 			<ProducerCode name="11216-31-20G"></ProducerCode>
+		</Model>
+		<Model name="Radeon R7 240 LP 1GB">
+			<ProducerCode name="11216-13-XX"></ProducerCode>
 		</Model>
 		<Model name="Radeon R7 250 2GB">
 			<ProducerCode name="11215-01"></ProducerCode>
@@ -19327,6 +19501,7 @@
 		</Model>
 		<Model name="GeForce 9500 GT 1GB">
 			<ProducerCode name="ZT-95TEK2M-FSL"></ProducerCode>
+			<ProducerCode name="ZT-95TEK2P-FSR"></ProducerCode>
 			<ProducerCode name="ZT-95TEK3P-HSL"></ProducerCode>
 		</Model>
 		<Model name="GeForce 9500 GT 512MB">
@@ -19969,6 +20144,9 @@
 		<Model name="GeForce RTX 3060 Ti GAMING Twin Edge 8GB">
 			<ProducerCode name="ZT-A30620J-10P"></ProducerCode>
 		</Model>
+		<Model name="GeForce RTX 3060 Ti X-GAMING GOC-X 8GB">
+			<ProducerCode name="GeForce RTX 3060Ti-8GD6 X-GAMING GOC-X"></ProducerCode>
+		</Model>
 		<Model name="GeForce RTX 3060 Twin Edge 8GB">
 			<ProducerCode name="ZT-A30630E-10M"></ProducerCode>
 		</Model>
@@ -20016,6 +20194,9 @@
 		</Model>
 		<Model name="GeForce RTX 4070 Ti AMP Extreme Airo 12GB">
 			<ProducerCode name="ZT-D40710B-10P"></ProducerCode>
+		</Model>
+		<Model name="GeForce RTX 4070 Ti SUPER Trinity OC 16GB">
+			<ProducerCode name="ZT-D40730Q-10P"></ProducerCode>
 		</Model>
 		<Model name="GeForce RTX 4070 Twin Edge 12GB">
 			<ProducerCode name="ZT-D40700E-10M"></ProducerCode>

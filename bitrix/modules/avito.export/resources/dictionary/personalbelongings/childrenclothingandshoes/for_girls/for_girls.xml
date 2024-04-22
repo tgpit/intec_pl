@@ -98,7 +98,10 @@
 			<ApparelSubType name="Кардиган"></ApparelSubType>
 		</ApparelType>
 	</Apparel>
-	<Apparel name="Футболки и топы"></Apparel>
+	<Apparel name="Футболки и топы">
+		<ApparelType name="Футболки"></ApparelType>
+		<ApparelType name="Майки и топы"></ApparelType>
+	</Apparel>
 	<Apparel name="Блузки и рубашки"></Apparel>
 	<Apparel name="Пиджаки и костюмы">
 		<ApparelSubType name="Школьная форма"></ApparelSubType>

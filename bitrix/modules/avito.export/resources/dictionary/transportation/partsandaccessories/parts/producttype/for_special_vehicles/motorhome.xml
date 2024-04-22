@@ -699,6 +699,9 @@
 			<Model name="Explorer I605 Sportline"></Model>
 			<Model name="Explorer I745 Sportline"></Model>
 		</Make>
+		<Make name="Laika">
+			<Model name="Ecovip 4109"></Model>
+		</Make>
 		<Make name="Malibu">
 			<Model name="Compact Class"></Model>
 			<Model name="Compact Plus Class"></Model>
@@ -1734,6 +1737,7 @@
 			<Model name="Bianco Selection 515 SG"></Model>
 			<Model name="Bianco Selection 515 SKM"></Model>
 			<Model name="Bianco Selection 550 SKM"></Model>
+			<Model name="Diamant 410A"></Model>
 			<Model name="Diamant 535"></Model>
 			<Model name="Diamant 560"></Model>
 			<Model name="Diamant 560 SD"></Model>
@@ -1786,6 +1790,7 @@
 			<Model name="Rockwood Mini Lite 2104S"></Model>
 			<Model name="Rockwood Mini Lite 2109S"></Model>
 			<Model name="Rockwood Mini Lite 2509S"></Model>
+			<Model name="Surveyor Legend 19BHLE"></Model>
 			<Model name="Wildcat 29RLS"></Model>
 		</Make>
 		<Make name="GTS-Trailer">
@@ -2159,6 +2164,7 @@
 			<Model name="Delta Ti"></Model>
 			<Model name="Eclipse 20/4"></Model>
 			<Model name="Freelander"></Model>
+			<Model name="Frystar"></Model>
 			<Model name="Jupiter"></Model>
 			<Model name="LX2000"></Model>
 			<Model name="Lexon"></Model>

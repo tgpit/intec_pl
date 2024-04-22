@@ -8,7 +8,7 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Брэнды", 
+		"Бренды", 
 		"/help/brands/", 
 		Array(), 
 		Array(), 

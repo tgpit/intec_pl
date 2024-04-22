@@ -47,6 +47,19 @@ div[data-role="acrit_exp_wildberries_stores_wrapper"]{
 div[data-role="acrit_exp_wildberries_stock_token"]{
 	margin-bottom:10px;
 }
+div[data-role="acrit_exp_wildberries_stores_list"] > div + div {
+	margin-top:4px;
+}
+div[data-role="acrit_exp_wildberries_stores_list"] > div:first-child input[data-role="acrit_exp_wildberries_store_delete"] {
+	display:none;
+}
+div[data-role="acrit_exp_wildberries_stores_list"] > div:first-child input[data-role="acrit_exp_wildberries_store_delete"] {
+	display:none;
+}
+input[data-role="acrit_exp_wildberries_store_delete"]{
+	height:25px!important;
+	margin:0!important;
+}
 
 /**
  *	Categories

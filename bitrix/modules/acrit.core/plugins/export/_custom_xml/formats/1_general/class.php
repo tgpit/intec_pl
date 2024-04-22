@@ -1201,7 +1201,7 @@ class CustomXmlGeneral extends CustomXml {
 			//XML_ALL_CATEGORIES
 			if($bAllCategories){
 				$arSectionsForExport = [];
-				$arSort = ['SORT' => 'ASC', 'NAME' => 'ASC'];
+				$arSort = ['LEFT_MARGIN' => 'ASC', 'NAME' => 'ASC'];
 				$arFilter = ['IBLOCK_ID' => $intSectionsIBlockID, 'ACTIVE' => 'Y', 'GLOBAL_ACTIVE' => 'Y'];
 				$resSections = \CIBlockSection::getList($arSort, $arFilter, false, ['ID']);
 				while($arSection = $resSections->fetch()){
@@ -1268,7 +1268,8 @@ class CustomXmlGeneral extends CustomXml {
 		if(!empty($arSectionsForExportAll)) {
 			$arSectionsAll = array();
 			$arSort = array(
-				'ID' => 'ASC',
+				'LEFT_MARGIN' => 'ASC',
+				'NAME' => 'ASC',
 			);
 			$arFilter = array(
 				'ID' => $arSectionsForExportAll,

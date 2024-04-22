@@ -66,9 +66,9 @@ $iPropertyIndex = 0;
     <?
     $id = $arResult["ID"];
     $ar_res = CCatalogProduct::GetByID($id);
-    //var_dump($ar_res);
     ?>
     <div class="catalog-element-properties-detail-offer-container">
+		<?if ($ar_res["LENGTH"] != '') { ?>
         <div class="catalog-element-properties-detail-item" data-code="even">
             <div class="intec-grid intec-grid-a-v-center intec-grid-i-4 intec-grid-500-wrap">
                 <div class="intec-grid-item-2 intec-grid-item-500-1">
@@ -83,6 +83,8 @@ $iPropertyIndex = 0;
                 </div>
             </div>
         </div>
+		<?}?>
+		<?if ($ar_res["WIDTH"] != '' ){?>
         <div class="catalog-element-properties-detail-item" data-code="odd">
             <div class="intec-grid intec-grid-a-v-center intec-grid-i-4 intec-grid-500-wrap">
                 <div class="intec-grid-item-2 intec-grid-item-500-1">
@@ -97,6 +99,8 @@ $iPropertyIndex = 0;
                 </div>
             </div>
         </div>
+		<?}?>
+		<?if ($ar_res["HEIGHT"] != '' ){?>
         <div class="catalog-element-properties-detail-item" data-code="even">
             <div class="intec-grid intec-grid-a-v-center intec-grid-i-4 intec-grid-500-wrap">
                 <div class="intec-grid-item-2 intec-grid-item-500-1">
@@ -111,7 +115,7 @@ $iPropertyIndex = 0;
                 </div>
             </div>
         </div>
-
+		<?}?>
     </div>
 </div>
 <?php unset($arProperty, $sKey, $arOffer) ?>

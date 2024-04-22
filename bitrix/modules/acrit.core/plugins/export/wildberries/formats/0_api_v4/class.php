@@ -255,6 +255,15 @@ class WildberriesV4 extends UniversalPlugin {
 		}
 		return $arStocks;
 	}
+
+	/**
+	 * Get stores from WB
+	 */
+	protected function getWbStores(){
+		$arResult = [];
+		// ToDo
+		return $arResult;
+	}
 	
 	/**
 	 *	Convert simple description text to hint
@@ -379,6 +388,9 @@ class WildberriesV4 extends UniversalPlugin {
 			case 'token_clear':
 				$this->tokenClear($arParams, $arJsonResult);
 				break;
+			case 'load_stores':
+				$this->loadStores($arParams, $arJsonResult);
+				break;
 			case 'popup_categories_add':
 				$this->displayPopupCategoryAdd($arParams, $arJsonResult);
 				break;
@@ -410,9 +422,10 @@ class WildberriesV4 extends UniversalPlugin {
 	public function tokenCheck($arParams, &$arJsonResult){
 		$arGet = ['name' => ''];
 		$arParams = ['AUTH_TOKEN' => $arParams['GET']['auth_token']];
-		$obResponse = $this->API->execute('/content/v1/object/characteristics/list/filter', $arGet, $arParams);
+		$obResponse = $this->API->execute('/content/v2/cards/limits', $arGet, $arParams);
 		$arJsonResult['Response'] = $obResponse->getResponse();
-		$arJsonResult['Success'] = $obResponse->getStatus() == 200;
+		$arJsonResult['Json'] = $obResponse->getJsonResult();
+		$arJsonResult['Success'] = $obResponse->getStatus() == 200 && isset($arJsonResult['Json']['data']);
 		if(!$arJsonResult['Success']){
 			$this->addToLog(sprintf('Error check token [%s]: %s', $obResponse->getStatus(), $arJsonResult['Response']));
 		}
@@ -439,6 +452,17 @@ class WildberriesV4 extends UniversalPlugin {
 		Helper::deleteOption($this->strModuleId, $this->getCookieTokenName());
 		Helper::deleteOption($this->strModuleId, $this->getRefreshTokenName());
 		$arJsonResult['Success'] = true;
+	}
+	
+	/**
+	 *	Load stores via AJAX
+	 */
+	protected function loadStores($arParams, &$arJsonResult){
+		$arJsonResult['Success'] = true;
+		$arJsonResult['Stores'] = $this->getWbStores();
+		if(empty($arJsonResult['Stores'])){
+			$arJsonResult['Message'] = static::getMessage('EXPORT_STOCKS_ADD_AUTO_EMPTY');
+		}
 	}
 
 	/**

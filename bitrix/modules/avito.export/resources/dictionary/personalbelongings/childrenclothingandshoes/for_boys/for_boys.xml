@@ -1,6 +1,22 @@
 <?xml version="1.0" ?>
 <Dictionary>
     <Apparel name="Верхняя одежда">
+	    <ApparelType name="Куртки и пуховики">
+		    <ApparelSubType name="Куртка"></ApparelSubType>
+		    <ApparelSubType name="Ветровка"></ApparelSubType>
+		    <ApparelSubType name="Пуховик"></ApparelSubType>
+		    <ApparelSubType name="Парка"></ApparelSubType>
+		    <ApparelSubType name="Джинсовка"></ApparelSubType>
+		    <ApparelSubType name="Бомбер"></ApparelSubType>
+	    </ApparelType>
+	    <ApparelType name="Дублёнки и шубы"></ApparelType>
+	    <ApparelType name="Пальто и плащи">
+		    <ApparelSubType name="Пальто"></ApparelSubType>
+		    <ApparelSubType name="Дождевик"></ApparelSubType>
+		    <ApparelSubType name="Плащ"></ApparelSubType>
+		    <ApparelSubType name="Тренч"></ApparelSubType>
+	    </ApparelType>
+	    <ApparelType name="Жилеты"></ApparelType>
 	    <Material name="Мех"></Material>
 	    <Material name="Флис"></Material>
 	    <Material name="Хлопок"></Material>
@@ -20,14 +36,87 @@
 	    <Functions name="Капюшон"></Functions>
 	    <Functions name="Воротник"></Functions>
     </Apparel>
-	<Apparel name="Обувь"></Apparel>
-	<Apparel name="Брюки"></Apparel>
-    <Apparel name="Комбинезоны"></Apparel>
-	<Apparel name="Свитеры и толстовки"></Apparel>
-	<Apparel name="Футболки и майки"></Apparel>
+	<Apparel name="Обувь">
+		<ApparelType name="Сапоги и полусапоги">
+			<ApparelSubType name="Сапоги"></ApparelSubType>
+			<ApparelSubType name="Полусапоги"></ApparelSubType>
+			<ApparelSubType name="Сноубутсы"></ApparelSubType>
+			<ApparelSubType name="Берцы"></ApparelSubType>
+			<ApparelSubType name="Дутики"></ApparelSubType>
+			<ApparelSubType name="Унты"></ApparelSubType>
+		</ApparelType>
+		<ApparelType name="Валенки и угги"></ApparelType>
+		<ApparelType name="Ботинки и туфли">
+			<ApparelSubType name="Ботинки"></ApparelSubType>
+			<ApparelSubType name="Полуботинки"></ApparelSubType>
+			<ApparelSubType name="Топсайдеры"></ApparelSubType>
+			<ApparelSubType name="Пинетки"></ApparelSubType>
+			<ApparelSubType name="Мокасины"></ApparelSubType>
+			<ApparelSubType name="Лоферы"></ApparelSubType>
+			<ApparelSubType name="Туфли"></ApparelSubType>
+			<ApparelSubType name="Эспадрильи"></ApparelSubType>
+		</ApparelType>
+		<ApparelType name="Кроссовки и кеды">
+			<ApparelSubType name="Кроссовки"></ApparelSubType>
+			<ApparelSubType name="Кеды"></ApparelSubType>
+			<ApparelSubType name="Слипоны"></ApparelSubType>
+		</ApparelType>
+		<ApparelType name="Сандалии и сланцы"></ApparelType>
+		<ApparelType name="Спортивная обувь"></ApparelType>
+		<ApparelType name="Домашняя обувь"></ApparelType>
+	</Apparel>
+	<Apparel name="Брюки">
+		<ApparelType name="Джинсы"></ApparelType>
+		<ApparelType name="Брюки"></ApparelType>
+		<ApparelType name="Шорты"></ApparelType>
+	</Apparel>
+    <Apparel name="Комбинезоны">
+	    <ApparelType name="Утеплённые комбинезоны"></ApparelType>
+	    <ApparelType name="Нательные комбинезоны"></ApparelType>
+    </Apparel>
+	<Apparel name="Свитеры и толстовки">
+		<ApparelType name="Свитеры">
+			<ApparelSubType name="Джемпер"></ApparelSubType>
+			<ApparelSubType name="Свитер"></ApparelSubType>
+			<ApparelSubType name="Жилетка"></ApparelSubType>
+			<ApparelSubType name="Пуловер"></ApparelSubType>
+		</ApparelType>
+		<ApparelType name="Толстовки"></ApparelType>
+		<ApparelType name="Кофты">
+			<ApparelSubType name="Кофта"></ApparelSubType>
+			<ApparelSubType name="Кардиган"></ApparelSubType>
+			<ApparelSubType name="Водолазка"></ApparelSubType>
+		</ApparelType>
+	</Apparel>
+	<Apparel name="Футболки и майки">
+		<ApparelSubType name="Футболка"></ApparelSubType>
+		<ApparelSubType name="Майка"></ApparelSubType>
+		<ApparelSubType name="Лонгслив"></ApparelSubType>
+		<ApparelSubType name="Поло"></ApparelSubType>
+	</Apparel>
 	<Apparel name="Рубашки"></Apparel>
-	<Apparel name="Пиджаки и костюмы"></Apparel>
-	<Apparel name="Бельё и домашняя одежда"></Apparel>
+	<Apparel name="Пиджаки и костюмы">
+		<ApparelType name="Пиджаки"></ApparelType>
+		<ApparelType name="Костюмы">
+			<ApparelSubType name="Костюм"></ApparelSubType>
+			<ApparelSubType name="Школьная форма"></ApparelSubType>
+			<ApparelSubType name="Кадетская форма"></ApparelSubType>
+			<ApparelSubType name="Спортивный костюм"></ApparelSubType>
+			<ApparelSubType name="Праздничный костюм"></ApparelSubType>
+			<ApparelSubType name="Карнавальный костюм"></ApparelSubType>
+			<ApparelSubType name="Комплект на выписку"></ApparelSubType>
+			<ApparelSubType name="Крестильный комплект"></ApparelSubType>
+		</ApparelType>
+	</Apparel>
+	<Apparel name="Бельё и домашняя одежда">
+		<ApparelType name="Нижнее бельё"></ApparelType>
+		<ApparelType name="Домашняя одежда">
+			<ApparelSubType name="Пижама"></ApparelSubType>
+			<ApparelSubType name="Халат"></ApparelSubType>
+			<ApparelSubType name="Домашний костюм"></ApparelSubType>
+			<ApparelSubType name="Кигуруми"></ApparelSubType>
+		</ApparelType>
+	</Apparel>
 	<Apparel name="Пляжная одежда"></Apparel>
 	<Apparel name="Аксессуары"></Apparel>
     <Apparel name="Другое"></Apparel>

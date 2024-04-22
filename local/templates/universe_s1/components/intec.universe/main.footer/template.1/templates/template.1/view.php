@@ -83,7 +83,7 @@ $bSecondPhoneShow = $arResult['PHONE']['SECOND']['SHOW'];
 				                                                echo '</a>';
 															}
 														}else {
-															$val = substr(['PHONE']['VALUE']['DISPLAY'],0,12);
+															$val = substr($arResult['PHONE']['VALUE']['DISPLAY'],0,12);
 			                                                echo '<a class="tel widget-part-item-text" href="tel:'.$val.'">';
                			                                    echo '<span class="value">';
 													   		echo $arResult['PHONE']['VALUE']['DISPLAY'];

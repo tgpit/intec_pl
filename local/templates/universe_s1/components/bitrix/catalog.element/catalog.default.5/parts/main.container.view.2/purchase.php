@@ -120,14 +120,14 @@ use intec\core\helpers\Html;
                                     </div>
                                 </div>
                             <?php } ?>
-                        </div><br>
+                        </div><div style="height: 7px;"></div>
                         <? $APPLICATION->IncludeComponent(
                             "intec.universe:main.form",
                             "template.7",
                             Array(
                                 "BACKGROUND_COLOR" => "#000000",
                                 "BACKGROUND_IMAGE_USE" => "N",
-                                "BUTTON_TEXT" => "Рассчитать рассрочку и кредит",
+                                "BUTTON_TEXT" => "РАССЧИТАТЬ РАССРОЧКУ И КРЕДИТ",
                                 "CACHE_TIME" => "0",
                                 "CACHE_TYPE" => "A",
                                 "COMPONENT_TEMPLATE" => "template.7",
@@ -135,7 +135,7 @@ use intec\core\helpers\Html;
                                 "DESCRIPTION_SHOW" => "N",
                                 "ID" => "25",
                                 "LAZYLOAD_USE" => "N",
-                                "NAME" => "Рассчитать рассрочку и кредит",
+                                "NAME" => "РАССЧИТАТЬ РАССРОЧКУ И КРЕДИТ",
                                 "SETTINGS_USE" => "Y",
                                 "TEMPLATE" => "template.1",
                                 "THEME" => "light",

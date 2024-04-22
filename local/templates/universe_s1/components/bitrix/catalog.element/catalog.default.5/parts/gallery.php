@@ -222,25 +222,25 @@ use Bitrix\Main\Localization\Loc;
             <?= Html::endTag('div') ?>
     <?= Html::endTag('div') ?>
     <div style="width: 100%;position: relative;">
-        <? 
-	// if (!empty($arResult["PROPERTIES"]["VIDEO_YOUTUBE"]["VALUE"][0])){ 
-	   if (!empty($arResult["PROPERTIES"]["VIDEO"]["VALUE"])){ 
-		?>
-        <div style="position: absolute; z-index: 100; top: 8px; left: 8px;">
-            <a href="<?=$arResult["PROPERTIES"]["VIDEO_YOUTUBE"]["VALUE"][0]?>" target="_blank">
-                <img src="/images/play.png" width="48" height="48" alt="Видео на Youtube">
-            </a>
-        </div>
-        <? }
- $fid = $arResult["PROPERTIES"]["VIDEO"]["VALUE"][0];
-
-//	$mres = CIBlockElement::GetByID($fid);
-//	if($mar_res = $mres->GetNext())
-//		var_dump($mar_res);
-//echo "<div>".$fid."</div>";
-
-//var_dump($arResult["PROPERTIES"]["VIDEO"]["VALUE"][0]);
- ?>
+        <?
+		if (!empty($arResult["PROPERTIES"]["VIDEO"]["VALUE"])) {
+			$cntvid = count($arResult["PROPERTIES"]["VIDEO"]["VALUE"]);
+			for($i = 0; $i < $cntvid; ++$i) {
+				$vidcod = $arResult["PROPERTIES"]["VIDEO"]["VALUE"][$i];
+				$vid = '';
+				$db_props = CIBlockElement::GetProperty(81,	$vidcod, Array(),	Array() );
+				if ($ar_props = $db_props->Fetch()) {
+					$vid = $ar_props['VALUE'];
+				}
+				$xi = 8 + $i * 48;
+				if (!empty($vid)){ 
+				?>
+	        <div style="position: absolute; z-index: 100; top: 8px; left: <?= $xi ?>px;">
+	            <a href="<?=$vid?>" target="_blank">
+			        <img src="/images/play.png" width="48" height="48" alt="Видео на Youtube">
+	            </a>
+	        </div>
+        <? } } } ?>
         <?php if ($arVisual['GALLERY']['PREVIEW'] && $iCountPictures > 1) { ?>
             <div class="catalog-element-gallery-preview" data-role="gallery.preview">
                 <div class="catalog-element-gallery-preview-slider owl-carousel" data-role="gallery.preview.slider">

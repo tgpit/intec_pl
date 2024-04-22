@@ -20,6 +20,7 @@ $arVisual = $arResult['VISUAL'];
 $sTag = $arVisual['LINK']['USE'] ? 'a' : 'div';
 
 ?>
+
 <div class="widget c-services c-services-template-5" id="<?= $sTemplateId ?>">
     <div class="widget-wrapper intec-content">
         <div class="widget-wrapper-2 intec-content-wrapper">
@@ -28,6 +29,7 @@ $sTag = $arVisual['LINK']['USE'] ? 'a' : 'div';
                     <div class="intec-grid intec-grid-wrap intec-grid-a-v-center intec-grid-i-8">
                         <?php if ($arBlocks['HEADER']['SHOW']) { ?>
                             <div class="widget-title-container intec-grid-item">
+
                                 <?= Html::tag('div', Html::encode($arBlocks['HEADER']['TEXT']), [
                                     'class' => [
                                         'widget-title',

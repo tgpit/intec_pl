@@ -47,6 +47,7 @@ BX.Vue.component ('manage', {
         this.$parent.executeBase( profile_req ).success( data => {
             this.mess = data.mess;
             this.menu = data.menu;
+            console.log(this.menu);
         });
 
     },
@@ -55,10 +56,10 @@ BX.Vue.component ('manage', {
         <div class="acrit_orders_wrapper"> 
             <div class="acrit_orders_menu adm-detail-tabs-block adm-detail-tabs-block-settings adm-detail-tabs-block-pin">       
                    <span v-for="(item, index) in this.menu" :key="index" class="adm-detail-tab" :data="index" @click="switch_marker(index)" :style="[ menu[index].active ? { background:'white' } : { background:'none' } ]">{{item.name}}</span>
-            </div>
-            <div class="acrit_orders_wrapper" v-show="menu.CONFIRM.active">
-                <confirm ref="confirm"></confirm>
             </div>            
+            <div class="acrit_orders_wrapper" v-for="(item, index) in this.menu">
+                   <component :is="index" :ref="index" v-show="item.active" />
+            </div>
         </div>
 `
 });

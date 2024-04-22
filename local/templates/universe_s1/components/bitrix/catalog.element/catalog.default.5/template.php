@@ -105,7 +105,7 @@ if ($bBase && $arVisual['PRICE']['RECALCULATION'])
         'properties' => !empty($arResult['SKU_PROPS']) ? Json::encode($arResult['SKU_PROPS'], JSON_UNESCAPED_UNICODE | JSON_HEX_QUOT | JSON_HEX_TAG | JSON_HEX_APOS, true) : '',
         'available' => $arData['available'] ? 'true' : 'false',
         'main-view' => $arVisual['MAIN_VIEW']
-    ]
+    ],
 ]) ?>
     <div class="catalog-element-delimiter"></div>
     <?= Html::beginTag('div', [

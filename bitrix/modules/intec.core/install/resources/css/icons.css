@@ -7,3 +7,6 @@
     background-position: 0 -47px;
     height: 47px;
 }
+.adm-submenu-item-link-icon.intec-notify-menu-icon{
+    background: url('../images/menuIcon.png') no-repeat 5px 0;
+}

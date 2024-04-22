@@ -12,6 +12,7 @@ use intec\core\base\Component;
  * @property boolean $minimizationTags Импользование минимизации тегов и атрибутов.
  * @property boolean $minimizationCommentaries Импользование минимизации комментариев.
  * @property boolean $minimizationContent Импользование минимизации контента.
+ * @property boolean $notificationUse Импользование оповещений о дате окончания лицензии.
  * @package intec\core
  * @author apocalypsisdimon@gmail.com
  */
@@ -144,5 +145,24 @@ class Parameters extends Component
     public function setMinimizationContent($value, $siteId = false)
     {
         $this->set('minimizationContent', $value ? 'Y' : 'N', $siteId);
+    }
+
+    /**
+     * Возвращает статус оповещений о дате окончания лицензии.
+     * @return boolean
+     */
+    public function getNotificationUse()
+    {
+        return $this->get('notificationUse', 'Y') === 'Y';
+    }
+
+    /**
+     * Устанавливает статус оповещений о дате окончания лицензии.
+     * @param boolean $value
+     * @param string|boolean|null $siteId
+     */
+    public function setNotificationUse($value)
+    {
+        $this->set('notificationUse', $value ? 'Y' : 'N');
     }
 }

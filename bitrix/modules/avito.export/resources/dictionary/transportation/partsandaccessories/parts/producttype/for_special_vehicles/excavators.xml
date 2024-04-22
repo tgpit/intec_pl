@@ -387,6 +387,9 @@
 		</Model>
 	</Make>
 	<Make name="ATLET">
+		<Model name="1CX">
+			<TypeOfVehicle name="Экскаватор-погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="3X">
 			<TypeOfVehicle name="Экскаватор-погрузчик"></TypeOfVehicle>
 		</Model>
@@ -4371,6 +4374,9 @@
 		<Model name="420E ST">
 			<TypeOfVehicle name="Экскаватор-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="420F2">
+			<TypeOfVehicle name="Экскаватор-погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="422E">
 			<TypeOfVehicle name="Экскаватор-погрузчик"></TypeOfVehicle>
 		</Model>
@@ -4660,6 +4666,9 @@
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
 		<Model name="LT-330">
+			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
+		</Model>
+		<Model name="LT-332">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
 		<Model name="M312">
@@ -5677,6 +5686,9 @@
 		<Model name="DX200А-7M">
 			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
 		</Model>
+		<Model name="DX210W-7">
+			<TypeOfVehicle name="Колёсный экскаватор"></TypeOfVehicle>
+		</Model>
 		<Model name="DX210WA">
 			<TypeOfVehicle name="Колёсный экскаватор"></TypeOfVehicle>
 		</Model>
@@ -6565,6 +6577,9 @@
 		<Model name="FV388T">
 			<TypeOfVehicle name="Экскаватор-погрузчик"></TypeOfVehicle>
 		</Model>
+		<Model name="FV65">
+			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
+		</Model>
 	</Make>
 	<Make name="Forload">
 		<Model name="FL388">
@@ -6798,6 +6813,9 @@
 		</Model>
 		<Model name="888">
 			<TypeOfVehicle name="Экскаватор-погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="D220NLC">
+			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
 		</Model>
 		<Model name="D220NLS">
 			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
@@ -10809,6 +10827,9 @@
 		</Model>
 		<Model name="1400B">
 			<TypeOfVehicle name="Экскаватор-погрузчик"></TypeOfVehicle>
+		</Model>
+		<Model name="140X LC">
+			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
 		</Model>
 		<Model name="15 C-1">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
@@ -17223,6 +17244,9 @@
 		<Model name="CDM6065E">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
+		<Model name="CDM6075W">
+			<TypeOfVehicle name="Колёсный экскаватор"></TypeOfVehicle>
+		</Model>
 		<Model name="CDM6080">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
@@ -17231,6 +17255,9 @@
 		</Model>
 		<Model name="CDM6085E">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
+		</Model>
+		<Model name="CDM6125W">
+			<TypeOfVehicle name="Колёсный экскаватор"></TypeOfVehicle>
 		</Model>
 		<Model name="CDM6135">
 			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
@@ -18059,7 +18086,13 @@
 		<Model name="ME225-9NLC (габарит)">
 			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
 		</Model>
+		<Model name="ME240-8">
+			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
+		</Model>
 		<Model name="ME255-9LC">
+			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
+		</Model>
+		<Model name="ME335-8">
 			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
 		</Model>
 		<Model name="ME335-9LC">
@@ -19582,6 +19615,9 @@
 		<Model name="CT505">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
+		<Model name="LC-01">
+			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
+		</Model>
 		<Model name="PE-3522">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
@@ -19824,6 +19860,9 @@
 		<Model name="AK12-5">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
+		<Model name="L328">
+			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
+		</Model>
 		<Model name="L330">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
@@ -19891,6 +19930,12 @@
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
 		<Model name="R350">
+			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
+		</Model>
+		<Model name="R355">
+			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
+		</Model>
+		<Model name="R355L">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
 		<Model name="R360">
@@ -20172,6 +20217,9 @@
 		</Model>
 	</Make>
 	<Make name="SDLG (LGCE)">
+		<Model name="B876F">
+			<TypeOfVehicle name="Экскаватор-погрузчик"></TypeOfVehicle>
+		</Model>
 		<Model name="B877">
 			<TypeOfVehicle name="Экскаватор-погрузчик"></TypeOfVehicle>
 		</Model>
@@ -20236,6 +20284,9 @@
 			<TypeOfVehicle name="Колёсный экскаватор"></TypeOfVehicle>
 		</Model>
 		<Model name="ER616F">
+			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
+		</Model>
+		<Model name="ER616H">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
 		<Model name="ER620H">
@@ -21222,6 +21273,12 @@
 		<Model name="SY155W">
 			<TypeOfVehicle name="Колёсный экскаватор"></TypeOfVehicle>
 		</Model>
+		<Model name="SY1650E">
+			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
+		</Model>
+		<Model name="SY1650H">
+			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
+		</Model>
 		<Model name="SY165W">
 			<TypeOfVehicle name="Колёсный экскаватор"></TypeOfVehicle>
 		</Model>
@@ -21311,6 +21368,9 @@
 		</Model>
 		<Model name="SY26U">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
+		</Model>
+		<Model name="SY3000E">
+			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
 		</Model>
 		<Model name="SY305H">
 			<TypeOfVehicle name="Гусеничный экскаватор"></TypeOfVehicle>
@@ -24978,6 +25038,9 @@
 		<Model name="XE15U">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
+		<Model name="XE17U">
+			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
+		</Model>
 		<Model name="XE18">
 			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
@@ -25770,6 +25833,12 @@
 		</Model>
 		<Model name="YG180">
 			<TypeOfVehicle name="Колёсный экскаватор"></TypeOfVehicle>
+		</Model>
+		<Model name="YG215">
+			<TypeOfVehicle name="Колёсный экскаватор"></TypeOfVehicle>
+		</Model>
+		<Model name="YG45">
+			<TypeOfVehicle name="Мини-экскаватор"></TypeOfVehicle>
 		</Model>
 	</Make>
 	<Make name="Yamar">
@@ -27902,6 +27971,11 @@
 	</Make>
 	<Make name="НПО Земснаряд">
 		<Model name="Д-110/47-И-II">
+			<TypeOfVehicle name="Экскаватор-амфибия"></TypeOfVehicle>
+		</Model>
+	</Make>
+	<Make name="ООО &#34;Торговый дом&#34; Ярославский речной порт&#34; Ярославль">
+		<Model name="ЯРП-600 &#34;Лангуст Х">
 			<TypeOfVehicle name="Экскаватор-амфибия"></TypeOfVehicle>
 		</Model>
 	</Make>

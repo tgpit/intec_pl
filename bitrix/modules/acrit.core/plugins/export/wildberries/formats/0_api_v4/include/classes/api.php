@@ -49,109 +49,133 @@ class Api {
 			# --- CONTENT --- #
 			# Цвет
 			'/content/v1/directory/colors' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 				'ADDITIONAL_SEARCH' => true,
 			],
 			# Пол
 			'/content/v1/directory/kinds' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 				'ADDITIONAL_SEARCH' => true,
 			],
 			# Страна Производства
 			'/content/v1/directory/countries' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 				'ADDITIONAL_SEARCH' => true,
 			],
 			# Коллекция
 			'/content/v1/directory/collections' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 				'ARGMAP' => ['SEARCH_TEXT' => 'pattern', 'COUNT' => 'top'],
 			],
 			# Сезон
 			'/content/v1/directory/seasons' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 				'ADDITIONAL_SEARCH' => true,
 			],
 			# Комплектация
 			'/content/v1/directory/contents' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 				'ARGMAP' => ['SEARCH_TEXT' => 'pattern', 'COUNT' => 'top'],
 			],
 			# Состав
 			'/content/v1/directory/consists' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 				'ARGMAP' => ['SEARCH_TEXT' => 'pattern', 'COUNT' => 'top'],
 			],
 			# Бренд
 			'/content/v1/directory/brands' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 				'ARGMAP' => ['SEARCH_TEXT' => 'pattern', 'COUNT' => 'top'],
 			],
 			# ТНВЭД код
 			'/content/v1/directory/tnved' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 				'ARGMAP' => ['CATEGORY_NAME' => 'objectName', 'SEARCH_TEXT' => 'tnvedsLike'],
 			],
 			# Категория товаров
 			'/content/v1/object/all' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 			],
 			# Родительские категории товаров
 			'/content/v1/object/parent/all' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 			],
 			# Характеристики для создания КТ по всем подкатегориям
 			'/content/v1/object/characteristics/list/filter' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 			],
 			# Характеристики для создания КТ для категории товара
 			'/content/v1/object/characteristics/{objectName}' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 			],
 			# --- VIEWER --- #
 			# Список НМ
 			'/content/v1/cards/list' => [
+				'GROUP' => 'content',
 				'METHOD' => 'POST',
 			],
 			# Список несозданных НМ с ошибками
 			'/content/v1/cards/error/list' => [
+				'GROUP' => 'content',
 				'METHOD' => 'GET',
 			],
 			# Получение КТ по вендор кодам (артикулам)
 			'/content/v1/cards/filter' => [
+				'GROUP' => 'content',
 				'METHOD' => 'POST',
 			],
 			# Генерация баркодов
 			'/content/v1/barcodes' => [
+				'GROUP' => 'content',
 				'METHOD' => 'POST',
 			],
 			# --- SOURCE --- #
 			# Редактирование КТ
 			'/content/v1/cards/update' => [
+				'GROUP' => 'content',
 				'METHOD' => 'POST',
 			],
 			# Создание КТ
 			'/content/v1/cards/upload' => [
+				'GROUP' => 'content',
 				'METHOD' => 'POST',
 			],
 			# Добавление НМ к КТ
 			'/content/v1/cards/upload/add' => [
+				'GROUP' => 'content',
 				'METHOD' => 'POST',
 			],
 			# --- MediaService --- #
 			# Изменение медиа контента КТ
 			'/content/v1/media/save' => [
+				'GROUP' => 'content',
 				'METHOD' => 'POST',
 			],
 			# Добавление медиа контента в КТ
 			'/content/v1/media/file' => [
+				'GROUP' => 'content',
 				'METHOD' => 'POST',
 			],
 			# Остатки
 			'/api/v2/stocks' => [
+				'GROUP' => 'marketplace',
 				'METHOD' => 'POST',
 			],
 			'/api/v3/stocks/{warehouse}' => [
+				'GROUP' => 'marketplace',
 				'METHOD' => 'PUT',
 				'CALLBACK' => function($strMethod, &$strUrl, &$arData){
 					$strUrl = str_replace('{warehouse}', $arData['warehouse'], $strUrl);
@@ -160,16 +184,20 @@ class Api {
 			],
 			# Цены
 			'/public/api/v1/prices' => [
+				'GROUP' => 'marketplace',
 				'METHOD' => 'POST',
 			],
 			# NEW
 			'/content/v1/cards/cursor/list' => [
+				'GROUP' => 'content',
 				'METHOD' => 'POST',
 			],
 			'/public/api/v1/info' => [
+				'GROUP' => 'prices',
 				'METHOD' => 'GET',
 			],
 			'/api/v2/warehouses' => [
+				'GROUP' => 'marketplace',
 				'METHOD' => 'GET',
 			],
 			# Stores
@@ -177,6 +205,10 @@ class Api {
 				'METHOD' => 'GET',
 			],
 			'/api/v3/warehouses' => [
+				'METHOD' => 'GET',
+			],
+			# Check API
+			'/content/v2/cards/limits' => [
 				'METHOD' => 'GET',
 			],
 		];
@@ -259,6 +291,10 @@ class Api {
 					unset($arData[$key]);
 				}
 			}
+			# Log [temporary]
+			// $message = sprintf('[%s] [#%d] [%s] %s', date('Y-m-d-H:i:s').'-'.number_format(microtime(true), 4, '.', ''), 
+			// 	$this->intProfileId, $arMethod['GROUP'], $strRequestUrl);
+			// file_put_contents(__DIR__.'/!requests.log', $message.PHP_EOL, FILE_APPEND);
 			# Continue execute
 			if($bPost){
 				$strJsonRequest = Json::encode($arData);

@@ -447,6 +447,7 @@
 		<Model name="B650E PG-ITX WIFI"></Model>
 		<Model name="B650E Steel Legend WiFi"></Model>
 		<Model name="B650I Lightning WiFi"></Model>
+		<Model name="B650M PG Lightning"></Model>
 		<Model name="B650M PG Riptide"></Model>
 		<Model name="B650M Pro RS"></Model>
 		<Model name="B650M Pro RS WiFi"></Model>
@@ -874,6 +875,7 @@
 		<Model name="J3355B-ITX"></Model>
 		<Model name="J3355M"></Model>
 		<Model name="J3455-ITX"></Model>
+		<Model name="J3455M"></Model>
 		<Model name="J4005B-ITX"></Model>
 		<Model name="J4005M"></Model>
 		<Model name="J4025M"></Model>
@@ -895,6 +897,7 @@
 		<Model name="K10N78hSLI-GLAN"></Model>
 		<Model name="K10N78hSLI-WiFi"></Model>
 		<Model name="K10N7SLI"></Model>
+		<Model name="K7NF2-RAID"></Model>
 		<Model name="K7S41GX"></Model>
 		<Model name="K7S41GX2"></Model>
 		<Model name="K7Upgrade-880"></Model>
@@ -924,6 +927,7 @@
 		<Model name="M3N78D FX"></Model>
 		<Model name="N3050M"></Model>
 		<Model name="N3150DC-ITX"></Model>
+		<Model name="N3150M"></Model>
 		<Model name="N61P-S"></Model>
 		<Model name="N68-GE"></Model>
 		<Model name="N68-GE3 UCC"></Model>
@@ -1425,6 +1429,7 @@
 		<Model name="EX-B150M-V5 D3"></Model>
 		<Model name="EX-B150M-V5/C/SI"></Model>
 		<Model name="EX-B250-V7"></Model>
+		<Model name="EX-B250M-V3"></Model>
 		<Model name="EX-B360M-V"></Model>
 		<Model name="EX-B360M-V3"></Model>
 		<Model name="EX-B360M-V5"></Model>
@@ -2292,6 +2297,7 @@
 		<Model name="PRIME A520M-A II"></Model>
 		<Model name="PRIME A520M-E"></Model>
 		<Model name="PRIME A520M-K"></Model>
+		<Model name="PRIME A620M-A-CSM"></Model>
 		<Model name="PRIME A620M-E"></Model>
 		<Model name="PRIME A620M-K"></Model>
 		<Model name="PRIME B250-PLUS"></Model>
@@ -2931,6 +2937,7 @@
 		<Model name="Z170M-E D3"></Model>
 		<Model name="Z170M-PLUS"></Model>
 		<Model name="Z270-A PRO"></Model>
+		<Model name="Z270-DRAGON"></Model>
 		<Model name="Z270-WS"></Model>
 		<Model name="Z590 WIFI GUNDAM EDITION"></Model>
 		<Model name="Z77-A"></Model>
@@ -3052,6 +3059,8 @@
 		<Model name="PXP965 (V2.0)"></Model>
 	</Brand>
 	<Brand name="Amentmen">
+		<Model name="X79"></Model>
+		<Model name="X99-A4"></Model>
 		<Model name="X99H"></Model>
 	</Brand>
 	<Brand name="Aquarius">
@@ -3061,6 +3070,7 @@
 		<Model name="B550M-HDV/AR"></Model>
 	</Brand>
 	<Brand name="Atermiter">
+		<Model name="AM4 B550"></Model>
 		<Model name="B75"></Model>
 		<Model name="D3 Turbo"></Model>
 		<Model name="X58-1366"></Model>
@@ -3091,11 +3101,13 @@
 		<Model name="MB-B75M-A"></Model>
 		<Model name="MB-B85-A"></Model>
 		<Model name="MB-B85G"></Model>
+		<Model name="MB-H110-D"></Model>
 		<Model name="MB-H310-A"></Model>
 		<Model name="MB-H55-B"></Model>
 		<Model name="MB-H55-E"></Model>
 		<Model name="MB-H61-B"></Model>
 		<Model name="MB-H61-C"></Model>
+		<Model name="MB-H61-F"></Model>
 		<Model name="MB-H61-G"></Model>
 		<Model name="MB-H81-D"></Model>
 		<Model name="MB-X58-B"></Model>
@@ -3142,6 +3154,7 @@
 		<Model name="A57A2 Ver. 6.x"></Model>
 		<Model name="A58M Ver. 6.1"></Model>
 		<Model name="A58MD Ver. 6.x"></Model>
+		<Model name="A58MD Ver. 8.2"></Model>
 		<Model name="A58MDP Ver. 6.x"></Model>
 		<Model name="A58ML Ver. 7.x"></Model>
 		<Model name="A68MDE Ver.7.x"></Model>
@@ -3680,6 +3693,7 @@
 		<Model name="BATTLE-AX B660M-D PRO V20"></Model>
 		<Model name="C.A320M-D plus V14"></Model>
 		<Model name="C.A320M-K PRO V14"></Model>
+		<Model name="C.A68M-BTC YV14"></Model>
 		<Model name="C.B250A-BTC PLUS V20"></Model>
 		<Model name="C.H81A-BTC V20"></Model>
 		<Model name="CF-A970X AX V14"></Model>
@@ -3693,6 +3707,7 @@
 		<Model name="CVN X570M GAMING PRO V14"></Model>
 		<Model name="CVN Z690D5 GAMING PRO V20"></Model>
 		<Model name="CVN Z690M GAMING PRO V20"></Model>
+		<Model name="H510M-K M.2 V20"></Model>
 		<Model name="H610M-K M.2 V20"></Model>
 		<Model name="H61U PLUS V27"></Model>
 		<Model name="H81M-K PRO V24B"></Model>
@@ -4054,6 +4069,7 @@
 		<Model name="H81H3-M4 (V1.0A)"></Model>
 		<Model name="H81H3-M5 (V1.0)"></Model>
 		<Model name="H81H3-M7 (V1.0)"></Model>
+		<Model name="H81H3-TI2 (V1.0)"></Model>
 		<Model name="H81M-C2H"></Model>
 		<Model name="H87H3-M (V1.0)"></Model>
 		<Model name="H87H3-M3 (V1.0)"></Model>
@@ -4137,6 +4153,7 @@
 		<Model name="P67H2-A2 (V1.0)"></Model>
 		<Model name="P67H2-A3 (V1.0)"></Model>
 		<Model name="P67H2-A4 (V1.0)"></Model>
+		<Model name="P6IPAT"></Model>
 		<Model name="P6IWP-Fe"></Model>
 		<Model name="P965T-A (V1.0)"></Model>
 		<Model name="PA1 MVP (V2.0)"></Model>
@@ -4318,12 +4335,17 @@
 		<Model name="SR-2"></Model>
 		<Model name="SR-3 Dark"></Model>
 		<Model name="X58 4-Way SLI"></Model>
+		<Model name="X79"></Model>
 		<Model name="X99 Micro2"></Model>
 		<Model name="Z370 FTW"></Model>
+		<Model name="Z390 Dark"></Model>
 		<Model name="Z490 Dark Kingpin"></Model>
 		<Model name="Z690 Dark Kingpin"></Model>
 		<Model name="Z790"></Model>
 		<Model name="Z790 DARK KINGPIN"></Model>
+	</Brand>
+	<Brand name="EliteGroup">
+		<Model name="K8M800-M2"></Model>
 	</Brand>
 	<Brand name="Esonic">
 		<Model name="A320M"></Model>
@@ -4807,6 +4829,7 @@
 		<Model name="D3446-S"></Model>
 	</Brand>
 	<Brand name="GALAX">
+		<Model name="B450M-G"></Model>
 		<Model name="B550M"></Model>
 		<Model name="H510M"></Model>
 	</Brand>
@@ -5010,6 +5033,7 @@
 		<Model name="B660M DS3H AX DDR4"></Model>
 		<Model name="B660M DS3H DDR4"></Model>
 		<Model name="B660M GAMING"></Model>
+		<Model name="B660M GAMING AC DDR4"></Model>
 		<Model name="B660M GAMING DDR4"></Model>
 		<Model name="B660M GAMING X AX DDR4"></Model>
 		<Model name="B660M GAMING X DDR4"></Model>
@@ -5072,6 +5096,7 @@
 		<Model name="G1.Sniper Z97 (rev. 1.0)"></Model>
 		<Model name="GA-2DASL (rev. 1.0)"></Model>
 		<Model name="GA-486VS rev 8A/rev 8B"></Model>
+		<Model name="GA-586ATX (rev. 2.0)"></Model>
 		<Model name="GA-6ETXDR (1.0 )"></Model>
 		<Model name="GA-6FASV1 (rev. 1.0)"></Model>
 		<Model name="GA-6FASV2 (rev. 1.0)"></Model>
@@ -5859,6 +5884,7 @@
 		<Model name="GA-H61M-DS2V (rev. 2.1)"></Model>
 		<Model name="GA-H61M-HD2 (rev. 1.0)"></Model>
 		<Model name="GA-H61M-S (rev. 1.0)"></Model>
+		<Model name="GA-H61M-S1"></Model>
 		<Model name="GA-H61M-S1 (rev. 2.0)"></Model>
 		<Model name="GA-H61M-S1 (rev. 2.1)"></Model>
 		<Model name="GA-H61M-S1 (rev. 2.2)"></Model>
@@ -6008,6 +6034,7 @@
 		<Model name="GA-IMB410N (rev. 1.0)"></Model>
 		<Model name="GA-J1800N-D2H"></Model>
 		<Model name="GA-J1800N-D2P (rev. 1.0)"></Model>
+		<Model name="GA-J1900N-D2H (rev. 1.1)"></Model>
 		<Model name="GA-J1900N-D3V (rev. 1.0)"></Model>
 		<Model name="GA-J3355N-D2P"></Model>
 		<Model name="GA-J3455N-D3H"></Model>
@@ -6550,6 +6577,7 @@
 		<Model name="GA-Z77X-UD5H-WB WIFI (rev. 1.1)"></Model>
 		<Model name="GA-Z77X-UP4 TH (rev. 1.0)"></Model>
 		<Model name="GA-Z77X-UP5 TH (rev. 1.0)"></Model>
+		<Model name="GA-Z77X-UP7"></Model>
 		<Model name="GA-Z87-D3HP (rev. 1.0)"></Model>
 		<Model name="GA-Z87-DS3H (rev. 1.1)"></Model>
 		<Model name="GA-Z87-HD3 (rev. 1.0)"></Model>
@@ -6926,6 +6954,7 @@
 		<Model name="Z790 GAMING X (rev. 1.0)"></Model>
 		<Model name="Z790 GAMING X AX"></Model>
 		<Model name="Z790 UD"></Model>
+		<Model name="Z790 UD AC (rev. 1.0)"></Model>
 		<Model name="Z790 UD AX"></Model>
 		<Model name="Z790I AORUS ULTRA"></Model>
 	</Brand>
@@ -6943,11 +6972,15 @@
 		<Model name="615943-001"></Model>
 		<Model name="636477-001"></Model>
 		<Model name="656933-001"></Model>
+		<Model name="656961-001"></Model>
 		<Model name="657002-001"></Model>
 		<Model name="671319-003"></Model>
 		<Model name="681999-001"></Model>
 		<Model name="696234-001"></Model>
+		<Model name="696549-003"></Model>
+		<Model name="739682-001"></Model>
 		<Model name="754916-001"></Model>
+		<Model name="782450-001"></Model>
 		<Model name="795000-001"></Model>
 		<Model name="851033-001"></Model>
 		<Model name="A61TT2"></Model>
@@ -6993,6 +7026,7 @@
 	</Brand>
 	<Brand name="Hibertek">
 		<Model name="G24-L6-P"></Model>
+		<Model name="H110TH"></Model>
 	</Brand>
 	<Brand name="Huananzhi">
 		<Model name="B660 D4"></Model>
@@ -7035,6 +7069,7 @@
 		<Model name="X99 F8D LGA 2011-3 Dual"></Model>
 		<Model name="X99 QD4"></Model>
 		<Model name="X99-4MF"></Model>
+		<Model name="X99-8D3"></Model>
 		<Model name="X99-8D4"></Model>
 		<Model name="X99-8M"></Model>
 		<Model name="X99-8M-F"></Model>
@@ -7368,6 +7403,7 @@
 	<Brand name="JGINYUE">
 		<Model name="A520M-H"></Model>
 		<Model name="B550i Gaming"></Model>
+		<Model name="B650I NIGHT DEVIL"></Model>
 		<Model name="B660-VDH"></Model>
 		<Model name="B660M-VDH"></Model>
 		<Model name="B75M-VH"></Model>
@@ -7458,6 +7494,7 @@
 		<Model name="KWH77"></Model>
 	</Brand>
 	<Brand name="Lenovo">
+		<Model name="AM4P2MS Ver 1.1"></Model>
 		<Model name="CIH55C v 1.0"></Model>
 		<Model name="CIH61MI v1.1"></Model>
 		<Model name="CIH81M"></Model>
@@ -7472,6 +7509,7 @@
 		<Model name="IQ270MS"></Model>
 		<Model name="IS6XM rev 1.0"></Model>
 		<Model name="IS7XM rev 1.0"></Model>
+		<Model name="IS8XM Rev 1.0"></Model>
 		<Model name="L-IG41M Rev 1.0"></Model>
 		<Model name="LA-B621P"></Model>
 		<Model name="M3A760M"></Model>
@@ -7823,6 +7861,7 @@
 		<Model name="B560M PRO"></Model>
 		<Model name="B560M PRO-VDH"></Model>
 		<Model name="B560M PRO-VDH WIFI"></Model>
+		<Model name="B560M Pro WIFI"></Model>
 		<Model name="B560M Pro-E"></Model>
 		<Model name="B560M-A PRO"></Model>
 		<Model name="B650 GAMING PLUS WIFI"></Model>
@@ -8645,6 +8684,7 @@
 		<Model name="X99A GAMING 7"></Model>
 		<Model name="X99A GAMING 9 ACK"></Model>
 		<Model name="X99A GAMING PRO CARBON"></Model>
+		<Model name="X99A GODLIKE GAMING"></Model>
 		<Model name="X99A MPOWER"></Model>
 		<Model name="X99A RAIDER"></Model>
 		<Model name="X99A SLI"></Model>
@@ -8889,6 +8929,7 @@
 		<Model name="V000225120"></Model>
 	</Brand>
 	<Brand name="NZXT">
+		<Model name="N5 Z690"></Model>
 		<Model name="N7 B550"></Model>
 		<Model name="N7 B650E"></Model>
 		<Model name="N7 Z390"></Model>
@@ -8911,6 +8952,7 @@
 		<Model name="B760 VH5"></Model>
 		<Model name="B760ITX-B4"></Model>
 		<Model name="H110C"></Model>
+		<Model name="H510-VH"></Model>
 		<Model name="N68GD3"></Model>
 		<Model name="b760 vh4"></Model>
 	</Brand>
@@ -9355,6 +9397,7 @@
 		<Model name="X8DTL-i"></Model>
 		<Model name="X8DTL-iF"></Model>
 		<Model name="X8DTN+-F"></Model>
+		<Model name="X8DTT-F"></Model>
 		<Model name="X8DTU-F"></Model>
 		<Model name="X8DTi-F"></Model>
 		<Model name="X8SAX"></Model>
@@ -9391,6 +9434,8 @@
 		<Model name="X9DRL-7F"></Model>
 		<Model name="X9DRL-EF"></Model>
 		<Model name="X9DRL-iF"></Model>
+		<Model name="X9DRW-IF"></Model>
+		<Model name="X9DRX+-F"></Model>
 		<Model name="X9DRi-F"></Model>
 		<Model name="X9SAE"></Model>
 		<Model name="X9SAE-V"></Model>
@@ -9434,6 +9479,7 @@
 		<Model name="Headland HT12P/16"></Model>
 	</Brand>
 	<Brand name="VIA">
+		<Model name="EPIA M"></Model>
 		<Model name="VB6002"></Model>
 	</Brand>
 	<Brand name="WEIBU">

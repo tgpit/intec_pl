@@ -1,4 +1,4 @@
-BX.Vue.component ('confirm', {
+BX.Vue.component ('CONFIRM', {
     props: [
         // 'module',
         // 'profile',

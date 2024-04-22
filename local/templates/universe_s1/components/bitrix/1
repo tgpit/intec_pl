@@ -1,0 +1,102 @@
+<div class="catalog-element-gallery-pictures" data-role="gallery.pictures" data-action="popup" data-zoom="true">
+	<div class="catalog-element-gallery-pictures-slider owl-carousel owl-loaded owl-drag" data-role="gallery.pictures.slider">
+		<div class="owl-stage-outer">
+			<div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 5200px;">
+				<div class="owl-item active" style="width: 400px;">
+					<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+                		<div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/b11/5yebke20j20tds9pwt3pk22d162cytjx.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">
+                    		<img src="/upload/resize_cache/iblock/b11/1000_1000_1/5yebke20j20tds9pwt3pk22d162cytjx.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">
+							<img role="presentation" alt="" src="/upload/iblock/b11/5yebke20j20tds9pwt3pk22d162cytjx.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 3539px; height: 2654px; border: none; max-width: none; max-height: none;">
+						</div>
+	                </div>
+				</div>
+			<div class="owl-item" style="width: 400px;">
+				<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+                	<div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/232/8xd32gyffcjjxe7s833eqxmtgmb1rmb0.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">
+						<img src="/upload/resize_cache/iblock/232/1000_1000_1/8xd32gyffcjjxe7s833eqxmtgmb1rmb0.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">
+						<img role="presentation" alt="" src="/upload/iblock/232/8xd32gyffcjjxe7s833eqxmtgmb1rmb0.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 3581px; height: 2686px; border: none; max-width: none; max-height: none;">
+					</div>
+				</div>
+			</div>
+			<div class="owl-item" style="width: 400px;">
+				<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+                	<div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/bca/rfawuzb5skgjec41973b5e8u2c84dvxo.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">
+						<img src="/upload/resize_cache/iblock/bca/1000_1000_1/rfawuzb5skgjec41973b5e8u2c84dvxo.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">
+						<img role="presentation" alt="" src="/upload/iblock/bca/rfawuzb5skgjec41973b5e8u2c84dvxo.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 3578px; height: 2684px; border: none; max-width: none; max-height: none;">
+					</div>
+	            </div>
+			</div>
+			<div class="owl-item" style="width: 400px;">
+				<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+        			<div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/6cd/2uhie3mqsjmi7vlj9bf0dr41749h0rog.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">
+						<img src="/upload/resize_cache/iblock/6cd/1000_1000_1/2uhie3mqsjmi7vlj9bf0dr41749h0rog.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">
+				        <img role="presentation" alt="" src="/upload/iblock/6cd/2uhie3mqsjmi7vlj9bf0dr41749h0rog.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 4000px; height: 3000px; border: none; max-width: none; max-height: none;">
+					</div>
+			    </div>
+			</div>
+			<div class="owl-item" style="width: 400px;">
+				<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+					<div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/161/8vvfdq57rwspziauuyw7u55lbbxitxlt.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">
+						<img src="/upload/resize_cache/iblock/161/1000_1000_1/8vvfdq57rwspziauuyw7u55lbbxitxlt.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">
+						<img role="presentation" alt="" src="/upload/iblock/161/8vvfdq57rwspziauuyw7u55lbbxitxlt.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 3725px; height: 2793px; border: none; max-width: none; max-height: none;">
+					</div>
+				</div>
+			</div>
+			<div class="owl-item" style="width: 400px;">
+				<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+				<div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/bdd/paglardo6q0b85qsurj22t01xg30kn00.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">                                <img src="/upload/resize_cache/iblock/bdd/1000_1000_1/paglardo6q0b85qsurj22t01xg30kn00.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">                            <img role="presentation" alt="" src="/upload/iblock/bdd/paglardo6q0b85qsurj22t01xg30kn00.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 4000px; height: 3000px; border: none; max-width: none; max-height: none;">
+			</div>
+		</div>
+	</div>
+	<div class="owl-item" style="width: 400px;">
+		<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+            <div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/36e/oi9u76j4isqs2wd3l5x24elxxbkk5cwm.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">                                <img src="/upload/resize_cache/iblock/36e/1000_1000_1/oi9u76j4isqs2wd3l5x24elxxbkk5cwm.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">                            <img role="presentation" alt="" src="/upload/iblock/36e/oi9u76j4isqs2wd3l5x24elxxbkk5cwm.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 3759px; height: 2819px; border: none; max-width: none; max-height: none;">
+			</div>
+        </div>
+	</div>
+	<div class="owl-item" style="width: 400px;">
+		<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+		    <div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/563/c8weddp20hvqhugv031x865q23tgaqfl.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">                                <img src="/upload/resize_cache/iblock/563/1000_1000_1/c8weddp20hvqhugv031x865q23tgaqfl.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">                            <img role="presentation" alt="" src="/upload/iblock/563/c8weddp20hvqhugv031x865q23tgaqfl.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 4000px; height: 3000px; border: none; max-width: none; max-height: none;">
+			</div>
+        </div>
+	</div>
+	<div class="owl-item" style="width: 400px;">
+		<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+            <div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/88c/6fbn7uuqyamida71nrnw94t58f7l4sxi.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">                                <img src="/upload/resize_cache/iblock/88c/1000_1000_1/6fbn7uuqyamida71nrnw94t58f7l4sxi.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">                            <img role="presentation" alt="" src="/upload/iblock/88c/6fbn7uuqyamida71nrnw94t58f7l4sxi.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 3444px; height: 2582px; border: none; max-width: none; max-height: none;">
+			</div>
+        </div>
+	</div>
+	<div class="owl-item" style="width: 400px;">
+		<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+            <div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/774/cuzmzlooaqhh0wxpw9rjne7g88s2c1v1.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">                                <img src="/upload/resize_cache/iblock/774/1000_1000_1/cuzmzlooaqhh0wxpw9rjne7g88s2c1v1.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">                            <img role="presentation" alt="" src="/upload/iblock/774/cuzmzlooaqhh0wxpw9rjne7g88s2c1v1.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 4000px; height: 3000px; border: none; max-width: none; max-height: none;">
+		</div>
+	</div>
+</div>
+<div class="owl-item" style="width: 400px;">
+	<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+        <div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/5de/n8m619pt4hinhzndvf3fupzmchtbguim.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">                                <img src="/upload/resize_cache/iblock/5de/1000_1000_1/n8m619pt4hinhzndvf3fupzmchtbguim.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">                            <img role="presentation" alt="" src="/upload/iblock/5de/n8m619pt4hinhzndvf3fupzmchtbguim.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 3714px; height: 2785px; border: none; max-width: none; max-height: none;">
+		</div>
+    </div>
+</div>
+<div class="owl-item" style="width: 400px;">
+	<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+        <div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/1ff/3xw187nj69dvelublp9cb9um54ypy5sj.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">                                <img src="/upload/resize_cache/iblock/1ff/1000_1000_1/3xw187nj69dvelublp9cb9um54ypy5sj.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">                            <img role="presentation" alt="" src="/upload/iblock/1ff/3xw187nj69dvelublp9cb9um54ypy5sj.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 3811px; height: 2858px; border: none; max-width: none; max-height: none;">
+		</div>
+    </div>
+</div>
+<div class="owl-item" style="width: 400px;">
+	<div class="catalog-element-gallery-pictures-slider-item" data-role="gallery.pictures.item">
+        <div class="catalog-element-gallery-pictures-slider-item-picture intec-ui-picture" data-role="gallery.pictures.item.picture" data-src="/upload/iblock/dcf/emvsb54u41whjd8g2nh7f0aaqxueda2u.jpg" data-type="image/jpeg" data-lightgallery="true" style="position: absolute; overflow: hidden;">                                <img src="/upload/resize_cache/iblock/dcf/1000_1000_1/emvsb54u41whjd8g2nh7f0aaqxueda2u.jpg" alt="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" title="Эндуро мотоцикл ROCKOT GS ONE Blackout (300cc, 177MM, 21/18)" loading="lazy">                            <img role="presentation" alt="" src="/upload/iblock/dcf/emvsb54u41whjd8g2nh7f0aaqxueda2u.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 3708px; height: 2781px; border: none; max-width: none; max-height: none;">
+		</div>
+	</div>
+</div>
+</div>
+</div>
+
+<div class="owl-nav disabled">
+	<button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
+</div>
+<div class="owl-dots disabled">
+</div>
+</div>
+</div>

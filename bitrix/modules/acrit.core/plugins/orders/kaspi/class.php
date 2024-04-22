@@ -382,9 +382,9 @@ class Kaspi extends Plugin {
                     'TYPE'  => 'STRING',
                     'VALUE' => [ self::getStateNameList()[$ext_order['attributes']['state']].'('.$ext_order['attributes']['state'].')' ],
                 ],
-                'delivery_address' => [
+                'formattedAddress' => [
                     'TYPE'  => 'STRING',
-                    'VALUE' => [$ext_order['delivery_address']],
+                    'VALUE' => [$ext_order['attributes']['originAddress']['address']['formattedAddress']],
                 ],
                 'firstName' => [
                     'TYPE'  => 'STRING',

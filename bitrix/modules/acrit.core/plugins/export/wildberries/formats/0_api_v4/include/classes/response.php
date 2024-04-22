@@ -53,7 +53,7 @@ class Response {
 			$this->setJsonResult(Json::decode($strResponse));
 		}
 		catch(\Throwable $obError){
-			$this->addError($obError->getMessage());
+			$this->addError($obError->getMessage().': '.$strResponse);
 		}
 	}
 

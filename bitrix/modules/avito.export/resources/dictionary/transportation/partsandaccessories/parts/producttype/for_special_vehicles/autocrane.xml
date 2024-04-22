@@ -258,6 +258,27 @@
 			<Model name="QY55H"></Model>
 			<Model name="QY8D"></Model>
 		</Make>
+		<Make name="JUNTON">
+			<Model name="JPC100E5"></Model>
+			<Model name="JPC100G"></Model>
+			<Model name="JPC120E5"></Model>
+			<Model name="JPC120G"></Model>
+			<Model name="JPC120G5"></Model>
+			<Model name="JPC120H5"></Model>
+			<Model name="JPC120H5II"></Model>
+			<Model name="JPC160E5"></Model>
+			<Model name="JPC160H5"></Model>
+			<Model name="JPC160H5II"></Model>
+			<Model name="JPC80E5"></Model>
+			<Model name="JPC80G"></Model>
+			<Model name="JTC16H6"></Model>
+			<Model name="JTC25F5"></Model>
+			<Model name="JTC25G5"></Model>
+			<Model name="JTC25H5"></Model>
+			<Model name="JTC30G6"></Model>
+			<Model name="JTC55G5"></Model>
+			<Model name="JTC55G6"></Model>
+		</Make>
 		<Make name="Kato">
 			<Model name="CR-100"></Model>
 			<Model name="KA-800"></Model>
@@ -308,6 +329,7 @@
 			<Model name="RK500"></Model>
 			<Model name="RK70"></Model>
 			<Model name="RK70-2"></Model>
+			<Model name="RK70M-2"></Model>
 		</Make>
 		<Make name="Komatsu">
 			<Model name="LT 300-1"></Model>
@@ -465,6 +487,7 @@
 			<Model name="A393NR"></Model>
 			<Model name="Hoist MS455N"></Model>
 			<Model name="M350N"></Model>
+			<Model name="MS333N"></Model>
 			<Model name="T-108 CUT"></Model>
 			<Model name="А351NS"></Model>
 		</Make>
@@ -714,6 +737,7 @@
 			<Model name="Quadstar 1075L"></Model>
 			<Model name="RC 45-1"></Model>
 			<Model name="RS 70100"></Model>
+			<Model name="RT 1080L"></Model>
 			<Model name="RT 1100"></Model>
 			<Model name="RT 230-1"></Model>
 			<Model name="RT 655"></Model>
@@ -811,6 +835,7 @@
 			<Model name="QY25K5F-1"></Model>
 			<Model name="QY25K5S"></Model>
 			<Model name="QY25k5"></Model>
+			<Model name="QY30K (XZJ5327JQZ30K)"></Model>
 			<Model name="QY30K5"></Model>
 			<Model name="QY30K5-I"></Model>
 			<Model name="QY35K5"></Model>
@@ -852,6 +877,7 @@
 			<Model name="XCR55L4S"></Model>
 			<Model name="XCR55L5S"></Model>
 			<Model name="XCR70"></Model>
+			<Model name="XCR90S"></Model>
 			<Model name="XCT100"></Model>
 			<Model name="XCT110"></Model>
 			<Model name="XCT130"></Model>
@@ -968,6 +994,7 @@
 			<Model name="ZTC250V"></Model>
 			<Model name="ZTC3000V"></Model>
 			<Model name="ZTC300V"></Model>
+			<Model name="ZTC500H5-2"></Model>
 			<Model name="ZTC600V"></Model>
 			<Model name="ZTC800V"></Model>
 		</Make>
@@ -1051,6 +1078,7 @@
 			<Model name="КС-75721-1 H&amp;H"></Model>
 			<Model name="КС-75721-2"></Model>
 			<Model name="КС-75721-3 H&amp;H"></Model>
+			<Model name="КС-75721-6 H&amp;H"></Model>
 			<Model name="КС-75721-8"></Model>
 			<Model name="КС-75721-8 H&amp;H"></Model>
 			<Model name="КС-85713"></Model>
@@ -1083,6 +1111,7 @@
 			<Model name="МТА-200"></Model>
 		</Make>
 		<Make name="Зубр">
+			<Model name="КС-45729А-W-02"></Model>
 			<Model name="КС-45729А-С-02"></Model>
 			<Model name="КС-5571BY-А-22"></Model>
 			<Model name="КС-55727-Н-12"></Model>
@@ -1297,6 +1326,7 @@
 			<Model name="КС-6571-6К-1"></Model>
 			<Model name="КС-65713-1К-5В"></Model>
 			<Model name="КС-65713-5"></Model>
+			<Model name="КС-65713-9К-5В"></Model>
 			<Model name="КС-65719-1К"></Model>
 			<Model name="КС-65719-1К (ОВОИД)"></Model>
 			<Model name="КС-65719-1К-1"></Model>
@@ -1305,6 +1335,7 @@
 			<Model name="КС-65719-3К-1"></Model>
 			<Model name="КС-65719-5К"></Model>
 			<Model name="КС-65719-5К (ОВОИД)"></Model>
+			<Model name="КС-65719-7К"></Model>
 			<Model name="КС-65719-9К-1"></Model>
 			<Model name="ПКС-55713-1К-3"></Model>
 			<Model name="ПКС-55713-1К-4В"></Model>

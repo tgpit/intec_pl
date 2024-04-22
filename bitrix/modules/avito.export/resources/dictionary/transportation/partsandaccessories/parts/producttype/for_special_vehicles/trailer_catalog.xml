@@ -1159,6 +1159,7 @@
 				<Model name="SDW9401GYY"></Model>
 			</Make>
 			<Make name="Алексеевка Химмаш">
+				<Model name="9646А3"></Model>
 				<Model name="ППЦ-22"></Model>
 				<Model name="ППЦ-24"></Model>
 				<Model name="ППЦ-26"></Model>
@@ -1447,6 +1448,9 @@
 			</Make>
 			<Make name="Chengliwei">
 				<Model name="CLW9130"></Model>
+			</Make>
+			<Make name="Coder">
+				<Model name="S3384"></Model>
 			</Make>
 			<Make name="Dingsheng">
 				<Model name="ZC QG21"></Model>
@@ -2178,6 +2182,7 @@
 				<Model name="9174"></Model>
 				<Model name="9175"></Model>
 				<Model name="9176"></Model>
+				<Model name="9178-0000013"></Model>
 				<Model name="9180А"></Model>
 			</Make>
 			<Make name="УралСпецТранс">
@@ -2368,6 +2373,7 @@
 				<Model name="ППЦТ-48"></Model>
 				<Model name="ППЦТ-50"></Model>
 				<Model name="ППЦТ-52"></Model>
+				<Model name="ППЦТ-62"></Model>
 				<Model name="ППЦТУ-19"></Model>
 				<Model name="ППЦТУ-21,5"></Model>
 				<Model name="ППЦТУ-24"></Model>
@@ -3017,6 +3023,9 @@
 			<Make name="Grunwald">
 				<Model name="Gr.RSt"></Model>
 			</Make>
+			<Make name="HASTRAILER">
+				<Model name="HasReefer"></Model>
+			</Make>
 			<Make name="KWB">
 				<Model name="0-383-STI-2"></Model>
 			</Make>
@@ -3455,6 +3464,7 @@
 				<Model name="SN24"></Model>
 				<Model name="SV24"></Model>
 				<Model name="SW24"></Model>
+				<Model name="SW24 PORT-MAXX 40"></Model>
 				<Model name="SWC T24"></Model>
 			</Make>
 			<Make name="Koluman">
@@ -4198,6 +4208,7 @@
 			</Make>
 			<Make name="Welgro">
 				<Model name="76W20 16"></Model>
+				<Model name="97WSL 43-32"></Model>
 			</Make>
 			<Make name="Winton">
 				<Model name="DYF 48 м3"></Model>
@@ -4868,6 +4879,7 @@
 				<Model name="588514"></Model>
 			</Make>
 			<Make name="Тонар">
+				<Model name="99881"></Model>
 				<Model name="9989"></Model>
 				<Model name="99892"></Model>
 				<Model name="SH3-74M"></Model>
@@ -5641,6 +5653,9 @@
 			</Make>
 			<Make name="LAG">
 				<Model name="0-3-38 EZCL"></Model>
+			</Make>
+			<Make name="LOAN">
+				<Model name="LR9400XLC"></Model>
 			</Make>
 			<Make name="LONG GUA">
 				<Model name="LGC9400XLCD"></Model>
@@ -6583,6 +6598,9 @@
 				<Model name="NW 48"></Model>
 				<Model name="NW38A-KW"></Model>
 			</Make>
+			<Make name="WZM">
+				<Model name="35 SL"></Model>
+			</Make>
 			<Make name="Wackenhut">
 				<Model name="SK22/ M3"></Model>
 			</Make>
@@ -6772,6 +6790,7 @@
 				<Model name="924940"></Model>
 				<Model name="924940-130"></Model>
 				<Model name="924940-315"></Model>
+				<Model name="924940-33H1"></Model>
 			</Make>
 			<Make name="Русский грузовик">
 				<Model name="GRUNWALD"></Model>
@@ -6892,6 +6911,7 @@
 			</Make>
 			<Make name="УралСпецТранс">
 				<Model name="34-32Л"></Model>
+				<Model name="946512-000B311-21"></Model>
 				<Model name="ППС 34-32Л BPW SEVEREST"></Model>
 				<Model name="ППС 34-32Л SEVEREST"></Model>
 				<Model name="ППС 34-42ЛЛ BPW SEVEREST"></Model>
@@ -7458,6 +7478,9 @@
 				<Model name="ППТС-5"></Model>
 				<Model name="ППТС-6"></Model>
 			</Make>
+			<Make name="Мещёра">
+				<Model name="ПТСЕК-10"></Model>
+			</Make>
 			<Make name="МордовАгроМаш">
 				<Model name="1ПТС-2"></Model>
 				<Model name="ППТС-4,5"></Model>
@@ -7691,6 +7714,9 @@
 				<Model name="E-2190/27"></Model>
 				<Model name="Low Loader"></Model>
 				<Model name="Semi Low Loader"></Model>
+			</Make>
+			<Make name="CARSUL">
+				<Model name="SRRPM1353ED335T"></Model>
 			</Make>
 			<Make name="CIMC">
 				<Model name="CSQ9390TDP"></Model>
@@ -8376,6 +8402,9 @@
 				<Model name="EuroCompact"></Model>
 				<Model name="UltralightCombi"></Model>
 			</Make>
+			<Make name="Schmitz Cargobull">
+				<Model name="SPR 24/L - 13.62 EB"></Model>
+			</Make>
 			<Make name="Schwarzmuller">
 				<Model name="SPA3/ZJ"></Model>
 			</Make>
@@ -8647,6 +8676,9 @@
 			</Make>
 			<Make name="York">
 				<Model name="LND46/3"></Model>
+			</Make>
+			<Make name="Zhihuishu">
+				<Model name=" TDZ9400"></Model>
 			</Make>
 			<Make name="АЛСА">
 				<Model name="8817"></Model>
@@ -8984,6 +9016,9 @@
 			<Make name="ТМЗ">
 				<Model name="93622"></Model>
 				<Model name="94622-0000010"></Model>
+			</Make>
+			<Make name="ТРАНСФЭСТ">
+				<Model name="TF131"></Model>
 			</Make>
 			<Make name="ТСП">
 				<Model name="9416"></Model>
@@ -9561,6 +9596,7 @@
 			<Make name="Алексеевка Химмаш">
 				<Model name="9635А"></Model>
 				<Model name="96451"></Model>
+				<Model name="9645ST"></Model>
 				<Model name="964604"></Model>
 				<Model name="96462"></Model>
 				<Model name="АША-2"></Model>
@@ -9576,6 +9612,7 @@
 			</Make>
 			<Make name="Бецема">
 				<Model name="БЦМ-44.1"></Model>
+				<Model name="БЦМ-84"></Model>
 			</Make>
 			<Make name="БиПМ">
 				<Model name="3392H3"></Model>
@@ -10180,6 +10217,7 @@
 			</Make>
 			<Make name="Interconsult">
 				<Model name="STF2-39CA"></Model>
+				<Model name="STF3-36CA"></Model>
 			</Make>
 			<Make name="JOST">
 				<Model name="Modul"></Model>
@@ -11301,6 +11339,9 @@
 	</TypeOfVehicle>
 	<TypeOfVehicle name="Прицеп">
 		<TypeOfTrailer name="Автовоз">
+			<Make name="AK Eskisehir">
+				<Model name="24070"></Model>
+			</Make>
 			<Make name="AT">
 				<Model name="DW13"></Model>
 			</Make>
@@ -11640,6 +11681,9 @@
 			<Make name="Baviahr">
 				<Model name="303012"></Model>
 			</Make>
+			<Make name="Burg">
+				<Model name="BPA 20M"></Model>
+			</Make>
 			<Make name="Diamond">
 				<Model name="UT2"></Model>
 			</Make>
@@ -11669,6 +11713,7 @@
 				<Model name="9000HG"></Model>
 			</Make>
 			<Make name="Humbaur">
+				<Model name="HA 203015"></Model>
 				<Model name="HD 18"></Model>
 			</Make>
 			<Make name="IGOR KOKAREV">
@@ -12661,6 +12706,9 @@
 			<Make name="Burg">
 				<Model name="BPA 10-10"></Model>
 			</Make>
+			<Make name="GRAFF">
+				<Model name="WA18"></Model>
+			</Make>
 			<Make name="Groenewegen">
 				<Model name="20CCA-9-18"></Model>
 			</Make>
@@ -13581,6 +13629,7 @@
 			</Make>
 			<Make name="Астейс">
 				<Model name="900901"></Model>
+				<Model name="900930"></Model>
 			</Make>
 			<Make name="БиПМ">
 				<Model name="3329H8"></Model>
@@ -14206,6 +14255,9 @@
 			</Make>
 			<Make name="Berger">
 				<Model name="Тентованный"></Model>
+			</Make>
+			<Make name="Burg">
+				<Model name="BPA 20M"></Model>
 			</Make>
 			<Make name="Denga">
 				<Model name="DCA"></Model>
@@ -14867,6 +14919,9 @@
 			</Make>
 			<Make name="ООО &#34;Подрядчик&#34;">
 				<Model name="Иркут-80"></Model>
+			</Make>
+			<Make name="Орелкомсервис">
+				<Model name="ПМО-3,5"></Model>
 			</Make>
 			<Make name="Орелстроймаш">
 				<Model name="1 ПТБ-С-3,5"></Model>

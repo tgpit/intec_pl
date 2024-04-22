@@ -31,6 +31,7 @@ $sTemplateId = Html::getUniqueId(null, Component::getUniqueId($this));
 
 $arVisual = $arResult['VISUAL'];
 
+
 if (!Loader::IncludeModule('intec.core'))
     return;
 
@@ -54,6 +55,9 @@ if (!Loader::IncludeModule('intec.core'))
             }
 
             $arData['PLACEMARKS'] = [];
+echo "<div>";
+//var_dump($arResult);
+echo "</div>";
 
             foreach ($arResult['ITEMS'] as $arItem) {
                 if (empty($arItem['DATA']['MAP']))
@@ -175,12 +179,29 @@ if (!Loader::IncludeModule('intec.core'))
                                             <div class="intec-grid-item">
                                                 <div class="contacts-contact-text">
                                                     <div class="contacts-contact-title">
-                                                        <?= Loc::getMessage('C_NEWS_LIST_CONTACTS_PROPERTY_PHONE') ?>:
+                                                       <?= Loc::getMessage('C_NEWS_LIST_CONTACTS_PROPERTY_PHONE') ?>:
                                                     </div>
-                                                    <?= Html::tag('a', $arResult['CONTACT']['DATA']['PHONE']['DISPLAY'], [
-                                                        'class' => 'contacts-contact-value',
-                                                        'href' => 'tel:'.$arResult['CONTACT']['DATA']['PHONE']['VALUE']
-                                                    ]) ?>
+													<? if (strpos($arResult['CONTACT']['DATA']['PHONE']['DISPLAY'], '/') > 0) {
+															$phones = explode("/", $arResult['CONTACT']['DATA']['PHONE']['DISPLAY']);
+															$phonev = explode("/", $arResult['CONTACT']['DATA']['PHONE']['VALUE']);
+															$n = count($phones);
+															for ($i = 0; $i < $n; $i++) {
+															$val = substr($phonev[$i],0,12);
+		                                                    echo Html::tag('a', $phones[$i], [
+        		                                                'class' => 'contacts-contact-value',
+		                                                        'href' => 'tel:'.$phonev[$i]
+		                                                    ]);
+															echo "<br>";
+															}
+														}else {
+															$val = substr($arResult['CONTACT']['DATA']['PHONE']['VALUE'],0,12);
+															$ph = $arResult['CONTACT']['DATA']['PHONE']['DISPLAY']; 
+		                                                    echo Html::tag('a', $ph, [
+        		                                                'class' => 'contacts-contact-value',
+		                                                        'href' => 'tel:'.$val
+		                                                    ]);
+														};
+                                                    ?>
                                                 </div>
                                             </div>
                                         </div>

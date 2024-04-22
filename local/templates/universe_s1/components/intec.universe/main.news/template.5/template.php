@@ -21,6 +21,11 @@ $arVisual = $arResult['VISUAL'];
 $sTag = $arVisual['LINK']['USE'] ? 'a' : 'div';
 
 ?>
+<?
+	include $_SERVER['DOCUMENT_ROOT'].'/gl.php';
+	$qh = $_SERVER['HTTP_HOST'];
+	if ($mDoman == $qh){ ?>
+
 <div class="widget c-news c-news-template-5" id="<?= $sTemplateId ?>">
     <?php if ($arBlocks['HEADER']['SHOW'] || $arBlocks['DESCRIPTION']['SHOW']) { ?>
         <div class="widget-header">
@@ -195,5 +200,5 @@ $sTag = $arVisual['LINK']['USE'] ? 'a' : 'div';
             <?php } ?>
         <?= Html::endTag('div') ?>
     <?php } ?>
-</div>
+</div><? } ?>
 <?php include(__DIR__.'/parts/script.php') ?>

@@ -7,5 +7,7 @@ $MESS['intec.core.options.parameters.minimizationSpaces'] = 'Минимизац�
 $MESS['intec.core.options.parameters.minimizationTags'] = 'Минимизация Html. Убирать тэги (&lt;pre&gt;) и необязательные атрибуты тегов';
 $MESS['intec.core.options.parameters.minimizationCommentaries'] = 'Минимизация Html. Убирать комментарии';
 $MESS['intec.core.options.parameters.minimizationContent'] = 'Минимизация Html. Минимизировать контент';
+$MESS['intec.core.options.tabs.tab.notify.title'] = 'Оповещения';
+$MESS['intec.core.options.parameters.notificationUse'] = 'Использовать оповещения о дате окончания лицензии';
 $MESS['intec.core.options.buttons.apply'] = 'Применить';
 $MESS['intec.core.options.buttons.reset'] = 'Сбросить';

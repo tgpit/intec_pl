@@ -21,11 +21,27 @@ use intec\core\helpers\Html;
     <?php if ($arResult['DESCRIPTION']['SHOW']) { ?>
         <div class="contacts-description">
             <?= $arResult['DESCRIPTION']['TEXT'] ?>
+			<? 
+            function getSubDomain($data) {	
+				$tmp = explode('.', $data);
+				$tmp = array_slice($tmp, 0, -2);
+				$str = implode(".", $tmp);
+				if (empty($str)) {$str = 'moskva';}
+				return $str;
+			}
+			$host = trim(getSubDomain($_SERVER['HTTP_HOST']));
+			echo $host;
+			?>
         </div>
     <?php } ?>
     <div class="contacts-sections">
         <?php foreach($arResult['SECTIONS'] as $arSection) { ?>
-            <?php if (count($arSection['ITEMS']) <= 0) continue; ?>
+            <?// if (count($arSection['ITEMS']) <= 0) continue; ?>
+			<?// if (!(trim($arSection["CODE"]) == $host)) continue; ?>
+		<? if (trim($arSection["CODE"])=='ekaterenburg'){
+			//		var_dump($arResult);
+				}
+         ?>
             <div class="contacts-section">
                 <div class="contacts-section-title">
                    <?= $arSection['NAME'] ?>
@@ -34,7 +50,7 @@ use intec\core\helpers\Html;
                 <div class="contacts-offices-list">
                     <div class="contacts-offices-list-wrapper">
                         <?php foreach ($arSection['ITEMS'] as $arItem) { ?>
-                        <?php
+                        <?php //echo $arItem['CODE'];
                             $sId = $sTemplateId.'_'.$arItem['ID'];
                             $sAreaId = $this->GetEditAreaId($sId);
                             $this->AddEditAction($sId, $arItem['EDIT_LINK']);
@@ -134,10 +150,40 @@ use intec\core\helpers\Html;
                                                                 <div class="contacts-information-content">
                                                                     <?php if (!empty($arItem['DATA']['PHONE'])) { ?>
                                                                         <div class="contacts-phone">
-                                                                            <?= Loc::getMessage('C_NEWS_LIST_CONTACTS_LIST_OFFICES_PHONE') ?>:
+
+
+													<? if (strpos($arItem['DATA']['PHONE']['DISPLAY'], '/') > 0) {
+															$phonev = explode("/", $arItem['DATA']['PHONE']['VALUE']);
+															$phones = explode("/", $arItem['DATA']['PHONE']['DISPLAY']);
+															$n = count($phones);
+															for ($i = 0; $i < $n; $i++) {
+																$val = substr($phonev[$i],0,12);
+																$vals= substr($phones[$i],0,18);
+	                                                            echo Loc::getMessage('C_NEWS_LIST_CONTACTS_LIST_OFFICES_PHONE')." :";
+				                                                echo '<a class="tel widget-part-item-text" href="tel:'.$val.'">';
+                			                                    echo '<span class="value">';
+															    echo $vals;
+																echo '</span>';
+				                                                echo '</a><br>';
+															}
+														}else {
+                                                            echo Loc::getMessage('C_NEWS_LIST_CONTACTS_LIST_OFFICES_PHONE')." :";
+															$val = substr($arItem['DATA']['PHONE']['VALUE'],0,12);
+			                                                echo '<a class="tel widget-part-item-text" href="tel:'.$val.'">';
+               			                                    echo '<span class="value">';
+													   		echo $arItem['DATA']['PHONE']['DISPLAY'];
+															echo '</span>';
+			                                                echo '</a>';
+														} ?>
+
+
+
+
+																				<!--
                                                                             <a class="intec-cl-text-hover" href="tel:<?= $arItem['DATA']['PHONE']['VALUE'] ?>">
                                                                                 <?= $arItem['DATA']['PHONE']['DISPLAY'] ?>
-                                                                            </a>
+                                                                            </a>    -->
+
                                                                         </div>
                                                                     <?php } ?>
                                                                     <?php if (!empty($arItem['DATA']['EMAIL'])) { ?>

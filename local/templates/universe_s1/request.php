@@ -28,7 +28,7 @@ $page = Encoding::convert($page, null, Encoding::UTF8);
 
 if (empty($page) && $request->getIsAjax() && $request->getIsPost()) {
     $response = [];
-    $actions = $request->post('actions');
+    $actions = $request->post('actions');	
     $actions = Encoding::convert($actions, null, Encoding::UTF8);
     $handler = new Handler(
         __DIR__.'/ajax',

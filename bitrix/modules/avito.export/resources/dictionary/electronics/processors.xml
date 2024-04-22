@@ -54,6 +54,9 @@
 		<Model name="A12-9800">
 			<ProducerCode name="AD9800AUM44AB"></ProducerCode>
 		</Model>
+		<Model name="A4-1200">
+			<ProducerCode name="AT1200IFJ23HM"></ProducerCode>
+		</Model>
 		<Model name="A4-3300">
 			<ProducerCode name="AD3300OJZ22GX"></ProducerCode>
 			<ProducerCode name="ADA3800IAA5CU"></ProducerCode>
@@ -252,6 +255,9 @@
 		</Model>
 		<Model name="A9-9425">
 			<ProducerCode name="AM9425AYN23AC"></ProducerCode>
+		</Model>
+		<Model name="AMD FX 8310">
+			<ProducerCode name="FD8310WMW8KHK"></ProducerCode>
 		</Model>
 		<Model name="Athlon">
 			<ProducerCode name="A1400AMS3C"></ProducerCode>
@@ -1117,6 +1123,9 @@
 		</Model>
 		<Model name="GX-420CA">
 			<ProducerCode name="GE420CIAJ44HM"></ProducerCode>
+		</Model>
+		<Model name="K5">
+			<ProducerCode name="PR120ABR"></ProducerCode>
 		</Model>
 		<Model name="K5 75">
 			<ProducerCode name="AMD-SSA/5-75ABR"></ProducerCode>
@@ -2121,6 +2130,9 @@
 		<Model name="Ryzen 5 PRO 5650G">
 			<ProducerCode name="100-000000255"></ProducerCode>
 		</Model>
+		<Model name="Ryzen 5 PRO 5650GE">
+			<ProducerCode name="100-000000258"></ProducerCode>
+		</Model>
 		<Model name="Ryzen 7 1700">
 			<ProducerCode name="YD1700BBAEBOX"></ProducerCode>
 			<ProducerCode name="YD1700BBM88AE"></ProducerCode>
@@ -2136,6 +2148,9 @@
 		<Model name="Ryzen 7 2700">
 			<ProducerCode name="YD2700BBAFBOX"></ProducerCode>
 			<ProducerCode name="YD2700BBM88AF"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 2700U">
+			<ProducerCode name="YM2700C4T4MFB"></ProducerCode>
 		</Model>
 		<Model name="Ryzen 7 2700X">
 			<ProducerCode name="YD270XBGAFBOX"></ProducerCode>
@@ -2216,6 +2231,9 @@
 		</Model>
 		<Model name="Ryzen 7 7840HS">
 			<ProducerCode name="100-000001129"></ProducerCode>
+		</Model>
+		<Model name="Ryzen 7 8700G">
+			<ProducerCode name="100-100001236"></ProducerCode>
 		</Model>
 		<Model name="Ryzen 7 PRO 1700">
 			<ProducerCode name="YD170BBBM88AE"></ProducerCode>
@@ -2588,6 +2606,7 @@
 		<Model name="Celeron 667">
 			<ProducerCode name="RB80526RX667128"></ProducerCode>
 		</Model>
+		<Model name="Celeron 766"></Model>
 		<Model name="Celeron 900"></Model>
 		<Model name="Celeron B800">
 			<ProducerCode name="FF8062701142600"></ProducerCode>
@@ -2946,6 +2965,7 @@
 			<ProducerCode name="CM8071505092202-SRMBU"></ProducerCode>
 		</Model>
 		<Model name="Core i3-13100F"></Model>
+		<Model name="Core i3-14100F"></Model>
 		<Model name="Core i3-2100"></Model>
 		<Model name="Core i3-2100T"></Model>
 		<Model name="Core i3-2102"></Model>
@@ -3036,6 +3056,7 @@
 		<Model name="Core i3-6300"></Model>
 		<Model name="Core i3-6300T"></Model>
 		<Model name="Core i3-6320"></Model>
+		<Model name="Core i3-7020U"></Model>
 		<Model name="Core i3-7100"></Model>
 		<Model name="Core i3-7100T"></Model>
 		<Model name="Core i3-7300"></Model>
@@ -3048,6 +3069,7 @@
 			<ProducerCode name="FH8068403419422"></ProducerCode>
 		</Model>
 		<Model name="Core i3-8121U"></Model>
+		<Model name="Core i3-8130U"></Model>
 		<Model name="Core i3-8300"></Model>
 		<Model name="Core i3-8300T"></Model>
 		<Model name="Core i3-8350K"></Model>
@@ -3328,6 +3350,7 @@
 		<Model name="Core i7-10700T"></Model>
 		<Model name="Core i7-10710U"></Model>
 		<Model name="Core i7-10750H"></Model>
+		<Model name="Core i7-11370H"></Model>
 		<Model name="Core i7-11600H"></Model>
 		<Model name="Core i7-11700"></Model>
 		<Model name="Core i7-11700F">
@@ -3336,6 +3359,7 @@
 		<Model name="Core i7-11700K"></Model>
 		<Model name="Core i7-11700KF"></Model>
 		<Model name="Core i7-11700T"></Model>
+		<Model name="Core i7-11800H"></Model>
 		<Model name="Core i7-12650H"></Model>
 		<Model name="Core i7-12700">
 			<ProducerCode name="CM8071504555019-SRL4Q"></ProducerCode>
@@ -3352,6 +3376,7 @@
 		</Model>
 		<Model name="Core i7-12700T"></Model>
 		<Model name="Core i7-12800H"></Model>
+		<Model name="Core i7-1360P"></Model>
 		<Model name="Core i7-13700">
 			<ProducerCode name="CM8071504820805-SRMBA"></ProducerCode>
 		</Model>
@@ -3538,6 +3563,7 @@
 		</Model>
 		<Model name="Core i9-10850K"></Model>
 		<Model name="Core i9-10850KA"></Model>
+		<Model name="Core i9-10880H"></Model>
 		<Model name="Core i9-10900"></Model>
 		<Model name="Core i9-10900F"></Model>
 		<Model name="Core i9-10900K"></Model>
@@ -3599,6 +3625,7 @@
 		<Model name="Intel Core i7-13700K">
 			<ProducerCode name="BX8071513700K-SRMB8"></ProducerCode>
 		</Model>
+		<Model name="Intel Pentium 4 SL7YP"></Model>
 		<Model name="Pentium"></Model>
 		<Model name="Pentium 100">
 			<ProducerCode name="A80502100"></ProducerCode>
@@ -3789,6 +3816,7 @@
 		<Model name="Pentium J2900">
 			<ProducerCode name="FH8065301614903"></ProducerCode>
 		</Model>
+		<Model name="Pentium J4205"></Model>
 		<Model name="Pentium M 705"></Model>
 		<Model name="Pentium M 713"></Model>
 		<Model name="Pentium M 715"></Model>
@@ -3934,6 +3962,7 @@
 		<Model name="Xeon E-2246G"></Model>
 		<Model name="Xeon E-2274G"></Model>
 		<Model name="Xeon E-2276G"></Model>
+		<Model name="Xeon E-2276M"></Model>
 		<Model name="Xeon E-2278G"></Model>
 		<Model name="Xeon E-2286G"></Model>
 		<Model name="Xeon E-2286M">

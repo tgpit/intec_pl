@@ -3,6 +3,9 @@
 		<Model name="SD16">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
+		<Model name="SD16L">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
 		<Model name="SD22">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
@@ -2222,6 +2225,9 @@
 		<Model name="Б10М.0111-1Е">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
+		<Model name="Б10МБ.0121-2В4">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
 		<Model name="ДЗ-42Г">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
@@ -2801,6 +2807,9 @@
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
 		<Model name="Т-20.02ЯБР-1">
+			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
+		</Model>
+		<Model name="Т-25.01ЯБР-1">
 			<TypeOfVehicle name="Гусеничный"></TypeOfVehicle>
 		</Model>
 		<Model name="Т-35.01К">

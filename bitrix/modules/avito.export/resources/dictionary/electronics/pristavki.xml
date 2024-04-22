@@ -585,26 +585,13 @@
 		<Model name="Nintendo 2DS">
 			<MemorySize name="1">
 				<Color name="Белый"></Color>
-				<Color name="Другой"></Color>
-				<Color name="Чёрный"></Color>
-			</MemorySize>
-			<MemorySize name="Другой">
-				<Color name="Белый"></Color>
-				<Color name="Другой"></Color>
 				<Color name="Чёрный"></Color>
 			</MemorySize>
 		</Model>
 		<Model name="Nintendo 3DS">
 			<MemorySize name="1">
 				<Color name="Белый"></Color>
-				<Color name="Другой"></Color>
 				<Color name="Красный"></Color>
-				<Color name="Синий"></Color>
-				<Color name="Чёрный"></Color>
-			</MemorySize>
-			<MemorySize name="Другой">
-				<Color name="Белый"></Color>
-				<Color name="Другой"></Color>
 				<Color name="Синий"></Color>
 				<Color name="Чёрный"></Color>
 			</MemorySize>
@@ -1205,12 +1192,6 @@
 				<Color name="Чёрный"></Color>
 			</MemorySize>
 		</Model>
-		<Model name="Smart Pro">
-			<MemorySize name="64">
-				<Color name="Белый"></Color>
-				<Color name="Чёрный"></Color>
-			</MemorySize>
-		</Model>
 		<Model name="Sonic">
 			<MemorySize name="64">
 				<Color name="Белый"></Color>
@@ -1391,6 +1372,17 @@
 				<Color name="Чёрный"></Color>
 			</MemorySize>
 		</Model>
+		<Model name="Titan-01A"></Model>
+		<Model name="Trimui Smart Pro">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+			<MemorySize name="8">
+				<Color name="Белый"></Color>
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
 		<Model name="Turbo Smart">
 			<MemorySize name="4">
 				<Color name="Чёрный"></Color>
@@ -1532,6 +1524,11 @@
 		<Model name="Game Box G11 Pro">
 			<MemorySize name="16">
 				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Game Box M10">
+			<MemorySize name="64">
+				<Color name="Белый"></Color>
 			</MemorySize>
 		</Model>
 		<Model name="Game Stick Lite">
@@ -2221,6 +2218,14 @@
 				<Color name="Белый"></Color>
 			</MemorySize>
 		</Model>
+		<Model name="TRY 3DO IMP-21J">
+			<MemorySize name="Другой">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
+		<Model name="Twin Famicom">
+			<Color name="Чёрный"></Color>
+		</Model>
 		<Model name="ZD-10">
 			<Color name="Чёрный"></Color>
 		</Model>
@@ -2228,6 +2233,11 @@
 			<Color name="Чёрный"></Color>
 		</Model>
 		<Model name="Другая"></Model>
+		<Model name="ХL">
+			<MemorySize name="1">
+				<Color name="Чёрный"></Color>
+			</MemorySize>
+		</Model>
 		<Model name="Электроника Видеоспорт-3">
 			<Color name="Чёрный"></Color>
 		</Model>

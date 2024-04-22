@@ -875,6 +875,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="AX3U2600W4G11-DGV">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="4">
+						<Frequency name="2600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="AX3U2800W4G12-DMV">
 			<Type name="DDR3">
 				<FormFactor name="DIMM">
@@ -2803,6 +2812,15 @@
 		</ProducerCode>
 	</Brand>
 	<Brand name="AFOX">
+		<ProducerCode name="AFLD22ZM1P">
+			<Type name="DDR2">
+				<FormFactor name="DIMM">
+					<Size name="2">
+						<Frequency name="800"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="AFLD34BN1P">
 			<Type name="DDR3">
 				<FormFactor name="DIMM">
@@ -4942,6 +4960,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="78.02GDF.4010C">
+			<Type name="DDR3">
+				<FormFactor name="SODIMM">
+					<Size name="1">
+						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="78.A1G9O.9K4">
 			<Type name="DDR2">
 				<FormFactor name="DIMM">
@@ -5954,6 +5981,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="VAM4UX36C188G-DVALWN">
+			<Type name="DDR4">
+				<FormFactor name="UDIMM">
+					<Size name="8">
+						<Frequency name="3600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="VAM5UX52C40AG-CFRES">
 			<Type name="DDR5">
 				<FormFactor name="DIMM">
@@ -6196,6 +6232,13 @@
 			</Type>
 		</ProducerCode>
 		<ProducerCode name="Не указан">
+			<Type name="DDR2">
+				<FormFactor name="UDIMM">
+					<Size name="2">
+						<Frequency name="533"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
 			<Type name="DDR3">
 				<FormFactor name="DIMM">
 					<Size name="4">
@@ -6207,6 +6250,17 @@
 				<FormFactor name="DIMM">
 					<Size name="16">
 						<Frequency name="3200"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+	</Brand>
+	<Brand name="Atla">
+		<ProducerCode name="AD3LHT8GE1WB-CKGAC">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="1600"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -6591,6 +6645,17 @@
 			</Type>
 		</ProducerCode>
 	</Brand>
+	<Brand name="Billion Reservoir">
+		<ProducerCode name="BR-PC-8G-1600">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+	</Brand>
 	<Brand name="Biwintech">
 		<ProducerCode name="B14AS4G32619R#A">
 			<Type name="DDR4">
@@ -6633,6 +6698,17 @@
 				<FormFactor name="DIMM">
 					<Size name="16">
 						<Frequency name="2666"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+	</Brand>
+	<Brand name="Buzhanshi">
+		<ProducerCode name="Не указан">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="1600"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -7754,6 +7830,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="CMP96GX5M2B6600C32">
+			<Type name="DDR5">
+				<FormFactor name="DIMM">
+					<Size name="48">
+						<Frequency name="6600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="CMR16GX4M2C3466C16">
 			<Type name="DDR4">
 				<FormFactor name="DIMM">
@@ -7957,6 +8042,15 @@
 				<FormFactor name="DIMM">
 					<Size name="16">
 						<Frequency name="4000"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="CMT32GX4M2Z3600C14">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="16">
+						<Frequency name="3600"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -8699,6 +8793,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="VS256MB400">
+			<Type name="DDR">
+				<FormFactor name="DIMM">
+					<Size name="0.25">
+						<Frequency name="400"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="VS2GB1333D3">
 			<Type name="DDR3">
 				<FormFactor name="DIMM">
@@ -8863,6 +8966,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="BL32G36C16U4B">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="32">
+						<Frequency name="3600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="BL8G26C16U4B.8FD">
 			<Type name="DDR4">
 				<FormFactor name="DIMM">
@@ -8994,6 +9106,15 @@
 				<FormFactor name="DIMM">
 					<Size name="16">
 						<Frequency name="4000"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="BLM16G44C19U4B">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="16">
+						<Frequency name="4400"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -10980,6 +11101,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="DGMAD5480008S">
+			<Type name="DDR5">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="4800"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="DGMAS31600004D">
 			<Type name="DDR3">
 				<FormFactor name="SODIMM">
@@ -12593,6 +12723,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="S26462-F4109-L4">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="2933"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 	</Brand>
 	<Brand name="G.SKILL">
 		<ProducerCode name="10666CL9D-16GBXL">
@@ -14143,6 +14282,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="F4-5066C20D-16GVK">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="5000"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="F5-4800S4039A32GX2-RS">
 			<Type name="DDR5">
 				<FormFactor name="SODIMM">
@@ -14760,6 +14908,15 @@
 				<FormFactor name="DIMM">
 					<Size name="24">
 						<Frequency name="8000"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="F5-8200J4052F24GX2-TZ5RK">
+			<Type name="DDR5">
+				<FormFactor name="DIMM">
+					<Size name="24">
+						<Frequency name="8200"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -15708,6 +15865,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="GKH200SO12808-1066A">
+			<Type name="DDR3">
+				<FormFactor name="SODIMM">
+					<Size name="2">
+						<Frequency name="1066"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="GKH200SO25608-1600AL">
 			<Type name="DDR3L">
 				<FormFactor name="SODIMM">
@@ -15749,6 +15915,15 @@
 				<FormFactor name="DIMM">
 					<Size name="4">
 						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="GKH800UD51208-1333A">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="1333"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -18381,6 +18556,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="HMA82GR7AFR8N-UH">
+			<Type name="DDR4">
+				<FormFactor name="RDIMM">
+					<Size name="16">
+						<Frequency name="2400"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="HMA82GR7AFR8N-VK">
 			<Type name="DDR4">
 				<FormFactor name="DIMM">
@@ -18681,6 +18865,15 @@
 		<ProducerCode name="HMAA4GR7AJR4N-XN">
 			<Type name="DDR4">
 				<FormFactor name="DIMM">
+					<Size name="32">
+						<Frequency name="3200"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="HMAA4GR7AJR8N-XN">
+			<Type name="DDR4">
+				<FormFactor name="RDIMM">
 					<Size name="32">
 						<Frequency name="3200"></Frequency>
 					</Size>
@@ -20351,6 +20544,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="HX424C15FRK4/64">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="16">
+						<Frequency name="2400"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="HX424S14IB2/8">
 			<Type name="DDR4">
 				<FormFactor name="SODIMM">
@@ -20463,6 +20665,15 @@
 			<Type name="DDR4">
 				<FormFactor name="DIMM">
 					<Size name="16">
+						<Frequency name="3000"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="HX430C15PB3/8">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="8">
 						<Frequency name="3000"></Frequency>
 					</Size>
 				</FormFactor>
@@ -20680,6 +20891,15 @@
 				<FormFactor name="DIMM">
 					<Size name="8">
 						<Frequency name="2400"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="KHX6400D2K2/4G">
+			<Type name="DDR2">
+				<FormFactor name="DIMM">
+					<Size name="2">
+						<Frequency name="800"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -21887,6 +22107,15 @@
 		</ProducerCode>
 	</Brand>
 	<Brand name="KFA2">
+		<ProducerCode name="GAL4AXL1BM2133C15IE041C">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="4">
+						<Frequency name="2133"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="HOF4CRL1CST3600K17LD162K">
 			<Type name="DDR4">
 				<FormFactor name="DIMM">
@@ -21937,6 +22166,9 @@
 		<ProducerCode name="PC2-6400U-CL6">
 			<Type name="DDR2">
 				<FormFactor name="DIMM">
+					<Size name="2">
+						<Frequency name="800"></Frequency>
+					</Size>
 					<Size name="4">
 						<Frequency name="800"></Frequency>
 					</Size>
@@ -22072,6 +22304,17 @@
 					<Size name="16">
 						<Frequency name="3200"></Frequency>
 					</Size>
+					<Size name="8">
+						<Frequency name="3200"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+	</Brand>
+	<Brand name="Kim MiDi">
+		<ProducerCode name="M378A1K43CB2-CWE">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
 					<Size name="8">
 						<Frequency name="3200"></Frequency>
 					</Size>
@@ -22519,6 +22762,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="KS2400D4P12008G">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="2400"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="KS2666D4N12004G">
 			<Type name="DDR4">
 				<FormFactor name="DIMM">
@@ -22766,6 +23018,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="FLGF65F-C8KL9A">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="4">
+						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="FLGF65F-D8KQB">
 			<Type name="DDR3">
 				<FormFactor name="DIMM">
@@ -22860,6 +23121,15 @@
 			<Type name="DDR2">
 				<FormFactor name="DIMM">
 					<Size name="1">
+						<Frequency name="1066"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="KLEE88F-B8MN6">
+			<Type name="DDR2">
+				<FormFactor name="DIMM">
+					<Size name="2">
 						<Frequency name="1066"></Frequency>
 					</Size>
 				</FormFactor>
@@ -23184,6 +23454,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="ACR16D3LFU1KBG/2G">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="2">
+						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="ACR16D3LS1KBGR/4G">
 			<Type name="DDR3">
 				<FormFactor name="SODIMM">
@@ -23270,6 +23549,24 @@
 				<FormFactor name="DIMM">
 					<Size name="4">
 						<Frequency name="2666"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="ACR32D4S2S1ME-8">
+			<Type name="DDR4">
+				<FormFactor name="SODIMM">
+					<Size name="8">
+						<Frequency name="3200"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="ACR32D4S2S1MF-8">
+			<Type name="DDR4">
+				<FormFactor name="SODIMM">
+					<Size name="8">
+						<Frequency name="3200"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -23548,6 +23845,15 @@
 			<Type name="DDR3">
 				<FormFactor name="DIMM">
 					<Size name="8">
+						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="HX316LS9IB/4">
+			<Type name="DDR3L">
+				<FormFactor name="SODIMM">
+					<Size name="4">
 						<Frequency name="1600"></Frequency>
 					</Size>
 				</FormFactor>
@@ -23836,6 +24142,15 @@
 			<Type name="DDR4">
 				<FormFactor name="DIMM">
 					<Size name="16">
+						<Frequency name="2400"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="HX424C15FB3/8">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="8">
 						<Frequency name="2400"></Frequency>
 					</Size>
 				</FormFactor>
@@ -24485,6 +24800,15 @@
 				<FormFactor name="DIMM">
 					<Size name="8">
 						<Frequency name="3600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="HX437C19FB3/16">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="16">
+						<Frequency name="3733"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -25142,6 +25466,15 @@
 				<FormFactor name="SODIMM">
 					<Size name="16">
 						<Frequency name="2933"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="KF430C16BBK2/64">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="32">
+						<Frequency name="3000"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -28933,6 +29266,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="KSM48E40BD8KM-32HM">
+			<Type name="DDR5">
+				<FormFactor name="DIMM">
+					<Size name="32">
+						<Frequency name="4800"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="KTH-X3C/4G">
 			<Type name="DDR3">
 				<FormFactor name="SODIMM">
@@ -30310,6 +30652,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="KVR48S40BS6-8">
+			<Type name="DDR5">
+				<FormFactor name="SODIMM">
+					<Size name="8">
+						<Frequency name="4800"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="KVR48S40BS8-16">
 			<Type name="DDR5">
 				<FormFactor name="SODIMM">
@@ -30659,6 +31010,20 @@
 				<FormFactor name="SODIMM">
 					<Size name="16">
 						<Frequency name="2666"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+	</Brand>
+	<Brand name="Kissin">
+		<ProducerCode name="SMK-R3PC1600HZ21100001">
+			<Type name="DDR3">
+				<FormFactor name="SODIMM">
+					<Size name="4">
+						<Frequency name="1600"></Frequency>
+					</Size>
+					<Size name="8">
+						<Frequency name="1600"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -32115,6 +32480,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="MTA16ATF1G64AZ-2G1B1">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="2133"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="MTA16ATF1G64HZ-2G1B1">
 			<Type name="DDR4">
 				<FormFactor name="SODIMM">
@@ -32511,6 +32885,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="MTA8ATF1G64HZ-2G3B1">
+			<Type name="DDR4">
+				<FormFactor name="SODIMM">
+					<Size name="8">
+						<Frequency name="2400"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="MTA8ATF1G64HZ-2G6">
 			<Type name="DDR4">
 				<FormFactor name="SODIMM">
@@ -32673,6 +33056,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="PD256M6408V69AD2J-15E">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="2">
+						<Frequency name="1333"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 	</Brand>
 	<Brand name="Mushkin">
 		<ProducerCode name="977038A">
@@ -32696,6 +33088,15 @@
 		<ProducerCode name="996988E">
 			<Type name="DDR3">
 				<FormFactor name="UDIMM">
+					<Size name="4">
+						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="996995">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
 					<Size name="4">
 						<Frequency name="1600"></Frequency>
 					</Size>
@@ -35156,6 +35557,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="Не указан">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 	</Brand>
 	<Brand name="PNY">
 		<ProducerCode name="4GBH2X02E99924-165-H">
@@ -35286,6 +35696,15 @@
 		</ProducerCode>
 	</Brand>
 	<Brand name="PQI">
+		<ProducerCode name="MDAD-403LA">
+			<Type name="DDR">
+				<FormFactor name="DIMM">
+					<Size name="0.5">
+						<Frequency name="400"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="MEADR428LA0104-07B6">
 			<Type name="DDR2">
 				<FormFactor name="DIMM">
@@ -35456,6 +35875,15 @@
 			<Type name="DDR2">
 				<FormFactor name="SODIMM">
 					<Size name="2">
+						<Frequency name="800"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="PSD22G800K">
+			<Type name="DDR2">
+				<FormFactor name="DIMM">
+					<Size name="1">
 						<Frequency name="800"></Frequency>
 					</Size>
 				</FormFactor>
@@ -36190,6 +36618,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="PSD5124003">
+			<Type name="DDR">
+				<FormFactor name="DIMM">
+					<Size name="0.5">
+						<Frequency name="400"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="PSD516G480081">
 			<Type name="DDR5">
 				<FormFactor name="DIMM">
@@ -36613,6 +37050,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="PVB416G360C7K">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="3600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="PVB416G360C8K">
 			<Type name="DDR4">
 				<FormFactor name="DIMM">
@@ -37032,6 +37478,15 @@
 				<FormFactor name="DIMM">
 					<Size name="8">
 						<Frequency name="4133"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="PVS22G9600ELKN">
+			<Type name="DDR2">
+				<FormFactor name="DIMM">
+					<Size name="1">
+						<Frequency name="1200"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -37722,6 +38177,15 @@
 		</ProducerCode>
 	</Brand>
 	<Brand name="Princeton">
+		<ProducerCode name="VPM1333NU3C94GBT">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="4">
+						<Frequency name="1333"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="VPM800NU005/1GB/N">
 			<Type name="DDR2">
 				<FormFactor name="DIMM">
@@ -37834,6 +38298,15 @@
 			<Type name="DDR4">
 				<FormFactor name="SODIMM">
 					<Size name="32">
+						<Frequency name="3200"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="PSK-D4U22M3200-8GB">
+			<Type name="DDR4">
+				<FormFactor name="SODIMM">
+					<Size name="8">
 						<Frequency name="3200"></Frequency>
 					</Size>
 				</FormFactor>
@@ -38708,6 +39181,15 @@
 		</ProducerCode>
 	</Brand>
 	<Brand name="RZX">
+		<ProducerCode name="RZX-D3D11M1600B/4G">
+			<Type name="DDR3">
+				<FormFactor name="UDIMM">
+					<Size name="4">
+						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="RZX-D3D11M1600B/8G">
 			<Type name="DDR3">
 				<FormFactor name="DIMM">
@@ -39016,8 +39498,8 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
-		<ProducerCode name="RMT3190ME76F8F-1600к">
-			<Type name="DDR4">
+		<ProducerCode name="RMT3190ME76F8F-1600">
+			<Type name="DDR3L">
 				<FormFactor name="SODIMM">
 					<Size name="2">
 						<Frequency name="1600"></Frequency>
@@ -40306,6 +40788,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="M393A1K43BB1-CTD6Q">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="2666"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="M393A1K43DB2-CWE">
 			<Type name="DDR4">
 				<FormFactor name="RDIMM">
@@ -40702,6 +41193,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="M393B1K70DH0-YK0">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="M393B2G70AH0-CMAQ8M">
 			<Type name="DDR3">
 				<FormFactor name="DIMM">
@@ -40725,6 +41225,15 @@
 				<FormFactor name="DIMM">
 					<Size name="16">
 						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="M393B2G70DB0-CMA">
+			<Type name="DDR3">
+				<FormFactor name="DIMM">
+					<Size name="16">
+						<Frequency name="1866"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -40810,6 +41319,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="M393B4G70DM0-YH9">
+			<Type name="DDR3">
+				<FormFactor name="RDIMM">
+					<Size name="32">
+						<Frequency name="1333"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="M393B4G70EMB-CK0">
 			<Type name="DDR3">
 				<FormFactor name="DIMM">
@@ -40858,6 +41376,15 @@
 		<ProducerCode name="M393B5270CH0-YH9Q4">
 			<Type name="DDR3L">
 				<FormFactor name="DIMM">
+					<Size name="4">
+						<Frequency name="1333"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="M393B5270DH0-YH9">
+			<Type name="DDR3">
+				<FormFactor name="RDIMM">
 					<Size name="4">
 						<Frequency name="1333"></Frequency>
 					</Size>
@@ -41593,6 +42120,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="M471B1G73CB0-CK0">
+			<Type name="DDR3">
+				<FormFactor name="SODIMM">
+					<Size name="8">
+						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="M471B1G73DB0-YK0">
 			<Type name="DDR3L">
 				<FormFactor name="SODIMM">
@@ -41955,6 +42491,17 @@
 				<FormFactor name="FB-DIMM">
 					<Size name="0.5">
 						<Frequency name="667"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+	</Brand>
+	<Brand name="Semsotai">
+		<ProducerCode name="Не указан">
+			<Type name="DDR4">
+				<FormFactor name="UDIMM">
+					<Size name="8">
+						<Frequency name="2666"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -43048,6 +43595,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="D4NESO-2400-4G">
+			<Type name="DDR4">
+				<FormFactor name="SODIMM">
+					<Size name="4">
+						<Frequency name="2400"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="D4RD-2666-16G">
 			<Type name="DDR4">
 				<FormFactor name="DIMM">
@@ -43702,6 +44258,15 @@
 				<FormFactor name="DIMM">
 					<Size name="4">
 						<Frequency name="2666"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="TED48G2400C1601">
+			<Type name="DDR4">
+				<FormFactor name="DIMM">
+					<Size name="8">
+						<Frequency name="2400"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -44935,6 +45500,15 @@
 				</FormFactor>
 			</Type>
 		</ProducerCode>
+		<ProducerCode name="TS256MLQ72V6U">
+			<Type name="DDR2">
+				<FormFactor name="DIMM">
+					<Size name="2">
+						<Frequency name="667"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
 		<ProducerCode name="TS256MQR72V6U">
 			<Type name="DDR3">
 				<FormFactor name="DIMM">
@@ -44967,6 +45541,15 @@
 				<FormFactor name="SODIMM">
 					<Size name="2">
 						<Frequency name="1600"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="TS256MSQ64V8U">
+			<Type name="DDR2">
+				<FormFactor name="SODIMM">
+					<Size name="2">
+						<Frequency name="800"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>
@@ -45213,6 +45796,15 @@
 				<FormFactor name="DIMM">
 					<Size name="2">
 						<Frequency name="800"></Frequency>
+					</Size>
+				</FormFactor>
+			</Type>
+		</ProducerCode>
+		<ProducerCode name="30A1L22121231A7R46">
+			<Type name="DDR3">
+				<FormFactor name="SODIMM">
+					<Size name="4">
+						<Frequency name="1066"></Frequency>
 					</Size>
 				</FormFactor>
 			</Type>

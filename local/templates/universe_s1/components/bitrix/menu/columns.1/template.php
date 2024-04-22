@@ -47,7 +47,12 @@ if (empty($arResult))
         ],
         'data-role' => 'menu'
     ]) ?>
-        <?php foreach ($arResult as $arItem) { ?>
+   <?php 
+		include $_SERVER['DOCUMENT_ROOT'].'/gl.php';
+		$qh = $_SERVER['HTTP_HOST'];
+		$mExclud = ['Новости', 'Статьи', 'Услуги'];
+
+		foreach ($arResult as $arItem) { ?>
         <?php
             $bActive = $arItem['ACTIVE'];
             $bSelected = $arItem['SELECTED'];
@@ -55,6 +60,12 @@ if (empty($arResult))
             $sUrl = $bActive ? null : $arItem['LINK'];
             $sTag = $bActive ? 'span' : 'a';
         ?>
+<?		$qv = '0';
+ 		if ($mDoman == $qh){$qv='1';}
+		$qa = $arItem['TEXT'];
+		if (in_array($qa, $mExclud) && ($qv == '0')) {
+			continue;
+		}?>
             <?= Html::beginTag('div', [
                 'class' => [
                     'menu-column',
@@ -74,6 +85,7 @@ if (empty($arResult))
                             'class' => 'menu-column-header-link',
                             'href' => $sUrl
                         ]) ?>
+
                         <?php if (!empty($arItem['ITEMS'])) { ?>
                             <span class="menu-column-header-icon" data-role="menu.item.icon">
                                 <i class="far fa-angle-down"></i>
@@ -83,14 +95,24 @@ if (empty($arResult))
                     <?php if (!empty($arItem['ITEMS'])) { ?>
                         <div class="menu-column-items-wrapper" data-role="submenu">
                             <div class="menu-column-items">
+								<?  
+								$qv = '0';
+ 								if ($mDoman == $qh){$qv='1';}?>
                                 <?php foreach ($arItem['ITEMS'] as $arChild) { ?>
                                 <?php
                                     $bChildActive = $arChild['ACTIVE'];
                                     $bChildSelected = $arChild['SELECTED'];
-
                                     $sChildUrl = $bChildActive ? null : $arChild['LINK'];
                                     $sChildTag = $bChildActive ? 'span' : 'a';
                                 ?>
+								<?
+									$qa = $arChild['TEXT'];
+									if (in_array($qa, $mExclud) && ($qv == '0')) {
+										continue;
+									}
+
+//									echo "$qv<br>$qa<br>$qh<br>$mDoman<br>";
+								  ?>
                                     <?= Html::beginTag('div', [
                                         'class' => 'menu-column-item',
                                         'data' => [

@@ -285,7 +285,7 @@ include(__DIR__.'/parts/sku.php');
 									$v_p = $arPrice["PRICE"];
 									$b_p = $arItem["PRICE_MATRIX"]["MATRIX"][1]["ZERO-INF"]["PRICE"];
 									if ($v_p < $b_p) {
-										echo "<s>".$b_p."</s>&nbsp;руб.";
+										echo "<span style=\"color:red;\"><s>".$b_p."</s>&nbsp;руб.</span>";
 										}
 									$vPrice($arPrice);
                             } ?>

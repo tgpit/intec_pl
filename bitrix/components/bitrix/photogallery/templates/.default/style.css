@@ -54,7 +54,7 @@ table.photo-dialog-table td.photo-dialog-prop-param-date input{display: block; f
 table.photo-dialog-table td.photo-dialog-prop-param-date a{display: inline-block!important;}
 
 div.photo-popup, div.photo-popup div, div.photo-popup form {background-color: white;padding: 0;margin: 0;font-size: 12px;}
-div.photo-popup{background-color: gray;overflow: hidden;width: 600px;height: 400px;}
+div.photo-popup{background-color: gray;overflow: hidden;width: 600px;height: 320px;}
 
 div.photo-popup div.photo-popup-container{
 	border: 1px solid black;}

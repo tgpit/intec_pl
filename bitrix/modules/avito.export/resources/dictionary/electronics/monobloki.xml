@@ -4,6 +4,7 @@
 	<Brand name="Acer"></Brand>
 	<Brand name="All-in-One"></Brand>
 	<Brand name="Apple">
+		<Model name="Mac mini (2018)"></Model>
 		<Model name="iMac (2006)">
 			<Diagonal name="17"></Diagonal>
 			<Diagonal name="20"></Diagonal>
@@ -139,6 +140,7 @@
 		</Model>
 	</Brand>
 	<Brand name="Irbis"></Brand>
+	<Brand name="KCG"></Brand>
 	<Brand name="KOTIN"></Brand>
 	<Brand name="KVADRA"></Brand>
 	<Brand name="Kraftway"></Brand>
