@@ -24,11 +24,14 @@ if (empty($template))
         modal.find('.modal-img').html("<img src='"+img+"' class='img-fluid'/>");
     })
 </script>
+
 <style>
+
 .container-903 {
   padding: 0px !important;
   margin: 0px !important;
 }
+
 .container-597 {
   padding: 0px !important;
   margin: 0px !important;
@@ -46,10 +49,24 @@ if (empty($template))
   margin-bottom: 0px !important;
   margin-top: 0px !important;
 }
-.catalog-element-gallery-pictures-slider-item {
+.catalog-element-gallery-pictures-slider {
   margin-bottom: 0px !important;
   margin-top: 0px !important;
   height: 320px !important;
+}
+.intec-content-visible {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+
+}
+.intec-content {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+
 }
 
 .bld {

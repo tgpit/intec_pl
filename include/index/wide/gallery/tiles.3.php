@@ -16,7 +16,7 @@ use intec\core\io\Path;
 
 ?>
 <?= Html::beginTag('div', ['style' => array (
-  'margin-top' => '50px',
+  'margin-top' => '10px',
 )]) ?>
 <?php $APPLICATION->IncludeComponent('intec.universe:main.gallery', 'template.2', array (
   'IBLOCK_TYPE' => 'content',

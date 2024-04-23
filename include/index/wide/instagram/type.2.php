@@ -16,8 +16,8 @@ use intec\core\io\Path;
 
 ?>
 <?= Html::beginTag('div', ['style' => array (
-  'margin-top' => '50px',
-  'margin-bottom' => '50px',
+  'margin-top' => '10px',
+  'margin-bottom' => '10px',
 )]) ?>
 <?php $APPLICATION->IncludeComponent('intec.universe:main.instagram', 'template.2', array (
   'SETTINGS_USE' => 'Y',

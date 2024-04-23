@@ -39,7 +39,7 @@ use intec\core\io\Path;
 <?php if ($blocks->exists('news') && $blocks['news']['active']) { ?>
     <?= Html::beginTag('div', [
         'style' => [
-            'margin-top' => '50px'
+            'margin-top' => '10px'
         ]
     ]) ?>
     <?php $APPLICATION->IncludeComponent(

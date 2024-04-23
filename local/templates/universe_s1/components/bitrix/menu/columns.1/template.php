@@ -111,7 +111,6 @@ if (empty($arResult))
 										continue;
 									}
 
-//									echo "$qv<br>$qa<br>$qh<br>$mDoman<br>";
 								  ?>
                                     <?= Html::beginTag('div', [
                                         'class' => 'menu-column-item',

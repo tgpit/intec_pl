@@ -25,7 +25,7 @@
   /*** brands.1 ***/
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-block {
-  margin-top: 80px;
+  margin-top: 10px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-block:first-child, .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-block[data-type="sticky.both"] + .catalog-element-block[data-type="sticky.both"], .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-block[data-type="sticky.both"] + .catalog-element-block[data-type="sticky.top"], .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-block[data-type="sticky.bottom"] + .catalog-element-block[data-type="sticky.both"], .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-block[data-type="sticky.bottom"] + .catalog-element-block[data-type="sticky.top"] {
   margin-top: 0;
@@ -37,7 +37,7 @@
   position: relative;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner[data-wide=false] {
-  padding: 0 30px;
+  padding: 0 10px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner .catalog-element-banner-fade {
   position: absolute;
@@ -58,7 +58,7 @@
   height: 100%;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner .catalog-element-banner-information {
-  padding: 64px 0;
+  padding: 6px 0;
   position: relative;
   z-index: 1;
   align-self: center;
@@ -71,7 +71,7 @@
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: #1B1E25;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner .catalog-element-banner-header {
   display: inline-block;
@@ -94,10 +94,10 @@
   font-size: 18px;
   line-height: 30px;
   color: #404040;
-  margin-top: 24px;
+  margin-top: 4px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner .catalog-element-banner-purchase {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner .catalog-element-banner-purchase .catalog-element-banner-purchase-caption {
   font-size: 13px;
@@ -126,7 +126,7 @@
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner .catalog-element-banner-purchase .catalog-element-banner-purchase-button {
   display: block;
-  padding: 23px 40px;
+  padding: 4px 5px;
   font-style: normal;
   font-weight: 600;
   font-size: 10px;
@@ -158,8 +158,8 @@
   display: none;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner .catalog-element-banner-additional-wrap {
-  padding-top: 26px;
-  padding-bottom: 64px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner .catalog-element-banner-additional-item,
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner .catalog-element-banner-additional-item-info {
@@ -220,7 +220,7 @@
     line-height: 34px;
   }
   .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner .catalog-element-banner-information {
-    padding: 42px 0;
+    padding: 12px 0;
   }
   .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner .catalog-element-banner-text {
     font-size: 15px;
@@ -238,7 +238,7 @@
   color: #1B1E25;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner[data-split=true] .catalog-element-banner-information {
-  padding: 56px 20px;
+  padding: 6px 4px;
   margin-left: 44px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner[data-split=true] .catalog-element-banner-text {
@@ -247,10 +247,10 @@
   font-size: 14px;
   line-height: 24px;
   color: #404040;
-  margin-top: 16px;
+  margin-top: 6px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner[data-split=true] .catalog-element-banner-purchase {
-  margin-top: 32px;
+  margin-top: 8px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner[data-split=true] .catalog-element-banner-purchase-holder {
   color: #1B1E25;
@@ -262,7 +262,7 @@
 }
 @media all and (max-width: 1000px) {
   .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-banner[data-split=true] {
-    padding: 20px 0;
+    padding: 5px 0;
     position: relative;
     overflow: hidden;
   }
@@ -271,13 +271,13 @@
   }
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-icons {
-  padding: 60px 0;
+  padding: 10px 0;
   background: #FBFCFD;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-icons .widget.c-advantages.c-advantages-template-10 .widget-item-picture {
   width: 48px;
   height: 48px;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-icons .widget.c-advantages.c-advantages-template-10 .widget-item-name {
   font-style: normal;
@@ -297,7 +297,7 @@
   margin-top: 8px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-description {
-  margin-top: 80px;
+  margin-top: 10px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-description .catalog-element-description-header {
   color: #1B1E25;
@@ -306,12 +306,12 @@
   color: #404040;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-description .catalog-element-description-header + .catalog-element-description-text {
-  margin-top: 24px;
+  margin-top: 4px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-description[data-theme=dark] {
   margin-top: 0;
   background: #404040;
-  padding: 56px 0;
+  padding: 10px 0;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-description[data-theme=dark] .catalog-element-description-header .widget-title,
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-description[data-theme=dark] .catalog-element-description-text {
@@ -347,7 +347,7 @@
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-properties .catalog-element-property .catalog-element-property-name,
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-properties .catalog-element-property .catalog-element-property-value {
-  padding: 8px 16px;
+  padding: 8px 6px;
   font-size: 13px;
   line-height: 18px;
   color: #111;
@@ -374,11 +374,11 @@
   }
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-services-1 .catalog-element-services-header + .catalog-element-services-content {
-  margin-top: 25px;
+  margin-top: 5px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-stages-2[data-background-use=true] {
   background: #FBFCFD;
-  padding: 48px 0;
+  padding: 8px 0;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-stages-2 .widget.c-stages.c-stages-template-5 .widget-item-name-text {
   padding-right: 0;
@@ -493,7 +493,7 @@
   line-height: 24px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-faq .widget.c-faq.c-faq-template-1 .widget-item-question {
-  padding: 16px 32px;
+  padding: 4px 8px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-faq .widget.c-faq.c-faq-template-1 .widget-item-question-icon {
   font-size: 12px;
@@ -502,7 +502,7 @@
   margin-top: -6px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-faq .widget.c-faq.c-faq-template-1 .widget-item-answer {
-  padding: 24px 40px 32px 40px;
+  padding: 4px 8px 6px 8px;
   background-color: #fff;
   border-color: #f1f1f1;
 }
@@ -525,7 +525,7 @@
   margin-left: -10px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-products .catalog-element-products-header + .catalog-element-products-content {
-  margin-top: 25px;
+  margin-top: 5px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-products .catalog-element-products-content .ns-bitrix.c-catalog-section.c-catalog-section-products-small-1[data-slider=true][data-slider-navigation=true] .catalog-section-items {
   margin: 0;
@@ -584,7 +584,7 @@
   }
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-services-2 .catalog-element-services-header + .catalog-element-services-content {
-  margin-top: 25px;
+  margin-top: 5px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-services-2 .catalog-element-services-content .ns-bitrix.c-catalog-section.c-catalog-section-services-small-1[data-slider=true][data-slider-navigation=true] .catalog-section-items {
   margin: 0;
@@ -643,11 +643,11 @@
   }
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-shares .catalog-element-shares-header + .catalog-element-shares-content {
-  margin-top: 25px;
+  margin-top: 5px;
 }
 .ns-bitrix.c-catalog-element.c-catalog-element-services-default-4 .catalog-element-brands {
   background: #FBFCFD;
-  padding: 56px 0;
+  padding: 6px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

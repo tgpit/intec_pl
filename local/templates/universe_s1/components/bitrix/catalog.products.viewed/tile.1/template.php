@@ -1,6 +1,6 @@
 <?php if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die(); ?>
 <?php
-
+use \Bitrix\Conversion\Internals\MobileDetect;
 use intec\core\bitrix\Component;
 use intec\core\helpers\Html;
 use intec\core\helpers\JavaScript;
@@ -101,12 +101,38 @@ $arVisual = $arResult['VISUAL'];
                                 <a href="<?= $arItem['DETAIL_PAGE_URL'] ?>" class="catalog-products-viewed-item" id="<?= $sAreaId ?>">
                                     <div class="catalog-products-viewed-item-wrapper intec-grid">
                                         <div class="catalog-products-viewed-image intec-grid-item">
+										<?	$detect = new MobileDetect;
+											$imob = ($detect->isMobile());
+
+											$url = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+											$url = explode('?', $url);
+											$url = $url[0];
+											$ncat = strpos($url,'/catalog/');
+											if ($ncat <= 0)	{$ncat = strpos($url,'/sale/');};
+											if ($ncat <= 0) { ?>
                                             <?= Html::beginTag('div', [
+                                                'class' => [
+                                                    'catalog-products-viewed-image-wrapper',
+                                                    'intec-ui-picture'
+                                                ],
+												'style' => [
+													'position' => 'relative',
+													'top' => '-75px',
+													'left' => '0px'
+													]
+												]) ?>
+
+										   <? }else{ ?>
+
+                                           <?= Html::beginTag('div', [
                                                 'class' => [
                                                     'catalog-products-viewed-image-wrapper',
                                                     'intec-ui-picture'
                                                 ]
                                             ]) ?>
+
+											<?}	?>
+
                                                 <?= Html::img($sPicture, [
                                                     'alt' => $sPictureAlt,
                                                     'title' => $sPictureTitle,

@@ -1,6 +1,6 @@
 .widget.c-widget.c-widget-web-form {
-  padding-left: 50px;
-  padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
   background-color: #fafafa;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -23,8 +23,8 @@
   line-height: 32px;
   color: #2e3431;
   text-align: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .widget.c-widget.c-widget-web-form .web-form-name-decoration-item {
   width: 4px;
@@ -32,8 +32,8 @@
 }
 .widget.c-widget.c-widget-web-form .web-form-description-text {
   color: #262928;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 .widget.c-widget.c-widget-web-form .web-form-buttons {
   text-align: center;
@@ -44,7 +44,7 @@
 }
 @media all and (max-width: 1024px) {
   .widget.c-widget.c-widget-web-form {
-    padding: 40px 32px;
+    padding: 10px 8px;
   }
   .widget.c-widget.c-widget-web-form .web-form-name {
     max-width: none;

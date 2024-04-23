@@ -1454,7 +1454,7 @@ unset($arGroupingResult['html']);
 <?php if ($arParams['USE_CHART'] && $arResult['settings']['chart']['display']): ?>
 <style type="text/css">
 	#report-chart-legend-row-example {display: none;}
-	.report-chart-legend-container {margin-top: 20px;}
+	.report-chart-legend-container {margin-top: 10px;}
 	.report-chart-legend-container div {margin: 5px;}
 	.report-chart-legend-stick {display: inline-block; width: 45px; height: 2px; vertical-align: middle;}
 	.report-chart-legend-square {display: inline-block; width: 20px; height: 20px; vertical-align: middle;}

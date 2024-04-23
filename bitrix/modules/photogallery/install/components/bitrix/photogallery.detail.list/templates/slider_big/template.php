@@ -201,7 +201,7 @@ ob_start();
 		</div>
 		<div id="bx_slider_container">
 			<div id="bx_slider_content_item"></div>
-			<div id="bx_slider_nav" style="margin-top:20px;">
+			<div id="bx_slider_nav" style="margin-top:10px;">
 				<a href="#" id="bx_slider_nav_prev" hidefocus="true" onclick="if(player){player.step('prev');}return false;" style="display:none;"></a>
 				<a href="#" id="bx_slider_nav_next" hidefocus="true" onclick="if(player){player.step('next');}return false;" style="display:none;"></a>
 			</div>

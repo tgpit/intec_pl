@@ -1,0 +1,34 @@
+<?
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_PLUGIN_NAME'] = 'SATUKZ обмен черезAPI';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_PRODUCTS_ID_FIELD_NAME'] = 'Идентификатор или артикул (sku_code)';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_CONTACT_TITLE'] = 'Данные покупателя';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_CONTACT_BUYER_NAME'] = 'Имя покупателя';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_CONTACT_BUYER_PHONE'] = 'Телефон покупателя';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_STATUSES_UNKNOWN'] = 'Неизвестный статус';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_STATUSES_PENDING'] = 'Новый';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_STATUSES_RECEIVED'] = 'Принят в обработку';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_STATUSES_DELIVERED'] = 'Доставлен';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_STATUSES_CANCELED'] = 'Отменен';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_STATUSES_PAID'] = 'Оплачен';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_STATUSES_DRAFT'] = 'Проект';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_ORDER_ID'] = 'Номер заказа';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_CREATED_AT'] = 'Дата заказа';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_STATUS'] = 'Статус заказа';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_STATUS_NAME'] = 'Название статуса заказа';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_CLIENT_FIRST_NAME'] = 'Имя заказчика';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_CLIENT_LAST_NAME'] = 'Фамилия заказчика';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_CLIENT_SECOND_NAME'] = 'Отчество заказчика';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_CLIENT_FULL_NAME'] = 'ФИО заказчика';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_CLIENT_EMAIL'] = 'Email заказчика';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_CLIENT_PHONE'] = 'Телефон заказчика';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_CLIENT_DELIVERY_ADDRESS'] = 'Адрес доставки';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_FIELDS_CLIENT_NOTES'] = 'Примечание заказчика';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_SETTINGS_HEADING'] = 'Данные для подключения к площадке';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_SETTINGS_TOKEN_HINT'] = 'Токен авторизации';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_SETTINGS_TOKEN'] = 'Токен авторизации';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_SETTINGS_TOKEN_HELP'] = 'Для получения токена авторизации вам необходимо, будучи авторизованным на AliExpress под аккаунтом продавца, перейти по нижеследующей ссылке и выдать приложению "Интеграция с Битрикс24" требуемые разрешения. После этого вы будете перенаправлены на страницу с токеном. Скопируйте его и вставьте в поле "Токен авторизации".';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_SETTINGS_GET_TOKEN'] = 'Получить токен авторизации';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_SETTINGS_CHECK_TOKEN'] = 'Проверить подключение';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_CHECK_ERROR'] = 'Ошибка: ';
+$MESS['ACRIT_ORDERS_PLUGIN_SATUKZ_CHECK_SUCCESS'] = 'Успешно';
+?>

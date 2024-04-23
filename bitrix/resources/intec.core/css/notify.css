@@ -1,0 +1,379 @@
+.intec-notify {
+    padding: 24px 16px 16px 32px;
+    background-color: #ffffff;
+    border: 1px solid #c6cfd1;
+}
+.intec-notify .fragment-errors{
+    color: #da2222;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.intec-notify .fragment-description {
+    margin-bottom: 32px;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000000;
+}
+.intec-notify .fragment-items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 2px;
+}
+.intec-notify .fragment-item-picture {
+    width: 50px;
+    min-width: 50px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    background-image: url('../images/default.png');
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+}
+.intec-notify .fragment-item-picture[data-icon="bitrix"] {
+    background-image: url('../images/bitrix.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.universe"] {
+    background-image: url('../images/intec.universe.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.food"] {
+    background-image: url('../images/intec.food.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.matilda"] {
+    background-image: url('../images/intec.matilda.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.prom"] {
+    background-image: url('../images/intec.prom.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.digital"] {
+    background-image: url('../images/intec.digital.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.garderob"] {
+    background-image: url('../images/intec.garderob.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.universesite"] {
+    background-image: url('../images/intec.universesite.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.universelite"] {
+    background-image: url('../images/intec.universelite.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.core"] {
+    background-image: url('../images/intec.core.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.cabinet"] {
+    background-image: url('../images/intec.cabinet.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.seo"] {
+    background-image: url('../images/intec.seo.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.constructor"] {
+    background-image: url('../images/intec.constructor.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.regionality"] {
+    background-image: url('../images/intec.regionality.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.importexport"] {
+    background-image: url('../images/intec.importexport.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.ai"] {
+    background-image: url('../images/intec.ai.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.startshop"] {
+    background-image: url('../images/intec.startshop.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.basket"] {
+    background-image: url('../images/intec.basket.png');
+}
+.intec-notify .fragment-item-picture[data-icon="intec.chatbot"] {
+    background-image: url('../images/intec.chatbot.png');
+}
+.intec-notify .fragment-item {
+    display: flex;
+    align-items: center;
+    padding: 20px 80px 20px 32px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    background-color: #fafafa;
+}
+.intec-notify .fragment-item-picture {
+    margin-right: 34px;
+}
+.intec-notify .fragment-item-name {
+    margin-right: 80px;
+    flex-grow: 1;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #5e5e5e;
+}
+.intec-notify .fragment-item-date-from {
+    width: 110px;
+    min-width: 110px;
+    margin-right: 80px;
+}
+.intec-notify .fragment-item-days {
+    width: 100px;
+    min-width: 100px;
+    margin-right: 80px;
+}
+.intec-notify .fragment-item-licence {
+    width: 80px;
+    min-width: 80px;
+    margin-right: 80px;
+}
+.intec-notify .fragment-item-date-to {
+    width: 100px;
+    min-width: 110px;
+    margin-right: 80px;
+}
+.intec-notify .fragment-item-extend {
+    width: 110px;
+    min-width: 110px;
+    text-align: center;
+}
+.intec-notify .fragment-item-licence-state {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.intec-notify .fragment-item-licence-state .fragment-item-licence-state-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+.intec-notify .fragment-item-licence-state.active .fragment-item-licence-state-dot {
+    background-color: #1db940;
+}
+.intec-notify .fragment-item-licence-state.deactive .fragment-item-licence-state-dot {
+    background-color: #e0082f;
+}
+.intec-notify .fragment-item-extend-button {
+    padding: 15px 21px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: 0.3s background-color;
+}
+.intec-notify .fragment-item-extend-button.danger {
+    color: #ffffff;
+    background-color: #f21e44;
+}
+.intec-notify .fragment-item-extend-button.danger:hover,
+.intec-notify .fragment-item-extend-button.danger:active {
+    background-color: #ff3859;
+}
+.intec-notify .fragment-item-extend-button.danger:focus {
+    background-color: #e11a3e;
+}
+.intec-notify .fragment-item-extend-button.warning {
+    color: #000000;
+    background-color: #fecc08;
+}
+.intec-notify .fragment-item-extend-button.warning:hover,
+.intec-notify .fragment-item-extend-button.warning:active {
+    background-color: #ffd641;
+}
+.intec-notify .fragment-item-extend-button.warning:focus {
+    background-color: #e0ba32;
+}
+.intec-notify .fragment-item-extend-link {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+    color: #396298;
+    transition: 0.3s color;
+}
+.intec-notify .fragment-item-extend-link:hover,
+.intec-notify .fragment-item-extend-link:active {
+    color: #5182c2;
+}
+.intec-notify .fragment-item-extend-link:focus {
+    color: #2f5788;
+}
+.intec-notify .fragment-item-row-title {
+    margin-bottom: 8px;
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #5e5e5e;
+}
+.intec-notify .fragment-item-row-value {
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+/*banner*/
+.intec-banner-notify {
+    position: relative;
+}
+.intec-banner-notify .fragment-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 19px;
+    height: 19px;
+    opacity: 0.6;
+    cursor: pointer;
+    z-index: 10;
+    transition: 0.3s opacity;
+}
+.intec-banner-notify .fragment-close:before,
+.intec-banner-notify .fragment-close:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    height: 10px;
+    width: 2px;
+    background-color: #ffffff;
+}
+.intec-banner-notify .fragment-close:before {
+    transform: rotate(45deg);
+}
+.intec-banner-notify .fragment-close:after {
+    transform: rotate(-45deg);
+}
+
+.intec-banner-notify:hover .fragment-close {
+    opacity: 0.8;
+}
+.intec-banner-notify:hover .fragment-close:hover {
+    opacity: 1;
+}
+.intec-banner-notify .fragment-gear {
+    position: absolute;
+    display: block;
+    top: 7px;
+    right: 28px;
+    width: 16px;
+    height: 15px;
+    background-image: url('../images/gear.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    cursor: pointer;
+    z-index: 10;
+    transition: 0.3s opacity;
+}
+.intec-banner-notify:hover .fragment-gear {
+    opacity: 0.8;
+}
+.intec-banner-notify:hover .fragment-gear:hover {
+    opacity: 1;
+}
+.intec-banner-notify.hidden {
+    display: none;
+}
+.intec-banner-notify {
+    position: relative;
+    max-width: 1288px;
+    padding: 24px;
+    margin: 14px 0;
+    background: #000000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.intec-banner-notify .bx-gadgets-content .bx-gadgets-side:before {
+    left: 0;
+}
+.intec-banner-notify .bx-gadgets-content .bx-gadgets-side:after {
+    left: 5px;
+}
+.intec-banner-notify.bx-gadgets-colourful .bx-gadgets-content {
+    padding: 40px;
+    height:  fit-content;
+}
+.intec-banner-notify .bx-gadgets-content{
+    background: #000000;
+    color: white;
+}
+.intec-banner-notify .fragment {
+    display: flex;
+    min-height: 100%;
+    gap: 16px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.intec-banner-notify .fragment .fragment-content-wrapper {
+    position: relative;
+    z-index: 10;
+}
+.intec-banner-notify .fragment .fragment-button {
+    position: relative;
+    z-index: 10;
+}
+.intec-banner-notify .fragment .fragment-button a {
+    padding: 14px 37px;
+    color: #393939;
+    background-color: #fecc08;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: .35s all;
+}
+
+.intec-banner-notify .fragment .fragment-button a:focus,
+.intec-banner-notify .fragment .fragment-button a:hover {
+    background-color: #ffd641;
+}
+
+.intec-banner-notify .fragment .fragment-button a:active {
+    background-color: #e0ba32;
+}
+.intec-banner-notify .fragment .fragment-button.danger a {
+    color: #ffffff;
+    background-color: #f21e44;
+}
+.intec-banner-notify .fragment .fragment-button.danger a:focus,
+.intec-banner-notify .fragment .fragment-button.danger a:hover {
+    background-color: #ff3859;
+}
+.intec-banner-notify .fragment .fragment-button.danger a:active {
+    background-color: #e11a3e;
+}
+
+.intec-banner-notify .fragment .fragment-title {
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.intec-banner-notify .fragment .fragment-content {
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: 400;
+}
+.intec-banner-notify .fragment {
+    color: white;
+}
+.intec-banner-notify .fragment .fragment-lines {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    aspect-ratio: 224/135;
+    background: url("../images/line.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+}
+
+.intec-banner-notify .fragment-title .warning {
+    text-transform: uppercase;
+    color: #fecc08;
+}
+.intec-banner-notify .fragment-title .danger {
+    text-transform: uppercase;
+    color: #F21E44;
+}
+

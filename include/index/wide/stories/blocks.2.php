@@ -16,8 +16,8 @@ use intec\core\io\Path;
 
 ?>
 <?= Html::beginTag('div', ['style' => array (
-  'margin-top' => '60px',
-  'margin-bottom' => '60px',
+  'margin-top' => '12px',
+  'margin-bottom' => '12px',
 )]) ?>
 <?php $APPLICATION->IncludeComponent('intec.universe:main.stories', 'template.1', array (
   'IBLOCK_TYPE' => 'content',

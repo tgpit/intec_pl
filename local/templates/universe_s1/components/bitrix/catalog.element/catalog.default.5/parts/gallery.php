@@ -225,22 +225,24 @@ use Bitrix\Main\Localization\Loc;
         <?
 		if (!empty($arResult["PROPERTIES"]["VIDEO"]["VALUE"])) {
 			$cntvid = count($arResult["PROPERTIES"]["VIDEO"]["VALUE"]);
-			for($i = 0; $i < $cntvid; ++$i) {
-				$vidcod = $arResult["PROPERTIES"]["VIDEO"]["VALUE"][$i];
-				$vid = '';
-				$db_props = CIBlockElement::GetProperty(81,	$vidcod, Array(),	Array() );
-				if ($ar_props = $db_props->Fetch()) {
-					$vid = $ar_props['VALUE'];
-				}
-				$xi = 8 + $i * 48;
-				if (!empty($vid)){ 
+//			for($i = 0; $i < $cntvid; ++$i) {
+//				$vidcod = $arResult["PROPERTIES"]["VIDEO"]["VALUE"][$i];
+//				$vid = '';
+//				$db_props = CIBlockElement::GetProperty(81,	$vidcod, Array(),	Array() );
+//				if ($ar_props = $db_props->Fetch()) {
+//					$vid = $ar_props['VALUE'];
+//				}
+//				$xi = 8 + $i * 48;
+//				if (!empty($vid)){ 
+			if ($cntvid > 0) { $vid = '/video/'; $xi = 8;
 				?>
 	        <div style="position: absolute; z-index: 100; top: 8px; left: <?= $xi ?>px;">
-	            <a href="<?=$vid?>" target="_blank">
+<?//	            <a href="<?=$vid?->" target="_blank">?>
+					<a href="/video/" target="_blank">
 			        <img src="/images/play.png" width="48" height="48" alt="Видео на Youtube">
 	            </a>
 	        </div>
-        <? } } } ?>
+        <? } }// } ?>
         <?php if ($arVisual['GALLERY']['PREVIEW'] && $iCountPictures > 1) { ?>
             <div class="catalog-element-gallery-preview" data-role="gallery.preview">
                 <div class="catalog-element-gallery-preview-slider owl-carousel" data-role="gallery.preview.slider">

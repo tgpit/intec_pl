@@ -42,7 +42,7 @@ div.blog-comment-field-title {
 	display: none;}
 /* Message list */
 div#photo_comments {
-	margin-top:2em;}
+	margin-top:1em;}
 div.blog-line{
 	display: none;}
 table.blog-table-post-comment th{

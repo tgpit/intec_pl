@@ -17,8 +17,8 @@ use intec\core\io\Path;
 ?>
 <?= Html::beginTag('div', ['style' => array (
   'background-color' => '#f8f9fb',
-  'margin-top' => '50px',
-  'margin-bottom' => '50px',
+  'margin-top' => '10px',
+  'margin-bottom' => '10px',
 )]) ?>
 <?php $APPLICATION->IncludeComponent('intec.universe:main.faq', 'template.4', array (
   'IBLOCK_TYPE' => 'content',
